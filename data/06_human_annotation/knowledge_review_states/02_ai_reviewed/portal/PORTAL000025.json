@@ -1,0 +1,22 @@
+{
+  "id": "PORTAL000025",
+  "relevance_score": 82,
+  "knowledge_value": 75,
+  "category": "校园生活",
+  "subcategory": "校医院",
+  "content_type": "人物宣传",
+  "authority": "high",
+  "freshness": "possibly_outdated",
+  "time_sensitivity": "medium",
+  "contains_actionable_information": true,
+  "personal_data_risk": "none",
+  "possible_duplicate": true,
+  "possible_conflict": false,
+  "recommended_action": "review",
+  "reason": "包含校园公共服务或办事信息；Portal原文不外发，进入人工复核。",
+  "local_classification": "local_high_value_candidate",
+  "source_markdown_path": "knowledge/01_raw_portal/PORTAL000025_2025年度校级先进工作者——胡艳侠-清华大学医院.md",
+  "access_level": "campus_authenticated",
+  "source_mode": "authenticated_portal",
+  "dataset_origin": "portal"
+}

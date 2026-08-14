@@ -1,0 +1,21 @@
+{
+  "id": "THU000047",
+  "relevance_score": 82,
+  "knowledge_value": 79,
+  "category": "新生入校",
+  "subcategory": "本科特色培养项目介绍",
+  "content_type": "其他",
+  "authority": "high",
+  "freshness": "possibly_outdated",
+  "time_sensitivity": "low",
+  "contains_actionable_information": true,
+  "personal_data_risk": "none",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华官方本科特色项目介绍页，权威性高，适合校园知识库收录；内容主要为培养项目与书院信息，时效性一般且非强时效办事信息。",
+  "source_markdown_path": "knowledge/01_raw_public/THU000047_特色项目-清华大学.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "public"
+}

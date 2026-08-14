@@ -1,0 +1,22 @@
+{
+  "group": "B",
+  "status": "PASS",
+  "completed": 38,
+  "run_seconds": 782.7990491000237,
+  "output": "D:\\python_projects\\tsinghua_ai\\data_second\\answer_eval_v1\\results\\generation_b.jsonl",
+  "model": {
+    "model_name": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "quantization": "Q4_K_M",
+    "runtime": "llama-cpp-python 0.3.34 CPU",
+    "context_length": 6144,
+    "max_new_tokens": 128,
+    "temperature": 0.0,
+    "seed": 20260813,
+    "threads": 12,
+    "batch_threads": 16,
+    "prompt_batch_size": 2048,
+    "micro_batch_size": 512,
+    "repeat_penalty": 1.05
+  }
+}

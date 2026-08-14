@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "model_name": "BAAI/bge-reranker-base",
+  "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+  "load_seconds": 1.8816473999759182,
+  "weights_sha256": "ced967c45fd1902eb92716c9ceeca7c95a936770ea9db611f5a841b926e33fbd",
+  "candidate_count": 20,
+  "total_pipeline_latency": {
+    "avg_query_latency_ms": 7216.1325736914905,
+    "p50_query_latency_ms": 7254.614349920303,
+    "p95_query_latency_ms": 7975.611089984886,
+    "max_query_latency_ms": 8101.856600027531,
+    "peak_process_rss_mb": 1308.296875
+  },
+  "reranker_only_latency": {
+    "avg_query_latency_ms": 7195.022118406518,
+    "p50_query_latency_ms": 7230.7583499350585,
+    "p95_query_latency_ms": 7951.81042002514,
+    "max_query_latency_ms": 8077.782900072634,
+    "peak_process_rss_mb": 1308.296875
+  }
+}

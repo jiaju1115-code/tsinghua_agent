@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-08-13T13:08:36.593419+00:00",
+  "status": "PASS",
+  "source": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v0\\chunks\\chunks.jsonl",
+  "source_sha256": "de606ba34b6e599d1152c01a005931f27bb021a2c0000df845438f57afb7cdc1",
+  "v0_post_build_validation": "PASS",
+  "checks": {
+    "chunk_count_is_717": true,
+    "chunk_id_unique": true,
+    "chunk_id_order_matches_v0": true,
+    "source_id_present": true,
+    "title_present": true,
+    "category_present": true,
+    "url_preserved": true,
+    "original_file_traceable": true,
+    "text_nonempty": true,
+    "chunk_index_valid": true,
+    "chunk_text_hash_valid": true
+  },
+  "counts": {
+    "chunks": 717,
+    "unique_chunk_ids": 717,
+    "unique_source_ids": 238,
+    "urls_present": 717,
+    "original_files_traceable": 717
+  },
+  "errors": []
+}

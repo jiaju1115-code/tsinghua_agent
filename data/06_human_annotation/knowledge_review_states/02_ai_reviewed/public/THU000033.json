@@ -1,0 +1,21 @@
+{
+  "id": "THU000033",
+  "relevance_score": 48,
+  "knowledge_value": 22,
+  "category": "其他",
+  "subcategory": "国内合作部门介绍",
+  "content_type": "部门介绍",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "low",
+  "contains_actionable_information": true,
+  "personal_data_risk": "low",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华官网官方部门介绍页，可信度高；内容以国内合作概述和联系方式为主，适合校园知识库但办事指引信息较少。",
+  "source_markdown_path": "knowledge/01_raw_public/THU000033_国内合作-清华大学.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "public"
+}

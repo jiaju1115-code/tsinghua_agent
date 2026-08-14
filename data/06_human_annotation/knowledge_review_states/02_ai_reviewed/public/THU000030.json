@@ -1,0 +1,21 @@
+{
+  "id": "THU000030",
+  "relevance_score": 62,
+  "knowledge_value": 55,
+  "category": "其他",
+  "subcategory": "学术交流",
+  "content_type": "部门介绍",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "low",
+  "contains_actionable_information": false,
+  "personal_data_risk": "low",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华官网官方页面，属于学校学术交流与科研信息介绍，权威性高、风险低，可作为校园信息库收录。",
+  "source_markdown_path": "knowledge/01_raw_public/THU000030_学术交流-清华大学.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "public"
+}

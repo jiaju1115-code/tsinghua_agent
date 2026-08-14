@@ -1,0 +1,120 @@
+**国际学者个人所得税及申报指南**
+
+This guide is applicable to resident individuals who have a domicile in China or who have no domicile but have resided in China for a total of 183 days or more within a single tax year.
+
+The filing period for the annual tax refund on a consolidated basis for 2024 is from March 1 to June 30 in 2025.
+
+**Step 1 Download and Register**
+
+Download the “Individual Income Tax”（个人所得税）APP,
+
+![](/__local/D/6C/68/D857142A11F2C4F064E7F05C2B4_5C219532_352DC.png)
+
+APP Icon
+
+or scan the QR code below to install the official APP released by the State Taxation Administration:
+
+![](/__local/6/D0/6E/9E03212F234D3D76714E9999450_A8556D75_DCAF.jpg)
+
+To use the APP and register for the first time, please visit the tax office with the original copy of your passport and your work permit to collect the registration code.
+
+You may follow the steps below as a reference, as the APP does not have an English version.
+
+***Reminder:****The* *registration code is valid for 7 days. If you fail to register within this period, you can apply for the code again at the tax office. The former code will become invalid when a new one is issued.*
+
+*The login password must include at least three types of characters: upper and lower-case letters, numbers and special characters. The password must be 8 to 15 characters long, andspaces are not allowed.*
+
+![](/__local/B/6C/1F/DD004B39C6C50700015874D52CC_DA939B95_14B6B0.png)
+
+Below are the addresses for Tax Offices No. 1, No. 3 and No. 4 in Haidian District, for your reference:
+
+Ø No. 1 Tax Office, Beijing Municipal Tax Service, State Taxation administration
+
+国家税务总局北京市海淀区税务局第一税务所（中关村办税服务厅）
+
+Address: Zhongguancun Office, No. 9, Dongran North Street, Second Floor, Internet Finance Industrial Park
+
+地址：北京市海淀区东冉北街9号互联网金融产业园二层
+
+Tel: 010-88112366 (Tax Service Hotline 010-12366)
+
+The working hours: 9:00-12:00，下午13:30-17:30
+
+Ø No. 3 Tax Office, Beijing Municipal Tax Service, State Taxation administration
+
+国家税务总局北京市海淀区税务局第三税务所（联想桥办税服务厅）
+
+Address: Lianxiang Bridge Office, Haidian District Government Service Center, No. 5 Auxiliary Road of Zaojunmiao Road
+
+地址：北京市海淀区皂君庙路5号院内海淀区政务服务中心联想桥分中心
+
+Tel: 010-88112366 (Tax Service Hotline 010-12366)
+
+The working hours: 9:00-12:00，下午13:30-17:00
+
+Ø No. 4 Tax Office, Beijing Municipal Tax Service, State Taxation administration
+
+国家税务总局北京市海淀区税务局第四税务所（政务服务大厅）
+
+Address: First Floor, Haidian District Government Service Center, No.29 Dongbeiwang Nan Road
+
+地址：北京市海淀区东北旺南路甲29号海淀区政务服务中心一层
+
+Tel: 010-88112366 (Tax Service Hotline 010-12366)
+
+The working hours: 9:00-12:00，下午13:30-17:30
+
+**Step 2 Query Income and Tax Details**
+
+You can click on one of the income declarations for more details.
+
+|  |  |
+| --- | --- |
+|  |  |
+|  | |
+
+***Reminder:*** *The special additional deductions are included in the tax calculation process and will not be shown in the monthly data. You can check them under “Tax calculation – Accumulated income and deduction details – Accumulated special additional deductions".*
+
+*The tax calculation uses the cumulative tax calculation method, and the deduction details include the current period’s data. This information is based on the data declared by your employer. If you have any questions about the tax declaration, please contact your emploer’s  financial office.*
+
+![](/__local/4/CB/48/2190E3294D24050A89210E1CDAB_F807E7EF_22281.jpg)
+
+**Step 3 Query and Fill in Special Additional Deduction Information**
+
+Special additional deductions for individual income tax include 7 items: children’s education, continuing education, medical treatment for serious illness, housing loan interest, housing rent, supporting the elderly, and infant care, according to the Individual Income Tax Law.
+
+![](/__local/D/64/DE/43CACB93868B57DC694AAEFFC01_78F8E1E1_DDB4.jpg)
+
+**Step 4 Add Bank Card**
+
+You need to add bank card to the APP for the tax refund. Please click  on **【个人中心】-【银行卡】-【添加】**. Enter the details of your bank card and your mobile number.
+
+![](/__local/3/B6/D1/829385F2FD0DCE5CBFF0952E553_17A14FEA_4DD2.jpg)
+
+**Step 5 Start Filling**
+
+Enter**【综合所得年度汇算】**. You need to fill in your period of residence in China for the previous year. Select or confirm the settlement location, which is usually the location of the employer.
+
+![](/__local/5/3A/41/FF7356099606B7787254DE724C4_9AF9E9AB_E0CC.jpg)
+
+Verify the items under "income" and "expenses, tax-free income, and pre tax deductions".
+
+After confirming that there are no errors, click**【保存】**，and then click**【下一步】**.
+
+![](/__local/1/90/B3/4F33B918D5398CF8744B28662C9_63FAD99B_1C554.jpg)
+
+If you need to adjust the tax calculation method for the annual one-time bonus,
+
+click on**【工资薪金】-【奖金计税方式选择****】**to make adjustments.
+
+![](/__local/F/0F/CA/236D9F1E5218268AF6F03A69FEA_722EE016_1EF3FE.png)
+
+Enter the tax calculation interface, where based on the income and deduction data from the previous step, it displays the payable tax amount, reduced tax amount, and paid tax amount.
+
+According to the calculation results, the lower left corner will show either "payable tax amount" or "refundable tax amount". After confirming that there are no errors, click **【下一步】****.**
+
+![](/__local/4/22/0A/32CA15BCCC59A2C3D1B8E385BDE_0F0805F5_1CD187.png)
+
+If a tax refund is required, the system will redirect you to the successful declaration - tax refund page, where you can select the linked bank card.
+
+If you need to pay taxes, the system will redirect you to the successful declaration - tax payment page. Click**【立即缴税****】**to proceed with the payment.

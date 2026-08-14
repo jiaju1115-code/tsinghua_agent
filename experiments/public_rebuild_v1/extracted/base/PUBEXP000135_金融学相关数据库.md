@@ -1,0 +1,57 @@
+【1】[BvD系列数据库](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498934203966)：欧洲著名的全球金融与企业资信分析数据库电子提供商。BvD为各国政府金融监管部门、银行与金融机构、证券投资公司等提供国际金融与各国宏观经济走势分析等专业数据。本馆可使用的子库包括：
+
+1.[Bank Focus](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498929003966)全球银行与金融机构分析库
+
+2.[OSIRIS](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498907303966)全球上市公司分析库
+
+3.[Orbis Intellectual Property](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021903107603966)全球知识产权数据库
+
+4.[Orbis M&A](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021903107503966)全球并购交易分析库
+
+5.[ORBIS](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021702839003966)全球企业数据库
+
+【2】[RESSET锐思数据](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021774930303966)：为实证研究、模型检验等提供支持的数据平台，内容涵盖股票、固定收益、基金、宏观、行业、经济。本馆可使用的子库包括：
+
+1.[非上市公司](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021764092503966)
+
+2.[金融研究数据库](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021702838403966)
+
+3.[中国企业大数据平台](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021702838303966)
+
+4.[锐思高频数据库系统（基础版）](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498966403966)
+
+5.[锐思高频数据库系统（增强版）](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021896131503966)
+
+6.[上市公司财务报表分析系统](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021764092303966)
+
+7.[财经文本智能分析平台](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991022800306703966)
+
+【3】[巨灵财经资讯系统](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498911703966)：收录了近300种国内外财经报刊，信息涵盖国内财经金融报刊、主要行业报刊和港澳台新财经报刊，全国各大证券公司的研究报告和高校研究刊物等，涉及金融、证券、保险、财政、财务与会计、国民经济、国际贸易等专业领域。数据库现每天24小时实时更新。
+
+【4】[Gale Business：Insights商业与公司资源中心](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498931003966)：(Gale数据库子库)收录全球50万家公司及7万家行业协会的详细信息，包括公司的介绍性资料、产品和商标、价格、企业排名、投资报告、公司的历史记录和大事记等信息。
+
+【5】[威科先行财税信息库：](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991022011391603966)为财务、会计、税务相关专业人士设计，按主题划分为税务、财务审计、内控和风险管理、海关、金融、工商行政管理、企业上市、商贸法规、评估估价等主题板块及子版块。
+
+【6】[中宏数据库](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021905909603966)：由国家发改委所属的中国宏观经济学会、中国宏观经济信息网等权威机构联合研制，汇集我国经济学家思想学术成果、课题研究成果及各类经济信息的最大整合平台。本馆订购了3个子库。本馆可使用的子库包括：
+
+1.[非上市公司](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021764092503966)
+
+1.[产业研究平台](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498941303966):数据库包含了中国的十大支柱工业产业群，即能源、冶金、机械、汽车、电子、石化、轻工、纺织、医药、建材和五大服务业支柱产业群，即交通、房地产、信息、旅游、商贸。
+
+2.[区域比较分析系统](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498917503966)：是国内首创的城市综合发展比较分析平台，可以将一个城市在不同时期的发展情况进行纵向比较（绝对值比较、增速比较、百分比结构比较等）总结归纳城市未来的发展趋势；也可以将一个城市同其它城市（比如同省城市、同等级城市、同类型城市、同区域城市）的同一时期不同发展指标进行横向比较分析本市相对其它城市的发展优势和短板，其城市数据包括月(季)度数据和年度数据。
+
+3.[经济研究与应用平台](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498937503966)：数据库涵盖九十年代以来宏观经济、区域经济、产业经济、金融保险、投资消费、世界经济，政策法规，统计数字，研究报告等方面的内容。
+
+【7】[EPS数据平台](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498919303966)：收录国内外的经济、贸易、行业、科技领域的统计数据；利用内嵌的数据分析预测软件可完成对数据的分析和预测。
+
+【8】[全球案例发现系统](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498964103966)（Global Cases Discovery System，GCDS）：GCDS由工商管理专业类的《中国工商管理案例库》、《工商管理案例素材库》、《全球工商管理案例在线》以及公共管理专业类的《中国公共管理案例库》、《公共管理案例素材库》、《全球公共管理案例在线》等六个数据库组成，提供案例全文、案例素材和案例索引三种类型的文献数据
+
+【9】[ProQuest](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498967303966)：ProQuest Information and Learning公司通过ProQuest平台提供的六十多个文献数据库，包含文摘题录信息和部分全文。自2012年起，原剑桥科学文摘（Cambridge Scientific Abstracts，CSA）平台的数据库全部合并到ProQuest平台。这些数据库涉及商业经济、人文社会、医药学、生命科学、水科学与海洋学、环境科学、土木工程、计算机科学、材料科学等广泛领域，包含学位论文、期刊、报纸等多种文献类型，其中，商业信息经济系列数据库有如下两个，内容涵盖商业、金融、经济、管理等领域， 收录学术期刊、报纸、公司信息，其中多数文章有全文。本馆可使用的子库包括：
+
+1.[ABI/INFORM Collection](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498956503966)商业、经济管理学科全文文献数据库
+
+2.[Business Market Research Collection](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498956303966)
+
+此外，还有全球最大的博硕士论文数据库[ProQuest Dissertations & Theses Global](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021498956003966)（PQDT），及原CSA平台丰富的特色专业数据库。
+
+【10】[Wind金融终端](https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991021774929503966)：Wind资讯致力于为金融专业人士提供准确、及时、完整的财经资讯信息和交流平台。金融学院的老师和同学使用该数据库请联系图书馆老师（62773530）。

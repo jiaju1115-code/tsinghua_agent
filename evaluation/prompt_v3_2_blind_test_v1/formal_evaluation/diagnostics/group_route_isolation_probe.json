@@ -1,0 +1,51 @@
+{
+  "api_base": "https://momoapi.cc/v1",
+  "key_group": "new_group",
+  "target_model": "gpt-5.4-mini",
+  "started_at": "2026-08-13T11:30:41+08:00",
+  "phase_a": {
+    "auth": {
+      "success": true,
+      "http_status": 200,
+      "latency_seconds": 1.446,
+      "request_ids": {
+        "x-oneapi-request-id": "202608130330565809622978268d9d6G1D2e2zS",
+        "cf-ray": "a2a4a4daef73e7eb-SJC"
+      }
+    },
+    "models": {
+      "success": true,
+      "count": 0,
+      "response_structure_verified": true,
+      "data_type": "list",
+      "diagnostic_code": "NEW_GROUP_MODEL_NOT_AVAILABLE"
+    },
+    "gpt_5_4_mini_available": false
+  },
+  "target_model_probes": [],
+  "diagnostic_model": {
+    "executed": false,
+    "diagnostic_only": true,
+    "model": null,
+    "probes": []
+  },
+  "real_sample_probe": {
+    "status": "NOT_RUN"
+  },
+  "comparison": {
+    "old_group": {
+      "auth": "PASS",
+      "models": "PASS",
+      "gpt_5_4_mini_minimal_generation": "FAIL HTTP 504"
+    },
+    "new_group": {
+      "auth": "PASS",
+      "models": "PASS",
+      "gpt_5_4_mini_minimal_generation": "NOT_RUN"
+    }
+  },
+  "backend_identity": "BACKEND_IDENTITY_NOT_VERIFIABLE",
+  "ready_to_resume_blind_test": false,
+  "final_diagnostic_status": "INCONCLUSIVE",
+  "finished_at": "2026-08-13T11:30:42+08:00"
+}

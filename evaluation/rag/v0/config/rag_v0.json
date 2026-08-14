@@ -1,0 +1,21 @@
+{
+  "kb_name": "PROVISIONAL_KB_V0",
+  "public_manifest": "staging_public_baseline_v1/public_staging_manifest.xlsx",
+  "restricted_manifest": "restricted_expansion_v1/candidates/restricted_approved_candidates.xlsx",
+  "embedding": {
+    "backend": "sklearn_tfidf_char_ngram",
+    "analyzer": "char",
+    "ngram_range": [2, 4],
+    "max_features": 60000,
+    "sublinear_tf": true,
+    "norm": "l2"
+  },
+  "chunking": {
+    "max_chars": 800,
+    "overlap_chars": 120,
+    "min_chars": 80
+  },
+  "retrieval": {
+    "top_k": 5
+  }
+}

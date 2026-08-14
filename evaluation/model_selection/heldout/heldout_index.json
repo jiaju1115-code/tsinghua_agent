@@ -1,0 +1,102 @@
+[
+  {
+    "source_id": "STGPUB-0012",
+    "category": "教务与学籍",
+    "title": "学生转档-清华大学档案馆",
+    "url": "https://dag.tsinghua.edu.cn/ywzn/xszd.htm",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0012.md",
+    "content_hash": "e0992396d61a9632b13748b1fd57abccafc348dbb246bb49fa81939f232b6d3d",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  },
+  {
+    "source_id": "STGPUB-0070",
+    "category": "住宿服务",
+    "title": "后勤管理处",
+    "url": "https://www.tsinghua.edu.cn/qhdxzwzbgs/",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0070.md",
+    "content_hash": "3f74b4414b203b1288a97fbb5d644875ae5e1214c1db1d03e2cc9a3c81580a0c",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  },
+  {
+    "source_id": "STGPUB-0104",
+    "category": "网络与信息化",
+    "title": "校园网络运行",
+    "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/xywlyx.htm",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0104.md",
+    "content_hash": "44636a75879c0d4489d9106bb81b2cdc62766a723c4f37c132b53933eb1b20cd",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  },
+  {
+    "source_id": "STGPUB-0094",
+    "category": "医疗健康",
+    "title": "科研院",
+    "url": "http://www.rd.tsinghua.edu.cn/",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0094.md",
+    "content_hash": "e645fa2e8086631cfd104767e9f0ad6ff0fc7b60473978339875815b8acd2ec3",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  },
+  {
+    "source_id": "STGPUB-0139",
+    "category": "图书馆服务",
+    "title": "工程科技数字图书馆正式订购-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1076/6025.htm",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0139.md",
+    "content_hash": "832c4d4ce3b7a121614b59286c7e1d89c42ecf089eb040d01ec86de6289e630d",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  },
+  {
+    "source_id": "STGPUB-0163",
+    "category": "奖助与资助",
+    "title": "材料学院李千课题组合作在晶圆级钛酸钡薄膜外延制造领域取得进展",
+    "url": "https://www.tsinghua.edu.cn/info/1175/126806.htm",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0163.md",
+    "content_hash": "f535a857f82408b07e7398648195abbbb19d4184e6ddc0e7a6d01a135c516bb2",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  },
+  {
+    "source_id": "STGPUB-0180",
+    "category": "就业与职业发展",
+    "title": "Tax Policy",
+    "url": "https://www.is.tsinghua.edu.cn/sdfgsadf/TPR/Tax_Policy.htm",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0180.md",
+    "content_hash": "fbeb9d31f1b97d3ffb63b79628c8fde732738edd97912fcf07ad6d241f84b690",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  },
+  {
+    "source_id": "STGPUB-0078",
+    "category": "餐饮服务",
+    "title": "商贸与食品安全管理中心",
+    "url": "https://www.tsinghua.edu.cn/smzx/",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0078.md",
+    "content_hash": "96c0050280c3235f129d14382d9c229145ce70ed2ea1d2cac057145e98a36962",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  },
+  {
+    "source_id": "STGPUB-0080",
+    "category": "交通服务",
+    "title": "校史研究室 （党史研究室、校史馆）",
+    "url": "http://xsg.tsinghua.edu.cn/",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0080.md",
+    "content_hash": "9f72dd8bde5e6dd3c864f1aad129a5e744484b1fae6ff1a5e7b20dee75e649bb",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  },
+  {
+    "source_id": "STGPUB-0162",
+    "category": "体育与场馆",
+    "title": "综合体育馆 综合体育馆于2000年建成，总建筑面积 12547.85平米，总观众席位4502个，可满足国际比赛和现场电视转播的要求。为2001年第21届世界大学生运动会男子篮球比赛场馆，2008年...",
+    "url": "https://www.tsinghua.edu.cn/info/1360/1409.htm",
+    "content_file": "D:\\python_projects\\tsinghua_ai\\data_second\\staging_public_baseline_v1\\content\\STGPUB-0162.md",
+    "content_hash": "286fb1b3f5c0a47db2cd9498d4adcc9584b26033660f6610e6b97fd98ad96e50",
+    "selection_seed": 20260813,
+    "role": "base_model_benchmark_only__exclude_from_all_training_experiments"
+  }
+]

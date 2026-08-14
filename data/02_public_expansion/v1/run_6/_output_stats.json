@@ -1,0 +1,39 @@
+{
+  "actions": {
+    "approve": 153,
+    "reject": 115,
+    "review": 32
+  },
+  "categories": {
+    "网络与信息化": 14,
+    "校园基本信息": 10,
+    "图书馆服务": 175,
+    "非目标范围": 38,
+    "校园生活": 24,
+    "科研参与与资源导航": 36,
+    "学生事务": 3
+  },
+  "content_types": {
+    "organization_intro": 31,
+    "service_entry": 44,
+    "resource_directory": 93,
+    "current_notice": 29,
+    "news_event": 66,
+    "mixed": 24,
+    "faq": 2,
+    "procedure_guide": 5,
+    "promotional_content": 3,
+    "policy": 3
+  },
+  "domains": {
+    "www.itc.tsinghua.edu.cn": 23,
+    "lib.tsinghua.edu.cn": 263,
+    "peace.tsinghua.edu.cn": 14
+  },
+  "sample_actions": {
+    "approve": 10,
+    "review": 10,
+    "reject": 10
+  },
+  "conclusion": "PUBLIC_NEEDS_ADJUSTMENT"
+}

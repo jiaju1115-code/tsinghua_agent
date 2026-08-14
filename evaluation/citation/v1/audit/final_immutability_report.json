@@ -1,0 +1,262 @@
+{
+  "created_utc": "2026-08-14T01:27:25.363879+00:00",
+  "status": "PASS",
+  "invariants": {
+    "rag_v0_unchanged": true,
+    "rag_v1_unchanged": true,
+    "answer_eval_v0_unchanged": true,
+    "answer_eval_v1_unchanged": true,
+    "model_weights_unchanged": true,
+    "prompt_human_audit_production_and_all_other_external_files_unchanged": true,
+    "a_answers_exact_38_of_38": true,
+    "all_new_outputs_under_citation_pipeline_v1": true,
+    "workbook_is_valid_xlsx_container": true,
+    "workbook_formula_error_scan_zero": true
+  },
+  "critical_hashes": {
+    "rag_v0_chunks": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v0\\chunks\\chunks.jsonl",
+      "before_sha256": "de606ba34b6e599d1152c01a005931f27bb021a2c0000df845438f57afb7cdc1",
+      "after_sha256": "de606ba34b6e599d1152c01a005931f27bb021a2c0000df845438f57afb7cdc1",
+      "unchanged": true
+    },
+    "rag_v1_queries": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\evaluation\\eval_queries.jsonl",
+      "before_sha256": "a70e5da1d7f58a1e6a05242c1e0e157841007d4c1c1f329de8eaf41a3e0133c9",
+      "after_sha256": "a70e5da1d7f58a1e6a05242c1e0e157841007d4c1c1f329de8eaf41a3e0133c9",
+      "unchanged": true
+    },
+    "rag_v1_dense_results": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\evaluation\\results_dense.jsonl",
+      "before_sha256": "8cf79b966d0288734a609a651b48d4fae700ccd2f9c2adf5879cb671d5eb495e",
+      "after_sha256": "8cf79b966d0288734a609a651b48d4fae700ccd2f9c2adf5879cb671d5eb495e",
+      "unchanged": true
+    },
+    "rag_v1_dense_evidence": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\evaluation\\recommended_dense_evidence.jsonl",
+      "before_sha256": "bf96a2bad5bf1c06d0d974fab0a581e65b543ed8f1fc968a7456b5083bd90961",
+      "after_sha256": "bf96a2bad5bf1c06d0d974fab0a581e65b543ed8f1fc968a7456b5083bd90961",
+      "unchanged": true
+    },
+    "rag_v1_doc_embeddings": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\indexes\\dense\\document_embeddings.npy",
+      "before_sha256": "6fedbb90ebf69653a8ffd6f8a1381b6ab389fbb66fa1a5558853ed81770e8059",
+      "after_sha256": "6fedbb90ebf69653a8ffd6f8a1381b6ab389fbb66fa1a5558853ed81770e8059",
+      "unchanged": true
+    },
+    "rag_v1_row_mapping": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\indexes\\dense\\row_mapping.jsonl",
+      "before_sha256": "e1e42dd27962cd4c6b43af45ff5e64ccc30ab4a9ff01ef37dcc140867946904c",
+      "after_sha256": "e1e42dd27962cd4c6b43af45ff5e64ccc30ab4a9ff01ef37dcc140867946904c",
+      "unchanged": true
+    },
+    "rag_v1_dense_report": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\indexes\\dense\\index_report.json",
+      "before_sha256": "93e78a433060ef5713d98d8bde3ac94e34d2d231b7985d35fe87eefb7d12fdd4",
+      "after_sha256": "93e78a433060ef5713d98d8bde3ac94e34d2d231b7985d35fe87eefb7d12fdd4",
+      "unchanged": true
+    },
+    "ae0_answers": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\answer_eval_v0\\results\\answer_generation_results.jsonl",
+      "before_sha256": "d606b1fd322a21bcf12aa85332b640e8d492e5600fa7092301cf1e142fa0490e",
+      "after_sha256": "d606b1fd322a21bcf12aa85332b640e8d492e5600fa7092301cf1e142fa0490e",
+      "unchanged": true
+    },
+    "ae1_group_a": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\answer_eval_v1\\results\\generation_a.jsonl",
+      "before_sha256": "21ddc4359ae84f6a63c6def37c4e2bead5c380b3d4dad87c2edad638e6809725",
+      "after_sha256": "21ddc4359ae84f6a63c6def37c4e2bead5c380b3d4dad87c2edad638e6809725",
+      "unchanged": true
+    },
+    "ae1_group_b": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\answer_eval_v1\\results\\generation_b.jsonl",
+      "before_sha256": "f85606db900770dfb705462b8a8f98826a62b3d4774edadd757b0a7055e39616",
+      "after_sha256": "f85606db900770dfb705462b8a8f98826a62b3d4774edadd757b0a7055e39616",
+      "unchanged": true
+    },
+    "ae1_ab_metrics": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\answer_eval_v1\\results\\ab_metrics.json",
+      "before_sha256": "41a6e593e6ad6a99d0ec075ff5d6bc80a97fde07e038d959d90b4f17faeaf12b",
+      "after_sha256": "41a6e593e6ad6a99d0ec075ff5d6bc80a97fde07e038d959d90b4f17faeaf12b",
+      "unchanged": true
+    },
+    "bge_weights": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\indexes\\dense\\model\\model.safetensors",
+      "before_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+      "after_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+      "unchanged": true
+    }
+  },
+  "external_tree_comparison": {
+    "before_file_count": 59267,
+    "after_file_count": 59267,
+    "before_metadata_sha256": "42549f91d8a18bbbac554af79cad98616e0ef301ec8fa6f7ef13690ec258dd53",
+    "after_metadata_sha256": "42549f91d8a18bbbac554af79cad98616e0ef301ec8fa6f7ef13690ec258dd53",
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "output_file_count_excluding_runtime_junction_and_pycache": 31,
+  "output_files": [
+    {
+      "path": "README.md",
+      "size": 1168,
+      "sha256": "73055b11a778e2d8c8ba75bb702c87d3a226f04a077f212abcc74fbedbf9d941"
+    },
+    {
+      "path": "analysis/failure_cases.md",
+      "size": 8381,
+      "sha256": "6d9eda3066d751b6cbbdb2ce3e8fbd6eef982646954f0642d4886dc6b248711a"
+    },
+    {
+      "path": "analysis/unsupported_claims.md",
+      "size": 98223,
+      "sha256": "422a454987d3345b32f2b3f79e076a284a69e89703f2938c79b80b22aed7f723"
+    },
+    {
+      "path": "audit/input_freeze.json",
+      "size": 11398286,
+      "sha256": "7c3beff20e7157707dbcf3cea85636ef51d3796512ae8e5ceb503f5de1fa86ff"
+    },
+    {
+      "path": "citation_pipeline_v1_report.md",
+      "size": 4234,
+      "sha256": "2f76a088e476c1b0ea8bff106e0ff559444249d70120aa2ae43af6f12b43aa31"
+    },
+    {
+      "path": "config/citation_config.json",
+      "size": 1149,
+      "sha256": "3ed406b467ad977b9d2094f0ebaaa0658ef89de3f84082e0d013868184a6581f"
+    },
+    {
+      "path": "evaluation/a_vs_citation_pipeline_v1.xlsx",
+      "size": 17419,
+      "sha256": "9fede3dd3496683e8a47d5db4b1ae2f855fd547f204ef9b4cb0a50c41cc47f84"
+    },
+    {
+      "path": "evaluation/a_vs_citation_pipeline_v1.xlsx.inspect.ndjson",
+      "size": 257515,
+      "sha256": "c88f886b7b6bf6843a314af9d1f896bbd7bdb9c6adc3ff8644ba4a6fca782d32"
+    },
+    {
+      "path": "evaluation/workbook_data.json",
+      "size": 41976,
+      "sha256": "ac84c84d51f962019aae522456568441bd629021b13d5ed175824346f8fabb84"
+    },
+    {
+      "path": "logs/workbook_qa/comparison.png",
+      "size": 246498,
+      "sha256": "64d3897c466c1c676c9c79b15dc56065da21b4866283f61acaf2a90dc4fa7a03"
+    },
+    {
+      "path": "logs/workbook_qa/human_lists.png",
+      "size": 15570,
+      "sha256": "50e6491a2b72a77b2cc1c9a000d994a15b14373fdefb15adf0f0becb55d35c22"
+    },
+    {
+      "path": "logs/workbook_qa/metric_source.png",
+      "size": 23683,
+      "sha256": "9fee3964472ef70ee82674630a0b3b20d3ff1d3d08de20b8772bec1186a18e70"
+    },
+    {
+      "path": "logs/workbook_qa/summary.png",
+      "size": 74093,
+      "sha256": "ba17bc5dde88a2dd69932109ff7e7ca07521c6fba6d63ee36c7a2975a9da7784"
+    },
+    {
+      "path": "logs/workbook_qa/thresholds.png",
+      "size": 33672,
+      "sha256": "cbe1693e8862e21c4ec7e821843983e0f4e1b1f8b9601dd0238373fa3a081aae"
+    },
+    {
+      "path": "logs/workbook_qa/workbook.formula_errors.ndjson",
+      "size": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+    },
+    {
+      "path": "logs/workbook_qa/workbook.inspect.ndjson",
+      "size": 22111,
+      "sha256": "cc0fc76a90d5bbc1d94550fd2c8d7379d40a77330fa4e8e7d459406b79655cac"
+    },
+    {
+      "path": "results/citation_assignments.jsonl",
+      "size": 5684,
+      "sha256": "38e5173aa432752c443b4e6ccc74ad279f3eafded60f11a3e8b1919b5d980856"
+    },
+    {
+      "path": "results/citation_metrics.json",
+      "size": 1191,
+      "sha256": "eaf78eff778bfb0007e794812534e664d47b6cb7f590b654bd8f88c0360b08f6"
+    },
+    {
+      "path": "results/claim_embedding_rows.jsonl",
+      "size": 11366,
+      "sha256": "bfa0556941431ab0ca59d80e503f3c3616f75c633576ef6ab6d2092b673e3987"
+    },
+    {
+      "path": "results/claim_embeddings.npy",
+      "size": 245888,
+      "sha256": "2ab812a2571d95744b05c68d384443af8d07331950d53ea3e66d0edd8958558e"
+    },
+    {
+      "path": "results/claim_evidence_mapping.jsonl",
+      "size": 458804,
+      "sha256": "9986e529ae6781ad0fad675458d92f5a5dc5bb354655d14c955a2144b1076928"
+    },
+    {
+      "path": "results/claims.jsonl",
+      "size": 37906,
+      "sha256": "69b82a61c50fc88ccff46eb8a2599b55d21bad45d0425f970ee9e8c3ff4b8222"
+    },
+    {
+      "path": "results/claims_classified.jsonl",
+      "size": 109346,
+      "sha256": "280bcfb6870c3aff70724830ffb64b19d436cc43d56ccd6d6f875f7e8704fa38"
+    },
+    {
+      "path": "results/per_question_results.jsonl",
+      "size": 46909,
+      "sha256": "7eb3a63faca0b0ca9e87c2884eafa0d7f4b5536cbbeeb324147b4c8474caf8e9"
+    },
+    {
+      "path": "results/threshold_analysis.json",
+      "size": 1692,
+      "sha256": "f55cd0cf9817e3df8cafdccd69617ece5b77cbf14706920846482d483b952d8b"
+    },
+    {
+      "path": "results/unsupported_attribution.jsonl",
+      "size": 138152,
+      "sha256": "614b09f42d6332af4f6c9012220f18bb1e1cdc680c7ddcdba64899c4ded45de8"
+    },
+    {
+      "path": "scripts/build_reports.py",
+      "size": 14163,
+      "sha256": "61578923e858b94c8037b4a58f4a5212ffb3553299677145ee1f328de269dbb4"
+    },
+    {
+      "path": "scripts/build_workbook.mjs",
+      "size": 8468,
+      "sha256": "d1d5df9980d82d709034931aa5ca3b3edc6d2dbfe4e8f7894b28c2293a20f85b"
+    },
+    {
+      "path": "scripts/final_audit.py",
+      "size": 5213,
+      "sha256": "2fa3e35d6ee202e457ddd60aa33298f31ca193398aac9f5686da166a302c3010"
+    },
+    {
+      "path": "scripts/freeze_inputs.py",
+      "size": 3635,
+      "sha256": "28ab4c2023a8aee7fcbc7c6bf6b2c8d741cd8585f3718e4788cfa08fa1cb513f"
+    },
+    {
+      "path": "scripts/run_pipeline.py",
+      "size": 19430,
+      "sha256": "62f67ed7f4b2577fedaea56e1483338f9f91a85cadbce642302e25a6108fb4f0"
+    }
+  ],
+  "notes": [
+    "Human fields were checked blank by artifact-tool XLSX round-trip during workbook creation.",
+    "Human-validated citation correctness remains N/A.",
+    "No generation model was called and no model was trained."
+  ]
+}

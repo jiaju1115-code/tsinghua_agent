@@ -1,0 +1,22 @@
+{
+  "id": "PORTAL000023",
+  "relevance_score": 25,
+  "knowledge_value": 15,
+  "category": "校园生活",
+  "subcategory": "校医院",
+  "content_type": "活动通知",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "high",
+  "contains_actionable_information": false,
+  "personal_data_risk": "none",
+  "possible_duplicate": true,
+  "possible_conflict": false,
+  "recommended_action": "reject",
+  "reason": "明确属于低价值人物/科研/活动宣传候选，建议人工确认后排除。",
+  "local_classification": "local_reject_candidate",
+  "source_markdown_path": "knowledge/01_raw_portal/PORTAL000023_清华大学医院联合本草小象开展大暑顺时养生主题活动-清华大学医院.md",
+  "access_level": "campus_authenticated",
+  "source_mode": "authenticated_portal",
+  "dataset_origin": "portal"
+}

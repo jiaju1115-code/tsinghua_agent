@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "http_status": 200,
+  "final_url": "https://lib.tsinghua.edu.cn/gk/zzjg.htm",
+  "content_type": "text/html",
+  "bytes": 42200,
+  "error": "",
+  "crawl_time": "2026-08-12T22:02:36+08:00"
+}

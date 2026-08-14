@@ -1,0 +1,21 @@
+{
+  "id": "THU000074",
+  "relevance_score": 72,
+  "knowledge_value": 58,
+  "category": "其他",
+  "subcategory": "国际会议/学术活动",
+  "content_type": "科研信息",
+  "authority": "high",
+  "freshness": "possibly_outdated",
+  "time_sensitivity": "low",
+  "contains_actionable_information": true,
+  "personal_data_risk": "none",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华官网官方学术活动信息页，适合校园知识库；内容偏介绍性且含联系方式，但时间信息较旧。",
+  "source_markdown_path": "knowledge/01_raw_public/THU000074_国际会议-清华大学.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "public"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "THU000036",
+  "relevance_score": 88,
+  "knowledge_value": 74,
+  "category": "校园生活",
+  "subcategory": "学生活动-讲座论坛",
+  "content_type": "部门介绍",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "low",
+  "contains_actionable_information": true,
+  "personal_data_risk": "none",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华官网官方页面，介绍校内学生活动与讲座论坛品牌，适合校园生活知识库。",
+  "source_markdown_path": "knowledge/01_raw_public/THU000036_学生活动-清华大学.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "public"
+}

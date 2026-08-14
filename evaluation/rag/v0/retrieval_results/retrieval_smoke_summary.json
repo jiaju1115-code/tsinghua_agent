@@ -1,0 +1,8 @@
+{
+  "test_count": 10,
+  "top_k": 5,
+  "keyword_hit_at_k_count": 10,
+  "category_hit_at_k_count": 9,
+  "mean_latency_seconds": 0.001,
+  "note": "These are deterministic heuristic smoke indicators, not human relevance judgments."
+}

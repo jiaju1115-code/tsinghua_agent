@@ -1,0 +1,53 @@
+{
+  "input_quality_gate_pass": 165,
+  "final_audit_count": 165,
+  "final_pool_internal_dedup": 0,
+  "actions": {
+    "approve": 154,
+    "review": 8,
+    "reject": 3
+  },
+  "categories": {
+    "住宿服务": 12,
+    "教务与学籍": 63,
+    "体育与场馆": 5,
+    "医疗健康": 13,
+    "学生事务": 4,
+    "国际事务与签证": 12,
+    "就业与职业发展": 7,
+    "交通服务": 3,
+    "网络与信息化": 7,
+    "非目标范围": 2,
+    "教学与培养": 12,
+    "奖助与资助": 4,
+    "校园机构与部门": 6,
+    "科研参与与资源导航": 9,
+    "校园文化与历史": 4,
+    "餐饮服务": 2
+  },
+  "domains": {
+    "www.tsinghua.edu.cn": 84,
+    "www.thsports.tsinghua.edu.cn": 4,
+    "www.med.tsinghua.edu.cn": 9,
+    "www.is.tsinghua.edu.cn": 16,
+    "dag.tsinghua.edu.cn": 2,
+    "student.tsinghua.edu.cn": 1,
+    "career.cic.tsinghua.edu.cn": 1,
+    "career.tsinghua.edu.cn": 5,
+    "learning.tsinghua.edu.cn": 2,
+    "qzc.tsinghua.edu.cn": 22,
+    "www.wyc.tsinghua.edu.cn": 5,
+    "www.itc.tsinghua.edu.cn": 1,
+    "www.jgb.tsinghua.edu.cn": 1,
+    "www.rd.tsinghua.edu.cn": 1,
+    "www.sysc.tsinghua.edu.cn": 1,
+    "www.tyzx.tsinghua.edu.cn": 1,
+    "xsg.tsinghua.edu.cn": 1,
+    "xyy.tsinghua.edu.cn": 1,
+    "zkzx.tsinghua.edu.cn": 1,
+    "tsimf.tsinghua.edu.cn": 1,
+    "ac.tsinghua.edu.cn": 5
+  },
+  "low_plus_approve": 0,
+  "prompt_sha256": "b94623c520fc46d83a49a4d043ad182646e7a881e7e1751e3e98e98724d771cd"
+}

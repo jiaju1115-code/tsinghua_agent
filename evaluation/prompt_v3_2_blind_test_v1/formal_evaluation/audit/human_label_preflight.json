@@ -1,0 +1,22 @@
+{
+  "input": "D:/python_projects/tsinghua_ai/data_second/prompt_v3_2_blind_test_v1/human_label/blind_test_v1_human_label.xlsx",
+  "sha256": "EC1E846091532205A04480320A4A4572D99526F58FE8A9037390BED4BC502CA6",
+  "sheetInfo": "{\"kind\":\"sheet\",\"id\":\"ws/6p0dbb\",\"name\":\"人工标注\",\"index\":0,\"range\":\"A1:Q53\",\"address\":\"A1:Q53\"}",
+  "usedRows": 53,
+  "usedColumns": 17,
+  "headerRow1Based": 3,
+  "dataRows": 50,
+  "manifestRows": 50,
+  "idSetMatchesManifest": true,
+  "actionValidCount": 50,
+  "actionMissingOrIllegalCount": 0,
+  "topicValidNonblankCount": 50,
+  "topicMissingOrIllegalCount": 0,
+  "rejectTypeValidNonblankCount": 22,
+  "rejectTypeIllegalCount": 28,
+  "actionDistribution": {
+    "reject": 22,
+    "approve": 27,
+    "review": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "action": "approve",
+  "reject_type": "",
+  "category": "图书馆服务",
+  "content_type": "service_entry",
+  "audience": "清华师生及校内读者",
+  "time_status": "evergreen",
+  "candidate_user_question": "清华大学图书馆的图书借还服务是什么？",
+  "positive_evidence": "页面标题为“图书借还-清华大学图书馆”，URL 归属清华大学图书馆站点（lib.tsinghua.edu.cn），主体明确指向清华图书馆的图书借还服务。",
+  "negative_evidence": "正文抽取内容以模板占位符和“未搜索到结果”等无关文本为主，具体借还规则未完整呈现。",
+  "possible_duplicate": false,
+  "reason": "页面主体属于清华大学图书馆的长期服务条目“图书借还”，属于可复用的校园服务知识，尽管抽取正文质量较差，但不影响其作为图书馆服务信息入库。"
+}

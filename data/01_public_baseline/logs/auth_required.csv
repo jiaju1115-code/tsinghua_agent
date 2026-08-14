@@ -1,0 +1,4 @@
+﻿url,final_url,detected_reason,timestamp
+http://info.tsinghua.edu.cn/,https://id.tsinghua.edu.cn/do/off/ui/auth/login/form/20843963f89b3072788f7fe75a5d9322/0?%2Fthu-oauth%2Fcallback%3Fsig=98226701d191a7ae41e3e0d1d41b21c237b2273c1c05854943969ca2f4282ef9d141319f9bc20f2cc17aac6952215045a78b657fe40c775f4dbb23c2399c8c3d71f4ce74b8211fcb4849bacd24f4c0df1108b400333d130be992d1870f851097451f74faab9e5e660fc158a2c4b7d36b15a5fd43ca2bbfcf26045fe40c142ee38b15b2044e0906d5df1e4bfb8008d8fc54738cfc5ecb915e3c111e0fd54f0203987bf949080b833bb4cbb380c133178db8db720159b5017cc3b45a2d5b9220e5,login_required,2026-08-09T18:36:33+08:00
+https://its.tsinghua.edu.cn/,https://id.tsinghua.edu.cn/do/off/ui/auth/login/form/fcdb76644228e946ce4cbed84d141a38/0?%2Fsystem%2Fresource%2Fcode%2Fauth%2Fcas%2Fclogin.jsp=,login_required,2026-08-09T19:19:26+08:00
+http://career.tsinghua.edu.cn/,https://career.tsinghua.edu.cn/,login_required,2026-08-09T19:20:50+08:00

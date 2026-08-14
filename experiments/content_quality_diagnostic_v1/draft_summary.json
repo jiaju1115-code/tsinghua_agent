@@ -1,0 +1,66 @@
+{
+  "count": 300,
+  "classes": {
+    "detail_content": 62,
+    "list_page": 105,
+    "content_missing": 106,
+    "navigation_only": 14,
+    "template_polluted": 7,
+    "thin_content": 4,
+    "mixed_or_uncertain": 2
+  },
+  "actions": {
+    "approve": 153,
+    "reject": 115,
+    "review": 32
+  },
+  "cross": {
+    "approve": {
+      "detail_content": 37,
+      "list_page": 71,
+      "content_missing": 27,
+      "navigation_only": 11,
+      "thin_content": 3,
+      "mixed_or_uncertain": 2,
+      "template_polluted": 2
+    },
+    "review": {
+      "content_missing": 24,
+      "list_page": 5,
+      "thin_content": 1,
+      "template_polluted": 2
+    },
+    "reject": {
+      "detail_content": 25,
+      "content_missing": 55,
+      "list_page": 29,
+      "navigation_only": 3,
+      "template_polluted": 3
+    }
+  },
+  "domains": {
+    "lib.tsinghua.edu.cn": {
+      "total": 263,
+      "list_page": 97,
+      "detail_content": 43,
+      "content_missing": 104,
+      "navigation_only": 6,
+      "template_polluted": 7,
+      "thin_content": 4,
+      "mixed_or_uncertain": 2
+    },
+    "peace.tsinghua.edu.cn": {
+      "total": 14,
+      "detail_content": 3,
+      "navigation_only": 5,
+      "list_page": 6
+    },
+    "www.itc.tsinghua.edu.cn": {
+      "total": 23,
+      "detail_content": 16,
+      "navigation_only": 3,
+      "content_missing": 2,
+      "list_page": 2
+    }
+  }
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "blind_id": "BLINDV1-001",
+    "title": "清华大学图书馆应邀出席第89届世界图书馆与信息大会-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-002",
+    "title": "CNRDS中国研究数据服务平台正式订购-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-003",
+    "title": "上海书画出版社三个数据库再次开通试用（2026年5月11日-2026年12月31日）-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-004",
+    "title": "特色活动-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-005",
+    "title": "岗位申请-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-006",
+    "title": "历史沿革-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-007",
+    "title": "MDPI（多学科数字出版机构）开放获取（OA）政策-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-008",
+    "title": "常见问题（FAQ）",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-009",
+    "title": "资讯动态-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-010",
+    "title": "大事年表-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-011",
+    "title": "图书馆报告厅-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-012",
+    "title": "清华大学图书馆参与研制的开放获取期刊遴选评价体系成果正式发表-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-013",
+    "title": "清华大学图书馆主办新刊 |《智慧图书馆（英文）》——创刊号全球征稿-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-014",
+    "title": "清华大学图书馆音乐讲堂启用仪式暨石叔诚音乐讲座“黄河”圆满举行-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-015",
+    "title": "SCOAP³（高能物理开放获取出版资助联盟）开放获取（OA）政策-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-016",
+    "title": "国际水协会（IWA）开放获取（OA）政策-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-017",
+    "title": "历任队委-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-018",
+    "title": "清华大学法律图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-019",
+    "title": "Library Privilege Opening-Tsinghua University Library",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-020",
+    "title": "Call for Papers of iLibrary-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-021",
+    "title": "Frontiers发布出版行业首份AI实践指南：为科研出版构建负责任 AI 应用路线图-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-022",
+    "title": "信息化技术中心、网络研究院开展端午节前安全检查",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-023",
+    "title": "教学资源开发",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-024",
+    "title": "用户服务",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-025",
+    "title": "部门职能",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-026",
+    "title": "EMS Press推出“Launch to Open”透明开放获取新模式，助力老牌期刊向社区主导出版转型-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-027",
+    "title": "报告鉴读 | 不只是“开放”，开放科学如何成为经济引擎-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-028",
+    "title": "图书馆窦天芳当选国际图书馆联合会专业咨询委员会委员-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-029",
+    "title": "我校“水木开卷·真人图书馆”读书活动荣获北京市“青阅领读”先锋称号-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-030",
+    "title": "喜报 | 图书馆中文主页荣获清华大学第三届校园网络文化节优秀网站奖-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-031",
+    "title": "校领导调研图书馆-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-032",
+    "title": "领导关怀",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-033",
+    "title": "清华大学图书馆与泰国朱拉隆功大学图书馆签署合作备忘-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-034",
+    "title": "服务国家开放创新战略：Frontiers、NSFC科学传播与成果转化中心、CEPIEC 达成战略合作-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-035",
+    "title": "校园网络运行",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-036",
+    "title": "借阅导引",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-037",
+    "title": "开馆时间-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-038",
+    "title": "信息系统运行",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-039",
+    "title": "尚唯军用标准信息服务平台正式订购-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-040",
+    "title": "iLibrary简介-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-041",
+    "title": "中国建筑数字图书馆正式订购-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-042",
+    "title": "科室职能",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-043",
+    "title": "失物招领",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-044",
+    "title": "学位论文服务系统临时停用通知-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-045",
+    "title": "活动报名 | 数字素养工作坊第7期：Web of Science AI工具专场-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-046",
+    "title": "关于美术图书馆闭馆维修期间暂停读者服务的通知-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-047",
+    "title": "期刊编辑进校园——Science专场活动在图书馆举办-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-048",
+    "title": "中心简介",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-049",
+    "title": "馆长致辞-清华大学图书馆",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  },
+  {
+    "blind_id": "BLINDV1-050",
+    "title": "专题专架",
+    "error": "HTTPSConnectionPool(host='momoapi.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='momoapi.cc', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\"))"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "qualified": 217,
+  "excluded": 30,
+  "candidate_pool": 187,
+  "random_seed": 20260813,
+  "random_count": 25,
+  "random_domain_quotas": {
+    "lib.tsinghua.edu.cn": 21,
+    "www.itc.tsinghua.edu.cn": 3,
+    "peace.tsinghua.edu.cn": 1
+  },
+  "random_domains": {
+    "lib.tsinghua.edu.cn": 21,
+    "www.itc.tsinghua.edu.cn": 3,
+    "peace.tsinghua.edu.cn": 1
+  },
+  "random_categories": {
+    "非目标范围": 7,
+    "科研参与与资源导航": 5,
+    "图书馆服务": 5,
+    "校园生活": 4,
+    "学生事务": 1,
+    "校园基本信息": 2,
+    "网络与信息化": 1
+  },
+  "random_content_types": {
+    "news_event": 3,
+    "resource_directory": 2,
+    "current_notice": 2,
+    "promotional_content": 2,
+    "procedure_guide": 2,
+    "organization_intro": 4,
+    "policy": 2,
+    "faq": 1,
+    "mixed": 2,
+    "achievement_report": 1,
+    "service_entry": 2,
+    "research_news": 2
+  },
+  "exclusion_ids_sha256": "07cea6e296abb29d21e8ff2a6b01bb6b2f0bb04a93f26bac38b4c1e75f7fdee8"
+}

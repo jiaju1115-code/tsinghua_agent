@@ -1,0 +1,135 @@
+[
+  {
+    "category": "清华基本信息",
+    "priority": "P2",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 15
+  },
+  {
+    "category": "教务与学籍",
+    "priority": "P0",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 40
+  },
+  {
+    "category": "学生事务",
+    "priority": "P0",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 40
+  },
+  {
+    "category": "住宿服务",
+    "priority": "P0",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 40
+  },
+  {
+    "category": "餐饮服务",
+    "priority": "P0",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 40
+  },
+  {
+    "category": "交通服务",
+    "priority": "P0",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 40
+  },
+  {
+    "category": "医疗健康",
+    "priority": "P0",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 40
+  },
+  {
+    "category": "网络与信息化",
+    "priority": "P1",
+    "current_approve": 8,
+    "gap_status": "HIGH",
+    "suggested_v2_target": 25
+  },
+  {
+    "category": "图书馆服务",
+    "priority": "P2",
+    "current_approve": 48,
+    "gap_status": "COVERED",
+    "suggested_v2_target": 15
+  },
+  {
+    "category": "体育与场馆",
+    "priority": "P1",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 25
+  },
+  {
+    "category": "奖助与资助",
+    "priority": "P0",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 40
+  },
+  {
+    "category": "国际事务与签证",
+    "priority": "P1",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 25
+  },
+  {
+    "category": "就业与职业发展",
+    "priority": "P0",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 40
+  },
+  {
+    "category": "校园访问",
+    "priority": "P1",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 25
+  },
+  {
+    "category": "校园综合服务",
+    "priority": "P1",
+    "current_approve": 0,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 25
+  },
+  {
+    "category": "科研参与与资源导航",
+    "priority": "P2",
+    "current_approve": 17,
+    "gap_status": "MODERATE",
+    "suggested_v2_target": 15
+  },
+  {
+    "category": "教学与培养",
+    "priority": "P1",
+    "current_approve": 2,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 25
+  },
+  {
+    "category": "校园机构与部门",
+    "priority": "P2",
+    "current_approve": 4,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 15
+  },
+  {
+    "category": "校园文化与历史",
+    "priority": "P2",
+    "current_approve": 2,
+    "gap_status": "CRITICAL",
+    "suggested_v2_target": 15
+  }
+]

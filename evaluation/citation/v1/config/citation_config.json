@@ -1,0 +1,35 @@
+{
+  "experiment_name": "CITATION_PIPELINE_V1",
+  "inputs": {
+    "questions": 38,
+    "baseline_group": "answer_eval_v1 A",
+    "top_k": 5,
+    "retrieval_expansion": false,
+    "answer_regeneration": false
+  },
+  "embedding": {
+    "model_name": "BAAI/bge-small-zh-v1.5",
+    "revision": "7999e1d3359715c523056ef9478215996d62a620",
+    "dimension": 512,
+    "batch_size": 16,
+    "max_length": 512,
+    "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+    "pooling": "CLS last_hidden_state[:,0]",
+    "normalization": "L2"
+  },
+  "thresholds": {
+    "main_supported": 0.75,
+    "main_partial": 0.68,
+    "sensitivity": [0.60, 0.65, 0.70, 0.75, 0.80],
+    "selection_rule": "Predeclared conservative threshold 0.75 for SUPPORTED and 0.68 for PARTIALLY_SUPPORTED; do not select based on best observed metrics."
+  },
+  "rules": {
+    "numeric_exact_required": true,
+    "temporal_exact_required": true,
+    "entity_surface_or_alias_required": true,
+    "procedural_relation_required": true,
+    "known_source_quality_failure_question_ids": ["RET-09", "PROV-009"]
+  },
+  "evaluation_status": "PROVISIONAL_AUTO_EVAL"
+}
+

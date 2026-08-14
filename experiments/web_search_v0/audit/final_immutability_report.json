@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "protected_paths": ["data_first", "data_second/rag_v1", "data_second/answer_eval_v0", "data_second/answer_eval_v1", "data_second/citation_pipeline_v1", "data_second/citation_pipeline_v2", "production"],
+  "web_search_v0_root": "D:/python_projects/tsinghua_ai/web_search_v0",
+  "finding": "New V0 artifacts and live retrieval records are isolated under web_search_v0. A targeted Git diff found no changes in the listed protected paths.",
+  "live_evaluation": {"formal_questions_completed": 30, "formal_api_request_count": 59, "key_value_recorded": false}
+}

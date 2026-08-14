@@ -1,0 +1,45 @@
+{
+  "seed_count": 31,
+  "seed_fetch_ok": 30,
+  "discovered_unique_before_history": 122,
+  "historical_dedup": 17,
+  "selected_urls": 105,
+  "fetch_ok": 105,
+  "quality_gate_pass": 44,
+  "quality_classes": {
+    "detail_content": 36,
+    "extraction_failed": 14,
+    "template_polluted": 9,
+    "navigation_only": 3,
+    "thin_content": 1,
+    "list_page": 22,
+    "private_or_sensitive": 3,
+    "soft_404": 1,
+    "login_required": 16
+  },
+  "internal_dedup": 2,
+  "by_category": {
+    "交通服务": 1,
+    "住宿服务": 5,
+    "体育与场馆": 1,
+    "医疗健康": 8,
+    "国际事务与签证": 1,
+    "奖助与资助": 10,
+    "学生事务": 4,
+    "就业与职业发展": 4,
+    "教务与学籍": 5,
+    "教学与培养": 1,
+    "餐饮服务": 4
+  },
+  "by_domain": {
+    "www.tsinghua.edu.cn": 26,
+    "www.thsports.tsinghua.edu.cn": 1,
+    "www.med.tsinghua.edu.cn": 8,
+    "www.is.tsinghua.edu.cn": 1,
+    "dag.tsinghua.edu.cn": 2,
+    "student.tsinghua.edu.cn": 1,
+    "career.cic.tsinghua.edu.cn": 1,
+    "career.tsinghua.edu.cn": 3,
+    "learning.tsinghua.edu.cn": 1
+  }
+}

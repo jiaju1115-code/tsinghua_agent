@@ -1,0 +1,21 @@
+{
+  "id": "THU000055",
+  "relevance_score": 58,
+  "knowledge_value": 62,
+  "category": "校园生活",
+  "subcategory": "在线教育发展概况",
+  "content_type": "其他",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "low",
+  "contains_actionable_information": false,
+  "personal_data_risk": "none",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华官方发布的教育教学发展概况，权威性高，可作为校园学习资源背景信息参考，但不属于办事指南。",
+  "source_markdown_path": "knowledge/01_raw_public/THU000055_发展概况-清华大学.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "public"
+}

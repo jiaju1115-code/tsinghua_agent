@@ -1,0 +1,54 @@
+{
+  "api_base": "https://momoapi.cc/v1",
+  "api_key_source": "temporary_runtime",
+  "model": "gpt-5.4-mini",
+  "read_timeout_seconds": 180,
+  "phase_a": {
+    "tcp": {
+      "status": "PASS",
+      "resolved_address_count": 4,
+      "latency_seconds": 0.965,
+      "error_type": ""
+    },
+    "http": {
+      "status": "PASS",
+      "http_status": 404,
+      "latency_seconds": 1.343
+    },
+    "auth": {
+      "status": "PASS",
+      "http_status": 200,
+      "latency_seconds": 1.379
+    },
+    "model": {
+      "available": true,
+      "status": "PASS"
+    }
+  },
+  "minimal_probes": [
+    {
+      "probe_id": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "latency_seconds": 61.426,
+          "http_status": 504,
+          "error_type": ""
+        }
+      ],
+      "success": false,
+      "latency_seconds": 61.426,
+      "http_status": 504,
+      "error_type": "HTTP_504_GATEWAY_TIMEOUT",
+      "response_valid": false
+    }
+  ],
+  "real_sample_probe": {
+    "status": "NOT_RUN"
+  },
+  "entered_formal_run": false,
+  "timeout_count": 0,
+  "final_api_recovery_status": "API_STILL_BLOCKED",
+  "started_at": "2026-08-13T11:13:37+08:00",
+  "finished_at": "2026-08-13T11:14:42+08:00"
+}

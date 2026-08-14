@@ -1,0 +1,13 @@
+{
+  "version": "V2-A",
+  "factual_claims": 104,
+  "label_distribution": {
+    "SUPPORTED": 34,
+    "PARTIALLY_SUPPORTED": 17,
+    "UNSUPPORTED": 53
+  },
+  "claim_level_citation_coverage": 0.49038461538461536,
+  "unsupported_claim_rate": 0.5096153846153846,
+  "partial_support_rate": 0.16346153846153846,
+  "conflict_rate": 0.0
+}

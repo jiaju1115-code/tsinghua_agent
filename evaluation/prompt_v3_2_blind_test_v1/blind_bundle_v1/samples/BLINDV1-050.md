@@ -1,0 +1,14 @@
+blind_id: BLINDV1-050
+original_id: PUBEXP000149
+title: 专题专架
+url: https://lib.tsinghua.edu.cn/law/info/1035/1658.htm
+domain: lib.tsinghua.edu.cn
+source_group: targeted
+
+# Content
+
+法律图书馆教学参考书专架位于法律图书馆三层东南角，集中放置法学院任课教师所指定的教材、参考书及常用工具书。现有中外文图书千余册，供读者馆内阅览。
+
+该专架图书按学期更新补充，多数图书在[清华大学电子教学参考书服务平台](https://ereserves.lib.tsinghua.edu.cn/login)中有电子版本，欢迎使用。
+
+![](/__local/0/72/EB/3AB862DE1BD69BBB15F8427D403_36E38766_4DFA0.jpg)

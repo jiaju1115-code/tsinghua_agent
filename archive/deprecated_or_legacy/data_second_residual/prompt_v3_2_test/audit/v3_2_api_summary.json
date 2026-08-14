@@ -1,0 +1,27 @@
+{
+  "total_calls": 30,
+  "successes": 30,
+  "failures": 0,
+  "network_request_attempts": 30,
+  "resumed": 0,
+  "actual_retries": 0,
+  "model": "gpt-5.4-mini",
+  "temperature": 0.1,
+  "max_concurrency": 3,
+  "max_completion_tokens": 900,
+  "prompt_version": "v3.2",
+  "input_sha256": "60C385C5DA026DF0F25B03034D63DA97F62FBDF2FF365A8DD83A27E14990BC1C",
+  "actions": {
+    "approve": 10,
+    "reject": 19,
+    "review": 1
+  },
+  "reject_types": {
+    "topic_irrelevant": 17,
+    "expired_event": 2
+  },
+  "topic_relevance": {
+    "high": 13,
+    "low": 17
+  }
+}

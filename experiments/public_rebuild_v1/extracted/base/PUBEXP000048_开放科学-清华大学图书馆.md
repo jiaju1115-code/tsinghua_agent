@@ -1,0 +1,56 @@
+|  |
+| --- |
+| 微信扫一扫 关注清华大学开放科学公众号 |
+
+[首页](https://lib.tsinghua.edu.cn/index.htm)>内容页
+
+开放科学
+
+### 出版支持
+
+- [电气电子工程师学会（IEEE）开放获取（OA）政策](https://lib.tsinghua.edu.cn/info/1344/5971.htm)2026-05-27
+- [美国计算机协会（ACM）开放获取（OA）政策](https://lib.tsinghua.edu.cn/info/1344/5969.htm)2026-02-26
+- [国际水协会（IWA）开放获取（OA）政策](https://lib.tsinghua.edu.cn/info/1344/5972.htm)2026-02-26
+- [英国皇家化学学会（RSC）开放获取（OA）政策](https://lib.tsinghua.edu.cn/info/1344/6746.htm)2026-02-26
+- [剑桥大学出版社（CUP）开放获取（OA）政策](https://lib.tsinghua.edu.cn/info/1344/5970.htm)2026-02-26
+
+### 科普文章
+
+- [在法律与人性之间，寻找开放共享的“智慧边界”](https://lib.tsinghua.edu.cn/info/1375/8047.htm)2026-05-11
+- [一文读懂钻石开放获取：让学术知识真正零门槛共享](https://lib.tsinghua.edu.cn/info/1375/7976.htm)2026-04-10
+- [开放科学小百科 | 开放科学：重塑科研诚信的新范式](https://lib.tsinghua.edu.cn/info/1375/7852.htm)2025-12-19
+- [开放科学小百科｜科研诚信危机：从数据造假到系统性困境](https://lib.tsinghua.edu.cn/info/1375/7851.htm)2025-12-18
+- [开放科学小百科 | 开放科学的隐忧与出路：不平等、垄断与治理创新](https://lib.tsinghua.edu.cn/info/1375/7833.htm)2025-12-05
+
+### 政策研究
+
+- [高校开放获取政策：卡罗林斯卡学院篇](https://lib.tsinghua.edu.cn/info/1376/7465.htm)2025-03-26
+- [高校开放获取政策：海德堡大学篇](https://lib.tsinghua.edu.cn/info/1376/7469.htm)2025-03-19
+- [高校开放获取政策：巴黎萨克雷大学篇](https://lib.tsinghua.edu.cn/info/1376/7470.htm)2025-03-13
+- [高校开放获取政策：日内瓦大学篇](https://lib.tsinghua.edu.cn/info/1376/7472.htm)2025-02-27
+- [高校开放获取政策：伦敦国王学院篇](https://lib.tsinghua.edu.cn/info/1376/7473.htm)2025-02-25
+
+### 时事追踪
+
+- [打破围墙：这十几所欧洲先锋大学，正在拆除知识的“付费门槛”](https://lib.tsinghua.edu.cn/info/1377/8050.htm)2026-05-12
+- [Frontiers发布出版行业首份AI实践指南：为科研出版构建负责任 AI 应用路线图](https://lib.tsinghua.edu.cn/info/1377/7996.htm)2026-04-23
+- [服务国家开放创新战略：Frontiers、NSFC科学传播与成果转化中心、CEPIEC 达成战略合作](https://lib.tsinghua.edu.cn/info/1377/7998.htm)2026-04-22
+- [AEGIS-OA项目启动：将欧洲钻石开放获取支持体系扩展至学术图书](https://lib.tsinghua.edu.cn/info/1377/7975.htm)2026-04-09
+- [EMS Press推出“Launch to Open”透明开放获取新模式，助力老牌期刊向社区主导出版转型](https://lib.tsinghua.edu.cn/info/1377/7968.htm)2026-04-08
+
+- ### IWA（国际水协会）开放获取（OA）政策
+- ### IEEE（电气电子工程师学会）开放获取（OA）政策
+
+- ### MDPI（多学科数字出版机构）开放获取（OA）政策
+
+- ### SCOAP³（高能物理开放获取出版资助联盟）开放获取（OA）政策
+
+- [洞察变革，优化路径——第二届开放科学会议在清华大学成功举办](https://lib.tsinghua.edu.cn/info/1345/8049.htm)2026-05-11
+- [报告鉴读 | 不只是“开放”，开放科学如何成为经济引擎](https://lib.tsinghua.edu.cn/info/1345/7961.htm)2026-04-02
+- [清华新实践：开放获取期刊《智慧图书馆》iLibrary创刊研讨会顺利召开](https://lib.tsinghua.edu.cn/info/1345/8051.htm)2026-01-23
+- [文章鉴读 | OASPA：从“百分比”到“参与度”——构建包容性开放获取生态的行动指南 (下)](https://lib.tsinghua.edu.cn/info/1345/7859.htm)2025-12-29
+- [文章鉴读 | OASPA：开放获取的“下半场”，为何说真正的挑战才刚刚开始？ (上)](https://lib.tsinghua.edu.cn/info/1345/7858.htm)2025-12-26
+
+清华大学图书馆开放科学工作组邮箱：opens@mail.tsinghua.edu.cn
+
+本页面内容遵循 CC BY-NC-ND 协议

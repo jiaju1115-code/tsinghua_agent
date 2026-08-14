@@ -1,0 +1,27 @@
+{
+  "evaluation_scope": "PROVISIONAL_AUTO_EVAL",
+  "completed": 38,
+  "answer_correctness_mean_0_to_2": 1.2368,
+  "answer_correctness_normalized": 0.6184,
+  "fully_correct_count": 11,
+  "faithfulness_mean_0_to_2": 1.2895,
+  "faithfulness_normalized": 0.6447,
+  "unsupported_claim_rate": 0.0439,
+  "unsupported_claims": 5,
+  "total_claims": 114,
+  "correct_refusal_count": 3,
+  "hallucination_answer_count": 3,
+  "hallucination_type_distribution": {
+    "CITATION_MISMATCH": 33,
+    "UNSUPPORTED_INFERENCE": 2,
+    "SOURCE_QUALITY_FAILURE": 2,
+    "RETRIEVAL_FAILURE": 3,
+    "OVERCONFIDENT_ANSWER": 1,
+    "GENERATION_HALLUCINATION": 1
+  },
+  "retrieval_failure_count": 3,
+  "source_quality_failure_count": 2,
+  "citation_mismatch_count": 33,
+  "retrieval_correct_answer_wrong_count": 0,
+  "generated_utc": "2026-08-13T14:18:52.716072+00:00"
+}

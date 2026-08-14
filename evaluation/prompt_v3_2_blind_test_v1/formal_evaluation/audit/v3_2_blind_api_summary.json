@@ -1,0 +1,37 @@
+{
+  "status": "EVALUATION_BLOCKED",
+  "blocked_reason": "UPSTREAM_CHAT_COMPLETION_READ_TIMEOUT",
+  "intended_calls": 50,
+  "successful_results": 0,
+  "raw_results_saved": 0,
+  "evaluable_results": 0,
+  "initial_sandbox_attempt": {
+    "successes": 0,
+    "failures": 50,
+    "network_request_attempts": 150,
+    "actual_retries": 100,
+    "failure": "WinError 10013 socket permission denied"
+  },
+  "escalated_batch_attempts": 2,
+  "escalated_batch_raw_results": 0,
+  "escalated_batches_terminated_after_seconds": [
+    900,
+    1800
+  ],
+  "diagnostics": {
+    "tcp_443": "PASS",
+    "http_head": "PASS (404 from service, endpoint reachable)",
+    "authenticated_models_get": "PASS (HTTP 200)",
+    "frozen_model_present": true,
+    "minimal_chat_completion_probe": "FAIL ReadTimeout after 60 seconds"
+  },
+  "model": "gpt-5.4-mini",
+  "temperature": 0.1,
+  "max_concurrency": 3,
+  "max_completion_tokens": 900,
+  "prompt_version": "v3.2",
+  "prompt_sha256": "B94623C520FC46D83A49A4D043AD182646E7A881E7E1751E3E98E98724D771CD",
+  "input_sha256": "91B1ED54A0F65693648BF8B97F214C0060C4940960FD28D6C40ECBD288CDD0C9",
+  "human_file_sha256": "EC1E846091532205A04480320A4A4572D99526F58FE8A9037390BED4BC502CA6",
+  "recorded_at": "2026-08-13T10:51:04+08:00"
+}

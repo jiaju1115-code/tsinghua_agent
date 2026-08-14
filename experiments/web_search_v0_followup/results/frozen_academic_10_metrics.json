@@ -1,0 +1,13 @@
+{
+  "questions": 10,
+  "router_accuracy": 1.0,
+  "knowledge_sufficiency": 0.1,
+  "direct_answer_leakage": 0.0,
+  "new_search_requests": 18,
+  "new_extract_requests": 10,
+  "cache_hits": 2,
+  "average_latency_seconds": 10.901,
+  "knowledge_atoms": 30,
+  "covered_atoms": 9,
+  "missing_atoms": 21
+}

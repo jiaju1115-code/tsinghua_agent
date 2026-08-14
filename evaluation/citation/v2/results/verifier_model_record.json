@@ -1,0 +1,19 @@
+{
+  "model_name": "BAAI/bge-reranker-base",
+  "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+  "local_path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\indexes\\reranker\\model",
+  "weight_sha256": "ced967c45fd1902eb92716c9ceeca7c95a936770ea9db611f5a841b926e33fbd",
+  "weight_bytes": 1112206140,
+  "parameter_count": 278044931,
+  "parameter_scale": "278.0M",
+  "tensor_count": 202,
+  "framework": "PyTorch / Transformers AutoModelForSequenceClassification",
+  "inference_device": "CPU",
+  "training_performed": false,
+  "downloaded_for_v2": false,
+  "role": "pretrained cross-encoder relevance gate; not entailment",
+  "sanity_status": "VERIFIER_NOT_RELIABLE_AS_ENTAILMENT",
+  "selected_threshold": 0.95,
+  "claim_pair_latency_seconds": 34.77328329999,
+  "sanity_latency_seconds": 2.107248599990271
+}

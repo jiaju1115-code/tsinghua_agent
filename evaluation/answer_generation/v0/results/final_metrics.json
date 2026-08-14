@@ -1,0 +1,69 @@
+{
+  "scope": "PROVISIONAL_AUTO_EVAL",
+  "human_validated_metrics": {
+    "answer_correctness": null,
+    "faithfulness": null,
+    "unsupported_claim_rate": null,
+    "reason": "Human review is incomplete and the local evaluator is the same small model family as the generator."
+  },
+  "questions": 38,
+  "generation_completed": 38,
+  "evaluation_completed": 38,
+  "answer_correctness_mean_0_to_2": 1.2368,
+  "answer_correctness_normalized": 0.6184,
+  "fully_correct_count": 11,
+  "faithfulness_mean_0_to_2": 1.2895,
+  "faithfulness_normalized": 0.6447,
+  "completeness_mean_0_to_2": 1.8947,
+  "citation_correctness_mean_0_to_2": 0.2895,
+  "unsupported_claims": 1,
+  "total_claims": 109,
+  "unsupported_claim_rate": 0.0092,
+  "correct_refusal_count": 2,
+  "hallucination_answer_count": 1,
+  "hallucination_type_distribution": {
+    "CITATION_MISMATCH": 32,
+    "SOURCE_QUALITY_FAILURE": 2,
+    "RETRIEVAL_FAILURE": 3,
+    "OVERCONFIDENT_ANSWER": 1,
+    "GENERATION_HALLUCINATION": 1
+  },
+  "retrieval_failure_count": 3,
+  "source_quality_failure_count": 2,
+  "retrieval_correct_answer_wrong_count": 32,
+  "avg_generation_latency_seconds": 21.3746,
+  "avg_evaluator_latency_seconds": 24.847,
+  "generation_model": {
+    "model_name": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "quantization": "Q4_K_M",
+    "runtime": "llama-cpp-python 0.3.34 CPU",
+    "context_length": 6144,
+    "max_new_tokens": 128,
+    "temperature": 0.0,
+    "seed": 20260813,
+    "threads": 12,
+    "batch_threads": 16,
+    "prompt_batch_size": 2048,
+    "micro_batch_size": 512
+  },
+  "evaluator_model": "Qwen/Qwen2.5-1.5B-Instruct-GGUF Q4_K_M local CPU",
+  "v0_smoke": {
+    "previous": {
+      "partial": 2,
+      "pass": 7,
+      "fail": 1
+    },
+    "answer_v0": {
+      "partial": 9,
+      "pass": 1
+    },
+    "change": {
+      "unchanged": 2,
+      "degraded": 7,
+      "improved": 1
+    },
+    "retrieval_correct_answer_wrong": 9,
+    "transport_source_gap": "source"
+  }
+}

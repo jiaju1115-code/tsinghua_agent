@@ -1,0 +1,315 @@
+﻿LOADING Counter({(True, 'content_missing'): 103, (False, 'list_page'): 75, (False, 'detail_content'): 61, (True, 'list_page'): 30, (False, 'navigation_only'): 14, (True, 'template_polluted'): 6, (False, 'thin_content'): 4, (False, 'content_missing'): 3, (False, 'mixed_or_uncertain'): 2, (True, 'detail_content'): 1, (False, 'template_polluted'): 1})
+
+### content_missing 106
+PUBEXP000013	review	lib.tsinghua.edu.cn	L428/N0.8182/M0/KTrue	关于公布2026年暑假图书馆开馆时间的通知-清华大学图书馆
+PUBEXP000014	reject	lib.tsinghua.edu.cn	L422/N0.8182/M0/KTrue	2026学术图书馆未来论坛（WAL）成功举办-清华大学图书馆
+PUBEXP000015	reject	lib.tsinghua.edu.cn	L414/N0.8182/M0/KTrue	关于美术图书馆暂停开放的通知-清华大学图书馆
+PUBEXP000018	approve	lib.tsinghua.edu.cn	L420/N0.8182/M0/KTrue	总馆、文科图书馆图书可全域预约啦！-清华大学图书馆
+PUBEXP000030	review	lib.tsinghua.edu.cn	L412/N0.8182/M0/KTrue	2026年图书馆接收毕业生赠书通知-清华大学图书馆
+PUBEXP000036	reject	www.itc.tsinghua.edu.cn	L590/N0.9565/M0/KFalse	手牵手教手机，心连心助养老——运行服务党支部“为群众办实事”实践活动
+PUBEXP000038	reject	www.itc.tsinghua.edu.cn	L579/N0.9565/M0/KFalse	信息化技术中心、网络研究院开展端午节前安全检查
+PUBEXP000053	approve	lib.tsinghua.edu.cn	L438/N0.8235/M0/KTrue	MDPI（多学科数字出版机构）开放获取（OA）政策-清华大学图书馆
+PUBEXP000068	approve	lib.tsinghua.edu.cn	L414/N0.8154/M0/KTrue	关于保护电子资源知识产权的公告-清华大学图书馆
+PUBEXP000070	approve	lib.tsinghua.edu.cn	L421/N0.803/M0/KTrue	2025~2026学年度春季学期-清华大学图书馆
+PUBEXP000072	reject	lib.tsinghua.edu.cn	L420/N0.8182/M0/KTrue	党委第六巡视组向图书馆反馈巡视情况-清华大学图书馆
+PUBEXP000073	reject	lib.tsinghua.edu.cn	L462/N0.8182/M0/KTrue	图书馆举办庆祝中国共产党成立105周年暨清华党组织建立100周年主题党日活动-清华大学图书馆
+PUBEXP000074	review	lib.tsinghua.edu.cn	L432/N0.8182/M0/KTrue	关于西馆从游空间和一层报刊阅览区改造施工的通知-清华大学图书馆
+PUBEXP000076	review	lib.tsinghua.edu.cn	L474/N0.8182/M0/KTrue	East View斯大林数字化档案数据库开通试用（2026年7月14日-2026年9月8日）-清华大学图书馆
+PUBEXP000077	reject	lib.tsinghua.edu.cn	L454/N0.8182/M0/KTrue	艺术品销售目录在线开通试用(2026年6月12日-2026年7月31日)-清华大学图书馆
+PUBEXP000078	review	lib.tsinghua.edu.cn	L456/N0.8182/M0/KTrue	BOA非洲研究三个子库开通试用(2026年6月12日-2026年8月9日)-清华大学图书馆
+PUBEXP000079	reject	lib.tsinghua.edu.cn	L452/N0.8182/M0/KTrue	古地图库数据库开通试用(2026年5月28日-2026年12月31日)-清华大学图书馆
+PUBEXP000105	review	lib.tsinghua.edu.cn	L456/N0.8182/M0/KTrue	关于公布2025～2026学年度春季学期部分节假日图书馆开馆时间的通知-清华大学图书馆
+PUBEXP000106	review	lib.tsinghua.edu.cn	L428/N0.8182/M0/KTrue	关于公布2026年元旦图书馆开馆时间的通知-清华大学图书馆
+PUBEXP000107	review	lib.tsinghua.edu.cn	L456/N0.8182/M0/KTrue	关于公布2025～2026学年度秋季学期部分节假日图书馆开馆时间的通知-清华大学图书馆
+PUBEXP000108	review	lib.tsinghua.edu.cn	L428/N0.8182/M0/KTrue	关于公布图书馆老馆考试周期间开馆时间的通知-清华大学图书馆
+PUBEXP000109	review	lib.tsinghua.edu.cn	L456/N0.8182/M0/KTrue	关于公布2024～2025学年度春季学期部分节假日图书馆开馆时间的通知-清华大学图书馆
+PUBEXP000110	review	lib.tsinghua.edu.cn	L420/N0.8182/M0/KTrue	文科图书馆因吊顶更新改造的闭馆通知-清华大学图书馆
+PUBEXP000113	approve	lib.tsinghua.edu.cn	L454/N0.8182/M0/KTrue	关于法律图书馆、美术图书馆座位管理系统“临时离开”用餐时段延长的通知-清华大学图书馆
+PUBEXP000114	review	lib.tsinghua.edu.cn	L458/N0.8182/M0/KTrue	法律图书馆、美术图书馆座位管理系统就餐时段“临时离开”时间延长至90分钟-清华大学图书馆
+PUBEXP000116	reject	lib.tsinghua.edu.cn	L422/N0.8182/M0/KTrue	德古意特博睿出版社到访清华大学图书馆-清华大学图书馆
+PUBEXP000117	reject	lib.tsinghua.edu.cn	L458/N0.8182/M0/KTrue	图书馆举办数字素养工作坊第7期Web of Science AI工具专场-清华大学图书馆
+PUBEXP000118	reject	lib.tsinghua.edu.cn	L492/N0.8182/M0/KTrue	图书馆举行选举清华大学第十届教职工代表及清华大学第二十二届工会会员代表大会暨第一届教职工代表大会第一次会议-清华大学图书馆
+PUBEXP000119	approve	lib.tsinghua.edu.cn	L428/N0.8182/M0/KTrue	期刊编辑进校园IEEE专场活动在图书馆举办-清华大学图书馆
+PUBEXP000120	reject	lib.tsinghua.edu.cn	L460/N0.8182/M0/KTrue	清华大学图书馆举办“好读书 读好书——清华大学图书馆‘钱杨书屋’启用仪式”-清华大学图书馆
+PUBEXP000121	reject	lib.tsinghua.edu.cn	L482/N0.8182/M0/KTrue	清华大学图书馆举办“万卷琳琅——馆藏子部善本特展”暨《清华大学图书馆古籍普查登记目录》新书发布会-清华大学图书馆
+PUBEXP000128	approve	lib.tsinghua.edu.cn	L444/N0.8182/M0/KTrue	第4期：戚学民作客“学在清华·真人图书馆”  畅谈民国风云-清华大学图书馆
+PUBEXP000129	approve	lib.tsinghua.edu.cn	L448/N0.8182/M0/KTrue	第3期：戴琼海团队做客“学在清华·真人图书馆”畅讲空中机器人-清华大学图书馆
+PUBEXP000149	approve	lib.tsinghua.edu.cn	L151/N1.0/M0/KFalse	专题专架
+PUBEXP000164	reject	lib.tsinghua.edu.cn	L414/N0.8182/M0/KTrue	尚唯军用标准信息服务平台正式订购-清华大学图书馆
+PUBEXP000165	reject	lib.tsinghua.edu.cn	L414/N0.8182/M0/KTrue	化学工业出版社电子图书馆正式订购-清华大学图书馆
+PUBEXP000166	review	lib.tsinghua.edu.cn	L466/N0.8182/M0/KTrue	上海书画出版社三个数据库再次开通试用（2026年5月11日-2026年12月31日）-清华大学图书馆
+PUBEXP000167	reject	lib.tsinghua.edu.cn	L460/N0.8182/M0/KTrue	八十万卷楼古籍全文检索平台开通试用（2026年4月15日-2027年4月2日）-清华大学图书馆
+PUBEXP000168	reject	lib.tsinghua.edu.cn	L458/N0.8182/M0/KTrue	“尚古汇典”数据库再次开通试用（2026年3月31日-2026年9月30日）-清华大学图书馆
+PUBEXP000170	review	lib.tsinghua.edu.cn	L460/N0.8182/M0/KTrue	元阅读精品电子书数据库开通试用(2025年11月3日-2026年12月31日)-清华大学图书馆
+PUBEXP000172	reject	lib.tsinghua.edu.cn	L408/N0.8182/M0/KTrue	中国建筑数字图书馆正式订购-清华大学图书馆
+PUBEXP000173	review	lib.tsinghua.edu.cn	L408/N0.8182/M0/KTrue	工程科技数字图书馆正式订购-清华大学图书馆
+PUBEXP000174	reject	lib.tsinghua.edu.cn	L420/N0.8182/M0/KTrue	CNRDS中国研究数据服务平台正式订购-清华大学图书馆
+PUBEXP000176	approve	lib.tsinghua.edu.cn	L440/N0.8209/M0/KTrue	电气电子工程师学会（IEEE）开放获取（OA）政策-清华大学图书馆
+PUBEXP000177	reject	lib.tsinghua.edu.cn	L434/N0.8209/M0/KTrue	美国计算机协会（ACM）开放获取（OA）政策-清华大学图书馆
+PUBEXP000178	approve	lib.tsinghua.edu.cn	L430/N0.8209/M0/KTrue	国际水协会（IWA）开放获取（OA）政策-清华大学图书馆
+PUBEXP000179	approve	lib.tsinghua.edu.cn	L436/N0.8209/M0/KTrue	英国皇家化学学会（RSC）开放获取（OA）政策-清华大学图书馆
+PUBEXP000180	approve	lib.tsinghua.edu.cn	L434/N0.8209/M0/KTrue	剑桥大学出版社（CUP）开放获取（OA）政策-清华大学图书馆
+PUBEXP000182	review	lib.tsinghua.edu.cn	L438/N0.8235/M0/KTrue	在法律与人性之间，寻找开放共享的“智慧边界”-清华大学图书馆
+PUBEXP000183	approve	lib.tsinghua.edu.cn	L440/N0.8235/M0/KTrue	一文读懂钻石开放获取：让学术知识真正零门槛共享-清华大学图书馆
+PUBEXP000186	approve	lib.tsinghua.edu.cn	L428/N0.8235/M0/KTrue	高校开放获取政策：卡罗林斯卡学院篇-清华大学图书馆
+PUBEXP000187	approve	lib.tsinghua.edu.cn	L424/N0.8235/M0/KTrue	高校开放获取政策：海德堡大学篇-清华大学图书馆
+PUBEXP000188	approve	lib.tsinghua.edu.cn	L428/N0.8235/M0/KTrue	高校开放获取政策：巴黎萨克雷大学篇-清华大学图书馆
+PUBEXP000189	review	lib.tsinghua.edu.cn	L424/N0.8235/M0/KTrue	高校开放获取政策：日内瓦大学篇-清华大学图书馆
+PUBEXP000190	approve	lib.tsinghua.edu.cn	L426/N0.8235/M0/KTrue	高校开放获取政策：伦敦国王学院篇-清华大学图书馆
+PUBEXP000193	reject	lib.tsinghua.edu.cn	L498/N0.8235/M0/KTrue	EMS Press推出“Launch to Open”透明开放获取新模式，助力老牌期刊向社区主导出版转型-清华大学图书馆
+PUBEXP000194	approve	lib.tsinghua.edu.cn	L432/N0.8235/M0/KTrue	ACM(美国计算机协会)开放获取(OA)政策-清华大学图书馆
+PUBEXP000195	approve	lib.tsinghua.edu.cn	L428/N0.8235/M0/KTrue	IWA（国际水协会）开放获取（OA）政策-清华大学图书馆
+PUBEXP000196	reject	lib.tsinghua.edu.cn	L452/N0.8235/M0/KTrue	SCOAP³（高能物理开放获取出版资助联盟）开放获取（OA）政策-清华大学图书馆
+PUBEXP000198	reject	lib.tsinghua.edu.cn	L450/N0.8209/M0/KTrue	清华大学图书馆参与研制的开放获取期刊遴选评价体系成果正式发表-清华大学图书馆
+PUBEXP000205	approve	lib.tsinghua.edu.cn	L448/N0.8209/M0/KTrue	Call for Papers of iLibrary-清华大学图书馆
+PUBEXP000209	approve	lib.tsinghua.edu.cn	L438/N0.8182/M0/KTrue	中国高等教育文献保障系统（CALIS）工程文献信息中心-清华大学图书馆
+PUBEXP000210	approve	lib.tsinghua.edu.cn	L440/N0.8182/M0/KTrue	中国高校人文社会科学文献中心（CASHL）管理学学科中心-清华大学图书馆
+PUBEXP000220	review	lib.tsinghua.edu.cn	L430/N0.8182/M0/KTrue	关于西馆119、129房间暖气管道施工的通知-清华大学图书馆
+PUBEXP000222	review	lib.tsinghua.edu.cn	L418/N0.8182/M0/KTrue	人文社科图书馆咖啡厅商户变更通知-清华大学图书馆
+PUBEXP000223	review	lib.tsinghua.edu.cn	L414/N0.8182/M0/KTrue	学位论文服务系统临时停用通知-清华大学图书馆
+PUBEXP000224	approve	lib.tsinghua.edu.cn	L416/N0.8182/M0/KTrue	图书馆新版读在清华平台上线通知-清华大学图书馆
+PUBEXP000225	reject	lib.tsinghua.edu.cn	L452/N0.8182/M0/KTrue	我校“水木开卷·真人图书馆”读书活动荣获北京市“青阅领读”先锋称号-清华大学图书馆
+PUBEXP000226	reject	lib.tsinghua.edu.cn	L424/N0.8182/M0/KTrue	党委第六巡视组巡视图书馆工作动员会召开-清华大学图书馆
+PUBEXP000227	reject	lib.tsinghua.edu.cn	L414/N0.8182/M0/KTrue	图书馆召开2026年全馆大会-清华大学图书馆
+PUBEXP000228	reject	lib.tsinghua.edu.cn	L422/N0.8182/M0/KTrue	图书馆代表参加伦敦书展并分享清华经验-清华大学图书馆
+PUBEXP000229	reject	lib.tsinghua.edu.cn	L436/N0.8182/M0/KTrue	清华大学图书馆与泰国朱拉隆功大学图书馆签署合作备忘-清华大学图书馆
+PUBEXP000230	review	lib.tsinghua.edu.cn	L430/N0.8182/M0/KTrue	关于美术图书馆闭馆维修期间暂停读者服务的通知-清华大学图书馆
+PUBEXP000231	approve	lib.tsinghua.edu.cn	L432/N0.8182/M0/KTrue	关于停止清华大学学术信息资源门户系统服务的通知-清华大学图书馆
+PUBEXP000248	reject	lib.tsinghua.edu.cn	L436/N0.8182/M0/KTrue	经管图书馆闭馆通知（2024年10月24-25日）-清华大学图书馆
+PUBEXP000249	review	lib.tsinghua.edu.cn	L410/N0.8182/M0/KTrue	图书馆老馆重启试运行通知-清华大学图书馆
+PUBEXP000250	review	lib.tsinghua.edu.cn	L412/N0.8182/M0/KTrue	法律图书馆延长开馆时间通知-清华大学图书馆
+PUBEXP000256	reject	lib.tsinghua.edu.cn	L460/N0.8182/M0/KTrue	清华大学图书馆举办AI for Science背景下的产学研合作交流研讨会-清华大学图书馆
+PUBEXP000257	reject	lib.tsinghua.edu.cn	L442/N0.8182/M0/KTrue	图书馆与爱思唯尔举行“AI时代高校图书馆发展”交流研讨会-清华大学图书馆
+PUBEXP000258	reject	lib.tsinghua.edu.cn	L468/N0.8182/M0/KTrue	《智慧图书馆（英文）》iLibrary创刊研讨会暨编委会成立会议在图书馆报告厅举行-清华大学图书馆
+PUBEXP000260	reject	lib.tsinghua.edu.cn	L436/N0.8182/M0/KTrue	图书馆召开2025年务虚会暨教育科技人才工作讨论会-清华大学图书馆
+PUBEXP000262	reject	lib.tsinghua.edu.cn	L436/N0.8182/M0/KTrue	馆长金兼斌出席第二十四届全国工科高校图书馆馆长年会-清华大学图书馆
+PUBEXP000263	reject	lib.tsinghua.edu.cn	L452/N0.8182/M0/KTrue	清华大学图书馆应邀出席第45届国际高校图书馆协会（IATUL）年会-清华大学图书馆
+PUBEXP000264	review	lib.tsinghua.edu.cn	L434/N0.8182/M0/KTrue	首场“学观中西”国际学术论坛在清华大学图书馆举办-清华大学图书馆
+PUBEXP000265	reject	lib.tsinghua.edu.cn	L440/N0.8182/M0/KTrue	清华大学图书馆与内蒙古自治区高校图书馆开展合作交流活动-清华大学图书馆
+PUBEXP000266	reject	lib.tsinghua.edu.cn	L448/N0.8182/M0/KTrue	清华大学图书馆举办“AI时代下的学术出版与科研诚信”专家座谈会-清华大学图书馆
+PUBEXP000267	reject	lib.tsinghua.edu.cn	L434/N0.8182/M0/KTrue	图书馆迎首批2025级新生参观，开启知识探索新程-清华大学图书馆
+PUBEXP000268	reject	lib.tsinghua.edu.cn	L456/N0.8182/M0/KTrue	图书馆馆长金兼斌出席华北地区高等学校图书馆协作委员会第三十五届学术年会-清华大学图书馆
+PUBEXP000269	reject	lib.tsinghua.edu.cn	L420/N0.8182/M0/KTrue	图书馆开展2025年新员工集中培训-清华大学图书馆
+PUBEXP000270	approve	lib.tsinghua.edu.cn	L436/N0.8182/M0/KTrue	清华大学图书馆出席高校图书馆东西协作创新发展研讨会-清华大学图书馆
+PUBEXP000271	reject	lib.tsinghua.edu.cn	L428/N0.8182/M0/KTrue	清华大学图书馆党政班子赴国家图书馆联学交流-清华大学图书馆
+PUBEXP000272	reject	lib.tsinghua.edu.cn	L448/N0.8182/M0/KTrue	图书馆举办期刊编辑进校园——Cell Press 期刊专场活动-清华大学图书馆
+PUBEXP000273	reject	lib.tsinghua.edu.cn	L436/N0.8182/M0/KTrue	清华大学图书馆应邀出席第89届世界图书馆与信息大会-清华大学图书馆
+PUBEXP000274	reject	lib.tsinghua.edu.cn	L450/N0.8182/M0/KTrue	清华大学图书馆联合主办第六届世界学术图书馆未来论坛并举办平行论坛-清华大学图书馆
+PUBEXP000275	reject	lib.tsinghua.edu.cn	L422/N0.8182/M0/KTrue	图书馆党委赴河北正定开展红色实践教育-清华大学图书馆
+PUBEXP000276	reject	lib.tsinghua.edu.cn	L488/N0.8182/M0/KTrue	清华大学图书馆参加2025年高校图书馆发展论坛并组织“高校图书馆AI场景化应用与融合化发展”主题分论坛-清华大学图书馆
+PUBEXP000277	reject	lib.tsinghua.edu.cn	L424/N0.8182/M0/KTrue	图书馆选举产生第一届教职工代表大会代表-清华大学图书馆
+PUBEXP000278	reject	lib.tsinghua.edu.cn	L438/N0.8182/M0/KTrue	清华大学图书馆与中国社会科学院美国研究所开展联学共建-清华大学图书馆
+PUBEXP000279	reject	lib.tsinghua.edu.cn	L436/N0.8182/M0/KTrue	图书馆窦天芳当选国际图书馆联合会专业咨询委员会委员-清华大学图书馆
+PUBEXP000281	reject	lib.tsinghua.edu.cn	L426/N0.8182/M0/KTrue	法国前总理米歇尔·巴尼耶在图书馆发表演讲-清华大学图书馆
+PUBEXP000282	reject	lib.tsinghua.edu.cn	L418/N0.8182/M0/KTrue	麦克莱伦藏书捐赠仪式在图书馆举行-清华大学图书馆
+PUBEXP000283	reject	lib.tsinghua.edu.cn	L474/N0.8182/M0/KTrue	提高图书馆资源利用率，服务育人  ——美术图书馆完成2021秋季学期艺术专业数据库系列讲座-清华大学图书馆
+PUBEXP000285	reject	lib.tsinghua.edu.cn	L422/N0.8182/M0/KTrue	清华大学图书馆学生馆员座谈会成功举办-清华大学图书馆
+PUBEXP000286	approve	lib.tsinghua.edu.cn	L428/N0.8182/M0/KTrue	图书馆举办2021新教师专场读者座谈会活动-清华大学图书馆
+PUBEXP000287	reject	lib.tsinghua.edu.cn	L446/N0.8182/M0/KTrue	清华大学图书馆党委组织党员及积极分子赴西柏坡等地进行社会实践-清华大学图书馆
+PUBEXP000288	reject	lib.tsinghua.edu.cn	L448/N0.8182/M0/KTrue	清华大学图书馆音乐讲堂启用仪式暨石叔诚音乐讲座“黄河”圆满举行-清华大学图书馆
+
+### navigation_only 14
+PUBEXP000020	approve	lib.tsinghua.edu.cn	L344/N0.6129/M0/KFalse	金融图书馆
+PUBEXP000032	approve	peace.tsinghua.edu.cn	L336/N0.6829/M0/KFalse	校园交通
+PUBEXP000033	approve	peace.tsinghua.edu.cn	L324/N0.6316/M0/KFalse	安全知识
+PUBEXP000035	reject	www.itc.tsinghua.edu.cn	L1306/N0.8227/M0/KFalse	党建专栏-清华大学信息化技术中心
+PUBEXP000086	approve	lib.tsinghua.edu.cn	L254/N0.5385/M0/KFalse	清图数字-清华大学图书馆
+PUBEXP000092	approve	peace.tsinghua.edu.cn	L191/N0.8/M0/KFalse	校园消防
+PUBEXP000093	approve	peace.tsinghua.edu.cn	L324/N0.6905/M0/KFalse	户政事务
+PUBEXP000094	approve	peace.tsinghua.edu.cn	L362/N0.6316/M0/KFalse	警示案例
+PUBEXP000133	approve	lib.tsinghua.edu.cn	L171/N0.9434/M0/KFalse	特色资源
+PUBEXP000146	approve	lib.tsinghua.edu.cn	L301/N0.3889/M0/KFalse	资源动态
+PUBEXP000151	approve	lib.tsinghua.edu.cn	L167/N1.0/M0/KFalse	特色馆藏
+PUBEXP000160	reject	www.itc.tsinghua.edu.cn	L702/N0.9333/M0/KFalse	发展历程-清华大学信息化技术中心
+PUBEXP000161	reject	www.itc.tsinghua.edu.cn	L604/N0.9683/M0/KFalse	历任领导
+PUBEXP000242	approve	lib.tsinghua.edu.cn	L251/N0.9574/M0/KFalse	无障碍设施
+
+### template_polluted 7
+PUBEXP000049	reject	lib.tsinghua.edu.cn	L494/N0.8235/M2/KTrue	服务国家开放创新战略：Frontiers、NSFC科学传播与成果转化中心、CEPIEC 达成战略合作-清华大学图书馆
+PUBEXP000050	reject	lib.tsinghua.edu.cn	L462/N0.8209/M2/KTrue	清华新实践：开放获取期刊《智慧图书馆》iLibrary创刊研讨会顺利召开-清华大学图书馆
+PUBEXP000052	reject	lib.tsinghua.edu.cn	L480/N0.8235/M2/KTrue	Frontiers发布出版行业首份AI实践指南：为科研出版构建负责任 AI 应用路线图-清华大学图书馆
+PUBEXP000171	review	lib.tsinghua.edu.cn	L512/N0.8182/M2/KTrue	摩熵材料、摩熵化学及摩熵医药三个数据库开通试用(2025年10月17日-2026年3月31日)(试用延长至2026年12月30日）-清华大学图书馆
+PUBEXP000221	review	lib.tsinghua.edu.cn	L470/N0.8182/M2/KTrue	专题书架：好读书 读好书——纪念钱锺书、杨绛学长暨图书馆“钱杨书屋”启用特别专题书架-清华大学图书馆
+PUBEXP000245	approve	lib.tsinghua.edu.cn	L2422/N0.7405/M9/KFalse	M-清华大学图书馆
+PUBEXP000293	approve	lib.tsinghua.edu.cn	L454/N0.8182/M2/KTrue	第51期：前UNESCO教育助理总干事唐虔——我在国际组织的25年-清华大学图书馆
+
+### mixed_or_uncertain 2
+PUBEXP000153	approve	lib.tsinghua.edu.cn	L391/N0.6977/M1/KFalse	培训资料
+PUBEXP000156	approve	lib.tsinghua.edu.cn	L493/N0.1667/M0/KFalse	空间布局
+
+### thin_content 4
+PUBEXP000132	approve	lib.tsinghua.edu.cn	L198/N0.2222/M1/KFalse	荐购捐赠
+PUBEXP000135	review	lib.tsinghua.edu.cn	L224/N0.7273/M2/KFalse	金融学相关数据库
+PUBEXP000136	approve	lib.tsinghua.edu.cn	L195/N0.8333/M1/KFalse	国际金融机构资料
+PUBEXP000154	approve	lib.tsinghua.edu.cn	L217/N0.9032/M1/KFalse	教参服务平台
+
+### list counts Counter({'FAQ': 82, '法规': 9, '政策': 5, '办事': 4, '招聘': 3, '新闻': 1, '其他': 1})
+PUBEXP000008	approve	FAQ	yes	L375/N0.8226/M0	热门排序-清华大学图书馆
+PUBEXP000010	approve	FAQ	yes	L595/N0.7681/M1	图书馆报告厅-清华大学图书馆
+PUBEXP000012	approve	办事	yes	L3596/N0.6886/M35	默认排序-清华大学图书馆
+PUBEXP000016	reject	FAQ	yes	L799/N0.7921/M0	真人图书馆-清华大学图书馆
+PUBEXP000028	approve	FAQ	yes	L755/N0.79/M0	服务通知-清华大学图书馆
+PUBEXP000029	approve	法规	yes	L288/N0.9583/M1	失物招领
+PUBEXP000037	reject	招聘	yes	L1161/N0.8227/M0	动态新闻-清华大学信息化技术中心
+PUBEXP000039	reject	招聘	yes	L653/N0.9297/M0	招聘信息-清华大学信息化技术中心
+PUBEXP000044	approve	FAQ	yes	L470/N0.7681/M0	按类型查-清华大学图书馆
+PUBEXP000045	approve	FAQ	yes	L425/N0.7761/M0	特色资源-清华大学图书馆
+PUBEXP000046	approve	FAQ	yes	L920/N0.7812/M0	最新资源-清华大学图书馆
+PUBEXP000047	approve	FAQ	yes	L796/N0.7789/M0	精选资源-清华大学图书馆
+PUBEXP000051	approve	FAQ	yes	L484/N0.8209/M2	文章鉴读 | OASPA：从“百分比”到“参与度”——构建包容性开放获取生态的行动指南 (下)-清华大学图书馆
+PUBEXP000054	approve	FAQ	yes	L826/N0.7442/M1	iLibrary-清华大学图书馆
+PUBEXP000055	reject	FAQ	yes	L460/N0.8209/M0	清华大学图书馆主办新刊 |《智慧图书馆（英文）》——创刊号全球征稿-清华大学图书馆
+PUBEXP000058	approve	FAQ	yes	L610/N0.7089/M0	规章制度-清华大学图书馆
+PUBEXP000059	approve	FAQ	yes	L650/N0.716/M0	清华大学图书馆早期中外文图书报刊服务规定-清华大学图书馆
+PUBEXP000060	approve	FAQ	yes	L616/N0.7765/M0	借阅&服务-清华大学图书馆
+PUBEXP000061	review	FAQ	yes	L638/N0.716/M0	清华大学图书馆参观接待管理办法-清华大学图书馆
+PUBEXP000062	approve	FAQ	yes	L634/N0.716/M0	清华大学图书馆入馆管理办法-清华大学图书馆
+PUBEXP000064	approve	FAQ	yes	L435/N0.8333/M0	老馆-清华大学图书馆
+PUBEXP000065	approve	FAQ	yes	L483/N0.8462/M0	专业图书馆-清华大学图书馆
+PUBEXP000066	approve	招聘	yes	L398/N0.8406/M0	勤工助学-清华大学图书馆
+PUBEXP000069	approve	办事	yes	L621/N0.9098/M0	站点地图-清华大学图书馆
+PUBEXP000071	approve	FAQ	yes	L744/N0.7879/M0	通知公告-清华大学图书馆
+PUBEXP000075	approve	FAQ	yes	L918/N0.7789/M0	资源动态-清华大学图书馆
+PUBEXP000080	review	FAQ	yes	L949/N0.6602/M2	活动日历-清华大学图书馆
+PUBEXP000081	approve	FAQ	yes	L436/N0.8197/M2	活动报名 | 数字素养工作坊第7期：Web of Science AI工具专场-清华大学图书馆
+PUBEXP000082	reject	FAQ	yes	L780/N0.7921/M0	作者面对面-清华大学图书馆
+PUBEXP000083	approve	FAQ	yes	L797/N0.7952/M6	从游悦读-清华大学图书馆
+PUBEXP000084	reject	FAQ	yes	L714/N0.747/M0	多媒体资源推介-清华大学图书馆
+PUBEXP000085	approve	FAQ	yes	L978/N0.7732/M1	开矿-清华大学图书馆
+PUBEXP000087	review	FAQ	yes	L640/N0.716/M0	清华大学图书馆维护知识产权声明-清华大学图书馆
+PUBEXP000090	review	办事	yes	L412/N0.5172/M0	通知公告
+PUBEXP000091	reject	新闻	no	L1186/N0.1111/M8	新闻动态
+PUBEXP000095	approve	办事	yes	L271/N0.6857/M0	视频素材
+PUBEXP000096	approve	政策	yes	L259/N0.6316/M0	法律法规
+PUBEXP000097	approve	政策	yes	L288/N0.6842/M0	政策文件
+PUBEXP000098	approve	政策	yes	L298/N0.6316/M0	规章制度
+PUBEXP000104	approve	FAQ	yes	L760/N0.79/M0	开馆通知-清华大学图书馆
+PUBEXP000111	approve	FAQ	yes	L424/N0.8182/M0	清华大学图书馆暑假期间馆际互借服务通知-清华大学图书馆
+PUBEXP000112	reject	法规	yes	L469/N0.7273/M0	服务通知
+PUBEXP000115	reject	FAQ	yes	L840/N0.79/M0	清图快讯-清华大学图书馆
+PUBEXP000122	reject	FAQ	yes	L792/N0.79/M0	推荐活动-清华大学图书馆
+PUBEXP000123	reject	FAQ	yes	L816/N0.7921/M0	读书经验分享会-清华大学图书馆
+PUBEXP000124	reject	FAQ	yes	L716/N0.7921/M0	音乐讲座-清华大学图书馆
+PUBEXP000125	reject	FAQ	yes	L737/N0.8119/M0	清华读书讲座-清华大学图书馆
+PUBEXP000126	reject	FAQ	yes	L576/N0.8193/M0	闻道-清华大学图书馆
+PUBEXP000127	approve	FAQ	yes	L438/N0.8182/M0	第39期：王有强——馆长与馆员共话图书馆建设与发展-清华大学图书馆
+PUBEXP000150	approve	法规	yes	L223/N0.96/M0	法律数据库
+PUBEXP000157	reject	法规	yes	L209/N0.973/M1	馆舍风貌
+PUBEXP000163	approve	FAQ	yes	L635/N0.8041/M0	已购-清华大学图书馆
+PUBEXP000169	approve	FAQ	yes	L502/N0.8182/M0	全国报刊索引-中国近代报纸资源全库开通试用(2026年1月5日-2026年4月5日)（试用延长至2026年12月31日）-清华大学图书馆
+PUBEXP000175	approve	政策	yes	L643/N0.7654/M0	出版支持-清华大学图书馆
+PUBEXP000181	approve	FAQ	yes	L708/N0.7558/M0	科普文章-清华大学图书馆
+PUBEXP000184	approve	FAQ	yes	L458/N0.8235/M2	开放科学小百科 | 开放科学的隐忧与出路：不平等、垄断与治理创新-清华大学图书馆
+PUBEXP000185	reject	政策	yes	L635/N0.7558/M0	政策研究-清华大学图书馆
+PUBEXP000191	reject	FAQ	yes	L830/N0.7558/M2	时事追踪-清华大学图书馆
+PUBEXP000192	approve	FAQ	yes	L460/N0.8235/M2	AEGIS-OA项目启动：将欧洲钻石开放获取支持体系扩展至学术图书-清华大学图书馆
+PUBEXP000197	reject	FAQ	yes	L783/N0.7529/M2	专家观点-清华大学图书馆
+PUBEXP000199	reject	FAQ	yes	L448/N0.8209/M0	洞察变革，优化路径——第二届开放科学会议在清华大学成功举办-清华大学图书馆
+PUBEXP000200	approve	FAQ	yes	L444/N0.8209/M0	报告鉴读 | 不只是“开放”，开放科学如何成为经济引擎-清华大学图书馆
+PUBEXP000201	approve	FAQ	yes	L474/N0.8209/M2	文章鉴读 | OASPA：开放获取的“下半场”，为何说真正的挑战才刚刚开始？ (上)-清华大学图书馆
+PUBEXP000202	approve	其他	no	L1531/N0.35/M2	iLibrary-Tsinghua University Library
+PUBEXP000203	reject	FAQ	yes	L473/N0.8116/M0	最新动态-清华大学图书馆
+PUBEXP000204	approve	FAQ	yes	L414/N0.8182/M0	iLibrary简介-清华大学图书馆
+PUBEXP000206	reject	FAQ	yes	L421/N0.8406/M0	业界活动-清华大学图书馆
+PUBEXP000207	approve	FAQ	yes	L401/N0.8308/M0	学术争鸣-清华大学图书馆
+PUBEXP000208	approve	FAQ	yes	L401/N0.8308/M0	论文选评-清华大学图书馆
+PUBEXP000211	reject	FAQ	yes	L435/N0.8333/M0	西馆-清华大学图书馆
+PUBEXP000212	approve	FAQ	yes	L435/N0.8333/M0	北馆-清华大学图书馆
+PUBEXP000213	approve	FAQ	yes	L471/N0.8462/M0	特色空间-清华大学图书馆
+PUBEXP000219	approve	FAQ	yes	L414/N0.8154/M0	数据库说明-清华大学图书馆
+PUBEXP000232	approve	FAQ	yes	L394/N0.8197/M0	主题： 来自期刊编委的发文经验、审稿逻辑与最佳实践
+PUBEXP000233	approve	FAQ	yes	L420/N0.8197/M0	2026经济与金融数据课堂第五讲 | 利用排排网私募数据库进行金融研究-清华大学图书馆
+PUBEXP000234	approve	FAQ	yes	L400/N0.8197/M0	【知识产权讲堂】企业专利保护和许可的新发展-清华大学图书馆
+PUBEXP000235	approve	FAQ	yes	L424/N0.8197/M0	2026经济与金融数据课堂第四讲|如何有效利用WRDS平台进行金融实证研究-清华大学图书馆
+PUBEXP000236	approve	FAQ	yes	L418/N0.8197/M0	信息•资源•研究|第7讲：AI时代核心期刊投稿指南及学术规范-清华大学图书馆
+PUBEXP000237	approve	FAQ	yes	L432/N0.8197/M2	活动报名｜数字素养工作坊第5期：您的AI学术伙伴——图书馆AI工具实战指南-清华大学图书馆
+PUBEXP000238	approve	FAQ	yes	L428/N0.8197/M2	活动报名｜数字素养工作坊第6期：AI+Python数据分析上手实战指南-清华大学图书馆
+PUBEXP000239	approve	FAQ	yes	L422/N0.8197/M2	信息•资源•研究|第18讲：利用图书馆资源提高外语能力和艺术修养-清华大学图书馆
+PUBEXP000240	approve	FAQ	yes	L404/N0.8182/M0	水木开卷·从游悦读-清华大学图书馆
+PUBEXP000241	approve	法规	yes	L443/N0.8364/M1	充电设备
+PUBEXP000243	approve	法规	yes	L876/N0.6875/M5	外文期刊
+PUBEXP000246	approve	FAQ	yes	L489/N0.7945/M0	入馆须知-清华大学图书馆
+PUBEXP000251	approve	FAQ	yes	L408/N0.8182/M0	经管图书馆临时闭馆通知-清华大学图书馆
+PUBEXP000252	review	法规	yes	L354/N0.8298/M0	开馆通知
+PUBEXP000253	approve	法规	yes	L257/N0.8824/M0	试用
+PUBEXP000254	reject	法规	yes	L243/N0.9149/M0	培训
+PUBEXP000255	reject	FAQ	yes	L440/N0.8182/M0	洞察变革，优化路径——第二届开放科学会议在清华大学举办-清华大学图书馆
+PUBEXP000259	approve	FAQ	yes	L402/N0.8182/M0	校领导调研图书馆-清华大学图书馆
+PUBEXP000261	reject	FAQ	yes	L438/N0.8182/M0	期刊编辑进校园——Science专场活动在图书馆举办-清华大学图书馆
+PUBEXP000280	reject	FAQ	yes	L432/N0.8182/M0	期刊编辑进校园——《自然》专场活动在图书馆举行-清华大学图书馆
+PUBEXP000284	reject	FAQ	yes	L452/N0.8182/M0	喜报 | 图书馆中文主页荣获清华大学第三届校园网络文化节优秀网站奖-清华大学图书馆
+PUBEXP000289	reject	FAQ	yes	L448/N0.8182/M0	第9期：张肖阳——一名非典型海外博士的心路：从读书到阅己-清华大学图书馆
+PUBEXP000290	approve	FAQ	yes	L416/N0.8182/M0	第66期：吕舟——穿越中轴线-清华大学图书馆
+PUBEXP000291	approve	FAQ	yes	L438/N0.8182/M0	第57期: 黄家林——教我如何不想他：图说大师往事-清华大学图书馆
+PUBEXP000292	approve	FAQ	yes	L428/N0.8182/M0	第53期：阎学通——如何科学预测国际问题-清华大学图书馆
+PUBEXP000294	approve	FAQ	yes	L416/N0.8182/M0	第40期：刘国忠——走出疑古-清华大学图书馆
+PUBEXP000295	approve	FAQ	yes	L436/N0.8182/M0	第37期：倪维斗——知识分子的社会贡献和爱国情怀-清华大学图书馆
+PUBEXP000296	approve	FAQ	yes	L420/N0.8182/M0	第 35 期：钱颖一——探寻大学教育的灵魂
+PUBEXP000297	approve	FAQ	yes	L428/N0.8182/M0	第 33 期：魏柯玲——共创中澳教育关系的美好明天
+PUBEXP000298	approve	FAQ	yes	L412/N0.8182/M0	第 32 期：王有强——选择与责任
+PUBEXP000299	approve	FAQ	yes	L416/N0.8182/M0	第32期：金峰——工程的魅力-清华大学图书馆
+PUBEXP000300	reject	FAQ	yes	L418/N0.8182/M0	第31期：岳光溪——理想与人生-清华大学图书馆
+
+### detail
+PUBEXP000001	approve	L568/N0.2308/M3	清华大学信息化技术中心
+PUBEXP000002	reject	L795/N0.6/M6	核心机房运行
+PUBEXP000003	approve	L1038/N0.1351/M3	校园网络运行
+PUBEXP000004	reject	L859/N0.3077/M5	网络信息安全
+PUBEXP000005	approve	L560/N0.2667/M6	用户服务
+PUBEXP000006	reject	L1052/N0.1667/M9	教学环境服务
+PUBEXP000007	reject	L745/N0.2857/M8	信息资源服务
+PUBEXP000009	reject	L637/N0.3667/M4	图书借还-清华大学图书馆
+PUBEXP000011	approve	L981/N0.0571/M4	清华大学图书馆新生专栏
+PUBEXP000017	approve	L1622/N0.617/M6	人文社科图书馆
+PUBEXP000019	approve	L762/N0.6471/M2	清华大学图书馆美术图书馆
+PUBEXP000021	approve	L1805/N0.05/M14	常见问题（FAQ）
+PUBEXP000022	approve	L881/N0.0/M8	清华大学法律图书馆
+PUBEXP000023	approve	L1975/N0.1754/M13	服务
+PUBEXP000024	approve	L1125/N0.1795/M7	借阅导引
+PUBEXP000025	approve	L590/N0.3571/M6	参考咨询
+PUBEXP000026	approve	L765/N0.1429/M6	毕业&迎新
+PUBEXP000027	approve	L654/N0.3125/M8	自助服务
+PUBEXP000031	approve	L2922/N0.5041/M33	清华大学保卫部
+PUBEXP000034	reject	L465/N0.25/M3	中心简介
+PUBEXP000040	approve	L574/N0.2333/M1	联系我们
+PUBEXP000041	approve	L2517/N0.2703/M8	Tsinghua University Library
+PUBEXP000042	approve	L1251/N0.0/M0	开馆时间-清华大学图书馆
+PUBEXP000043	reject	L508/N0.3793/M2	馆际互借-清华大学图书馆
+PUBEXP000048	approve	L1184/N0.1538/M8	开放科学-清华大学图书馆
+PUBEXP000056	reject	L1318/N0.25/M5	馆长致辞-清华大学图书馆
+PUBEXP000057	reject	L895/N0.6296/M9	组织机构-清华大学图书馆
+PUBEXP000063	reject	L2615/N0.0/M9	历史沿革-清华大学图书馆
+PUBEXP000067	approve	L1492/N0.0333/M21	联系我们-清华大学图书馆
+PUBEXP000088	reject	L664/N0.1/M6	部门职能
+PUBEXP000089	approve	L731/N0.1111/M8	科室职能
+PUBEXP000099	approve	L1084/N0.3333/M9	信息系统运行
+PUBEXP000100	reject	L2386/N0.1481/M20	规划设计测评
+PUBEXP000101	reject	L2708/N0.25/M26	信息系统开发
+PUBEXP000102	reject	L1720/N0.1389/M9	教学资源开发
+PUBEXP000103	reject	L678/N0.2857/M3	重要活动保障
+PUBEXP000130	approve	L563/N0.0833/M9	资源
+PUBEXP000131	approve	L406/N0.25/M3	概况
+PUBEXP000134	approve	L1537/N0.6707/M1	金融学全文电子刊
+PUBEXP000137	reject	L465/N0.5/M3	捐赠
+PUBEXP000138	approve	L927/N0.1591/M1	金融数据素养系列培训
+PUBEXP000139	approve	L530/N0.8356/M5	诺贝尔经济学奖得主著作
+PUBEXP000140	reject	L1276/N0.2857/M12	五道口校友专享
+PUBEXP000141	approve	L3405/N0.1316/M31	图书借还
+PUBEXP000142	approve	L1014/N0.0714/M9	本馆简介
+PUBEXP000143	approve	L609/N0.0556/M5	入馆须知
+PUBEXP000144	approve	L856/N0.1538/M9	馆舍布局
+PUBEXP000145	approve	L560/N0.6429/M3	本馆风采
+PUBEXP000147	approve	L644/N0.0556/M0	馆藏分布
+PUBEXP000148	approve	L2170/N0.2/M12	资源推送
+PUBEXP000152	approve	L1156/N0.2222/M10	读者咨询
+PUBEXP000155	approve	L822/N0.1111/M8	关于法图
+PUBEXP000158	reject	L2741/N0.04/M12	特别关注
+PUBEXP000159	reject	L843/N0.4/M10	领导关怀
+PUBEXP000162	reject	L866/N0.9444/M4	机构设置
+PUBEXP000214	reject	L624/N0.0417/M4	分队介绍-清华大学图书馆
+PUBEXP000215	approve	L484/N0.2/M4	岗位申请-清华大学图书馆
+PUBEXP000216	reject	L602/N0.1/M6	特色活动-清华大学图书馆
+PUBEXP000217	reject	L3098/N0.0238/M4	大事年表-清华大学图书馆
+PUBEXP000218	reject	L2246/N0.0055/M0	历任队委-清华大学图书馆
+PUBEXP000244	reject	L616/N0.1905/M4	资讯动态-清华大学图书馆
+PUBEXP000247	approve	L1768/N0.0/M6	Library Privilege Opening-Tsinghua University Library

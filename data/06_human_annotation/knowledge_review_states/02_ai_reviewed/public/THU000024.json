@@ -1,0 +1,21 @@
+{
+  "id": "THU000024",
+  "relevance_score": 78,
+  "knowledge_value": 62,
+  "category": "其他",
+  "subcategory": "科研合作",
+  "content_type": "部门介绍",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "low",
+  "contains_actionable_information": true,
+  "personal_data_risk": "low",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华大学官方科研合作介绍页，权威可靠，包含对外合作与联系方式等基础信息，适合校园知识库收录。",
+  "source_markdown_path": "knowledge/01_raw/THU000024_科研合作-清华大学.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "legacy_public"
+}

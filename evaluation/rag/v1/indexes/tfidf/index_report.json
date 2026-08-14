@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "method": "TF-IDF exact cosine on L2-normalized vectors",
+  "input": "title + newline + text",
+  "shape": [
+    717,
+    60000
+  ],
+  "nonzero": 556509,
+  "build_seconds": 1.453062199987471,
+  "peak_rss_mb": 467.1015625,
+  "incremental_peak_mb": 118.234375,
+  "matrix_sha256": "d3a50e890c4d308f043606ab1a4620427b0c7e53a68068d66852f49d09c4d96b",
+  "vectorizer_sha256": "7df83caf2d4d7f8293b74aa3ddecc4689d636cd330cf7b3e3df1742f793fbaa5",
+  "source_chunks_sha256": "de606ba34b6e599d1152c01a005931f27bb021a2c0000df845438f57afb7cdc1",
+  "config": {
+    "analyzer": "char",
+    "ngram_range": [
+      2,
+      4
+    ],
+    "max_features": 60000,
+    "sublinear_tf": true,
+    "norm": "l2"
+  }
+}

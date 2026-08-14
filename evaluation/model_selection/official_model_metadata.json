@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-08-13",
+  "source": "Hugging Face official model repositories and Hub metadata API",
+  "candidates": [
+    {
+      "model_id": "Qwen/Qwen3.5-2B-Base",
+      "revision": "b1485b2fa6dfa1287294f269f5fb618e03d52d7c",
+      "publisher": "Qwen",
+      "official": true,
+      "base_or_pretrained": true,
+      "gated": false,
+      "license": "apache-2.0",
+      "nominal_parameters_b": 2,
+      "hub_weight_bytes": 4548221488,
+      "context_tokens": 262144,
+      "model_card": "https://huggingface.co/Qwen/Qwen3.5-2B-Base"
+    },
+    {
+      "model_id": "Qwen/Qwen3.5-4B-Base",
+      "revision": "1001bb4d826a52d1f399e183466143f4da7b741b",
+      "publisher": "Qwen",
+      "official": true,
+      "base_or_pretrained": true,
+      "gated": false,
+      "license": "apache-2.0",
+      "nominal_parameters_b": 4,
+      "hub_reported_parameters_b": 5,
+      "hub_weight_bytes": 9319828056,
+      "context_tokens": 262144,
+      "model_card": "https://huggingface.co/Qwen/Qwen3.5-4B-Base"
+    },
+    {
+      "model_id": "Qwen/Qwen3.5-9B-Base",
+      "revision": "68c46c4b3498877f3ef123c856ecfde50c39f404",
+      "publisher": "Qwen",
+      "official": true,
+      "base_or_pretrained": true,
+      "gated": false,
+      "license": "apache-2.0",
+      "nominal_parameters_b": 9,
+      "hub_weight_bytes": 19306310872,
+      "context_tokens": 262144,
+      "model_card": "https://huggingface.co/Qwen/Qwen3.5-9B-Base"
+    },
+    {
+      "model_id": "google/gemma-3-1b-pt",
+      "revision": "fcf18a2a879aab110ca39f8bffbccd5d49d8eb29",
+      "publisher": "Google DeepMind",
+      "official": true,
+      "base_or_pretrained": true,
+      "gated": "manual",
+      "license": "gemma",
+      "nominal_parameters_b": 1,
+      "hub_weight_bytes": 1999811208,
+      "context_tokens": 32768,
+      "model_card": "https://huggingface.co/google/gemma-3-1b-pt"
+    },
+    {
+      "model_id": "google/gemma-3-270m",
+      "revision": "9b0cfec892e2bc2afd938c98eabe4e4a7b1e0ca1",
+      "publisher": "Google DeepMind",
+      "official": true,
+      "base_or_pretrained": true,
+      "gated": "manual",
+      "license": "gemma",
+      "nominal_parameters_b": 0.27,
+      "hub_weight_bytes": 536223056,
+      "context_tokens": 32768,
+      "model_card": "https://huggingface.co/google/gemma-3-270m"
+    }
+  ]
+}
+

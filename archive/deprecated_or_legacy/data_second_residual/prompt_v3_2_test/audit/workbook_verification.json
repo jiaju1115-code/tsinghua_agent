@@ -1,0 +1,14 @@
+[
+  {
+    "file": "analysis/v3_2_topic_analysis.xlsx",
+    "rows": 30,
+    "columns": 9,
+    "formulaCount": 0
+  },
+  {
+    "file": "results/prompt_v3_2_30_results.xlsx",
+    "rows": 30,
+    "columns": 19,
+    "formulaCount": 0
+  }
+]

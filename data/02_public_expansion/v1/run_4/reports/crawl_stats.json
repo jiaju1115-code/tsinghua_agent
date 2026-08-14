@@ -1,0 +1,11 @@
+{
+  "discovered_urls": 6,
+  "attempted": 6,
+  "fetch_failed": 6,
+  "crawl_invalid": 0,
+  "historical_duplicates": 4,
+  "internal_duplicates": 0,
+  "valid_candidates": 0,
+  "auth_skipped": 0,
+  "outside_or_new_domain": 0
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "PROVISIONAL_AUTO_EVAL",
+  "questions_completed": 38,
+  "claim_total": 120,
+  "factual_claim_total": 104,
+  "support_distribution": {
+    "SUPPORTED": 5,
+    "UNSUPPORTED": 92,
+    "NON_FACTUAL": 14,
+    "PARTIALLY_SUPPORTED": 7,
+    "REFUSAL": 2
+  },
+  "claim_level_citation_coverage": 0.11538461538461539,
+  "citation_assignments": 12,
+  "citation_precision_proxy": 1.0,
+  "unsupported_claim_rate": 0.8846153846153846,
+  "partial_support_rate": 0.0673076923076923,
+  "conflict_rate": 0.0,
+  "answer_level_citation_compliance": {
+    "a_baseline": 0.05263157894736842,
+    "citation_pipeline_v1": 0.21052631578947367
+  },
+  "answer_preservation_rate": 1.0,
+  "wrong_citation_assignments_proxy": 0,
+  "high_semantic_hard_rule_failures": 2,
+  "embedding": {
+    "file": "results/claim_embeddings.npy",
+    "sha256": "2ab812a2571d95744b05c68d384443af8d07331950d53ea3e66d0edd8958558e",
+    "rows": 120,
+    "dimension": 512,
+    "encoding_seconds": 0.9636566999834031,
+    "model_name": "BAAI/bge-small-zh-v1.5",
+    "revision": "7999e1d3359715c523056ef9478215996d62a620"
+  },
+  "human_validated_citation_correctness": null
+}

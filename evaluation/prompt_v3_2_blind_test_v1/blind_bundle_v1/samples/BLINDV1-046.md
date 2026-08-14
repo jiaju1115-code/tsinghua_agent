@@ -1,0 +1,32 @@
+blind_id: BLINDV1-046
+original_id: PUBEXP000230
+title: 关于美术图书馆闭馆维修期间暂停读者服务的通知-清华大学图书馆
+url: https://lib.tsinghua.edu.cn/info/1072/1939.htm
+domain: lib.tsinghua.edu.cn
+source_group: targeted
+
+# Content
+
+**关于美术图书馆闭馆维修期间**
+
+**暂停读者服务的通知**
+
+      清华大学美术图书馆将从20年7月15日开始进行整体墙面维修粉刷工程，工期预计2个月。施工期间，美术图书馆暂停所有服务，恢复开馆时间另行通知。
+
+      具体安排如下：
+
+      1.   美术图书馆全部书刊暂停出借及到馆阅览服务。
+
+      2.   已出借的美术图书馆图书，可在校内其它图书馆归还。
+
+      3.   读者如有到馆自习、自助文印等需求，建议前往校内其它图书馆。
+
+      4.   读者如需进行学科咨询或向本馆荐购书刊，可通过电子邮件方式进行联系。
+
+美术图书馆闭馆期间的联系方式：
+
+**Email**：[artslib@mail.tsinghua.edu.cn](mailto:artslib@mail.tsinghua.edu.cn)
+
+图书馆
+
+20-7-9

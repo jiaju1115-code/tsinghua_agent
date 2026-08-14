@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "http_status": 200,
+  "final_url": "https://lib.tsinghua.edu.cn/finance/fw/tsjh.htm",
+  "content_type": "text/html",
+  "bytes": 47472,
+  "error": "",
+  "crawl_time": "2026-08-12T22:03:02+08:00"
+}

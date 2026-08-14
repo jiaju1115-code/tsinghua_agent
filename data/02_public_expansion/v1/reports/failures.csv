@@ -1,0 +1,13 @@
+﻿url,reason
+https://its.tsinghua.edu.cn/,outside_domain_redirect
+https://www.tsinghua.edu.cn/stjs.htm,http_404
+https://www.tsinghua.edu.cn/info/1004/1007.htm,http_404
+https://www.tsinghua.edu.cn/zxgk.htm,http_404
+https://www.tsinghua.edu.cn/ksjs.htm,http_404
+https://www.tsinghua.edu.cn/lxfs.htm,http_404
+https://www.tsinghua.edu.cn/info/1004/1008.htm,http_404
+https://www.tsinghua.edu.cn/info/1004/1009.htm,http_404
+https://www.tsinghua.edu.cn/bmgk.htm,http_404
+https://www.tsinghua.edu.cn/jgsz.htm,http_404
+https://www.tsinghua.edu.cn/kxyj/kyxm/zdtgxm.htm,http_404
+https://www.tsinghua.edu.cn/kxyj/kyjg/kxkjcjg_qx_.htm,http_404

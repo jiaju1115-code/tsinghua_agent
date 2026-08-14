@@ -1,0 +1,29 @@
+{
+  "config": {
+    "fusion": "rrf",
+    "rrf_k": 60,
+    "sparse_top_n": 20,
+    "dense_top_n": 20,
+    "hybrid_top_k": 10
+  },
+  "metrics": {
+    "query_count": 38,
+    "reliable_expected_source_count": 33,
+    "uncertain_expected_source_count": 5,
+    "recall_at_1": 0.6666666666666666,
+    "recall_at_3": 0.8787878787878788,
+    "recall_at_5": 0.9393939393939394,
+    "recall_at_10": 0.9393939393939394,
+    "mrr": 0.7813131313131314,
+    "category_hit_at_5": 0.7368421052631579,
+    "source_hit_at_5": 0.9393939393939394,
+    "evidence_hit_at_5": 0.9696969696969697,
+    "uncertain_query_ids_excluded_from_recall": [
+      "RET-04",
+      "RET-05",
+      "RET-07",
+      "RET-09",
+      "PROV-009"
+    ]
+  }
+}

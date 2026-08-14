@@ -1,0 +1,36 @@
+{
+  "kb_name": "PROVISIONAL_KB_V0",
+  "manifest_approved_rows": 238,
+  "accepted_sources": 238,
+  "rejected_sources": 0,
+  "public_accepted": 234,
+  "restricted_accepted": 4,
+  "chunk_count": 717,
+  "index": {
+    "backend": "sklearn_tfidf_char_ngram",
+    "analyzer": "char",
+    "ngram_range": [
+      2,
+      4
+    ],
+    "max_features": 60000,
+    "normalization": "l2",
+    "device": "cpu",
+    "dimension": 60000,
+    "row_count": 717,
+    "nonzero_values": 556509,
+    "build_seconds": 1.404,
+    "kb_name": "PROVISIONAL_KB_V0",
+    "index_type": "sparse_flat_cosine_scipy_csr",
+    "embedding_input": "title + newline + chunk_text",
+    "embeddings_sha256": "be34ad63d1a14c42468565ded910beef56524cb3932635b75ab314836c5f708b",
+    "vectorizer_sha256": "f7b404243461e0a4bf43c149dabc35547fa9816cc40a5c4450e785e97d14cb9f",
+    "chunks_sha256": "de606ba34b6e599d1152c01a005931f27bb021a2c0000df845438f57afb7cdc1",
+    "created_at_utc": "2026-08-13T11:29:53.637791+00:00",
+    "python": "3.12.5",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit_learn": "1.4.2"
+  }
+}

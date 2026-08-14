@@ -1,0 +1,28 @@
+{
+  "list_pages_requested": 66,
+  "list_pages_ok": 52,
+  "follow_discovered": 20,
+  "follow_fetch_ok": 20,
+  "follow_quality_gate_pass": 13,
+  "quality_classes": {
+    "detail_content": 11,
+    "login_required": 4,
+    "extraction_failed": 2,
+    "thin_content": 2,
+    "private_or_sensitive": 1
+  },
+  "internal_dedup": 0,
+  "by_category": {
+    "住宿服务": 2,
+    "奖助与资助": 1,
+    "学生事务": 5,
+    "就业与职业发展": 1,
+    "教务与学籍": 1,
+    "教学与培养": 3
+  },
+  "by_domain": {
+    "www.tsinghua.edu.cn": 11,
+    "career.tsinghua.edu.cn": 1,
+    "learning.tsinghua.edu.cn": 1
+  }
+}

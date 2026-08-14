@@ -1,0 +1,5 @@
+Due to limited amount of accommodation available on campus, some students will need to live off-campus and arrange accommodation in advance.
+
+When you live off-campus, never forget to register at your local police station to obtain a Registration Form of Temporary Residence within 24 hours after your arrival in China or signing of the rental contract.
+
+The Registration Form of Temporary Residence is another important certificate for your legal stay in China, aside from your passport and visa. Therefore, a special reminder is that before you sign the contract or pay for the rental, do confirm that the owner of the apartment/house property is able to process the accommodation registration for you. Otherwise you will get into trouble of illegal stay. Moreover, you need to renew your Registration Form of Temporary Residence if you have moved to another place, changed your passport or renewed your visa.

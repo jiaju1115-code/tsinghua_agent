@@ -1,0 +1,21 @@
+{
+  "id": "THU000022",
+  "relevance_score": 58,
+  "knowledge_value": 32,
+  "category": "其他",
+  "subcategory": "科研项目概览",
+  "content_type": "科研信息",
+  "authority": "high",
+  "freshness": "unknown",
+  "time_sensitivity": "low",
+  "contains_actionable_information": false,
+  "personal_data_risk": "none",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华官网科研项目介绍页，权威性高，内容为科研信息概览，适合作为校园知识库参考，但缺少具体办事信息。",
+  "source_markdown_path": "knowledge/01_raw/THU000022_科研项目-清华大学.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "legacy_public"
+}

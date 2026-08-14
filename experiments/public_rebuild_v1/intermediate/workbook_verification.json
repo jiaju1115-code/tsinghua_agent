@@ -1,0 +1,92 @@
+[
+  {
+    "xlsxRel": "source_manifest/public_v1_300_urls.xlsx",
+    "rows": 300,
+    "columns": 9,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_01.png",
+    "humanPreviewPath": "",
+    "formulaErrors": [],
+    "formulaCount": 0
+  },
+  {
+    "xlsxRel": "diagnostics/public_v1_300_rebuild_quality.xlsx",
+    "rows": 300,
+    "columns": 23,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_02.png",
+    "humanPreviewPath": "",
+    "formulaErrors": [],
+    "formulaCount": 0
+  },
+  {
+    "xlsxRel": "diagnostics/rebuild_extraction_failed.xlsx",
+    "rows": 58,
+    "columns": 23,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_03.png",
+    "humanPreviewPath": "",
+    "formulaErrors": [],
+    "formulaCount": 0
+  },
+  {
+    "xlsxRel": "list_pages/rebuild_list_pages.xlsx",
+    "rows": 24,
+    "columns": 27,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_04.png",
+    "humanPreviewPath": "",
+    "formulaErrors": [],
+    "formulaCount": 0
+  },
+  {
+    "xlsxRel": "follow_pages/followed_detail_pages.xlsx",
+    "rows": 17,
+    "columns": 23,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_05.png",
+    "humanPreviewPath": "",
+    "formulaErrors": [],
+    "formulaCount": 0
+  },
+  {
+    "xlsxRel": "audit/public_rebuild_v1_all_audited.xlsx",
+    "rows": 217,
+    "columns": 26,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_06.png",
+    "humanPreviewPath": "",
+    "formulaErrors": [],
+    "formulaCount": 0
+  },
+  {
+    "xlsxRel": "audit/public_rebuild_v1_approved.xlsx",
+    "rows": 89,
+    "columns": 26,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_07.png",
+    "humanPreviewPath": "",
+    "formulaErrors": [],
+    "formulaCount": 0
+  },
+  {
+    "xlsxRel": "audit/public_rebuild_v1_review.xlsx",
+    "rows": 1,
+    "columns": 26,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_08.png",
+    "humanPreviewPath": "",
+    "formulaErrors": [],
+    "formulaCount": 0
+  },
+  {
+    "xlsxRel": "audit/public_rebuild_v1_rejected.xlsx",
+    "rows": 127,
+    "columns": 26,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_09.png",
+    "humanPreviewPath": "",
+    "formulaErrors": [],
+    "formulaCount": 0
+  },
+  {
+    "xlsxRel": "human_check/public_rebuild_v1_human_check.xlsx",
+    "rows": 30,
+    "columns": 15,
+    "previewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_10.png",
+    "humanPreviewPath": "D:\\python_projects\\tsinghua_ai\\data_second\\public_rebuild_v1\\intermediate\\preview_10_human.png",
+    "formulaErrors": [],
+    "formulaCount": 0
+  }
+]

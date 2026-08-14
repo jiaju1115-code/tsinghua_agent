@@ -1,0 +1,94 @@
+{
+  "created_utc": "2026-08-13T14:23:15.176397+00:00",
+  "status": "PASS",
+  "external_tree": {
+    "before_file_count": 51336,
+    "after_file_count": 51336,
+    "added": [],
+    "removed": [],
+    "metadata_changed": []
+  },
+  "critical_inputs": {
+    "rag_v0_chunks": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v0\\chunks\\chunks.jsonl",
+      "exists": true,
+      "expected_sha256": "de606ba34b6e599d1152c01a005931f27bb021a2c0000df845438f57afb7cdc1",
+      "actual_sha256": "de606ba34b6e599d1152c01a005931f27bb021a2c0000df845438f57afb7cdc1",
+      "unchanged": true
+    },
+    "rag_v0_smoke_results": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v0\\retrieval_results\\retrieval_smoke_results.jsonl",
+      "exists": true,
+      "expected_sha256": "f91c1e5f865f610fe7ad47bf51efca245b57030aa56b595fc54544372cb96aee",
+      "actual_sha256": "f91c1e5f865f610fe7ad47bf51efca245b57030aa56b595fc54544372cb96aee",
+      "unchanged": true
+    },
+    "rag_v1_config": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\config\\retrieval.yaml",
+      "exists": true,
+      "expected_sha256": "e15f52d45d756529a895227c161e6e41d72cf04abc1ccaef9992e39741b706cb",
+      "actual_sha256": "e15f52d45d756529a895227c161e6e41d72cf04abc1ccaef9992e39741b706cb",
+      "unchanged": true
+    },
+    "rag_v1_eval_queries": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\evaluation\\eval_queries.jsonl",
+      "exists": true,
+      "expected_sha256": "a70e5da1d7f58a1e6a05242c1e0e157841007d4c1c1f329de8eaf41a3e0133c9",
+      "actual_sha256": "a70e5da1d7f58a1e6a05242c1e0e157841007d4c1c1f329de8eaf41a3e0133c9",
+      "unchanged": true
+    },
+    "rag_v1_dense_results": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\evaluation\\results_dense.jsonl",
+      "exists": true,
+      "expected_sha256": "8cf79b966d0288734a609a651b48d4fae700ccd2f9c2adf5879cb671d5eb495e",
+      "actual_sha256": "8cf79b966d0288734a609a651b48d4fae700ccd2f9c2adf5879cb671d5eb495e",
+      "unchanged": true
+    },
+    "rag_v1_dense_evidence": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\evaluation\\recommended_dense_evidence.jsonl",
+      "exists": true,
+      "expected_sha256": "bf96a2bad5bf1c06d0d974fab0a581e65b543ed8f1fc968a7456b5083bd90961",
+      "actual_sha256": "bf96a2bad5bf1c06d0d974fab0a581e65b543ed8f1fc968a7456b5083bd90961",
+      "unchanged": true
+    },
+    "rag_v1_dense_embeddings": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\indexes\\dense\\document_embeddings.npy",
+      "exists": true,
+      "expected_sha256": "6fedbb90ebf69653a8ffd6f8a1381b6ab389fbb66fa1a5558853ed81770e8059",
+      "actual_sha256": "6fedbb90ebf69653a8ffd6f8a1381b6ab389fbb66fa1a5558853ed81770e8059",
+      "unchanged": true
+    },
+    "rag_v1_dense_row_mapping": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\indexes\\dense\\row_mapping.jsonl",
+      "exists": true,
+      "expected_sha256": "e1e42dd27962cd4c6b43af45ff5e64ccc30ab4a9ff01ef37dcc140867946904c",
+      "actual_sha256": "e1e42dd27962cd4c6b43af45ff5e64ccc30ab4a9ff01ef37dcc140867946904c",
+      "unchanged": true
+    },
+    "rag_v1_dense_report": {
+      "path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\indexes\\dense\\index_report.json",
+      "exists": true,
+      "expected_sha256": "93e78a433060ef5713d98d8bde3ac94e34d2d231b7985d35fe87eefb7d12fdd4",
+      "actual_sha256": "93e78a433060ef5713d98d8bde3ac94e34d2d231b7985d35fe87eefb7d12fdd4",
+      "unchanged": true
+    },
+    "generation_model": {
+      "path": "C:\\Users\\林宇轩\\.cache\\huggingface\\hub\\models--Qwen--Qwen2.5-1.5B-Instruct-GGUF\\snapshots\\91cad51170dc346986eccefdc2dd33a9da36ead9\\qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "exists": true,
+      "expected_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+      "actual_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+      "unchanged": true
+    }
+  },
+  "output_scope": {
+    "all_new_outputs_under_answer_eval_v0": true,
+    "output_file_count_before_final_report": 171
+  },
+  "protected_areas": {
+    "rag_v0_modified": false,
+    "rag_v1_modified": false,
+    "human_audit_modified": false,
+    "prompt_v3_2_modified": false,
+    "production_modified": false
+  }
+}

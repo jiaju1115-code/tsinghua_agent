@@ -1,0 +1,41 @@
+{
+  "list_pages_requested": 17,
+  "list_pages_ok": 12,
+  "discovered": 121,
+  "title_dedup": 2,
+  "fetch_ok": 121,
+  "quality_gate_pass": 94,
+  "quality_classes": {
+    "extraction_failed": 20,
+    "detail_content": 75,
+    "thin_content": 15,
+    "soft_404": 1,
+    "template_polluted": 6,
+    "private_or_sensitive": 1,
+    "list_page": 2,
+    "navigation_only": 1
+  },
+  "internal_dedup": 3,
+  "by_category": {
+    "教学与培养": 14,
+    "校园文化与历史": 22,
+    "校园机构与部门": 39,
+    "清华基本信息": 2,
+    "科研参与与资源导航": 17
+  },
+  "by_domain": {
+    "www.tsinghua.edu.cn": 82,
+    "www.tuef.tsinghua.edu.cn": 1,
+    "yz.tsinghua.edu.cn": 1,
+    "www.itc.tsinghua.edu.cn": 1,
+    "www.jgb.tsinghua.edu.cn": 1,
+    "lib.tsinghua.edu.cn": 1,
+    "www.rd.tsinghua.edu.cn": 1,
+    "www.sysc.tsinghua.edu.cn": 1,
+    "www.tyzx.tsinghua.edu.cn": 1,
+    "xsg.tsinghua.edu.cn": 1,
+    "xyy.tsinghua.edu.cn": 1,
+    "zkzx.tsinghua.edu.cn": 1,
+    "tsimf.tsinghua.edu.cn": 1
+  }
+}

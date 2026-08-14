@@ -1,0 +1,21 @@
+{
+  "fixed_urls": 300,
+  "fetch_success": 300,
+  "fetch_failed": 0,
+  "quality_classes": {
+    "detail_content": 178,
+    "template_polluted": 10,
+    "list_page": 24,
+    "thin_content": 30,
+    "content_missing": 51,
+    "navigation_only": 7
+  },
+  "quality_gate_pass": 208,
+  "list_pages": 24,
+  "list_follow_yes": 11,
+  "follow_discovered": 274,
+  "follow_selected_after_dedupe": 17,
+  "follow_fetch_success": 17,
+  "follow_quality_gate_pass": 9,
+  "audit_candidates": 217
+}

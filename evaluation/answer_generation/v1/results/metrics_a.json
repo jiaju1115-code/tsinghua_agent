@@ -1,0 +1,25 @@
+{
+  "scope": "PROVISIONAL_AUTO_EVAL",
+  "completed": 38,
+  "correctness_mean_0_2": 1.9737,
+  "correctness_normalized": 0.9868,
+  "faithfulness_mean_0_2": 1.9737,
+  "faithfulness_normalized": 0.9868,
+  "unsupported_claims": 3,
+  "total_claims": 143,
+  "unsupported_claim_rate": 0.021,
+  "citation_compliant_count": 2,
+  "citation_compliance_rate": 0.0526,
+  "correct_refusal_count": 2,
+  "inappropriate_refusal_count": 0,
+  "hallucination_answer_count": 3,
+  "label_distribution": {
+    "MISSING_CITATION": 34,
+    "CITATION_FORMAT_ERROR": 2,
+    "SOURCE_QUALITY_FAILURE": 2,
+    "RETRIEVAL_FAILURE": 3,
+    "GENERATION_HALLUCINATION": 3,
+    "OVERCONFIDENT_ANSWER": 3
+  },
+  "avg_evaluator_latency_seconds": 15.8837
+}

@@ -1,0 +1,13 @@
+{
+  "action": "approve",
+  "reject_type": "",
+  "category": "图书馆服务",
+  "content_type": "news_event",
+  "audience": "清华师生，尤其研究生和青年科研人员",
+  "time_status": "historical_but_valuable",
+  "candidate_user_question": "清华图书馆如何支持IEEE论文投稿与开放获取？",
+  "positive_evidence": "正文说明图书馆持续与出版社、学协会及出版平台合作，通过举办“期刊编辑进校园”系列讲座、推进开放出版转换协议、争取开放出版优惠、开展开放获取支出监测和开放科学研究等方式，为师生提供学术传播与投稿支持；同时介绍了IEEE出版资源、IEEE Xplore文献调研、开放获取解决方案、数字图书馆使用技巧、作者工具应用以及清华大学IEEE OA发文优惠。",
+  "negative_evidence": "具体活动发生于5月26日，属于单次讲座报道；其中“发文优惠”可能带有时间条件，页面主体仍是活动新闻而非独立办事指南。",
+  "possible_duplicate": false,
+  "reason": "页面虽然是一次讲座的新闻报道，但正文包含清华图书馆面向师生的持续性学术出版支持、IEEE Xplore使用、开放获取与作者工具等可复用信息，属于图书馆服务与科研资源导航范畴，具有保留价值。"
+}

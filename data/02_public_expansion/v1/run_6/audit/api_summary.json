@@ -1,0 +1,16 @@
+{
+  "total_calls": 300,
+  "successes": 300,
+  "failures": 0,
+  "resumed_completed_calls": 10,
+  "network_request_attempts": 300,
+  "actual_retries": 0,
+  "configured_network_retries_per_call": 2,
+  "automatic_extra_model_rounds": 0,
+  "max_concurrency": 3,
+  "actions": {
+    "approve": 153,
+    "reject": 115,
+    "review": 32
+  }
+}

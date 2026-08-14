@@ -1,0 +1,21 @@
+{
+  "protocol": "CODEX_BLIND_TEST_V1",
+  "phase": 1,
+  "status": "PREDICTIONS_FROZEN",
+  "prediction_count": 50,
+  "prediction_file": "D:\\python_projects\\tsinghua_ai\\data_second\\prompt_v3_2_blind_test_v1\\codex_evaluation\\audit\\codex_blind_predictions.jsonl",
+  "prediction_sha256": "07ecca5b83a1f1a0fe63fe416c404589114c8c59aef87ecadd82966bf09f6847",
+  "human_labels_read_before_freeze": false,
+  "historical_ai_results_read_before_freeze": false,
+  "project_inputs_read_before_freeze": "blind_bundle_v1 only",
+  "action_distribution": {
+    "approve": 29,
+    "review": 1,
+    "reject": 20
+  },
+  "topic_relevance_distribution": {
+    "high": 30,
+    "medium": 2,
+    "low": 18
+  }
+}

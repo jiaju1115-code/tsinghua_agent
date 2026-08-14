@@ -1,0 +1,80 @@
+{
+  "sample_size": 30,
+  "v2_vs_human": {
+    "agree": 24,
+    "disagree": 6,
+    "rate": 0.8
+  },
+  "v3_vs_human": {
+    "agree": 24,
+    "disagree": 6,
+    "rate": 0.8
+  },
+  "v3_actions": {
+    "reject": 13,
+    "approve": 15,
+    "review": 2
+  },
+  "reject_types": {
+    "expired_event": 6,
+    "out_of_scope": 7
+  },
+  "transitions": {
+    "approve→reject": 1,
+    "approve→approve": 9,
+    "review→approve": 1,
+    "reject→reject": 12,
+    "reject→review": 2,
+    "reject→approve": 5
+  },
+  "v3_disagreements": [
+    {
+      "id": "PUBEXP000076",
+      "title": "East View斯大林数字化档案数据库开通试用（2026年7月14日-2026年9月8日）-清华大学图书馆",
+      "V3": "approve",
+      "human": "review",
+      "reject_type": "",
+      "reason": "页面主体属于清华大学图书馆的电子资源试用公告，提供可复用的数据库内容介绍、访问入口和访问方式，且在当前试用期内，适合作为图书馆资源信息入库。"
+    },
+    {
+      "id": "PUBEXP000233",
+      "title": "2026经济与金融数据课堂第五讲 | 利用排排网私募数据库进行金融研究-清华大学图书馆",
+      "V3": "approve",
+      "human": "reject",
+      "reject_type": "",
+      "reason": "页面主体虽为已结束的‘经济与金融数据课堂’单场讲座通知，但正文包含可长期复用的清华图书馆数据库资源信息、访问方式和数据覆盖说明，适合作为科研数据资源条目保留。"
+    },
+    {
+      "id": "PUBFOLLOW000007",
+      "title": "新展|从觉醒到黎明：文献里的清华红色记忆（1919-1949）",
+      "V3": "review",
+      "human": "reject",
+      "reject_type": "",
+      "reason": "正文属于清华图书馆主办的红色文献专题展览通知，提供了展览主题、展出地点和讲解预约方式，具有清华校园文化与图书馆资源价值；但其为时间相关活动，当前是否仍在展期需确认，因此建议复核。"
+    },
+    {
+      "id": "PUBEXP000119",
+      "title": "期刊编辑进校园IEEE专场活动在图书馆举办-清华大学图书馆",
+      "V3": "approve",
+      "human": "reject",
+      "reject_type": "",
+      "reason": "页面虽然是一次讲座的新闻报道，但正文包含清华图书馆面向师生的持续性学术出版支持、IEEE Xplore使用、开放获取与作者工具等可复用信息，属于图书馆服务与科研资源导航范畴，具有保留价值。"
+    },
+    {
+      "id": "PUBEXP000293",
+      "title": "第51期：前UNESCO教育助理总干事唐虔——我在国际组织的25年-清华大学图书馆",
+      "V3": "approve",
+      "human": "reject",
+      "reject_type": "",
+      "reason": "页面虽以单场活动新闻呈现，但正文包含清华图书馆长期举办的‘真人图书馆’系列活动介绍及其组织信息，属于可复用的校园文化/图书馆服务知识。"
+    },
+    {
+      "id": "PUBEXP000299",
+      "title": "第32期：金峰——工程的魅力-清华大学图书馆",
+      "V3": "approve",
+      "human": "reject",
+      "reject_type": "",
+      "reason": "页面虽是单次活动报道，但正文包含“真人图书馆”这一清华图书馆联合学生组织和文化素质教育基地开展的长期活动机制、组织方与活动形式，具备可复用的校园文化知识价值，可作为历史但有价值的条目保留。"
+    }
+  ]
+}

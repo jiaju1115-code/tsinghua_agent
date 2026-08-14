@@ -1,0 +1,10 @@
+{"case_id":"RET-01","domain":"教务学籍","query":"如何查询清华大学本科生学籍、注册与培养管理规定？","expected_categories":["教务与学籍"],"expected_keywords":["学籍","注册","本科"],"top_k":5}
+{"case_id":"RET-02","domain":"住宿","query":"学生公寓住宿规定、入住和退宿怎么办？","expected_categories":["住宿服务","学生事务","教务与学籍"],"expected_keywords":["公寓","住宿","退宿"],"top_k":5}
+{"case_id":"RET-03","domain":"校园网","query":"清华校园网如何接入，账号或网络故障如何处理？","expected_categories":["网络与信息化","校园综合服务"],"expected_keywords":["校园网","网络","接入"],"top_k":5}
+{"case_id":"RET-04","domain":"医疗","query":"清华校医院门诊、报销和就医流程是什么？","expected_categories":["医疗健康"],"expected_keywords":["校医院","就医","报销"],"top_k":5}
+{"case_id":"RET-05","domain":"图书馆","query":"清华大学图书馆如何借书、使用电子资源和查询开放时间？","expected_categories":["图书馆服务","校园综合服务"],"expected_keywords":["图书馆","借阅","电子资源"],"top_k":5}
+{"case_id":"RET-06","domain":"奖助","query":"清华学生奖学金、助学金申请和评选办法是什么？","expected_categories":["奖助与资助"],"expected_keywords":["奖学金","助学","资助"],"top_k":5}
+{"case_id":"RET-07","domain":"就业","query":"清华学生如何获得就业指导、招聘与职业咨询？","expected_categories":["就业与职业发展"],"expected_keywords":["就业","职业","招聘"],"top_k":5}
+{"case_id":"RET-08","domain":"餐饮","query":"校内食堂、餐饮服务和就餐信息在哪里查询？","expected_categories":["餐饮服务","校园综合服务"],"expected_keywords":["食堂","餐饮","就餐"],"top_k":5}
+{"case_id":"RET-09","domain":"交通","query":"校园交通、校车和进出校路线怎么查询？","expected_categories":["交通服务","校园访问"],"expected_keywords":["交通","校车","路线"],"top_k":5}
+{"case_id":"RET-10","domain":"体育场馆","query":"体育场馆如何预约、查询开放时间和使用规则？","expected_categories":["体育与场馆"],"expected_keywords":["体育","场馆","预约"],"top_k":5}

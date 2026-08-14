@@ -1,0 +1,76 @@
+{
+  "scope": "PROVISIONAL_AUTO_EVAL",
+  "questions": 38,
+  "a_prompt_sha_matches_v0": true,
+  "a_answer_exact_match_v0_count": 38,
+  "group_a": {
+    "scope": "PROVISIONAL_AUTO_EVAL",
+    "completed": 38,
+    "correctness_mean_0_2": 1.9737,
+    "correctness_normalized": 0.9868,
+    "faithfulness_mean_0_2": 1.9737,
+    "faithfulness_normalized": 0.9868,
+    "unsupported_claims": 3,
+    "total_claims": 143,
+    "unsupported_claim_rate": 0.021,
+    "citation_compliant_count": 2,
+    "citation_compliance_rate": 0.0526,
+    "correct_refusal_count": 2,
+    "inappropriate_refusal_count": 0,
+    "hallucination_answer_count": 3,
+    "label_distribution": {
+      "MISSING_CITATION": 34,
+      "CITATION_FORMAT_ERROR": 2,
+      "SOURCE_QUALITY_FAILURE": 2,
+      "RETRIEVAL_FAILURE": 3,
+      "GENERATION_HALLUCINATION": 3,
+      "OVERCONFIDENT_ANSWER": 3
+    },
+    "avg_evaluator_latency_seconds": 15.8837
+  },
+  "group_b": {
+    "scope": "PROVISIONAL_AUTO_EVAL",
+    "completed": 38,
+    "correctness_mean_0_2": 1.9211,
+    "correctness_normalized": 0.9605,
+    "faithfulness_mean_0_2": 2.0,
+    "faithfulness_normalized": 1.0,
+    "unsupported_claims": 5,
+    "total_claims": 152,
+    "unsupported_claim_rate": 0.0329,
+    "citation_compliant_count": 0,
+    "citation_compliance_rate": 0.0,
+    "correct_refusal_count": 0,
+    "inappropriate_refusal_count": 1,
+    "hallucination_answer_count": 5,
+    "label_distribution": {
+      "MISSING_CITATION": 36,
+      "SOURCE_QUALITY_FAILURE": 2,
+      "GENERATION_HALLUCINATION": 5,
+      "OVERCONFIDENT_ANSWER": 5,
+      "RETRIEVAL_FAILURE": 3,
+      "CITATION_FORMAT_ERROR": 1
+    },
+    "avg_evaluator_latency_seconds": 16.4441
+  },
+  "delta": {
+    "correctness_normalized": -0.0263,
+    "faithfulness_normalized": 0.0132,
+    "unsupported_claim_rate": 0.0119,
+    "citation_compliance_rate": -0.0526,
+    "correct_refusal_count": -2,
+    "hallucination_answer_count": 2
+  },
+  "per_question_change": {
+    "uncertain": 28,
+    "degraded": 4,
+    "unchanged": 6
+  },
+  "human_validated_metrics": {
+    "correctness": null,
+    "faithfulness": null,
+    "unsupported_claim_rate": null,
+    "citation_compliance": null,
+    "reason": "Human review fields are blank; scores are local-model provisional proxies."
+  }
+}

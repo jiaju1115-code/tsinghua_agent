@@ -1,0 +1,962 @@
+[
+  {
+    "path": ".gitignore",
+    "size": 59,
+    "sha256": "50e7a551a02ff3be12256cba6245739bab9aa12d79ad1190e21a62e88d0e61cf"
+  },
+  {
+    "path": "__pycache__/main.cpython-312.pyc",
+    "size": 1456,
+    "sha256": "c83693037dea664ec97173a9232a36deec83bf8d1315a8cbe402a84bf79bee83"
+  },
+  {
+    "path": "config.yaml",
+    "size": 914,
+    "sha256": "068d24f1812713a0abe91d5d1dd4aec4c6e5bc9dbae147bb752ea70bf04c4969"
+  },
+  {
+    "path": "crawler/__init__.py",
+    "size": 32,
+    "sha256": "17ae4d1fd0750e8817e4e668d79c8e941708eed9bfd383d75565cbf233416c2a"
+  },
+  {
+    "path": "crawler/discovery.py",
+    "size": 646,
+    "sha256": "cb8ee04927aef01e94ee99774915fe8b368cbec955a4e3f8f94836c1cf5f6bcd"
+  },
+  {
+    "path": "crawler/fetcher.py",
+    "size": 3283,
+    "sha256": "0392831ffdb906b1ccf89a19d8b00e350304966a3194fb8a85ac5dd982f198e8"
+  },
+  {
+    "path": "crawler/markdown_writer.py",
+    "size": 3135,
+    "sha256": "9e74d4944160f7afc770af6b765cf2dff79da362df19c45fe2c48e5b8088d0cb"
+  },
+  {
+    "path": "crawler/parser.py",
+    "size": 3925,
+    "sha256": "d54d873b1e9fed21e49c4a0d35b0de9b5d14cb6534332c8ee463b0a7db1a7bef"
+  },
+  {
+    "path": "crawler/prioritizer.py",
+    "size": 892,
+    "sha256": "7275efc103c37bca38311245af6ca8fbc58cf141e3c9903163bbe98f60ebe68f"
+  },
+  {
+    "path": "crawler/runner.py",
+    "size": 9061,
+    "sha256": "38e301a2f44c0ee5425d6a78e9a4a3738921086943092cd715b178d7a7d9563c"
+  },
+  {
+    "path": "crawler/similarity.py",
+    "size": 602,
+    "sha256": "bc2ee48e985dd7cc89baaba519a5f71b2108ba8b8d27e4c1eb6e9746a9d10c56"
+  },
+  {
+    "path": "crawler/sitemap.py",
+    "size": 1571,
+    "sha256": "4c360bdcc013f037a3b960d0334ba25a4294c7b3d323fa099de11b80ef7b01e0"
+  },
+  {
+    "path": "crawler/state.py",
+    "size": 4788,
+    "sha256": "52df0b0bbf735e1273e878e8ee912b1c5c18b9fb09dbe8113049e6bb7bb934c1"
+  },
+  {
+    "path": "data/auth/storage_state.json",
+    "size": 1914,
+    "sha256": "0739446878cfabe76f2ecd225b793c227ef46c5d5c2af3648ad063b79813320e"
+  },
+  {
+    "path": "data/crawl_state.db",
+    "size": 442368,
+    "sha256": "2ed0cd19925c41a603b5ef1131e14b337051af38ed708bd9c3a1f63a917e26fe"
+  },
+  {
+    "path": "data/portal_state.db",
+    "size": 155648,
+    "sha256": "61113443096b6360c235b00954dd9c23e9bf61b54a8832e705732f48e3b04bee"
+  },
+  {
+    "path": "knowledge/01_raw/THU000001_清华大学.md",
+    "size": 3892,
+    "sha256": "6f119aa0167eeead1cd6592583f35e06e62e8e291f6afc2303d81b6e533ab311"
+  },
+  {
+    "path": "knowledge/01_raw/THU000002_访客-清华大学.md",
+    "size": 984,
+    "sha256": "1aaf0235475a1e79474c332366e4a4021d32945cce6c3fbcd1c1a15e15867f18"
+  },
+  {
+    "path": "knowledge/01_raw/THU000003_清华大学教育基金会.md",
+    "size": 3046,
+    "sha256": "bcb5b81d439565ea604f0ed5fc16ba59110b8f48a7fbd76488a56d581e37adcd"
+  },
+  {
+    "path": "knowledge/01_raw/THU000004_Tsinghua University.md",
+    "size": 850,
+    "sha256": "97242fabdacb0febca9be43a533ec14ebda56c87bb416bf365aa39b5b32b5b64"
+  },
+  {
+    "path": "knowledge/01_raw/THU000005_清华新闻-清华大学.md",
+    "size": 9469,
+    "sha256": "d27cc9d57c044ec32203d693f78edbbaeb30960746a133d45942d102c19e2316"
+  },
+  {
+    "path": "knowledge/01_raw/THU000006_学校概况-清华大学.md",
+    "size": 2126,
+    "sha256": "2d3e9dae8e4cf19035c0d939dce36e39ac0218033dc064b4367c6b6db82eab7a"
+  },
+  {
+    "path": "knowledge/01_raw/THU000007_校庆献辞-清华大学.md",
+    "size": 8673,
+    "sha256": "2b8faabc896c73a53c50bc47ef97d4a1b546eef4b8793a77c2ec308df6657b2b"
+  },
+  {
+    "path": "knowledge/01_raw/THU000008_学校沿革-清华大学.md",
+    "size": 5621,
+    "sha256": "91f7e7e8939f7d5c2065c5332b7570fe0e4a4759bc6575ca1e15fb0f0938662c"
+  },
+  {
+    "path": "knowledge/01_raw/THU000009_历任领导-清华大学.md",
+    "size": 2352,
+    "sha256": "165827996fc38a0eb1cef905b4fcdfaa72c4f67f5bb55fff9a139b638ea600ad"
+  },
+  {
+    "path": "knowledge/01_raw/THU000010_清华大学图书馆.md",
+    "size": 4847,
+    "sha256": "91c930ae75535e63e7ad28c73baad447e460b367d1a531b0437417b4cac0d11f"
+  },
+  {
+    "path": "knowledge/01_raw/THU000011_现任领导-清华大学.md",
+    "size": 1094,
+    "sha256": "75c6c3e930a7582d6d63375ef9b2a05664203fdfce39735b28887b2bad849db7"
+  },
+  {
+    "path": "knowledge/01_raw/THU000012_组织机构-清华大学.md",
+    "size": 3199,
+    "sha256": "1238896c18b6834f6808cab89072c2d147413bda3d7ff0ee61459e3f8e28b0c3"
+  },
+  {
+    "path": "knowledge/01_raw/THU000013_统计资料-清华大学.md",
+    "size": 2476,
+    "sha256": "0babe4f6b657d02933c4e945e6ad9bc0f397ed36c2292a2f3da481956655f8dd"
+  },
+  {
+    "path": "knowledge/01_raw/THU000014_信息公开-清华大学.md",
+    "size": 1246,
+    "sha256": "27f6b83d4b5fcab623ea94ba1ae56cd3e7a67ee64910cc5947d2304d7a1e902e"
+  },
+  {
+    "path": "knowledge/01_raw/THU000015_院系设置-清华大学.md",
+    "size": 2065,
+    "sha256": "591de721b0678181b7b6f47468e05055ab697bb3c2e0355bc77b456601510937"
+  },
+  {
+    "path": "knowledge/01_raw/THU000016_教育教学-清华大学.md",
+    "size": 1741,
+    "sha256": "218dd05feb60c1a5b41bec27d759bd8ea6465637635153002475eec779f53772"
+  },
+  {
+    "path": "knowledge/01_raw/THU000017_本科生教育-清华大学.md",
+    "size": 1617,
+    "sha256": "f4234c0eb0ff08eb2a644d89f614d8e8bdd1abbe5c68360f7d142e241c097914"
+  },
+  {
+    "path": "knowledge/01_raw/THU000018_研究生教育-清华大学.md",
+    "size": 2562,
+    "sha256": "de4e29f5df7f3c880be03ce98f76a009c9185ff1385a071c06169cf9e882b40b"
+  },
+  {
+    "path": "knowledge/01_raw/THU000019_在线教育-清华大学.md",
+    "size": 1834,
+    "sha256": "01cf8695ae5167ac0cc50e75cd9e7b839355728e5c91f75530c3e96a0780ee5b"
+  },
+  {
+    "path": "knowledge/01_raw/THU000020_终身教育-清华大学.md",
+    "size": 2525,
+    "sha256": "4ac8d2c92b6d1ef359d3bfa4be5637076c332bd70964ff7d0bba60770c284de1"
+  },
+  {
+    "path": "knowledge/01_raw/THU000021_科学研究-清华大学.md",
+    "size": 1717,
+    "sha256": "ff42ac28cc6ca674e2998bfe54d30a651deeee6aebe8a57aab1e50bfdceb8509"
+  },
+  {
+    "path": "knowledge/01_raw/THU000022_科研项目-清华大学.md",
+    "size": 1056,
+    "sha256": "dfdf95a40803c9d24ed73fb64782bcfa7a95affe667dfd32fcfba2545104ab0a"
+  },
+  {
+    "path": "knowledge/01_raw/THU000023_科研机构-清华大学.md",
+    "size": 1249,
+    "sha256": "1bc6ee5709c211a7b45f4f3fe2a851397dd7cf7d27ebe8564663f797d77888fd"
+  },
+  {
+    "path": "knowledge/01_raw/THU000024_科研合作-清华大学.md",
+    "size": 1162,
+    "sha256": "26ba6c26000e9b78aea1504a166becc87af788f0cc2513662e2b8b39e10d1dba"
+  },
+  {
+    "path": "knowledge/01_raw/THU000025_科研成果-清华大学.md",
+    "size": 1059,
+    "sha256": "6940ddecec3a54c91ee0ff6a36cafa3bd19bbf811262903f140aeea4d1a03aab"
+  },
+  {
+    "path": "knowledge/01_raw/THU000026_技术转移-清华大学.md",
+    "size": 2645,
+    "sha256": "14550e45d10c6f6083e3ecb32095631ccec9c7116d51ff6c024be51037e4259d"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000001_服务指南.md",
+    "size": 20696,
+    "sha256": "ebed1252abf458aa3ca3ca3688b39e32f796989bc417865a5fe1d1f1c6c3f282"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000002_清华大学党政办信息办公网.md",
+    "size": 2528,
+    "sha256": "07479c3a2e962dba1e9079abcb8980e89d438b57af8bc302598e284fc6f62a9a"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000003_清华大学科研办公信息网.md",
+    "size": 10513,
+    "sha256": "de7abdd0c925072b9a2a2e96cc63829df3ab40f669b11568db796ebbbb7bcb43"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000004_信息资讯-国际合作与交流处_港澳台办公室.md",
+    "size": 111720,
+    "sha256": "520ee4765d5b67c569127bb5ba17555734a13328c095cc5c41a9b7b249d39ed7"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000005_马耳他（申根） - 清华大学信息门户.md",
+    "size": 3605,
+    "sha256": "eeb0c52c0f39cecd1069890f3242c0199a7fabf3b90b053f0c50537ac765cd29"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000006_境内延期F字访问签证办事指南 - 清华大学信息门户.md",
+    "size": 3120,
+    "sha256": "45a4931bb6119c37accc75fedcaae860cc2e2c6e5c76e8d2a0563b0c8ebefe51"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000007_办事程序.md",
+    "size": 1325,
+    "sha256": "9bfea239326ea96c28e59489dfeac918caba3d0fd6761156f7b673406a70088a"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000008_清华大学医院.md",
+    "size": 13379,
+    "sha256": "901a92e0adc66815bdbcd167fbba0382deee2ecbd256dacf1feb8f12d94de4d9"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000009_2025年清华大学后勤技能标兵——房亚哲-清华大学医院.md",
+    "size": 2365,
+    "sha256": "8be3cbd35f49638ce6253b4c71144d99c5c8ad1dc76d7ff761d82c32ca0f2d46"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000010_2025年清华大学后勤服务标兵——李英男-清华大学医院.md",
+    "size": 2365,
+    "sha256": "1ec7cb1470d699e367428f683d4529c93e5d021f25eab458b2fa8b929b153dd2"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000011_2024年清华大学后勤服务标兵--申艳霞-清华大学医院.md",
+    "size": 2353,
+    "sha256": "b7dcfecc31cb7618b99c198291dd796adfb325fd0423feb723f7d025d619c2d4"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000012_校医院-清华大学医院.md",
+    "size": 1952,
+    "sha256": "d318b954a4a1ffc86c01b17be1e8cfb28c957f85c3ea3b23af96b4ccc787b439"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000013_校医院开展爱眼日义诊活动-清华大学医院.md",
+    "size": 2013,
+    "sha256": "ba01f082f993f4872937eeccfac7a61f03444a3b266c1c6d74de619e5893c724"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000014_2023年度校级先进工作者——聂庆东-清华大学医院.md",
+    "size": 2347,
+    "sha256": "aab480d544ace3b46c5de7bb3e8eb989806d54e059d610b56c2055f822d590ff"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000015_疫苗接种-清华大学医院.md",
+    "size": 1450,
+    "sha256": "5ed6a2c014fa3600f639475d437ad6eddb7592c1e014ac29c369c8c57768b52f"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000016_校医院9价HPV、乙肝疫苗预约接种通知-清华大学医院.md",
+    "size": 2052,
+    "sha256": "93a8f2affeda531ff4a641e7141d96a9e29bea0f6e399e5dd622dc148d5fb0e1"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000017_校医院自费9价HPV、乙肝疫苗预约接种通知-清华大学医院.md",
+    "size": 2070,
+    "sha256": "3d0c74639f60b5caa00848456050f79a8d7d6f8fbf2c49d0b8dd38894aa7571f"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000018_10月份校医院自费流感疫苗预约接种通知-清华大学医院.md",
+    "size": 2064,
+    "sha256": "29bf28bde66bd7aad073b3dd345c516c4e11b67acb5d58fe821d01c2f4f48150"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000019_9月份校医院自费流感疫苗预约接种通知-清华大学医院.md",
+    "size": 2061,
+    "sha256": "d204cd1a54cf5bd82161d5eefddc35a15d02ea0677e4bb5d8e4d8c3f59dd0314"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000020_校医院9价HPV疫苗预约接种通知-清华大学医院.md",
+    "size": 2025,
+    "sha256": "c47afac91598fcf134ef02c8230337e5fcf6e2cc831909a95b4537cdefc18d8e"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000021_校医院第一针九价HPV疫苗预约接种通知-清华大学医院.md",
+    "size": 2058,
+    "sha256": "c20a759f1a6ac8e06cf6a94815cf35cf3094ca45c74d88554b34dd5c5009c405"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000022_专家就诊通知-清华大学医院.md",
+    "size": 3503,
+    "sha256": "37ebddd4adaaf8b75a2519268a252c8c17789ba038cade5540ff5f825a5adef8"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000023_清华大学医院联合本草小象开展大暑顺时养生主题活动-清华大学医院.md",
+    "size": 2121,
+    "sha256": "9c1b64c1abf20e27881981c61bed9440dfb0a203c201db0e4a3a5822e65aba63"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000024_健康服务零距离 _ 清华大学社区卫生服务中心开展“世界家庭医生日”系列活动-清华大学医院.md",
+    "size": 2220,
+    "sha256": "6dc55fd0670f5ccf429fc3cb0657c5a825ed54c8e27c7162bc9eabd26b95e292"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000025_2025年度校级先进工作者——胡艳侠-清华大学医院.md",
+    "size": 2347,
+    "sha256": "54445ec3644f035c9a2e43ba9573069a81a3ab03e2a3246be3fc04a861982ea6"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000026_2024年清华大学后勤技能标兵--李莉-清华大学医院.md",
+    "size": 2344,
+    "sha256": "b452ad2c54af93857d4ca5a11bc2426e644da41531cc4703383858a3a528ba34"
+  },
+  {
+    "path": "knowledge/01_raw_portal/PORTAL000027_校医院成人自费疫苗接种指南-清华大学医院.md",
+    "size": 2022,
+    "sha256": "983e2bbf2730e932a4fa405f25b6444858231a9b4fb5a30cc2aa41ebf37fb5a8"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000027_清华大学体育部.md",
+    "size": 2554,
+    "sha256": "bc412df2b8a310f5de0afc80991a69e5473fa7ff7eab926db51b20cda27c9504"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000028_清华大学医院.md",
+    "size": 12925,
+    "sha256": "79623c573a8b5d54f98839b0765951a7c744ea1a80db230f718b7946c621680e"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000029_办事指南-清华大学研究生院.md",
+    "size": 1203,
+    "sha256": "aa516c79d984afb6253dd6cabb1e689c9638d3a6a2cbbb56dde50fbfe7fa920f"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000030_学术交流-清华大学.md",
+    "size": 1132,
+    "sha256": "2bce831af8e9b8c46c64a7fc623bfe3d2b1b30204dc02b95f13ba7ead1fa32bf"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000031_招生就业-清华大学.md",
+    "size": 1397,
+    "sha256": "b92cf5ebdfd8ddf4897058546ff156eb2729dc84f690eb9a78de1a37e878f3b1"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000032_合作交流-清华大学.md",
+    "size": 2314,
+    "sha256": "a895eac341adee8d47351d8e93201309a98e4e9118084ddcce1a415180629ff6"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000033_国内合作-清华大学.md",
+    "size": 1206,
+    "sha256": "a48663ac300b0896d7477245207ddc6fe3845cc812025eff8d177af14c0d2469"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000034_国际合作-清华大学.md",
+    "size": 1487,
+    "sha256": "c4a57e8677e62342e5e2e850ec9a2b1d948e042a986ce490bcfbc78bc7fbd19c"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000035_走进清华-清华大学.md",
+    "size": 6718,
+    "sha256": "961512649ab707a2c420cb52cd237a7a63446cad6e13f68af3c34de2b598dd0c"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000036_学生活动-清华大学.md",
+    "size": 5186,
+    "sha256": "d7f9ba44c09b68470612d5bde2b046cfbe1e709040ec41d63b039d6ca1b60bac"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000037_实用信息-清华大学.md",
+    "size": 1174,
+    "sha256": "ba7970b09ee5f44c9315179d678a2c185f8fd2faac911e35024668e9b7f0ab3b"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000038_校园风光-清华大学.md",
+    "size": 27243,
+    "sha256": "5c7bd7e32e9143d61dfb6121f1478abbe69d582a3ee91f33a2b6e638d64c3160"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000039_清华文创-清华大学.md",
+    "size": 2848,
+    "sha256": "550d5e11c5bcd4c61424d52f1a225055e6f79924a5d344b75e0325c8c5b81fd3"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000040_国际重要奖励获得者-清华大学.md",
+    "size": 1348,
+    "sha256": "b0d77a44e1d5c92dec861cf57ca862f02340ddc185bf5daf8a19a1afe8dcb5c7"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000041_中国科学院院士-清华大学.md",
+    "size": 1937,
+    "sha256": "ed91fb600b08568e974d7ffde3f2b52eed539fc688aca5deffc4090090584a68"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000042_本科专业-清华大学.md",
+    "size": 17791,
+    "sha256": "d2ae3bd11e8131c1fe4d29998ac8043ad03bae6835ff7e55f8926f3c47b2291d"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000043_教学名师-清华大学.md",
+    "size": 950,
+    "sha256": "77b0ab13dd535a057dcfe35f11b65d49c6c634cf20ec5614859a79cc0d74d2b4"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000044_优质课程-清华大学.md",
+    "size": 2491,
+    "sha256": "b71441d1b4cf826ff5c8c66d6c4dbce593bd6f18c331839fb0f42974a394dc42"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000045_实践教学-清华大学.md",
+    "size": 2816,
+    "sha256": "fbf2e8152612ea6101b7c48b561876a64ead9836caca433d80aa0a939865044f"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000046_教学成果-清华大学.md",
+    "size": 6526,
+    "sha256": "a8dd9dbc303312cc307d7d85e5879a83ce7efb06c65d591bc74c0b0979e63ba2"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000047_特色项目-清华大学.md",
+    "size": 13431,
+    "sha256": "75377f94ffc44c8b303b5b36ef2ae920ce863b0d6886119f39fd61666e31c5e5"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000048_学术学位教育-清华大学.md",
+    "size": 3727,
+    "sha256": "93a541555520c210e0b52a46a4083b61f3130222ce7b2a5de2643b74e72d9ff1"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000049_专业学位教育-清华大学.md",
+    "size": 4653,
+    "sha256": "d3680994e65e3a484e9da07a62d1a99a393792e12b9e9b71627178ba876f9db8"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000050_课程与教学-清华大学.md",
+    "size": 2259,
+    "sha256": "4d86fb0e6545215e9b542d078912300fff0799d6025bbf8cb525d2b86eaafad0"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000051_国际化培养-清华大学.md",
+    "size": 11508,
+    "sha256": "5d6b1d3c7e32695a272d3417977b90b57fbf88fcce5969374ef19263d897f62d"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000052_授权学科-清华大学.md",
+    "size": 2134,
+    "sha256": "fafc0e456858754a2abb9bb760c012800c9ffbf6f507cf4257f671b7500d6e23"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000053_学位授予-清华大学.md",
+    "size": 1436,
+    "sha256": "3edda4bad403cead44fd0d14abbf57fd6a05b3bc4649bc2797deaba175868423"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000054_奖助体系-清华大学.md",
+    "size": 7863,
+    "sha256": "f2bec753d24ce4529eadfc33d89e0e37d947793190759fd5d7f552e708be48cc"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000055_发展概况-清华大学.md",
+    "size": 4189,
+    "sha256": "61e3bc6bab6d063addf9c154bf022f9384c95d324e88bdacced8c7cb75188124"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000056_平台介绍-清华大学.md",
+    "size": 2871,
+    "sha256": "8a73aef858765f444149374e45057f1989a56e24797d64d3060ac5efbe170dde"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000057_共享优质资源-清华大学.md",
+    "size": 2368,
+    "sha256": "d5039954f86064b65682a8e66af8cb9eb0c8c7663c75bd534f020e9e23625b89"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000058_国际合作-清华大学.md",
+    "size": 6520,
+    "sha256": "7ee1b6f45b3bd8c78ead4aab58c0c01b6eb046bb2b41d583bd841a38ebce186a"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000059_在线教育研究-清华大学.md",
+    "size": 8347,
+    "sha256": "4e4e25c0f1733384faa6c3ffc9bf1ed7e119dfbc83459db0c5b63554aaa69f8b"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000060_AI赋能教育教学-清华大学.md",
+    "size": 3034,
+    "sha256": "a6c4647333696fcb4ab7a0317798b23f30a0d31bde041894005667319b5a2c3d"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000061_精品项目-清华大学.md",
+    "size": 10103,
+    "sha256": "1c760dd2bfb40ffcdb62c336697e0109feec0e8c528ba52a24942d1fb7e19a8f"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000062_教师进修-清华大学.md",
+    "size": 2145,
+    "sha256": "e0e47c27ffb3c15cb5550c5f3e32f19752f1633ba3d8b2077ec44441757d1763"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000063_教育扶贫与乡村振兴-清华大学.md",
+    "size": 3529,
+    "sha256": "9e03fc88781ee2cb38cf3f5a5f4aadece686a61d281c39cc2509b1bdf4c2237e"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000064_科研项目概况-清华大学.md",
+    "size": 1464,
+    "sha256": "45f8724992ea09698f17a9ad763e80db83defb0370e45d1182462cbab76fb386"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000065_新立重大项目-清华大学.md",
+    "size": 3755,
+    "sha256": "0817ea371c9c4db45413532d5ffc4be56502bdee5d994b47d0275c7e3153d27b"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000066_政府批建机构-清华大学.md",
+    "size": 11890,
+    "sha256": "9f0c0ad7a4e2b8afdb9294b5cf45a49592e2776fd9342393cee26a57568f7aee"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000067_联合共建机构-清华大学.md",
+    "size": 15210,
+    "sha256": "2c9ef27369e1afd5154d5d822c652814b9b2edcb8c6bc8696daba39f25dd4046"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000068_地方合作-清华大学.md",
+    "size": 2845,
+    "sha256": "18b18b94b52c1419f8add57cc75731decb9011311c9e1ede8e002aa1a3c03dd5"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000069_企业合作-清华大学.md",
+    "size": 6536,
+    "sha256": "86da2de6175a1d082ec147f29fba5da4f21f9cf147a41c88b3db345d758717f2"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000070_海外合作-清华大学.md",
+    "size": 17120,
+    "sha256": "b4d95f9cd3c44aaa336cd50a11fab2909cd5629909cfef8b1c6ec6a2b7bc58c5"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000071_获奖成果-清华大学.md",
+    "size": 10899,
+    "sha256": "926ad1e992a8b30ce583800bca886285d80428a236384a81be7419af79cf67f3"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000072_论文著作-清华大学.md",
+    "size": 8518,
+    "sha256": "9065759f24ec569fef1cdc881e7434be54314918ee544966f2fec1aab5fb00ef"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000073_清华论坛-清华大学.md",
+    "size": 26105,
+    "sha256": "1b01a69e047026cfd0cf14fb4c3187dfabaea45582da1cc594a66c18255dcce0"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000074_国际会议-清华大学.md",
+    "size": 2110,
+    "sha256": "289d91d250469518056e0b960f79288a8f30abfd343af504caf7482e998c918b"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000075_学术期刊-清华大学.md",
+    "size": 39832,
+    "sha256": "f60a637e3ee21cab8cdc6c06f13ecebc47bf7fc9f87e0ba5ce376ee593a1cdf1"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000076_清华研究生招生网.md",
+    "size": 4283,
+    "sha256": "0fd114b9077091b718132f3a02e45c4d66d266c512e8552c06f065a329a93863"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000077_Admissions-Tsinghua University.md",
+    "size": 5073,
+    "sha256": "b4ac989520310299c9d4ff2dcdcc077552402114afb173bfaa70abd4cdc061c7"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000078_全面合作-清华大学.md",
+    "size": 1510,
+    "sha256": "54392a1de2d0447ad92b0c6466c50023ae7d7dafb4bbdd476822fbcfaebd212b"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000079_科研合作-清华大学.md",
+    "size": 1705,
+    "sha256": "ef5cfcd42cc3011843915efc61652b50a8ea68baef14e5c4d1b1993dec039dce"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000080_人才培养与交流-清华大学.md",
+    "size": 10797,
+    "sha256": "644f317d2aaa1c744ffde8bda72669c0d608701360b568fbbe93ca5693764f59"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000081_终身教育-清华大学.md",
+    "size": 1909,
+    "sha256": "360667c5b6796120573d3c55427e98979acd29afe4b01a750b0d986fd984adcf"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000082_战略咨询与智库-清华大学.md",
+    "size": 1534,
+    "sha256": "32cf4a2aadf13d2e0915bedd67cfdb7955756b51ab9106d4efe1a50771155340"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000083_校地合作研究院-清华大学.md",
+    "size": 1601,
+    "sha256": "c8d29f769555f1e0ddd0ed03b8d67774c1b40769e1e4657d7d6f44feac4a1788"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000084_对口支援与定点帮扶-清华大学.md",
+    "size": 3165,
+    "sha256": "e269f4a55181e81d0c7a171086f5709df4f9b1283b0c44a13e23098c6cd4735d"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000085_全球战略-清华大学.md",
+    "size": 8082,
+    "sha256": "4929b132ec4f2b0ab16c14baca7589ecaff574ad37af9bc39fe85d77c17ded2e"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000086_全球胜任力-清华大学.md",
+    "size": 2002,
+    "sha256": "d3af8e53001996820203871669a5bc9070925deb58c608241a3fb0d153213283"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000087_国际学生学者-清华大学.md",
+    "size": 1722,
+    "sha256": "eb6e9db59f8e6f365f8758dd909e0027bc30d7ce69d43a856b99f57f8aedca9f"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000088_国际校园-清华大学.md",
+    "size": 1409,
+    "sha256": "273a8e39bd7e83cafab3f4176f0ca3fccdfc5f8f8ca8145fe67deb531dd27f3c"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000089_暑期学校-清华大学.md",
+    "size": 5386,
+    "sha256": "f851e1ec48a2fc6aeccae0d4dc0aaba0a9ba775c5636dabfa6808d635869c403"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000090_清华共识-清华大学.md",
+    "size": 1886,
+    "sha256": "a594c4bc88dcb2edb9392f6115d1f4e4468d6c76965929473b482016b675996d"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000091_教工活动-清华大学.md",
+    "size": 2792,
+    "sha256": "fef112eafd83adbd5d9ab3775bd9b4d9322ffb2083239902c42d820a1bfa4a4e"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000092_校园交通-清华大学.md",
+    "size": 1611,
+    "sha256": "3602ec06683c9b9b035a876d011458968926d9adfbfb5ab740884a834576c176"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000093_周边交通-清华大学.md",
+    "size": 1965,
+    "sha256": "7126d07ac221338ed02245749373f4e5c73b32f1a9b8a8d1b0911b0fa524e587"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000094_校园参观-清华大学.md",
+    "size": 1670,
+    "sha256": "98db73c1a5699dcf95080bf7aef1ca3b78d33834cfba172bad4977559013785e"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000095_服务信息-清华大学.md",
+    "size": 1716,
+    "sha256": "c7c1362459bd6d73b85800baa860ecb200c40f54c5b1be8396965dda222b61ce"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000096_宣传资源-清华大学.md",
+    "size": 1065,
+    "sha256": "0784ad823e3f65ef5777cb74462389c59f93afcfcf592d36b72bbb72393426dc"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000097_清华校历-清华大学.md",
+    "size": 943,
+    "sha256": "2f2fa68901876cd92d18cc5be6ae15a9f894d29f7de5bafdd65d3f94eba5f169"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000098_校园地图-清华大学.md",
+    "size": 965,
+    "sha256": "72f2edf04c77dcb5109d1858745b2586cddd417a04cdb68b63510b62f930622b"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000099_校园景观-清华大学.md",
+    "size": 27263,
+    "sha256": "8de31a43c593dadee429569f3d2c9351f3c30be41dc546d5b3d29f3a0f078874"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000100_2026-清华大学.md",
+    "size": 1431,
+    "sha256": "0c0d5f3337531d832869ecdb195e9576812407ae6fba25bd19571f96eab7fa37"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000101_媒体清华-清华大学.md",
+    "size": 4138,
+    "sha256": "2279c8aa223fc12bb4a8f6dc122605175e3a9b37893517c33fdb3331a59c88b0"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000102_智能管理平台降低园区设备能耗-清华大学.md",
+    "size": 1140,
+    "sha256": "2fa1f398f771bc70f60a226d12342168305d3f0c19c95ab44765b994535bcb46"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000103_第十四届世界和平论坛在清华大学举行 韩正出席开幕式并致辞-清华大学.md",
+    "size": 1218,
+    "sha256": "30d5bc59c0c4b9a640fe95122a6929d8b5fb783575167629ef0e0628faba7ec2"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000104_头条新闻-清华大学.md",
+    "size": 3070,
+    "sha256": "062facda3c17cdee16e6200a3447fa25d55d56cd11dd74741776e76d705acecd"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000105_专题推荐-清华大学.md",
+    "size": 4387,
+    "sha256": "9fc810dbf9528d77ca5ce9ab0a219da87434a2c1569f980ada6cfaca3823acdf"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000106_深入学习贯彻习近平总书记重要讲话精神-清华大学.md",
+    "size": 1816,
+    "sha256": "3cae143b867f321ca15d33c7fb9f8461131da6e6bb0d53dcf4ca776dd47ac10c"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000107_学习贯彻党的二十届四中全会精神-清华大学.md",
+    "size": 1767,
+    "sha256": "88ceda3132037590825e1fabb5109de640e2ec7c052c2be3cf8caf8949aeb24d"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000108_树立和践行正确政绩观学习教育-清华大学.md",
+    "size": 1733,
+    "sha256": "b03b6efa244474857c6109f4bf8ccde5566de93c5391b43296a5200505134543"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000109_奋斗百年路 启航新征程——清华党组织建立100周年-清华大学.md",
+    "size": 2037,
+    "sha256": "35c7bf981bca900f3898053ef0df159261225f495bfc5b1d4c826b3667d45424"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000110_报国清华人-清华大学.md",
+    "size": 1586,
+    "sha256": "43e0681c767dc8740c600e1d534f797c568090411c2e98d2eb32bcf542b34efb"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000111_大国重器中的清华人-清华大学.md",
+    "size": 1755,
+    "sha256": "b0840cffcc1bd8ce0b2176af89da7c483c4f24e8038b8b277fa2d31b62300c27"
+  },
+  {
+    "path": "knowledge/01_raw_public/THU000112_清华毕业生去哪儿-清华大学.md",
+    "size": 1600,
+    "sha256": "2d09e8b86adef9462fb0293828df874d954e0f750e04b0dafc7f206558f47953"
+  },
+  {
+    "path": "knowledge/attachments.csv",
+    "size": 5253,
+    "sha256": "083a70c1d48d7a58c1c6bd5a63a486044eccfb96a5231ab8b6855c851ef8b209"
+  },
+  {
+    "path": "knowledge/index.csv",
+    "size": 36338,
+    "sha256": "e4408aa36f65f7b213ed22367ab1f7cba8c5876f9ef5bf49e1f00cbf7f473108"
+  },
+  {
+    "path": "knowledge/index.jsonl",
+    "size": 58274,
+    "sha256": "a01f0b9a1be28218b6ca1186906a5519c1cd65bc3628b4d96681d18452c7d46a"
+  },
+  {
+    "path": "knowledge/portal_attachments.csv",
+    "size": 90,
+    "sha256": "651989f0975f1e25ea67c93a2233c2dc2d461ff5cf6c2b1a6e7797ee754a4448"
+  },
+  {
+    "path": "knowledge/portal_index.csv",
+    "size": 23643,
+    "sha256": "1a50c5edb694772ebaeedd100fd7504b9f3a9a0ce4b885a6ceb325807f7b6f8c"
+  },
+  {
+    "path": "knowledge/portal_index.jsonl",
+    "size": 31830,
+    "sha256": "286a433802ac9a9bc827c0d0125660a3f9ec591cbeeefd13c80b8fdc3c339a84"
+  },
+  {
+    "path": "logs/auth_required.csv",
+    "size": 937,
+    "sha256": "9c3fd0a3f4f414dd8122e71ceddffd3a707ca2b41cc5e72ac244500b3188ab92"
+  },
+  {
+    "path": "logs/crawl.log",
+    "size": 40281,
+    "sha256": "2d45e984af4a96e02eb7433a675a3f4328c709e3a6683d7acdc25b49818d43e9"
+  },
+  {
+    "path": "logs/duplicates.csv",
+    "size": 1315,
+    "sha256": "dcf2ca33156ab75e40b7252efc2d4ce5a7c038e614f3a9ffef9632ca98f0ea29"
+  },
+  {
+    "path": "logs/failed.csv",
+    "size": 55,
+    "sha256": "0414bf2b632570f598ebac91928fb70c176c8ea6a5060cadf811641d93ae0632"
+  },
+  {
+    "path": "logs/portal_auth_expired.csv",
+    "size": 267,
+    "sha256": "492328fa4542bba50ff208844d1f5d7b17f972d025e1432bcd752bc89cf7b4d1"
+  },
+  {
+    "path": "logs/portal_failed.csv",
+    "size": 43,
+    "sha256": "a254945456160578c7b73a114e1903e64e21ac7b6d9d2a271f20b98f8f4e4512"
+  },
+  {
+    "path": "logs/portal_privacy_and_qa_report.md",
+    "size": 5696,
+    "sha256": "384ea46c987a896bf548f8131ade2f1bfedd6f338d8cf78131c27b05d8fcc01a"
+  },
+  {
+    "path": "logs/portal_private_skipped.csv",
+    "size": 3734,
+    "sha256": "8537606289a2faeec9a55dd7e1a61648237cdf9adb4852e78a909fdf67b0f711"
+  },
+  {
+    "path": "logs/portal_skipped.csv",
+    "size": 3799,
+    "sha256": "9a5756c111087603a9c2ccb74c11e64bd0c7e688e524a71aada71d806b8c5b11"
+  },
+  {
+    "path": "logs/portal_success.csv",
+    "size": 6943,
+    "sha256": "0afa07591110b83925f379e66b2eaac90b9c4fc27e0fd53b234fd9519a227992"
+  },
+  {
+    "path": "logs/possible_duplicates.csv",
+    "size": 2016,
+    "sha256": "348ee4a7bc7357cdc7a78b117a568495ab3aa05b007d0f0416da01236c40104a"
+  },
+  {
+    "path": "logs/skipped.csv",
+    "size": 652,
+    "sha256": "d88d5f577e5888508a52eb45098a31851fa7697e52847eb51f0583249dc8ca80"
+  },
+  {
+    "path": "logs/success.csv",
+    "size": 19857,
+    "sha256": "ed762c282c838dae1e9a96977b57bcc8702a133eb680250e95f5ddaf7dbeb290"
+  },
+  {
+    "path": "logs/test_report.md",
+    "size": 4053,
+    "sha256": "c6b57eaf6143c4b5697554d88b8060db03b736ce4741f9afdc5e16a1230e8dd3"
+  },
+  {
+    "path": "logs/v1_1_second_round_report.md",
+    "size": 4885,
+    "sha256": "35139c41e4fbade84e23102ff5ba39f9de672033185777cc18a8d5a50114f6f7"
+  },
+  {
+    "path": "main.py",
+    "size": 1230,
+    "sha256": "61c3d4814977d9733bd9b48a4585bb422efe39996cde1c68feba922d139e04b4"
+  },
+  {
+    "path": "portal/__init__.py",
+    "size": 44,
+    "sha256": "489fd112c9d3309a8379b09ba6e8122983dfa9adb0a723787cb6f2f43b81798c"
+  },
+  {
+    "path": "portal/logger.py",
+    "size": 995,
+    "sha256": "b0c253b6c384b221dcc12ccd16700938b3266ceb4cdab9a159087c11a9f79462"
+  },
+  {
+    "path": "portal/runner.py",
+    "size": 10726,
+    "sha256": "a7507babdbb6eb2a5c0eec9e5004c33698757d357dd76425eba9237b4697bddd"
+  },
+  {
+    "path": "portal/safety.py",
+    "size": 2264,
+    "sha256": "8ad652ad5e8f3a9793eddd9d48b453c57c95665c6ea89dbae7db64e7f5cde765"
+  },
+  {
+    "path": "portal/state.py",
+    "size": 3308,
+    "sha256": "909551a61280b0cf6eb9d905b0a9b8ab60f34fd35cbc84d04cd5ac13ddfd4d06"
+  },
+  {
+    "path": "portal/writer.py",
+    "size": 2745,
+    "sha256": "f79dad2441a65c54e1b6ccf8c0e29f08a7bd77ea29265c155203e0570f9be09e"
+  },
+  {
+    "path": "README.md",
+    "size": 6632,
+    "sha256": "786891be1bcd41598a8f69710d81c74231cf1687da9ff4c27c1407589163585d"
+  },
+  {
+    "path": "requirements.txt",
+    "size": 117,
+    "sha256": "8ba51425fac9273594d65696623654f544643f54ab64ffc21601759b2965e9b3"
+  },
+  {
+    "path": "seeds.txt",
+    "size": 411,
+    "sha256": "5163908cec79bd0f0242d29053bd9d7583acbdd6a1374425d40abc62e1695608"
+  },
+  {
+    "path": "tests/test_core.py",
+    "size": 3015,
+    "sha256": "55d51cec5d406e3889ae53ef68236a35fc11722b804c23a0cd2a46061dbbd40c"
+  },
+  {
+    "path": "utils/__init__.py",
+    "size": 23,
+    "sha256": "b6fc842f15bd97a2a4ee13caaf4ff89ead169df47846608953cd7580cf7f4957"
+  },
+  {
+    "path": "utils/logger.py",
+    "size": 1603,
+    "sha256": "cb287ed397e8d4c1d56c615f1976d41e83de0f80d5ec5f7295cf36ef31052113"
+  },
+  {
+    "path": "utils/metadata.py",
+    "size": 2600,
+    "sha256": "2816a9965420fd0fddb0c13f9015b0391c70e81e4d576d68941cba1526019881"
+  },
+  {
+    "path": "utils/paths.py",
+    "size": 509,
+    "sha256": "312c984b3761874269661b1e7eb7d4289c2af111f98ebc4fc014c03bc1f45b12"
+  },
+  {
+    "path": "utils/url_utils.py",
+    "size": 1686,
+    "sha256": "85fd01f41e756dcb74cf1ab1d3dc7fcafbfaed32474b59f341216c80f960d829"
+  }
+]

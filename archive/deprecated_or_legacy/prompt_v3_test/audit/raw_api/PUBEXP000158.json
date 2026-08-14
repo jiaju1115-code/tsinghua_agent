@@ -1,0 +1,13 @@
+{
+  "action": "reject",
+  "reject_type": "expired_event",
+  "category": "图书馆服务",
+  "content_type": "current_notice",
+  "audience": "清华法律图书馆读者、师生",
+  "time_status": "expired",
+  "candidate_user_question": "法律图书馆近期有哪些专题展览或阅读推荐？",
+  "positive_evidence": "正文展示了清华大学法律图书馆的多项活动与内容，包括毕业生高借阅图书专题书架、法学外文原版图书展、家事文书展、国际消费者权益日阅读推荐、宪法宣传周专业书展、迎新活动以及五层开放等，能反映法律图书馆的展陈与阅读推广工作。",
+  "negative_evidence": "内容主体几乎都是2025—2026年的专题展览、阅读推荐和开馆通知，核心价值依赖具体时间窗口，当前多为已结束的一次性活动，难以作为长期可复用知识条目。",
+  "possible_duplicate": false,
+  "reason": "页面主体是清华法律图书馆的专题展览和活动公告汇总，属于一次性或阶段性通知，且多数事项已过期，长期知识价值有限，应按过期事件拒绝。"
+}

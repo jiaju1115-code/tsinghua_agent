@@ -1,0 +1,21 @@
+{
+  "id": "THU000003",
+  "relevance_score": 28,
+  "knowledge_value": 22,
+  "category": "其他",
+  "subcategory": "教育基金会/捐赠与项目资讯",
+  "content_type": "新闻",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "low",
+  "contains_actionable_information": false,
+  "personal_data_risk": "none",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华官方基金会网站，内容以捐赠项目和机构资讯为主，与校园生活直接办事关联较弱，但可作为可信背景信息保留。",
+  "source_markdown_path": "knowledge/01_raw/THU000003_清华大学教育基金会.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "legacy_public"
+}

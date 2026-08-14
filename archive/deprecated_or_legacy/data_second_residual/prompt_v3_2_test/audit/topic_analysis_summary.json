@@ -1,0 +1,18 @@
+{
+  "samples": 30,
+  "human_actions": {
+    "reject": 18,
+    "review": 2,
+    "approve": 10
+  },
+  "proposed_topic_relevance": {
+    "high": 14,
+    "low": 15,
+    "medium": 1
+  },
+  "human_reject_proposed_types": {
+    "expired_event": 3,
+    "topic_irrelevant": 15
+  },
+  "human_label_questions": 1
+}

@@ -1,0 +1,40 @@
+{
+  "list_pages_requested": 31,
+  "list_pages_ok": 30,
+  "discovered": 105,
+  "title_dedup": 3,
+  "fetch_ok": 105,
+  "quality_gate_pass": 54,
+  "quality_classes": {
+    "extraction_failed": 25,
+    "navigation_only": 12,
+    "thin_content": 9,
+    "list_page": 6,
+    "detail_content": 47,
+    "login_required": 3,
+    "private_or_sensitive": 2,
+    "template_polluted": 1
+  },
+  "internal_dedup": 3,
+  "by_category": {
+    "交通服务": 1,
+    "体育与场馆": 3,
+    "国际事务与签证": 11,
+    "奖助与资助": 1,
+    "学生事务": 14,
+    "就业与职业发展": 3,
+    "教务与学籍": 14,
+    "教学与培养": 4,
+    "校园综合服务": 1,
+    "校园访问": 2
+  },
+  "by_domain": {
+    "peace.tsinghua.edu.cn": 12,
+    "www.thsports.tsinghua.edu.cn": 3,
+    "www.is.tsinghua.edu.cn": 14,
+    "www.tsinghua.edu.cn": 16,
+    "career.tsinghua.edu.cn": 1,
+    "qzc.tsinghua.edu.cn": 7,
+    "www.wyc.tsinghua.edu.cn": 1
+  }
+}

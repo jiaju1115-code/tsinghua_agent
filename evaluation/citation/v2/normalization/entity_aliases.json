@@ -1,0 +1,78 @@
+{
+  "policy": "Only explicit same-source equivalence; no per-question aliases.",
+  "count": 9,
+  "aliases": [
+    {
+      "alias": "使患者无需亲临医院",
+      "canonical": "可获得专业医生的诊断意见",
+      "basis": "explicit_same_source_parenthetical_or_equivalence",
+      "chunk_id": "PROV0-STGPUB-0085-0008",
+      "span_id": "PROV-011-PROV0-STGPUB-0085-0008-S0027",
+      "source_url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm"
+    },
+    {
+      "alias": "原主管机构",
+      "canonical": "申诉学生和原处理或处分相应的主管机构",
+      "basis": "explicit_same_source_parenthetical_or_equivalence",
+      "chunk_id": "PROV0-STGPUB-0031-0001",
+      "span_id": "PROV-003-PROV0-STGPUB-0031-0001-S0022",
+      "source_url": "https://qzc.tsinghua.edu.cn/info/1029/1446.htm"
+    },
+    {
+      "alias": "奖学金",
+      "canonical": "面向我校接受全日制学历教育的学生设立的奖学金",
+      "basis": "explicit_same_source_parenthetical_or_equivalence",
+      "chunk_id": "PROV0-STGPUB-0029-0000",
+      "span_id": "PROV-018-PROV0-STGPUB-0029-0000-S0008",
+      "source_url": "https://www.tsinghua.edu.cn/info/1093/82880.htm"
+    },
+    {
+      "alias": "学指委会",
+      "canonical": "学校学生工作指导委员会",
+      "basis": "explicit_same_source_parenthetical_or_equivalence",
+      "chunk_id": "PROV0-STGPUB-0029-0000",
+      "span_id": "PROV-018-PROV0-STGPUB-0029-0000-S0013",
+      "source_url": "https://www.tsinghua.edu.cn/info/1093/82880.htm"
+    },
+    {
+      "alias": "校领导办公会",
+      "canonical": "由学校主管领导主持的办公会",
+      "basis": "explicit_same_source_parenthetical_or_equivalence",
+      "chunk_id": "PROV0-STGPUB-0037-0002",
+      "span_id": "PROV-003-PROV0-STGPUB-0037-0002-S0039",
+      "source_url": "https://qzc.tsinghua.edu.cn/info/1029/1443.htm"
+    },
+    {
+      "alias": "综合办公室",
+      "canonical": "饮食服务中心下设一办四科",
+      "basis": "explicit_same_source_parenthetical_or_equivalence",
+      "chunk_id": "PROV0-STGPUB-0079-0000",
+      "span_id": "PROV-007-PROV0-STGPUB-0079-0000-S0008",
+      "source_url": "https://www.tsinghua.edu.cn/ysfwzx/"
+    },
+    {
+      "alias": "讲师团",
+      "canonical": "学生职协讲师团",
+      "basis": "explicit_same_source_parenthetical_or_equivalence",
+      "chunk_id": "PROV0-STGPUB-0011-0002",
+      "span_id": "PROV-023-PROV0-STGPUB-0011-0002-S0008",
+      "source_url": "https://career.tsinghua.edu.cn/info/1037/2434.htm"
+    },
+    {
+      "alias": "讲师团",
+      "canonical": "朋辈辅导学生职协讲师团",
+      "basis": "explicit_same_source_parenthetical_or_equivalence",
+      "chunk_id": "PROV0-STGPUB-0011-0002",
+      "span_id": "PROV-023-PROV0-STGPUB-0011-0002-S0005",
+      "source_url": "https://career.tsinghua.edu.cn/info/1037/2434.htm"
+    },
+    {
+      "alias": "评选机构",
+      "canonical": "研究生院",
+      "basis": "explicit_same_source_parenthetical_or_equivalence",
+      "chunk_id": "PROV0-RESV1-0016-0000",
+      "span_id": "PROV-018-PROV0-RESV1-0016-0000-S0024",
+      "source_url": "https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=ad6e98bc019644df97dadbbff29f8964"
+    }
+  ]
+}

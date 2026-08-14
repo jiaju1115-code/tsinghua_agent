@@ -1,0 +1,37 @@
+|  |
+| --- |
+| 总馆联系方式 |
+| 电话：62784591/62782137  邮箱：bgs@mail.tsinghua.edu.cn |
+
+|  |  |  |
+| --- | --- | --- |
+| 专业图书馆 | 联系方式 | 邮箱地址 |
+| 文科图书馆 | 62798676 | hs@mail.tsinghua.edu.cn |
+| 美术图书馆 | 62798810 | artslib@mail.tsinghua.edu.cn |
+| 金融图书馆 | 62772511 | libfinance@mail.tsinghua.edu.cn |
+| 法律图书馆 | 62772955 | lawlib@mail.tsinghua.edu.cn |
+| 经管图书馆 | 62788015 | tushu@sem.tsinghua.edu.cn |
+| 建筑图书馆 | 62794481 | fee-arc@mail.tsinghua.edu.cn |
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| 服务项目 | 地点 | 电话 |  |
+| 读者意见 | 综合办公室 （西213） | 62784591 | [bgs@mail.tsinghua.edu.cn](mailto:bgs@mail.tsinghua.edu.cn) |
+| 参考咨询 | 总咨询台（在线） | 62782137 | [ref-desk@mail.tsinghua.edu.cn](mailto:ref-desk@mail.tsinghua.edu.cn) |
+| 借还书、研读间研讨间、座位管理系统等读者服务相关问题 | 北馆一层总服务台 | 62788937 | [circdesk@tsinghua.edu.cn](mailto:circdesk@tsinghua.edu.cn) |
+| 办证补证 费用结算 | 办证处（北馆一层总服务台） | 62783067 62786510 | [bzhch@mail.tsinghua.edu.cn](mailto:bzhch@mail.tsinghua.edu.cn) |
+| 老馆图书资料借阅 | 老馆服务台（老馆205） | 62789325 | [tecang@tsinghua.edu.cn](mailto:tecang@tsinghua.edu.cn) |
+| 馆际互借 | 馆际互借处（北馆一层总服务台） | 62781326 | [interlib4@mail.tsinghua.edu.cn](mailto:interlib4@mail.tsinghua.edu.cn) |
+| 音乐馆相关服务 | 音乐馆（西306） | 62771474 | [music@tsinghua.edu.cn](mailto:music@tsinghua.edu.cn) |
+| 馆藏管理及库区管理 | 馆藏管理组（北214） | 62784741 62789554 | [daichashu@tsinghua.edu.cn](mailto:daichashu@tsinghua.edu.cn) |
+| 学科服务 | 信息参考部 | 62782137 | [学科馆员](http://lib.tsinghua.edu.cn/kyzc/xkgy.htm) |
+| 网络系统 | 信息技术部 | 62786292 | [libit@mail.tsinghua.edu.cn](mailto:libit@mail.tsinghua.edu.cn) |
+| 捐 赠 | 捐赠接待室（老馆136） | 62795779 | [donation@mail.tsinghua.edu.cn](mailto: donation@mail.tsinghua.edu.cn) |
+| 学位论文格式审核与纸本管理 | 古籍特藏部（老馆205） | 62792587 | [bohou@mail.tsinghua.edu.cn](mailto:bohou@mail.tsinghua.edu.cn) |
+| 联系参观 | 综合办公室（西115） | 62781757 62797492 | [bgs@mail.tsinghua.edu.cn](mailto:bgs@mail.tsinghua.edu.cn) |
+| 读者接待 | 读者接待处（西102） | 62772208 | - |
+| 失物招领 | 读者接待处（西102） | 62772208 | - |
+| 检索证明 | 科技查新站（西107） | 62784744 | [检索证明](http://lib.tsinghua.edu.cn/kyzc/jszm.htm) |
+| 科技查新 | 科技查新站（西107） | 62783349 | [查新工作站](http://lib.tsinghua.edu.cn/kyzc/kjcx.htm) |
+| 信息计量、知识产权信息服务 | 情报分析组（西504） | 62782367 | [analysis@mail.tsinghua.edu.cn](mailto:analysis@mail.tsinghua.edu.cn) |
+| 安全保卫 | 综合办公室（西111） | 62773588 | [ymzhu@mail.tsinghua.edu.cn](mailto:ymzhu@mail.tsinghua.edu.cn) |

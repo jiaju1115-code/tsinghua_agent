@@ -1,0 +1,29 @@
+|  |
+| --- |
+| 微信扫一扫 关注清华大学开放科学公众号 |
+
+[首页](https://lib.tsinghua.edu.cn/index.htm)>内容页
+
+### 科普文章
+
+- [在法律与人性之间，寻找开放共享的“智慧边界”](https://lib.tsinghua.edu.cn/info/1375/8047.htm)2026-05-11
+- [一文读懂钻石开放获取：让学术知识真正零门槛共享](https://lib.tsinghua.edu.cn/info/1375/7976.htm)2026-04-10
+- [开放科学小百科 | 开放科学：重塑科研诚信的新范式](https://lib.tsinghua.edu.cn/info/1375/7852.htm)2025-12-19
+- [开放科学小百科｜科研诚信危机：从数据造假到系统性困境](https://lib.tsinghua.edu.cn/info/1375/7851.htm)2025-12-18
+- [开放科学小百科 | 开放科学的隐忧与出路：不平等、垄断与治理创新](https://lib.tsinghua.edu.cn/info/1375/7833.htm)2025-12-05
+
+### 政策研究
+
+- [高校开放获取政策：卡罗林斯卡学院篇](https://lib.tsinghua.edu.cn/info/1376/7465.htm)2025-03-26
+- [高校开放获取政策：海德堡大学篇](https://lib.tsinghua.edu.cn/info/1376/7469.htm)2025-03-19
+- [高校开放获取政策：巴黎萨克雷大学篇](https://lib.tsinghua.edu.cn/info/1376/7470.htm)2025-03-13
+- [高校开放获取政策：日内瓦大学篇](https://lib.tsinghua.edu.cn/info/1376/7472.htm)2025-02-27
+- [高校开放获取政策：伦敦国王学院篇](https://lib.tsinghua.edu.cn/info/1376/7473.htm)2025-02-25
+
+### 时事追踪
+
+- [打破围墙：这十几所欧洲先锋大学，正在拆除知识的“付费门槛”](https://lib.tsinghua.edu.cn/info/1377/8050.htm)2026-05-12
+- [Frontiers发布出版行业首份AI实践指南：为科研出版构建负责任 AI 应用路线图](https://lib.tsinghua.edu.cn/info/1377/7996.htm)2026-04-23
+- [服务国家开放创新战略：Frontiers、NSFC科学传播与成果转化中心、CEPIEC 达成战略合作](https://lib.tsinghua.edu.cn/info/1377/7998.htm)2026-04-22
+- [AEGIS-OA项目启动：将欧洲钻石开放获取支持体系扩展至学术图书](https://lib.tsinghua.edu.cn/info/1377/7975.htm)2026-04-09
+- [EMS Press推出“Launch to Open”透明开放获取新模式，助力老牌期刊向社区主导出版转型](https://lib.tsinghua.edu.cn/info/1377/7968.htm)2026-04-08

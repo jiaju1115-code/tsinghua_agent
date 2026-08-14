@@ -1,0 +1,24 @@
+{
+  "sample_count": 50,
+  "historical_leaks_by_id": 0,
+  "historical_leaks_by_url": 0,
+  "historical_leaks_by_normalized_url": 0,
+  "duplicate_url_count": 0,
+  "duplicate_normalized_url_count": 0,
+  "human_label_rows": 50,
+  "human_action_valid_count": 50,
+  "human_file_sha256": "EC1E846091532205A04480320A4A4572D99526F58FE8A9037390BED4BC502CA6",
+  "prompt_sha256": "B94623C520FC46D83A49A4D043AD182646E7A881E7E1751E3E98E98724D771CD",
+  "prompt_sample_id_mentions": [],
+  "model_input_sha256": "91B1ED54A0F65693648BF8B97F214C0060C4940960FD28D6C40ECBD288CDD0C9",
+  "model_input_fields": [
+    "blind_id",
+    "original_id",
+    "title",
+    "url",
+    "source_domain",
+    "content_file",
+    "content_sha256"
+  ],
+  "human_or_ai_label_fields_in_model_input": []
+}

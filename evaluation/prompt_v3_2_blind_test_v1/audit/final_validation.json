@@ -1,0 +1,17 @@
+{
+  "baseline": 217,
+  "exclusions": 30,
+  "candidate_pool": 187,
+  "sample_total": 50,
+  "random": 25,
+  "targeted": 25,
+  "historical_leak_by_id_url_normalized_url": 0,
+  "unique_ids": 50,
+  "unique_normalized_urls": 50,
+  "unique_content_hashes": 50,
+  "human_rows_all_blank": 50,
+  "content_files": 50,
+  "xlsx_formula_count": 0,
+  "xlsx_formula_error_count": 0,
+  "human_data_validation": true
+}

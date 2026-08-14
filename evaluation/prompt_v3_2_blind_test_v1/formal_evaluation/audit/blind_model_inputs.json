@@ -1,0 +1,452 @@
+[
+  {
+    "blind_id": "BLINDV1-001",
+    "original_id": "PUBEXP000273",
+    "title": "清华大学图书馆应邀出席第89届世界图书馆与信息大会-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1202/7601.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-001_PUBEXP000273.md",
+    "content_sha256": "62c67b1b160e4f4b39accd17fbf5da1a60a24e6b8b24472783d43467e2ea0a95"
+  },
+  {
+    "blind_id": "BLINDV1-002",
+    "original_id": "PUBEXP000174",
+    "title": "CNRDS中国研究数据服务平台正式订购-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1076/2265.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-002_PUBEXP000174.md",
+    "content_sha256": "a4a75e63760d9293e94a548b58e0af2e08f9e46ad00dabeca508ab16ebabb6aa"
+  },
+  {
+    "blind_id": "BLINDV1-003",
+    "original_id": "PUBEXP000166",
+    "title": "上海书画出版社三个数据库再次开通试用（2026年5月11日-2026年12月31日）-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1077/8043.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-003_PUBEXP000166.md",
+    "content_sha256": "f9ec446b2d85ba236145216b7f03f223ef78b21467fd20c1d2d50d5d09c8dd60"
+  },
+  {
+    "blind_id": "BLINDV1-004",
+    "original_id": "PUBEXP000216",
+    "title": "特色活动-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/gk/qgzxfd/tshdd/ldjnds.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-004_PUBEXP000216.md",
+    "content_sha256": "48c53f62990306b24c68bb2e5ec1a39a8dac5df0a4d3676272635fd94ca9e6b1"
+  },
+  {
+    "blind_id": "BLINDV1-005",
+    "original_id": "PUBEXP000215",
+    "title": "岗位申请-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/gk/qgzxfd/gwsq.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-005_PUBEXP000215.md",
+    "content_sha256": "854cc578dcfefb5bc9cca6c24d1b192ff899f35ee9a2345a602a05449238e539"
+  },
+  {
+    "blind_id": "BLINDV1-006",
+    "original_id": "PUBEXP000063",
+    "title": "历史沿革-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/gk/lsyg1.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-006_PUBEXP000063.md",
+    "content_sha256": "cc89b56c394b452544b3f55567411d67e89d132c25a9453988858e6d393b09d3"
+  },
+  {
+    "blind_id": "BLINDV1-007",
+    "original_id": "PUBEXP000053",
+    "title": "MDPI（多学科数字出版机构）开放获取（OA）政策-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1359/5862.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-007_PUBEXP000053.md",
+    "content_sha256": "81a0cd560c6f52bfbd40e04a625fc71216b5254780df6e6368e1cbd0afa14d1e"
+  },
+  {
+    "blind_id": "BLINDV1-008",
+    "original_id": "PUBEXP000021",
+    "title": "常见问题（FAQ）",
+    "url": "https://lib.tsinghua.edu.cn/finance/gk/cjwt_FAQ_.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-008_PUBEXP000021.md",
+    "content_sha256": "fcb294c361321f4af4431d79f0e0f22ccac447fa7bb199ab2204919dad3a3bbd"
+  },
+  {
+    "blind_id": "BLINDV1-009",
+    "original_id": "PUBEXP000244",
+    "title": "资讯动态-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/kyzc/kfkx/zxdt.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-009_PUBEXP000244.md",
+    "content_sha256": "0f8bcb1ecbdaf53784149d3fd9a45135d7a59a20e340000e49e5c5caa723fb22"
+  },
+  {
+    "blind_id": "BLINDV1-010",
+    "original_id": "PUBEXP000217",
+    "title": "大事年表-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/gk/qgzxfd/dsnb.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-010_PUBEXP000217.md",
+    "content_sha256": "82e65c84f77172262702dce1001c8dd7f297d2325b6ce83e835880a5621f38fd"
+  },
+  {
+    "blind_id": "BLINDV1-011",
+    "original_id": "PUBEXP000010",
+    "title": "图书馆报告厅-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/kj/tsgbgt.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-011_PUBEXP000010.md",
+    "content_sha256": "0e0ef454513130839fa4935913c68701f35edf7353f95b65bb44bb87fb3842e9"
+  },
+  {
+    "blind_id": "BLINDV1-012",
+    "original_id": "PUBEXP000198",
+    "title": "清华大学图书馆参与研制的开放获取期刊遴选评价体系成果正式发表-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1345/7464.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-012_PUBEXP000198.md",
+    "content_sha256": "655bdbdc5aa0476a6e98b610161e780dd3a2afcb356b9386cc4836d93fceff54"
+  },
+  {
+    "blind_id": "BLINDV1-013",
+    "original_id": "PUBEXP000055",
+    "title": "清华大学图书馆主办新刊 |《智慧图书馆（英文）》——创刊号全球征稿-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1516/8095.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-013_PUBEXP000055.md",
+    "content_sha256": "bc7062fb33085570d294315d347f93dd04e9b25d45a6bb3cd9765e1e04dcf214"
+  },
+  {
+    "blind_id": "BLINDV1-014",
+    "original_id": "PUBEXP000288",
+    "title": "清华大学图书馆音乐讲堂启用仪式暨石叔诚音乐讲座“黄河”圆满举行-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1202/3920.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-014_PUBEXP000288.md",
+    "content_sha256": "283153f3558ed8d61d0b7c0372da3ba98dfb4b79bffbc918c8b9a15c69ab9bb9"
+  },
+  {
+    "blind_id": "BLINDV1-015",
+    "original_id": "PUBEXP000196",
+    "title": "SCOAP³（高能物理开放获取出版资助联盟）开放获取（OA）政策-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1365/5863.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-015_PUBEXP000196.md",
+    "content_sha256": "8081a16525a7a3895f71bc246c876d7857bb914381aa1ac779d76b18c1f4852c"
+  },
+  {
+    "blind_id": "BLINDV1-016",
+    "original_id": "PUBEXP000178",
+    "title": "国际水协会（IWA）开放获取（OA）政策-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1344/5972.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-016_PUBEXP000178.md",
+    "content_sha256": "43cbd6430d365160a35f23d1bc6dc6b025e18e22f1a655d37151e16e6a872436"
+  },
+  {
+    "blind_id": "BLINDV1-017",
+    "original_id": "PUBEXP000218",
+    "title": "历任队委-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/gk/qgzxfd/ljdw.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-017_PUBEXP000218.md",
+    "content_sha256": "ec319d08995047c2eb5d17949ba1fa27672c8a2056e2ada3cec4ce2095b2caf8"
+  },
+  {
+    "blind_id": "BLINDV1-018",
+    "original_id": "PUBEXP000022",
+    "title": "清华大学法律图书馆",
+    "url": "https://lib.tsinghua.edu.cn/law/index.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-018_PUBEXP000022.md",
+    "content_sha256": "90e4330d42e0845bc1f2706a8fb97565c7c699b2643575e6cdd55037ce929af9"
+  },
+  {
+    "blind_id": "BLINDV1-019",
+    "original_id": "PUBEXP000247",
+    "title": "Library Privilege Opening-Tsinghua University Library",
+    "url": "https://lib.tsinghua.edu.cn/en/Services/Library_Privilege_Opening.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-019_PUBEXP000247.md",
+    "content_sha256": "d4c40aecb865f59119d12f0ce82e8979e79f8650a624248f6d951214919f459b"
+  },
+  {
+    "blind_id": "BLINDV1-020",
+    "original_id": "PUBEXP000205",
+    "title": "Call for Papers of iLibrary-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1516/8097.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-020_PUBEXP000205.md",
+    "content_sha256": "06c8e486ddfa9ba6053e02969b7ad609d6716a6425cc0e896a49280c6cedecba"
+  },
+  {
+    "blind_id": "BLINDV1-021",
+    "original_id": "PUBEXP000052",
+    "title": "Frontiers发布出版行业首份AI实践指南：为科研出版构建负责任 AI 应用路线图-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1377/7996.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-021_PUBEXP000052.md",
+    "content_sha256": "2b2ce2b9350d578b3f782b6f4521ea017ecc757ae8b221d50ed990f337c39201"
+  },
+  {
+    "blind_id": "BLINDV1-022",
+    "original_id": "PUBEXP000038",
+    "title": "信息化技术中心、网络研究院开展端午节前安全检查",
+    "url": "https://www.itc.tsinghua.edu.cn/info/1004/2206.htm",
+    "source_domain": "www.itc.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-022_PUBEXP000038.md",
+    "content_sha256": "7b7c0c2dda2771d28a3ea0e2baf0f91345f1ee5fafd5012afe7fa49c60a7534a"
+  },
+  {
+    "blind_id": "BLINDV1-023",
+    "original_id": "PUBEXP000102",
+    "title": "教学资源开发",
+    "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/jxzykf.htm",
+    "source_domain": "www.itc.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-023_PUBEXP000102.md",
+    "content_sha256": "7fd3fe181a174adf0ac23735572d44b293bf2532eac93f37be82efec526420cd"
+  },
+  {
+    "blind_id": "BLINDV1-024",
+    "original_id": "PUBEXP000005",
+    "title": "用户服务",
+    "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/fsdf.htm",
+    "source_domain": "www.itc.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-024_PUBEXP000005.md",
+    "content_sha256": "6012c30f2ffb3c0475ad2d024568278871d0c0dec612dfe325ab7367e8df3393"
+  },
+  {
+    "blind_id": "BLINDV1-025",
+    "original_id": "PUBEXP000088",
+    "title": "部门职能",
+    "url": "https://peace.tsinghua.edu.cn/bmgk/bmzn.htm",
+    "source_domain": "peace.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-025_PUBEXP000088.md",
+    "content_sha256": "801fd0f6e77121dd28297015408a6f54fca96153ce0df790a42ee6db2c9e6e08"
+  },
+  {
+    "blind_id": "BLINDV1-026",
+    "original_id": "PUBEXP000193",
+    "title": "EMS Press推出“Launch to Open”透明开放获取新模式，助力老牌期刊向社区主导出版转型-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1377/7968.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-026_PUBEXP000193.md",
+    "content_sha256": "df4cdd0eadb3953e13475ee6f9da6b266f2fc1aafce83c823c4d7efecb177a01"
+  },
+  {
+    "blind_id": "BLINDV1-027",
+    "original_id": "PUBEXP000200",
+    "title": "报告鉴读 | 不只是“开放”，开放科学如何成为经济引擎-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1345/7961.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-027_PUBEXP000200.md",
+    "content_sha256": "00a86bcdfcfb0434dce4b81e5f55847d0fc66e1df215890f8ef09969b693d0c4"
+  },
+  {
+    "blind_id": "BLINDV1-028",
+    "original_id": "PUBEXP000279",
+    "title": "图书馆窦天芳当选国际图书馆联合会专业咨询委员会委员-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1202/7533.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-028_PUBEXP000279.md",
+    "content_sha256": "50a3a2b8b1bf7214982e54d0d65aafc8bb4b90a493bf9d3ec82042bc9cdb6837"
+  },
+  {
+    "blind_id": "BLINDV1-029",
+    "original_id": "PUBEXP000225",
+    "title": "我校“水木开卷·真人图书馆”读书活动荣获北京市“青阅领读”先锋称号-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1202/7993.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-029_PUBEXP000225.md",
+    "content_sha256": "44507988d4409a58443f99f1c406db7a306fb7a4b35cf56b2939951b9be622dd"
+  },
+  {
+    "blind_id": "BLINDV1-030",
+    "original_id": "PUBEXP000284",
+    "title": "喜报 | 图书馆中文主页荣获清华大学第三届校园网络文化节优秀网站奖-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1202/4029.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-030_PUBEXP000284.md",
+    "content_sha256": "0189c0423dce7e219c774c3a8e0ed6706ae3fd1a48e6be7041a67f90f142312f"
+  },
+  {
+    "blind_id": "BLINDV1-031",
+    "original_id": "PUBEXP000259",
+    "title": "校领导调研图书馆-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1202/7846.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-031_PUBEXP000259.md",
+    "content_sha256": "9caa525feb85e8e73c586a3fc9b0eada7c38dc61a76ed89e47f68417aa385b0e"
+  },
+  {
+    "blind_id": "BLINDV1-032",
+    "original_id": "PUBEXP000159",
+    "title": "领导关怀",
+    "url": "https://www.itc.tsinghua.edu.cn/zxgk/ldgh.htm",
+    "source_domain": "www.itc.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-032_PUBEXP000159.md",
+    "content_sha256": "919ecc33652595a2e5cfd9baa867f97818e2d451c77aea2656d48eb4e28f0903"
+  },
+  {
+    "blind_id": "BLINDV1-033",
+    "original_id": "PUBEXP000229",
+    "title": "清华大学图书馆与泰国朱拉隆功大学图书馆签署合作备忘-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1202/7913.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-033_PUBEXP000229.md",
+    "content_sha256": "e97a92ba0166be86a3482ee5d376204b7b61739603675b6ea670bbc7bad06adb"
+  },
+  {
+    "blind_id": "BLINDV1-034",
+    "original_id": "PUBEXP000049",
+    "title": "服务国家开放创新战略：Frontiers、NSFC科学传播与成果转化中心、CEPIEC 达成战略合作-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1377/7998.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-034_PUBEXP000049.md",
+    "content_sha256": "099cfb257b413c096f77be552b1048be5df9bb7b5018fcd8eaa32cd4fe04c581"
+  },
+  {
+    "blind_id": "BLINDV1-035",
+    "original_id": "PUBEXP000003",
+    "title": "校园网络运行",
+    "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/xywlyx.htm",
+    "source_domain": "www.itc.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-035_PUBEXP000003.md",
+    "content_sha256": "baa14305b10663d344c82c3ee3f9be140bcbcbe7921d163cee0ab809f99be213"
+  },
+  {
+    "blind_id": "BLINDV1-036",
+    "original_id": "PUBEXP000024",
+    "title": "借阅导引",
+    "url": "https://lib.tsinghua.edu.cn/arts/jydy.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-036_PUBEXP000024.md",
+    "content_sha256": "0e4d1c3173213d6aaad08a0c11804ee14c1d2e032d26522cac8688d05f47ca4a"
+  },
+  {
+    "blind_id": "BLINDV1-037",
+    "original_id": "PUBEXP000042",
+    "title": "开馆时间-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/kgsj.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-037_PUBEXP000042.md",
+    "content_sha256": "f04ae3919a56c5fecaeeb4b3eebefef1b3225cd23e323ae4332e58305c9b2352"
+  },
+  {
+    "blind_id": "BLINDV1-038",
+    "original_id": "PUBEXP000099",
+    "title": "信息系统运行",
+    "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/xxxtyx.htm",
+    "source_domain": "www.itc.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-038_PUBEXP000099.md",
+    "content_sha256": "9ae6cc3a1e078fc60f95ab0b41345740463883c15c7b40c2a2d0e4ef14c0623e"
+  },
+  {
+    "blind_id": "BLINDV1-039",
+    "original_id": "PUBEXP000164",
+    "title": "尚唯军用标准信息服务平台正式订购-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1076/7600.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-039_PUBEXP000164.md",
+    "content_sha256": "b979f62a611c8a2213fb34d72b4b7f70a25814a8821123a7fef41b46946387b2"
+  },
+  {
+    "blind_id": "BLINDV1-040",
+    "original_id": "PUBEXP000204",
+    "title": "iLibrary简介-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1515/8054.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-040_PUBEXP000204.md",
+    "content_sha256": "ec934197b45f164b5c97fae1360a96378d8b59912b7b04d2e30d73e417fa0892"
+  },
+  {
+    "blind_id": "BLINDV1-041",
+    "original_id": "PUBEXP000172",
+    "title": "中国建筑数字图书馆正式订购-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1076/6026.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-041_PUBEXP000172.md",
+    "content_sha256": "19459e96a37852e0f85f853247f6e753dfdda65a1963f412e4ce15912dd2a37a"
+  },
+  {
+    "blind_id": "BLINDV1-042",
+    "original_id": "PUBEXP000089",
+    "title": "科室职能",
+    "url": "https://peace.tsinghua.edu.cn/bmgk/kszn.htm",
+    "source_domain": "peace.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-042_PUBEXP000089.md",
+    "content_sha256": "db913acfd809988f8a9fd89ad8628dc08e23162c1f546469d257829a9b3eef4b"
+  },
+  {
+    "blind_id": "BLINDV1-043",
+    "original_id": "PUBEXP000029",
+    "title": "失物招领",
+    "url": "https://lib.tsinghua.edu.cn/law/fw/blss/swzl.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-043_PUBEXP000029.md",
+    "content_sha256": "9376312a2490530ad671570df94f7e2b9f7d5bc5f57ca1fdd3e6a2b862b59ed1"
+  },
+  {
+    "blind_id": "BLINDV1-044",
+    "original_id": "PUBEXP000223",
+    "title": "学位论文服务系统临时停用通知-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1073/8064.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-044_PUBEXP000223.md",
+    "content_sha256": "754d1e9c24525c3515a113b23d1c42ecfd9a29728cc9306999363502ce1e03ab"
+  },
+  {
+    "blind_id": "BLINDV1-045",
+    "original_id": "PUBEXP000081",
+    "title": "活动报名 | 数字素养工作坊第7期：Web of Science AI工具专场-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1068/8101.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-045_PUBEXP000081.md",
+    "content_sha256": "cc205bc1832fe9f28b36cbac7d2e519005ecd46c212ded3dc8bcc298e92b57eb"
+  },
+  {
+    "blind_id": "BLINDV1-046",
+    "original_id": "PUBEXP000230",
+    "title": "关于美术图书馆闭馆维修期间暂停读者服务的通知-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1072/1939.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-046_PUBEXP000230.md",
+    "content_sha256": "40658a859e89bc262961f01cbc4080b79a37f272ea08f2afc33c48ed814719eb"
+  },
+  {
+    "blind_id": "BLINDV1-047",
+    "original_id": "PUBEXP000261",
+    "title": "期刊编辑进校园——Science专场活动在图书馆举办-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1202/7813.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-047_PUBEXP000261.md",
+    "content_sha256": "275db3b9b6ae22ad9452054c344c8c126e5f3ddd879eefc4c7611cf2df8aefb8"
+  },
+  {
+    "blind_id": "BLINDV1-048",
+    "original_id": "PUBEXP000034",
+    "title": "中心简介",
+    "url": "https://www.itc.tsinghua.edu.cn/zxgk/zxjj.htm",
+    "source_domain": "www.itc.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-048_PUBEXP000034.md",
+    "content_sha256": "95904965800cb0ef434802c3791fa969b78cf60d5cbb0709ab9bcde1be441828"
+  },
+  {
+    "blind_id": "BLINDV1-049",
+    "original_id": "PUBEXP000056",
+    "title": "馆长致辞-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/gk/gzzc.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-049_PUBEXP000056.md",
+    "content_sha256": "2ad86f70a6aa6753afe58999d86f91a096f525d0739c9cb0cf573e860ea550fd"
+  },
+  {
+    "blind_id": "BLINDV1-050",
+    "original_id": "PUBEXP000149",
+    "title": "专题专架",
+    "url": "https://lib.tsinghua.edu.cn/law/info/1035/1658.htm",
+    "source_domain": "lib.tsinghua.edu.cn",
+    "content_file": "samples/content/BLINDV1-050_PUBEXP000149.md",
+    "content_sha256": "d8f337aef5e209ebf7234fe05cd10f37b61ffb2f4847f703a0a507ad0506b5ec"
+  }
+]

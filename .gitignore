@@ -1,0 +1,40 @@
+# Credentials and browser authentication state (never commit)
+.env
+.env.*
+!.env.example
+**/storage_state.json
+**/auth_state.json
+**/auth_status.json
+**/*cookie*.json
+**/*token*.json
+**/*credential*.json
+**/*webvpn*
+**/browser_profile/
+**/playwright/.auth/
+data/01_public_baseline/data/auth/
+
+# Regenerable tooling, caches and local runtimes
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/node_modules/
+**/.artifact_runtime/
+**/.cache/
+**/cache/
+**/tmp/
+**/_work/
+**/_workbook_previews/
+**/vendor/
+
+# Downloaded model weights and local vector-index model artifacts
+**/*.safetensors
+**/pytorch_model.bin
+**/_download_parts/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

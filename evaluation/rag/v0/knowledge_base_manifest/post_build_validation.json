@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "source_rows": 238,
+  "accepted_sources": 238,
+  "chunk_rows": 717,
+  "vector_shape": [
+    717,
+    60000
+  ],
+  "checks": {
+    "all_manifest_rows_accepted": true,
+    "all_source_files_still_exist": true,
+    "all_normalized_files_exist": true,
+    "all_chunks_have_required_fields": true,
+    "all_chunk_urls_preserved": true,
+    "chunk_id_order_matches_index": true,
+    "vector_rows_match_chunks": true,
+    "vector_columns_match_metadata": true,
+    "chunks_hash_matches_metadata": true,
+    "embeddings_hash_matches_metadata": true,
+    "vectorizer_hash_matches_metadata": true
+  }
+}

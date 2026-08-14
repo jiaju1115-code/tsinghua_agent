@@ -1,0 +1,58 @@
+{
+  "selection_rule": "Predeclared conservative threshold 0.75 for SUPPORTED and 0.68 for PARTIALLY_SUPPORTED; do not select based on best observed metrics.",
+  "main_supported": 0.75,
+  "main_partial": 0.68,
+  "sensitivity": {
+    "0.6": {
+      "SUPPORTED": 23,
+      "UNSUPPORTED": 81,
+      "eligible_factual_claims": 104,
+      "coverage_proxy": 0.22115384615384615
+    },
+    "0.65": {
+      "SUPPORTED": 17,
+      "UNSUPPORTED": 87,
+      "eligible_factual_claims": 104,
+      "coverage_proxy": 0.16346153846153846
+    },
+    "0.7": {
+      "SUPPORTED": 11,
+      "UNSUPPORTED": 93,
+      "eligible_factual_claims": 104,
+      "coverage_proxy": 0.10576923076923077
+    },
+    "0.75": {
+      "SUPPORTED": 5,
+      "UNSUPPORTED": 99,
+      "eligible_factual_claims": 104,
+      "coverage_proxy": 0.04807692307692308
+    },
+    "0.8": {
+      "UNSUPPORTED": 104,
+      "eligible_factual_claims": 104,
+      "coverage_proxy": 0.0
+    }
+  },
+  "high_semantic_but_hard_rules_fail": [
+    {
+      "question_id": "RET-08",
+      "claim_id": "RET-08-C001",
+      "claim_text": "清华大学食堂信息：[C1]丁香园食堂、闻馨园食堂、双清园食堂；",
+      "semantic_score": 0.7509126663208008,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ],
+      "chunk_id": "PROV0-STGPUB-0071-0001"
+    },
+    {
+      "question_id": "PROV-015",
+      "claim_id": "PROV-015-C001",
+      "claim_text": "进入清华大学图书馆需要遵守以下入馆管理办法：",
+      "semantic_score": 0.7523742914199829,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ],
+      "chunk_id": "PROV0-STGPUB-0147-0000"
+    }
+  ]
+}

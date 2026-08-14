@@ -1,0 +1,16 @@
+{
+  "action": "approve",
+  "reject_type": "",
+  "category": "校园机构与部门",
+  "content_type": "organization_intro",
+  "audience": "清华师生及图书馆用户",
+  "topic_relevance": "high",
+  "time_status": "evergreen",
+  "valid_from": "",
+  "valid_until": "",
+  "candidate_user_question": "清华大学图书馆有哪些部门及主要职责？",
+  "positive_evidence": "正文系统介绍了清华大学图书馆的组织机构与各部门主要职责，包括文献信息资源建设与编目、借阅与馆际互借、信息素养与学科服务、古籍与特色馆藏、信息服务支撑环境与系统集成、基础理论与管理研究、资产与日常运转等内容，具有稳定的校园机构知识价值。",
+  "negative_evidence": "未提供具体部门名称的完整清单，且包含少量发展目标表述，但不影响作为图书馆组织与职责的长期知识条目使用。",
+  "possible_duplicate": false,
+  "reason": "页面核心是清华大学图书馆组织机构及部门职责介绍，属于稳定的校园机构知识，适合进入知识库。"
+}

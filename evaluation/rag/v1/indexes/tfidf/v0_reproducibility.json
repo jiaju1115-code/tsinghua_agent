@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "frozen_smoke_queries_compared": 10,
+  "identical_top5_chunk_order": 10,
+  "note": "The rebuilt RAG V1 TF-IDF baseline reproduces the RAG V0 Top-5 chunk order for all ten frozen smoke queries. Serialized file hashes can differ because NPZ/joblib containers include implementation metadata."
+}

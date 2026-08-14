@@ -1,0 +1,9 @@
+**已购资源：**欢迎向图书馆提供您的[评价意见](https://lib.tsinghua.edu.cn/customform.htm?formBm=Form_1638870134087_BM6035)，[查看更多电子资源动态](http://lib.tsinghua.edu.cn/zydt/yg.htm)
+
+  
+
+“工程科技数字图书馆”是由机械工业出版社开发和运营的电子出版物发布平台，平台收录机械工业出版社自由出版的电子书和期刊，以2011年-2021年近10年的品种为主题，平台收录内容涵盖机械、电工电子、汽车、计算机、建筑、经管、心理等众多专业领域，数量13000+个品种，平台年更新约800-1000个品种。
+
+详情请查看：<https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991022018206003966>
+
+咨询反馈：[ljh228@mail.tsinghua.edu.cn](mailto:ljh228@mail.tsinghua.edu.cn)

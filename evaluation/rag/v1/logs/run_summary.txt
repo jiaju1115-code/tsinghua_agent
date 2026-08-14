@@ -1,0 +1,12 @@
+corpus/chunks: 238/717, frozen integrity PASS
+dense index status: PASS, 717x512, embedding SHA-256 6fedbb90ebf69653a8ffd6f8a1381b6ab389fbb66fa1a5558853ed81770e8059
+reranker status: PASS benchmark; not recommended (quality degraded, ~7.216 s/query CPU)
+evaluation query count: 38 (10 existing smoke + 28 PROVISIONAL_EVAL; 33 reliable expected source)
+TF-IDF metrics: R@1 .6061, R@3 .7273, R@5 .7879, R@10 .8788, MRR .6944
+Dense metrics: R@1 .7273, R@3 .8788, R@5 .9091, R@10 .9394, MRR .8078
+Hybrid metrics: R@1 .6667, R@3 .8788, R@5 .9394, R@10 .9394, MRR .7813
+Hybrid+Reranker metrics: R@1 .5758, R@3 .8182, R@5 .8485, R@10 .9091, MRR .6864
+recommended retriever: Dense Retrieval (BAAI/bge-small-zh-v1.5)
+V0 smoke improvement: verdicts unchanged, 7 pass / 2 partial / 1 fail; rankings improved in cases but source ceilings remain
+unresolved source gaps: campus transport/shuttle/routes/access; composite academic, library, medical and employment intents require multi-source evidence
+final report path: D:\python_projects\tsinghua_ai\data_second\rag_v1\reports\rag_v1_report.md

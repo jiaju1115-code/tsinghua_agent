@@ -1,0 +1,14 @@
+﻿id_1,id_2,url_1,url_2,similarity,detected_at
+THU000038,THU000099,https://www.tsinghua.edu.cn/zjqh/xyfg.htm,https://www.tsinghua.edu.cn/zjqh/xyfg/xyjg.htm,0.9531,2026-08-09T19:21:19+08:00
+PORTAL000009,PORTAL000010,http://xyy.tsinghua.edu.cn/info/1039/6845.htm,http://xyy.tsinghua.edu.cn/info/1039/6844.htm,0.9688,2026-08-09T20:15:16+08:00
+PORTAL000009,PORTAL000011,http://xyy.tsinghua.edu.cn/info/1039/6845.htm,http://xyy.tsinghua.edu.cn/info/1039/6501.htm,0.9219,2026-08-09T20:15:18+08:00
+PORTAL000009,PORTAL000014,http://xyy.tsinghua.edu.cn/info/1039/6845.htm,http://xyy.tsinghua.edu.cn/info/1039/6853.htm,0.9375,2026-08-09T20:15:23+08:00
+PORTAL000016,PORTAL000017,http://xyy.tsinghua.edu.cn/info/1057/6805.htm,http://xyy.tsinghua.edu.cn/info/1057/6763.htm,0.9688,2026-08-09T20:15:29+08:00
+PORTAL000016,PORTAL000018,http://xyy.tsinghua.edu.cn/info/1057/6805.htm,http://xyy.tsinghua.edu.cn/info/1057/6696.htm,0.9375,2026-08-09T20:15:31+08:00
+PORTAL000018,PORTAL000019,http://xyy.tsinghua.edu.cn/info/1057/6696.htm,http://xyy.tsinghua.edu.cn/info/1057/6650.htm,0.9688,2026-08-09T20:15:33+08:00
+PORTAL000016,PORTAL000020,http://xyy.tsinghua.edu.cn/info/1057/6805.htm,http://xyy.tsinghua.edu.cn/info/1057/6562.htm,0.9688,2026-08-09T20:15:35+08:00
+PORTAL000017,PORTAL000021,http://xyy.tsinghua.edu.cn/info/1057/6763.htm,http://xyy.tsinghua.edu.cn/info/1057/6463.htm,0.9219,2026-08-09T20:15:37+08:00
+PORTAL000013,PORTAL000023,http://xyy.tsinghua.edu.cn/info/1042/6882.htm,http://xyy.tsinghua.edu.cn/info/1042/6900.htm,0.9219,2026-08-09T20:15:40+08:00
+PORTAL000009,PORTAL000025,http://xyy.tsinghua.edu.cn/info/1039/6845.htm,http://xyy.tsinghua.edu.cn/info/1039/6866.htm,0.9531,2026-08-09T20:15:44+08:00
+PORTAL000011,PORTAL000026,http://xyy.tsinghua.edu.cn/info/1039/6501.htm,http://xyy.tsinghua.edu.cn/info/1039/6500.htm,0.9688,2026-08-09T20:15:46+08:00
+PORTAL000017,PORTAL000027,http://xyy.tsinghua.edu.cn/info/1057/6763.htm,http://xyy.tsinghua.edu.cn/info/1057/6757.htm,0.9688,2026-08-09T20:15:47+08:00

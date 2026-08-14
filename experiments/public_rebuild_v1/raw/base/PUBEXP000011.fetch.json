@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "http_status": 200,
+  "final_url": "https://lib.tsinghua.edu.cn/newstudents/",
+  "content_type": "text/html",
+  "bytes": 41789,
+  "error": "",
+  "crawl_time": "2026-08-12T22:02:22+08:00"
+}

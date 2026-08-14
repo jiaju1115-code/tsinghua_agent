@@ -1,0 +1,33 @@
+**1. X1 visa /X1签证**
+
+X1 Visa issued to those undertaking long-term study in Mainland China (more than 180 days). Students holding an X1 visa must apply within 30 days after entry for a residence permit, otherwise it constitutes illegal residence.
+
+International students studying in China must possess ordinary passports with either visa for study (X1 or X2 type). The validity period of X2 visa is indicated on the visa page. The validity of X1 visa is 30 days from the date of entry.
+
+International students entering China with other types of visas may not be able to apply for student's visa or residence permit, and therefore may not be accepted for enrollment. In this case, all the consequences shall be assumed by the student in person.
+
+      X1签证颁发给在中国境内长期（超过180日）学习的人员。持有X1签证的国际学生需在入境30日内申请学习类居留许可，逾期未办理则构成非法居留。
+
+      国际学生来华学习须持普通护照及学习（X1）签证或（X2）签证入境。X2签证有效期以签证注明为准；X1签证有效期为入境后30日。
+
+      学生持其他类型签证入境，可能无法转为学生签证或者学习类居留许可，也无法正常在校学习，学生本人承担因此而导致的全部后果。
+
+**2. X2 visa/ X2签证**
+
+X2 Visa issued to international students who will study for fewer than 180 days.
+
+International students studying in China must possess ordinary passports with either visa for study (X1 or X2 type). The validity period of X2 visa is indicated on the visa page. The validity of X1 visa is 30 days from the date of entry.
+
+International students entering China with other types of visas may not be able to apply for student's visa or residence permit, and therefore may not be accepted for enrollment. In this case, all the consequences shall be assumed by the student in person.
+
+X2颁发给在中国境内短期（不超过180日）学习的人员。
+
+      国际学生来华学习须持普通护照及学习（X1）签证或（X2）签证入境。X2签证有效期以签证注明为准；X1签证有效期为入境后30日。
+
+      若学生持其他类型签证入境，可能无法转为学生签证或者学习类居留许可，也无法正常在校学习，学生本人承担因此而导致的全部后果。
+
+**3. Internships/ 实习签证**
+
+Internships for international students who need to undertake an internship, after they have obtained the official approval from their school department, and the inviting company/institution has issued an Internship Certification Letter, they should go to the International Students & Scholars Center for approval, before going to the Entry-exit Administration of the Beijing Municipal Public Security Bureau to apply for the Residence Permit Internship Annotation
+
+      有实习需求的国际学生可持就读院校在读及同意外国留学生参与校外实习证明，实习单位出具接收实习证明等相关材料，向高校所在地的公安机关出入境管理部门申请在学习类居留许可上加注“实习”。

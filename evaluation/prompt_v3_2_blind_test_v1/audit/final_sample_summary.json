@@ -1,0 +1,48 @@
+{
+  "total": 50,
+  "random": 25,
+  "targeted": 25,
+  "domains": {
+    "lib.tsinghua.edu.cn": 41,
+    "www.itc.tsinghua.edu.cn": 7,
+    "peace.tsinghua.edu.cn": 2
+  },
+  "categories": {
+    "非目标范围": 15,
+    "科研参与与资源导航": 10,
+    "图书馆服务": 12,
+    "校园生活": 7,
+    "学生事务": 1,
+    "校园基本信息": 2,
+    "网络与信息化": 3
+  },
+  "content_types": {
+    "news_event": 9,
+    "resource_directory": 5,
+    "current_notice": 5,
+    "promotional_content": 2,
+    "procedure_guide": 3,
+    "organization_intro": 9,
+    "policy": 2,
+    "faq": 1,
+    "mixed": 2,
+    "achievement_report": 2,
+    "service_entry": 5,
+    "research_news": 5
+  },
+  "coverage": {
+    "科研资源": 5,
+    "活动/新闻边界": 5,
+    "校园核心事务": 5,
+    "medium候选": 5,
+    "科研成果/行业科研新闻": 3,
+    "人物/荣誉": 4,
+    "长期校园服务": 5,
+    "校领导活动": 2,
+    "合作签约": 2
+  },
+  "similar_title_pairs": [],
+  "normalized_url_unique": 50,
+  "content_hash_unique": 50,
+  "max_content_chars": 3505
+}

@@ -1,0 +1,1 @@
+{"action":"reject","category":"非目标范围","content_type":"news_event","audience":"图书馆员工","time_status":"outdated","candidate_user_question":"","positive_evidence":"正文仅记载“2026年图书馆全馆大会”召开情况、馆长工作报告、工会年度总结和颁奖等内部事项。","negative_evidence":"属于内部新闻回顾与工作部署，主要面向全馆员工；未提供学生可直接使用的办事流程、服务入口、资源导航、资格条件或联系方式，复用价值低。","possible_duplicate":false,"reason":"这是图书馆内部会议新闻，不是面向学生的可复用知识条目；正文没有学生办事或服务信息，因此应拒绝。"}

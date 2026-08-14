@@ -1,0 +1,34 @@
+{
+  "total": 29,
+  "results": {
+    "PASS": 28,
+    "PARTIAL": 1
+  },
+  "by_old_class": {
+    "content_missing": {
+      "PASS": 10
+    },
+    "navigation_only": {
+      "PASS": 5
+    },
+    "template_polluted": {
+      "PASS": 4,
+      "PARTIAL": 1
+    },
+    "detail_content": {
+      "PASS": 5
+    },
+    "list_page": {
+      "PASS": 4
+    }
+  },
+  "gate_blocked": 9,
+  "bad_navigation_passed": 0,
+  "detail_regressions": [],
+  "legacy_id_map": {
+    "PUBEXP000015 (附件旧轮次：端午安全检查)": "PUBEXP000038",
+    "PUBEXP000016 (附件旧轮次：招聘信息)": "PUBEXP000039",
+    "PUBEXP000026 (附件旧轮次：法律法规)": "PUBEXP000096",
+    "PUBEXP000027 (附件旧轮次：政策文件)": "PUBEXP000097"
+  }
+}

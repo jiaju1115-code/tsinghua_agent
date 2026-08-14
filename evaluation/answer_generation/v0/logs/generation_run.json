@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "model_load_seconds": 0.7759211000520736,
+  "run_seconds": 812.2913835999789,
+  "generated_now": 38,
+  "completed_total": 38,
+  "model": {
+    "model_name": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "quantization": "Q4_K_M",
+    "runtime": "llama-cpp-python 0.3.34 CPU",
+    "context_length": 6144,
+    "max_new_tokens": 128,
+    "temperature": 0.0,
+    "seed": 20260813,
+    "threads": 12,
+    "batch_threads": 16,
+    "prompt_batch_size": 2048,
+    "micro_batch_size": 512
+  },
+  "output": "D:\\python_projects\\tsinghua_ai\\data_second\\answer_eval_v0\\results\\answer_generation_results.jsonl"
+}

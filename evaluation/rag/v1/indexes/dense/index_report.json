@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "model_name": "BAAI/bge-small-zh-v1.5",
+  "revision": "7999e1d3359715c523056ef9478215996d62a620",
+  "local_model_path": "D:\\python_projects\\tsinghua_ai\\data_second\\rag_v1\\indexes\\dense\\model",
+  "weights_sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+  "embedding_dimension": 512,
+  "rows": 717,
+  "encoding_batch_size": 16,
+  "max_length": 512,
+  "document_encoding_seconds": 40.87115180003457,
+  "documents_per_second": 17.54293599328888,
+  "model_load_seconds": 0.6163433999754488,
+  "peak_rss_mb": 781.85546875,
+  "incremental_peak_mb": 401.359375,
+  "embedding_file_sha256": "6fedbb90ebf69653a8ffd6f8a1381b6ab389fbb66fa1a5558853ed81770e8059",
+  "mapping_file_sha256": "e1e42dd27962cd4c6b43af45ff5e64ccc30ab4a9ff01ef37dcc140867946904c",
+  "embedding_file_bytes": 1468544,
+  "normalization": "L2",
+  "cosine_ready": true,
+  "norm_min": 0.9999998211860657,
+  "norm_max": 1.0000001192092896,
+  "pooling": "CLS last_hidden_state[:,0]",
+  "input": "title + newline + text",
+  "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+  "environment": {
+    "python": "3.12.5",
+    "torch": "2.13.0+cpu",
+    "device": "cpu"
+  }
+}

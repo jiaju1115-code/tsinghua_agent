@@ -1,0 +1,8 @@
+.env
+*.key
+auth/
+__pycache__/
+*.pyc
+reviews/raw_model_outputs/*
+!reviews/raw_model_outputs/.gitkeep
+

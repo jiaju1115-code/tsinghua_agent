@@ -1,0 +1,90 @@
+﻿id,title,url,final_url,domain,department,published_at,updated_at,crawled_at,category_hint,access_level,source_mode,markdown_path,content_length,content_hash,depth,parent_url,anchor_text,crawl_status
+PORTAL000001,服务指南,https://93001.tsinghua.edu.cn/ServiceInformation/index.html,https://93001.tsinghua.edu.cn/ServiceInformation/index.html,93001.tsinghua.edu.cn,,,,2026-08-09T20:00:13+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000001_服务指南.md,8992,18b66017e94ab0ae1d87bb789f3a5ab907ee0e63c50b4be120971994fc7fd058,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1ba33d8c005e,服务指南,success
+PORTAL000002,清华大学党政办信息办公网,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=42363b582e60e9939006092be81e239b,https://webvpn.tsinghua.edu.cn/https/77726476706e69737468656265737421e8ef439b69336153301c9aa596522b20e1a870705b76e399/oath/detail.jsp?boardid=2709&seq=177015,webvpn.tsinghua.edu.cn,,2026-06-03,,2026-08-09T20:13:27+08:00,校园通知,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000002_清华大学党政办信息办公网.md,591,60f1ce48dc5922bf002b33d82fcbf6aebece228fc5dc450db2faeaec4d423158,1,https://info.tsinghua.edu.cn/,关于2026～2027学年度部分节假日放假调课事宜的通知,success
+PORTAL000003,清华大学科研办公信息网,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=95634087412a73fd66d42761f412a63c,https://webvpn.tsinghua.edu.cn/http/77726476706e69737468656265737421fbee589e2028701e7d018ae28c462a3be90b228bbda6767746aeb6/kybg/detail.jsp?boardid=34&seq=40677,webvpn.tsinghua.edu.cn,,,,2026-08-09T20:13:46+08:00,校园通知,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000003_清华大学科研办公信息网.md,2169,64ec56435edd1be753ade97aed8d1ad9974deeb7f159a0d2e0b1157be1f38aef,1,https://info.tsinghua.edu.cn/,关于组织推荐2026年度大禹水利科学技术奖的通知,success
+PORTAL000004,信息资讯-国际合作与交流处/港澳台办公室,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9469640002,https://webvpn.tsinghua.edu.cn/https/77726476706e69737468656265737421f9f9479369247b59700f81b9991b2631506205de/f/info/xxfb_fg/xnzx/template/departmentMore?lmid=LM_BM_253_BSZN&lydw=253,webvpn.tsinghua.edu.cn,,,,2026-08-09T20:13:56+08:00,校园办事,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000004_信息资讯-国际合作与交流处_港澳台办公室.md,40236,92c07df62f8739b2e6e10ad2c77c227684074163ade3100bbafc0026a95c7173,1,https://info.tsinghua.edu.cn/,出境指南,success
+PORTAL000005,马耳他（申根） - 清华大学信息门户,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=2c2c5d76cddc48c584fa87c6e18f7653,https://webvpn.tsinghua.edu.cn/https/77726476706e69737468656265737421f9f9479369247b59700f81b9991b2631506205de/f/info/xxfb_fg/xnzx/template/detail?xxid=2c2c5d76cddc48c584fa87c6e18f7653,webvpn.tsinghua.edu.cn,,,,2026-08-09T20:14:08+08:00,校园办事,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000005_马耳他（申根） - 清华大学信息门户.md,836,7ee83397e6c54c5a6aeeb61e63747bb58831c5d8cc962d746b491da7a1c19bf8,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9469640002,"马耳他（申根）
+
+公务护照（绿皮）免签，但需通过派出办开具出境证明。 持公务普通护照申办马耳他签证所需材料： 温馨提示：1.申请人根据预约时间到使馆留取指纹时，马耳他驻华大使有接见申请人的可能，请注意着装；2.申请人将签证材料送到派出办后第3个工作日材料送进使馆，请在材料进馆当日，将申请人工作单位英文简介以及邀请信（英文版）发送至使馆邮箱：dan.lu@gov.mt 派出办提供： 1. 清华大学因公出国（境）任务批件原件 1 份； 2. 中、英文照会。 申请人提供： 1. 赴马耳他录指纹预约材料： （1）若未曾在申根国录过指纹，请填写赴马耳他录指纹预约申请表 2 份（附件1）； （2）若近 5",success
+PORTAL000006,境内延期F字访问签证办事指南 - 清华大学信息门户,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=954a57c2de9a449bb1d162fb15acc5e5,https://webvpn.tsinghua.edu.cn/https/77726476706e69737468656265737421f9f9479369247b59700f81b9991b2631506205de/f/info/xxfb_fg/xnzx/template/detail?xxid=954a57c2de9a449bb1d162fb15acc5e5,webvpn.tsinghua.edu.cn,,,,2026-08-09T20:14:35+08:00,校园办事,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000006_境内延期F字访问签证办事指南 - 清华大学信息门户.md,707,6104fcc6b664e88b917b188d083701068799e53fa9ddfb925661227536a35c38,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9469640002,"境内延期F字访问签证办事指南
+
+根据《中华人民共和国出境入境管理法》及北京市公安局出入境管理局最新政策，持普通（因私）护照、F字访问签证入境者，可在境内申请延长停留期限，累计停留不得超过1年，且单次延长期限最长不超过180日（6个月）。详情可参考北京市公安局出入境管理大队政策，具体流程如下： 一、校内审批流程 （一）OA 报文 校内主请单位通过OA在线办公系统发送校内报文至国际处，报文正文为“关于为XX国籍XX先生/女士延期访问签证的申请”（可参考附件范例），报文须经本单位外事主管线上审核。 附件需上传： 1.护照首页扫描件 2.现行F字签证页扫描件 3.入境章页扫描件 （二）保密承诺 校内主",success
+PORTAL000007,办事程序,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b94a0f20008,https://webvpn.tsinghua.edu.cn/http/77726476706e69737468656265737421fffb45952936671e6a1b80a29f5d3634e5cdcd7ed98227/html/bszn/bscx.html,webvpn.tsinghua.edu.cn,,,,2026-08-09T20:14:48+08:00,校园办事,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000007_办事程序.md,139,b56a15be3f5a39cf2a0b65478fe949203a44074e9d3922ac5e2931dd3a4361b4,1,https://info.tsinghua.edu.cn/,办事程序,success
+PORTAL000008,清华大学医院,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,https://webvpn.tsinghua.edu.cn/http/77726476706e69737468656265737421e8ee58d23323615e79009cadd650272009fc13/index.htm,webvpn.tsinghua.edu.cn,,,,2026-08-09T20:15:00+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000008_清华大学医院.md,4387,ccf41a5e679bf9e548fb5a746b2ac782723b574779e792597c3f1133e4d27939,1,https://info.tsinghua.edu.cn/,就医指南,success
+PORTAL000009,2025年清华大学后勤技能标兵——房亚哲-清华大学医院,http://xyy.tsinghua.edu.cn/info/1039/6845.htm,http://xyy.tsinghua.edu.cn/info/1039/6845.htm,xyy.tsinghua.edu.cn,,2026-04-01,,2026-08-09T20:15:09+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000009_2025年清华大学后勤技能标兵——房亚哲-清华大学医院.md,273,a2aea165e8b5d1600df1b4ad93d76f31ab02ef740cd1df3967d172382a30c092,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"2025年清华大学后勤技能标兵——房亚哲
+
+自2016年调入校医院以来，她始终坚守在临床检验一线，以医者初心守护师生健康。工作中，她严谨细致、精益求精，凭借扎实的专业功底，熟练掌握临床检验、生化免疫、分子诊断等各项技术，严守操作规范与质控标准，精准高效地完成每一份标本检测，确保数据准确、报告及时。作为检验科血库工作的负责人，她从质量管理着手，完善程序文件，规范操作流程，持续提升血库检测能力，筑牢临床用血安全防线。匠心守初心，笃行担使命，她以...",success
+PORTAL000010,2025年清华大学后勤服务标兵——李英男-清华大学医院,http://xyy.tsinghua.edu.cn/info/1039/6844.htm,http://xyy.tsinghua.edu.cn/info/1039/6844.htm,xyy.tsinghua.edu.cn,,2026-04-01,,2026-08-09T20:15:16+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000010_2025年清华大学后勤服务标兵——李英男-清华大学医院.md,273,ee63c22fdc4184b1336ad500d9adf4735fadee8626ab72adb0ba4c4e8a055045,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"2025年清华大学后勤服务标兵——李英男
+
+作为校医院的骨干药师，他十几年如一日扎根在药品调剂与管理第一线。药品申领、储存、分发，每一个环节他都严谨以待；门诊应急、患者咨询，每一次他都用心回应。他持续优化医院的药品管理流程和质量控制工作，不断提升服务质效。在做好日常工作的同时，他更致力于药学知识的传递。课堂上，他为学子带来用药常识；社区里，他用通俗语言为居民筑起安全屏障，让合理用药理念浸润人心。没有豪言壮语，只有默默坚守。李英男用专业与...",success
+PORTAL000011,2024年清华大学后勤服务标兵--申艳霞-清华大学医院,http://xyy.tsinghua.edu.cn/info/1039/6501.htm,http://xyy.tsinghua.edu.cn/info/1039/6501.htm,xyy.tsinghua.edu.cn,,2025-03-01,,2026-08-09T20:15:18+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000011_2024年清华大学后勤服务标兵--申艳霞-清华大学医院.md,273,071435ee8e0b0267c8cdcf57763eba79c049e37b831283c12736bc2c2e2f493a,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"2024年清华大学后勤服务标兵--申艳霞
+
+多年来她始终坚守在临床一线，毫无怨言，默默付出，以医者仁心和精益求精的专业精神，用心用情服务师生，她就是校医院内科医生——申艳霞。工作中，她认真负责，针对不同病情制定个体化的治疗方案，并将人文关怀融入每一个诊疗细节，力求精准施治；她敏锐果敢，多次及时发现危重患者，迅速组织抢救并妥善转诊，为生命赢得宝贵时机。同时，她还特别重视师生健康预防工作，多次深入社区开展高血压健康宣教，普及校园心肺复苏和AED...",success
+PORTAL000012,校医院-清华大学医院,http://xyy.tsinghua.edu.cn/info/1040/5762.htm,http://xyy.tsinghua.edu.cn/info/1040/5762.htm,xyy.tsinghua.edu.cn,,2022-12-01,,2026-08-09T20:15:19+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000012_校医院-清华大学医院.md,230,0e158ed447b66a731a44ec95913fc3235a0500fbcd1920b1a64a06de87319910,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"校医院
+
+医院以满足全校师生员工的健康需求为中心，以提高医疗保健服务质量为核心，以为学校分忧解难为基本出发点，将厚德服务作为医院生存和发展的生命线，积极改革，锐意进取，力争建成与世界一流大学需求相适应的，集医疗、保健、预防、康复为一体的智慧型健康服务体系。",success
+PORTAL000013,校医院开展爱眼日义诊活动-清华大学医院,http://xyy.tsinghua.edu.cn/info/1042/6882.htm,http://xyy.tsinghua.edu.cn/info/1042/6882.htm,xyy.tsinghua.edu.cn,,2026-06-09,,2026-08-09T20:15:22+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000013_校医院开展爱眼日义诊活动-清华大学医院.md,233,24ff476ecac23672239a55799b793c42baab6107e5aaa910e0087a9431ce4b35,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"校医院开展爱眼日义诊活动
+
+06-09
+
+为深入贯彻健康校园建设要求，切实守护师生居民眼健康，6月5日下午，校医院围绕2026年爱眼日“人人享有眼健康”主题，开展校园眼科义诊活动，为师生居民送上专业、便捷的眼健康服务。",success
+PORTAL000014,2023年度校级先进工作者——聂庆东-清华大学医院,http://xyy.tsinghua.edu.cn/info/1039/6853.htm,http://xyy.tsinghua.edu.cn/info/1039/6853.htm,xyy.tsinghua.edu.cn,,2026-04-01,,2026-08-09T20:15:23+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000014_2023年度校级先进工作者——聂庆东-清华大学医院.md,271,6a8185f6edaac70b7c76101cfebb9bc9981e2dae4034c5507fdfcb98e10a098f,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"2023年度校级先进工作者——聂庆东
+
+聂庆东同志任校医院综合办公室主任，承担着医院安全检查、固定资产盘点、医疗器械采购、办公用品采购、装维修工程、招投标工作、离退休工作、总务后勤、安全保卫、外包公司，创文创卫及控烟工作的全面管理。强责任勇担当，提升满意度。 作为医院党委委员，以身作则，务实肯干。带领科室2名职工积极加入党组织；带领综合办在2023年度医院各科室年终考核中荣获第一名；推动后勤、保洁、保安服务保障高效运行，为临床工作提供优质...",success
+PORTAL000015,疫苗接种-清华大学医院,http://xyy.tsinghua.edu.cn/ymjz.htm,http://xyy.tsinghua.edu.cn/ymjz.htm,xyy.tsinghua.edu.cn,,,,2026-08-09T20:15:25+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000015_疫苗接种-清华大学医院.md,339,13fabd5bfffe42d5fb6099acbabb8e5f339bd8052cbc9fc5d864fa82fcfcf57d,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"疫苗接种通知
+
+向广大师生告知疫苗接种的时间地点及有关事项",success
+PORTAL000016,校医院9价HPV、乙肝疫苗预约接种通知-清华大学医院,http://xyy.tsinghua.edu.cn/info/1057/6805.htm,http://xyy.tsinghua.edu.cn/info/1057/6805.htm,xyy.tsinghua.edu.cn,,2026-03-01,,2026-08-09T20:15:27+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000016_校医院9价HPV、乙肝疫苗预约接种通知-清华大学医院.md,240,42266b950bf96987fadffe2fa612795c3020e02015069a64572aa41b794a1c47,3,http://xyy.tsinghua.edu.cn/ymjz.htm,"12 
+
+2026-03
+
+校医院9价HPV、乙肝疫苗预约接种通知",success
+PORTAL000017,校医院自费9价HPV、乙肝疫苗预约接种通知-清华大学医院,http://xyy.tsinghua.edu.cn/info/1057/6763.htm,http://xyy.tsinghua.edu.cn/info/1057/6763.htm,xyy.tsinghua.edu.cn,,2025-12-09,,2026-08-09T20:15:29+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000017_校医院自费9价HPV、乙肝疫苗预约接种通知-清华大学医院.md,242,7d9f13da982b83ba09aa4108efa0638f31e74534464d429151a9fce4a7e8b454,3,http://xyy.tsinghua.edu.cn/ymjz.htm,"09 
+
+2025-12
+
+校医院自费9价HPV、乙肝疫苗预约接种通知",success
+PORTAL000018,10月份校医院自费流感疫苗预约接种通知-清华大学医院,http://xyy.tsinghua.edu.cn/info/1057/6696.htm,http://xyy.tsinghua.edu.cn/info/1057/6696.htm,xyy.tsinghua.edu.cn,,2025-09-02,,2026-08-09T20:15:31+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000018_10月份校医院自费流感疫苗预约接种通知-清华大学医院.md,240,f0c3cbd9f31b57f07b770084e0ec98089427c34851e942325860a9306ec70ce8,3,http://xyy.tsinghua.edu.cn/ymjz.htm,"26 
+
+2025-09
+
+10月份校医院自费流感疫苗预约接种通知",success
+PORTAL000019,9月份校医院自费流感疫苗预约接种通知-清华大学医院,http://xyy.tsinghua.edu.cn/info/1057/6650.htm,http://xyy.tsinghua.edu.cn/info/1057/6650.htm,xyy.tsinghua.edu.cn,,2025-09-01,,2026-08-09T20:15:33+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000019_9月份校医院自费流感疫苗预约接种通知-清华大学医院.md,239,87954744da44bb75790cc45cbe6e963907aab7913c4ba124299d3f427556f94b,3,http://xyy.tsinghua.edu.cn/ymjz.htm,"10 
+
+2025-09
+
+9月份校医院自费流感疫苗预约接种通知",success
+PORTAL000020,校医院9价HPV疫苗预约接种通知-清华大学医院,http://xyy.tsinghua.edu.cn/info/1057/6562.htm,http://xyy.tsinghua.edu.cn/info/1057/6562.htm,xyy.tsinghua.edu.cn,,2025-05-01,,2026-08-09T20:15:35+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000020_校医院9价HPV疫苗预约接种通知-清华大学医院.md,237,a1c008102430cde1294209737a835b6aefae361483ef95c22e0301e3275e3848,3,http://xyy.tsinghua.edu.cn/ymjz.htm,"16 
+
+2025-05
+
+校医院9价HPV疫苗预约接种通知",success
+PORTAL000021,校医院第一针九价HPV疫苗预约接种通知-清华大学医院,http://xyy.tsinghua.edu.cn/info/1057/6463.htm,http://xyy.tsinghua.edu.cn/info/1057/6463.htm,xyy.tsinghua.edu.cn,,2024-12-01,,2026-08-09T20:15:37+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000021_校医院第一针九价HPV疫苗预约接种通知-清华大学医院.md,240,7a04789b21efabf47261c1f9261eb4f52e286264e249c8fb060b83c347ae5880,3,http://xyy.tsinghua.edu.cn/ymjz.htm,"11 
+
+2024-12
+
+校医院第一针九价HPV疫苗预约接种通知",success
+PORTAL000022,专家就诊通知-清华大学医院,http://xyy.tsinghua.edu.cn/zjjztz1.htm,http://xyy.tsinghua.edu.cn/zjjztz1.htm,xyy.tsinghua.edu.cn,,,,2026-08-09T20:15:38+08:00,校园通知,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000022_专家就诊通知-清华大学医院.md,1102,d11497602f3a889d179d0173890c5b0f5a799e67918b1db2c035bfac671f6554,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"专家就诊通知
+
+向广大师生告知专家就诊的时间地点及有关事项",success
+PORTAL000023,清华大学医院联合本草小象开展大暑顺时养生主题活动-清华大学医院,http://xyy.tsinghua.edu.cn/info/1042/6900.htm,http://xyy.tsinghua.edu.cn/info/1042/6900.htm,xyy.tsinghua.edu.cn,,2026-07-01,,2026-08-09T20:15:40+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000023_清华大学医院联合本草小象开展大暑顺时养生主题活动-清华大学医院.md,245,5ef494316dc184da58030c0cb7c82fa4a844658e2c0300a79ed5213adcde6aa3,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"清华大学医院联合本草小象开展大暑顺时养生主题活动
+
+07-16
+
+为传承二十四节气蕴含的中医药传统文化，践行中医“春夏养阳、顺时养生、治未病”理念，7月14日下午，清华大学医院联合本草小象，在医院健康管理中心举办“三伏&大暑”节气健康体验活动，面向校内师生提供中医养生服务，90余名师生参加。",success
+PORTAL000024,健康服务零距离 | 清华大学社区卫生服务中心开展“世界家庭医生日”系列活动-清华大学医院,http://xyy.tsinghua.edu.cn/info/1042/6872.htm,http://xyy.tsinghua.edu.cn/info/1042/6872.htm,xyy.tsinghua.edu.cn,,2026-05-02,,2026-08-09T20:15:42+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000024_健康服务零距离 _ 清华大学社区卫生服务中心开展“世界家庭医生日”系列活动-清华大学医院.md,258,2dea406096c0c9b41524a1e8b729e15d57c0abbbec01602e92d2d13337bc03ce,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"2026-05-22
+
+健康服务零距离 | 清华大学社区卫生服务中心开展“世界家庭医生日”系列活动
+
+健康服务零距离 | 清华大学社区卫生服务中心开展“世界家庭医生日”系列活动在第16个“世界家庭医生日”到来之际，5月15日，清华大学社区卫生服务中心积极响应国家卫健委关于推进家庭医生签约服务高质量发展号召，在校园心理健康季特色活动现场——清华大学C楼前广场开展宣传服务活动，将家庭医生签约宣传、心理咨询服务及结核病防控宣教三大主题同步送入校园，为师生送上一站式的健康守护。",success
+PORTAL000025,2025年度校级先进工作者——胡艳侠-清华大学医院,http://xyy.tsinghua.edu.cn/info/1039/6866.htm,http://xyy.tsinghua.edu.cn/info/1039/6866.htm,xyy.tsinghua.edu.cn,,2026-04-02,,2026-08-09T20:15:44+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000025_2025年度校级先进工作者——胡艳侠-清华大学医院.md,271,49c1fbb7cf44694b702242ddc93eef96accef9eae81507cf42e71dbbebfe6ad8,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"2025年度校级先进工作者——胡艳侠
+
+作为校医院的一名护士，胡艳侠同志深耕于临床护理一线，拥有丰富的临床护理经验，始终以患者为中心，先后在急诊科与内科病房担任业务及行政骨干，协助护士长完成科室教学、质量管控及行政管理工作。凭借扎实的专业技能，她不仅为患者提供高质量的护理服务与健康指导，还积极参与新入职护士培训、医学生临床早期接触带教、海淀区继续医学教育项目授课等教学任务，并在教学评优中荣获“优秀教学奖”。作为一名急诊专科护士曾两次...",success
+PORTAL000026,2024年清华大学后勤技能标兵--李莉-清华大学医院,http://xyy.tsinghua.edu.cn/info/1039/6500.htm,http://xyy.tsinghua.edu.cn/info/1039/6500.htm,xyy.tsinghua.edu.cn,,2025-03-01,,2026-08-09T20:15:46+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000026_2024年清华大学后勤技能标兵--李莉-清华大学医院.md,272,ab70af3838bd397536cce1ba1183b2ef1d51ccc8120667618097778285d78176,2,https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1b91a4017c1b9ebee10018,"2024年清华大学后勤技能标兵--李莉
+
+自2022年调入校医院以来，她展现出了卓越的专业能力。凭借精湛的口腔四手操作技术，她协助开展了多项口腔新技术，助力攻克疑难病例，不仅提高了口腔诊疗效率，更提升了患者就医体验，深受患者好评。她牵头规范科室护理流程，加强口腔护理团队技能培训，推动校医院口腔护理水平大幅提升。她还协助科室构建了精细化的耗材管理体系，实现物资精准调配与高效供应。 同时，她积极投身口腔健康科普工作，撰写科普文章、拍摄宣教视频，...",success
+PORTAL000027,校医院成人自费疫苗接种指南-清华大学医院,http://xyy.tsinghua.edu.cn/info/1057/6757.htm,http://xyy.tsinghua.edu.cn/info/1057/6757.htm,xyy.tsinghua.edu.cn,,2025-11-02,,2026-08-09T20:15:47+08:00,校园生活,campus_authenticated,authenticated_portal,knowledge/01_raw_portal/PORTAL000027_校医院成人自费疫苗接种指南-清华大学医院.md,234,eccfcfe80326d775af2dc9d5496418a0aa106d8d413fb7df7b834a5e5380a804,3,http://xyy.tsinghua.edu.cn/ymjz.htm,"27 
+
+2025-11
+
+校医院成人自费疫苗接种指南",success

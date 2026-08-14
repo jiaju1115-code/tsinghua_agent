@@ -1,0 +1,21 @@
+{
+  "id": "THU000001",
+  "relevance_score": 96,
+  "knowledge_value": 72,
+  "category": "其他",
+  "subcategory": "清华大学官网首页",
+  "content_type": "新闻",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "low",
+  "contains_actionable_information": true,
+  "personal_data_risk": "none",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华大学官方首页，权威性高，包含新闻、活动、联系方式等校园相关信息，适合校园知识库收录。",
+  "source_markdown_path": "knowledge/01_raw/THU000001_清华大学.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "legacy_public"
+}

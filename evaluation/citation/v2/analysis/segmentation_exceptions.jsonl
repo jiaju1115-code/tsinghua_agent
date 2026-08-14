@@ -1,0 +1,1 @@
+{"question_id": "RET-05", "exception": "SEGMENTATION_EXCEPTION", "diagnosis": "Frozen answer is a bare numeric list; V1 split it into NON_FACTUAL numeric tokens.", "shadow_correction": "Treat the answer as malformed/non-answer for diagnosis only.", "included_in_main_benchmark": false}

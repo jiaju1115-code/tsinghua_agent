@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": {
+    "chunk_integrity": "PASS",
+    "dense_shape": [
+      717,
+      512
+    ],
+    "dense_rows_traceable": 717,
+    "evaluation_methods": 4,
+    "queries_per_method": 38,
+    "reranker": "PASS",
+    "workbooks": 2
+  },
+  "errors": []
+}

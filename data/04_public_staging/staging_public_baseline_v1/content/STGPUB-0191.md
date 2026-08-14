@@ -1,0 +1,13 @@
+[首页](https://lib.tsinghua.edu.cn/index.htm)>内容页
+
+由清华大学主办、清华大学图书馆提供学术支持、清华大学出版社出版的开放获取学术期刊 《智慧图书馆（英文）》（ISSN：3106-552X，英文刊名为iLibrary）于 2026年正式创刊，本刊由清华大学图书馆馆长金兼斌教授担任主编，清华大学人工智能研究院常务副院长孙茂松教授担任编委会主席。
+
+投稿请使用本刊投稿系统：
+
+<https://mc03.manuscriptcentral.com/ilib>
+
+如您有任何疑问或联系投稿事宜，请通过以下邮箱联系我们：
+
+主编信箱：jinjb@mail.tsinghua.edu.cn
+
+编辑部信箱：iLibrary@mail.tsinghua.edu.cn

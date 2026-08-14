@@ -1,0 +1,11 @@
+Q: What should I do when I go to hospital or get the reimbursement if I have bought the Ping An Annuity Insurance for international students?
+
+A:Ping An Annuity Insurance Co., Ltd. has created the Instructions for Claims for international students. You can scan the QR code below for more information if needed.
+
+![](/__local/B/FD/23/5B868946366C34ED6044A053F3B_A7E85914_93EE.jpg?e=.jpg "22.jpg")
+
+Q: What should I do to check the Instructions after scanning the QR Code?
+
+A:After you have scanned the QR Code, you’ll see the page as below. The Hospitalization Instruction is on the left, and the Reimbursement Instruction is on the right. You can click them based on your needs.
+
+![](/__local/8/A5/55/ACB2B19940E866302688FA60024_714BF099_24BDD.png?e=.png "33.png")

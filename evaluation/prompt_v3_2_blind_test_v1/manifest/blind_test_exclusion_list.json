@@ -1,0 +1,212 @@
+[
+  {
+    "id": "PUBEXP000006",
+    "title": "教学环境服务",
+    "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/dfasf.htm",
+    "normalized_url": "https://www.itc.tsinghua.edu.cn/ggfwsd/dfasf.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000009",
+    "title": "图书借还-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/jy/tsjh.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/jy/tsjh.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000051",
+    "title": "文章鉴读 | OASPA：从“百分比”到“参与度”——构建包容性开放获取生态的行动指南 (下)-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1345/7859.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1345/7859.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000057",
+    "title": "组织机构-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/gk/zzjg.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/gk/zzjg.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000061",
+    "title": "清华大学图书馆参观接待管理办法-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1114/2614.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1114/2614.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000070",
+    "title": "2025~2026学年度春季学期-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1262/4362.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1262/4362.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000076",
+    "title": "East View斯大林数字化档案数据库开通试用（2026年7月14日-2026年9月8日）-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1077/8143.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1077/8143.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000101",
+    "title": "信息系统开发",
+    "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/xxxtkf.htm",
+    "normalized_url": "https://www.itc.tsinghua.edu.cn/ggfwsd/xxxtkf.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000119",
+    "title": "期刊编辑进校园IEEE专场活动在图书馆举办-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1202/8074.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1202/8074.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000127",
+    "title": "第39期：王有强——馆长与馆员共话图书馆建设与发展-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1151/2934.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1151/2934.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000128",
+    "title": "第4期：戚学民作客“学在清华·真人图书馆”  畅谈民国风云-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1151/2906.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1151/2906.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000135",
+    "title": "金融学相关数据库",
+    "url": "https://lib.tsinghua.edu.cn/finance/info/1122/1235.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/finance/info/1122/1235.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000140",
+    "title": "五道口校友专享",
+    "url": "https://lib.tsinghua.edu.cn/finance/fw/wdkxyzx.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/finance/fw/wdkxyzx.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000158",
+    "title": "特别关注",
+    "url": "https://lib.tsinghua.edu.cn/law/ggxx/tbgz.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/law/ggxx/tbgz.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000165",
+    "title": "化学工业出版社电子图书馆正式订购-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1076/6948.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1076/6948.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000170",
+    "title": "元阅读精品电子书数据库开通试用(2025年11月3日-2026年12月31日)-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1077/7778.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1077/7778.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000177",
+    "title": "美国计算机协会（ACM）开放获取（OA）政策-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1344/5969.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1344/5969.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000184",
+    "title": "开放科学小百科 | 开放科学的隐忧与出路：不平等、垄断与治理创新-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1375/7833.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1375/7833.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000186",
+    "title": "高校开放获取政策：卡罗林斯卡学院篇-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1376/7465.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1376/7465.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000187",
+    "title": "高校开放获取政策：海德堡大学篇-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1376/7469.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1376/7469.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000188",
+    "title": "高校开放获取政策：巴黎萨克雷大学篇-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1376/7470.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1376/7470.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000190",
+    "title": "高校开放获取政策：伦敦国王学院篇-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1376/7473.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1376/7473.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000201",
+    "title": "文章鉴读 | OASPA：开放获取的“下半场”，为何说真正的挑战才刚刚开始？ (上)-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1345/7858.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1345/7858.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000221",
+    "title": "专题书架：好读书 读好书——纪念钱锺书、杨绛学长暨图书馆“钱杨书屋”启用特别专题书架-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1073/8079.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1073/8079.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000233",
+    "title": "2026经济与金融数据课堂第五讲 | 利用排排网私募数据库进行金融研究-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1068/8053.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1068/8053.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000293",
+    "title": "第51期：前UNESCO教育助理总干事唐虔——我在国际组织的25年-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1151/2773.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1151/2773.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBEXP000299",
+    "title": "第32期：金峰——工程的魅力-清华大学图书馆",
+    "url": "https://lib.tsinghua.edu.cn/info/1151/2927.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1151/2927.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBFOLLOW000002",
+    "title": "领奖通知|你的开放科学闯关文创已就位",
+    "url": "https://lib.tsinghua.edu.cn/info/1073/8122.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1073/8122.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBFOLLOW000003",
+    "title": "关于参加2026北京国际图书博览会（BIBF）外文原版图书现场荐购活动的通知",
+    "url": "https://lib.tsinghua.edu.cn/info/1073/8100.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1073/8100.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  },
+  {
+    "id": "PUBFOLLOW000007",
+    "title": "新展|从觉醒到黎明：文献里的清华红色记忆（1919-1949）",
+    "url": "https://lib.tsinghua.edu.cn/info/1073/8137.htm",
+    "normalized_url": "https://lib.tsinghua.edu.cn/info/1073/8137.htm",
+    "exclusion_reason": "人工标注与Prompt V2/人工比较；Prompt V3设计与回归；Prompt V3.1回归；Prompt V3.2回归"
+  }
+]

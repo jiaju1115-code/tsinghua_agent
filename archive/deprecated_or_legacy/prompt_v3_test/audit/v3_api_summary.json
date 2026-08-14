@@ -1,0 +1,21 @@
+{
+  "total_calls": 30,
+  "successes": 30,
+  "failures": 0,
+  "network_request_attempts": 30,
+  "resumed": 0,
+  "actual_retries": 0,
+  "model": "gpt-5.4-mini",
+  "temperature": 0.1,
+  "max_concurrency": 3,
+  "prompt_version": "v3",
+  "actions": {
+    "approve": 15,
+    "reject": 13,
+    "review": 2
+  },
+  "reject_types": {
+    "out_of_scope": 7,
+    "expired_event": 6
+  }
+}

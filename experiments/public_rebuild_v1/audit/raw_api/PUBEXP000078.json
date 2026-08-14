@@ -1,0 +1,1 @@
+{"action":"reject","category":"图书馆服务","content_type":"current_notice","audience":"清华大学师生","time_status":"outdated","candidate_user_question":"","positive_evidence":"正文列出3个试用资源名称、各自访问入口，并说明“通过校园网IP控制访问权限”。","negative_evidence":"这是试用通知而非稳定资源目录，明确写有试用期限“2026年6月12日-2026年8月9日”，而页面抓取时间为2026-08-12，已过期且不再可执行。","possible_duplicate":false,"reason":"页面仅为图书馆数据库试用公告，且试用期已结束，不适合作为可复用的学生知识条目。"}

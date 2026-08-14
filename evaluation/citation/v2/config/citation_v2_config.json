@@ -1,0 +1,37 @@
+{
+  "experiment": "CITATION_PIPELINE_V2",
+  "scope": "PROVISIONAL_AUTO_EVAL",
+  "frozen_counts": {"questions": 38, "claims": 120, "factual_claims": 104, "top_k": 5},
+  "embedding": {
+    "model_name": "BAAI/bge-small-zh-v1.5",
+    "revision": "7999e1d3359715c523056ef9478215996d62a620",
+    "batch_size": 24,
+    "max_length": 512,
+    "query_instruction": "为这个句子生成表示以用于检索相关文章："
+  },
+  "verifier": {
+    "model_name": "BAAI/bge-reranker-base",
+    "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+    "role": "pretrained_cross_encoder_relevance_gate_not_entailment",
+    "batch_size": 4,
+    "max_length": 512,
+    "sanity_pass_margin": 0.10,
+    "sanity_pairwise_sensitivity_min": 0.60,
+    "threshold_candidates": [0.50, 0.65, 0.75, 0.85, 0.95],
+    "threshold_selection_method": "Safety-first from sanity anchors: use the smallest predefined threshold no lower than the 10th percentile of positive anchors and above the 95th percentile of hard negatives when separable; otherwise mark unreliable as entailment and use only as a conservative relevance gate."
+  },
+  "span": {"min_chars": 30, "max_chars": 350, "max_sentences": 3, "candidate_top_n": 10},
+  "decision": {
+    "v2a_supported_embedding": 0.75,
+    "v2a_partial_embedding": 0.68,
+    "v2a_supported_lexical": 0.50,
+    "v2a_partial_lexical": 0.25,
+    "v2b_supported_embedding": 0.73,
+    "v2b_partial_embedding": 0.66,
+    "v2b_supported_lexical": 0.45,
+    "v2b_partial_lexical": 0.20
+  },
+  "known_source_quality_failure_question_ids": ["RET-09", "PROV-009"],
+  "prohibitions": {"training": true, "answer_regeneration": true, "top5_modification": true, "web_search": true}
+}
+

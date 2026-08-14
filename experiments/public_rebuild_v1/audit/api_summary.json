@@ -1,0 +1,15 @@
+{
+  "total_calls": 217,
+  "successes": 217,
+  "failures": 0,
+  "resumed_completed_calls": 0,
+  "network_request_attempts": 217,
+  "max_concurrency": 3,
+  "model": "gpt-5.4-mini",
+  "prompt_version": "v2_frozen",
+  "actions": {
+    "approve": 89,
+    "reject": 127,
+    "review": 1
+  }
+}

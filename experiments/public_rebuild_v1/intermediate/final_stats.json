@@ -1,0 +1,56 @@
+{
+  "classes": {
+    "detail_content": 178,
+    "template_polluted": 10,
+    "list_page": 24,
+    "thin_content": 30,
+    "content_missing": 51,
+    "navigation_only": 7
+  },
+  "usable": 208,
+  "failure_count": 58,
+  "actions": {
+    "approve": 89,
+    "reject": 127,
+    "review": 1
+  },
+  "base_actions": {
+    "approve": 86,
+    "reject": 121,
+    "review": 1
+  },
+  "follow_actions": {
+    "reject": 6,
+    "approve": 3
+  },
+  "transitions": {
+    "approve->approve": 58,
+    "reject->extraction_failed": 25,
+    "reject->reject": 77,
+    "reject->approve": 13,
+    "approve->extraction_failed": 63,
+    "review->approve": 15,
+    "review->reject": 13,
+    "approve->reject": 31,
+    "review->extraction_failed": 4,
+    "approve->review": 1
+  },
+  "categories": {
+    "网络与信息化": 5,
+    "校园生活": 4,
+    "图书馆服务": 60,
+    "科研参与与资源导航": 19,
+    "学生事务": 1
+  },
+  "domains": {
+    "www.itc.tsinghua.edu.cn": 23,
+    "lib.tsinghua.edu.cn": 263,
+    "peace.tsinghua.edu.cn": 14
+  },
+  "human_actions": {
+    "approve": 10,
+    "review": 1,
+    "reject": 19
+  },
+  "conclusion": "REBUILD_PASS_BUT_IMBALANCED"
+}

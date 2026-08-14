@@ -1,0 +1,30 @@
+{
+  "experiment_name": "PROVISIONAL_ANSWER_GENERATION_EVAL_V0",
+  "retriever": {
+    "source": "frozen rag_v1 evaluation/results_dense.jsonl",
+    "model_name": "BAAI/bge-small-zh-v1.5",
+    "revision": "7999e1d3359715c523056ef9478215996d62a620",
+    "top_k": 5,
+    "embedding_retrained": false
+  },
+  "generation": {
+    "model_name": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "quantization": "Q4_K_M",
+    "runtime": "llama-cpp-python 0.3.34 CPU",
+    "context_length": 6144,
+    "max_new_tokens": 128,
+    "temperature": 0.0,
+    "seed": 20260813,
+    "threads": 12,
+    "batch_threads": 16,
+    "prompt_batch_size": 2048,
+    "micro_batch_size": 512
+  },
+  "evaluation": {
+    "status": "PROVISIONAL",
+    "human_audit_complete": false,
+    "automatic_judgement": "deterministic evidence/citation checks plus local-model self-evaluation",
+    "warning": "Automatic scores are not a final benchmark and do not replace the blank human-review fields."
+  }
+}

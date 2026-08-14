@@ -1,0 +1,55 @@
+**外籍居民个人年度个人所得税汇算清缴政策指南**
+
+**1. Who needs to make Individual Income Tax settlement?**
+
+**哪些外籍人员需要办理年度个人所得税综合所得年度汇算清缴****?**
+
+A resident individual who has comprehensive income in the previous year.
+
+在上一年度取得了综合所得的外籍居民个人
+
+**2. Who are classified as resident foreign individuals?**
+
+**哪些人属于外籍居民个人?**
+
+Foreign individuals are classified into non-residents and residents for tax purposes.
+
+外籍个人划分为非居民外籍个人和居民外籍个人两种类型。
+
+Resident foreign individuals are defined as either foreign individuals domiciled in China or non-domiciled foreign individuals who have stayed in China for an aggregated 183 days or more in a tax year.
+
+居民外籍个人分为在中国境内有住所的外籍个人和在中国境内无住所但在一个纳税年度内在中国境内居住累计满183天的外籍个人。
+
+Non-resident foreign individuals are defined as either non-domiciled foreign individuals who do not reside in China or non-domiciled foreign individuals who have stayed China for less than 183 days in a tax year. In general, resident foreign individuals shall pay IIT on their worldwide income. Non-resident foreign individuals shall pay IIT on their income sourced within China.
+
+非居民外籍个人分为在中国境内无住所又不居住,以及在中国境内无住所且在一个纳税年度内境内居住时间累计不满183天的外籍个人。通常,居民外籍个人就其境内外所得征收个人所得税。非居民外籍个人就其来源于中国境内所得征收个人所得税。
+
+**3. What is comprehensive income?**
+
+**什么是个人所得税综合所得?**
+
+![](/__local/7/D3/B5/B5984E568F9940A55F7963EED05_A6086402_13CF6.jpg)
+
+According to relevant regulations, comprehensive income received by resident individuals includes income from wages and salaries, remunerations for independent personal services, author’s remunerations and royalties. When resident individuals receive any type of income mentioned above, the IIT shall be withheld respectively. After the end of a tax year, resident individuals shall calculate the annual taxable IIT on a consolidated basis. The amount of taxable income shall be the total amount of income received within a single tax year minus expenses of RMB60,000, itemized deductions, additional itemized deductions and other deductions permitted by law. The amount of taxable income multiplied by the applicable progressive tax rate is the amount of tax payable. The balance of tax payable minus tax withheld is tax owed or refundable. Resident individuals should file annual IIT returns to pay tax owed or claim tax refunds.
+
+根据相关规定,居民个人取得的工资薪金所得、劳务报酬所得、稿酬所得和特许权使用费所得,称之为综合所得。居民个人取得上述每项所得时,按照规定分别预扣预缴个人所得税。纳税年度终了后,居民个人应将综合所得汇总计算缴纳年度应纳个人所得税。即取得的上述每项所得汇总后,减除60000元的费用、专项扣除、专项附加扣除以及税法规定的其他扣除后,为应纳税所得额。应纳税所得额乘以适用的累进税率计算出年度应纳税额。年度应纳税款减去已预缴税款后的余额为应补(退)税额。为了补缴税款或申请退税,纳税人应进行年度个人所得税自行申报。
+
+**4. No tax settlement is required for taxpayers who have prepaid individual income tax in the previous year pursuant to law and meet one of the following circumstances:**
+
+**如果纳税人在上一年度年已依法预缴个人所得税且符合下列情形之一的,无需办理汇算:**
+
+1) The settlement indicates tax owed but the comprehensive income throughout the year does not exceed 120,000 yuan;
+
+汇算需补税但综合所得收入全年不超过12万元的;
+
+2) Tax owed as indicated in the settlement does not exceed 400 yuan;
+
+汇算需补税金额不超过400元的;
+
+3) The amount of prepaid tax is consistent with the tax payable in the settlement; and
+
+已预缴税额与汇算应纳税额一致的;
+
+4) Conditions for a tax refund are met but no refund application is filed.
+
+符合汇算退税条件但不申请退税的。

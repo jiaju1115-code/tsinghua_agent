@@ -1,0 +1,9 @@
+**已购资源：**欢迎向图书馆提供您的[评价意见](https://lib.tsinghua.edu.cn/customform.htm?formBm=Form_1638870134087_BM6035)，[查看更多电子资源动态](http://lib.tsinghua.edu.cn/zydt/yg.htm)
+
+  
+
+化学工业出版社电子图书馆系统是化学工业出版社重点打造的电子图书平台，内容涉及化学、化工、材料、轻工、农业、生物、医药、环境、安全、能源、冶金、矿业、机械、汽车、交通、电工电子、计算机、建筑等数十个学科领域。
+
+详情请查看：<https://ecollection.lib.tsinghua.edu.cn/databasenav/entrance/detail?mmsid=991022536186703966>
+
+咨询反馈：[ljh228@mail.tsinghua.edu.cn](mailto:ljh228@mail.tsinghua.edu.cn)

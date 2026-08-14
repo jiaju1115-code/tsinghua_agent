@@ -1,0 +1,30 @@
+[
+  {
+    "xlsxName": "public_expansion_v1_all.xlsx",
+    "rows": 300,
+    "columns": 15,
+    "check": "{\"kind\":\"table\",\"sheet\":\"全部候选\",\"address\":\"A1:H6\",\"rows\":6,\"cols\":8,\"values\":[[\"id\",\"title\",\"url\",\"source_domain\",\"crawl_time\",\"action\",\"category\",\"content_type\"],[\"PUBEXP000001\",\"清华大学信息化技术中心\",\"https://www.itc.tsinghua.edu.cn/\",\"www.itc.tsinghua.edu.cn\",\"2026-08-12T11:50:24.000Z\",\"approve\",\"网络与信息化\",\"organization_intro\"],[\"PUBEXP000002\",\"核心机房运行\",\"https://www.itc.tsinghua.edu.cn/ggfwsd/asdfasdf.htm\",\"www.itc.tsinghua.edu.cn\",\"2026-08-12T11:50:25.000Z\",\"reject\",\"网络与信息化\",\"organization_intro\"],[\"PUBEXP000003\",\"校园网络运行\",\"https://www.itc.tsinghua.edu.cn/ggfwsd/xywlyx.htm\",\"www.itc.tsinghua.edu.cn\",\"2026-08-12T11:50:26.000Z\",\"approve\",\"网络与信息化\",\"service_entry\"],[\"PUBEXP000004\",\"网络信息安全\",\"https://www.itc.tsinghua.edu.cn/ggfwsd/wlxxaq.htm\",\"www.itc.tsinghua.edu.cn\",\"2026-08-12T11:50:27.000Z\",\"reject\",\"校园基本信息\",\"organization_intro\"],[\"PUBEXP000005\",\"用户服务\",\"https://www.itc.tsinghua.edu.cn/ggfwsd/fsdf.htm\",\"www.itc.tsinghua.edu.cn\",\"2026-08-12T11:50:28.000Z\",\"approve\",\"网络与信息化\",\"service_entry\"]]}",
+    "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  {
+    "xlsxName": "public_expansion_v1_approved.xlsx",
+    "rows": 153,
+    "columns": 15,
+    "check": "{\"kind\":\"table\",\"sheet\":\"准入候选\",\"address\":\"A1:H6\",\"rows\":6,\"cols\":8,\"values\":[[\"id\",\"title\",\"url\",\"source_domain\",\"crawl_time\",\"action\",\"category\",\"content_type\"],[\"PUBEXP000001\",\"清华大学信息化技术中心\",\"https://www.itc.tsinghua.edu.cn/\",\"www.itc.tsinghua.edu.cn\",\"2026-08-12T11:50:24.000Z\",\"approve\",\"网络与信息化\",\"organization_intro\"],[\"PUBEXP000003\",\"校园网络运行\",\"https://www.itc.tsinghua.edu.cn/ggfwsd/xywlyx.htm\",\"www.itc.tsinghua.edu.cn\",\"2026-08-12T11:50:26.000Z\",\"approve\",\"网络与信息化\",\"service_entry\"],[\"PUBEXP000005\",\"用户服务\",\"https://www.itc.tsinghua.edu.cn/ggfwsd/fsdf.htm\",\"www.itc.tsinghua.edu.cn\",\"2026-08-12T11:50:28.000Z\",\"approve\",\"网络与信息化\",\"service_entry\"],[\"PUBEXP000008\",\"热门排序-清华大学图书馆\",\"https://lib.tsinghua.edu.cn/fwbl/rmpx.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T11:50:31.000Z\",\"approve\",\"图书馆服务\",\"resource_directory\"],[\"PUBEXP000010\",\"图书馆报告厅-清华大学图书馆\",\"https://lib.tsinghua.edu.cn/kj/tsgbgt.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T11:50:34.000Z\",\"approve\",\"图书馆服务\",\"service_entry\"]]}",
+    "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  {
+    "xlsxName": "public_expansion_v1_review.xlsx",
+    "rows": 32,
+    "columns": 15,
+    "check": "{\"kind\":\"table\",\"sheet\":\"人工复核\",\"address\":\"A1:H6\",\"rows\":6,\"cols\":8,\"values\":[[\"id\",\"title\",\"url\",\"source_domain\",\"crawl_time\",\"action\",\"category\",\"content_type\"],[\"PUBEXP000013\",\"关于公布2026年暑假图书馆开馆时间的通知-清华大学图书馆\",\"https://lib.tsinghua.edu.cn/info/1071/8118.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T11:51:00.000Z\",\"review\",\"图书馆服务\",\"current_notice\"],[\"PUBEXP000030\",\"2026年图书馆接收毕业生赠书通知-清华大学图书馆\",\"https://lib.tsinghua.edu.cn/info/1073/8106.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T11:52:05.000Z\",\"review\",\"图书馆服务\",\"current_notice\"],[\"PUBEXP000061\",\"清华大学图书馆参观接待管理办法-清华大学图书馆\",\"https://lib.tsinghua.edu.cn/info/1114/2614.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T11:54:04.000Z\",\"review\",\"图书馆服务\",\"mixed\"],[\"PUBEXP000074\",\"关于西馆从游空间和一层报刊阅览区改造施工的通知-清华大学图书馆\",\"https://lib.tsinghua.edu.cn/info/1072/8142.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T11:54:34.000Z\",\"review\",\"图书馆服务\",\"current_notice\"],[\"PUBEXP000076\",\"East View斯大林数字化档案数据库开通试用（2026年7月14日-2026年9月8日）-清华大学图书馆\",\"https://lib.tsinghua.edu.cn/info/1077/8143.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T11:54:35.000Z\",\"review\",\"图书馆服务\",\"current_notice\"]]}",
+    "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  {
+    "xlsxName": "public_expansion_v1_human_check.xlsx",
+    "rows": 30,
+    "columns": 18,
+    "check": "{\"kind\":\"table\",\"sheet\":\"人工抽检\",\"address\":\"A1:H6\",\"rows\":6,\"cols\":8,\"values\":[[\"id\",\"title\",\"url\",\"source_domain\",\"crawl_time\",\"action\",\"category\",\"content_type\"],[\"PUBEXP000022\",\"清华大学法律图书馆\",\"https://lib.tsinghua.edu.cn/law/index.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T11:51:08.000Z\",\"approve\",\"图书馆服务\",\"mixed\"],[\"PUBEXP000169\",\"全国报刊索引-中国近代报纸资源全库开通试用(2026年1月5日-2026年4月5日)（试用延长至2026年12月31日）-清华大学图书馆\",\"https://lib.tsinghua.edu.cn/info/1077/7865.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T12:02:33.000Z\",\"approve\",\"图书馆服务\",\"current_notice\"],[\"PUBEXP000131\",\"概况\",\"https://lib.tsinghua.edu.cn/arts/gk/lsyg.htm\",\"lib.tsinghua.edu.cn\",\"2026-08-12T11:57:47.000Z\",\"approve\",\"图书馆服务\",\"organization_intro\"],[\"PUBEXP000089\",\"科室职能\",\"https://peace.tsinghua.edu.cn/bmgk/kszn.htm\",\"peace.tsinghua.edu.cn\",\"2026-08-12T11:54:52.000Z\",\"approve\",\"校园基本信息\",\"organization_intro\"],[\"PUBEXP000001\",\"清华大学信息化技术中心\",\"https://www.itc.tsinghua.edu.cn/\",\"www.itc.tsinghua.edu.cn\",\"2026-08-12T11:50:24.000Z\",\"approve\",\"网络与信息化\",\"organization_intro\"]]}",
+    "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  }
+]

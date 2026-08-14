@@ -1,0 +1,21 @@
+{
+  "id": "THU000027",
+  "relevance_score": 92,
+  "knowledge_value": 68,
+  "category": "校园生活",
+  "subcategory": "体育部",
+  "content_type": "部门介绍",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "medium",
+  "contains_actionable_information": true,
+  "personal_data_risk": "none",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "approve",
+  "reason": "清华大学体育部官方主页，包含新闻动态与通知公告等校园相关信息，权威性高，适合校园生活智能体收录。",
+  "source_markdown_path": "knowledge/01_raw_public/THU000027_清华大学体育部.md",
+  "access_level": "public",
+  "source_mode": "public_web",
+  "dataset_origin": "public"
+}

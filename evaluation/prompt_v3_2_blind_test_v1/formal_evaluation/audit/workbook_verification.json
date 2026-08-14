@@ -1,0 +1,20 @@
+[
+  {
+    "file": "results/blind_test_v1_results.xlsx",
+    "rows": 50,
+    "columns": 29,
+    "status": "EVALUATION_BLOCKED"
+  },
+  {
+    "file": "results/blind_test_v1_disagreements.xlsx",
+    "rows": 0,
+    "columns": 12,
+    "status": "EVALUATION_BLOCKED"
+  },
+  {
+    "file": "results/human_label_questions.xlsx",
+    "rows": 0,
+    "columns": 7,
+    "status": "EVALUATION_BLOCKED"
+  }
+]

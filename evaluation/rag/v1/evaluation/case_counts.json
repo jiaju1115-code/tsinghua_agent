@@ -1,0 +1,12 @@
+{
+  "sparse_wins": 4,
+  "dense_wins": 9,
+  "strict_hybrid_gains": 1,
+  "reranker_rank_corrections": 4,
+  "v0_smoke_verdict_changes": 0,
+  "v0_v1_verdict_distribution": {
+    "pass": 7,
+    "partial": 2,
+    "fail": 1
+  }
+}

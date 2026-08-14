@@ -1,0 +1,16 @@
+[
+  {
+    "file": "analysis/v2_vs_human_analysis.xlsx",
+    "rows": 30,
+    "columns": 10,
+    "preview": "D:\\python_projects\\tsinghua_ai\\data_second\\prompt_v3_test\\audit\\preview_01.png",
+    "formulaCount": 0
+  },
+  {
+    "file": "results/prompt_v3_30_results.xlsx",
+    "rows": 30,
+    "columns": 14,
+    "preview": "D:\\python_projects\\tsinghua_ai\\data_second\\prompt_v3_test\\audit\\preview_02.png",
+    "formulaCount": 0
+  }
+]

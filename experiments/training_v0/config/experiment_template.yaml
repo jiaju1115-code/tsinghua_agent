@@ -1,0 +1,24 @@
+experiment_name: null
+status: blocked_until_target_cuda_smoke_passes
+base_model:
+  model_id: Qwen/Qwen3.5-2B-Base
+  revision: b1485b2fa6dfa1287294f269f5fb618e03d52d7c
+  training_stage: pretrained_base
+method:
+  preferred: lora
+  qlora: conditional_after_bitsandbytes_cuda_smoke
+  full_fine_tuning: not_recommended
+sequence:
+  max_length: 512
+  micro_batch_size: 1
+  gradient_checkpointing: true
+data:
+  train_manifest: null
+  validation_manifest: null
+  forbidden_source_ids_file: ../../model_selection/heldout/heldout_index.json
+  evaluation_gold_allowed: false
+  rag_chunks_auto_allowed: false
+outputs:
+  adapter_dir: null
+  run_manifest: null
+

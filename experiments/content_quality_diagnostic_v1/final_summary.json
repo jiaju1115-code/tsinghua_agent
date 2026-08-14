@@ -1,0 +1,156 @@
+{
+  "total": 300,
+  "classes": {
+    "detail_content": 51,
+    "list_page": 60,
+    "navigation_only": 21,
+    "content_missing": 153,
+    "template_polluted": 11,
+    "thin_content": 4,
+    "mixed_or_uncertain": 0
+  },
+  "usable": 55,
+  "usable_ratio": 0.18333333333333332,
+  "cross": {
+    "approve": {
+      "detail_content": 31,
+      "list_page": 35,
+      "template_polluted": 10,
+      "content_missing": 59,
+      "navigation_only": 15,
+      "thin_content": 3
+    },
+    "review": {
+      "content_missing": 28,
+      "list_page": 2,
+      "thin_content": 1,
+      "navigation_only": 1
+    },
+    "reject": {
+      "detail_content": 20,
+      "content_missing": 66,
+      "list_page": 23,
+      "template_polluted": 1,
+      "navigation_only": 5
+    }
+  },
+  "extraction_failure": {
+    "approve": 74,
+    "review": 29,
+    "reject": 71
+  },
+  "quality_affected": {
+    "approve": 119,
+    "review": 31,
+    "reject": 95
+  },
+  "approve_abnormal": 119,
+  "approve_low_value_list": 19,
+  "reject_missing": 71,
+  "list_total": 60,
+  "list_follow_yes": 19,
+  "list_follow_no": 41,
+  "list_types": {
+    "其他": {
+      "no": 21,
+      "yes": 8
+    },
+    "办事": {
+      "yes": 4
+    },
+    "招聘": {
+      "yes": 2
+    },
+    "政策": {
+      "yes": 2
+    },
+    "新闻": {
+      "no": 20
+    },
+    "法规": {
+      "yes": 3
+    }
+  },
+  "domains": [
+    {
+      "domain": "lib.tsinghua.edu.cn",
+      "total": 263,
+      "detail_content": 33,
+      "list_page": 51,
+      "content_missing": 151,
+      "navigation_only": 13,
+      "template_polluted": 11,
+      "failure_count": 164
+    },
+    {
+      "domain": "www.itc.tsinghua.edu.cn",
+      "total": 23,
+      "detail_content": 15,
+      "list_page": 3,
+      "content_missing": 2,
+      "navigation_only": 3,
+      "template_polluted": 0,
+      "failure_count": 5
+    },
+    {
+      "domain": "peace.tsinghua.edu.cn",
+      "total": 14,
+      "detail_content": 3,
+      "list_page": 6,
+      "content_missing": 0,
+      "navigation_only": 5,
+      "template_polluted": 0,
+      "failure_count": 5
+    }
+  ],
+  "sample_ids": {
+    "severe": [
+      "PUBEXP000013",
+      "PUBEXP000014",
+      "PUBEXP000015",
+      "PUBEXP000018",
+      "PUBEXP000030",
+      "PUBEXP000049",
+      "PUBEXP000050",
+      "PUBEXP000051",
+      "PUBEXP000052",
+      "PUBEXP000053"
+    ],
+    "list": [
+      "PUBEXP000045",
+      "PUBEXP000046",
+      "PUBEXP000047",
+      "PUBEXP000084",
+      "PUBEXP000148",
+      "PUBEXP000175",
+      "PUBEXP000219",
+      "PUBEXP000246",
+      "PUBEXP000012",
+      "PUBEXP000044"
+    ],
+    "polluted": [
+      "PUBEXP000029",
+      "PUBEXP000139",
+      "PUBEXP000010",
+      "PUBEXP000245",
+      "PUBEXP000153",
+      "PUBEXP000243",
+      "PUBEXP000134",
+      "PUBEXP000019",
+      "PUBEXP000145",
+      "PUBEXP000057"
+    ],
+    "normal": [
+      "PUBEXP000031",
+      "PUBEXP000141",
+      "PUBEXP000101",
+      "PUBEXP000067",
+      "PUBEXP000100",
+      "PUBEXP000021",
+      "PUBEXP000023",
+      "PUBEXP000158",
+      "PUBEXP000152",
+      "PUBEXP000159"
+    ]
+  }
+}

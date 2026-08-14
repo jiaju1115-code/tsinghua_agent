@@ -1,0 +1,18 @@
+{
+  "reaudit_count": 217,
+  "actions": {
+    "approve": 81,
+    "reject": 121,
+    "review": 15
+  },
+  "approve_categories": {
+    "网络与信息化": 8,
+    "教学与培养": 2,
+    "图书馆服务": 48,
+    "校园机构与部门": 4,
+    "科研参与与资源导航": 17,
+    "校园文化与历史": 2
+  },
+  "human_check_n": 49,
+  "prompt_sha256": "b94623c520fc46d83a49a4d043ad182646e7a881e7e1751e3e98e98724d771cd"
+}

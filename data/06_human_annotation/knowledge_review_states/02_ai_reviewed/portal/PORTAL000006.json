@@ -1,0 +1,22 @@
+{
+  "id": "PORTAL000006",
+  "relevance_score": 82,
+  "knowledge_value": 75,
+  "category": "校园办事",
+  "subcategory": "签证",
+  "content_type": "活动通知",
+  "authority": "high",
+  "freshness": "current",
+  "time_sensitivity": "high",
+  "contains_actionable_information": true,
+  "personal_data_risk": "none",
+  "possible_duplicate": false,
+  "possible_conflict": false,
+  "recommended_action": "review",
+  "reason": "包含校园公共服务或办事信息；Portal原文不外发，进入人工复核。",
+  "local_classification": "local_time_sensitive_candidate",
+  "source_markdown_path": "knowledge/01_raw_portal/PORTAL000006_境内延期F字访问签证办事指南 - 清华大学信息门户.md",
+  "access_level": "campus_authenticated",
+  "source_mode": "authenticated_portal",
+  "dataset_origin": "portal"
+}

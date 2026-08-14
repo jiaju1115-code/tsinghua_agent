@@ -1,0 +1,26 @@
+[
+  {
+    "file": "manifest/blind_test_exclusion_list.xlsx",
+    "rows": 30,
+    "columns": 5,
+    "formulaCount": 0
+  },
+  {
+    "file": "manifest/blind_candidate_pool.xlsx",
+    "rows": 187,
+    "columns": 11,
+    "formulaCount": 0
+  },
+  {
+    "file": "samples/blind_test_v1_sample_manifest.xlsx",
+    "rows": 50,
+    "columns": 16,
+    "formulaCount": 0
+  },
+  {
+    "file": "human_label/blind_test_v1_human_label.xlsx",
+    "rows": 50,
+    "columns": 17,
+    "formulaCount": 0
+  }
+]

@@ -1,0 +1,571 @@
+{
+  "prediction_sha": "07ecca5b83a1f1a0fe63fe416c404589114c8c59aef87ecadd82966bf09f6847",
+  "human_sha": "ec1e846091532205a04480320a4a4572d99526f58fe8a9037390bed4bc502ca6",
+  "human_action": {
+    "approve": 27,
+    "review": 1,
+    "reject": 22
+  },
+  "codex_action": {
+    "approve": 29,
+    "review": 1,
+    "reject": 20
+  },
+  "human_topic": {
+    "high": 31,
+    "medium": 11,
+    "low": 8
+  },
+  "codex_topic": {
+    "high": 30,
+    "medium": 2,
+    "low": 18
+  },
+  "action_matches": 46,
+  "action_accuracy": 0.92,
+  "action_matrix": [
+    [
+      "approve",
+      26,
+      1,
+      0
+    ],
+    [
+      "review",
+      1,
+      0,
+      0
+    ],
+    [
+      "reject",
+      2,
+      0,
+      20
+    ]
+  ],
+  "approve_precision": 0.896551724137931,
+  "approve_recall": 0.9629629629629629,
+  "reject_precision": 1,
+  "reject_recall": 0.9090909090909091,
+  "topic_matches": 37,
+  "topic_accuracy": 0.74,
+  "topic_matrix": [
+    [
+      "high",
+      28,
+      1,
+      2
+    ],
+    [
+      "medium",
+      2,
+      1,
+      8
+    ],
+    [
+      "low",
+      0,
+      0,
+      8
+    ]
+  ],
+  "reject_type_n": 22,
+  "reject_type_matches": 10,
+  "reject_type_accuracy": 0.45454545454545453,
+  "reject_type_matrix": [
+    [
+      "topic_irrelevant",
+      8,
+      0,
+      0
+    ],
+    [
+      "expired_event",
+      10,
+      2,
+      0
+    ],
+    [
+      "other",
+      0,
+      0,
+      0
+    ]
+  ],
+  "false_accept": 2,
+  "false_reject": 0,
+  "low_approve": 0,
+  "disagreements": 4,
+  "groups": {
+    "random": {
+      "n": 25,
+      "matches": 21,
+      "accuracy": 0.84,
+      "false_accept": 2,
+      "false_reject": 0
+    },
+    "targeted": {
+      "n": 25,
+      "matches": 25,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    }
+  },
+  "domain": {
+    "lib.tsinghua.edu.cn": {
+      "n": 41,
+      "human_action": {
+        "approve": 20,
+        "review": 1,
+        "reject": 20
+      },
+      "codex_action": {
+        "approve": 22,
+        "review": 1,
+        "reject": 18
+      },
+      "matches": 37,
+      "accuracy": 0.9024390243902439,
+      "false_accept": 2,
+      "false_reject": 0
+    },
+    "peace.tsinghua.edu.cn": {
+      "n": 2,
+      "human_action": {
+        "approve": 2,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 2,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 2,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "www.itc.tsinghua.edu.cn": {
+      "n": 7,
+      "human_action": {
+        "approve": 5,
+        "review": 0,
+        "reject": 2
+      },
+      "codex_action": {
+        "approve": 5,
+        "review": 0,
+        "reject": 2
+      },
+      "matches": 7,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    }
+  },
+  "content_type": {
+    "achievement_report": {
+      "n": 4,
+      "human_action": {
+        "approve": 0,
+        "review": 0,
+        "reject": 4
+      },
+      "codex_action": {
+        "approve": 0,
+        "review": 0,
+        "reject": 4
+      },
+      "matches": 4,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "current_notice": {
+      "n": 5,
+      "human_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 2
+      },
+      "codex_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 2
+      },
+      "matches": 5,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "faq": {
+      "n": 1,
+      "human_action": {
+        "approve": 1,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 0,
+        "review": 1,
+        "reject": 0
+      },
+      "matches": 0,
+      "accuracy": 0,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "mixed": {
+      "n": 3,
+      "human_action": {
+        "approve": 1,
+        "review": 1,
+        "reject": 1
+      },
+      "codex_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 1,
+      "accuracy": 0.3333333333333333,
+      "false_accept": 1,
+      "false_reject": 0
+    },
+    "news_event": {
+      "n": 10,
+      "human_action": {
+        "approve": 0,
+        "review": 0,
+        "reject": 10
+      },
+      "codex_action": {
+        "approve": 1,
+        "review": 0,
+        "reject": 9
+      },
+      "matches": 9,
+      "accuracy": 0.9,
+      "false_accept": 1,
+      "false_reject": 0
+    },
+    "organization_intro": {
+      "n": 6,
+      "human_action": {
+        "approve": 5,
+        "review": 0,
+        "reject": 1
+      },
+      "codex_action": {
+        "approve": 5,
+        "review": 0,
+        "reject": 1
+      },
+      "matches": 6,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "policy": {
+      "n": 3,
+      "human_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 3,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "procedure_guide": {
+      "n": 3,
+      "human_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 3,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "promotional_content": {
+      "n": 1,
+      "human_action": {
+        "approve": 0,
+        "review": 0,
+        "reject": 1
+      },
+      "codex_action": {
+        "approve": 0,
+        "review": 0,
+        "reject": 1
+      },
+      "matches": 1,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "research_news": {
+      "n": 2,
+      "human_action": {
+        "approve": 0,
+        "review": 0,
+        "reject": 2
+      },
+      "codex_action": {
+        "approve": 0,
+        "review": 0,
+        "reject": 2
+      },
+      "matches": 2,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "resource_directory": {
+      "n": 4,
+      "human_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 1
+      },
+      "codex_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 1
+      },
+      "matches": 4,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "service_entry": {
+      "n": 8,
+      "human_action": {
+        "approve": 8,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 8,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 8,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    }
+  },
+  "category": {
+    "交通服务": {
+      "status": "NOT_COVERED"
+    },
+    "住宿服务": {
+      "status": "NOT_COVERED"
+    },
+    "体育与场馆": {
+      "status": "NOT_COVERED"
+    },
+    "医疗健康": {
+      "status": "NOT_COVERED"
+    },
+    "国际事务与签证": {
+      "status": "NOT_COVERED"
+    },
+    "图书馆服务": {
+      "n": 15,
+      "human_action": {
+        "approve": 11,
+        "review": 1,
+        "reject": 3
+      },
+      "codex_action": {
+        "approve": 12,
+        "review": 1,
+        "reject": 2
+      },
+      "matches": 12,
+      "accuracy": 0.8,
+      "false_accept": 1,
+      "false_reject": 0
+    },
+    "奖助与资助": {
+      "n": 1,
+      "human_action": {
+        "approve": 1,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 1,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 1,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "学生事务": {
+      "status": "NOT_COVERED"
+    },
+    "就业与职业发展": {
+      "status": "NOT_COVERED"
+    },
+    "教务与学籍": {
+      "status": "NOT_COVERED"
+    },
+    "教学与培养": {
+      "n": 1,
+      "human_action": {
+        "approve": 1,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 1,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 1,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "校园文化与历史": {
+      "n": 2,
+      "human_action": {
+        "approve": 1,
+        "review": 0,
+        "reject": 1
+      },
+      "codex_action": {
+        "approve": 2,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 1,
+      "accuracy": 0.5,
+      "false_accept": 1,
+      "false_reject": 0
+    },
+    "校园机构与部门": {
+      "n": 3,
+      "human_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 3,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "校园综合服务": {
+      "status": "NOT_COVERED"
+    },
+    "校园访问": {
+      "status": "NOT_COVERED"
+    },
+    "清华基本信息": {
+      "n": 1,
+      "human_action": {
+        "approve": 1,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 1,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 1,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "科研参与与资源导航": {
+      "n": 6,
+      "human_action": {
+        "approve": 6,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 6,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 6,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "网络与信息化": {
+      "n": 3,
+      "human_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 0
+      },
+      "codex_action": {
+        "approve": 3,
+        "review": 0,
+        "reject": 0
+      },
+      "matches": 3,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "非目标范围": {
+      "n": 18,
+      "human_action": {
+        "approve": 0,
+        "review": 0,
+        "reject": 18
+      },
+      "codex_action": {
+        "approve": 0,
+        "review": 0,
+        "reject": 18
+      },
+      "matches": 18,
+      "accuracy": 1,
+      "false_accept": 0,
+      "false_reject": 0
+    },
+    "餐饮服务": {
+      "status": "NOT_COVERED"
+    }
+  },
+  "medium": {
+    "human": 11,
+    "codex": 2,
+    "exact": 1,
+    "human_to_high": 2,
+    "human_to_low": 8,
+    "codex_to_human_high": 1,
+    "codex_to_human_low": 0
+  }
+}

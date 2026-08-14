@@ -1,0 +1,795 @@
+{
+  "status": "PASS",
+  "scope": "PROVISIONAL_AUTO_EVAL",
+  "questions": 38,
+  "claims": 120,
+  "factual_claims": 104,
+  "v1_coverage": 0.11538461538461539,
+  "v2a": {
+    "version": "V2-A",
+    "factual_claims": 104,
+    "label_distribution": {
+      "SUPPORTED": 34,
+      "PARTIALLY_SUPPORTED": 17,
+      "UNSUPPORTED": 53
+    },
+    "claim_level_citation_coverage": 0.49038461538461536,
+    "unsupported_claim_rate": 0.5096153846153846,
+    "partial_support_rate": 0.16346153846153846,
+    "conflict_rate": 0.0
+  },
+  "v2b": {
+    "version": "V2-B",
+    "factual_claims": 104,
+    "label_distribution": {
+      "SUPPORTED": 38,
+      "PARTIALLY_SUPPORTED": 17,
+      "UNSUPPORTED": 49
+    },
+    "claim_level_citation_coverage": 0.5288461538461539,
+    "unsupported_claim_rate": 0.47115384615384615,
+    "partial_support_rate": 0.16346153846153846,
+    "conflict_rate": 0.0
+  },
+  "v2c": {
+    "version": "V2-C",
+    "factual_claims": 104,
+    "label_distribution": {
+      "SUPPORTED": 37,
+      "PARTIALLY_SUPPORTED": 17,
+      "UNSUPPORTED": 50
+    },
+    "claim_level_citation_coverage": 0.5192307692307693,
+    "unsupported_claim_rate": 0.4807692307692308,
+    "partial_support_rate": 0.16346153846153846,
+    "conflict_rate": 0.0
+  },
+  "citation_precision_proxy": 1.0,
+  "human_validated_precision": null,
+  "answer_level_citation_compliance": {
+    "a_baseline": 0.05263157894736842,
+    "v1": 0.21052631578947367,
+    "v2": 0.21052631578947367
+  },
+  "answer_preservation_rate": 1.0,
+  "hard_contradiction_block_count": 69,
+  "hard_contradiction_blocks": [
+    {
+      "question_id": "RET-01",
+      "claim_id": "RET-01-C001",
+      "span_id": "RET-01-PROV0-STGPUB-0048-0000-S0005",
+      "embedding_score": 0.7837746739387512,
+      "verifier_score": 0.9943835735321045,
+      "rule_flags": [
+        "NUMERIC_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "RET-02",
+      "claim_id": "RET-02-C007",
+      "span_id": "RET-02-PROV0-STGPUB-0001-0004-S0046",
+      "embedding_score": 0.6960389614105225,
+      "verifier_score": 0.974903404712677,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH",
+        "SEQUENCE_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "RET-02",
+      "claim_id": "RET-02-C007",
+      "span_id": "RET-02-PROV0-STGPUB-0001-0001-S0021",
+      "embedding_score": 0.6677799224853516,
+      "verifier_score": 0.9879151582717896,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "RET-04",
+      "claim_id": "RET-04-C003",
+      "span_id": "RET-04-PROV0-STGPUB-0085-0000-S0018",
+      "embedding_score": 0.741246223449707,
+      "verifier_score": 0.963797390460968,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "RET-04",
+      "claim_id": "RET-04-C003",
+      "span_id": "RET-04-PROV0-STGPUB-0085-0000-S0021",
+      "embedding_score": 0.7310007810592651,
+      "verifier_score": 0.9725427031517029,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "RET-06",
+      "claim_id": "RET-06-C003",
+      "span_id": "RET-06-PROV0-RESV1-0016-0000-S0035",
+      "embedding_score": 0.6633623838424683,
+      "verifier_score": 0.9953355193138123,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "RET-07",
+      "claim_id": "RET-07-C004",
+      "span_id": "RET-07-PROV0-STGPUB-0005-0000-S0001",
+      "embedding_score": 0.7813913226127625,
+      "verifier_score": 0.9876062273979187,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "RET-07",
+      "claim_id": "RET-07-C004",
+      "span_id": "RET-07-PROV0-STGPUB-0005-0005-S0007",
+      "embedding_score": 0.6915140151977539,
+      "verifier_score": 0.9983232617378235,
+      "rule_flags": [
+        "NUMERIC_MISMATCH",
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "RET-07",
+      "claim_id": "RET-07-C004",
+      "span_id": "RET-07-PROV0-STGPUB-0005-0005-S0005",
+      "embedding_score": 0.6914578080177307,
+      "verifier_score": 0.9974253177642822,
+      "rule_flags": [
+        "NUMERIC_MISMATCH",
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "RET-08",
+      "claim_id": "RET-08-C001",
+      "span_id": "RET-08-PROV0-STGPUB-0071-0001-S0006",
+      "embedding_score": 0.7131834030151367,
+      "verifier_score": 0.9700512290000916,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-001",
+      "claim_id": "PROV-001-C002",
+      "span_id": "PROV-001-PROV0-STGPUB-0047-0000-S0012",
+      "embedding_score": 0.7031996250152588,
+      "verifier_score": 0.9933347702026367,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-002",
+      "claim_id": "PROV-002-C001",
+      "span_id": "PROV-002-PROV0-STGPUB-0009-0000-S0006",
+      "embedding_score": 0.6893940567970276,
+      "verifier_score": 0.9865064024925232,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-003",
+      "claim_id": "PROV-003-C001",
+      "span_id": "PROV-003-PROV0-STGPUB-0031-0000-S0010",
+      "embedding_score": 0.7547910213470459,
+      "verifier_score": 0.9987987279891968,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-003",
+      "claim_id": "PROV-003-C001",
+      "span_id": "PROV-003-PROV0-STGPUB-0031-0000-S0012",
+      "embedding_score": 0.7509340047836304,
+      "verifier_score": 0.9980959296226501,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-003",
+      "claim_id": "PROV-003-C001",
+      "span_id": "PROV-003-PROV0-STGPUB-0031-0000-S0011",
+      "embedding_score": 0.7434116005897522,
+      "verifier_score": 0.9985755681991577,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-003",
+      "claim_id": "PROV-003-C001",
+      "span_id": "PROV-003-PROV0-STGPUB-0031-0000-S0018",
+      "embedding_score": 0.7366729378700256,
+      "verifier_score": 0.9837797284126282,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-004",
+      "claim_id": "PROV-004-C001",
+      "span_id": "PROV-004-PROV0-STGPUB-0034-0001-S0014",
+      "embedding_score": 0.6888482570648193,
+      "verifier_score": 0.9632952213287354,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-004",
+      "claim_id": "PROV-004-C001",
+      "span_id": "PROV-004-PROV0-STGPUB-0034-0001-S0005",
+      "embedding_score": 0.67768794298172,
+      "verifier_score": 0.9869694709777832,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-005",
+      "claim_id": "PROV-005-C001",
+      "span_id": "PROV-005-PROV0-STGPUB-0072-0000-S0017",
+      "embedding_score": 0.8307542204856873,
+      "verifier_score": 0.997248113155365,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-006",
+      "claim_id": "PROV-006-C001",
+      "span_id": "PROV-006-PROV0-STGPUB-0012-0001-S0026",
+      "embedding_score": 0.7725458741188049,
+      "verifier_score": 0.9996260404586792,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-006",
+      "claim_id": "PROV-006-C001",
+      "span_id": "PROV-006-PROV0-STGPUB-0012-0001-S0023",
+      "embedding_score": 0.7535501718521118,
+      "verifier_score": 0.9908636212348938,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-006",
+      "claim_id": "PROV-006-C001",
+      "span_id": "PROV-006-PROV0-STGPUB-0012-0001-S0024",
+      "embedding_score": 0.7454586625099182,
+      "verifier_score": 0.9970487952232361,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-006",
+      "claim_id": "PROV-006-C001",
+      "span_id": "PROV-006-PROV0-STGPUB-0012-0001-S0025",
+      "embedding_score": 0.7331332564353943,
+      "verifier_score": 0.988609790802002,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-006",
+      "claim_id": "PROV-006-C001",
+      "span_id": "PROV-006-PROV0-STGPUB-0012-0001-S0016",
+      "embedding_score": 0.7276442050933838,
+      "verifier_score": 0.9507072567939758,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-009",
+      "claim_id": "PROV-009-C001",
+      "span_id": "PROV-009-PROV0-STGPUB-0077-0002-S0042",
+      "embedding_score": 0.6947256922721863,
+      "verifier_score": 0.9825191497802734,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-009",
+      "claim_id": "PROV-009-C001",
+      "span_id": "PROV-009-PROV0-STGPUB-0077-0000-S0002",
+      "embedding_score": 0.6913657784461975,
+      "verifier_score": 0.9616323113441467,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-010",
+      "claim_id": "PROV-010-C001",
+      "span_id": "PROV-010-PROV0-RESV1-0015-0000-S0045",
+      "embedding_score": 0.8274984955787659,
+      "verifier_score": 0.9997265934944153,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-010",
+      "claim_id": "PROV-010-C001",
+      "span_id": "PROV-010-PROV0-RESV1-0015-0000-S0048",
+      "embedding_score": 0.8215526938438416,
+      "verifier_score": 0.9993125200271606,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-010",
+      "claim_id": "PROV-010-C001",
+      "span_id": "PROV-010-PROV0-RESV1-0015-0000-S0046",
+      "embedding_score": 0.8195002675056458,
+      "verifier_score": 0.9997326731681824,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-010",
+      "claim_id": "PROV-010-C001",
+      "span_id": "PROV-010-PROV0-RESV1-0015-0000-S0016",
+      "embedding_score": 0.809771716594696,
+      "verifier_score": 0.9997923970222473,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-010",
+      "claim_id": "PROV-010-C001",
+      "span_id": "PROV-010-PROV0-RESV1-0015-0000-S0005",
+      "embedding_score": 0.7977295517921448,
+      "verifier_score": 0.9901229739189148,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-011",
+      "claim_id": "PROV-011-C001",
+      "span_id": "PROV-011-PROV0-STGPUB-0065-0000-S0001",
+      "embedding_score": 0.9170293211936951,
+      "verifier_score": 0.9999436140060425,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-011",
+      "claim_id": "PROV-011-C001",
+      "span_id": "PROV-011-PROV0-STGPUB-0065-0000-S0002",
+      "embedding_score": 0.845750629901886,
+      "verifier_score": 0.9999271631240845,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-011",
+      "claim_id": "PROV-011-C001",
+      "span_id": "PROV-011-PROV0-STGPUB-0065-0000-S0004",
+      "embedding_score": 0.8203743696212769,
+      "verifier_score": 0.998297393321991,
+      "rule_flags": [
+        "NUMERIC_MISMATCH",
+        "TEMPORAL_MISMATCH",
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-011",
+      "claim_id": "PROV-011-C001",
+      "span_id": "PROV-011-PROV0-STGPUB-0065-0000-S0003",
+      "embedding_score": 0.7877331376075745,
+      "verifier_score": 0.9998459815979004,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-011",
+      "claim_id": "PROV-011-C001",
+      "span_id": "PROV-011-PROV0-STGPUB-0065-0000-S0005",
+      "embedding_score": 0.7532610297203064,
+      "verifier_score": 0.9980201721191406,
+      "rule_flags": [
+        "NUMERIC_MISMATCH",
+        "TEMPORAL_MISMATCH",
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-015",
+      "claim_id": "PROV-015-C001",
+      "span_id": "PROV-015-PROV0-STGPUB-0122-0000-S0001",
+      "embedding_score": 0.7790246605873108,
+      "verifier_score": 0.9913090467453003,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-015",
+      "claim_id": "PROV-015-C001",
+      "span_id": "PROV-015-PROV0-STGPUB-0122-0000-S0002",
+      "embedding_score": 0.7536541223526001,
+      "verifier_score": 0.9962766766548157,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-015",
+      "claim_id": "PROV-015-C001",
+      "span_id": "PROV-015-PROV0-STGPUB-0148-0000-S0032",
+      "embedding_score": 0.6929417252540588,
+      "verifier_score": 0.998590886592865,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-015",
+      "claim_id": "PROV-015-C001",
+      "span_id": "PROV-015-PROV0-STGPUB-0148-0000-S0031",
+      "embedding_score": 0.6867262125015259,
+      "verifier_score": 0.9981024861335754,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-015",
+      "claim_id": "PROV-015-C001",
+      "span_id": "PROV-015-PROV0-STGPUB-0147-0000-S0010",
+      "embedding_score": 0.684226393699646,
+      "verifier_score": 0.9923696517944336,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-015",
+      "claim_id": "PROV-015-C005",
+      "span_id": "PROV-015-PROV0-STGPUB-0122-0000-S0008",
+      "embedding_score": 0.6778485774993896,
+      "verifier_score": 0.9901406168937683,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-015",
+      "claim_id": "PROV-015-C005",
+      "span_id": "PROV-015-PROV0-STGPUB-0147-0000-S0007",
+      "embedding_score": 0.6778485774993896,
+      "verifier_score": 0.9901406168937683,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C001",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0000-S0005",
+      "embedding_score": 0.7263870239257812,
+      "verifier_score": 0.9981076717376709,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C001",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0002-S0008",
+      "embedding_score": 0.7155665159225464,
+      "verifier_score": 0.9838852882385254,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C001",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0001-S0010",
+      "embedding_score": 0.7155665159225464,
+      "verifier_score": 0.9838852882385254,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C001",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0002-S0006",
+      "embedding_score": 0.7155041694641113,
+      "verifier_score": 0.989963710308075,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C001",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0001-S0002",
+      "embedding_score": 0.702274739742279,
+      "verifier_score": 0.9950756430625916,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C002",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0001-S0006",
+      "embedding_score": 0.7712306380271912,
+      "verifier_score": 0.9997112154960632,
+      "rule_flags": [
+        "SEQUENCE_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C002",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0001-S0007",
+      "embedding_score": 0.7318937182426453,
+      "verifier_score": 0.9990136623382568,
+      "rule_flags": [
+        "SEQUENCE_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C002",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0001-S0003",
+      "embedding_score": 0.7176012992858887,
+      "verifier_score": 0.998225748538971,
+      "rule_flags": [
+        "SEQUENCE_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C002",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0001-S0008",
+      "embedding_score": 0.7168741226196289,
+      "verifier_score": 0.9988841414451599,
+      "rule_flags": [
+        "SEQUENCE_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-020",
+      "claim_id": "PROV-020-C002",
+      "span_id": "PROV-020-PROV0-STGPUB-0177-0001-S0011",
+      "embedding_score": 0.6979168057441711,
+      "verifier_score": 0.9740580320358276,
+      "rule_flags": [
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-022",
+      "claim_id": "PROV-022-C001",
+      "span_id": "PROV-022-PROV0-STGPUB-0011-0002-S0016",
+      "embedding_score": 0.708476185798645,
+      "verifier_score": 0.9888561367988586,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-022",
+      "claim_id": "PROV-022-C001",
+      "span_id": "PROV-022-PROV0-STGPUB-0011-0004-S0002",
+      "embedding_score": 0.7077229619026184,
+      "verifier_score": 0.9877197742462158,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-024",
+      "claim_id": "PROV-024-C001",
+      "span_id": "PROV-024-PROV0-STGPUB-0196-0000-S0003",
+      "embedding_score": 0.7176273465156555,
+      "verifier_score": 0.999854326248169,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-024",
+      "claim_id": "PROV-024-C001",
+      "span_id": "PROV-024-PROV0-STGPUB-0196-0000-S0005",
+      "embedding_score": 0.7027738094329834,
+      "verifier_score": 0.9952700734138489,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-024",
+      "claim_id": "PROV-024-C001",
+      "span_id": "PROV-024-PROV0-STGPUB-0196-0000-S0002",
+      "embedding_score": 0.702033519744873,
+      "verifier_score": 0.999327540397644,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-024",
+      "claim_id": "PROV-024-C001",
+      "span_id": "PROV-024-PROV0-STGPUB-0196-0000-S0006",
+      "embedding_score": 0.6691319942474365,
+      "verifier_score": 0.9720049500465393,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-024",
+      "claim_id": "PROV-024-C001",
+      "span_id": "PROV-024-PROV0-STGPUB-0022-0000-S0007",
+      "embedding_score": 0.6660868525505066,
+      "verifier_score": 0.9954415559768677,
+      "rule_flags": [
+        "ENTITY_MISMATCH",
+        "PROCEDURAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-025",
+      "claim_id": "PROV-025-C004",
+      "span_id": "PROV-025-PROV0-STGPUB-0197-0000-S0020",
+      "embedding_score": 0.6899914741516113,
+      "verifier_score": 0.9980762004852295,
+      "rule_flags": [
+        "NUMERIC_MISMATCH",
+        "TEMPORAL_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-026",
+      "claim_id": "PROV-026-C001",
+      "span_id": "PROV-026-PROV0-STGPUB-0214-0000-S0015",
+      "embedding_score": 0.8336635828018188,
+      "verifier_score": 0.9939374923706055,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-026",
+      "claim_id": "PROV-026-C001",
+      "span_id": "PROV-026-PROV0-STGPUB-0214-0000-S0016",
+      "embedding_score": 0.8247712254524231,
+      "verifier_score": 0.9986249208450317,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-026",
+      "claim_id": "PROV-026-C001",
+      "span_id": "PROV-026-PROV0-STGPUB-0214-0000-S0011",
+      "embedding_score": 0.8055137991905212,
+      "verifier_score": 0.998783528804779,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-026",
+      "claim_id": "PROV-026-C001",
+      "span_id": "PROV-026-PROV0-STGPUB-0214-0000-S0017",
+      "embedding_score": 0.8034241199493408,
+      "verifier_score": 0.9973832964897156,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-027",
+      "claim_id": "PROV-027-C001",
+      "span_id": "PROV-027-PROV0-STGPUB-0210-0000-S0001",
+      "embedding_score": 0.7976109981536865,
+      "verifier_score": 0.9982370138168335,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-027",
+      "claim_id": "PROV-027-C001",
+      "span_id": "PROV-027-PROV0-STGPUB-0210-0000-S0002",
+      "embedding_score": 0.7645558714866638,
+      "verifier_score": 0.9966380596160889,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-027",
+      "claim_id": "PROV-027-C001",
+      "span_id": "PROV-027-PROV0-STGPUB-0210-0000-S0003",
+      "embedding_score": 0.7502129673957825,
+      "verifier_score": 0.9931501746177673,
+      "rule_flags": [
+        "ENTITY_MISMATCH"
+      ]
+    },
+    {
+      "question_id": "PROV-028",
+      "claim_id": "PROV-028-C005",
+      "span_id": "PROV-028-PROV0-RESV1-0010-0000-S0022",
+      "embedding_score": 0.7052191495895386,
+      "verifier_score": 0.9895457625389099,
+      "rule_flags": [
+        "NUMERIC_MISMATCH",
+        "ENTITY_MISMATCH"
+      ]
+    }
+  ],
+  "automatic_wrong_citations": 0,
+  "false_support_risk_cases": 89,
+  "verifier": {
+    "name": "BAAI/bge-reranker-base",
+    "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+    "status": "VERIFIER_NOT_RELIABLE_AS_ENTAILMENT",
+    "selected_threshold": 0.95,
+    "role": "pretrained_cross_encoder_relevance_gate_not_entailment"
+  },
+  "performance_seconds": {
+    "evidence_span_extraction": 0.17747500003315508,
+    "span_embedding": 108.51015950005967,
+    "span_ranking": 0.4168839000631124,
+    "verifier_sanity": 2.107248599990271,
+    "verifier_claim_pairs": 34.77328329999,
+    "citation_assignment": 0.007855999981984496,
+    "total": 150.42046689998824,
+    "average_per_question": 3.9584333394733746,
+    "v1_total_latency": null
+  },
+  "artifacts": {
+    "span_count": 6405,
+    "span_embedding_sha256": "20ce4926ad95ded12bbd10174b9976fe6077c441b6976c3947294d952403cddb",
+    "citation_assignments": 55
+  }
+}

@@ -1,0 +1,13 @@
+source_root: "D:\\python_projects\\tsinghua_ai\\data_first"
+project_root: "D:\\python_projects\\tsinghua_ai\\data_second"
+prompt_version: v1
+allow_external_llm_for_portal: false
+public_review_limit: 30
+request_timeout_seconds: 90
+max_retries: 2
+retry_delay_seconds: 2
+max_input_chars: 50000
+sample_report_size: 20
+temperature: 0.1
+max_completion_tokens: 900
+

@@ -1,0 +1,146 @@
+[首页](https://www.med.tsinghua.edu.cn/index.htm)
+/
+[医疗服务](https://www.med.tsinghua.edu.cn/bj.htm)
+/
+[北京华信医院（清华大学第一附属医院）](https://www.med.tsinghua.edu.cn/bjhxyy_qhdxdyfsyy.htm)
+
+- [北京清华长庚医院](https://www.med.tsinghua.edu.cn/bj.htm)
+  - [医院介绍](https://www.med.tsinghua.edu.cn/bj/yyjs.htm)
+  - [就医指南](https://www.med.tsinghua.edu.cn/bj/jyzn.htm)
+  - [医师团队](https://www.med.tsinghua.edu.cn/bj/ystd.htm) [内科部](https://www.med.tsinghua.edu.cn/bj/ystd/nk/nfmydxk.htm)
+    [内分泌与代谢科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/nfmydxk.htm)
+    [感染性疾病科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/grxjbk.htm)
+    [消化内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/xhnk.htm)
+    [肾脏内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/sznk.htm)
+    [心血管内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/xxgnk.htm)
+    [呼吸与危重症医学科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/hxywzzyxk.htm)
+    [神经内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/sjnk.htm)
+    [血液肿瘤科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/xyzlk.htm)
+    [风湿免疫科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/fsmyk.htm)
+    [老年医学科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/lnyxk.htm)
+    [精神心理科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/jsxlk.htm)
+    [外科部](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/ptwk.htm)
+    [普通外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/ptwk.htm)
+    [胃肠外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/wcwk.htm)
+    [心脏外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/xzwk.htm)
+    [血管外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/xgwk.htm)
+    [胸腔外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/xqwk.htm)
+    [神经外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/sjwk.htm)
+    [泌尿外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/mnwk.htm)
+    [整形外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/zxwk.htm)
+    [麻醉科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/mzk.htm)
+    [疼痛科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/ttk.htm)
+    [妇儿部](https://www.med.tsinghua.edu.cn/bj/ystd/fck/ek.htm)
+    [儿科](https://www.med.tsinghua.edu.cn/bj/ystd/fck/ek.htm)
+    [妇产科](https://www.med.tsinghua.edu.cn/bj/ystd/fck/fck.htm)
+    [预防保健科](https://www.med.tsinghua.edu.cn/bj/ystd/fck/yfbjk.htm)
+    [儿外科](https://www.med.tsinghua.edu.cn/bj/ystd/fck/ewk.htm)
+    [急重症部](https://www.med.tsinghua.edu.cn/bj/ystd/mzks/ptnk.htm)
+    [普通内科](https://www.med.tsinghua.edu.cn/bj/ystd/mzks/ptnk.htm)
+    [急诊科](https://www.med.tsinghua.edu.cn/bj/ystd/mzks/jzk.htm)
+    [重症医学科](https://www.med.tsinghua.edu.cn/bj/ystd/mzks/zzyxk.htm)
+    [呼吸治疗科](https://www.med.tsinghua.edu.cn/bj/ystd/mzks/hxzlk.htm)
+    [专科部](https://www.med.tsinghua.edu.cn/bj/ystd/yj/kfyxk.htm)
+    [康复医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj/kfyxk.htm)
+    [皮肤科](https://www.med.tsinghua.edu.cn/bj/ystd/yj/pfk.htm)
+    [口腔科](https://www.med.tsinghua.edu.cn/bj/ystd/yj/kqk.htm)
+    [眼科](https://www.med.tsinghua.edu.cn/bj/ystd/yj/yk.htm)
+    [中医科](https://www.med.tsinghua.edu.cn/bj/ystd/yj/zyk.htm)
+    [耳鼻咽喉头颈外科](https://www.med.tsinghua.edu.cn/bj/ystd/yj/ebyhtjwk.htm)
+    [医技部](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/fszlk.htm)
+    [放射治疗科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/fszlk.htm)
+    [病理科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/blk.htm)
+    [检验医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/jyyxk.htm)
+    [输血科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/sxk.htm)
+    [超声科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/csk.htm)
+    [药剂科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/yjk.htm)
+    [临床药学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/lcyxk.htm)
+    [临床营养科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/lcyyk.htm)
+    [放射诊断科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/fszdk.htm)
+    [核医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/hyxk.htm)
+    [全科与健康医学部](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)
+    [全科医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)
+    [健康管理中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/jkglzx.htm)
+    [肝胆胰中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdywk.htm)
+    [肝胆胰外科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdywk.htm)
+    [肝胆内科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdnk.htm)
+    [肝胆介入科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdjrk.htm)
+    [肝胆肿瘤科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdzlk.htm)
+    [儿童肝病科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/etgbk.htm)
+    [肝脏ICU](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gzICU.htm)
+    [肝移植科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gyzk.htm)
+    [肝胆研究实验室](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdyjsys.htm)
+    [骨科与运动医学中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj4/gkyydyxzx.htm)
+    [骨科与运动医学中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj4/gkyydyxzx.htm)
+    [其他](https://www.med.tsinghua.edu.cn/bj/ystd/yj5/ylmrk.htm)
+    [医疗美容科](https://www.med.tsinghua.edu.cn/bj/ystd/yj5/ylmrk.htm)
+  - [新闻动态](https://www.med.tsinghua.edu.cn/bj/xwdt.htm)
+- [北京华信医院（清华大学第一附属医院）](https://www.med.tsinghua.edu.cn/bjhxyy_qhdxdyfsyy.htm)
+- [清华大学玉泉医院](https://www.med.tsinghua.edu.cn/qhdxyqyy.htm)
+- [清华大学附属北京市垂杨柳医院](https://www.cylh.com/)
+
+- #### 大型综合性公立医院:
+
+  医院是集医疗、教学、科研和预防保健为一体的三级综合医院。坚持“突出专科，综合发展”方针，积极发挥重点学科的龙头作用，实现多学科综合发展。 2024年7月，新内科大楼正式启用，标志着医院的发展迈入了新的历史阶段。目前开放床位1000张。
+- #### 医保服务:
+
+  北京医保A类定点医疗机构，工伤保险定点医疗机构。实现异地医保门诊慢特病就医直接结算、异地医保住院直接结算、婴幼儿住院备案直接结算、医保住院患者当日结算等系列服务。2023年12月，医保移动支付功能上线，实现“一部手机直接结算，搞定就医全流程”。
+
+- #### 临床医技科室:
+
+  42个。
+- #### 重点建设中心:
+
+  心血管中心、儿童中心、危重症中心、肿瘤中心。
+
+- #### 优势中心:
+
+  设有心脏、泌尿、消化、肿瘤、放射影像、骨科6个专科医学中心
+
+- #### 高水平医疗团队:
+
+  心脏中心由吴清玉教授、张明奎教授、李小梅教授领衔，贯彻内、外科联合的优化诊疗模式，以收治复杂、危重和疑难心血管疾病为特色，目前已成为国内领先、国际一流的心血管中心。
+
+  医院是中国复杂先心病救助中心，北京市危重新生儿先天性心脏病会诊指定医院，北京市新生儿先天性心脏病诊断机构和治疗机构，北京市危重新生儿转诊会诊指定医院，北京市市级危重新生儿救治中心，北京市高危孕产妇转诊会诊指定医院，朝阳区高危围产儿救治中心。
+- #### 国际认可:
+
+  英国爱丁堡皇家外科学院普通外科医师培训基地。
+
+- 教学医院:
+
+  承担清华大学医学生、硕士和博士研究生的培养工作。开展多种人才培养项目，包括住院医师规范化培训、全科转岗培训、英国皇家外科学院医师培训等，参与器官系统的临床医学MD教育体系。
+- 培训基地:
+
+  拥有北京市住院医师规范化培训基地（内科、外科、检验技师）、北京市全科医生转岗基地 。
+- 行业标准:
+
+  牵头制定法洛四联症的技术指南，并写入教科书。2023年出版《吴清玉心脏外科学》。作为主任单位组织制订《中国冠状动脉旁路移植术技术指南》。牵头撰写《中国儿童心律失常导管消融专家共识》《中国儿童心血管植入性电子器械专家共识》《冠状动脉心肌桥诊断与治疗的专家共识》等。
+
+- 多学科联合诊疗:
+
+  医院MDT团队由来自不同学科的资深专家组成，确保从多个角度综合评估患者的病情。通过团队讨论，MDT团队为每位患者制定个性化的诊疗计划，从诊断到治疗，再到康复和随访，MDT团队为患者提供全程管理服务，确保患者在整个治疗过程中得到最佳的医疗支持。
+- 专病门诊:
+
+  医院积极推进专病门诊建设。目前，31个科室陆续开设了百个专病门诊，有效满足了患者就医需求，帮助患者精准就医，提升就医体验。
+- 一站式服务:
+
+  门诊“一站式服务中心”，集门诊导诊、分诊、咨询、预约、健康教育、便民服务、陪护等功能于一体，为患者提供便、捷、快、优的“一站式服务”。
+- 远程中心:
+
+  通过创新技术，医院致力于提供无边界的医疗服务，让每一位患者都能享受到专业、便捷的医疗体验。远程医疗中心能够为患者提供远程诊断服务，包括远程影像学解读、病理学分析等，使患者无需亲临医院即可获得专业医生的诊断意见。
+- 国际医疗:
+
+  为国内外各界人士提供高端的医疗服务，具体业务包括全面的高层次的健康管理；提供特需知名专家的预约及门诊挂号服务；住院病区可以提供各种疾病的诊治、保健医疗及住院体检服务。医院为每位国际患者提供个性化的医疗方案，对于无法亲自到访的患者，医院提供远程医疗服务，包括远程咨询和远程诊断，使患者能够在家中接受专业的医疗建议。
+- 精准医疗帮扶:
+
+  开展以先天性心脏病精准医疗帮扶工作，形成源于南涧成于大理推广全国医疗帮扶的大理模式。京蒙协作、对口帮扶、定点支援滇黔藏蒙宁等地。
+
+国际交流与合作:
+
+与英国爱丁堡大学、美国哈佛大学、澳大利亚墨尔本大学、日本东京大学及新加坡国立大学等院校开展学术交流。成为英国爱丁堡皇家外科医学院及香港外科医学院认可的英国皇家外科医师（Membership of Royal College Surgeon, MRCS）培训中心。承办了第十五届亚洲胸心血管外科年会，赢得了广泛的国际赞誉。
+
+- 健康科技创新:
+
+  医院以心血管、儿科、急危重症及肿瘤等核心优势学科为中心，建设学科特色鲜明、医教研防深度融合的综合性、研究型医院，是国家药物临床试验机构、国家医疗器械临床试验机构。“清华大学精准医学研究院循证医学研究中心”“心血管组织工程与生物材料研究实验室”依托医院成立。
+
+清华大学第一附属医院提供全面的综合医疗服务，重点发展特色专科和专病，拥有先进的设备和丰富的教学与科研资源，致力于特殊医疗服务和国际学术交流，并在多学科综合发展和医学人才培养方面作出突出贡献。

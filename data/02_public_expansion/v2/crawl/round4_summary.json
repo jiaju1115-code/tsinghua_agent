@@ -1,0 +1,33 @@
+{
+  "list_pages_requested": 46,
+  "list_pages_ok": 35,
+  "discovered": 62,
+  "title_dedup": 8,
+  "fetch_ok": 62,
+  "quality_gate_pass": 26,
+  "quality_classes": {
+    "thin_content": 9,
+    "list_page": 7,
+    "extraction_failed": 3,
+    "detail_content": 16,
+    "template_polluted": 5,
+    "navigation_only": 17,
+    "soft_404": 5
+  },
+  "internal_dedup": 5,
+  "by_category": {
+    "交通服务": 1,
+    "医疗健康": 1,
+    "就业与职业发展": 1,
+    "教务与学籍": 18,
+    "科研参与与资源导航": 5
+  },
+  "by_domain": {
+    "peace.tsinghua.edu.cn": 1,
+    "www.med.tsinghua.edu.cn": 1,
+    "www.is.tsinghua.edu.cn": 1,
+    "qzc.tsinghua.edu.cn": 14,
+    "www.wyc.tsinghua.edu.cn": 4,
+    "ac.tsinghua.edu.cn": 5
+  }
+}

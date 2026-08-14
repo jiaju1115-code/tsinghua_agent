@@ -1,0 +1,16 @@
+{
+  "evaluation_questions": 30,
+  "completed_questions": 30,
+  "router_accuracy_proxy": 0.8333,
+  "search_success_rate": 1.0,
+  "extraction_success_rate": 0.9667,
+  "campus_official_source_rate": 1.0,
+  "high_authority_source_rate": 0.5287,
+  "academic_knowledge_sufficiency_proxy": 0.5,
+  "direct_answer_leakage_rate": 0.1,
+  "average_search_latency_seconds": 5.355,
+  "average_extract_latency_seconds": 3.749,
+  "average_total_web_retrieval_latency_seconds": 8.756,
+  "api_request_count": 59,
+  "failure_taxonomy": {}
+}

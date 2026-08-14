@@ -1,0 +1,19 @@
+{
+  "first_execution": {
+    "status": "BLOCKED",
+    "reason": "TAVILY_API_KEY_NOT_CONFIGURED"
+  },
+  "live_validation": {
+    "api_authenticated": true,
+    "search_api_callable": true,
+    "extract_api_callable": true,
+    "smoke_passed": "3/3",
+    "smokes": [
+      {"mode": "CAMPUS_PUBLIC", "query": "清华大学 本科生 奖助学金 最新通知", "status": "SUCCESS"},
+      {"mode": "ACADEMIC_RETRIEVAL", "query": "泊松分布 期望 方差 二阶矩 公式", "status": "SUCCESS"},
+      {"mode": "GENERAL_WEB", "query": "OpenAI latest official product announcements", "status": "SUCCESS"}
+    ],
+    "retained_historical_failure": {"mode": "GENERAL_WEB", "query": "2026年人工智能领域近期公开进展", "failure": "SEARCH_NO_RESULT"},
+    "api_request_count": 8
+  }
+}
