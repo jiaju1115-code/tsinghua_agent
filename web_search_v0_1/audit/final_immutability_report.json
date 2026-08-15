@@ -1,6 +1,0 @@
-{
-  "status": "PASS",
-  "read_only_baseline": "experiments/web_search_v0",
-  "protected_paths": ["data_first", "data_second/rag_v1", "data_second/answer_eval_v0", "data_second/answer_eval_v1", "data_second/citation_pipeline_v1", "data_second/citation_pipeline_v2", "experiments/web_search_v0", "production"],
-  "finding": "V0.1 artifacts are isolated under experiments/web_search_v0_followup. Targeted protected-path diff is checked before handoff."
-}

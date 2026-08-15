@@ -28,6 +28,10 @@ data/01_public_baseline/data/auth/
 **/_workbook_previews/
 **/vendor/
 
+# Local compatibility junctions; canonical experiment sources live under experiments/
+/router_v0_2/
+/web_search_v0_1/
+
 # Downloaded model weights and local vector-index model artifacts
 **/*.safetensors
 **/pytorch_model.bin

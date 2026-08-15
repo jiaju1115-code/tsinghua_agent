@@ -1,9 +1,0 @@
-{
-  "scope": "Router V0.2",
-  "protected_paths_checked": ["web_search_v0", "web_search_v0_1", "data_first", "data_second", "Prompt V3.2", "Human Audit", "production"],
-  "protected_changes_detected": false,
-  "router_only_changes": true,
-  "api_calls": {"tavily_search": 0, "tavily_extract": 0},
-  "blind_set_sha256_recorded": true,
-  "notes": "Offline evaluation only; existing Web Search history was not deleted."
-}

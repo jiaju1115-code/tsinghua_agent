@@ -186,11 +186,11 @@ tsinghua_ai/
 │   └── web_search_v0_followup/            后续学术检索与误差分析
 ├── prompts/                               Prompt、模板与审计相关资产
 ├── reports/                               阶段结论和 freeze/readiness 报告
-├── router_v0_2/                           保留的旧 Router 工作目录（以 experiments/ 为准）
+├── router_v0_2/                           本地兼容 junction（已忽略；canonical 路径为 experiments/router_v0_2/）
 ├── scripts/                               构建、freeze、integrity、unit/integration/regression 命令
 ├── src/                                   正式 V1 runtime 与共用模块
 ├── tests/                                 通用测试
-├── web_search_v0_1/                       保留的早期 Academic Retrieval/Web Search 工作目录
+├── web_search_v0_1/                       本地兼容 junction（已忽略；canonical 路径为 experiments/web_search_v0_followup/）
 ├── .gitignore                             凭据、缓存、模型权重等排除规则
 └── README.md                              本项目说明
 ```
@@ -261,8 +261,7 @@ tsinghua_ai/
   - `experiments/web_search_v0/`、`web_search_v0_followup/`：Web Search / Academic Retrieval 历史实验及误差分析。
 - `reports/`：面向项目决策的汇总报告，包括 Knowledge Base、Evidence Sufficiency、Citation Support、Answer Generation 和统一 E2E readiness 报告。
 - `archive/`：不再属于主流程但为审计和历史追溯保留的旧资料。
-- `router_v0_2/`：早期 Router V0.2 工作目录的保留副本；正式候选实验以 `experiments/router_v0_2/` 为准。
-- `web_search_v0_1/`：早期 Academic Retrieval / Web Search V0.1 代码、配置、结果和报告的保留副本。
+- `router_v0_2/`、`web_search_v0_1/`：部分本地工作区会创建这两个 Windows junction 以兼容早期路径；它们指向 `experiments/` 下的 canonical 目录，已由 `.gitignore` 排除，不能作为第二份仓库内容提交。
 
 ## 运行和验证
 
