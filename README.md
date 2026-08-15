@@ -44,6 +44,157 @@
 
 正式链路的运行时入口和冻结工件必须使用 `data/03_knowledge_base/v1/`。`data/04_public_staging/`、历史 RAG 评估和 `experiments/` 中的候选实现只用于审计、回归或研究，不是正式 runtime 的隐式输入。
 
+## 先读什么：不同读者的入口
+
+| 你要做的事 | 建议先读 | 然后查看 | 不要直接把它当成 |
+| --- | --- | --- | --- |
+| 了解当前项目是否已具备可运行能力 | 本 README 的“当前状态”和“系统契约” | `reports/*_v1_report.md` | 已完成的独立 held-out 效果证明 |
+| 复现正式检索与四层运行时 | `data/03_knowledge_base/v1/README.md` | `src/*_v1/`、`scripts/run_*_v1_*.py` | 任意历史 RAG/实验目录 |
+| 审计来源、准入和版本完整性 | `reports/knowledge_base_v1_freeze_report.md` | `data/03_knowledge_base/v1/audit/`、`manifests/`、`provenance/` | 仅凭 README 结论 |
+| 开展下一轮数据/检索实验 | `docs/project_file_map.md` | `data/04_kb_expansion_candidate/`、`experiments/` | 对 KB V1 的原地编辑 |
+| 执行 E2E 评估 | `reports/e2e_evaluation_v1_readiness_report.md` | `evaluation/e2e_heldout/v1/`、`evaluation/e2e/v1/` | 已通过的正式 benchmark |
+| 处理人工复核 | `data/06_human_annotation/` 中的状态与工作簿 | 对应 `audit/`、`human_check/` 文件 | 可自动升级为 gold truth 的标签 |
+
+## 正式冻结包：可验证的技术事实
+
+当前正式运行基础是 `KNOWLEDGE_BASE_V1` 和 `RAG_RETRIEVAL_V1`，两者都在 `data/03_knowledge_base/v1/`。下面的数值来自知识库冻结报告，用于识别当前版本，不应被解读为端到端效果指标。
+
+| 项目 | 当前冻结值 | 含义 |
+| --- | ---: | --- |
+| 纳入 runtime 的来源 | 122 | 119 条公开来源 + 3 条 restricted 来源；review/reject/unresolved 不进入 runtime |
+| runtime 外排除来源 | 47 | 包括质量、时效、安全或审查状态不满足要求的候选 |
+| 文本 chunk 数 | 488 | 每个 chunk 都映射到稳定 source ID、字符边界和正文 hash |
+| 检索索引 | 488 行 dense embedding | 每行与一个 chunk 一一对应，由 `row_mapping.jsonl` 固定顺序 |
+| embedding 模型 | `BAAI/bge-small-zh-v1.5` | 固定 revision；模型配置、索引与 manifest 都有 hash 审计 |
+| 检索策略 | Dense cosine，Top-K=5 | 按分数降序、chunk ID 升序打破平分；不启用 bilingual expansion |
+| 历史 RAG V0/V1 | 238 sources / 717 chunks | 仅作历史比较与 provenance，不是 V1 runtime 的依赖 |
+
+### Knowledge Base V1 内部结构与追溯关系
+
+```text
+原始/已审核来源
+  -> 准入决定（audit/eligibility_decisions.jsonl）
+  -> canonical source（sources/）
+  -> 标准化文本与 provenance（provenance/）
+  -> chunk（chunks/chunks.jsonl）
+  -> source/chunk manifest（manifests/）
+  -> embedding + row mapping（index/）
+  -> KB/Retriever freeze manifest（audit/）
+```
+
+- 每个 runtime source 使用稳定的 `canonical_source_id`：公开来源以 `KBV1-PUB-*` 命名，restricted 来源以 `KBV1-RES-*` 命名。
+- 每个 chunk 使用稳定 chunk ID，记录所属 source、顺序、字符范围和文本 hash；`source_to_chunk_mapping.jsonl` 连接 source 与 chunk。
+- `provenance/source_provenance.jsonl` 记录标题、URL/domain、来源类型、公开/受限属性、准入原因、审核/质量/安全工件路径与 hash，支持从回答证据回溯到来源。
+- `audit/knowledge_base_v1_freeze.json`、`audit/rag_retrieval_v1_freeze.json` 以及对应 `.sha256` 文件是版本锁定点；运行前应由 adapter 校验，而不是只依赖路径名称。
+
+## 系统契约与各层责任
+
+项目将“检索到文本”“证据足以回答”“引用可追溯”“答案可发布”拆成独立层。任何层不能替另一层越权补全。
+
+| 层 | 代码/配置位置 | 接收什么 | 产出什么 | 明确不做什么 |
+| --- | --- | --- | --- | --- |
+| Retrieval V1 | `src/retrieval_v1/adapter.py` 与 `data/03_knowledge_base/v1/` | `query`、`case_id` | 有序 Top-5 chunks、source/chunk IDs、scores、版本与错误字段 | 不读 staging、不在线搜索、不判定证据充分性、不生成答案 |
+| Evidence Sufficiency V1 | `src/evidence_sufficiency_v1/` | query + 严格 Top-5 retrieval result | `SUFFICIENT/PARTIAL/INSUFFICIENT`、required points、缺失属性、support spans、reason codes | 不检索、不调用网络/模型、不生成答案、不对最终 citation 作正确性背书 |
+| Citation Support V1 | `src/citation_support_v1/` | Retriever V1 与 Evidence V1 的完成对象 | 分组后的 support units、provenance、source/chunk/span 校验结果 | 不生成自然语言答案、不把弱支持伪装为强支持 |
+| Answer Generation V1 | `src/answer_generation_v1/` | Citation Support package | `FULL_ANSWER/PARTIAL_ANSWER/REFUSAL` 与结构化结果 | 不绕过 support package，不补写无支持事实 |
+| E2E Orchestrator V1 | `src/e2e_orchestrator_v1/` | 请求及四层配置/对象 | 一次有序的完整运行与跨层校验记录 | 不 fallback、不 repair、不 retry、不 re-retrieve、不运行 held-out case |
+
+### Evidence Sufficiency V1 的决策语义
+
+Evidence V1 是一个确定性、fail-closed 的词法/结构化支持代理，不是语义蕴含模型，也没有伪造的校准置信度。
+
+| 决策 | 对应策略 | 触发条件 |
+| --- | --- | --- |
+| `SUFFICIENT` | `ALLOW_FULL_ANSWER` | 所有最小核心点有支持、请求属性完整、没有未解决冲突 |
+| `PARTIAL` | `ALLOW_PARTIAL_ANSWER` | 至少一个核心点可安全支持，但其他核心点或请求属性不完整 |
+| `INSUFFICIENT` | `REQUIRE_REFUSAL` | 没有任何核心点可安全支持，或证据冲突、输入无效、版本不匹配、检索失败 |
+
+它的 10 项单元测试覆盖三种决策、缺失属性、可选信息、空/无关/冲突证据、畸形输入、版本不匹配和确定性。历史兼容性回归不是 held-out 评估，且存在明显过度拒答风险；因此 README 不将其分数写作生产准确率。
+
+### Citation Support 与 Answer Generation V1 的边界
+
+Citation Support V1 只整理已通过 Evidence 门控的来源、chunk 与 span，保证来源关系可追溯；它不是“引用越多越好”的格式化工具。Answer Generation V1 将上游状态映射为：
+
+- `READY`：输出 `FULL_ANSWER`；
+- `PARTIAL`：输出受支持范围内的 `PARTIAL_ANSWER`，并保留缺失信息；
+- `BLOCKED`：输出 `REFUSAL`，且不调用模型绕过上游结论。
+
+Answer Generation V1 的测试覆盖未支持事实、伪造 support ID、版本错误、模型无效 JSON、prompt injection、受限元数据泄露、超时/异常与可重复性。这里的“通过”表示契约与保护逻辑被测试覆盖，不表示已经完成独立人工质量评估。
+
+## 数据生命周期、状态与准入规则
+
+```text
+采集/候选资料
+  -> 安全与质量检查
+  -> 人工或规则审查
+  -> staging / candidate（可继续研究）
+  -> 明确准入 + manifest + hash
+  -> Knowledge Base 新版本（可作为正式 runtime）
+```
+
+1. 资料进入 `data/01_public_baseline/`、`data/02_public_expansion/`、`data/04_public_staging/` 或 restricted 候选区时，仍只是采集/候选资产。
+2. 公开 V2 候选只有同时满足既有准入、质量、正文、时效和重复性条件时，才可能进入 KB V1；restricted 候选还必须满足安全门控。
+3. `review`、`reject`、`unresolved`、时效不清或内容不合格的记录必须 fail-closed，不能因为文本“看起来相关”而加入正式语料。
+4. 人工检查标签是 `human_reference` 或 adjudication 记录，不自动等同于绝对 gold truth；它们应保留来源和分歧信息。
+5. 新来源或任何分块、索引、模型、配置的变动都必须通过新的候选、审计、manifest 和冻结流程，版本号升级到 V2（或更高）。
+
+## 项目目录总览
+
+以下目录树用于快速定位。`[冻结]` 表示正式版本的不可原地改写工件；`[候选/实验]` 表示可研究但不能直接用于正式结论；`[历史]` 表示保留以支持追溯与回归。
+
+```text
+tsinghua_ai/
+├── archive/                               [历史] 已弃用或非主流程资料
+├── configs/                               项目级配置
+├── data/
+│   ├── 01_public_baseline/                [冻结] 初始公开/门户采集基线
+│   ├── 02_public_expansion/
+│   │   ├── v1/                            [历史] 公开扩展早期运行
+│   │   └── v2/                            [冻结] 审计后的公开扩展与人审工件
+│   ├── 03_knowledge_base/v1/              [冻结/正式] KB V1 + Retriever V1 bundle
+│   ├── 04_kb_expansion_candidate/         [候选] 下一版知识库候选资料
+│   ├── 04_public_staging/                 [冻结/非运行时] 准入前公开语料
+│   ├── 05_restricted_expansion/v1/        [研究] restricted 准入、安全与内容资料
+│   └── 06_human_annotation/               [进行中] 人审、标注、adjudication 状态
+├── docs/                                  路径地图、开发史和协作文档
+├── evaluation/
+│   ├── answer_generation/{runtime_v1,v0,v1}/
+│   ├── citation/{v1,v2}/
+│   ├── citation_support/v1/               [冻结] 引用支持契约与验证
+│   ├── e2e/v1/                            [准备中] exclusion registry 等 benchmark 前置物
+│   ├── e2e_heldout/v1/                    [未运行] held-out 数据与审查协议
+│   ├── e2e_orchestrator/runtime_v1/       [冻结] 编排器契约与完整性工件
+│   ├── evidence_sufficiency/v1/           [冻结] 证据门控配置、测试、审计与回归
+│   ├── model_selection/                   [历史/实验] 模型选择资料
+│   ├── prompt_v3_2_blind_test_v1/         [冻结] Prompt V3.2 blind-test 资料
+│   ├── rag/{v0,v1}/                       [历史] 检索/RAG 评估
+│   └── retrieval_diagnostic_v1/           Retrieval V1 诊断资料
+├── experiments/                           [候选/历史] 可追溯实验，不是 runtime 默认输入
+│   ├── content_extraction_fix_v1/         抽取修复研究
+│   ├── content_quality_diagnostic_v1/     内容质量诊断
+│   ├── e2e12_router_v0_2/                 E2E-12 与路由器试验
+│   ├── evaluation_reconciliation_v0_1/    指标/结果对账
+│   ├── evidence_benchmark_expansion_v0_2/ 证据 benchmark 扩展
+│   ├── evidence_sufficiency_v0_1..v0_4/  证据门控历史迭代
+│   ├── generation_citation_eval_v0/       生成与引用实验
+│   ├── public_rebuild_v1/                 公开数据重建实验
+│   ├── retriever_v2/                      检索器候选版本
+│   ├── review_outputs/                    人工/自动 review 的导出结果
+│   ├── router_v0_2/                       Router V0.2 候选实现和评估
+│   ├── training_v0/                       早期训练资料
+│   ├── web_search_v0/                     Web Search 历史实验
+│   └── web_search_v0_followup/            后续学术检索与误差分析
+├── prompts/                               Prompt、模板与审计相关资产
+├── reports/                               阶段结论和 freeze/readiness 报告
+├── router_v0_2/                           保留的旧 Router 工作目录（以 experiments/ 为准）
+├── scripts/                               构建、freeze、integrity、unit/integration/regression 命令
+├── src/                                   正式 V1 runtime 与共用模块
+├── tests/                                 通用测试
+├── web_search_v0_1/                       保留的早期 Academic Retrieval/Web Search 工作目录
+├── .gitignore                             凭据、缓存、模型权重等排除规则
+└── README.md                              本项目说明
+```
+
 ## 目录说明
 
 ### 根目录
@@ -125,6 +276,73 @@ python scripts/run_e2e_orchestrator_v1_unit_tests.py
 ```
 
 这些命令会写入相应评估目录的测试结果 JSON，因此运行后应检查 Git 工作区是否出现仅由时间戳或运行时长导致的结果文件变化。涉及模型、浏览器、外部数据或人工审核的实验，应先阅读对应目录的 README、配置和审计说明。
+
+### 可用脚本按目的索引
+
+| 目的 | 脚本 | 说明 |
+| --- | --- | --- |
+| 构建新知识库候选/正式包 | `scripts/build_knowledge_base_v1.py` | 现有 V1 的构建和冻结流程参考；不要用它覆写已冻结 V1 |
+| 校验 KB V1 资产 | `scripts/verify_knowledge_base_v1_integrity.py` | 对 manifest、chunk、index、配置和 freeze sidecar 做完整性检查 |
+| Retrieval V1 回归诊断 | `scripts/run_rag_retrieval_v1_regression.py` | 历史功能回归；不是 held-out 检索效果评估 |
+| Evidence V1 单元/集成/历史回归 | `scripts/run_evidence_sufficiency_v1_{unit_tests,integration,historical_regression}.py` | 分别验证契约、Retriever 接口与历史兼容性；三者结论不可混同 |
+| Citation Support V1 单元/集成 | `scripts/run_citation_support_v1_{unit_tests,integration}.py` | 校验 citation support package 的来源、span 与版本约束 |
+| Answer Generation V1 单元/集成 | `scripts/run_answer_generation_v1_{unit_tests,integration}.py` | 校验生成层 fail-closed 行为与跨层接口 |
+| E2E Orchestrator V1 单元/集成 | `scripts/run_e2e_orchestrator_v1_{unit_tests,integration}.py` | 校验编排顺序、跨层 schema 与错误处理 |
+| 冻结输入快照/完整性 | `scripts/capture_*_input_snapshot.py`、`scripts/capture_e2e_orchestrator_integrity.py` | 在运行前后记录输入与工件不变性 |
+| 完成阶段 freeze | `scripts/finalize_{evidence_sufficiency,citation_support,answer_generation,e2e_orchestrator}_v1.py` | 生成该阶段的正式审计/冻结产物；应在确认输入版本后使用 |
+| 检查证据泄漏 | `scripts/audit_evidence_sufficiency_v1_leakage.py` | 审计历史数据、query family 和 calibration 的交叉使用 |
+
+### 建议的本地验证顺序
+
+1. `git status -sb`：确认当前修改范围，避免把缓存、模型或实验临时输出误纳入提交。
+2. `python scripts/verify_knowledge_base_v1_integrity.py`：确认 KB V1、索引和 manifest 未被破坏。
+3. 运行四个 V1 单元测试脚本；若需要验证真实接口，再运行相应 integration 脚本。
+4. 检查评估目录中新生成的 JSON；区分“测试通过”与“仅时间戳变化”。
+5. 若改动涉及语料、模型或配置，停止将其称为 V1，改在候选目录构建新版本并完成审计。
+
+### 环境与依赖边界
+
+- 以仓库根目录为工作目录；新代码应使用 root-relative path，不能写入 `D:\\python_projects\\...` 一类绝对路径。
+- V1 Retriever 的索引、必要模型配置和 freeze 工件已随项目路径组织；本地权重、下载缓存和可再生运行缓存由 `.gitignore` 排除。
+- 某些历史 Web Search、浏览器/门户采集与 restricted 研究需要外部服务或登录态。不要提交 cookie、storage state、token、密码、浏览器 profile 或 API key。
+- `node_modules/`、`__pycache__/`、`tmp/`、`cache/`、`.pytest_cache/` 等均为本地产物；它们不是项目交接内容。
+- 项目当前没有被 README 宣称为“单命令、全平台、完全离线复现”的依赖锁定方案。新增自动化前应将 Python/Node 依赖、模型版本和操作系统差异写入新的环境文档或 lockfile。
+
+## 进度台账与下一步的完成标准
+
+| 工作流 | 当前状态 | 已交付资产 | 下一步完成标准 |
+| --- | --- | --- | --- |
+| 公开数据基线/扩展 | 已完成并保留 | `data/01_public_baseline/`、`data/02_public_expansion/v2/`、审计与人审工件 | 新增公开来源时走新版本准入，不回写历史冻结结果 |
+| KB V1 / Retriever V1 | 已冻结 | 122 sources、488 chunks、index、manifest、provenance、integrity report | 新语料/索引需求创建 KB/Retriever V2；V1 仅复现与审计 |
+| Evidence Sufficiency V1 | 已冻结，保守基线 | deterministic 三态 runtime、10 项单测、接口验证、历史兼容性报告 | 用真正独立的标注/held-out 集校准或替换语义蕴含方案；不得把历史回归当作泛化证明 |
+| Citation Support V1 | 已冻结 | runtime、lineage/validation/integrity 工件、16 项单测 | 结合独立人工审查验证 claim-to-evidence 支持正确性 |
+| Answer Generation V1 | 已冻结 | runtime、prompt/config/audit、23 项单测 | 在独立 E2E 包中评估正确性、faithfulness、部分回答与拒答行为 |
+| E2E Orchestrator V1 | 已冻结 | 四层顺序契约、schema、protocol、完整性工件、37 项单测 | 只在已冻结 held-out benchmark 上执行，不向 orchestrator 添加隐式 repair |
+| Router V0.2 | 候选 | `experiments/router_v0_2/`、失误分析、shadow 记录 | 在不使用原 Shadow item 调参的前提下进行新独立验证；明确 route 到 downstream action 的产品边界 |
+| Held-out E2E V1 | 准备中，未运行 | `evaluation/e2e_heldout/v1/` 的数据、污染审计、审查协议与 runner | 完成独立题集、双人 reference/adjudication、运行清单与正式一次性执行 |
+| 人工审核 | 进行中 | `data/06_human_annotation/` 及 public V3.2 human-check 工件 | 清理 `needs-review`/分歧状态并记录最终 adjudication，不混淆 human reference 与 gold |
+| KB/检索扩展 | 候选 | `data/04_kb_expansion_candidate/`、`experiments/retriever_v2/` | 完成来源准入、版本化 manifest、完整性检查和独立评估后，才考虑升级 |
+
+### Held-out E2E 尚未运行的原因
+
+项目已准备 E2E 的目录和协议，但正式执行仍必须满足以下前提。没有满足这些条件时，任何运行都只能叫 dry run 或诊断，不能叫正式 E2E 结论。
+
+1. 每条题目必须与历史 Router、RAG、Evidence、Citation、Answer、Prompt 校准和错误分析样本做 exact、normalized、template/semantic、Query+Evidence 四类泄漏检查。
+2. 每条题目应在运行前冻结 route、required points、requested attributes、参考 action、允许证据范围和 temporal validity。
+3. 至少两名审核者独立完成 reference package；分歧要保留并由 adjudication 明确处理。
+4. 运行时必须记录 corpus/retriever/model/prompt/config hash、Git commit、输入清单、每层结构化输出、错误、延迟、retry/cache 状态。
+5. 指标口径必须在运行前固定，特别是 correctness、faithfulness、unsupported claim、correct refusal、false refusal 和 E2E success 的分子/分母。
+
+## 报告的正确使用方式
+
+| 报告 | 可以得出的结论 | 不可以得出的结论 |
+| --- | --- | --- |
+| `knowledge_base_v1_freeze_report.md` | KB V1 的来源、chunk、index、Retriever 配置和完整性已冻结 | 完整 E2E 已通过，或检索对新问题的效果已被独立评估 |
+| `evidence_sufficiency_v1_report.md` | 确定性三态门控有明确契约、测试和 fail-closed 行为 | 已实现真正 semantic entailment，或具备高回答覆盖率 |
+| `citation_support_v1_report.md` | Citation Support V1 的 provenance/lineage 约束已形式化 | 最终自然语言中每一个 citation 的人工正确率已获独立证明 |
+| `answer_generation_v1_report.md` | 生成层的输入、策略、审计和失败保护已冻结 | 已在独立盲测上证实回答质量或事实正确率 |
+| `unified_e2e_orchestrator_v1_report.md` | 四层调用顺序与跨层契约可被统一执行和审计 | held-out E2E benchmark 已经完成 |
+| `e2e_evaluation_v1_readiness_report.md` | 正式 E2E 的风险、协议和最小前置条件已经梳理 | 已满足所有 GO 条件；该报告应按其自身状态阅读 |
 
 ## 版本与边界规则
 
