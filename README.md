@@ -24,7 +24,7 @@
 2. `data/06_human_annotation/` 中仍有需要人工复核或 adjudication 的内容，不能视为全部完成的人审闭环。
 3. Router V0.2 仍是候选版本；其独立 Shadow Set 结果为变更前的 provisional regression result，后续语义优先级修复尚未在 Shadow Set 上重跑验证。
 4. Restricted-stage 数据仍处于研究与准入边界管理阶段，不是当前公开 Knowledge Base V1 的默认运行语料。
-5. 项目不是一键复现工程。部分实验需要本地模型、浏览器认证、人工标注、外部数据访问或较大的本地索引；这些凭据、模型权重、浏览器状态和缓存不会进入 Git。
+5. Knowledge Base V1 / Retrieval V1 所需的冻结 encoder 权重、索引、配置和词表已随仓库发布；但其他实验所需的本地模型、浏览器认证、人工标注、外部数据访问或可再生缓存不保证随仓库提供。凭据、浏览器状态和缓存不会进入 Git。
 6. Knowledge Base V1 不应原地修改。若变更语料、chunking、embedding、索引、retriever 配置或来源准入规则，应建立 Knowledge Base V2 / RAG Retrieval V2。
 
 ## 当前正式运行链路
@@ -65,7 +65,7 @@
 | runtime 外排除来源 | 47 | 包括质量、时效、安全或审查状态不满足要求的候选 |
 | 文本 chunk 数 | 488 | 每个 chunk 都映射到稳定 source ID、字符边界和正文 hash |
 | 检索索引 | 488 行 dense embedding | 每行与一个 chunk 一一对应，由 `row_mapping.jsonl` 固定顺序 |
-| embedding 模型 | `BAAI/bge-small-zh-v1.5` | 固定 revision；模型配置、索引与 manifest 都有 hash 审计 |
+| embedding 模型 | `BAAI/bge-small-zh-v1.5` | 固定 revision；模型权重 `index/model/model.safetensors`、配置、词表、索引与 manifest 都有 hash 审计 |
 | 检索策略 | Dense cosine，Top-K=5 | 按分数降序、chunk ID 升序打破平分；不启用 bilingual expansion |
 | 历史 RAG V0/V1 | 238 sources / 717 chunks | 仅作历史比较与 provenance，不是 V1 runtime 的依赖 |
 
@@ -86,6 +86,23 @@
 - 每个 chunk 使用稳定 chunk ID，记录所属 source、顺序、字符范围和文本 hash；`source_to_chunk_mapping.jsonl` 连接 source 与 chunk。
 - `provenance/source_provenance.jsonl` 记录标题、URL/domain、来源类型、公开/受限属性、准入原因、审核/质量/安全工件路径与 hash，支持从回答证据回溯到来源。
 - `audit/knowledge_base_v1_freeze.json`、`audit/rag_retrieval_v1_freeze.json` 以及对应 `.sha256` 文件是版本锁定点；运行前应由 adapter 校验，而不是只依赖路径名称。
+- `index/model/model.safetensors` 是当前 RAG Retrieval V1 使用的冻结 encoder 权重（95,827,648 bytes，SHA256 以 freeze report/manifest 为准），已作为唯一允许提交的模型权重例外纳入仓库；其他权重仍由 `.gitignore` 排除。
+
+### 已发布的 Markdown 数据口径
+
+“正式运行语料”与“仓库中保留的数据资产”不是同一个集合。KB V1 只有 122 份经过准入的 Markdown 来源；这是一项有意的 fail-closed 选择，并不表示项目只采集了 122 份文档。
+
+| 路径 | 受 Git 跟踪的 Markdown 数 | 用途 |
+| --- | ---: | --- |
+| `data/01_public_baseline/` | 6 | 初始公开/门户基线 |
+| `data/02_public_expansion/` | 405 | 公开扩展 V1/V2、审计与候选资料 |
+| `data/03_knowledge_base/v1/` | 123 | 122 份正式 runtime source + 知识库 README |
+| `data/04_public_staging/` | 235 | 已冻结的准入前公开候选语料 |
+| `data/05_restricted_expansion/` | 20 | restricted 阶段研究与准入资料 |
+| `data/06_human_annotation/` | 2 | 人工审核说明性 Markdown；其余多为工作簿/结构化状态文件 |
+| **`data/` 合计** | **792** | 全部受 Git 追踪的数据 Markdown |
+
+仓库全部路径（包含 `docs/`、`reports/`、`experiments/`、`evaluation/` 等）的受 Git 追踪 Markdown 合计为 1,049 份。正式 Retriever 只读取 `data/03_knowledge_base/v1/`，不能因为其它 Markdown 已上传就把它们自动当成运行时知识。
 
 ## 系统契约与各层责任
 
@@ -191,7 +208,7 @@ tsinghua_ai/
 ├── src/                                   正式 V1 runtime 与共用模块
 ├── tests/                                 通用测试
 ├── web_search_v0_1/                       本地兼容 junction（已忽略；canonical 路径为 experiments/web_search_v0_followup/）
-├── .gitignore                             凭据、缓存、模型权重等排除规则
+├── .gitignore                             凭据、缓存和非冻结模型权重等排除规则
 └── README.md                              本项目说明
 ```
 
@@ -200,7 +217,7 @@ tsinghua_ai/
 ### 根目录
 
 - `README.md`：项目总说明、当前进度、运行边界和目录索引。
-- `.gitignore`：排除凭据、浏览器状态、cookie、token、缓存、`node_modules`、模型权重和临时产物。
+- `.gitignore`：排除凭据、浏览器状态、cookie、token、缓存、`node_modules`、临时产物和非冻结模型权重；唯一例外是 KB V1 的 `index/model/model.safetensors`。
 - `configs/`：跨阶段配置及项目级运行参数。
 - `prompts/`：Prompt 版本、模板和相关审计资料。
 - `docs/`：项目结构、迁移关系、开发历史和协作说明。
@@ -217,7 +234,7 @@ tsinghua_ai/
   - `audit/`：KB 与 Retriever 冻结清单、资格判断、输入不变性和 hash 校验。
   - `chunks/`：规范化后的 chunk 数据。
   - `config/`：chunking 与 retriever 配置。
-  - `index/`：检索索引、row mapping、index manifest 及必要的模型配置。
+  - `index/`：检索索引、row mapping、index manifest，以及 BGE encoder 的冻结权重、词表和模型配置。
   - `manifests/`：source、chunk、source-to-chunk 的关系清单。
   - `provenance/`：来源元数据和标准化原文，用于追溯证据。
   - `README.md`：知识库版本边界和使用说明。
@@ -302,7 +319,7 @@ python scripts/run_e2e_orchestrator_v1_unit_tests.py
 ### 环境与依赖边界
 
 - 以仓库根目录为工作目录；新代码应使用 root-relative path，不能写入 `D:\\python_projects\\...` 一类绝对路径。
-- V1 Retriever 的索引、必要模型配置和 freeze 工件已随项目路径组织；本地权重、下载缓存和可再生运行缓存由 `.gitignore` 排除。
+- V1 Retriever 的索引、冻结 BGE encoder 权重、词表、模型配置和 freeze 工件已随项目路径组织；下载缓存和其它可再生运行缓存仍由 `.gitignore` 排除。
 - 某些历史 Web Search、浏览器/门户采集与 restricted 研究需要外部服务或登录态。不要提交 cookie、storage state、token、密码、浏览器 profile 或 API key。
 - `node_modules/`、`__pycache__/`、`tmp/`、`cache/`、`.pytest_cache/` 等均为本地产物；它们不是项目交接内容。
 - 项目当前没有被 README 宣称为“单命令、全平台、完全离线复现”的依赖锁定方案。新增自动化前应将 Python/Node 依赖、模型版本和操作系统差异写入新的环境文档或 lockfile。
@@ -353,7 +370,7 @@ python scripts/run_e2e_orchestrator_v1_unit_tests.py
 
 ## 安全与数据处理
 
-任何 cookie、token、password、API key、`.env`、WebVPN/session、Playwright storage state、浏览器 profile、登录凭据和模型权重都不得进入 Git。相关本地文件由 `.gitignore` 排除；不要为了“整理项目”删除本地认证或缓存数据。
+任何 cookie、token、password、API key、`.env`、WebVPN/session、Playwright storage state、浏览器 profile 和登录凭据都不得进入 Git。模型权重默认也不得提交；唯一例外是为了离线复现 RAG Retrieval V1 而冻结并记录 hash 的 `data/03_knowledge_base/v1/index/model/model.safetensors`。相关本地文件由 `.gitignore` 排除；不要为了“整理项目”删除本地认证或缓存数据。
 
 项目数据包含公开资料、实验记录和人工审核工件。发布或共享前应确认来源许可、隐私边界和 restricted 数据准入状态；restricted 数据不能因为出现在本地目录中就自动进入公开 Knowledge Base。
 

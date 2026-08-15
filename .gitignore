@@ -37,6 +37,9 @@ data/01_public_baseline/data/auth/
 **/pytorch_model.bin
 **/_download_parts/
 
+# The exact frozen encoder used by RAG Retrieval V1 is published for offline reproduction.
+!data/03_knowledge_base/v1/index/model/model.safetensors
+
 # Editor and operating-system files
 .vscode/
 .idea/
