@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "protected_inputs_unchanged": true,
+  "offline_calls": {
+    "search": 0,
+    "tavily": 0,
+    "extract": 0,
+    "external_llm": 0
+  },
+  "benchmark_input_freeze_sha256": "59a1cd76c94a8fb8628654606db6cdc10b289d52308abfc04c44aa1858da545a",
+  "scope": "Evidence Benchmark Expansion V0.2 only"
+}

@@ -1,0 +1,193 @@
+{
+  "suite": "UNIFIED_E2E_ORCHESTRATOR_V1_UNIT",
+  "total": 37,
+  "passed": 37,
+  "failed": 0,
+  "results": [
+    {
+      "scenario": "ready_full_answer",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "partial_partial_answer",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "blocked_refusal_no_model",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "empty_query",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "empty_case_id",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "duplicate_case_id",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "retrieval_exception",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "retrieval_missing_field",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "retrieval_extra_field",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "retrieval_error",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "retrieval_version_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "retrieval_query_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "retrieval_not_top5",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "evidence_exception",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "evidence_missing_field",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "evidence_error",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "evidence_version_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "evidence_query_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "citation_exception",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "citation_missing_field",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "citation_error",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "citation_version_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "citation_query_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "answer_exception",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "answer_missing_field",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "answer_error",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "answer_version_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "answer_query_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "status_conflict",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "blocked_model_called_conflict",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "provenance_gap",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "frozen_injection_refusal_preserved",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "restricted_metadata_sanitized",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "output_schema_exact",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "upstream_error_stops_downstream",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "each_layer_called_once_no_retry",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "trace_is_compact",
+      "status": "PASS",
+      "error": null
+    }
+  ]
+}

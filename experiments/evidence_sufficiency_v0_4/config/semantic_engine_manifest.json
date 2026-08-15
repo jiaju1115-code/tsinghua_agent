@@ -1,0 +1,14 @@
+{
+  "engine": "deepseek-r1:7b",
+  "transport": "local_ollama_http_127_0_0_1",
+  "manifest_path": "C:\\Users\\林宇轩\\.ollama\\models\\manifests\\registry.ollama.ai\\library\\deepseek-r1\\7b",
+  "manifest_sha256": "755ced02ce7befdb13b7ca74e1e4d08cddba4986afdb63a480f2c93d3140383f",
+  "model_blob_digest": "sha256:96c415656d377afbff962f6cdb2394ab092ccbcbaab4b82525bc4ca800fe8a49",
+  "model_bytes": 4683073184,
+  "temperature": 0,
+  "seed": 20260814,
+  "prompt_sha256": "99d2b133349ee22517c12ffc626e8a5ec6e4030dd32ac37a5c8706ebebffd3aa",
+  "schema_sha256": "e8650f38d34df4b18b2865b55d8931f0838c0440e20979994510c595a58c19bc",
+  "offline_only": true,
+  "model_comparison": "not performed"
+}

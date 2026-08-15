@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "v0_3_input_hashes": {
+    "D:\\python_projects\\tsinghua_ai\\experiments\\generation_citation_eval_v0\\results\\independent_review_packet_adjudicated.xlsx": {
+      "expected": "7c2086d8abfa409a5a66e2f597a3ac6d985c77810b2852dc0b30fc04dc27511e",
+      "actual": "7c2086d8abfa409a5a66e2f597a3ac6d985c77810b2852dc0b30fc04dc27511e",
+      "match": true
+    },
+    "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_benchmark_expansion_v0_2\\adjudication\\new_real_adjudication_packet_adjudicated.xlsx": {
+      "expected": "103e1959ca1d52c3fb3278a36adfc376d627e49601fe6a506d031198ed7acd31",
+      "actual": "103e1959ca1d52c3fb3278a36adfc376d627e49601fe6a506d031198ed7acd31",
+      "match": true
+    },
+    "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_benchmark_expansion_v0_2\\synthetic\\synthetic_stress_set_v0_2.json": {
+      "expected": "ae159b91be50d2e877f623073d46ff97e04d945171ede0081e28a6b3fac1d0df",
+      "actual": "ae159b91be50d2e877f623073d46ff97e04d945171ede0081e28a6b3fac1d0df",
+      "match": true
+    },
+    "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_sufficiency_v0_1\\evaluation\\synthetic_stress_set.json": {
+      "expected": "eba301275b02cdb17b041295c73f4c5505fcf684ddf70cd260c2db8848973708",
+      "actual": "eba301275b02cdb17b041295c73f4c5505fcf684ddf70cd260c2db8848973708",
+      "match": true
+    }
+  },
+  "unified": {
+    "expected": "fcb19211b3b1a13ff828c59dc5e5387f844f4a8bceeb4a7f9fde38b07178570b",
+    "actual": "fcb19211b3b1a13ff828c59dc5e5387f844f4a8bceeb4a7f9fde38b07178570b",
+    "match": true
+  },
+  "counts": {
+    "REAL_ADJUDICATED": 49,
+    "SYNTHETIC_CONSTRUCTED": 98
+  },
+  "protocol": {
+    "v0_3_cv_script_sha256": "f1bb5ebbec6e5b0c1e3c6ae64d9a53f250caf53178553357326e2858f9573edc",
+    "verified_against_v0_3_freeze": true,
+    "outer_folds": 5,
+    "real_stratum": "gold_label (as implemented in V0.3)",
+    "synthetic_stratum": "construction_type",
+    "inner_folds": 3,
+    "random_seed": 20260814,
+    "dedup_rule": "reuse V0.3 unified Query+Evidence dataset without re-deduplication"
+  }
+}

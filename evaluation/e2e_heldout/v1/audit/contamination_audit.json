@@ -1,0 +1,433 @@
+{
+  "artifact": "Held-out E2E Evaluation V1 contamination audit",
+  "method": {
+    "exact": "raw Unicode string equality",
+    "normalized": "NFKC + lowercase + whitespace/punctuation/symbol removal",
+    "near_duplicate": "max SequenceMatcher ratio >= 0.80 OR character-trigram Jaccard >= 0.65 against the historical exclusion registry",
+    "external_model_or_api_called": false
+  },
+  "historical_registry": {
+    "path": "evaluation/e2e/v1/benchmark/exclusion_registry.jsonl",
+    "row_count": 1425,
+    "source_dataset_count": 45,
+    "source_dataset_rows": {
+      "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl": 38,
+      "evaluation/answer_generation/v0/results/answer_generation_results.jsonl": 38,
+      "evaluation/answer_generation/v0/results/v0_smoke_answer_comparison.json": 10,
+      "evaluation/answer_generation/v1/results/ab_per_question.jsonl": 38,
+      "evaluation/answer_generation/v1/results/generation_a.jsonl": 38,
+      "evaluation/answer_generation/v1/results/generation_b.jsonl": 38,
+      "evaluation/citation/v1/evaluation/workbook_data.json": 38,
+      "evaluation/citation/v1/results/per_question_results.jsonl": 38,
+      "evaluation/citation/v1/results/unsupported_attribution.jsonl": 92,
+      "evaluation/citation/v2/evaluation/workbook_data.json": 74,
+      "evaluation/citation/v2/results/per_question_results_v2.jsonl": 38,
+      "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl": 30,
+      "evaluation/rag/v0/retrieval_results/retrieval_smoke_results.jsonl": 20,
+      "evaluation/rag/v0/retrieval_test_cases/retrieval_test_cases.jsonl": 10,
+      "evaluation/rag/v1/evaluation/eval_queries.jsonl": 38,
+      "evaluation/rag/v1/evaluation/recommended_dense_evidence.jsonl": 38,
+      "evaluation/rag/v1/evaluation/results_dense.jsonl": 38,
+      "evaluation/rag/v1/evaluation/results_hybrid.jsonl": 38,
+      "evaluation/rag/v1/evaluation/results_hybrid_rerank.jsonl": 38,
+      "evaluation/rag/v1/evaluation/results_tfidf.jsonl": 38,
+      "evaluation/rag/v1/evaluation/smoke_comparison_rows.json": 10,
+      "experiments/e2e12_router_v0_2/audit/e2e12_freeze.json": 12,
+      "experiments/e2e12_router_v0_2/evaluation/e2e12_set.json": 12,
+      "experiments/e2e12_router_v0_2/logs/e2e12_run_log.jsonl": 12,
+      "experiments/e2e12_router_v0_2/logs/search_extract_trace.jsonl": 19,
+      "experiments/e2e12_router_v0_2/results/e2e12_case_matrix.json": 12,
+      "experiments/e2e12_router_v0_2/results/e2e12_results.json": 12,
+      "experiments/evidence_sufficiency_v0_1/audit/holdout_freeze.json": 17,
+      "experiments/evidence_sufficiency_v0_1/development/adjudicated_development_set.json": 12,
+      "experiments/evidence_sufficiency_v0_1/evaluation/adjudicated_holdout.json": 5,
+      "experiments/evidence_sufficiency_v0_1/evaluation/synthetic_stress_set.json": 40,
+      "experiments/evidence_sufficiency_v0_2/development/real_development_set.json": 24,
+      "experiments/evidence_sufficiency_v0_2/development/synthetic_development_set.json": 36,
+      "experiments/evidence_sufficiency_v0_2/evaluation/real_internal_holdout.json": 8,
+      "experiments/evidence_sufficiency_v0_2/evaluation/synthetic_stress_holdout.json": 24,
+      "experiments/evidence_sufficiency_v0_2/results/historical_17_regression.json": 17,
+      "experiments/evidence_sufficiency_v0_2/results/legacy_synthetic_v0_1_regression.json": 40,
+      "experiments/evidence_sufficiency_v0_3/dataset/unified_calibration_dataset.json": 147,
+      "experiments/router_v0_2/evaluation/router_blind_shadow_set.json": 42,
+      "experiments/router_v0_2/results/blind_42_results.jsonl": 42,
+      "experiments/router_v0_2/results/development_24_results.jsonl": 24,
+      "experiments/router_v0_2/results/frozen_full30_results.jsonl": 30,
+      "experiments/web_search_v0_followup/evaluation/academic_shadow_questions.json": 24,
+      "experiments/web_search_v0_followup/evaluation/router_negative_cases.json": 3,
+      "experiments/web_search_v0_followup/results/router_results.jsonl": 33
+    },
+    "coverage_scope": [
+      "Historical Answer 38",
+      "Router evaluation",
+      "Evidence calibration/evaluation",
+      "Citation evaluation",
+      "Answer evaluation",
+      "gold-label and Human Check lineage",
+      "synthetic cases",
+      "fixtures",
+      "integration cases",
+      "Prompt debugging cases"
+    ]
+  },
+  "case_count": 50,
+  "exact_duplicate_count": 0,
+  "normalized_duplicate_count": 0,
+  "near_duplicate_count": 0,
+  "exact_matches": [],
+  "normalized_matches": [],
+  "near_duplicate_matches": [],
+  "nearest_historical_summary": [
+    {
+      "case_id": "E2E001",
+      "max_sequence_ratio": 0.277778,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "17016d7da14c7db16f45996b9252f976852ff41bec231a39c6b074e6bf31896f"
+    },
+    {
+      "case_id": "E2E002",
+      "max_sequence_ratio": 0.27907,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "f8287b15403d017dfd7895d82e05661a6a4678c4a5cffa80264d6e24287370b1"
+    },
+    {
+      "case_id": "E2E003",
+      "max_sequence_ratio": 0.222222,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/evaluation/router_blind_shadow_set.json",
+      "nearest_historical_raw_query_sha256": "99dff8a9844335c800eb9b0fc9649b02422d4575cf4eba59116e687f3ce90831"
+    },
+    {
+      "case_id": "E2E004",
+      "max_sequence_ratio": 0.205128,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "946a776190e5efd709b7c009c052810bb95f679245640bc86d4d1f4009758bb2"
+    },
+    {
+      "case_id": "E2E005",
+      "max_sequence_ratio": 0.275862,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "8562706df1f3a15da72ceac11e8f404adfaf81a6a71782b80d7ef54bd45c88a3"
+    },
+    {
+      "case_id": "E2E006",
+      "max_sequence_ratio": 0.391304,
+      "max_trigram_jaccard": 0.02439,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "0028f1cdfeddc776225e6d7547e43566497b5b2e3757184d34d7bd4803504cf4"
+    },
+    {
+      "case_id": "E2E007",
+      "max_sequence_ratio": 0.243902,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "cfc3a255d952f768df2f1b266e805414d748b66ef295a0a4a106296492a20423"
+    },
+    {
+      "case_id": "E2E008",
+      "max_sequence_ratio": 0.243902,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "a31c254dd1eff2239bd0ea7fef6c6c54d5d6481a24ee2afbc197a4c8f54160d9"
+    },
+    {
+      "case_id": "E2E009",
+      "max_sequence_ratio": 0.186047,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "5a3fbdffa9d9da70b83e2dd2c531f8b93b234389af5e5cea52873e1bc4c073e0"
+    },
+    {
+      "case_id": "E2E010",
+      "max_sequence_ratio": 0.28,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "58496b3a5c1eeeb0eb6ccdd32affdbd0740931d46ecb568cc18d0bab8aaeb2ba"
+    },
+    {
+      "case_id": "E2E011",
+      "max_sequence_ratio": 0.297872,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "3aadf265acfb6d3395a1ee2298c56cc32d1637c61b1e61755653a20f4e60560a"
+    },
+    {
+      "case_id": "E2E012",
+      "max_sequence_ratio": 0.315789,
+      "max_trigram_jaccard": 0.0625,
+      "nearest_historical_source_dataset": "experiments/web_search_v0_followup/evaluation/router_negative_cases.json",
+      "nearest_historical_raw_query_sha256": "abc42f6371eb0c0955d90ba7a7a97fe1539b76e6df6eb7134b4f43ed7b77a136"
+    },
+    {
+      "case_id": "E2E013",
+      "max_sequence_ratio": 0.307692,
+      "max_trigram_jaccard": 0.060606,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "0f98ad5c25f18beee6a5c032180cc819e7addb2fd96964d9c671c9e5f1859857"
+    },
+    {
+      "case_id": "E2E014",
+      "max_sequence_ratio": 0.392157,
+      "max_trigram_jaccard": 0.044444,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "7a315d13e8f022a9286a661e370f3cfb8e419a0ba44c12bcabfa09bfa4597d7e"
+    },
+    {
+      "case_id": "E2E015",
+      "max_sequence_ratio": 0.296296,
+      "max_trigram_jaccard": 0.020408,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "58496b3a5c1eeeb0eb6ccdd32affdbd0740931d46ecb568cc18d0bab8aaeb2ba"
+    },
+    {
+      "case_id": "E2E016",
+      "max_sequence_ratio": 0.285714,
+      "max_trigram_jaccard": 0.033333,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "8b9da19cbc60750ec6f8f71f513a3a20fb120216f7b3939a9f8ed8cb0641b5dd"
+    },
+    {
+      "case_id": "E2E017",
+      "max_sequence_ratio": 0.24,
+      "max_trigram_jaccard": 0.022222,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "126b84a2cec5431f8b38a3730ef76d1557fa20d3ffe7be7824c5d96d708a582e"
+    },
+    {
+      "case_id": "E2E018",
+      "max_sequence_ratio": 0.232558,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "cc8d70add4003ec75ffee94e12d5f5b15dd56abee499b66fd19675af6fcee9ea"
+    },
+    {
+      "case_id": "E2E019",
+      "max_sequence_ratio": 0.25,
+      "max_trigram_jaccard": 0.028571,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "930714f611c1422a0af2821afe18535206e503bd7e517b4d919cf9f6650c59eb"
+    },
+    {
+      "case_id": "E2E020",
+      "max_sequence_ratio": 0.315789,
+      "max_trigram_jaccard": 0.030303,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "8b9da19cbc60750ec6f8f71f513a3a20fb120216f7b3939a9f8ed8cb0641b5dd"
+    },
+    {
+      "case_id": "E2E021",
+      "max_sequence_ratio": 0.313725,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "58496b3a5c1eeeb0eb6ccdd32affdbd0740931d46ecb568cc18d0bab8aaeb2ba"
+    },
+    {
+      "case_id": "E2E022",
+      "max_sequence_ratio": 0.222222,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "644b9e768379c10c7560b49153615b032476ee2cad5c99f89788611078461d9c"
+    },
+    {
+      "case_id": "E2E023",
+      "max_sequence_ratio": 0.297872,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "3aadf265acfb6d3395a1ee2298c56cc32d1637c61b1e61755653a20f4e60560a"
+    },
+    {
+      "case_id": "E2E024",
+      "max_sequence_ratio": 0.301887,
+      "max_trigram_jaccard": 0.042553,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "58496b3a5c1eeeb0eb6ccdd32affdbd0740931d46ecb568cc18d0bab8aaeb2ba"
+    },
+    {
+      "case_id": "E2E025",
+      "max_sequence_ratio": 0.230769,
+      "max_trigram_jaccard": 0.021277,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "126b84a2cec5431f8b38a3730ef76d1557fa20d3ffe7be7824c5d96d708a582e"
+    },
+    {
+      "case_id": "E2E026",
+      "max_sequence_ratio": 0.368421,
+      "max_trigram_jaccard": 0.096774,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "1abb2a44f10b687ad86c23c990486e6ecf7ebda743e3a634ded777ba3ea3b1c0"
+    },
+    {
+      "case_id": "E2E027",
+      "max_sequence_ratio": 0.27907,
+      "max_trigram_jaccard": 0.083333,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "0024b4c3a433a3c965ba5a665f2cd7192760c7c20a5771315b8f96a0bfeb6630"
+    },
+    {
+      "case_id": "E2E028",
+      "max_sequence_ratio": 0.266667,
+      "max_trigram_jaccard": 0.108108,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "e896f87a9e8f747a80357eb85d51bab9d2ca1e9806c65849fca03b72be1b38b6"
+    },
+    {
+      "case_id": "E2E029",
+      "max_sequence_ratio": 0.25,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "f84cd3e1f1689097dea181abb16aef7cf85b8a70d6c6fe3a602375e416ad3434"
+    },
+    {
+      "case_id": "E2E030",
+      "max_sequence_ratio": 0.363636,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "f8287b15403d017dfd7895d82e05661a6a4678c4a5cffa80264d6e24287370b1"
+    },
+    {
+      "case_id": "E2E031",
+      "max_sequence_ratio": 0.153846,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "8b9da19cbc60750ec6f8f71f513a3a20fb120216f7b3939a9f8ed8cb0641b5dd"
+    },
+    {
+      "case_id": "E2E032",
+      "max_sequence_ratio": 0.27451,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "65ba42dad76d30822aff823eb7f183fc99104ec52a7e835af0bb40933ad787b2"
+    },
+    {
+      "case_id": "E2E033",
+      "max_sequence_ratio": 0.333333,
+      "max_trigram_jaccard": 0.066667,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "2e06a75cbaac06627b08768b3cdf3bd6c86720f32a96851af3169d66fff1c09e"
+    },
+    {
+      "case_id": "E2E034",
+      "max_sequence_ratio": 0.411765,
+      "max_trigram_jaccard": 0.111111,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "e5a9fc145128530f57e0c7a628cdbd62759c0af89e966ada28934c6562fabfd8"
+    },
+    {
+      "case_id": "E2E035",
+      "max_sequence_ratio": 0.230769,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "d95f11c0a3943cdc77efd290b71b9e43af43723d7b8320947f506c52c37c8ea7"
+    },
+    {
+      "case_id": "E2E036",
+      "max_sequence_ratio": 0.238095,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "experiments/e2e12_router_v0_2/audit/e2e12_freeze.json",
+      "nearest_historical_raw_query_sha256": "c99d41137c87f176a02a4be9a3fb1152fd4f74cdab04dd411c4ee1d03cdd8d72"
+    },
+    {
+      "case_id": "E2E037",
+      "max_sequence_ratio": 0.342857,
+      "max_trigram_jaccard": 0.033333,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "e5a9fc145128530f57e0c7a628cdbd62759c0af89e966ada28934c6562fabfd8"
+    },
+    {
+      "case_id": "E2E038",
+      "max_sequence_ratio": 0.325581,
+      "max_trigram_jaccard": 0.026316,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "54afcebad5bdfdb59b2821a19b80d20923fa62892dd5ff19146ee96c22f49373"
+    },
+    {
+      "case_id": "E2E039",
+      "max_sequence_ratio": 0.205128,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "027314d33eed96edb28a0dcdef7cdcd97aa9ff213ace33195050a69ff1ea276f"
+    },
+    {
+      "case_id": "E2E040",
+      "max_sequence_ratio": 0.304348,
+      "max_trigram_jaccard": 0.076923,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "d476f837f9bb5829b966fff86c2a47e981bd3e24df0866dba5f5f867480b4b3d"
+    },
+    {
+      "case_id": "E2E041",
+      "max_sequence_ratio": 0.272727,
+      "max_trigram_jaccard": 0.081081,
+      "nearest_historical_source_dataset": "experiments/e2e12_router_v0_2/audit/e2e12_freeze.json",
+      "nearest_historical_raw_query_sha256": "4a0cc69b11962ab9e6186595fba0847d0ff0f9bc79643f80aad47847a9fed983"
+    },
+    {
+      "case_id": "E2E042",
+      "max_sequence_ratio": 0.238095,
+      "max_trigram_jaccard": 0.0,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "6d186a6f0f09805aa43a99152bad3eebcd9e98bc3b348ffd8ef4f48c5eb27816"
+    },
+    {
+      "case_id": "E2E043",
+      "max_sequence_ratio": 0.333333,
+      "max_trigram_jaccard": 0.047619,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "0024b4c3a433a3c965ba5a665f2cd7192760c7c20a5771315b8f96a0bfeb6630"
+    },
+    {
+      "case_id": "E2E044",
+      "max_sequence_ratio": 0.242424,
+      "max_trigram_jaccard": 0.035714,
+      "nearest_historical_source_dataset": "experiments/router_v0_2/results/frozen_full30_results.jsonl",
+      "nearest_historical_raw_query_sha256": "e5a9fc145128530f57e0c7a628cdbd62759c0af89e966ada28934c6562fabfd8"
+    },
+    {
+      "case_id": "E2E045",
+      "max_sequence_ratio": 0.275862,
+      "max_trigram_jaccard": 0.086957,
+      "nearest_historical_source_dataset": "experiments/e2e12_router_v0_2/audit/e2e12_freeze.json",
+      "nearest_historical_raw_query_sha256": "574b291535c04a5cc45d1e0c550019fe1aae2bc4702274561ed717de8ff13299"
+    },
+    {
+      "case_id": "E2E046",
+      "max_sequence_ratio": 0.28,
+      "max_trigram_jaccard": 0.022222,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "b076f0bf5d4d32717e85c58ea729adde78b7da32c0da7a9033658598bff1a39e"
+    },
+    {
+      "case_id": "E2E047",
+      "max_sequence_ratio": 0.454545,
+      "max_trigram_jaccard": 0.052632,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "0024b4c3a433a3c965ba5a665f2cd7192760c7c20a5771315b8f96a0bfeb6630"
+    },
+    {
+      "case_id": "E2E048",
+      "max_sequence_ratio": 0.292683,
+      "max_trigram_jaccard": 0.027778,
+      "nearest_historical_source_dataset": "evaluation/answer_generation/v0/results/answer_eval_merged.jsonl",
+      "nearest_historical_raw_query_sha256": "946a776190e5efd709b7c009c052810bb95f679245640bc86d4d1f4009758bb2"
+    },
+    {
+      "case_id": "E2E049",
+      "max_sequence_ratio": 0.243902,
+      "max_trigram_jaccard": 0.027778,
+      "nearest_historical_source_dataset": "experiments/e2e12_router_v0_2/audit/e2e12_freeze.json",
+      "nearest_historical_raw_query_sha256": "c99d41137c87f176a02a4be9a3fb1152fd4f74cdab04dd411c4ee1d03cdd8d72"
+    },
+    {
+      "case_id": "E2E050",
+      "max_sequence_ratio": 0.352941,
+      "max_trigram_jaccard": 0.044444,
+      "nearest_historical_source_dataset": "evaluation/prompt_v3_2_blind_test_v1/codex_evaluation/audit/codex_blind_predictions.jsonl",
+      "nearest_historical_raw_query_sha256": "1ecbfddc27913d55f0c7f7482a2ebb647f6bb688fe3d7ec6d670194bff408cd5"
+    }
+  ],
+  "all_cases_held_out": true
+}

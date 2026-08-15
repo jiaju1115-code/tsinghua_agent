@@ -1,0 +1,171 @@
+{
+  "artifact": "Citation / Support Runtime V1 full-chain integration",
+  "created_at_utc": "2026-08-15T05:51:52.946263+00:00",
+  "chain": "query -> RAG_RETRIEVAL_V1 -> EVIDENCE_SUFFICIENCY_V1 -> CITATION_SUPPORT_V1 -> structured support package",
+  "network_access": false,
+  "answer_generation_called": false,
+  "citation_rendering_called": false,
+  "unsupported_claim_detection_called": false,
+  "case_count": 4,
+  "live_case_count": 3,
+  "fixture_case_count": 1,
+  "covered_evidence_decisions": [
+    "INSUFFICIENT",
+    "PARTIAL",
+    "SUFFICIENT"
+  ],
+  "covered_support_statuses": [
+    "BLOCKED",
+    "PARTIAL",
+    "READY"
+  ],
+  "required_class_coverage_passed": true,
+  "cases": [
+    {
+      "case_id": "CS-INT-001",
+      "query": "清华大学学生奖学金管理规定适用对象是什么？",
+      "is_fixture": false,
+      "fixture_reason": null,
+      "evidence_decision": "SUFFICIENT",
+      "support_status": "BLOCKED",
+      "support_unit_count": 0,
+      "citation_candidate_count": 0,
+      "excluded_candidate_count": 3,
+      "retrieved_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0075-0003",
+        "KBV1-CHUNK-PUBV2C-0075-0002",
+        "KBV1-CHUNK-PUBV2C-0075-0001",
+        "KBV1-CHUNK-PUBV2C-0091-0003",
+        "KBV1-CHUNK-PUBV2C-0091-0002"
+      ],
+      "usable_chunk_ids": [],
+      "reason_codes": [
+        "CANDIDATES_EXCLUDED",
+        "REQUIRED_POINT_UNMAPPED",
+        "SUPPORT_INTEGRITY_BLOCKED"
+      ],
+      "checks": {
+        "retrieval_error_is_null": true,
+        "evidence_error_is_null": true,
+        "citation_support_error_is_null": true,
+        "top5_count_is_five": true,
+        "version_chain_exact": true,
+        "evidence_policy_preserved": true,
+        "support_repeatable_excluding_latency": true,
+        "no_answer_or_rendering_fields": true,
+        "output_schema_exact": true,
+        "nested_schemas_exact": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "CS-INT-002",
+      "query": "清华大学本科生奖学金申请条件和截止时间是什么？",
+      "is_fixture": false,
+      "fixture_reason": null,
+      "evidence_decision": "PARTIAL",
+      "support_status": "PARTIAL",
+      "support_unit_count": 1,
+      "citation_candidate_count": 1,
+      "excluded_candidate_count": 1,
+      "retrieved_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0075-0003",
+        "KBV1-CHUNK-PUBV2C-0075-0002",
+        "KBV1-CHUNK-PUBV2C-0076-0003",
+        "KBV1-CHUNK-PUBV2C-0077-0003",
+        "KBV1-CHUNK-PUBV2C-0075-0001"
+      ],
+      "usable_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0075-0001"
+      ],
+      "reason_codes": [
+        "CANDIDATES_EXCLUDED",
+        "PARTIAL_SUPPORT_ONLY"
+      ],
+      "checks": {
+        "retrieval_error_is_null": true,
+        "evidence_error_is_null": true,
+        "citation_support_error_is_null": true,
+        "top5_count_is_five": true,
+        "version_chain_exact": true,
+        "evidence_policy_preserved": true,
+        "support_repeatable_excluding_latency": true,
+        "no_answer_or_rendering_fields": true,
+        "output_schema_exact": true,
+        "nested_schemas_exact": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "CS-INT-003",
+      "query": "清华大学图书馆开放时间是什么？",
+      "is_fixture": false,
+      "fixture_reason": null,
+      "evidence_decision": "INSUFFICIENT",
+      "support_status": "BLOCKED",
+      "support_unit_count": 0,
+      "citation_candidate_count": 0,
+      "excluded_candidate_count": 2,
+      "retrieved_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0239-0001",
+        "KBV1-CHUNK-PUBV2C-0240-0001",
+        "KBV1-CHUNK-PUBV2C-0048-0001",
+        "KBV1-CHUNK-PUBV2C-0242-0001",
+        "KBV1-CHUNK-PUBV2C-0056-0007"
+      ],
+      "usable_chunk_ids": [],
+      "reason_codes": [
+        "CANDIDATES_EXCLUDED",
+        "EVIDENCE_DECISION_BLOCKED"
+      ],
+      "checks": {
+        "retrieval_error_is_null": true,
+        "evidence_error_is_null": true,
+        "citation_support_error_is_null": true,
+        "top5_count_is_five": true,
+        "version_chain_exact": true,
+        "evidence_policy_preserved": true,
+        "support_repeatable_excluding_latency": true,
+        "no_answer_or_rendering_fields": true,
+        "output_schema_exact": true,
+        "nested_schemas_exact": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "CS-FIXTURE-SUFFICIENT",
+      "query": "Frozen fixture: verify one exact support sentence",
+      "is_fixture": true,
+      "fixture_reason": "live pipeline cases did not naturally yield a citation-ready SUFFICIENT package; fixture tests only the frozen Citation/Support input contract",
+      "evidence_decision": "SUFFICIENT",
+      "support_status": "READY",
+      "support_unit_count": 1,
+      "citation_candidate_count": 1,
+      "excluded_candidate_count": 0,
+      "retrieved_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0075-0003",
+        "KBV1-CHUNK-PUBV2C-0075-0002",
+        "KBV1-CHUNK-PUBV2C-0075-0001",
+        "KBV1-CHUNK-PUBV2C-0091-0003",
+        "KBV1-CHUNK-PUBV2C-0091-0002"
+      ],
+      "usable_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0075-0003"
+      ],
+      "reason_codes": [
+        "READY_FOR_ANSWER"
+      ],
+      "checks": {
+        "fixture_declared": true,
+        "frozen_retrieval_rows_reused": true,
+        "citation_support_error_is_null": true,
+        "sufficient_maps_to_ready": true,
+        "support_repeatable_excluding_latency": true,
+        "output_schema_exact": true,
+        "support_unit_schema_exact": true
+      },
+      "passed": true
+    }
+  ],
+  "overall_status": "PASS"
+}

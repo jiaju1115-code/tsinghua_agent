@@ -1,0 +1,29 @@
+{
+  "status": "TEMPLATE_READY_NO_HUMAN_GOLD_LABELS",
+  "input_replay": "evaluation\\e2e_heldout\\v1\\diagnostic\\retrieval_replay.jsonl",
+  "case_count": 50,
+  "top5_unique_source_count_distribution": {
+    "1": 1,
+    "2": 6,
+    "3": 15,
+    "4": 18,
+    "5": 10
+  },
+  "category_distribution": {
+    "信息不足/拒答": 5,
+    "图书馆/网络/交通/餐饮": 7,
+    "多部分/部分回答": 5,
+    "奖助/学生事务": 8,
+    "学术/教学资源": 10,
+    "校园生活/办事": 15
+  },
+  "allowed_failure_types": [
+    "kb_missing",
+    "retrieval_miss",
+    "ranking_miss",
+    "entity_mismatch",
+    "evidence_over_refusal",
+    "other"
+  ],
+  "human_fields_all_null": true
+}

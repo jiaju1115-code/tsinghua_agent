@@ -1,0 +1,12 @@
+{
+  "total": 60,
+  "construction_types": {
+    "WRONG_DOCUMENT": 8,
+    "TOPIC_RELATED_NOT_ANSWERING": 8,
+    "PARTIAL_COVERAGE": 8,
+    "QUERY_CONCEPT_MISMATCH": 8,
+    "CONTAMINATED_EVIDENCE": 8,
+    "SUFFICIENT_CONTROL": 20
+  },
+  "sufficient_control": 20
+}

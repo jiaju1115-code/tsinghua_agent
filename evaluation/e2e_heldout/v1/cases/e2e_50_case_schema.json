@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Held-out E2E Evaluation V1 case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "query", "category", "question_type", "creation_method", "seen_status", "slice", "sampling_source", "pre_registered"],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^E2E0(?:0[1-9]|[1-4][0-9]|50)$"},
+    "query": {"type": "string", "minLength": 8},
+    "category": {"type": "string", "minLength": 1},
+    "question_type": {"type": "string", "enum": ["procedural", "service_navigation", "current_status", "troubleshooting", "resource_lookup", "service_scope", "policy_lookup", "policy_currency", "current_unavailable", "multi_part"]},
+    "creation_method": {"const": "MANUAL_REAL_CAMPUS_QA_DESIGN_V1"},
+    "seen_status": {"const": "HELD_OUT"},
+    "slice": {"type": "string", "minLength": 1},
+    "sampling_source": {"const": "KB_V1_CATEGORY_GUIDED_MANUAL_DESIGN"},
+    "pre_registered": {"const": true}
+  }
+}

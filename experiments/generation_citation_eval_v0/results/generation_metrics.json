@@ -1,0 +1,161 @@
+{
+  "track_a_all": {
+    "samples": 38,
+    "correctness_mean_0_to_2": 1.236842105263158,
+    "faithfulness_mean_0_to_2": 1.2894736842105263,
+    "completeness_ratio_proxy": 0.41414141414141414,
+    "unsupported_claim_rate_proxy": 0.10576923076923077,
+    "claim_level_citation_coverage": 0.038461538461538464,
+    "citation_validity_given_present": 1.0,
+    "citation_support_given_present": 1.0,
+    "primary_failure_counts": {
+      "INCOMPLETE": 26,
+      "TASK_COMPLETION": 4,
+      "UNSUPPORTED_ADDITION": 3,
+      "WRONG_REFUSAL": 1,
+      "FAILED_REFUSAL": 3,
+      "CITATION_MISSING": 1
+    },
+    "failure_label_counts": {
+      "INCOMPLETE": 30,
+      "CITATION_MISSING": 34,
+      "TASK_COMPLETION": 27,
+      "UNSUPPORTED_ADDITION": 3,
+      "WRONG_REFUSAL": 1,
+      "FAILED_REFUSAL": 3
+    },
+    "review_queue_count": 6,
+    "scope": "PROVISIONAL_PROXY"
+  },
+  "track_a_evidence_sufficient": {
+    "samples": 33,
+    "correctness_mean_0_to_2": 1.2424242424242424,
+    "faithfulness_mean_0_to_2": 1.303030303030303,
+    "completeness_ratio_proxy": 0.41414141414141414,
+    "unsupported_claim_rate_proxy": 0.10891089108910891,
+    "claim_level_citation_coverage": 0.039603960396039604,
+    "citation_validity_given_present": 1.0,
+    "citation_support_given_present": 1.0,
+    "primary_failure_counts": {
+      "INCOMPLETE": 26,
+      "TASK_COMPLETION": 2,
+      "UNSUPPORTED_ADDITION": 3,
+      "WRONG_REFUSAL": 1,
+      "CITATION_MISSING": 1
+    },
+    "failure_label_counts": {
+      "INCOMPLETE": 30,
+      "CITATION_MISSING": 31,
+      "TASK_COMPLETION": 25,
+      "UNSUPPORTED_ADDITION": 3,
+      "WRONG_REFUSAL": 1
+    },
+    "review_queue_count": 6,
+    "scope": "PROVISIONAL_PROXY"
+  },
+  "track_b_all": {
+    "samples": 12,
+    "correctness_mean_0_to_2": 0.8333333333333334,
+    "faithfulness_mean_0_to_2": 1.25,
+    "completeness_ratio_proxy": 0.26666666666666666,
+    "unsupported_claim_rate_proxy": 0.6666666666666666,
+    "claim_level_citation_coverage": 0.26666666666666666,
+    "citation_validity_given_present": 1.0,
+    "citation_support_given_present": 0.5,
+    "primary_failure_counts": {
+      "INCOMPLETE": 1,
+      "UNSUPPORTED_ADDITION": 9,
+      "TASK_COMPLETION": 2
+    },
+    "failure_label_counts": {
+      "INCOMPLETE": 9,
+      "TASK_COMPLETION": 12,
+      "UNSUPPORTED_ADDITION": 9,
+      "CITATION_INCOMPLETE": 6,
+      "CITATION_MISMATCH": 4,
+      "CITATION_MISSING": 3,
+      "WRONG_REFUSAL": 2
+    },
+    "review_queue_count": 11,
+    "scope": "PROVISIONAL_PROXY"
+  },
+  "track_b_evidence_sufficient": {
+    "samples": 10,
+    "correctness_mean_0_to_2": 1,
+    "faithfulness_mean_0_to_2": 1.4,
+    "completeness_ratio_proxy": 0.26666666666666666,
+    "unsupported_claim_rate_proxy": 0.6666666666666666,
+    "claim_level_citation_coverage": 0.26666666666666666,
+    "citation_validity_given_present": 1.0,
+    "citation_support_given_present": 0.5,
+    "primary_failure_counts": {
+      "INCOMPLETE": 1,
+      "UNSUPPORTED_ADDITION": 9
+    },
+    "failure_label_counts": {
+      "INCOMPLETE": 9,
+      "TASK_COMPLETION": 10,
+      "UNSUPPORTED_ADDITION": 9,
+      "CITATION_INCOMPLETE": 6,
+      "CITATION_MISMATCH": 4,
+      "CITATION_MISSING": 3,
+      "WRONG_REFUSAL": 2
+    },
+    "review_queue_count": 10,
+    "scope": "PROVISIONAL_PROXY"
+  },
+  "academic_track_b": {
+    "samples": 6,
+    "correctness_mean_0_to_2": 1,
+    "faithfulness_mean_0_to_2": 1.6666666666666667,
+    "completeness_ratio_proxy": 0.16666666666666666,
+    "unsupported_claim_rate_proxy": 0.8823529411764706,
+    "claim_level_citation_coverage": 0.23529411764705882,
+    "citation_validity_given_present": 1.0,
+    "citation_support_given_present": 0.5,
+    "primary_failure_counts": {
+      "INCOMPLETE": 1,
+      "UNSUPPORTED_ADDITION": 5
+    },
+    "failure_label_counts": {
+      "INCOMPLETE": 6,
+      "TASK_COMPLETION": 6,
+      "UNSUPPORTED_ADDITION": 5,
+      "CITATION_INCOMPLETE": 3,
+      "CITATION_MISMATCH": 2,
+      "CITATION_MISSING": 2
+    },
+    "review_queue_count": 6,
+    "scope": "PROVISIONAL_PROXY"
+  },
+  "clean_generation_subset": {
+    "samples": 43,
+    "correctness_mean_0_to_2": 1.186046511627907,
+    "faithfulness_mean_0_to_2": 1.3255813953488371,
+    "completeness_ratio_proxy": 0.3798449612403101,
+    "unsupported_claim_rate_proxy": 0.2366412213740458,
+    "claim_level_citation_coverage": 0.0916030534351145,
+    "citation_validity_given_present": 1.0,
+    "citation_support_given_present": 0.6666666666666666,
+    "primary_failure_counts": {
+      "INCOMPLETE": 27,
+      "TASK_COMPLETION": 2,
+      "UNSUPPORTED_ADDITION": 12,
+      "WRONG_REFUSAL": 1,
+      "CITATION_MISSING": 1
+    },
+    "failure_label_counts": {
+      "INCOMPLETE": 39,
+      "CITATION_MISSING": 34,
+      "TASK_COMPLETION": 35,
+      "UNSUPPORTED_ADDITION": 12,
+      "WRONG_REFUSAL": 3,
+      "CITATION_INCOMPLETE": 6,
+      "CITATION_MISMATCH": 4
+    },
+    "review_queue_count": 16,
+    "scope": "PROVISIONAL_PROXY"
+  },
+  "combined_unique_sample_count": 50,
+  "human_review_queue_count": 17
+}

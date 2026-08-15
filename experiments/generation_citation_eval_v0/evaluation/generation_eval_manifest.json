@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-08-14T04:27:37.881156+00:00",
+  "track_a": {
+    "source_paths": [
+      "D:\\python_projects\\tsinghua_ai\\evaluation\\answer_generation\\v0\\results\\answer_eval_merged.jsonl"
+    ],
+    "sample_count": 38,
+    "source_sha256": "2fc1acf9d67d6c13742f19baf3ecd87b90a09b0d301974e61954b6a78ed24d13"
+  },
+  "track_b": {
+    "source_paths": [
+      "D:\\python_projects\\tsinghua_ai\\experiments\\e2e12_router_v0_2\\results\\e2e12_results.json"
+    ],
+    "sample_count": 12,
+    "source_sha256": "35cc1382d91669009ab22c30a0939171a09165b825a3b29e3dd535f456552518",
+    "e2e12_freeze_sha256": "af96cb4862cd38ce669ba27ac1bc78964ab421cbb4af4b458d6e9927d58b6593"
+  },
+  "overlap": {
+    "exact_count": 0,
+    "high_similarity_count": 0,
+    "exact": [],
+    "similar": []
+  },
+  "evaluator_config": "reuse saved local Qwen 0/1/2 judgements + deterministic offline claim/citation/completeness proxy",
+  "local_model": "Qwen2.5-1.5B-Instruct-GGUF Q4_K_M",
+  "prompt_rule_hashes": {
+    "generation_prompt": "3670300a43527a74e0fe5e48d5f17640a50741290cfb5eaaeae448abacd51257",
+    "generation_config": "6d93f370cfa959071d84e9e0ef7effcf83a961da022ad3415a4260836bf01ecd",
+    "analysis_script": "0d1b8805df0b5e22a5f13b60bd38be68e76f30c39835c8122875b227224ab33b"
+  },
+  "git_state_recorded": "audit/pre_run_state.json",
+  "canonical_manifest_sha256": "6ae8bb6c41518f75fb2efc3ea5287283be5792fdeaf232095f82ba75587a1710"
+}

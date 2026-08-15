@@ -1,0 +1,88 @@
+{
+  "suite": "CITATION_SUPPORT_V1_UNIT",
+  "total": 16,
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {
+      "scenario": "sufficient_one_source_one_chunk",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "sufficient_one_source_multiple_chunks",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "sufficient_multiple_sources",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "partial",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "insufficient",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "duplicate_supports",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "invalid_span",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "span_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "chunk_outside_top5",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "source_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "version_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "malformed_evidence",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "empty_support",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "adjacent_span_normalization",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "determinism",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "restricted_metadata_sanitization",
+      "status": "PASS",
+      "error": null
+    }
+  ]
+}

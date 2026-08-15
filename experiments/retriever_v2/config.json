@@ -1,0 +1,12 @@
+{
+  "prototype": "HYBRID_RETRIEVER_V2_EXPERIMENT_ONLY",
+  "corpus": "KNOWLEDGE_BASE_V1_FROZEN_READ_ONLY",
+  "dense": "DenseRetrieverV1 adapter; query encoding and cosine ranking unchanged",
+  "bm25": {"k1": 1.5, "b": 0.75, "document_input": "title + newline + text"},
+  "rrf": {"k": 60, "tie_breaking": "rrf_score descending, then chunk_id ascending"},
+  "candidate_top_k_allowed": [5, 20, 50],
+  "candidate_pool_per_retriever": 50,
+  "production_integration": false,
+  "heldout_e2e50_forbidden_for_tuning": true,
+  "reranker": "not included"
+}

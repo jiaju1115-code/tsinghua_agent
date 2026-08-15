@@ -1,0 +1,208 @@
+{
+  "captured_at": "2026-08-14T03:54:52.029801+00:00",
+  "files": {
+    "experiments/router_v0_2/.gitignore": {
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+      "size": 23,
+      "mtime_ns": 1786678697427660100
+    },
+    "experiments/router_v0_2/analysis/ablation_analysis.md": {
+      "sha256": "919500782d33aa4a12965d9bcf78cd97b72ca253faf7c42bdf00ab86acb6e316",
+      "size": 279,
+      "mtime_ns": 1786679137300867700
+    },
+    "experiments/router_v0_2/analysis/router_v0_2_failure_cases.md": {
+      "sha256": "eea603e6ca0fb75c796651017bfc88c83cae220e411b797a6e07838bf9a29991",
+      "size": 281,
+      "mtime_ns": 1786679136475273700
+    },
+    "experiments/router_v0_2/analysis/v0_1_vs_v0_2_analysis.md": {
+      "sha256": "f5adce77b517344bbf970affd33c5719874739a011c5602508a351fc8997e524",
+      "size": 362,
+      "mtime_ns": 1786679135680781200
+    },
+    "experiments/router_v0_2/audit/blind_set_freeze.json": {
+      "sha256": "3bb0d7c1cb7ad25bff9207440465b0c2c5ad4a3cd312f7f0cf24e17748f08ca4",
+      "size": 162,
+      "mtime_ns": 1786679099936763700
+    },
+    "experiments/router_v0_2/audit/final_immutability_report.json": {
+      "sha256": "efbdf1e8c078397cf1d34eb6dc176f439ab8ba872707bb24541003524b698954",
+      "size": 418,
+      "mtime_ns": 1786679183620029200
+    },
+    "experiments/router_v0_2/build_router_workbook.mjs": {
+      "sha256": "e5a7125973d0f820b7833c4f42bdaa8fee1da2dec8ad425e32839f880a9adbcc",
+      "size": 987,
+      "mtime_ns": 1786679157388609000
+    },
+    "experiments/router_v0_2/config/academic_ontology.json": {
+      "sha256": "189309d0367b971817e3a0b430685b1a91ce02960359f5f553ed95e41494e0bc",
+      "size": 2287,
+      "mtime_ns": 1786679031617031600
+    },
+    "experiments/router_v0_2/config/negative_signals.json": {
+      "sha256": "7ea92252bd6066d641c5ab7d61f835c074b8f7df77b2cc9a12341f6a9e1ee0e8",
+      "size": 307,
+      "mtime_ns": 1786679051591522000
+    },
+    "experiments/router_v0_2/config/task_signals.json": {
+      "sha256": "a70b14430308bdca5829d380e705448b3f8ec3bae500190cc3c9b5a0a811fdde",
+      "size": 795,
+      "mtime_ns": 1786678956494119200
+    },
+    "experiments/router_v0_2/evaluation/router_blind_shadow_set.json": {
+      "sha256": "d965827dc4adb3afe9aac9a26eb6eed90b94f718794173a1cbaeb654c3009ade",
+      "size": 5999,
+      "mtime_ns": 1786678739365222300
+    },
+    "experiments/router_v0_2/README.md": {
+      "sha256": "42d2d2451051a4f7307f79306aa3462a5b38bdd91f73f406a605726a03a04be3",
+      "size": 250,
+      "mtime_ns": 1786679138096403400
+    },
+    "experiments/router_v0_2/results/blind_42_results.jsonl": {
+      "sha256": "77fd6ee5a6694cb667804420a4671ddc6de48d04b9f95eba4e7053e041fae5a6",
+      "size": 27296,
+      "mtime_ns": 1786679099973634300
+    },
+    "experiments/router_v0_2/results/development_24_results.jsonl": {
+      "sha256": "3365fea43fc2fc061e42e7dd9cfcec4c87fe4b48f809acdd374c29a9184f6ccc",
+      "size": 16807,
+      "mtime_ns": 1786679099972634000
+    },
+    "experiments/router_v0_2/results/frozen_full30_results.jsonl": {
+      "sha256": "59dc6291d35aa34552fadb0b1505401f3cb4303476392adc096fe25a4d8248d7",
+      "size": 18642,
+      "mtime_ns": 1786679099972634000
+    },
+    "experiments/router_v0_2/results/router_metrics.json": {
+      "sha256": "52e9f9432e1c0ab1d6b181327ea9f63b4754d2a27042185704f3a6a6b5c7c38f",
+      "size": 1479,
+      "mtime_ns": 1786679099973634300
+    },
+    "experiments/router_v0_2/router_v0_2_report.md": {
+      "sha256": "97420323a56ffffc21023b58043d904ffec0ac7aecc61e02f71a7d3197b3bb0c",
+      "size": 1635,
+      "mtime_ns": 1786679134374336300
+    },
+    "experiments/router_v0_2/run_router_evaluation.py": {
+      "sha256": "e4c03f2dc60c57b2c2fd2d95e7a41f5d8a7933d19cf7b2ca6fb864a96a9daaef",
+      "size": 3727,
+      "mtime_ns": 1786678772456813800
+    },
+    "experiments/router_v0_2/src/__init__.py": {
+      "sha256": "c580759853183ca00267e4dc22df5f1b57236ac1a30a5ef24730f65f32cabddf",
+      "size": 46,
+      "mtime_ns": 1786678701377558700
+    },
+    "experiments/router_v0_2/src/router_v0_2.py": {
+      "sha256": "2972f5ab6636a55fde82223087d592ee18c84935bbc4e8b0b4d234503de248e8",
+      "size": 3635,
+      "mtime_ns": 1786679096901277900
+    },
+    "experiments/web_search_v0/src/__init__.py": {
+      "sha256": "7f65de3a42a21521ebab9e52c6b34899884cd8326ef8763e0cf5c6214775880e",
+      "size": 68,
+      "mtime_ns": 1786672347006348300
+    },
+    "experiments/web_search_v0/src/cache.py": {
+      "sha256": "4a5291f66232bb953110a61ba44747b07b718cef0254926952e67afab338145b",
+      "size": 868,
+      "mtime_ns": 1786672350769426900
+    },
+    "experiments/web_search_v0/src/config.py": {
+      "sha256": "5203e5672d56e0e27678bf9cb80004504d951de57e06848628d177f96028341b",
+      "size": 558,
+      "mtime_ns": 1786672347770623900
+    },
+    "experiments/web_search_v0/src/evidence_span.py": {
+      "sha256": "fa1c2a88c2a37dcc98fdb33ac49b8347b0a9fa82797f993e02d5715472d6a25d",
+      "size": 778,
+      "mtime_ns": 1786672351647605500
+    },
+    "experiments/web_search_v0/src/pipeline.py": {
+      "sha256": "0682323b844e561265c8e3625aabc7c53ce541d7eb6f9fdc5632627adae3f429",
+      "size": 5047,
+      "mtime_ns": 1786675298677149400
+    },
+    "experiments/web_search_v0/src/query_rewriter.py": {
+      "sha256": "e77ea499f3f425a173000ae329e08ce04dabffaed671dbcf3e6ee1f1badbaa76",
+      "size": 3188,
+      "mtime_ns": 1786672510999500800
+    },
+    "experiments/web_search_v0/src/ranking.py": {
+      "sha256": "f3091640c173180ce6d123871ced7a1ff1cbf2adb4207478303e87f1ca75fb6f",
+      "size": 773,
+      "mtime_ns": 1786672352460943200
+    },
+    "experiments/web_search_v0/src/router.py": {
+      "sha256": "3f58385ee1a3902b7c991fac26f382287ee630a4d9631c59975029bfc44a705c",
+      "size": 1855,
+      "mtime_ns": 1786672348517646700
+    },
+    "experiments/web_search_v0/src/source_quality.py": {
+      "sha256": "17a646b2cf91e05b579005313f8c17396b5cde6cfd2eeb5de1f25129492334bf",
+      "size": 1906,
+      "mtime_ns": 1786672487645101400
+    },
+    "experiments/web_search_v0/src/tavily_client.py": {
+      "sha256": "bafe1ba6a4ace474a435431ed1dba60a88a829faf383406ca165623238171f96",
+      "size": 1684,
+      "mtime_ns": 1786672353261566600
+    },
+    "experiments/web_search_v0_followup/src/__init__.py": {
+      "sha256": "839e79e3b824f34e31c985e6b4aa4fa2b9ff29d087498474acaa8f6160475ca1",
+      "size": 71,
+      "mtime_ns": 1786677045169336900
+    },
+    "experiments/web_search_v0_followup/src/academic_query_planner.py": {
+      "sha256": "ac981f1b94996a69c96dd2ed13701f072a3615c6b2ac67517850973e2e7db672",
+      "size": 4779,
+      "mtime_ns": 1786677401863166300
+    },
+    "experiments/web_search_v0_followup/src/academic_search.py": {
+      "sha256": "aeced06f892d47a227f8726fef220a98a79656c486a8615cf9d42f7fe73046a7",
+      "size": 8347,
+      "mtime_ns": 1786677402769771100
+    },
+    "experiments/web_search_v0_followup/src/direct_answer_guard.py": {
+      "sha256": "b763c0e6646b962eac1a7ebd3458c4fb4749bf9b3d69383c1c82f836a7b39c2a",
+      "size": 688,
+      "mtime_ns": 1786677080916279400
+    },
+    "experiments/web_search_v0_followup/src/router_v0_1.py": {
+      "sha256": "e3834ee0498c036e550e506e84fc8b9531cafc33a2b69c30008eff067a72ad4e",
+      "size": 2867,
+      "mtime_ns": 1786677860618937500
+    },
+    "evaluation/answer_generation/v0/config/.gitkeep": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1,
+      "mtime_ns": 1786628001863765700
+    },
+    "evaluation/answer_generation/v0/config/generation_config.json": {
+      "sha256": "6d93f370cfa959071d84e9e0ef7effcf83a961da022ad3415a4260836bf01ecd",
+      "size": 1023,
+      "mtime_ns": 1786628853405367200
+    },
+    "evaluation/answer_generation/v0/config/grounded_generation_prompt.md": {
+      "sha256": "3670300a43527a74e0fe5e48d5f17640a50741290cfb5eaaeae448abacd51257",
+      "size": 1206,
+      "mtime_ns": 1786628723588583900
+    },
+    "prompts/prompt_v3_2.md": {
+      "sha256": "b94623c520fc46d83a49a4d043ad182646e7a881e7e1751e3e98e98724d771cd",
+      "size": 11116,
+      "mtime_ns": 1786550002895478000
+    }
+  },
+  "git_status": [
+    " M experiments/web_search_v0_followup/academic_retrieval_v0_1_report.md",
+    " M experiments/web_search_v0_followup/analysis/router_error_analysis.md",
+    "?? experiments/e2e12_router_v0_2/",
+    "?? experiments/router_v0_2/",
+    "?? router_v0_2/",
+    "?? web_search_v0_1/"
+  ]
+}

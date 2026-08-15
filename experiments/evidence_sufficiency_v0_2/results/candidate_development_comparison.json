@@ -1,0 +1,664 @@
+{
+  "v0.2-a": {
+    "config": {
+      "support": 0.14,
+      "partial": 0.07,
+      "entity_overlap": 0.035,
+      "min_useful_chars": 40,
+      "nav_count": 4,
+      "nav_char_ceiling": 300
+    },
+    "real": {
+      "n": 24,
+      "accuracy": {
+        "count": 14,
+        "rate": 0.5833333333333334
+      },
+      "sufficient_precision": 0.9230769230769231,
+      "sufficient_recall": 0.5714285714285714,
+      "partial_recall": 0.6666666666666666,
+      "false_sufficient": {
+        "count": 1,
+        "denominator": 3,
+        "rate": 0.3333333333333333
+      },
+      "missed_sufficient": {
+        "count": 9,
+        "denominator": 21,
+        "rate": 0.42857142857142855
+      },
+      "macro_f1": 0.33053221288515405,
+      "confusion_matrix": {
+        "EVIDENCE_SUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 12,
+          "EVIDENCE_PARTIAL": 9,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_PARTIAL": {
+          "EVIDENCE_SUFFICIENT": 1,
+          "EVIDENCE_PARTIAL": 2,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 0,
+          "EVIDENCE_PARTIAL": 0,
+          "EVIDENCE_INSUFFICIENT": 0
+        }
+      },
+      "per_class": {
+        "EVIDENCE_SUFFICIENT": {
+          "precision": 0.9230769230769231,
+          "recall": 0.5714285714285714,
+          "f1": 0.7058823529411765,
+          "support": 21
+        },
+        "EVIDENCE_PARTIAL": {
+          "precision": 0.18181818181818182,
+          "recall": 0.6666666666666666,
+          "f1": 0.28571428571428575,
+          "support": 3
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "precision": null,
+          "recall": null,
+          "f1": 0,
+          "support": 0
+        }
+      },
+      "by_construction_type": {
+        "REAL": {
+          "n": 24,
+          "correct": 14,
+          "accuracy": 0.5833333333333334
+        }
+      }
+    },
+    "synthetic": {
+      "n": 36,
+      "accuracy": {
+        "count": 19,
+        "rate": 0.5277777777777778
+      },
+      "sufficient_precision": 0.5454545454545454,
+      "sufficient_recall": 0.5,
+      "partial_recall": 0.6,
+      "false_sufficient": {
+        "count": 5,
+        "denominator": 24,
+        "rate": 0.20833333333333334
+      },
+      "missed_sufficient": {
+        "count": 6,
+        "denominator": 12,
+        "rate": 0.5
+      },
+      "macro_f1": 0.5037981009495253,
+      "confusion_matrix": {
+        "EVIDENCE_SUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 6,
+          "EVIDENCE_PARTIAL": 6,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_PARTIAL": {
+          "EVIDENCE_SUFFICIENT": 2,
+          "EVIDENCE_PARTIAL": 3,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 3,
+          "EVIDENCE_PARTIAL": 6,
+          "EVIDENCE_INSUFFICIENT": 10
+        }
+      },
+      "per_class": {
+        "EVIDENCE_SUFFICIENT": {
+          "precision": 0.5454545454545454,
+          "recall": 0.5,
+          "f1": 0.5217391304347826,
+          "support": 12
+        },
+        "EVIDENCE_PARTIAL": {
+          "precision": 0.2,
+          "recall": 0.6,
+          "f1": 0.3,
+          "support": 5
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "precision": 1.0,
+          "recall": 0.5263157894736842,
+          "f1": 0.6896551724137931,
+          "support": 19
+        }
+      },
+      "by_construction_type": {
+        "CONTAMINATED_EVIDENCE": {
+          "n": 4,
+          "correct": 4,
+          "accuracy": 1.0
+        },
+        "PARTIAL_COVERAGE": {
+          "n": 5,
+          "correct": 3,
+          "accuracy": 0.6
+        },
+        "QUERY_CONCEPT_MISMATCH": {
+          "n": 5,
+          "correct": 3,
+          "accuracy": 0.6
+        },
+        "SUFFICIENT_CONTROL": {
+          "n": 12,
+          "correct": 6,
+          "accuracy": 0.5
+        },
+        "TOPIC_RELATED_NOT_ANSWERING": {
+          "n": 5,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "WRONG_DOCUMENT": {
+          "n": 5,
+          "correct": 3,
+          "accuracy": 0.6
+        }
+      }
+    }
+  },
+  "v0.2-b": {
+    "config": {
+      "support": 0.18,
+      "partial": 0.09,
+      "entity_overlap": 0.05,
+      "min_useful_chars": 55,
+      "nav_count": 3,
+      "nav_char_ceiling": 450
+    },
+    "real": {
+      "n": 24,
+      "accuracy": {
+        "count": 13,
+        "rate": 0.5416666666666666
+      },
+      "sufficient_precision": 0.9166666666666666,
+      "sufficient_recall": 0.5238095238095238,
+      "partial_recall": 0.6666666666666666,
+      "false_sufficient": {
+        "count": 1,
+        "denominator": 3,
+        "rate": 0.3333333333333333
+      },
+      "missed_sufficient": {
+        "count": 10,
+        "denominator": 21,
+        "rate": 0.47619047619047616
+      },
+      "macro_f1": 0.3111111111111111,
+      "confusion_matrix": {
+        "EVIDENCE_SUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 11,
+          "EVIDENCE_PARTIAL": 10,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_PARTIAL": {
+          "EVIDENCE_SUFFICIENT": 1,
+          "EVIDENCE_PARTIAL": 2,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 0,
+          "EVIDENCE_PARTIAL": 0,
+          "EVIDENCE_INSUFFICIENT": 0
+        }
+      },
+      "per_class": {
+        "EVIDENCE_SUFFICIENT": {
+          "precision": 0.9166666666666666,
+          "recall": 0.5238095238095238,
+          "f1": 0.6666666666666667,
+          "support": 21
+        },
+        "EVIDENCE_PARTIAL": {
+          "precision": 0.16666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.26666666666666666,
+          "support": 3
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "precision": null,
+          "recall": null,
+          "f1": 0,
+          "support": 0
+        }
+      },
+      "by_construction_type": {
+        "REAL": {
+          "n": 24,
+          "correct": 13,
+          "accuracy": 0.5416666666666666
+        }
+      }
+    },
+    "synthetic": {
+      "n": 36,
+      "accuracy": {
+        "count": 19,
+        "rate": 0.5277777777777778
+      },
+      "sufficient_precision": 0.5454545454545454,
+      "sufficient_recall": 0.5,
+      "partial_recall": 0.2,
+      "false_sufficient": {
+        "count": 5,
+        "denominator": 24,
+        "rate": 0.20833333333333334
+      },
+      "missed_sufficient": {
+        "count": 6,
+        "denominator": 12,
+        "rate": 0.5
+      },
+      "macro_f1": 0.45800395256917,
+      "confusion_matrix": {
+        "EVIDENCE_SUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 6,
+          "EVIDENCE_PARTIAL": 6,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_PARTIAL": {
+          "EVIDENCE_SUFFICIENT": 2,
+          "EVIDENCE_PARTIAL": 1,
+          "EVIDENCE_INSUFFICIENT": 2
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 3,
+          "EVIDENCE_PARTIAL": 4,
+          "EVIDENCE_INSUFFICIENT": 12
+        }
+      },
+      "per_class": {
+        "EVIDENCE_SUFFICIENT": {
+          "precision": 0.5454545454545454,
+          "recall": 0.5,
+          "f1": 0.5217391304347826,
+          "support": 12
+        },
+        "EVIDENCE_PARTIAL": {
+          "precision": 0.09090909090909091,
+          "recall": 0.2,
+          "f1": 0.12500000000000003,
+          "support": 5
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "precision": 0.8571428571428571,
+          "recall": 0.631578947368421,
+          "f1": 0.7272727272727273,
+          "support": 19
+        }
+      },
+      "by_construction_type": {
+        "CONTAMINATED_EVIDENCE": {
+          "n": 4,
+          "correct": 4,
+          "accuracy": 1.0
+        },
+        "PARTIAL_COVERAGE": {
+          "n": 5,
+          "correct": 1,
+          "accuracy": 0.2
+        },
+        "QUERY_CONCEPT_MISMATCH": {
+          "n": 5,
+          "correct": 5,
+          "accuracy": 1.0
+        },
+        "SUFFICIENT_CONTROL": {
+          "n": 12,
+          "correct": 6,
+          "accuracy": 0.5
+        },
+        "TOPIC_RELATED_NOT_ANSWERING": {
+          "n": 5,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "WRONG_DOCUMENT": {
+          "n": 5,
+          "correct": 3,
+          "accuracy": 0.6
+        }
+      }
+    }
+  },
+  "v0.2-c": {
+    "config": {
+      "support": 0.22,
+      "partial": 0.11,
+      "entity_overlap": 0.07,
+      "min_useful_chars": 70,
+      "nav_count": 3,
+      "nav_char_ceiling": 600
+    },
+    "real": {
+      "n": 24,
+      "accuracy": {
+        "count": 11,
+        "rate": 0.4583333333333333
+      },
+      "sufficient_precision": 0.9,
+      "sufficient_recall": 0.42857142857142855,
+      "partial_recall": 0.6666666666666666,
+      "false_sufficient": {
+        "count": 1,
+        "denominator": 3,
+        "rate": 0.3333333333333333
+      },
+      "missed_sufficient": {
+        "count": 12,
+        "denominator": 21,
+        "rate": 0.5714285714285714
+      },
+      "macro_f1": 0.2719797596457938,
+      "confusion_matrix": {
+        "EVIDENCE_SUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 9,
+          "EVIDENCE_PARTIAL": 12,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_PARTIAL": {
+          "EVIDENCE_SUFFICIENT": 1,
+          "EVIDENCE_PARTIAL": 2,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 0,
+          "EVIDENCE_PARTIAL": 0,
+          "EVIDENCE_INSUFFICIENT": 0
+        }
+      },
+      "per_class": {
+        "EVIDENCE_SUFFICIENT": {
+          "precision": 0.9,
+          "recall": 0.42857142857142855,
+          "f1": 0.5806451612903225,
+          "support": 21
+        },
+        "EVIDENCE_PARTIAL": {
+          "precision": 0.14285714285714285,
+          "recall": 0.6666666666666666,
+          "f1": 0.23529411764705882,
+          "support": 3
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "precision": null,
+          "recall": null,
+          "f1": 0,
+          "support": 0
+        }
+      },
+      "by_construction_type": {
+        "REAL": {
+          "n": 24,
+          "correct": 11,
+          "accuracy": 0.4583333333333333
+        }
+      }
+    },
+    "synthetic": {
+      "n": 36,
+      "accuracy": {
+        "count": 18,
+        "rate": 0.5
+      },
+      "sufficient_precision": 0.5,
+      "sufficient_recall": 0.3333333333333333,
+      "partial_recall": 0.2,
+      "false_sufficient": {
+        "count": 4,
+        "denominator": 24,
+        "rate": 0.16666666666666666
+      },
+      "missed_sufficient": {
+        "count": 8,
+        "denominator": 12,
+        "rate": 0.6666666666666666
+      },
+      "macro_f1": 0.42527233115468416,
+      "confusion_matrix": {
+        "EVIDENCE_SUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 4,
+          "EVIDENCE_PARTIAL": 8,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_PARTIAL": {
+          "EVIDENCE_SUFFICIENT": 2,
+          "EVIDENCE_PARTIAL": 1,
+          "EVIDENCE_INSUFFICIENT": 2
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 2,
+          "EVIDENCE_PARTIAL": 4,
+          "EVIDENCE_INSUFFICIENT": 13
+        }
+      },
+      "per_class": {
+        "EVIDENCE_SUFFICIENT": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1": 0.4,
+          "support": 12
+        },
+        "EVIDENCE_PARTIAL": {
+          "precision": 0.07692307692307693,
+          "recall": 0.2,
+          "f1": 0.1111111111111111,
+          "support": 5
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "precision": 0.8666666666666667,
+          "recall": 0.6842105263157895,
+          "f1": 0.7647058823529413,
+          "support": 19
+        }
+      },
+      "by_construction_type": {
+        "CONTAMINATED_EVIDENCE": {
+          "n": 4,
+          "correct": 4,
+          "accuracy": 1.0
+        },
+        "PARTIAL_COVERAGE": {
+          "n": 5,
+          "correct": 1,
+          "accuracy": 0.2
+        },
+        "QUERY_CONCEPT_MISMATCH": {
+          "n": 5,
+          "correct": 5,
+          "accuracy": 1.0
+        },
+        "SUFFICIENT_CONTROL": {
+          "n": 12,
+          "correct": 4,
+          "accuracy": 0.3333333333333333
+        },
+        "TOPIC_RELATED_NOT_ANSWERING": {
+          "n": 5,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "WRONG_DOCUMENT": {
+          "n": 5,
+          "correct": 4,
+          "accuracy": 0.8
+        }
+      }
+    }
+  },
+  "v0.2-d": {
+    "config": {
+      "support": 0.1,
+      "partial": 0.045,
+      "entity_overlap": 0.05,
+      "min_useful_chars": 55,
+      "nav_count": 3,
+      "nav_char_ceiling": 450,
+      "fragment_max_chars": 310,
+      "fragment_total_ceiling": 1800
+    },
+    "real": {
+      "n": 24,
+      "accuracy": {
+        "count": 15,
+        "rate": 0.625
+      },
+      "sufficient_precision": 0.875,
+      "sufficient_recall": 0.6666666666666666,
+      "partial_recall": 0.3333333333333333,
+      "false_sufficient": {
+        "count": 2,
+        "denominator": 3,
+        "rate": 0.6666666666666666
+      },
+      "missed_sufficient": {
+        "count": 7,
+        "denominator": 21,
+        "rate": 0.3333333333333333
+      },
+      "macro_f1": 0.31285831285831284,
+      "confusion_matrix": {
+        "EVIDENCE_SUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 14,
+          "EVIDENCE_PARTIAL": 7,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_PARTIAL": {
+          "EVIDENCE_SUFFICIENT": 2,
+          "EVIDENCE_PARTIAL": 1,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 0,
+          "EVIDENCE_PARTIAL": 0,
+          "EVIDENCE_INSUFFICIENT": 0
+        }
+      },
+      "per_class": {
+        "EVIDENCE_SUFFICIENT": {
+          "precision": 0.875,
+          "recall": 0.6666666666666666,
+          "f1": 0.7567567567567567,
+          "support": 21
+        },
+        "EVIDENCE_PARTIAL": {
+          "precision": 0.125,
+          "recall": 0.3333333333333333,
+          "f1": 0.18181818181818182,
+          "support": 3
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "precision": null,
+          "recall": null,
+          "f1": 0,
+          "support": 0
+        }
+      },
+      "by_construction_type": {
+        "REAL": {
+          "n": 24,
+          "correct": 15,
+          "accuracy": 0.625
+        }
+      }
+    },
+    "synthetic": {
+      "n": 36,
+      "accuracy": {
+        "count": 25,
+        "rate": 0.6944444444444444
+      },
+      "sufficient_precision": 0.7,
+      "sufficient_recall": 0.5833333333333334,
+      "partial_recall": 0.4,
+      "false_sufficient": {
+        "count": 3,
+        "denominator": 24,
+        "rate": 0.125
+      },
+      "missed_sufficient": {
+        "count": 5,
+        "denominator": 12,
+        "rate": 0.4166666666666667
+      },
+      "macro_f1": 0.6036556036556037,
+      "confusion_matrix": {
+        "EVIDENCE_SUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 7,
+          "EVIDENCE_PARTIAL": 5,
+          "EVIDENCE_INSUFFICIENT": 0
+        },
+        "EVIDENCE_PARTIAL": {
+          "EVIDENCE_SUFFICIENT": 2,
+          "EVIDENCE_PARTIAL": 2,
+          "EVIDENCE_INSUFFICIENT": 1
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "EVIDENCE_SUFFICIENT": 1,
+          "EVIDENCE_PARTIAL": 2,
+          "EVIDENCE_INSUFFICIENT": 16
+        }
+      },
+      "per_class": {
+        "EVIDENCE_SUFFICIENT": {
+          "precision": 0.7,
+          "recall": 0.5833333333333334,
+          "f1": 0.6363636363636365,
+          "support": 12
+        },
+        "EVIDENCE_PARTIAL": {
+          "precision": 0.2222222222222222,
+          "recall": 0.4,
+          "f1": 0.2857142857142857,
+          "support": 5
+        },
+        "EVIDENCE_INSUFFICIENT": {
+          "precision": 0.9411764705882353,
+          "recall": 0.8421052631578947,
+          "f1": 0.8888888888888888,
+          "support": 19
+        }
+      },
+      "by_construction_type": {
+        "CONTAMINATED_EVIDENCE": {
+          "n": 4,
+          "correct": 4,
+          "accuracy": 1.0
+        },
+        "PARTIAL_COVERAGE": {
+          "n": 5,
+          "correct": 2,
+          "accuracy": 0.4
+        },
+        "QUERY_CONCEPT_MISMATCH": {
+          "n": 5,
+          "correct": 4,
+          "accuracy": 0.8
+        },
+        "SUFFICIENT_CONTROL": {
+          "n": 12,
+          "correct": 7,
+          "accuracy": 0.5833333333333334
+        },
+        "TOPIC_RELATED_NOT_ANSWERING": {
+          "n": 5,
+          "correct": 5,
+          "accuracy": 1.0
+        },
+        "WRONG_DOCUMENT": {
+          "n": 5,
+          "correct": 3,
+          "accuracy": 0.6
+        }
+      }
+    }
+  }
+}

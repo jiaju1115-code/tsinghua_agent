@@ -1,0 +1,1 @@
+{"boundary":"prefer latest paragraph/sentence/newline boundary after 55% of max_chars","max_chars":800,"min_chars":80,"normalization":"NFKC; CRLF->LF; trim horizontal whitespace; collapse >=3 blank lines; remove restricted Auth/Discovery acquisition lines","overlap_chars":120}

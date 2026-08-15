@@ -1,0 +1,139 @@
+**1****、紫荆公寓中文地址：**
+
+100084
+
+     北京市海淀区清华大学
+
+     紫荆学生公寓×# 楼 ×××房间   
+
+     某某（收）               
+
+                    寄信人地址、姓名
+
+**2****、紫荆公寓英文地址：**
+
+寄信人地址
+
+姓名
+
+Name
+
+     Zijing Building x＃ Room xxx(A;B)
+
+     Tsinghua University
+
+     Beijing 100084
+
+     P.R CHINA
+
+**3****、南区公寓中文地址：**
+
+100084
+
+     北京市海淀区清华大学
+
+     学生公寓×# 楼 ×××房间
+
+     某某（收）
+
+寄信人地址、姓名
+
+**4****、南区公寓英文地址：**
+
+寄信人地址
+
+姓名
+
+     Name
+
+     Building × # Room ×××
+
+     Tsinghua University
+
+     Beijing 100084
+
+     P.R.CHINA
+
+**5、双清公寓中文地址：**
+
+100085
+
+     北京市海淀区逸清南路西延5号院1号楼
+
+     双清公寓，×××房间
+
+     某某（收）
+
+ 寄信人地址、姓名
+
+**6、双清公寓英文地址：**
+
+寄信人地址
+
+姓名
+
+     Name
+
+     Room XXX, Shuangqing Apartment, Building 1, Courtyard 5, West Extension of Yiqing South Road, Haidian District
+
+     Beijing 100085
+
+     P.R.CHINA
+
+**7、双清公寓南楼中文地址：**
+
+100085
+
+     北京市海淀区逸清南路西延6号院1号楼
+
+     双清公寓南楼，×××房间
+
+     某某（收）
+
+寄信人地址、姓名
+
+**8、双清公寓南楼英文地址：**
+
+寄信人地址
+
+姓名
+
+     Name
+
+     Room XXX, South Tower of Shuangqing Apartment, Building 1, Courtyard 6, West Extension of Yiqing South Road, Haidian District                Beijing 100085
+
+     P.R.CHINA
+
+**9、红杉公寓中文地址**
+
+100083
+
+     北京市海淀区双清路89号A座
+
+     红杉公寓×××房间
+
+     某某（收）
+
+寄信人地址、姓名
+
+**10、红杉公寓英文地址**
+
+寄信人地址
+
+姓名
+
+     Name
+
+     Room XXX, Hongshan Apartment, Building A, Shuangqing Road No.89, Haidian District
+
+     Beijing 100083
+
+     P.R.CHINA
+
+**（注：“****×****”要用阿拉伯数字填写）**
+
+**11、注意事项**
+
+1) 紫荆公寓的同学“紫荆”二字一定要写清楚，否则易与南区公寓楼楼号混淆。
+
+2) 请同学们照此书写，否则无法接收、无法投递。

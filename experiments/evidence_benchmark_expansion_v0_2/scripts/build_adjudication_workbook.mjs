@@ -1,0 +1,22 @@
+import fs from "node:fs/promises";
+import { Workbook, SpreadsheetFile } from "@oai/artifact-tool";
+
+const root = new URL("..", import.meta.url).pathname.replace(/^\//, "");
+const rows = JSON.parse(await fs.readFile(`${root}/adjudication/new_real_adjudication_packet.json`, "utf8"));
+const wb = Workbook.create();
+const ws = wb.worksheets.add("Adjudication Packet");
+ws.showGridLines = false;
+const headers = ["sample_id","query","category","academic_subject","frozen_evidence","evidence_ids","evidence_source_titles","evidence_origin","prior_usage","recovery_status","adjudicated_evidence_gate","adjudication_confidence","adjudication_reason","required_answer_points","evidence_coverage_notes"];
+ws.getRangeByIndexes(0,0,1,headers.length).values=[headers];
+ws.getRangeByIndexes(1,0,rows.length,headers.length).values=rows.map(r=>headers.map(k=>k==="frozen_evidence"?JSON.stringify(r[k]??[]):Array.isArray(r[k])?r[k].join(" | "):r[k]??""));
+const used=ws.getUsedRange();
+used.format.wrapText=true;
+ws.getRange("A1:O1").format={fill:"#0F766E",font:{bold:true,color:"#FFFFFF"},borders:{preset:"outside",style:"thin",color:"#0F766E"}};
+ws.getRange(`A2:O${rows.length+1}`).format.borders={preset:"inside",style:"thin",color:"#D9E2F3"};
+ws.getRange("A:A").format.columnWidth=16; ws.getRange("B:B").format.columnWidth=38; ws.getRange("C:D").format.columnWidth=18; ws.getRange("E:E").format.columnWidth=70; ws.getRange("F:G").format.columnWidth=30; ws.getRange("H:J").format.columnWidth=24; ws.getRange("K:O").format.columnWidth=28;
+ws.getRange(`A1:O${rows.length+1}`).format.rowHeight=36; ws.getRange("A1:O1").format.rowHeight=28;
+ws.freezePanes.freezeRows(1);
+ws.getRange(`K2:K${rows.length+1}`).dataValidation={rule:{type:"list",values:["EVIDENCE_SUFFICIENT","EVIDENCE_PARTIAL","EVIDENCE_INSUFFICIENT","EVIDENCE_UNKNOWN"]}};
+const preview=await wb.render({sheetName:"Adjudication Packet",range:`A1:O12`,scale:1,format:"png"});
+await fs.writeFile(`${root}/adjudication/new_real_adjudication_packet_preview.png`,new Uint8Array(await preview.arrayBuffer()));
+const out=await SpreadsheetFile.exportXlsx(wb); await out.save(`${root}/adjudication/new_real_adjudication_packet.xlsx`);

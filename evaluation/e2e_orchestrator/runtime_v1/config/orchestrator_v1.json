@@ -1,0 +1,40 @@
+{
+  "orchestrator_version": "UNIFIED_E2E_ORCHESTRATOR_V1",
+  "chain": [
+    "RAG_RETRIEVAL_V1",
+    "EVIDENCE_SUFFICIENCY_V1",
+    "CITATION_SUPPORT_V1",
+    "ANSWER_GENERATION_V1"
+  ],
+  "corpus_version": "KNOWLEDGE_BASE_V1",
+  "retry_count": 0,
+  "reretrieval_enabled": false,
+  "fallback_enabled": false,
+  "repair_enabled": false,
+  "external_search_enabled": false,
+  "semantic_classifier_added": false,
+  "status_propagation": {
+    "READY": "FULL_ANSWER",
+    "PARTIAL": "PARTIAL_ANSWER",
+    "BLOCKED": "REFUSAL"
+  },
+  "reason_codes": [
+    "ANSWER_ERROR",
+    "BLOCKED_PROPAGATED",
+    "CITATION_ERROR",
+    "DUPLICATE_CASE_ID",
+    "EVIDENCE_ERROR",
+    "FROZEN_CONTRACT_CONFLICT",
+    "INJECTION_BOUNDARY_PRESERVED",
+    "INPUT_SCHEMA_INVALID",
+    "PARTIAL_PROPAGATED",
+    "PIPELINE_COMPLETED",
+    "PROVENANCE_LINK_UNAVAILABLE",
+    "QUERY_CASE_MISMATCH",
+    "READY_PROPAGATED",
+    "RESTRICTED_METADATA_SANITIZED",
+    "RETRIEVAL_ERROR",
+    "UPSTREAM_FAIL_CLOSED",
+    "VERSION_MISMATCH"
+  ]
+}

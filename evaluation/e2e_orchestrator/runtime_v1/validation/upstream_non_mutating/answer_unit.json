@@ -1,0 +1,123 @@
+{
+  "suite": "ANSWER_GENERATION_V1_UNIT",
+  "total": 23,
+  "passed": 23,
+  "failed": 0,
+  "results": [
+    {
+      "scenario": "ready_full_answer",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "partial_answer",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "blocked_refusal",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "blocked_no_model_call",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "ready_without_support_fails_closed",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "partial_scope_only",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "invalid_support_unit_id",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "invalid_source_id",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "version_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "malformed_support_package",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "model_invalid_json",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "empty_generation",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "unattributed_factual_claim",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "fabricated_support_id",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "evidence_prompt_injection",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "user_prompt_injection",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "restricted_metadata_not_leaked",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "repeatability",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "generation_timeout_and_error",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "upstream_blocked_cannot_bypass",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "answer_status_mismatch",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "lexical_trace_failure",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "scenario": "model_load_error",
+      "status": "PASS",
+      "error": null
+    }
+  ]
+}

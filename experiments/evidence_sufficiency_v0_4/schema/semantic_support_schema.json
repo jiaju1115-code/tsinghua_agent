@@ -1,0 +1,134 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "core_required_points",
+    "requested_attributes",
+    "optional_support",
+    "support_matrix"
+  ],
+  "properties": {
+    "core_required_points": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "required_point_id",
+          "required_point_text",
+          "requested_attribute"
+        ],
+        "properties": {
+          "required_point_id": {
+            "type": "string",
+            "pattern": "^P[1-3]$"
+          },
+          "required_point_text": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 240
+          },
+          "requested_attribute": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 48
+          }
+        }
+      }
+    },
+    "requested_attributes": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 48
+      }
+    },
+    "optional_support": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 180
+      }
+    },
+    "support_matrix": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "required_point_id",
+          "best_evidence_span_ids",
+          "best_evidence_text",
+          "source_document_id",
+          "support_relation",
+          "support_score",
+          "directness",
+          "attribute_match",
+          "reason"
+        ],
+        "properties": {
+          "required_point_id": {
+            "type": "string",
+            "pattern": "^P[1-3]$"
+          },
+          "best_evidence_span_ids": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 2,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 80
+            }
+          },
+          "best_evidence_text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "source_document_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "support_relation": {
+            "type": "string",
+            "enum": [
+              "ENTAILED",
+              "PARTIAL",
+              "NOT_FOUND",
+              "CONTRADICTED"
+            ]
+          },
+          "support_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "directness": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "attribute_match": {
+            "type": "boolean"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          }
+        }
+      }
+    }
+  }
+}

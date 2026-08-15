@@ -1,0 +1,8 @@
+{
+  "source": "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_sufficiency_v0_3\\dataset\\unified_calibration_dataset.json",
+  "source_sha256": "fcb19211b3b1a13ff828c59dc5e5387f844f4a8bceeb4a7f9fde38b07178570b",
+  "rows": 147,
+  "real": 49,
+  "synthetic": 98,
+  "status": "ALL_SEEN_CALIBRATION"
+}

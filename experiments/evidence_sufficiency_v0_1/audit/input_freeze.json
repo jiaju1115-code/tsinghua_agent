@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "adjudicated_workbook_sha256": "7c2086d8abfa409a5a66e2f597a3ac6d985c77810b2852dc0b30fc04dc27511e",
+    "holdout_freeze_sha256": "cc2c68b8b9c7c38551b3658d9cdcf5dce1d5b702842f6e5f4d6d3c96cf6fe2b8"
+  },
+  "offline_calls": {
+    "search": 0,
+    "tavily": 0,
+    "extract": 0,
+    "external_llm": 0
+  }
+}

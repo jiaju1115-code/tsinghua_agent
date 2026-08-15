@@ -1,0 +1,24 @@
+{
+  "source": "D:/python_projects/tsinghua_ai/experiments/evidence_benchmark_expansion_v0_2/adjudication/new_real_adjudication_packet_adjudicated.xlsx",
+  "source_sha256": "103e1959ca1d52c3fb3278a36adfc376d627e49601fe6a506d031198ed7acd31",
+  "selection_method": "Stratified label hash SHA256(sample_id || query || evidence_sufficiency_v0_2_real)",
+  "holdout_sample_ids": [
+    "PROV-005",
+    "PROV-010",
+    "PROV-021",
+    "PROV-023",
+    "PROV-025",
+    "PROV-026",
+    "RET-03",
+    "RET-09"
+  ],
+  "holdout_distribution": {
+    "EVIDENCE_SUFFICIENT": 6,
+    "EVIDENCE_PARTIAL": 2
+  },
+  "development_distribution": {
+    "EVIDENCE_SUFFICIENT": 21,
+    "EVIDENCE_PARTIAL": 3
+  },
+  "canonical_sha256": "c139a31bf039c0d347988d6be49a6953ad1cdd450ed4a4c5ea283d3c0dff84e0"
+}

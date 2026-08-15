@@ -1,0 +1,9 @@
+{
+  "prompt_sha256": "e2821cc7e436c8d8cbdc7c664a91e9bbaba412e18bdd8a5d223bcbe0a2c3515f",
+  "config_sha256": "552cb7ef0cc34efdd9fb64b93bf39b67156d78f507ae39854de5093997e99b2b",
+  "code_sha256": "5bff677c99d51dfca85ae70fdf6b084154ceb60aa2bcd01866568835c93c061e",
+  "model_config": "none; deterministic offline candidate",
+  "parser": "native strict JSON",
+  "sample_specific_audit": "PASS",
+  "holdouts_run_before_freeze": 0
+}

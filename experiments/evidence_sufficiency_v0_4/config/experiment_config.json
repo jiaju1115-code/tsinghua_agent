@@ -1,0 +1,42 @@
+{
+  "experiment": "Evidence Sufficiency V0.4 Semantic Support Representation",
+  "candidate": "v0.4-a",
+  "seed": 20260814,
+  "model": "deepseek-r1:7b",
+  "features": [
+    "core_total",
+    "entailed_count",
+    "partial_count",
+    "not_found_count",
+    "contradicted_count",
+    "entailed_ratio",
+    "partial_ratio",
+    "not_found_ratio",
+    "attribute_supported_ratio",
+    "min_support_score",
+    "mean_support_score",
+    "support_score_std",
+    "mean_directness",
+    "all_core_direct"
+  ],
+  "random_forest": {
+    "n_estimators": 96,
+    "max_depth": 7,
+    "min_samples_leaf": 2,
+    "class_weight": "balanced_subsample",
+    "random_state": 20260814,
+    "n_jobs": 1
+  },
+  "threshold_selection": {
+    "method": "3-fold inner CV on each outer-train split",
+    "candidates": [
+      0.5,
+      0.55,
+      0.58,
+      0.6,
+      0.65
+    ],
+    "utility": "V0.3 utility function"
+  },
+  "scope": "support-representation-only; labels excluded from point/span inference"
+}

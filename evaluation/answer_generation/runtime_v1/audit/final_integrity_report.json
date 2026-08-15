@@ -1,0 +1,61 @@
+{
+  "artifact": "Answer Generation Runtime V1 final upstream integrity comparison",
+  "created_at_utc": "2026-08-15T05:20:58.361832+00:00",
+  "scopes": [
+    "data/03_knowledge_base/v1",
+    "src/retrieval_v1/adapter.py",
+    "src/evidence_sufficiency_v1",
+    "evaluation/evidence_sufficiency/v1",
+    "src/citation_support_v1",
+    "evaluation/citation_support/v1",
+    "reports/citation_support_v1_report.md",
+    "experiments/evidence_sufficiency_v0_1",
+    "experiments/evidence_sufficiency_v0_2",
+    "experiments/evidence_sufficiency_v0_3",
+    "experiments/evidence_sufficiency_v0_4",
+    "evaluation/citation",
+    "evaluation/answer_generation/v0",
+    "evaluation/answer_generation/v1",
+    "experiments/generation_citation_eval_v0",
+    "evaluation/rag",
+    "data/02_public_expansion/v2/human_check",
+    "data/06_human_annotation",
+    "experiments/router_v0_2",
+    "evaluation/prompt_v3_2_blind_test_v1",
+    "evaluation/e2e/v1/benchmark/exclusion_registry.jsonl"
+  ],
+  "pre_file_count": 1492,
+  "post_file_count": 1492,
+  "pre_inventory_sha256": "db28d0880af0ff4327a91fad241e43cde1f6c483a2f3177cf6ad9dc71ad36564",
+  "post_inventory_sha256": "db28d0880af0ff4327a91fad241e43cde1f6c483a2f3177cf6ad9dc71ad36564",
+  "modified_files_count": 0,
+  "added_upstream_files_count": 0,
+  "removed_upstream_files_count": 0,
+  "modified_files": [],
+  "added_upstream_files": [],
+  "removed_upstream_files": [],
+  "upstream_sections_pre": {
+    "knowledge_base_v1": {
+      "file_count": 273,
+      "inventory_sha256": "595a3cbcb7c59b53660756bf02f1b43d628a32fe223d6fb895f4223ee3859659"
+    },
+    "rag_retrieval_v1": {
+      "file_count": 1,
+      "inventory_sha256": "457d6c10e185054ee8ac2308e5b3a67a5d53d49a13eae999397c6ffa665b09bf"
+    },
+    "evidence_sufficiency_v1": {
+      "file_count": 19,
+      "inventory_sha256": "9e3fe09caee35e0840f374112e74c379e5455523be6a29ca9105af40335df4e6"
+    },
+    "citation_support_v1": {
+      "file_count": 25,
+      "inventory_sha256": "557fff067a480a760e77f51f6c2967eac50f0580559511ec129aa39bc5575114"
+    }
+  },
+  "knowledge_base_v1_unchanged": true,
+  "rag_retrieval_v1_unchanged": true,
+  "evidence_sufficiency_v1_unchanged": true,
+  "citation_support_v1_unchanged": true,
+  "external_model_unchanged": true,
+  "overall_status": "PASS"
+}

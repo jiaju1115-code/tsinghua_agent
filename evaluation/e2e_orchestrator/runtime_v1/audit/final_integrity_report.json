@@ -1,0 +1,43 @@
+{
+  "artifact": "Unified E2E Orchestrator V1 final integrity report",
+  "created_at_utc": "2026-08-15T06:06:48.118819+00:00",
+  "status": "PASS",
+  "pre_inventory_sha256": "825b92ba1ca30902fbbbf32289bfc256a07a65e3f2b5086056ccd96dee289b0f",
+  "post_inventory_sha256": "825b92ba1ca30902fbbbf32289bfc256a07a65e3f2b5086056ccd96dee289b0f",
+  "formal_upstream_file_count": 74,
+  "upstream_files_changed": [],
+  "upstream_existing_test_entries": {
+    "passed": 7,
+    "total": 7
+  },
+  "orchestrator_unit_tests": {
+    "passed": 37,
+    "total": 37
+  },
+  "integration_status": "PASS",
+  "freeze_gates_passed": 20,
+  "freeze_gates_total": 20,
+  "freeze_gates": {
+    "upstream_freeze_statuses_verified": true,
+    "upstream_freeze_sidecars_verified": true,
+    "upstream_declared_artifact_hashes_verified": true,
+    "upstream_pre_post_inventory_identical": true,
+    "four_public_entry_points_audited": true,
+    "contract_compatibility_audit_complete": true,
+    "no_unresolved_semantic_contract_conflict": true,
+    "orchestrator_public_api_complete": true,
+    "exact_output_schema_complete": true,
+    "strict_sequence_and_no_retry_complete": true,
+    "upstream_error_fail_closed_no_skip_complete": true,
+    "ready_status_propagation_pass": true,
+    "partial_status_propagation_pass": true,
+    "blocked_refusal_no_model_call_pass": true,
+    "provenance_chain_complete": true,
+    "compact_trace_safety_pass": true,
+    "frozen_injection_boundary_preserved": true,
+    "unit_tests_minimum_20_pass": true,
+    "integration_repeatability_and_natural_cases_pass": true,
+    "heldout_not_consumed_and_protocol_frozen": true
+  },
+  "formal_held_out_executed": false
+}

@@ -1,0 +1,144 @@
+﻿citation_gap_reason,citation_ids,citation_present,citation_supports_claim,citation_valid,claim_id,claim_text,claim_type,confidence,evaluation_scope,requires_citation,sample_id,supported_by_evidence,supporting_evidence_ids,track,unsupported_reason
+citation omission only; evidence support detected,[],False,False,,A-RET-01-CL01,清华大学本科生学籍管理规定由2016~2017学年度第25次校务会议通过，2019~20学年度第30次校务会议修订。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-01,True,"[""C5"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-01-CL02,该规定适用于全校本科生的学籍管理。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-01,True,"[""C5"", ""C1"", ""C4""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-02-CL01,学生公寓住宿规定如下：,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-02,True,"[""C4"", ""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-02-CL02,具有学校学籍的全日制在校学生具有申请入住资格。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-02,True,"[""C1"", ""C2""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-02-CL03,提出住宿申请，经批准后方可入住。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-02,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-02-CL04,与学生社区管理服务中心签订住宿协议。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-02,True,"[""C2"", ""C1"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-02-CL05,学生社区管理服务中心统筹安排。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-02,True,"[""C2"", ""C1"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-02-CL06,如需调整，提前告知相关学生配合搬家。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-02,True,"[""C2"", ""C1"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-02-CL07,办理入住手续后入住指定床位，未经批准不得擅自调换。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-02,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-02-CL08,遇疾病等特殊情况需调换床位，应向院系和学生社区管理服务中心申请。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-02,True,"[""C2"", ""C1"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-02-CL09,毕业、住宿协议到期、退学,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-02,True,"[""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-03-CL01,清华校园网提供有线网络服务，无线网络服务，GPON光纤入户服务等。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-03,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-03-CL02,账号或网络故障可联系热线服务或在线服务进行处理。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-03,True,"[""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-04-CL01,清华校医院：门诊-检验医学科、输血科、超声科等；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-04,True,"[""C1""]",A,
+,[],False,False,,A-RET-04-CL02,报销需咨询财务部门；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-04,False,[],A,unsupported inference
+,[],False,False,,A-RET-04-CL03,就医流程可至官网查询。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-04,False,[],A,unsupported inference
+,[],False,False,,A-RET-05-CL01,,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-05,False,[],A,unsupported inference
+,[],False,False,,A-RET-05-CL02,,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-05,False,[],A,unsupported inference
+,[],False,False,,A-RET-05-CL03,,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-05,False,[],A,unsupported inference
+,[],False,False,,A-RET-05-CL04,,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-05,False,[],A,unsupported inference
+,[],False,False,,A-RET-05-CL05,,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-05,False,[],A,unsupported inference
+,[],False,False,,A-RET-05-CL06,,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-05,False,[],A,unsupported inference
+,[],False,False,,A-RET-05-CL07,,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-05,False,[],A,unsupported inference
+,[],False,False,,A-RET-05-CL08,,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-05,False,[],A,unsupported inference
+citation omission only; evidence support detected,[],False,False,,A-RET-06-CL01,清华学生奖学金、助学金评选办法如下：,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-06,True,"[""C1"", ""C4"", ""C2""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-06-CL02,特等奖学金面向全体本科生、研究生分别组织评选，每年表彰不超过二十名学生。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-06,True,"[""C2"", ""C3"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-06-CL03,评选条件包括基本申请条件、道德品质优秀、学风端正、全面发展等。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-06,True,"[""C2"", ""C4"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-06-CL04,现场答辩形式进行复评，形成推荐名单，提请校务会议审议。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-06,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-06-CL05,奖学金获得者需在评选当年发放，并颁发荣誉证书。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-06,True,"[""C4"", ""C3"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-07-CL01,清华学生可预约个体咨询，由30余位咨询师提供个性化指导。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-07,True,"[""C3"", ""C5"", ""C4""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-07-CL02,生涯咨询涵盖自我了解、职业探索、方向选择、简历与面试、求职心理等方面。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-07,True,"[""C3"", ""C1"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-RET-07-CL03,清华学生职业发展指导中心有近30位咨询师，可为不同学历、不同年级的学生提供系统性的生涯辅导。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-07,True,"[""C4"", ""C3"", ""C2""]",A,
+,"[""C1""]",True,True,True,A-RET-08-CL01,清华大学食堂信息：丁香园食堂、闻馨园食堂、双清园食堂；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-08,True,"[""C1"", ""C5"", ""C2""]",A,
+,"[""C2""]",True,True,True,A-RET-08-CL02,餐饮服务：饮食服务中心；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-08,True,"[""C2""]",A,
+,"[""C5""]",True,True,True,A-RET-08-CL03,就餐信息：教工餐厅。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-08,True,"[""C2"", ""C5""]",A,
+,[],False,False,,A-RET-09-CL01,根据当前资料无法确认。,refusal,HIGH,DETERMINISTIC_PROVISIONAL_PROXY,False,RET-09,False,[],A,
+citation omission only; evidence support detected,[],False,False,,A-RET-10-CL01,体育场馆预约：应用导航-场地资源预约。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,RET-10,True,"[""C3"", ""C1""]",A,
+,[],False,False,,A-RET-10-CL02,开放时间及使用规则：根据当前资料无法确认。,refusal,HIGH,DETERMINISTIC_PROVISIONAL_PROXY,False,RET-10,False,[],A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-001-CL01,新生不能按时报到时，可以向录取学院、学系请假，并申请保留入学资格。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-001,True,"[""C1"", ""C4"", ""C2""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-002-CL01,在校本科生或研究生办理在学证明，可以到所在院系教学办审批并签字盖章。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-002,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-002-CL02,如需打印，可到自助服务终端（六教A区零层入口处、紫荆C楼102）直接办理，或到注册中心（紫荆C楼201）手工办理。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-002,True,"[""C2"", ""C5"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-003-CL01,学生不服学校处理或纪律处分时，校内申诉由学生申诉处理委员会办理。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-003,True,"[""C1"", ""C5"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-004-CL01,清华学生社团的建设、成立和日常管理依据《清华大学学生社团建设管理办法》。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-004,True,"[""C5"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-005-CL01,应查看《清华大学学生宿舍申请表》并提交给院系主管学生工作负责人签字、盖章。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-005,True,"[""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-006-CL01,请查看清华档案馆官网或学生职业发展指导中心网站，查询邮寄地址和邮编。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-006,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-007-CL01,饮食服务中心,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-007,True,"[""C1"", ""C3"", ""C2""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-008-CL01,教工餐厅信息应查看教工餐厅资料。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-008,True,"[""C3"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-009-CL01,请查看清华接待服务中心的官方公众号或小程序，其中详细列出了校车线路、班次和校园出入口交通指引。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-009,True,"[""C4"", ""C3"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-010-CL01,在清华办理生育医疗费用报销需要查看以下程序：,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-010,True,"[""C2"", ""C3"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-010-CL02,生育医疗报销程序 - 清华大学信息门户,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-010,True,"[""C2"", ""C5"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-010-CL03,医保定点医院选择,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-010,True,"[""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-010-CL04,出示“社会保障卡”,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-010,True,"[""C2""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-010-CL05,提交相关材料,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-010,True,"[""C2"", ""C1"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-010-CL06,填写《北京市生育保险医疗费用手工报销申报表》,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-010,True,"[""C3"", ""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-011-CL01,可以，清华大学医院自2024年7月1日起与北京市114预约挂号平台实现直连。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-011,True,"[""C1"", ""C3"", ""C4""]",A,
+,"[""C1""]",True,True,True,A-PROV-012-CL01,校园网络运行和基础网络服务的信息由资料说明。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-012,True,"[""C2"", ""C5"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-013-CL01,遇到学校信息化账号或网络使用问题时，应到用户服务大厅寻求帮助。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-013,True,"[""C1"", ""C4""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-014-CL01,图书借还规则和操作说明在清华图书馆主页上。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-014,True,"[""C2"", ""C4"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-015-CL01,进入清华大学图书馆需要遵守以下入馆管理办法：,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-015,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-015-CL02,校内读者凭本人有效图书证入馆。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-015,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-015-CL03,校外读者按规定办理手续后入馆。,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-015,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-015-CL04,清华校友凭校友卡或毕业证（或复印件），附上有效身份证件，可进入校图书馆。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-015,True,"[""C1"", ""C2"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-015-CL05,注意防火安全，严禁在馆内吸烟。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-015,True,"[""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-015-CL06,饮料需置于防溢出容器内，不可携带气味食物、外卖盒餐等入馆。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-015,True,"[""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-015-CL07,保持安静，手持电话置于静音状态。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-015,True,"[""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-015-CL08,衣着整齐，举止文明礼貌。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-015,True,"[""C2"", ""C1""]",A,
+,[],False,False,,A-PROV-015-CL09,,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-015,False,[],A,unsupported inference
+citation omission only; evidence support detected,[],False,False,,A-PROV-016-CL01,清华师生可通过馆际互借服务获取外馆文献。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-016,True,"[""C2"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-017-CL01,综合体育馆总建筑面积12547.85平米，总观众席位4502个，可满足国际比赛和现场电视转播的要求。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-017,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-017-CL02,为2001年第21届世界大学生运动会男子篮球比赛场馆，2008年北京奥运会男子篮球和轮椅篮球训练场馆。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-017,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-018-CL01,清华大学特等奖学金评选办法如下：,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-018,True,"[""C1"", ""C2"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-018-CL02,评选机构通过现场答辩形式组织复评，形成推荐名单，提请校务会议审议。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-018,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-018-CL03,校务会议讨论决定特等奖学金表彰名单。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-018,True,"[""C2"", ""C1"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-018-CL04,特等奖学金表彰名单在学校信息门户网站予以公示。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-018,True,"[""C2"", ""C1"", ""C3""]",A,
+,[],False,False,,A-PROV-019-CL01,根据当前资料，国家助学贷款发放后应遵守以下贷后管理规定：,meta,HIGH,DETERMINISTIC_PROVISIONAL_PROXY,False,PROV-019,True,"[""C1"", ""C3"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-019-CL02,做好贷款学生信息建档工作。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-019,True,"[""C1"", ""C2"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-019-CL03,做好诚信教育工作。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-019,True,"[""C1"", ""C3"", ""C2""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-019-CL04,贷款学生在校期间有下列行为的，学校将通知经办银行停止发放助学贷款，并要求一次性偿还贷款本息：,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-019,True,"[""C3"", ""C1"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-019-CL05,未按合同规定的用途使用贷款；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-019,True,"[""C3"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-019-CL06,违法乱纪行为受到学校纪律处分或有关部门刑事处罚；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-019,True,"[""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-019-CL07,中途辍学、退学、转学、被学校开除或取消学籍；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-019,True,"[""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-019-CL08,学习不刻苦,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-019,True,"[""C3"", ""C5"", ""C4""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-020-CL01,国际学生可查询不同签证类型如下：X1签证颁发给长期学习，需在入境后30日内申请学习类居留许可；,procedural,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-020,True,"[""C2"", ""C4"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-020-CL02,X2签证颁发给短期学习，有效期以签证注明为准。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-020,True,"[""C4"", ""C2"", ""C5""]",A,
+,[],False,False,,A-PROV-021-CL01,根据当前资料无法确认。,refusal,HIGH,DETERMINISTIC_PROVISIONAL_PROXY,False,PROV-021,False,[],A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-022-CL01,学生职业发展指导中心提供生涯咨询、专项辅导、朋辈辅导、求职技巧实训等就业服务。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-022,True,"[""C3"", ""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-023-CL01,可以找以下服务：,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-023,True,"[""C5"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-023-CL02,生涯咨询**：李锋亮、马昱春、王大亮,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-023,True,"[""C1"", ""C2""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-023-CL03,简历修改**：朱李婧、陈旭东、董亮、赵梦圆,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-023,True,"[""C2"", ""C3"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-023-CL04,模拟面试**：张杨、关麟凤、俞婷君,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-023,True,"[""C4"", ""C2"", ""C5""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-024-CL01,可以查询开放设备并预约测试，详情请访问清华仪器共享服务平台。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-024,True,"[""C1"", ""C2""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-025-CL01,通讯作者为我校师生在IEEE金色OA期刊或混合OA期刊发表OA论文时，可获得9折费用折扣。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-025,True,"[""C1"", ""C2"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-025-CL02,优惠范围包括Full Open Access与Hybrid Open Access期刊。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-025,True,"[""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-025-CL03,优惠时间截至2026年12月31日。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-025,True,"[""C2"", ""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-026-CL01,信息化教学环境服务负责学校信息化教室、录播系统和教学技术支持。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-026,True,"[""C2"", ""C4"", ""C3""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-027-CL01,清华专业学位人才培养项目采用“高端定位、清华特色、中国视角”的建设标准。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-027,True,"[""C1"", ""C2"", ""C4""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL01,单位号：000 建筑学院 jzxy；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL02,土木系 tmx；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL03,水利系 slx；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL04,环境学院 hjxy；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL05,机械学院 jxxy；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL06,机械系 jxx；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL07,精仪系 jyx；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL08,能动系 ndx；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL09,车辆学院 clxy；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL10,工业工程系 gygcx；,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL11,信息学院 xxxy。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1"", ""C3"", ""C2""]",A,
+citation omission only; evidence support detected,[],False,False,,A-PROV-028-CL12,简称：建筑学院、土木工程系,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,PROV-028,True,"[""C1""]",A,
+,"[""C1""]",True,True,True,B-A17-CL01,电磁感应定律的物理含义是：闭合回路中的感应电动势等于磁通量减小的速率。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A17,True,"[""C1""]",B,
+,[],False,False,,B-A15-CL01,p值和显著性水平是统计学中用来判断假设检验结果是否显著的两个重要概念。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A15,False,[],B,unsupported inference
+,[],False,False,,B-A15-CL02,p值是指在假设检验中，如果原假设为真，随机抽样得到当前样本结果或更极端结果的概率。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A15,False,[],B,unsupported inference
+,[],False,False,,B-A15-CL03,通常，p值越小，说明样本结果越极端，越有理由拒绝原假设。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A15,False,[],B,unsupported inference
+,[],False,False,,B-A15-CL04,显著性水平（通常用α表示）是检验的门槛，如果p值小于显著性水平，那么我们拒绝原假设，认为样本结果显著，即原假设不成立。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A15,False,[],B,unsupported inference
+,"[""C1"", ""C3""]",True,False,True,B-A15-CL05,显著性水平决定了我们愿意接受的错误概率，通常取值为0.05、0.01等。-,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A15,False,[],B,wrong evidence interpretation
+,[],False,False,,B-A08-CL01,SVD分解在最小二乘中的作用是通过将最小二乘问题转化为求解SVD分解的最小二乘问题，从而简化求解过程。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A08,False,[],B,hallucinated fact / background knowledge injection
+,[],False,False,,B-A08-CL02,具体来说，最小二乘问题可以表示为求解一组向量的线性组合，使得这些向量与一组目标向量之间的误差平方和最小。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A08,False,[],B,unsupported inference
+,[],False,False,,B-A08-CL03,SVD分解可以将这个问题转化为求解一组向量的线性组合，使得这些向量与一组目标向量之间的误差平方和最小，从而简化求解过程。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A08,False,[],B,hallucinated fact / background knowledge injection
+,[],False,False,,B-A24-CL01,单位根检验和协整关系是两个不同的概念。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A24,False,[],B,unsupported inference
+,"[""C1"", ""C3""]",True,True,True,B-A24-CL02,单位根检验是用来判断时间序列数据是否为平稳的时间序列，而协整关系则是指在多个非平稳时间序列之间存在一种长期均衡关系，这种关系可以通过误差修正模型来表示。-,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A24,True,"[""C3""]",B,
+,[],False,False,,B-A26-CL01,Dijkstra算法要求边权非负的原因在于，如果边权为负，算法可能会陷入死循环。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A26,False,[],B,unsupported inference
+,[],False,False,,B-A26-CL02,具体来说，Dijkstra算法通过不断更新每个顶点的最短路径，如果某个顶点的最短路径已经被更新过，那么在后续的更新过程中，如果发现新的更短路径，算法会继续更新这个顶点的最短路径，直到找到所有可能的最短路径。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A26,False,[],B,over-generalization
+,[],False,False,,B-A26-CL03,然而，如果边权为负，算法可能会在某个顶点的最短路径已经被更新过的情况下，发现新的更短路径，从而导致算法陷入死循环。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A26,False,[],B,unsupported inference
+,[],False,False,,B-A26-CL04,因此，为了保证算法的正确性，Dijkstra算法要求边权非负。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A26,False,[],B,unsupported inference
+,[],False,False,,B-A02-CL01,二重积分换元时雅可比行列式的作用是将积分区域转换为新的坐标系，从而简化积分计算。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A02,False,[],B,unsupported inference
+,"[""C1"", ""C3""]",True,False,True,B-A02-CL02,在新的坐标系中，积分区域的面积保持不变，因此雅可比行列式可以用来计算新的坐标系下面积的变化，从而确定积分的大小。-,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,A02,False,[],B,wrong evidence interpretation
+,[],False,False,,B-C03-CL01,清华校医院的联系方式如下：,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,C03,False,[],B,unsupported inference
+,"[""C1""]",True,False,True,B-C03-CL02,清华大学医院,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,C03,False,[],B,wrong evidence interpretation
+citation omission only; evidence support detected,[],False,False,,B-C03-CL03,"[![](/__local/A/85/D5/AB4550590F1618BF6A6EF14BF24_A6A3D780_C40.jpg)](ksjs1.htm ""科室介绍"")",factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,C03,True,"[""C1"", ""C2""]",B,
+citation omission only; evidence support detected,[],False,False,,B-C03-CL04,"[![](/__local/A/64/15/A04C67F88BADD2327ED1E511037_17D35F10_B7F.jpg)](jyzn1.htm ""就医指南"")",factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,C03,True,"[""C1"", ""C2""]",B,
+citation omission only; evidence support detected,[],False,False,,B-C03-CL05,[![](/__local/E/28/2B/FB10AFBE9FB703811870466D478_338598B3_CC1.jpg),factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,C03,True,"[""C1"", ""C2""]",B,
+,[],False,False,,B-C03-CL06,清华校医院没有提供具体的联系方式，因此无法给出答案。,refusal,HIGH,DETERMINISTIC_PROVISIONAL_PROXY,False,C03,False,[],B,
+,[],False,False,,B-C01-CL01,由于提供的资料中没有关于清华图书馆今天关门时间的信息，因此无法回答这个问题。,refusal,HIGH,DETERMINISTIC_PROVISIONAL_PROXY,False,C01,False,[],B,
+,[],False,False,,B-G01-CL01,年量子计算领域有以下最新新闻：,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,G01,False,[],B,unsupported inference
+,"[""C1""]",True,False,True,B-G01-CL02,2026年3月16日，美国麻萨诸塞州的一处雪覆蓋的田野上，一位叫罗伯特戈达德的教授点燃了人类第一枚液态燃料火箭，它飞得很慢，最高只飞了12.5公尺，甚至还没有旁邊的穀倉高，飞行时间只有2.5秒。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,G01,True,"[""C3""]",B,
+citation omission only; evidence support detected,[],False,False,,B-G01-CL03,当时的新聞報道稱，紐約時報甚至寫社論嘲笑他，說他缺乏高中程度的物理常識，因為大家認為真空裡沒有空氣，火箭根本沒有東西可以推，就在此時，大西洋彼岸的奧地利薛丁格寫下了一行描述波動的方程式，沒有人知道這跟真實世界有什麼關係。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,G01,True,"[""C3""]",B,
+,"[""C2""]",True,True,True,B-G01-CL04,2026年，一台科技巨星的隕落（上）—英特爾的興起。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,G01,True,"[""C2""]",B,
+citation omission only; evidence support detected,[],False,False,,B-G01-CL05,英特爾的興起是因為在1926年,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,G01,True,"[""C2"", ""C3""]",B,
+,[],False,False,,B-G02-CL01,根据提供的资料，没有直接提到动态规划软件的市场规模。,meta,HIGH,DETERMINISTIC_PROVISIONAL_PROXY,False,G02,False,[],B,
+,[],False,False,,B-G02-CL02,因此，无法根据现有资料回答动态规划软件市场规模目前是多少的问题。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,G02,False,[],B,unsupported inference
+,"[""C1""]",True,True,True,B-N04-CL01,各国家和地区人口列表 - 维基百科，自由的百科全书,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,N04,True,"[""C1""]",B,
+,[],False,False,,B-N04-CL02,根据维基百科提供的信息，目前没有明确指出哪个国家的人口最多。,factual,MEDIUM,DETERMINISTIC_PROVISIONAL_PROXY,True,N04,False,[],B,unsupported inference
+,[],False,False,,B-N04-CL03,因此，无法给出一个确切的答案。,refusal,HIGH,DETERMINISTIC_PROVISIONAL_PROXY,False,N04,False,[],B,
+,[],False,False,,B-N02-CL01,由于提供的资料中没有关于苹果公司固定效果的信息，因此无法回答这个问题。,refusal,HIGH,DETERMINISTIC_PROVISIONAL_PROXY,False,N02,False,[],B,

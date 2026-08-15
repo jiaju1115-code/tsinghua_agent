@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "fixture_only": true,
+  "heldout_e2e50_used": false,
+  "tokenizer_nonempty": true,
+  "bm25_deterministic": true,
+  "bm25_top_chunk_id": "fixture-a",
+  "rrf_tie_breaking_spec": "rrf_score descending, then chunk_id ascending",
+  "required_result_fields": [
+    "rank",
+    "chunk_id",
+    "source_id",
+    "dense_rank",
+    "dense_score",
+    "bm25_rank",
+    "bm25_score",
+    "rrf_score"
+  ]
+}

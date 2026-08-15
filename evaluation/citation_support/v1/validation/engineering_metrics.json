@@ -1,0 +1,48 @@
+{
+  "artifact": "Citation / Support Runtime V1 engineering validation metrics",
+  "created_at_utc": "2026-08-15T04:40:35.399296+00:00",
+  "metric_scope": "runtime engineering only; not citation correctness, accuracy, recall, or claim coverage",
+  "unit_tests": {
+    "passed": 16,
+    "total": 16,
+    "pass_rate_count": "16/16",
+    "pass_rate_percent": 100.0
+  },
+  "integration": {
+    "passed_cases": 4,
+    "total_cases": 4,
+    "live_cases": 3,
+    "fixture_cases": 1,
+    "evidence_decisions_covered": [
+      "INSUFFICIENT",
+      "PARTIAL",
+      "SUFFICIENT"
+    ],
+    "support_statuses_covered": [
+      "BLOCKED",
+      "PARTIAL",
+      "READY"
+    ],
+    "class_coverage_passed": true
+  },
+  "determinism": {
+    "excluding_latency_ms": true,
+    "passed": true
+  },
+  "contract_checks": {
+    "span_validation_scenarios": [
+      "invalid_span",
+      "span_mismatch",
+      "adjacent_span_normalization",
+      "empty_support"
+    ],
+    "mapping_scenarios": [
+      "chunk_outside_top5",
+      "source_mismatch",
+      "duplicate_supports",
+      "version_mismatch"
+    ],
+    "restricted_metadata_sanitization": "PASS"
+  },
+  "citation_correctness_measured": false
+}

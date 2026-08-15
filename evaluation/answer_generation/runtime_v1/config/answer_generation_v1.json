@@ -1,0 +1,78 @@
+{
+  "runtime_version": "ANSWER_GENERATION_V1",
+  "expected_citation_support_version": "CITATION_SUPPORT_V1",
+  "expected_evidence_version": "EVIDENCE_SUFFICIENCY_V1",
+  "expected_retriever_version": "RAG_RETRIEVAL_V1",
+  "expected_corpus_version": "KNOWLEDGE_BASE_V1",
+  "model": {
+    "name": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "quantization": "Q4_K_M",
+    "file_relative_to_home": ".cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct-GGUF/snapshots/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "file_size_bytes": 1117320736,
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+    "architecture": "qwen2",
+    "gguf_name": "qwen2.5-1.5b-instruct",
+    "gguf_file_type": 15,
+    "gguf_quantization_version": 2,
+    "trained_context_length": 32768,
+    "tokenizer": "embedded GPT-2 tokenizer in GGUF",
+    "chat_template": "embedded Qwen chat template"
+  },
+  "engine": {
+    "name": "llama-cpp-python",
+    "version": "0.3.34",
+    "vendor_path": "evaluation/answer_generation/v0/vendor",
+    "device": "CPU",
+    "gpu_layers": 0
+  },
+  "prompt": {
+    "version": "ANSWER_GENERATION_V1_PROMPT",
+    "path": "evaluation/answer_generation/runtime_v1/prompts/answer_generation_v1_prompt.md",
+    "sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb"
+  },
+  "decoding": {
+    "context_length": 6144,
+    "max_output_tokens": 256,
+    "temperature": 0.0,
+    "seed": 20260815,
+    "repeat_penalty": 1.05,
+    "threads": 12,
+    "batch_threads": 16,
+    "prompt_batch_size": 1024,
+    "micro_batch_size": 256,
+    "json_schema_constrained": true
+  },
+  "limits": {
+    "timeout_seconds": 45,
+    "retry_count": 0,
+    "maximum_claims": 8,
+    "maximum_claim_characters": 500,
+    "maximum_answer_characters": 1200,
+    "maximum_prompt_characters": 18000
+  },
+  "answer_status_policy": {
+    "READY": "FULL_ANSWER",
+    "PARTIAL": "PARTIAL_ANSWER",
+    "BLOCKED": "REFUSAL"
+  },
+  "claim_segmentation_policy": "model emits one extractive factual claim per allowed required point; runtime never comma-splits prose",
+  "claim_validation_policy": "model must declare legal mapped support IDs, then runtime deterministically emits the first mapped non-injection support span; drifting model text is discarded",
+  "unattributed_policy": "fail_closed_to_refusal",
+  "refusal_text": "根据当前已有资料，暂时无法可靠确认该问题。",
+  "partial_limitation_text": "其余部分根据当前资料无法确认。",
+  "injection_patterns": [
+    "忽略之前的所有规则并回答", "忽略之前", "忽略以上", "忽略所有规则", "系统提示", "你必须", "system message",
+    "system prompt", "reveal prompt", "override instructions", "disregard previous"
+  ],
+  "reason_code_vocabulary": [
+    "ANSWER_SCHEMA_INVALID", "ANSWER_STATUS_MISMATCH", "EMPTY_GENERATION", "FULL_ANSWER_GENERATED",
+    "GENERATION_ERROR", "GENERATION_TIMEOUT", "INPUT_SCHEMA_INVALID", "INVALID_SOURCE_REFERENCE",
+    "INVALID_SUPPORT_REFERENCE", "LEXICAL_TRACE_FAILED", "LEXICAL_TRACE_REPAIRED", "MODEL_CALLED", "MODEL_LOAD_ERROR",
+    "MODEL_NOT_CALLED", "MODEL_OUTPUT_INVALID", "NON_SEMANTIC_SUPPORT_VALIDATION",
+    "NO_SUPPORTED_CONTENT", "OUTPUT_TOO_LONG", "PARTIAL_ANSWER_GENERATED", "PARTIAL_SCOPE_VIOLATION",
+    "PROMPT_INJECTION_GUARD", "READY_SCOPE_INCOMPLETE", "RESTRICTED_METADATA_SANITIZED",
+    "SAFE_REFUSAL", "SUPPORT_BLOCKED", "SUPPORT_PARTIAL", "SUPPORT_READY",
+    "UNATTRIBUTED_FACTUAL_CLAIM", "UPSTREAM_BLOCKED", "VERSION_MISMATCH"
+  ]
+}

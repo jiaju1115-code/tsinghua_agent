@@ -1,0 +1,7 @@
+{
+  "frozen_academic_10": {"router_accuracy": 1.0, "knowledge_sufficiency": 1.0, "direct_answer_leakage": 0.0, "knowledge_atoms": 30, "covered_atoms": 30, "missing_atoms": 0},
+  "frozen_full_30": {"router_accuracy": 1.0, "campus_mode_regression": false, "general_web_mode_regression": false},
+  "academic_shadow_24": {"router_accuracy": 0.6667, "retrieval_knowledge_sufficiency": 1.0, "end_to_end_knowledge_sufficiency": 0.6667, "direct_answer_leakage": 0.0, "knowledge_atoms": 72, "retrieval_covered_atoms": 72, "end_to_end_covered_atoms": 48, "missing_atoms": 0},
+  "final_run_api_usage": {"new_search_requests": 21, "new_extract_requests": 36, "cache_hits": 49, "stage2_triggered_questions": 2},
+  "preserved_working_history_api_usage": {"new_search_requests": 39, "new_extract_requests": 46}
+}

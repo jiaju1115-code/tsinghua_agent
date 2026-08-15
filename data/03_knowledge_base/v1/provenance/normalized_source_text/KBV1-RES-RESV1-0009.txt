@@ -1,0 +1,235 @@
+# 研究生专业___清华大学综合信息服务
+
+- Source: https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=e58693887c1ab7df017c1aca21f50008
+
+研究生专业
+全部导出Excel
+系所 系所名 专业 专业名 学生类型 英文专业名 学科门类 学科门类名称
+000 建筑学院 081300 建筑学 博士硕士 Architecture 08 工学
+000 建筑学院 081400 土木工程 博士硕士 Civil Engineering 08 工学
+000 建筑学院 083300 城乡规划学 博士硕士 Urban and Rural Planning 08 工学
+000 建筑学院 083400 风景园林学 博士硕士 Landscape Architecture 08 工学
+000 建筑学院 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology 08 工学
+000 建筑学院 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+003 土木工程系 081400 土木工程 博士硕士 Civil Engineering 08 工学
+003 土木工程系 082300 交通运输工程 硕士 Transportation Engineering 08 工学
+003 土木工程系 120100 管理科学与工程 博士硕士 Management Science and Engineering 08 工学
+003 土木工程系 99070008 交通与城镇化 博士硕士 Transportation and Urbanization 08 工学
+003 土木工程系 99070012 交通与城镇化 博士硕士 Transportation and Urbanization 12 管理学
+003 土木工程系 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+004 水利水电工程系 081400 土木工程 博士硕士 Civil Engineering 08 工学
+004 水利水电工程系 081500 水利工程 博士硕士 Hydraulic Engineering 08 工学
+004 水利水电工程系 120100 管理科学与工程 博士硕士 Management Science and Engineering 08 工学
+004 水利水电工程系 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+005 环境学院 081400 土木工程 博士硕士 Civil Engineering 08 工学
+005 环境学院 082700 核科学与技术 博士硕士 Nuclear Science and Technology 08 工学
+005 环境学院 083000 环境科学与工程 博士硕士 Environmental Science and Engineering 08 工学
+005 环境学院 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology 08 工学
+012 机械工程系 080200 机械工程 博士硕士 Mechanical Engineering 08 工学
+012 机械工程系 080500 材料科学与工程 博士硕士 Materials Science and Engineering 08 工学
+012 机械工程系 082500 航空宇航科学与技术 博士硕士 Aeronautical and Astronautical Science and Technology 08 工学
+012 机械工程系 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineerin 08 工学
+013 精密仪器系 080200 机械工程 博士硕士 Mechanical Engineering 08 工学
+013 精密仪器系 080300 光学工程 博士硕士 Optical Engineering 08 工学
+013 精密仪器系 080400 仪器科学与技术 博士硕士 Instrument Science and Technology 08 工学
+013 精密仪器系 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+014 能源与动力工程系 080700 动力工程及工程热物理 博士硕士 Power Engineering and Engineering Thermal Physics 08 工学
+014 能源与动力工程系 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology 08 工学
+014 能源与动力工程系 990600 空天动力与燃气轮机 博士硕士 Aerospace Power and Gas Turbine 08 工学
+015 车辆与运载学院 080200 机械工程 博士硕士 Mechanical Engineering 08 工学
+015 车辆与运载学院 080700 动力工程及工程热物理 博士硕士 Power Engineering and Engineering Thermal Physics 08 工学
+015 车辆与运载学院 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology 08 工学
+015 车辆与运载学院 990500 智能电动车辆 博士硕士 Intelligent electric vehicle 08 工学
+015 车辆与运载学院 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+016 工业工程系 071400 统计学 博士 Statistics 07 理学
+016 工业工程系 080200 机械工程 博士硕士 Mechanical Engineering 08 工学
+016 工业工程系 120100 管理科学与工程 博士硕士 Management Science and Engineering 08 工学
+016 工业工程系 990400 工业工程 博士硕士 Industrial Engineering 08 工学
+016 工业工程系 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+022 电机工程与应用电子技术系 080800 电气工程 博士硕士 Electrical Engineering 08 工学
+022 电机工程与应用电子技术系 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology 08 工学
+023 电子工程系 080900 电子科学与技术 博士硕士 Electronic Science and Technology 08 工学
+023 电子工程系 081000 信息与通信工程 博士硕士 Information and Communication Engineering 08 工学
+023 电子工程系 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+024 计算机科学与技术系 081200 计算机科学与技术 博士硕士 Computer Science and Technology 08 工学
+024 计算机科学与技术系 083500 软件工程 博士硕士 Software Engineering 08 工学
+024 计算机科学与技术系 083900 网络空间安全 博士硕士 Cyberspace Security 08 工学
+024 计算机科学与技术系 140500 智能科学与技术 博士硕士 Intelligence Science and Technology 08 工学
+025 自动化系 081100 控制科学与工程 博士硕士 Control Science and Engineering 08 工学
+025 自动化系 140500 智能科学与技术 博士硕士 Intelligence Science and Technology 08 工学
+025 自动化系 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+026 集成电路学院 080900 电子科学与技术 博士硕士 Electronic Science and Technology 08 工学
+026 集成电路学院 140100 集成电路科学与工程 博士硕士 Integrated Circuits Science and Engineering 08 工学
+031 航天航空学院 080100 力学 博士硕士 Mechanics 08 工学
+031 航天航空学院 080700 动力工程及工程热物理 博士硕士 Power Engineering and Engineering Thermal Physics 08 工学
+031 航天航空学院 082500 航空宇航科学与技术 博士硕士 Aeronautical and Astronautical Science and Technology 08 工学
+031 航天航空学院 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+032 工程物理系 070200 物理学 博士硕士 Physics 07 理学
+032 工程物理系 082700 核科学与技术 博士硕士 Nuclear Science and Technology 08 工学
+032 工程物理系 083700 安全科学与工程 博士硕士 Safety Science and Engineering 08 工学
+032 工程物理系 140200 国家安全学 博士硕士 National Security Studies 08 工学
+034 化学工程系 080500 材料科学与工程 博士硕士 Materials Science and Engineering 08 工学
+034 化学工程系 081700 化学工程与技术 博士硕士 Chemical Engineering and Technology 08 工学
+034 化学工程系 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology 08 工学
+035 材料学院 080500 材料科学与工程 博士硕士 Materials Science and Engineering 08 工学
+035 材料学院 082700 核科学与技术 博士硕士 Nuclear Science and Technology 08 工学
+042 数学科学系 070100 数学 博士硕士 Mathematics 07 理学
+042 数学科学系 071400 统计学 博士硕士 Statistics 07 理学
+043 物理系 070200 物理学 博士硕士 Physics 07 理学
+043 物理系 070400 天文学 博士硕士 Astronomy 07 理学
+043 物理系 070401 天体物理 博士硕士 Astrophysics 07 理学
+044 化学系 070300 化学 博士硕士 Chemistry 07 理学
+045 生命科学学院 071000 生物学 博士硕士 Biology 07 理学
+045 生命科学学院 140500 智能科学与技术 博士硕士 Intelligence Science and Technology 08 工学
+045 生命科学学院 14050007 智能科学与技术 博士硕士 Intelligence Science and Technology 07 理学
+046 地球系统科学系 070600 大气科学 博士硕士 Atmospheric Science 07 理学
+046 地球系统科学系 071300 生态学 博士硕士 Ecology 07 理学
+046 地球系统科学系 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology 07 理学
+047 交叉信息研究院 070200 物理学 博士硕士 Physics 07 理学
+047 交叉信息研究院 081200 计算机科学与技术 博士硕士 Computer Science and Technology 08 工学
+048 高等研究院 070100 数学 博士硕士 Mathematics 07 理学
+048 高等研究院 070200 物理学 博士硕士 Physics 07 理学
+048 高等研究院 070400 天文学 博士硕士 Astronomy 07 理学
+048 高等研究院 081200 计算机科学与技术 博士硕士 Computer Science and Technology 08 工学
+048 高等研究院 083900 网络空间安全 博士 Cyberspace Security 08 工学
+051 经济管理学院 020100 理论经济学 博士硕士 Theoretical Economics 02 经济学
+051 经济管理学院 020200 应用经济学 博士硕士 Applied Economics 02 经济学
+051 经济管理学院 120100 管理科学与工程 博士硕士 Management Science and Engineering 12 管理学
+051 经济管理学院 120200 工商管理 博士硕士 Business Administration 12 管理学
+051 经济管理学院 12020001 工商管理学 博士硕士 Business Administration 12 管理学
+059 公共管理学院 030800 纪检监察学 博士硕士 Discipline Inspection and Supervision 03 法学
+059 公共管理学院 120400 公共管理 博士硕士 Public Administration 12 管理学
+059 公共管理学院 12040001 公共管理学 博士硕士 Public Administration 12 管理学
+059 公共管理学院 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology 12 管理学
+060 五道口金融学院 020200 应用经济学 博士硕士 Applied Economics 02 经济学
+064 外国语言文学系 050200 外国语言文学 博士硕士 Foreign Languages and Literatures 05 文学
+066 法学院 030100 法学 博士硕士 Science of Law 03 法学
+067 新闻与传播学院 050300 新闻传播学 博士硕士 Journalism and Communication 05 文学
+068 马克思主义学院 030500 马克思主义理论 博士硕士 Theory of Marxism 03 法学
+068 马克思主义学院 030700 中共党史党建学 博士硕士 Subject on History and Construction of the CPC 03 法学
+069 人文学院 010100 哲学 博士硕士 Philosophy 01 哲学
+069 人文学院 050100 中国语言文学 博士硕士 Chinese Language and Literature 05 文学
+069 人文学院 050200 外国语言文学 博士硕士 Foreign Languages and Literatures 05 文学
+069 人文学院 060200 中国史 博士硕士 History of China 06 历史学
+069 人文学院 060300 世界史 博士硕士 World History 06 历史学
+069 人文学院 071200 科学技术史 博士硕士 History of Science and Technology 07 理学
+069 人文学院 99020005 古文字学 博士硕士 Chinese Paleography 05 文学
+069 人文学院 99020006 古文字学 博士硕士 Chinese Paleography 06 历史学
+070 社会科学学院 010100 哲学 博士硕士 Philosophy 01 哲学
+070 社会科学学院 020100 理论经济学 博士硕士 Theoretical Economics 02 经济学
+070 社会科学学院 030200 政治学 博士硕士 Political Science 03 法学
+070 社会科学学院 030300 社会学 博士硕士 Sociology 03 法学
+070 社会科学学院 040200 心理学 博士硕士 Psychology 04 教育学
+070 社会科学学院 040300 体育学 博士硕士 Physical Education and Sport Science 04 教育学
+070 社会科学学院 071200 科学技术史 硕士 History of Science and Technology 07 理学
+080 美术学院 130100 艺术学理论 博士硕士 Art Theory 13 艺术学
+080 美术学院 13010001 艺术学 博士硕士 Art 13 艺术学
+080 美术学院 130400 美术学 博士硕士 Fine Art 13 艺术学
+080 美术学院 130500 设计学 博士硕士 Design 13 艺术学
+080 美术学院 140300 设计学 博士硕士 Design 13 艺术学
+080 美术学院 99J100 信息艺术设计 硕士 Information and Art Design
+088 统计与数据科学系 071400 统计学 博士硕士 Statistics 07 理学
+090 土木水利学院 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+092 天文系 070400 天文学 博士硕士 Astronomy 07 理学
+093 安全科学学院 083700 安全科学与工程 博士硕士 Safety Science and Engineering 08 工学
+093 安全科学学院 140200 国家安全学 博士硕士 National Security Studies 08 工学
+093 安全科学学院 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+094 人工智能学院 080900 电子科学与技术 博士硕士 Electronic Science and Technology 08 工学
+094 人工智能学院 081000 信息与通信工程 博士硕士 Information and Communication Engineering 08 工学
+094 人工智能学院 081100 控制科学与工程 博士硕士 Control Science and Engineering 08 工学
+094 人工智能学院 081200 计算机科学与技术 博士硕士 Computer Science and Technology 08 工学
+095 心理与认知科学系 040200 心理学 博士硕士 Psychology 04 教育学
+095 心理与认知科学系 04020007 心理学 博士硕士 Psychology 07 理学
+096 万科公共卫生与健康学院 083100 生物医学工程 博士 Biomedical Engineering 08 工学
+096 万科公共卫生与健康学院 990300 公共卫生与健康 博士硕士 Public Health 10 医学
+096 万科公共卫生与健康学院 99030008 公共卫生与健康 博士硕士 Public Health 08 工学
+101 核能与新能源技术研究院 080500 材料科学与工程 博士硕士 Materials Science and Engineering 08 工学
+101 核能与新能源技术研究院 081700 化学工程与技术 博士硕士 Chemical Engineering and Technology 08 工学
+101 核能与新能源技术研究院 082700 核科学与技术 博士硕士 Nuclear Science and Technology 08 工学
+101 核能与新能源技术研究院 083000 环境科学与工程 博士硕士 Environmental Science and Engineering 08 工学
+101 核能与新能源技术研究院 120100 管理科学与工程 博士硕士 Management Science and Engineering 12 管理学
+101 核能与新能源技术研究院 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology 12 管理学
+103 教育学院 040100 教育学 博士硕士 Education 04 教育学
+103 教育学院 0401Z1 研究生教育学 博士硕士 04 教育学
+103 教育学院 120400 公共管理 博士硕士 Public Administration 12 管理学
+103 教育学院 99J600 工程教育学 博士硕士 Engineering Education 04 教育学
+402 药学院 071000 生物学 博士硕士 Biology 07 理学
+402 药学院 100700 药学 博士硕士 Pharmaceutical Science 07 理学
+405 临床医学院 100200 临床医学 博士硕士 Clinical Medicine 10 医学
+410 软件学院 083500 软件工程 博士硕士 Software Engineering 08 工学
+412 网络科学与网络空间研究院 083900 网络空间安全 博士硕士 Cyberspace Security 08 工学
+413 国际与地区研究院 020100 理论经济学 博士 Theoretical Economics 02 经济学
+413 国际与地区研究院 030100 法学 博士 Science of Law 03 法学
+413 国际与地区研究院 030200 政治学 博士 Political Science 03 法学
+413 国际与地区研究院 030300 社会学 博士 Sociology 03 法学
+413 国际与地区研究院 050200 外国语言文学 博士 Foreign Languages and Literatures 05 文学
+413 国际与地区研究院 050300 新闻传播学 博士 Journalism and Communication 05 文学
+413 国际与地区研究院 060300 世界史 博士 World History 06 历史学
+413 国际与地区研究院 071300 生态学 博士 Ecology 07 理学
+413 国际与地区研究院 081500 水利工程 博士 Hydraulic Engineering 08 工学
+413 国际与地区研究院 120400 公共管理 博士 Public Administration 12 管理学
+413 国际与地区研究院 12040001 公共管理学 博士 Public Administration 12 管理学
+413 国际与地区研究院 130100 艺术学理论 博士 Art Theory 13 艺术学
+413 国际与地区研究院 13010001 艺术学 博士 Art 13 艺术学
+413 国际与地区研究院 14070002 区域国别学 博士硕士 Country and Region Studies 02 经济学
+413 国际与地区研究院 14070003 区域国别学 博士硕士 Country and Region Studies 03 法学
+413 国际与地区研究院 14070005 区域国别学 博士硕士 Country and Region Studies 05 文学
+413 国际与地区研究院 14070006 区域国别学 博士硕士 Country and Region Studies 06 历史学
+415 航空发动机研究院 082500 航空宇航科学与技术 博士硕士 Aeronautical and Astronautical Science and Technology 08 工学
+415 航空发动机研究院 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+423 碳中和研究院 990100 碳中和系统科学与技术 博士硕士 Carbon Neutral System Science and Technology
+476 求真书院 070100 数学 博士硕士 Mathematics 07 理学
+500 医学院 080100 力学 博士硕士 Mechanics 08 工学
+500 医学院 080700 动力工程及工程热物理 博士硕士 Power Engineering and Engineering Thermal Physics 08 工学
+500 医学院 100200 临床医学 博士硕士 Clinical Medicine 10 医学
+501 基础医学院 071000 生物学 博士硕士 Biology 07 理学
+501 基础医学院 100100 基础医学 博士硕士 Basic Medical Sciences 10 医学
+502 生物医学工程学院 083100 生物医学工程 博士硕士 Biomedical Engineering 08 工学
+599 清华大学深圳国际研究生院 010100 哲学 博士硕士 Philosophy 01 哲学
+599 清华大学深圳国际研究生院 020200 应用经济学 博士硕士 Applied Economics 02 经济学
+599 清华大学深圳国际研究生院 030300 社会学 博士硕士 Sociology 03 法学
+599 清华大学深圳国际研究生院 070200 物理学 博士硕士 Physics 07 理学
+599 清华大学深圳国际研究生院 070300 化学 博士硕士 Chemistry 07 理学
+599 清华大学深圳国际研究生院 071000 生物学 博士硕士 Biology 07 理学
+599 清华大学深圳国际研究生院 080200 机械工程 博士硕士 Mechanical Engineering 08 工学
+599 清华大学深圳国际研究生院 080400 仪器科学与技术 博士硕士 Instrument Science and Technology 08 工学
+599 清华大学深圳国际研究生院 080500 材料科学与工程 博士硕士 Materials Science and Engineering 08 工学
+599 清华大学深圳国际研究生院 080800 电气工程 博士硕士 Electrical Engineering 08 工学
+599 清华大学深圳国际研究生院 080900 电子科学与技术 博士硕士 Electronic Science and Technology 08 工学
+599 清华大学深圳国际研究生院 081000 信息与通信工程 博士硕士 Information and Communication Engineering 08 工学
+599 清华大学深圳国际研究生院 081100 控制科学与工程 博士硕士 Control Science and Engineering 08 工学
+599 清华大学深圳国际研究生院 081200 计算机科学与技术 博士硕士 Computer Science and Technology 08 工学
+599 清华大学深圳国际研究生院 081300 建筑学 博士硕士 Architecture 08 工学
+599 清华大学深圳国际研究生院 081400 土木工程 博士硕士 Civil Engineering 08 工学
+599 清华大学深圳国际研究生院 081500 水利工程 博士硕士 Hydraulic Engineering 08 工学
+599 清华大学深圳国际研究生院 081700 化学工程与技术 博士硕士 Chemical Engineering and Technology 08 工学
+599 清华大学深圳国际研究生院 083000 环境科学与工程 博士硕士 Environmental Science and Engineering 08 工学
+599 清华大学深圳国际研究生院 083100 生物医学工程 博士硕士 Biomedical Engineering 08 工学
+599 清华大学深圳国际研究生院 120100 管理科学与工程 博士硕士 Management Science and Engineering 08 工学
+599 清华大学深圳国际研究生院 12010012 管理科学与工程 博士硕士 Management Science and Engineering 12 管理学
+599 清华大学深圳国际研究生院 120200 工商管理 博士硕士 Business Administration 12 管理学
+599 清华大学深圳国际研究生院 12020001 工商管理学 博士硕士 Business Administration 12 管理学
+599 清华大学深圳国际研究生院 120400 公共管理 硕士 Public Administration 12 管理学
+599 清华大学深圳国际研究生院 12040001 公共管理学 硕士 Public Administration 12 管理学
+599 清华大学深圳国际研究生院 130500 设计学 博士 Design 13 艺术学
+599 清华大学深圳国际研究生院 990400 工业工程 博士硕士 Industrial Engineering 08 工学
+599 清华大学深圳国际研究生院 990800 低空技术与工程 博士硕士 Low Altitude Technology and Engineering 08 工学
+599 清华大学深圳国际研究生院 99J200 环境科学与新能源技术 博士硕士 Environment Science and New Energy Technology 08 工学
+599 清华大学深圳国际研究生院 99J300 数据科学和信息技术 博士硕士 Data Science and Information Technology 08 工学
+599 清华大学深圳国际研究生院 99J400 精准医学与公共健康 博士硕士 Precision Medicine and Healthcare 08 工学
+600 清华-伯克利深圳学院 071000 生物学 博士硕士 Biology 07 理学
+600 清华-伯克利深圳学院 080400 仪器科学与技术 博士硕士 Instrument Science and Technology 08 工学
+600 清华-伯克利深圳学院 080500 材料科学与工程 博士硕士 Materials Science and Engineering 08 工学
+600 清华-伯克利深圳学院 080800 电气工程 博士硕士 Electrical Engineering 08 工学
+600 清华-伯克利深圳学院 080900 电子科学与技术 博士硕士 Electronic Science and Technology 08 工学
+600 清华-伯克利深圳学院 081000 信息与通信工程 博士硕士 Information and Communication Engineering 08 工学
+600 清华-伯克利深圳学院 081100 控制科学与工程 博士硕士 Control Science and Engineering 08 工学
+600 清华-伯克利深圳学院 081200 计算机科学与技术 博士硕士 Computer Science and Technology 08 工学
+600 清华-伯克利深圳学院 083000 环境科学与工程 博士硕士 Environmental Science and Engineering 08 工学
+600 清华-伯克利深圳学院 083100 生物医学工程 博士硕士 Biomedical Engineering 08 工学
+600 清华-伯克利深圳学院 120100 管理科学与工程 博士硕士 Management Science and Engineering 08 工学
+600 清华-伯克利深圳学院 99J200 环境科学与新能源技术 博士硕士 Environment Science and New Energy Technology 08 工学
+600 清华-伯克利深圳学院 99J300 数据科学和信息技术 博士硕士 Data Science and Information Technology 08 工学
+600 清华-伯克利深圳学院 99J400 精准医学与公共健康 博士硕士 Precision Medicine and Healthcare 08 工学
+601 清华大学全球创新学院 99J300 数据科学和信息技术 博士硕士 Data Science and Information Technology 08 工学
+共 227 条记录 首页 上一页 下一页 末页 1/1 转到 Go

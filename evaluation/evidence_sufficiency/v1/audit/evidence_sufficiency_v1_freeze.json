@@ -1,0 +1,224 @@
+{
+  "status": "EVIDENCE_SUFFICIENCY_V1_FROZEN",
+  "version": "EVIDENCE_SUFFICIENCY_V1",
+  "created_at_utc": "2026-08-15T03:57:07.358384+00:00",
+  "method": "deterministic_lexical_structural_support_proxy",
+  "semantic_entailment": false,
+  "public_api": "src.evidence_sufficiency_v1.evaluate_evidence(query, case_id, retrieval_result)",
+  "expected_retriever_version": "RAG_RETRIEVAL_V1",
+  "expected_corpus_version": "KNOWLEDGE_BASE_V1",
+  "expected_top_k": 5,
+  "decisions": [
+    "SUFFICIENT",
+    "PARTIAL",
+    "INSUFFICIENT"
+  ],
+  "configuration": {
+    "version": "EVIDENCE_SUFFICIENCY_V1",
+    "method": "deterministic_lexical_structural_support_proxy",
+    "semantic_entailment": false,
+    "expected_retriever_version": "RAG_RETRIEVAL_V1",
+    "expected_corpus_version": "KNOWLEDGE_BASE_V1",
+    "expected_top_k": 5,
+    "max_required_points": 5,
+    "min_usable_text_chars": 40,
+    "supported_point_score": 0.52,
+    "partial_point_score": 0.18,
+    "document_relevance_score": 0.08,
+    "max_support_spans_per_point": 2,
+    "labels": [
+      "SUFFICIENT",
+      "PARTIAL",
+      "INSUFFICIENT"
+    ],
+    "policy_signals": {
+      "SUFFICIENT": "ALLOW_FULL_ANSWER",
+      "PARTIAL": "ALLOW_PARTIAL_ANSWER",
+      "INSUFFICIENT": "REQUIRE_REFUSAL"
+    },
+    "reason_codes": [
+      "CORE_POINTS_SUPPORTED",
+      "CORE_POINT_MISSING",
+      "REQUESTED_ATTRIBUTE_MISSING",
+      "EVIDENCE_ONLY_PARTIAL",
+      "EVIDENCE_IRRELEVANT",
+      "EVIDENCE_CONFLICT",
+      "TEMPORAL_SUPPORT_UNCLEAR",
+      "SOURCE_SUPPORT_TOO_WEAK",
+      "NO_USABLE_EVIDENCE",
+      "RETRIEVAL_ERROR",
+      "INPUT_SCHEMA_INVALID",
+      "VERSION_MISMATCH",
+      "REQUIRED_POINT_PARSE_FAILED",
+      "LEXICAL_PROXY_LIMITATION"
+    ],
+    "requested_attribute_vocabulary": [
+      "TIME",
+      "DEADLINE",
+      "LOCATION",
+      "PRICE",
+      "ELIGIBILITY",
+      "PROCEDURE",
+      "ENTRY",
+      "MATERIALS",
+      "CONTACT",
+      "OBJECT",
+      "CURRENT_STATUS"
+    ]
+  },
+  "freeze_gates": {
+    "historical_asset_audit_complete": true,
+    "v1_semantics_explicit": true,
+    "runtime_implementation_complete": true,
+    "retriever_v1_integration_pass": true,
+    "unit_tests_pass": true,
+    "deterministic_checks_pass": true,
+    "artifact_config_hashes_complete": true,
+    "upstream_frozen_files_unchanged": true,
+    "kb_v1_and_retriever_v1_unmodified": true,
+    "limitations_recorded": true,
+    "historical_metrics_not_misreported_as_e2e": true,
+    "no_model_or_network_runtime_dependency": true,
+    "semantic_entailment_not_fabricated": true
+  },
+  "upstream_inventory_sha256": "58f562d6a6f561d6c5df31614bd93d2c375452da6412fd3e71597f057e680f3f",
+  "upstream_file_count": 919,
+  "unit_test_summary": {
+    "tests_run": 10,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "integration_summary": {
+    "case_count": 3,
+    "overall_status": "PASS"
+  },
+  "historical_regression_summary": {
+    "classification": "HISTORICAL_CALIBRATION_COMPATIBILITY_REGRESSION",
+    "eligible_rows": 101,
+    "exact_agreement_pct": 43.5644,
+    "macro_f1": 0.345264,
+    "false_sufficient_count": 0,
+    "over_refusal_count": 48,
+    "held_out_claim": false
+  },
+  "known_material_limitations": [
+    "No genuine semantic entailment.",
+    "Historical regression is overlapping seen calibration/proxy data.",
+    "Severe historical over-refusal: 28/31 human-reference sufficient cases were not classified sufficient.",
+    "Supporting IDs and spans are not citation correctness."
+  ],
+  "artifact_manifest": {
+    "src/evidence_sufficiency_v1/__init__.py": {
+      "sha256": "a55d0bc37fae0d1cef3b8ed263d07294defff6a048462305e790b4b1b4667093",
+      "size_bytes": 129
+    },
+    "src/evidence_sufficiency_v1/runtime.py": {
+      "sha256": "5af82121cc2252038d47a61b6377049f7bedfbdc1e313de8199a8395312c8a42",
+      "size_bytes": 11763
+    },
+    "src/evidence_sufficiency_v1/schema.py": {
+      "sha256": "c2ae2149c94eba75af3f25fe0182e90bc9517ecb0d0e1c85d41fec1f4963806f",
+      "size_bytes": 1014
+    },
+    "src/evidence_sufficiency_v1/policy.py": {
+      "sha256": "ba8863431c70c4d5aa9772d4828b21c67792620c7a3ad3a2ba43cfebbe248ed3",
+      "size_bytes": 8053
+    },
+    "evaluation/evidence_sufficiency/v1/README.md": {
+      "sha256": "c1492816216dd679607e2d6c96b5d5b803654cea961c3d9087e74e5f59651853",
+      "size_bytes": 1777
+    },
+    "evaluation/evidence_sufficiency/v1/config/runtime_v1.json": {
+      "sha256": "0842e3716b435dc687842706cb45ecba992202da3241787c541d5db4a96c2c8a",
+      "size_bytes": 1297
+    },
+    "evaluation/evidence_sufficiency/v1/audit/historical_lineage.md": {
+      "sha256": "3f1d969bea5b439146b0dff699cddb5bc1b499b9a6c8ee954780092c1c4b1646",
+      "size_bytes": 4338
+    },
+    "evaluation/evidence_sufficiency/v1/audit/historical_logic_disposition.json": {
+      "sha256": "07adde63e0725f6971763a68fae9583e38d6bf7353e8fd2bfdb2f1c2c7fec69b",
+      "size_bytes": 2584
+    },
+    "evaluation/evidence_sufficiency/v1/audit/leakage_audit.json": {
+      "sha256": "7e2974938dd3f8b63d35535c351351954a646226ced29762c482a72662495428",
+      "size_bytes": 3944
+    },
+    "evaluation/evidence_sufficiency/v1/audit/pre_input_snapshot.json": {
+      "sha256": "41d16c4d32035203d0cdc1a60c2add81f5b6ba6180e8516648a862d11307d95e",
+      "size_bytes": 140229
+    },
+    "evaluation/evidence_sufficiency/v1/audit/post_input_snapshot.json": {
+      "sha256": "71bc761c20f01a83a66e6217416ed4dc42e52cf3384176ebded125937718cfc2",
+      "size_bytes": 140229
+    },
+    "evaluation/evidence_sufficiency/v1/tests/test_runtime.py": {
+      "sha256": "fd1a4dd7566523d849d1bfb0c6f5e1b22aab8c0dda4ed8fde67465887559df67",
+      "size_bytes": 6701
+    },
+    "evaluation/evidence_sufficiency/v1/tests/unit_test_results.json": {
+      "sha256": "b1ab65f7072bb00a09713a3772872609b9a91dbb691c204461b42ee7e72955d3",
+      "size_bytes": 2297
+    },
+    "evaluation/evidence_sufficiency/v1/tests/integration_results.json": {
+      "sha256": "ff5befe7c480b2a9421e1b1a1dcc55e106100d7349731398488b997c74a43831",
+      "size_bytes": 4816
+    },
+    "evaluation/evidence_sufficiency/v1/results/historical_regression_metrics.json": {
+      "sha256": "3ea337ac6a5f19444b8ecc6cc2066083842e0dbf914969e9ace4e1fa1ae2084f",
+      "size_bytes": 7000
+    },
+    "evaluation/evidence_sufficiency/v1/results/historical_regression_predictions.jsonl": {
+      "sha256": "c3ee447d5b840c6157acdadd512e9e67f578ea2f3c59dfa87fb4bcfa0461fd16",
+      "size_bytes": 69393
+    },
+    "scripts/capture_evidence_v1_input_snapshot.py": {
+      "sha256": "6ea14100d21d0442e13ad7471cc31dc4b8fe12a6ac9c8d8f6adae6bd66b78a9e",
+      "size_bytes": 2793
+    },
+    "scripts/run_evidence_sufficiency_v1_unit_tests.py": {
+      "sha256": "414c56cb64c2ec6f38a784b3d5142b7cbfbace72a49c8a52281ee183ddd0526f",
+      "size_bytes": 1749
+    },
+    "scripts/run_evidence_sufficiency_v1_historical_regression.py": {
+      "sha256": "c8691226f2583632e0a73057f744a975dd878fa73a7b71cec153ccf3f741abe3",
+      "size_bytes": 7868
+    },
+    "scripts/run_evidence_sufficiency_v1_integration.py": {
+      "sha256": "09cd7ef62e7c827fa6220ecc009defb47ca4ef4dacde47abf1c98bb96845d649",
+      "size_bytes": 4243
+    },
+    "scripts/audit_evidence_sufficiency_v1_leakage.py": {
+      "sha256": "a30787b72b4ea988be3e5ebfb118057b8f4a90703a4e1e9b72ea52a3fc17b04b",
+      "size_bytes": 7210
+    },
+    "scripts/finalize_evidence_sufficiency_v1.py": {
+      "sha256": "400d6b0474a89ef56e70f1d41b85b4fe6b88ccbe503559a3665f6d33b381fc6e",
+      "size_bytes": 9897
+    },
+    "reports/evidence_sufficiency_v1_report.md": {
+      "sha256": "0f6666c548a74874ff70d8895856ffb87da204e187e4e965c79a00fbcd36e76a",
+      "size_bytes": 11379
+    },
+    "evaluation/evidence_sufficiency/v1/audit/final_integrity_report.json": {
+      "sha256": "ccd5c2ceafdf1b1c26154c67eb66cf72838f794f333a5d8172baa73f24b269a3",
+      "size_bytes": 1099
+    }
+  },
+  "runtime_dependencies": {
+    "python": "3.12.5",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "runtime_module_external_dependencies": [],
+    "integration_only_versions": {
+      "numpy": "1.26.4",
+      "torch": "2.13.0",
+      "transformers": "5.13.0"
+    }
+  },
+  "forbidden_next_stages_executed": {
+    "answer_generation": false,
+    "citation_runtime": false,
+    "formal_e2e": false
+  }
+}

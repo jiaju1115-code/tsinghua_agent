@@ -1,0 +1,27 @@
+{
+  "artifact": "Evidence Sufficiency Runtime V1 final integrity report",
+  "created_at_utc": "2026-08-15T03:57:07.278309+00:00",
+  "pre_file_count": 919,
+  "post_file_count": 919,
+  "pre_inventory_sha256": "58f562d6a6f561d6c5df31614bd93d2c375452da6412fd3e71597f057e680f3f",
+  "post_inventory_sha256": "58f562d6a6f561d6c5df31614bd93d2c375452da6412fd3e71597f057e680f3f",
+  "added_upstream_files": [],
+  "removed_upstream_files": [],
+  "changed_upstream_files": [],
+  "gates": {
+    "historical_asset_audit_complete": true,
+    "v1_semantics_explicit": true,
+    "runtime_implementation_complete": true,
+    "retriever_v1_integration_pass": true,
+    "unit_tests_pass": true,
+    "deterministic_checks_pass": true,
+    "artifact_config_hashes_complete": true,
+    "upstream_frozen_files_unchanged": true,
+    "kb_v1_and_retriever_v1_unmodified": true,
+    "limitations_recorded": true,
+    "historical_metrics_not_misreported_as_e2e": true,
+    "no_model_or_network_runtime_dependency": true,
+    "semantic_entailment_not_fabricated": true
+  },
+  "overall_status": "PASS"
+}

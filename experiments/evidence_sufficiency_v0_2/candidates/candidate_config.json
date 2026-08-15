@@ -1,0 +1,17 @@
+{
+  "name": "Evidence Sufficiency V0.2 Final Candidate",
+  "variant": "v0.2-d",
+  "config": {
+    "support": 0.1,
+    "partial": 0.045,
+    "entity_overlap": 0.05,
+    "min_useful_chars": 55,
+    "nav_count": 3,
+    "nav_char_ceiling": 450,
+    "fragment_max_chars": 310,
+    "fragment_total_ceiling": 1800
+  },
+  "engine": "deterministic semantic span coverage",
+  "external_model": null,
+  "selection_reason": "Lowest false-sufficient count among candidates without the most severe sufficient-control collapse; development targets were not met."
+}

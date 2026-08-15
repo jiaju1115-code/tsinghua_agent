@@ -1,0 +1,78 @@
+{
+  "artifact": "Evidence Sufficiency Runtime V1 historical leakage and provenance audit",
+  "created_at_utc": "2026-08-15T03:49:06.824463+00:00",
+  "runtime_v1_training_data_used": false,
+  "runtime_v1_threshold_tuning_on_historical_data": false,
+  "runtime_v1_thresholds_locked_before_historical_regression": true,
+  "historical_v0_3": {
+    "row_count": 147,
+    "prior_usage_distribution": {
+      "SEEN_CALIBRATION": 147
+    },
+    "unique_normalized_queries": 49,
+    "normalized_query_duplicate_groups": 44,
+    "rows_in_normalized_query_duplicate_groups": 142,
+    "unique_query_evidence_hashes": 126,
+    "query_evidence_duplicate_groups_computed": 21,
+    "rows_in_query_evidence_duplicate_groups_computed": 42,
+    "source_query_variant_groups": 44,
+    "source_query_multi_variant_groups": 32,
+    "template_family_distribution": {
+      "REAL": 49,
+      "Pair query with a different preserved evidence package.": 7,
+      "Retain only short topic-adjacent preserved fragments.": 8,
+      "Retain only first preserved evidence item for a multi-point or full query.": 8,
+      "Use a preserved evidence package from a lexically adjacent but different query; no new evidence text.": 8,
+      "Replace content with preserved-navigation-only representation; no answer content retained.": 8,
+      "Identity preserved generation input; no evidence modification.": 20,
+      "WRONG_DOCUMENT": 12,
+      "TOPIC_RELATED_NOT_ANSWERING": 11,
+      "CONTAMINATED_EVIDENCE": 12,
+      "PARTIAL_COVERAGE": 4
+    },
+    "normalized_query_families_crossing_cv_folds": 40,
+    "normalized_query_family_count": 49,
+    "source_query_variant_families_crossing_cv_folds": 28,
+    "source_query_variant_family_count": 44,
+    "historical_threshold_selection_used_seen_calibration_data": true,
+    "threshold_selection_evidence": [
+      "experiments/evidence_sufficiency_v0_3/scripts/run_v0_3_cross_validation.py:20-23,121-150",
+      "experiments/evidence_sufficiency_v0_3/candidates/candidate_config.json"
+    ],
+    "cv_partition_risk": "Rows were assigned by record_id within label/type strata, not grouped by normalized query or source_query_id; related variants therefore crossed folds."
+  },
+  "exclusion_registry": {
+    "total_rows": 1425,
+    "v0_3_rows_registered": 147,
+    "v0_3_normalized_hash_row_matches": 147,
+    "v0_3_registration_coverage_pct": 100.0,
+    "v0_3_unique_registered_normalized_queries": 49,
+    "v0_3_unique_registered_query_evidence_canonical_hashes": 88,
+    "benchmark_normalized_query_overlaps": {
+      "rag_v1_eval_38": {
+        "benchmark_unique_normalized_queries": 38,
+        "overlap_with_v0_3_unique_normalized_queries": 38
+      },
+      "answer_generation_v0_38": {
+        "benchmark_unique_normalized_queries": 38,
+        "overlap_with_v0_3_unique_normalized_queries": 38
+      },
+      "router_v0_2_blind_42": {
+        "benchmark_unique_normalized_queries": 42,
+        "overlap_with_v0_3_unique_normalized_queries": 11
+      },
+      "e2e12": {
+        "benchmark_unique_normalized_queries": 12,
+        "overlap_with_v0_3_unique_normalized_queries": 11
+      }
+    }
+  },
+  "conclusions": [
+    "All 147 V0.3 calibration rows are explicitly registered for future exclusion.",
+    "Historical V0.3 metrics are not independent generalization evidence because all rows were seen calibration and related query families crossed CV folds.",
+    "Synthetic template variants have substantial family overlap with real/historical queries and must not be treated as held-out.",
+    "The Runtime V1 implementation did not train on these rows and did not alter its predeclared thresholds after regression.",
+    "A future truly held-out evaluation must exclude all registry hashes and group query/template families before splitting."
+  ],
+  "classification": "HISTORICAL_LEAKAGE_RISK_CONFIRMED_RUNTIME_V1_NOT_TUNED_ON_HISTORY"
+}

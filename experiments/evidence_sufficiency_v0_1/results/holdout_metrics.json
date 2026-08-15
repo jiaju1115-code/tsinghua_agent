@@ -1,0 +1,54 @@
+{
+  "n": 5,
+  "accuracy": {
+    "count": 5,
+    "rate": 1.0
+  },
+  "sufficient_precision": 1.0,
+  "sufficient_recall": 1.0,
+  "partial_recall": 1.0,
+  "insufficient_recall": 1.0,
+  "false_sufficient": {
+    "count": 0,
+    "rate": 0.0
+  },
+  "missed_sufficient": {
+    "count": 0,
+    "rate": 0.0
+  },
+  "macro_f1": 1.0,
+  "confusion_matrix": {
+    "EVIDENCE_SUFFICIENT": {
+      "EVIDENCE_SUFFICIENT": 1,
+      "EVIDENCE_PARTIAL": 0,
+      "EVIDENCE_INSUFFICIENT": 0
+    },
+    "EVIDENCE_PARTIAL": {
+      "EVIDENCE_SUFFICIENT": 0,
+      "EVIDENCE_PARTIAL": 1,
+      "EVIDENCE_INSUFFICIENT": 0
+    },
+    "EVIDENCE_INSUFFICIENT": {
+      "EVIDENCE_SUFFICIENT": 0,
+      "EVIDENCE_PARTIAL": 0,
+      "EVIDENCE_INSUFFICIENT": 3
+    }
+  },
+  "per_class": {
+    "EVIDENCE_SUFFICIENT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "EVIDENCE_PARTIAL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "EVIDENCE_INSUFFICIENT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  }
+}

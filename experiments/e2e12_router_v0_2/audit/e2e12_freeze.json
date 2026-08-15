@@ -1,0 +1,122 @@
+{
+  "status": "FROZEN",
+  "creation_time": "2026-08-14T03:54:52.030825+00:00",
+  "source_dataset": "D:\\python_projects\\tsinghua_ai\\experiments\\router_v0_2\\evaluation\\router_blind_shadow_set.json",
+  "source_dataset_sha256": "d965827dc4adb3afe9aac9a26eb6eed90b94f718794173a1cbaeb654c3009ade",
+  "selection_method": "sha256(stable_id || query || e2e12_router_v0_2), ascending within required stratum",
+  "sample_ids": [
+    "A17",
+    "A15",
+    "A08",
+    "A24",
+    "A26",
+    "A02",
+    "C03",
+    "C01",
+    "G01",
+    "G02",
+    "N04",
+    "N02"
+  ],
+  "samples": [
+    {
+      "sample_id": "A17",
+      "query": "电磁感应定律的物理含义是什么？",
+      "expected_route": "ACADEMIC_RETRIEVAL",
+      "category": "ACADEMIC",
+      "academic_subject": "大学物理",
+      "selection_sha256": "013d60466555c9092c4cae57ff354ab8f14deaa6d36a61b5a9934ed917ab8c4c"
+    },
+    {
+      "sample_id": "A15",
+      "query": "p值和显著性水平应该如何解释？",
+      "expected_route": "ACADEMIC_RETRIEVAL",
+      "category": "ACADEMIC",
+      "academic_subject": "概率统计",
+      "selection_sha256": "03b3cdd604627384597e6b40dcbd6dc5a2993d794b5644dda61545408b859e91"
+    },
+    {
+      "sample_id": "A08",
+      "query": "SVD分解在最小二乘中的作用如何解释？",
+      "expected_route": "ACADEMIC_RETRIEVAL",
+      "category": "ACADEMIC",
+      "academic_subject": "线性代数",
+      "selection_sha256": "0c28a7405686380e43397db1d09ea33b401103862df2253fa558b27c8e6284d6"
+    },
+    {
+      "sample_id": "A24",
+      "query": "单位根检验和协整关系有什么区别？",
+      "expected_route": "ACADEMIC_RETRIEVAL",
+      "category": "ACADEMIC",
+      "academic_subject": "经济学/计量",
+      "selection_sha256": "64bd03a136ba1b18574cc65c3ca6ab14663cc1439d019153fe041137b46daa69"
+    },
+    {
+      "sample_id": "A26",
+      "query": "Dijkstra算法为什么要求边权非负？",
+      "expected_route": "ACADEMIC_RETRIEVAL",
+      "category": "ACADEMIC",
+      "academic_subject": "计算机/算法",
+      "selection_sha256": "140592cb4b0448ac8c80f9f6c236c3fb6519ee472f501ac020c0c68faa431662"
+    },
+    {
+      "sample_id": "A02",
+      "query": "二重积分换元时雅可比行列式有什么作用？",
+      "expected_route": "ACADEMIC_RETRIEVAL",
+      "category": "ACADEMIC",
+      "academic_subject": "高等数学",
+      "selection_sha256": "300d52d290d84a475473ac5274bb69a58040710549bb51591ccddaf2ce7641d6"
+    },
+    {
+      "sample_id": "C03",
+      "query": "清华校医院联系方式是什么？",
+      "expected_route": "CAMPUS_PUBLIC",
+      "category": "CAMPUS",
+      "academic_subject": null,
+      "selection_sha256": "1153a11fbb45a19b8dbdd6ea043556aa598c603af53e887035ba8da2ae1305a6"
+    },
+    {
+      "sample_id": "C01",
+      "query": "清华图书馆今天几点关门？",
+      "expected_route": "CAMPUS_PUBLIC",
+      "category": "CAMPUS",
+      "academic_subject": null,
+      "selection_sha256": "2f98d5b73e3bb45aaaa0372a270eab0358ebfe6af61d40f2bcf56ab28f681698"
+    },
+    {
+      "sample_id": "G01",
+      "query": "2026年量子计算领域有哪些最新新闻？",
+      "expected_route": "GENERAL_WEB",
+      "category": "GENERAL",
+      "academic_subject": null,
+      "selection_sha256": "41e4dbef839835f379d938ccfe54b72d02a258a45e3fb050fcdcf0fcf857ef1f"
+    },
+    {
+      "sample_id": "G02",
+      "query": "动态规划软件市场规模目前是多少？",
+      "expected_route": "GENERAL_WEB",
+      "category": "GENERAL",
+      "academic_subject": null,
+      "selection_sha256": "57142e255f710222da1e1a04c080a05900cfb0c8bce5b7ea3e23bdb473fb6522"
+    },
+    {
+      "sample_id": "N04",
+      "query": "哪个国家的人口最多？",
+      "expected_route": "GENERAL_WEB",
+      "category": "HARD_NEGATIVE",
+      "academic_subject": null,
+      "selection_sha256": "18d33b6f48a0d6541429b838c06e3fb438cbbc7740ab9b24f0ed62b90f5269bf"
+    },
+    {
+      "sample_id": "N02",
+      "query": "苹果公司的固定效果是什么？",
+      "expected_route": "UNCERTAIN",
+      "category": "HARD_NEGATIVE",
+      "academic_subject": null,
+      "selection_sha256": "a4870be54a217e0380ea956d0b56e3c8e7fa85aead327ab34c6766f69f4c4cca"
+    }
+  ],
+  "canonical_json_sha256": "af96cb4862cd38ce669ba27ac1bc78964ab421cbb4af4b458d6e9927d58b6593",
+  "git_commit": "4aee0de85b3fd57fd5ffdb66ec9f5ca9e9e655de",
+  "working_tree_status": "recorded in pre_run_state.json"
+}

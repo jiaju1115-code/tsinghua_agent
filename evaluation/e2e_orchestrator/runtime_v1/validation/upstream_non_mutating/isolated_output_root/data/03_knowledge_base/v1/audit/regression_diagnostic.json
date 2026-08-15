@@ -1,0 +1,14 @@
+{
+  "artifact": "RAG Retrieval V1 functional regression diagnostic",
+  "created_at_utc": "2026-08-15T05:51:52.262559+00:00",
+  "error_count": 0,
+  "errors": [],
+  "input": "evaluation/rag/v1/evaluation/eval_queries.jsonl",
+  "input_sha256": "a70e5da1d7f58a1e6a05242c1e0e157841007d4c1c1f329de8eaf41a3e0133c9",
+  "processed_count": 38,
+  "query_count": 38,
+  "schema_failure_count": 0,
+  "schema_failures": [],
+  "scope": "Historical RAG V1 queries are used only to verify loading, source/chunk mapping, and output schema. This is not held-out evaluation and reports no retrieval-quality metric.",
+  "status": "PASS"
+}

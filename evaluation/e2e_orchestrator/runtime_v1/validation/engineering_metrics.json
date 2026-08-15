@@ -1,0 +1,129 @@
+{
+  "artifact": "Unified E2E Orchestrator V1 engineering metrics (validation cases only)",
+  "case_count": 4,
+  "natural_case_count": 2,
+  "contract_fixture_count": 2,
+  "held_out": false,
+  "quality_metric": false,
+  "pipeline_completion": {
+    "count": 4,
+    "percentage": 100.0
+  },
+  "e2e_error": {
+    "count": 0,
+    "percentage": 0.0
+  },
+  "evidence_insufficient": {
+    "count": 1,
+    "percentage": 25.0
+  },
+  "citation_blocked": {
+    "count": 1,
+    "percentage": 25.0
+  },
+  "answer_refusal": {
+    "count": 2,
+    "percentage": 50.0
+  },
+  "evidence_status_distribution": {
+    "INSUFFICIENT": {
+      "count": 1,
+      "percentage": 25.0
+    },
+    "PARTIAL": {
+      "count": 1,
+      "percentage": 25.0
+    },
+    "SUFFICIENT": {
+      "count": 2,
+      "percentage": 50.0
+    }
+  },
+  "citation_status_distribution": {
+    "BLOCKED": {
+      "count": 1,
+      "percentage": 25.0
+    },
+    "PARTIAL": {
+      "count": 1,
+      "percentage": 25.0
+    },
+    "READY": {
+      "count": 2,
+      "percentage": 50.0
+    }
+  },
+  "answer_status_distribution": {
+    "FULL_ANSWER": {
+      "count": 1,
+      "percentage": 25.0
+    },
+    "PARTIAL_ANSWER": {
+      "count": 1,
+      "percentage": 25.0
+    },
+    "REFUSAL": {
+      "count": 2,
+      "percentage": 50.0
+    }
+  },
+  "latency_ms": {
+    "retrieval": {
+      "count": 4,
+      "mean": 14.573,
+      "median": 17.401,
+      "values": [
+        23.492,
+        16.817,
+        17.984,
+        0.0
+      ]
+    },
+    "evidence": {
+      "count": 4,
+      "mean": 6.388,
+      "median": 5.766,
+      "values": [
+        11.531,
+        14.019,
+        0.0,
+        0.0
+      ]
+    },
+    "citation": {
+      "count": 4,
+      "mean": 1.772,
+      "median": 1.716,
+      "values": [
+        1.811,
+        0.992,
+        2.667,
+        1.62
+      ]
+    },
+    "answer": {
+      "count": 4,
+      "mean": 3585.033,
+      "median": 3.533,
+      "values": [
+        14332.287,
+        0.778,
+        4.476,
+        2.59
+      ]
+    }
+  },
+  "orchestration_overhead_ms": [
+    0.554,
+    0.625,
+    1.329,
+    0.612
+  ],
+  "total_latency_ms": [
+    14369.675,
+    33.231,
+    26.456,
+    4.822
+  ],
+  "natural_frozen_ready_coverage": 0
+}

@@ -1,0 +1,2457 @@
+{
+  "metrics": {
+    "n": 40,
+    "accuracy": {
+      "count": 29,
+      "rate": 0.725
+    },
+    "sufficient_precision": 0.0,
+    "sufficient_recall": null,
+    "partial_recall": 0.25,
+    "false_sufficient": {
+      "count": 6,
+      "denominator": 40,
+      "rate": 0.15
+    },
+    "missed_sufficient": {
+      "count": 0,
+      "denominator": 0,
+      "rate": null
+    },
+    "macro_f1": 0.3738450604122246,
+    "confusion_matrix": {
+      "EVIDENCE_SUFFICIENT": {
+        "EVIDENCE_SUFFICIENT": 0,
+        "EVIDENCE_PARTIAL": 0,
+        "EVIDENCE_INSUFFICIENT": 0
+      },
+      "EVIDENCE_PARTIAL": {
+        "EVIDENCE_SUFFICIENT": 0,
+        "EVIDENCE_PARTIAL": 1,
+        "EVIDENCE_INSUFFICIENT": 3
+      },
+      "EVIDENCE_INSUFFICIENT": {
+        "EVIDENCE_SUFFICIENT": 6,
+        "EVIDENCE_PARTIAL": 2,
+        "EVIDENCE_INSUFFICIENT": 28
+      }
+    },
+    "per_class": {
+      "EVIDENCE_SUFFICIENT": {
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0,
+        "support": 0
+      },
+      "EVIDENCE_PARTIAL": {
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1": 0.28571428571428575,
+        "support": 4
+      },
+      "EVIDENCE_INSUFFICIENT": {
+        "precision": 0.9032258064516129,
+        "recall": 0.7777777777777778,
+        "f1": 0.835820895522388,
+        "support": 36
+      }
+    },
+    "by_construction_type": {
+      "CONTAMINATED_EVIDENCE": {
+        "n": 12,
+        "correct": 12,
+        "accuracy": 1.0
+      },
+      "PARTIAL_COVERAGE": {
+        "n": 4,
+        "correct": 1,
+        "accuracy": 0.25
+      },
+      "TOPIC_RELATED_NOT_ANSWERING": {
+        "n": 12,
+        "correct": 8,
+        "accuracy": 0.6666666666666666
+      },
+      "WRONG_DOCUMENT": {
+        "n": 12,
+        "correct": 8,
+        "accuracy": 0.6666666666666666
+      }
+    }
+  },
+  "predictions": [
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-01",
+      "query": "清华校医院门诊、报销和就医流程是什么？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "清华校医院"
+          ],
+          "concepts": [
+            "医流程是",
+            "医院门诊",
+            "华校医院",
+            "和就医流",
+            "就医流程",
+            "报销和就",
+            "校医院门",
+            "流程是什"
+          ],
+          "required_points": [
+            "清华校医院门诊",
+            "报销",
+            "就医流程是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华校医院门诊",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              " A: 金融图书馆面向清华大学全校师生和金融学院校友开放服务"
+            ],
+            "semantic_score": 0.0667
+          },
+          {
+            "point": "报销",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "常见问题(FAQ) (2013年3月25日) (20年8月27日更新) - 1 Q: 金融图书馆开放时间"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "就医流程是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "常见问题(FAQ) (2013年3月25日) (20年8月27日更新) - 1 Q: 金融图书馆开放时间"
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 3,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 3
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-01",
+      "query": "清华校医院门诊、报销和就医流程是什么？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "清华校医院"
+          ],
+          "concepts": [
+            "医流程是",
+            "医院门诊",
+            "华校医院",
+            "和就医流",
+            "就医流程",
+            "报销和就",
+            "校医院门",
+            "流程是什"
+          ],
+          "required_points": [
+            "清华校医院门诊",
+            "报销",
+            "就医流程是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华校医院门诊",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              " A: 金融图书馆面向清华大学全校师生和金融学院校友开放服务"
+            ],
+            "semantic_score": 0.0667
+          },
+          {
+            "point": "报销",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "常见问题(FAQ) (2013年3月25日) (20年8月27日更新) - 1 Q: 金融图书馆开放时间"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "就医流程是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "常见问题(FAQ) (2013年3月25日) (20年8月27日更新) - 1 Q: 金融图书馆开放时间"
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 3,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 3
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-01",
+      "query": "清华校医院门诊、报销和就医流程是什么？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "清华校医院"
+          ],
+          "concepts": [
+            "医流程是",
+            "医院门诊",
+            "华校医院",
+            "和就医流",
+            "就医流程",
+            "报销和就",
+            "校医院门",
+            "流程是什"
+          ],
+          "required_points": [
+            "清华校医院门诊",
+            "报销",
+            "就医流程是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华校医院门诊",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.1333
+          },
+          {
+            "point": "报销",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "就医流程是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 3,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 3
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-PARTIAL-01",
+      "query": "清华校医院门诊、报销和就医流程是什么？",
+      "expected": "EVIDENCE_PARTIAL",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "PARTIAL_COVERAGE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "清华校医院"
+          ],
+          "concepts": [
+            "医流程是",
+            "医院门诊",
+            "华校医院",
+            "和就医流",
+            "就医流程",
+            "报销和就",
+            "校医院门",
+            "流程是什"
+          ],
+          "required_points": [
+            "清华校医院门诊",
+            "报销",
+            "就医流程是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华校医院门诊",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[检验医学科]( [输血科]( [超声科]( [药剂科]( [临床药学科]( [临床营养科]( [放射诊断科]( [核医学科]( [全科与健康医学部]( [全科医学科]( [健康管理中心]( [肝胆胰中心]("
+            ],
+            "semantic_score": 0.1333
+          },
+          {
+            "point": "报销",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[检验医学科]( [输血科]( [超声科]( [药剂科]( [临床药学科]( [临床营养科]( [放射诊断科]( [核医学科]( [全科与健康医学部]( [全科医学科]( [健康管理中心]( [肝胆胰中心]("
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "就医流程是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[检验医学科]( [输血科]( [超声科]( [药剂科]( [临床药学科]( [临床营养科]( [放射诊断科]( [核医学科]( [全科与健康医学部]( [全科医学科]( [健康管理中心]( [肝胆胰中心]("
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 3,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 3
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-02",
+      "query": "清华大学图书馆如何借书、使用电子资源和查询开放时间？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_PARTIAL",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_PARTIAL",
+        "query_analysis": {
+          "entities": [
+            "清华大学图书馆"
+          ],
+          "concepts": [
+            "书使用电",
+            "书馆如何",
+            "何借书使",
+            "使用电子",
+            "借书使用",
+            "华大学图",
+            "和查询开",
+            "图书馆如"
+          ],
+          "required_points": [
+            "清华大学图书馆如何借书",
+            "使用电子资源",
+            "查询开放时间"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华大学图书馆如何借书",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "清华大学医院自2024年7月1日起,正式与北京市114预约挂号平台实现直连"
+            ],
+            "semantic_score": 0.2
+          },
+          {
+            "point": "使用电子资源",
+            "status": "PARTIALLY_SUPPORTED",
+            "evidence_ids": [
+              "C3"
+            ],
+            "support_spans": [
+              "[其他]]( - [清华大学玉泉医院]( - [清华大学附属北京市垂杨柳医院]( - #### 大型综合性公立医院: 由清华大学与北京市共建共管,总规划床位1500床,一期开放1000张床位 2019年12月30日,医院二期工程正式奠基,规划新增500张床位,2024年投入使用 - #### ​医保服务: 2015年11月正式为医保患者服务"
+            ],
+            "semantic_score": 0.0833
+          },
+          {
+            "point": "查询开放时间",
+            "status": "PARTIALLY_SUPPORTED",
+            "evidence_ids": [
+              "C3"
+            ],
+            "support_spans": [
+              "[其他]]( - [清华大学玉泉医院]( - [清华大学附属北京市垂杨柳医院]( - #### 大型综合性公立医院: 由清华大学与北京市共建共管,总规划床位1500床,一期开放1000张床位 2019年12月30日,医院二期工程正式奠基,规划新增500张床位,2024年投入使用 - #### ​医保服务: 2015年11月正式为医保患者服务"
+            ],
+            "semantic_score": 0.0909
+          }
+        ],
+        "coverage": {
+          "total": 3,
+          "supported": 1,
+          "partial": 2,
+          "unsupported": 0
+        },
+        "reason_codes": [
+          "KEY_INFORMATION_MISSING",
+          "PARTIAL_COVERAGE"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-02",
+      "query": "清华大学图书馆如何借书、使用电子资源和查询开放时间？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_PARTIAL",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_PARTIAL",
+        "query_analysis": {
+          "entities": [
+            "清华大学图书馆"
+          ],
+          "concepts": [
+            "书使用电",
+            "书馆如何",
+            "何借书使",
+            "使用电子",
+            "借书使用",
+            "华大学图",
+            "和查询开",
+            "图书馆如"
+          ],
+          "required_points": [
+            "清华大学图书馆如何借书",
+            "使用电子资源",
+            "查询开放时间"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华大学图书馆如何借书",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "清华大学医院自2024年7月1日起,正式与北京市114预约挂号平台实现直连"
+            ],
+            "semantic_score": 0.2
+          },
+          {
+            "point": "使用电子资源",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "清华大学医院自2024年7月1日起,正式与北京市114预约挂号平台实现直连"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "查询开放时间",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "清华大学医院自2024年7月1日起,正式与北京市114预约挂号平台实现直连"
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 3,
+          "supported": 1,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "KEY_INFORMATION_MISSING",
+          "PARTIAL_COVERAGE"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-02",
+      "query": "清华大学图书馆如何借书、使用电子资源和查询开放时间？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "清华大学图书馆"
+          ],
+          "concepts": [
+            "书使用电",
+            "书馆如何",
+            "何借书使",
+            "使用电子",
+            "借书使用",
+            "华大学图",
+            "和查询开",
+            "图书馆如"
+          ],
+          "required_points": [
+            "清华大学图书馆如何借书",
+            "使用电子资源",
+            "查询开放时间"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华大学图书馆如何借书",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C2"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.56
+          },
+          {
+            "point": "使用电子资源",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "查询开放时间",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C3"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.0909
+          }
+        ],
+        "coverage": {
+          "total": 3,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 3
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-PARTIAL-02",
+      "query": "清华大学图书馆如何借书、使用电子资源和查询开放时间？",
+      "expected": "EVIDENCE_PARTIAL",
+      "predicted": "EVIDENCE_PARTIAL",
+      "construction_type": "PARTIAL_COVERAGE",
+      "output": {
+        "decision": "EVIDENCE_PARTIAL",
+        "query_analysis": {
+          "entities": [
+            "清华大学图书馆"
+          ],
+          "concepts": [
+            "书使用电",
+            "书馆如何",
+            "何借书使",
+            "使用电子",
+            "借书使用",
+            "华大学图",
+            "和查询开",
+            "图书馆如"
+          ],
+          "required_points": [
+            "清华大学图书馆如何借书",
+            "使用电子资源",
+            "查询开放时间"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华大学图书馆如何借书",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "按照《清华大学图书馆参观接待办法》规定:本校教师、学生和其他工作人员陪同本人亲属、同学等来馆参观,须将本人有效证件(工作证或学生证),在《金融图书馆参观读者入馆登记本》上登记,参观时间限30分钟"
+            ],
+            "semantic_score": 0.56
+          },
+          {
+            "point": "使用电子资源",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              " - 2 Q: 谁可以使用金融图书馆"
+            ],
+            "semantic_score": 0.0833
+          },
+          {
+            "point": "查询开放时间",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "常见问题(FAQ) (2013年3月25日) (20年8月27日更新) - 1 Q: 金融图书馆开放时间"
+            ],
+            "semantic_score": 0.5455
+          }
+        ],
+        "coverage": {
+          "total": 3,
+          "supported": 1,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "KEY_INFORMATION_MISSING",
+          "PARTIAL_COVERAGE"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-03",
+      "query": "清华大学医院能否通过北京114平台预约挂号？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_SUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_SUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "清华大学医院"
+          ],
+          "concepts": [
+            "114平",
+            "14平台",
+            "4平台预",
+            "京114",
+            "北京11",
+            "医院能否",
+            "华大学医",
+            "台预约挂"
+          ],
+          "required_points": [
+            "清华大学医院能否通过北京114平台预约挂号"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华大学医院能否通过北京114平台预约挂号",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "**—经2021年4月6日图书馆党政联席会议审议通过修订,经2024年11月4日图书馆党政联席会审议再次修订—** 第一条 为了维护广大读者的公共利益,保障读者在馆的财物安全,保持图书馆良好的环境和秩序,根据学校有关规章制度,结合图书馆实际工作情况,制定本管理办法"
+            ],
+            "semantic_score": 0.125
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 1,
+          "partial": 0,
+          "unsupported": 0
+        },
+        "reason_codes": [
+          "FULL_COVERAGE"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-03",
+      "query": "清华大学医院能否通过北京114平台预约挂号？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_SUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_SUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "清华大学医院"
+          ],
+          "concepts": [
+            "114平",
+            "14平台",
+            "4平台预",
+            "京114",
+            "北京11",
+            "医院能否",
+            "华大学医",
+            "台预约挂"
+          ],
+          "required_points": [
+            "清华大学医院能否通过北京114平台预约挂号"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华大学医院能否通过北京114平台预约挂号",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "**—经2021年4月6日图书馆党政联席会议审议通过修订,经2024年11月4日图书馆党政联席会审议再次修订—** 第一条 为了维护广大读者的公共利益,保障读者在馆的财物安全,保持图书馆良好的环境和秩序,根据学校有关规章制度,结合图书馆实际工作情况,制定本管理办法"
+            ],
+            "semantic_score": 0.125
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 1,
+          "partial": 0,
+          "unsupported": 0
+        },
+        "reason_codes": [
+          "FULL_COVERAGE"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-03",
+      "query": "清华大学医院能否通过北京114平台预约挂号？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "清华大学医院"
+          ],
+          "concepts": [
+            "114平",
+            "14平台",
+            "4平台预",
+            "京114",
+            "北京11",
+            "医院能否",
+            "华大学医",
+            "台预约挂"
+          ],
+          "required_points": [
+            "清华大学医院能否通过北京114平台预约挂号"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "清华大学医院能否通过北京114平台预约挂号",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.5714
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-04",
+      "query": "进入清华大学图书馆需要遵守什么入馆管理办法？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "进入清华大学图书馆"
+          ],
+          "concepts": [
+            "么入馆管",
+            "书馆需要",
+            "什么入馆",
+            "入清华大",
+            "入馆管理",
+            "华大学图",
+            "图书馆需",
+            "大学图书"
+          ],
+          "required_points": [
+            "进入清华大学图书馆需要遵守什么入馆管理办法"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "进入清华大学图书馆需要遵守什么入馆管理办法",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-3323851c"
+            ],
+            "support_spans": [
+              "2020年5月20日星期三 电磁学A 1 §7.1 电磁感应定律 闭合回路中的感应电动势等于磁通量减小的速率  ε = −dΦ dt , "
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-04",
+      "query": "进入清华大学图书馆需要遵守什么入馆管理办法？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "进入清华大学图书馆"
+          ],
+          "concepts": [
+            "么入馆管",
+            "书馆需要",
+            "什么入馆",
+            "入清华大",
+            "入馆管理",
+            "华大学图",
+            "图书馆需",
+            "大学图书"
+          ],
+          "required_points": [
+            "进入清华大学图书馆需要遵守什么入馆管理办法"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "进入清华大学图书馆需要遵守什么入馆管理办法",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-3323851c"
+            ],
+            "support_spans": [
+              "2020年5月20日星期三 电磁学A 1 §7.1 电磁感应定律 闭合回路中的感应电动势等于磁通量减小的速率  ε = −dΦ dt , "
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-04",
+      "query": "进入清华大学图书馆需要遵守什么入馆管理办法？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "进入清华大学图书馆"
+          ],
+          "concepts": [
+            "么入馆管",
+            "书馆需要",
+            "什么入馆",
+            "入清华大",
+            "入馆管理",
+            "华大学图",
+            "图书馆需",
+            "大学图书"
+          ],
+          "required_points": [
+            "进入清华大学图书馆需要遵守什么入馆管理办法"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "进入清华大学图书馆需要遵守什么入馆管理办法",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.4727
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-05",
+      "query": "电磁感应定律的物理含义是什么？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "义是什么",
+            "含义是什",
+            "定律的物",
+            "应定律的",
+            "律的物理",
+            "感应定律",
+            "物理含义",
+            "理含义是"
+          ],
+          "required_points": [
+            "电磁感应定律的物理含义是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "电磁感应定律的物理含义是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-a308971c"
+            ],
+            "support_spans": [
+              "假设检验是应用统计中被使用最多的方法之一， 在现在这样的大数据年代，越来越多的数据被收集， 可以支持更多的假设检验"
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-05",
+      "query": "电磁感应定律的物理含义是什么？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "义是什么",
+            "含义是什",
+            "定律的物",
+            "应定律的",
+            "律的物理",
+            "感应定律",
+            "物理含义",
+            "理含义是"
+          ],
+          "required_points": [
+            "电磁感应定律的物理含义是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "电磁感应定律的物理含义是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-a308971c"
+            ],
+            "support_spans": [
+              "假设检验是应用统计中被使用最多的方法之一， 在现在这样的大数据年代，越来越多的数据被收集， 可以支持更多的假设检验"
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-05",
+      "query": "电磁感应定律的物理含义是什么？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "义是什么",
+            "含义是什",
+            "定律的物",
+            "应定律的",
+            "律的物理",
+            "感应定律",
+            "物理含义",
+            "理含义是"
+          ],
+          "required_points": [
+            "电磁感应定律的物理含义是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "电磁感应定律的物理含义是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-3323851c"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.3429
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-06",
+      "query": "p值和显著性水平应该如何解释？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "p值和显",
+            "值和显著",
+            "和显著性",
+            "如何解释",
+            "平应该如",
+            "应该如何",
+            "性水平应",
+            "显著性水"
+          ],
+          "required_points": [
+            "p值",
+            "显著性水平应该如何解释"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "p值",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-9c5b42a6"
+            ],
+            "support_spans": [
+              "* [首页]( * [集智斑图]( * [集智学园]( * [维基]( * [Ai&Society]( * [研读营]( * [关于我们]("
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "显著性水平应该如何解释",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-9c5b42a6"
+            ],
+            "support_spans": [
+              "* [首页]( * [集智斑图]( * [集智学园]( * [维基]( * [Ai&Society]( * [研读营]( * [关于我们]("
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 2,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-06",
+      "query": "p值和显著性水平应该如何解释？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "p值和显",
+            "值和显著",
+            "和显著性",
+            "如何解释",
+            "平应该如",
+            "应该如何",
+            "性水平应",
+            "显著性水"
+          ],
+          "required_points": [
+            "p值",
+            "显著性水平应该如何解释"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "p值",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-9c5b42a6"
+            ],
+            "support_spans": [
+              "* [首页]( * [集智斑图]( * [集智学园]( * [维基]( * [Ai&Society]( * [研读营]( * [关于我们]("
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "显著性水平应该如何解释",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-9c5b42a6"
+            ],
+            "support_spans": [
+              "* [首页]( * [集智斑图]( * [集智学园]( * [维基]( * [Ai&Society]( * [研读营]( * [关于我们]("
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 2,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-06",
+      "query": "p值和显著性水平应该如何解释？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "p值和显",
+            "值和显著",
+            "和显著性",
+            "如何解释",
+            "平应该如",
+            "应该如何",
+            "性水平应",
+            "显著性水"
+          ],
+          "required_points": [
+            "p值",
+            "显著性水平应该如何解释"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "p值",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-a308971c"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "显著性水平应该如何解释",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-3cc236ae"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.1154
+          }
+        ],
+        "coverage": {
+          "total": 2,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-PARTIAL-06",
+      "query": "p值和显著性水平应该如何解释？",
+      "expected": "EVIDENCE_PARTIAL",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "PARTIAL_COVERAGE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "p值和显",
+            "值和显著",
+            "和显著性",
+            "如何解释",
+            "平应该如",
+            "应该如何",
+            "性水平应",
+            "显著性水"
+          ],
+          "required_points": [
+            "p值",
+            "显著性水平应该如何解释"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "p值",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-a308971c"
+            ],
+            "support_spans": [
+              "假设检验是应用统计中被使用最多的方法之一， 在现在这样的大数据年代，越来越多的数据被收集， 可以支持更多的假设检验"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "显著性水平应该如何解释",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-a308971c"
+            ],
+            "support_spans": [
+              "假设检验是应用统计中被使用最多的方法之一， 在现在这样的大数据年代，越来越多的数据被收集， 可以支持更多的假设检验"
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 2,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-07",
+      "query": "SVD分解在最小二乘中的作用如何解释？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "d分解在",
+            "svd分",
+            "vd分解",
+            "中的作用",
+            "乘中的作",
+            "二乘中的",
+            "作用如何",
+            "分解在最"
+          ],
+          "required_points": [
+            "SVD分解在最小二乘中的作用如何解释"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "SVD分解在最小二乘中的作用如何解释",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-984f18bb"
+            ],
+            "support_spans": [
+              "协整理论的作用在于正确地[解释]了[经济]现象和[预测]现象，[误差修正模型]（[ECM]）将影响变化的因素有效地分解成长期静态关系和[短期]动态关系之和"
+            ],
+            "semantic_score": 0.1064
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-07",
+      "query": "SVD分解在最小二乘中的作用如何解释？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "d分解在",
+            "svd分",
+            "vd分解",
+            "中的作用",
+            "乘中的作",
+            "二乘中的",
+            "作用如何",
+            "分解在最"
+          ],
+          "required_points": [
+            "SVD分解在最小二乘中的作用如何解释"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "SVD分解在最小二乘中的作用如何解释",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-984f18bb"
+            ],
+            "support_spans": [
+              "协整理论的作用在于正确地[解释]了[经济]现象和[预测]现象，[误差修正模型]（[ECM]）将影响变化的因素有效地分解成长期静态关系和[短期]动态关系之和"
+            ],
+            "semantic_score": 0.1064
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-07",
+      "query": "SVD分解在最小二乘中的作用如何解释？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "d分解在",
+            "svd分",
+            "vd分解",
+            "中的作用",
+            "乘中的作",
+            "二乘中的",
+            "作用如何",
+            "分解在最"
+          ],
+          "required_points": [
+            "SVD分解在最小二乘中的作用如何解释"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "SVD分解在最小二乘中的作用如何解释",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-9c5b42a6"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.0851
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-08",
+      "query": "单位根检验和协整关系有什么区别？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "什么区别",
+            "位根检验",
+            "关系有什",
+            "协整关系",
+            "单位根检",
+            "和协整关",
+            "整关系有",
+            "有什么区"
+          ],
+          "required_points": [
+            "单位根检验",
+            "协整关系有什么区别"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "单位根检验",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-1f85cf96"
+            ],
+            "support_spans": [
+              "# [Lecture 16: Introduction to Asymptotic Analysis]"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "协整关系有什么区别",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-1f85cf96"
+            ],
+            "support_spans": [
+              "# [Lecture 16: Introduction to Asymptotic Analysis]"
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 2,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-08",
+      "query": "单位根检验和协整关系有什么区别？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "什么区别",
+            "位根检验",
+            "关系有什",
+            "协整关系",
+            "单位根检",
+            "和协整关",
+            "整关系有",
+            "有什么区"
+          ],
+          "required_points": [
+            "单位根检验",
+            "协整关系有什么区别"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "单位根检验",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-1f85cf96"
+            ],
+            "support_spans": [
+              "# [Lecture 16: Introduction to Asymptotic Analysis]"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "协整关系有什么区别",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-1f85cf96"
+            ],
+            "support_spans": [
+              "# [Lecture 16: Introduction to Asymptotic Analysis]"
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 2,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-08",
+      "query": "单位根检验和协整关系有什么区别？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "什么区别",
+            "位根检验",
+            "关系有什",
+            "协整关系",
+            "单位根检",
+            "和协整关",
+            "整关系有",
+            "有什么区"
+          ],
+          "required_points": [
+            "单位根检验",
+            "协整关系有什么区别"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "单位根检验",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-1afbe31a"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "协整关系有什么区别",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-1afbe31a"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.05
+          }
+        ],
+        "coverage": {
+          "total": 2,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-PARTIAL-08",
+      "query": "单位根检验和协整关系有什么区别？",
+      "expected": "EVIDENCE_PARTIAL",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "PARTIAL_COVERAGE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "什么区别",
+            "位根检验",
+            "关系有什",
+            "协整关系",
+            "单位根检",
+            "和协整关",
+            "整关系有",
+            "有什么区"
+          ],
+          "required_points": [
+            "单位根检验",
+            "协整关系有什么区别"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "单位根检验",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-1afbe31a"
+            ],
+            "support_spans": [
+              "### 出自 MBA智库百科(["
+            ],
+            "semantic_score": 0.0
+          },
+          {
+            "point": "协整关系有什么区别",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-1afbe31a"
+            ],
+            "support_spans": [
+              "### 出自 MBA智库百科(["
+            ],
+            "semantic_score": 0.05
+          }
+        ],
+        "coverage": {
+          "total": 2,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 2
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-09",
+      "query": "Dijkstra算法为什么要求边权非负？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_SUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_SUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "a算法为",
+            "dijk",
+            "ijks",
+            "jkst",
+            "kstr",
+            "ra算法",
+            "stra",
+            "tra算"
+          ],
+          "required_points": [
+            "Dijkstra算法为什么要求边权非负"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "Dijkstra算法为什么要求边权非负",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "web-a3d230de"
+            ],
+            "support_spans": [
+              "252 comments ### Transcript: 如果我說 點亮 2026 年最關鍵的一道光束 其實是在 100 年前發出的 你相信嗎 我們把時間撥回 1926 年 3 月 16 日 在美國麻薩諸塞州一處被雪覆蓋的田野上 一位叫羅伯特戈達德的教授 點燃了人類第一枚液態燃料火箭 它飛得很慢 最高只飛了 12.5 公尺 甚至還沒有旁邊的穀倉高 飛行時間只有 2.5 秒 當時的紐約時報甚至寫社論嘲笑他 說他缺乏高中程度的物理常識 因為大家認為真空裡沒有空氣 火箭根本沒有東西可以推 就在同一年 大西洋彼岸的奧地利 薛丁格寫下了一行描述波動的方程式 沒人知道這跟真實世界有什麼關係 而在倫敦 約翰"
+            ],
+            "semantic_score": 0.14
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 1,
+          "partial": 0,
+          "unsupported": 0
+        },
+        "reason_codes": [
+          "FULL_COVERAGE"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-09",
+      "query": "Dijkstra算法为什么要求边权非负？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_SUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_SUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "a算法为",
+            "dijk",
+            "ijks",
+            "jkst",
+            "kstr",
+            "ra算法",
+            "stra",
+            "tra算"
+          ],
+          "required_points": [
+            "Dijkstra算法为什么要求边权非负"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "Dijkstra算法为什么要求边权非负",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "web-a3d230de"
+            ],
+            "support_spans": [
+              "252 comments ### Transcript: 如果我說 點亮 2026 年最關鍵的一道光束 其實是在 100 年前發出的 你相信嗎 我們把時間撥回 1926 年 3 月 16 日 在美國麻薩諸塞州一處被雪覆蓋的田野上 一位叫羅伯特戈達德的教授 點燃了人類第一枚液態燃料火箭 它飛得很慢 最高只飛了 12.5 公尺 甚至還沒有旁邊的穀倉高 飛行時間只有 2.5 秒 當時的紐約時報甚至寫社論嘲笑他 說他缺乏高中程度的物理常識 因為大家認為真空裡沒有空氣 火箭根本沒有東西可以推 就在同一年 大西洋彼岸的奧地利 薛丁格寫下了一行描述波動的方程式 沒人知道這跟真實世界有什麼關係 而在倫敦 約翰"
+            ],
+            "semantic_score": 0.14
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 1,
+          "partial": 0,
+          "unsupported": 0
+        },
+        "reason_codes": [
+          "FULL_COVERAGE"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-09",
+      "query": "Dijkstra算法为什么要求边权非负？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "a算法为",
+            "dijk",
+            "ijks",
+            "jkst",
+            "kstr",
+            "ra算法",
+            "stra",
+            "tra算"
+          ],
+          "required_points": [
+            "Dijkstra算法为什么要求边权非负"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "Dijkstra算法为什么要求边权非负",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-1c430bc7"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.06
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-10",
+      "query": "2026年量子计算领域有哪些最新新闻？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_SUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_SUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "026年",
+            "2026",
+            "26年量",
+            "6年量子",
+            "些最新新",
+            "哪些最新",
+            "域有哪些",
+            "子计算领"
+          ],
+          "required_points": [
+            "2026年量子计算领域有哪些最新新闻"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "2026年量子计算领域有哪些最新新闻",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "web-d856ef8c"
+            ],
+            "support_spans": [
+              "| # | 国家（或属地） | 人口 2026 | 年度变化 | 净变化 | 密度（人/平方公里） | 陆地面积 (平方公里) | 净移民 | 生育率 | 年龄中位数 | 城市人口百分比 | 世界份额 | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | 1 | [印度] | 1,476,625,576 | 0.87% | 12,760,051 | 497 | 2,973,190 | −440,456 | 1.93 | 29.2 | 37.6% | 17.79% | | 2 | [中国] | "
+            ],
+            "semantic_score": 0.1915
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 1,
+          "partial": 0,
+          "unsupported": 0
+        },
+        "reason_codes": [
+          "FULL_COVERAGE"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-10",
+      "query": "2026年量子计算领域有哪些最新新闻？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_SUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_SUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "026年",
+            "2026",
+            "26年量",
+            "6年量子",
+            "些最新新",
+            "哪些最新",
+            "域有哪些",
+            "子计算领"
+          ],
+          "required_points": [
+            "2026年量子计算领域有哪些最新新闻"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "2026年量子计算领域有哪些最新新闻",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "web-d856ef8c"
+            ],
+            "support_spans": [
+              "| # | 国家（或属地） | 人口 2026 | 年度变化 | 净变化 | 密度（人/平方公里） | 陆地面积 (平方公里) | 净移民 | 生育率 | 年龄中位数 | 城市人口百分比 | 世界份额 | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | 1 | [印度] | 1,476,625,576 | 0.87% | 12,760,051 | 497 | 2,973,190 | −440,456 | 1.93 | 29.2 | 37.6% | 17.79% | | 2 | [中国] | "
+            ],
+            "semantic_score": 0.1915
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 1,
+          "partial": 0,
+          "unsupported": 0
+        },
+        "reason_codes": [
+          "FULL_COVERAGE"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-10",
+      "query": "2026年量子计算领域有哪些最新新闻？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "026年",
+            "2026",
+            "26年量",
+            "6年量子",
+            "些最新新",
+            "哪些最新",
+            "域有哪些",
+            "子计算领"
+          ],
+          "required_points": [
+            "2026年量子计算领域有哪些最新新闻"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "2026年量子计算领域有哪些最新新闻",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-abf0f2e0"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.2128
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-11",
+      "query": "哪个国家的人口最多？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "个国家的",
+            "人口最多",
+            "哪个国家",
+            "国家的人",
+            "家的人口",
+            "的人口最",
+            "个国家",
+            "人口最"
+          ],
+          "required_points": [
+            "哪个国家的人口最多"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "哪个国家的人口最多",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [],
+            "support_spans": [],
+            "semantic_score": 0
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-11",
+      "query": "哪个国家的人口最多？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "个国家的",
+            "人口最多",
+            "哪个国家",
+            "国家的人",
+            "家的人口",
+            "的人口最",
+            "个国家",
+            "人口最"
+          ],
+          "required_points": [
+            "哪个国家的人口最多"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "哪个国家的人口最多",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [],
+            "support_spans": [],
+            "semantic_score": 0
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-11",
+      "query": "哪个国家的人口最多？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [],
+          "concepts": [
+            "个国家的",
+            "人口最多",
+            "哪个国家",
+            "国家的人",
+            "家的人口",
+            "的人口最",
+            "个国家",
+            "人口最"
+          ],
+          "required_points": [
+            "哪个国家的人口最多"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "哪个国家的人口最多",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "web-8b0dad46"
+            ],
+            "support_spans": [
+              "[首页] [导航] [图片] [更多]"
+            ],
+            "semantic_score": 0.1905
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "TOPIC_RELATED_NOT_ANSWERING"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-WRONG_DOCUMENT-12",
+      "query": "苹果公司的固定效果是什么？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "WRONG_DOCUMENT",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "苹果公司"
+          ],
+          "concepts": [
+            "公司的固",
+            "司的固定",
+            "固定效果",
+            "定效果是",
+            "效果是什",
+            "果公司的",
+            "果是什么",
+            "的固定效"
+          ],
+          "required_points": [
+            "苹果公司的固定效果是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "苹果公司的固定效果是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[检验医学科]( [输血科]( [超声科]( [药剂科]( [临床药学科]( [临床营养科]( [放射诊断科]( [核医学科]( [全科与健康医学部]( [全科医学科]( [健康管理中心]( [肝胆胰中心]("
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-12",
+      "query": "苹果公司的固定效果是什么？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "苹果公司"
+          ],
+          "concepts": [
+            "公司的固",
+            "司的固定",
+            "固定效果",
+            "定效果是",
+            "效果是什",
+            "果公司的",
+            "果是什么",
+            "的固定效"
+          ],
+          "required_points": [
+            "苹果公司的固定效果是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "苹果公司的固定效果是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [
+              "C1"
+            ],
+            "support_spans": [
+              "[检验医学科]( [输血科]( [超声科]( [药剂科]( [临床药学科]( [临床营养科]( [放射诊断科]("
+            ],
+            "semantic_score": 0.0
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    },
+    {
+      "sample_id": "SYN-CONTAMINATED_EVIDENCE-12",
+      "query": "苹果公司的固定效果是什么？",
+      "expected": "EVIDENCE_INSUFFICIENT",
+      "predicted": "EVIDENCE_INSUFFICIENT",
+      "construction_type": "CONTAMINATED_EVIDENCE",
+      "output": {
+        "decision": "EVIDENCE_INSUFFICIENT",
+        "query_analysis": {
+          "entities": [
+            "苹果公司"
+          ],
+          "concepts": [
+            "公司的固",
+            "司的固定",
+            "固定效果",
+            "定效果是",
+            "效果是什",
+            "果公司的",
+            "果是什么",
+            "的固定效"
+          ],
+          "required_points": [
+            "苹果公司的固定效果是什么"
+          ]
+        },
+        "point_support": [
+          {
+            "point": "苹果公司的固定效果是什么",
+            "status": "NOT_SUPPORTED",
+            "evidence_ids": [],
+            "support_spans": [],
+            "semantic_score": 0
+          }
+        ],
+        "coverage": {
+          "total": 1,
+          "supported": 0,
+          "partial": 0,
+          "unsupported": 1
+        },
+        "reason_codes": [
+          "CONCEPT_MISMATCH",
+          "ENTITY_MISMATCH",
+          "EVIDENCE_CONTAMINATION",
+          "NO_CORE_ANSWER",
+          "WRONG_DOCUMENT"
+        ],
+        "brief_reason": "Decision follows entity/concept consistency, evidence-span support, contamination handling, and required-point coverage."
+      }
+    }
+  ]
+}

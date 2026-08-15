@@ -1,0 +1,48 @@
+{
+  "artifact": "Answer Generation Runtime V1 engineering metrics",
+  "created_at_utc": "2026-08-15T05:20:58.361832+00:00",
+  "scope": "runtime engineering only; not held-out answer correctness, faithfulness, citation correctness, or semantic unsupported-claim performance",
+  "unit_tests": {
+    "passed": 23,
+    "total": 23,
+    "rate_percent": 100.0
+  },
+  "integration": {
+    "passed": 4,
+    "total": 4,
+    "live_full_chain": 2,
+    "contract_fixtures": 2
+  },
+  "schema_valid_output": {
+    "count": 4,
+    "denominator": 4,
+    "percent": 100.0
+  },
+  "support_status_adherence": {
+    "count": 3,
+    "denominator": 3,
+    "percent": 100.0
+  },
+  "blocked_no_model_call": {
+    "count": 1,
+    "denominator": 1,
+    "percent": 100.0
+  },
+  "valid_support_id": {
+    "count": 3,
+    "denominator": 3,
+    "percent": 100.0
+  },
+  "unattributed_factual_claim_count": 0,
+  "partial_scope_violation_count": 0,
+  "model_failure_count": 0,
+  "repeatability_excluding_latency_ms": true,
+  "model_bitwise_determinism_claimed": false,
+  "successful_generation_latency_ms": {
+    "count": 2,
+    "minimum": 7133.574,
+    "maximum": 12355.915,
+    "mean": 9744.745
+  },
+  "semantic_unsupported_claim_detection": false
+}

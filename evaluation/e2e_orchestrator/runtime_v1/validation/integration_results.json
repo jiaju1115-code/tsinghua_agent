@@ -1,0 +1,94 @@
+{
+  "artifact": "Unified E2E Orchestrator V1 integration validation",
+  "formal_held_out_executed": false,
+  "natural_frozen_ready_coverage": 0,
+  "natural_case_count": 2,
+  "contract_fixture_count": 2,
+  "natural_model_call_count": 1,
+  "ready_contract_adapter_call_count": 1,
+  "repeatability_excluding_latency_and_timestamp": true,
+  "cases": [
+    {
+      "case_id": "E2E-NATURAL-PARTIAL",
+      "case_type": "NATURAL_FROZEN_RUNTIME",
+      "retrieval_live": true,
+      "evidence_live": true,
+      "citation_live": true,
+      "answer_live": true,
+      "expected_path": "PARTIAL",
+      "checks": {
+        "output_schema_exact": true,
+        "pipeline_completed": true,
+        "evidence_status_expected": true,
+        "citation_status_expected": true,
+        "answer_status_expected": true,
+        "four_layer_trace": true,
+        "blocked_no_model_call": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "E2E-NATURAL-BLOCKED",
+      "case_type": "NATURAL_FROZEN_RUNTIME",
+      "retrieval_live": true,
+      "evidence_live": true,
+      "citation_live": true,
+      "answer_live": true,
+      "expected_path": "BLOCKED",
+      "checks": {
+        "output_schema_exact": true,
+        "pipeline_completed": true,
+        "evidence_status_expected": true,
+        "citation_status_expected": true,
+        "answer_status_expected": true,
+        "four_layer_trace": true,
+        "blocked_no_model_call": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "E2E-READY-CONTRACT-FIXTURE",
+      "case_type": "READY_CONTRACT_FIXTURE",
+      "fixture_reason": "Natural frozen Citation READY coverage is zero; schema-valid Evidence and deterministic model-adapter fixtures over live frozen Top-5 rows exercise only Citation/Answer/orchestrator contracts.",
+      "retrieval_live": true,
+      "evidence_live": false,
+      "citation_live": true,
+      "answer_live": true,
+      "expected_path": "READY",
+      "checks": {
+        "fixture_declared": true,
+        "retrieval_live": true,
+        "evidence_contract_fixture": true,
+        "model_adapter_contract_fixture": true,
+        "contract_adapter_called_once": true,
+        "citation_live": true,
+        "answer_live": true,
+        "pipeline_completed": true,
+        "ready_to_full": true,
+        "provenance_complete": true,
+        "output_schema_exact": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "E2E-INJECTION-CONTRACT-FIXTURE",
+      "case_type": "INJECTION_CONTRACT_FIXTURE",
+      "fixture_reason": "Synthetic instruction-like support text tests only the frozen Answer injection boundary.",
+      "retrieval_live": false,
+      "evidence_live": false,
+      "citation_live": true,
+      "answer_live": true,
+      "expected_path": "SAFETY_REFUSAL",
+      "checks": {
+        "fixture_declared": true,
+        "pipeline_completed": true,
+        "answer_refusal": true,
+        "no_model_call": true,
+        "boundary_marker": true,
+        "injection_not_in_answer": true
+      },
+      "passed": true
+    }
+  ],
+  "overall_status": "PASS"
+}

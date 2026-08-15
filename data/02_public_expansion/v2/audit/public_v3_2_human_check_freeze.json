@@ -1,0 +1,34 @@
+{
+  "artifact": "Public Expansion V2 V3.2 adjudicated human check input freeze",
+  "status": "frozen",
+  "frozen_at_utc": "2026-08-14T16:48:39.978848Z",
+  "input_path": "data/02_public_expansion/v2/human_check/public_v3_2_human_check_adjudicated.xlsx",
+  "sha256": "b6640c3a871f0d42e724452f2569935fd6f9131d817e3cd4d7076fe8719a5c9c",
+  "size_bytes": 84040,
+  "modified_at_utc": "2026-08-14T15:37:56.551741Z",
+  "worksheet": "Human Check",
+  "data_row_count": 49,
+  "fields": [
+    "check_id",
+    "original_id",
+    "title",
+    "url",
+    "domain",
+    "category",
+    "content_type",
+    "topic_relevance",
+    "time_status",
+    "v3_2_action",
+    "v3_2_reject_type",
+    "v3_2_reason",
+    "cleaned_content",
+    "human_action",
+    "human_reject_type",
+    "human_note"
+  ],
+  "normalization_used_for_validation_only": "Leading/trailing whitespace and line breaks were stripped only for validation and metrics; the XLSX was not modified.",
+  "constraints": [
+    "human_action, human_reject_type, and human_note are frozen",
+    "human_check_rows.json and pre-existing Public Expansion V2 frozen materials were not modified"
+  ]
+}

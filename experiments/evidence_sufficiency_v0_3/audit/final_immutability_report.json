@@ -1,0 +1,131 @@
+{
+  "audit_type": "EVIDENCE_SUFFICIENCY_V0_3_FINAL_IMMUTABILITY",
+  "audited_at_utc": "2026-08-14T08:27:53.032860+00:00",
+  "status": "PASS",
+  "decision": "NOT_READY_FOR_NEW_BLIND",
+  "experiment_scope": "CALIBRATION_AND_MODEL_SELECTION_ONLY",
+  "data_status": "ALL_LABELED_DATA_IS_SEEN_CALIBRATION_OR_SEEN_REGRESSION",
+  "new_blind_created": false,
+  "offline_calls": {
+    "search": 0,
+    "tavily": 0,
+    "extract": 0,
+    "external_llm": 0,
+    "answer_generation": 0,
+    "citation_generation": 0
+  },
+  "protected_components": {
+    "router_modified": false,
+    "retrieval_modified": false,
+    "production_evidence_gate_modified": false,
+    "generation_modified": false,
+    "citation_modified": false,
+    "knowledge_base_modified": false,
+    "model_weights_modified": false,
+    "v0_1_modified": false,
+    "v0_2_modified": false,
+    "secondary_ai_adjudication_files_modified": false,
+    "historical_evaluations_modified": false
+  },
+  "candidate_freeze_verification": {
+    "status": "PASS",
+    "artifacts": {
+      "candidates/candidate_config.json": {
+        "expected_sha256": "7456b161262dbb8f92fff36e37669d38167b1d9b5ec4d9041f973d6a093689d8",
+        "actual_sha256": "7456b161262dbb8f92fff36e37669d38167b1d9b5ec4d9041f973d6a093689d8",
+        "match": true
+      },
+      "candidates/candidate_model.joblib": {
+        "expected_sha256": "78b3c3e08424631379f8067353dd10737e279130f431e703f7dfdb4d86fab494",
+        "actual_sha256": "78b3c3e08424631379f8067353dd10737e279130f431e703f7dfdb4d86fab494",
+        "match": true
+      },
+      "candidates/candidate_v0_3-a.md": {
+        "expected_sha256": "85f94e8f207eb0c11cb4fa0a186583dc63f8d9140680d25fdf55ff27fcd62aaa",
+        "actual_sha256": "85f94e8f207eb0c11cb4fa0a186583dc63f8d9140680d25fdf55ff27fcd62aaa",
+        "match": true
+      },
+      "candidates/candidate_v0_3-b.md": {
+        "expected_sha256": "525f364aff109e32f5644820b02a3904ee2736865661d22a64ce5255a76c3b19",
+        "actual_sha256": "525f364aff109e32f5644820b02a3904ee2736865661d22a64ce5255a76c3b19",
+        "match": true
+      },
+      "candidates/candidate_v0_3-c.md": {
+        "expected_sha256": "e6d0dfd65ddc811cdb70ddf5fdeeffcddd571ef3251863e4b72c470a356ca68c",
+        "actual_sha256": "e6d0dfd65ddc811cdb70ddf5fdeeffcddd571ef3251863e4b72c470a356ca68c",
+        "match": true
+      },
+      "candidates/candidate_v0_3-d.md": {
+        "expected_sha256": "6a4628cdebae4647687cf2342d660946a5c0ad77a0187dd9136242ef7f45c116",
+        "actual_sha256": "6a4628cdebae4647687cf2342d660946a5c0ad77a0187dd9136242ef7f45c116",
+        "match": true
+      },
+      "candidates/evidence_sufficiency_v0_3_final.md": {
+        "expected_sha256": "8a3e814f7614776d927d7ae72c4d6b6e6717c6c9544bc610d2f1fbf1e67b991b",
+        "actual_sha256": "8a3e814f7614776d927d7ae72c4d6b6e6717c6c9544bc610d2f1fbf1e67b991b",
+        "match": true
+      },
+      "scripts/run_v0_3_cross_validation.py": {
+        "expected_sha256": "f1bb5ebbec6e5b0c1e3c6ae64d9a53f250caf53178553357326e2858f9573edc",
+        "actual_sha256": "f1bb5ebbec6e5b0c1e3c6ae64d9a53f250caf53178553357326e2858f9573edc",
+        "match": true
+      },
+      "results/candidate_selection.json": {
+        "expected_sha256": "ea532ca1dc4f957a018add890c7cde6818ff120e154711bbdb5a1037c81fbbe4",
+        "actual_sha256": "ea532ca1dc4f957a018add890c7cde6818ff120e154711bbdb5a1037c81fbbe4",
+        "match": true
+      },
+      "results/real_cross_validation_metrics.json": {
+        "expected_sha256": "afc639a2ce8103388075785dd3dd451f3cf93d1c31617f63e328b6b471717d6f",
+        "actual_sha256": "afc639a2ce8103388075785dd3dd451f3cf93d1c31617f63e328b6b471717d6f",
+        "match": true
+      },
+      "results/synthetic_cross_validation_metrics.json": {
+        "expected_sha256": "78bc9e273dd196d2f9290e6a8586f9341021f9279e295aa41647d1077e9f7ae2",
+        "actual_sha256": "78bc9e273dd196d2f9290e6a8586f9341021f9279e295aa41647d1077e9f7ae2",
+        "match": true
+      }
+    }
+  },
+  "input_freeze_verification": {
+    "status": "PASS",
+    "inputs": {
+      "D:\\python_projects\\tsinghua_ai\\experiments\\generation_citation_eval_v0\\results\\independent_review_packet_adjudicated.xlsx": {
+        "expected_sha256": "7c2086d8abfa409a5a66e2f597a3ac6d985c77810b2852dc0b30fc04dc27511e",
+        "actual_sha256": "7c2086d8abfa409a5a66e2f597a3ac6d985c77810b2852dc0b30fc04dc27511e",
+        "match": true
+      },
+      "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_benchmark_expansion_v0_2\\adjudication\\new_real_adjudication_packet_adjudicated.xlsx": {
+        "expected_sha256": "103e1959ca1d52c3fb3278a36adfc376d627e49601fe6a506d031198ed7acd31",
+        "actual_sha256": "103e1959ca1d52c3fb3278a36adfc376d627e49601fe6a506d031198ed7acd31",
+        "match": true
+      },
+      "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_benchmark_expansion_v0_2\\synthetic\\synthetic_stress_set_v0_2.json": {
+        "expected_sha256": "ae159b91be50d2e877f623073d46ff97e04d945171ede0081e28a6b3fac1d0df",
+        "actual_sha256": "ae159b91be50d2e877f623073d46ff97e04d945171ede0081e28a6b3fac1d0df",
+        "match": true
+      },
+      "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_sufficiency_v0_1\\evaluation\\synthetic_stress_set.json": {
+        "expected_sha256": "eba301275b02cdb17b041295c73f4c5505fcf684ddf70cd260c2db8848973708",
+        "actual_sha256": "eba301275b02cdb17b041295c73f4c5505fcf684ddf70cd260c2db8848973708",
+        "match": true
+      }
+    }
+  },
+  "sample_specific_hardcode_audit": {
+    "status": "PASS",
+    "sample_value_hits": [],
+    "benchmark_query_hits": [],
+    "note": "The generic schema key `sample_id` is used only for trace output; no sample ID value participates in classification.",
+    "inspected_files": [
+      "scripts/run_v0_3_cross_validation.py",
+      "candidates/candidate_config.json",
+      "candidates/evidence_sufficiency_v0_3_final.md",
+      "candidates/candidate_v0_3-a.md",
+      "candidates/candidate_v0_3-b.md",
+      "candidates/candidate_v0_3-c.md",
+      "candidates/candidate_v0_3-d.md"
+    ]
+  },
+  "working_tree_note": "This run authored files only under experiments/evidence_sufficiency_v0_3. Pre-existing unrelated working-tree changes were preserved and not included in the experiment."
+}

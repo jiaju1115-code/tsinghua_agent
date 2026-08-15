@@ -1,0 +1,18 @@
+{
+  "v0_1_legacy_synthetic_false_sufficient": {
+    "count": 7,
+    "n": 40,
+    "rate": 0.175
+  },
+  "v0_2_same_set_false_sufficient": {
+    "count": 6,
+    "denominator": 40,
+    "rate": 0.15
+  },
+  "v0_2_same_set_accuracy": {
+    "count": 29,
+    "rate": 0.725
+  },
+  "behavioral_change": "improved_by_1_case_but_still_material",
+  "dataset_note": "Same 40 legacy synthetic cases; strict before/after comparison is permitted."
+}

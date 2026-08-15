@@ -1,0 +1,40 @@
+{
+  "artifact": "Evidence Sufficiency Runtime V1 unit test result",
+  "created_at_utc": "2026-08-15T03:57:06.549326+00:00",
+  "test_module": "evaluation.evidence_sufficiency.v1.tests.test_runtime",
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "required_coverage": [
+    "SUFFICIENT",
+    "PARTIAL",
+    "INSUFFICIENT",
+    "missing requested attribute",
+    "optional-only missing",
+    "empty evidence",
+    "irrelevant evidence",
+    "conflict evidence",
+    "malformed retrieval result",
+    "frozen version mismatch",
+    "deterministic repeatability"
+  ],
+  "runner_output": [
+    "test_conflicting_values_fail_closed (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_conflicting_values_fail_closed) ... ok",
+    "test_empty_evidence_fails_closed (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_empty_evidence_fails_closed) ... ok",
+    "test_insufficient_irrelevant (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_insufficient_irrelevant) ... ok",
+    "test_malformed_input_fails_closed (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_malformed_input_fails_closed) ... ok",
+    "test_missing_requested_attribute (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_missing_requested_attribute) ... ok",
+    "test_optional_only_missing_does_not_block (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_optional_only_missing_does_not_block) ... ok",
+    "test_partial_multi_point (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_partial_multi_point) ... ok",
+    "test_repeatability_excluding_latency (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_repeatability_excluding_latency) ... ok",
+    "test_sufficient (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_sufficient) ... ok",
+    "test_version_mismatch_fails_closed (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_version_mismatch_fails_closed) ... ok",
+    "",
+    "----------------------------------------------------------------------",
+    "Ran 10 tests in 0.057s",
+    "",
+    "OK"
+  ]
+}

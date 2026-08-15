@@ -1,0 +1,11 @@
+{
+  "candidate": "V0.1 Candidate Final",
+  "engine": "deterministic_required_point_coverage",
+  "offline": true,
+  "decision_rule": "all supported => sufficient; any supported/partial => partial; else insufficient",
+  "parser": "native structured JSON; no model parser",
+  "thresholds": {
+    "supported_overlap": 0.5,
+    "partial_overlap": 0.22
+  }
+}

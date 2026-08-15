@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Held-out E2E Evaluation V1 benchmark case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "query", "slice", "sampling_source", "pre_registered"],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "query": {"type": "string", "minLength": 1},
+    "slice": {"type": "string", "minLength": 1},
+    "sampling_source": {"type": "string", "minLength": 1},
+    "pre_registered": {"const": true}
+  }
+}

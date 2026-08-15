@@ -1,0 +1,53 @@
+﻿track,sample_id,query,category,academic_subject,evidence_gate,route_correct,retrieval_success,answer,correctness_0_to_2,faithfulness_0_to_2,historical_completeness_0_to_2,factual_or_procedural_claims,unsupported_claims_proxy,claim_level_citation_coverage,citation_validity,citation_support,completeness_ratio_proxy,refused,failure_labels,primary_failure_type,review_recommended,evaluation_scope
+A,RET-04,清华校医院门诊、报销和就医流程是什么？,医疗健康,,EVIDENCE_SUFFICIENT,,True,清华校医院：门诊-检验医学科、输血科、超声科等；报销需咨询财务部门；就医流程可至官网查询。,1,1,2,3,2,0.0,,,0.3333333333333333,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_MISSING"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+A,RET-05,清华大学图书馆如何借书、使用电子资源和查询开放时间？,图书馆服务,,EVIDENCE_SUFFICIENT,,True,"- 1
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12",1,1,2,8,8,0.0,,,0.0,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_MISSING"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+A,RET-10,体育场馆如何预约、查询开放时间和使用规则？,体育与场馆,,EVIDENCE_SUFFICIENT,,True,体育场馆预约：应用导航-场地资源预约。开放时间及使用规则：根据当前资料无法确认。,1,1,2,1,0,0.0,,,0.0,True,"[""INCOMPLETE"", ""WRONG_REFUSAL"", ""CITATION_MISSING"", ""TASK_COMPLETION""]",WRONG_REFUSAL,True,PROVISIONAL_PROXY
+A,PROV-011,清华大学医院能否通过北京114平台预约挂号？,医疗健康,,EVIDENCE_SUFFICIENT,,True,可以，清华大学医院自2024年7月1日起与北京市114预约挂号平台实现直连。,1,2,2,1,0,0.0,,,1.0,False,"[""CITATION_MISSING"", ""TASK_COMPLETION""]",TASK_COMPLETION,True,PROVISIONAL_PROXY
+A,PROV-015,进入清华大学图书馆需要遵守什么入馆管理办法？,图书馆服务,,EVIDENCE_SUFFICIENT,,True,"进入清华大学图书馆需要遵守以下入馆管理办法：
+
+1. 校内读者凭本人有效图书证入馆。
+2. 校外读者按规定办理手续后入馆。
+3. 清华校友凭校友卡或毕业证（或复印件），附上有效身份证件，可进入校图书馆。
+4. 注意防火安全，严禁在馆内吸烟。
+5. 饮料需置于防溢出容器内，不可携带气味食物、外卖盒餐等入馆。
+6. 保持安静，手持电话置于静音状态。
+7. 衣着整齐，举止文明礼貌。
+8.",1,1,2,9,1,0.0,,,0.6666666666666666,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_MISSING"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+A,PROV-020,国际学生如何区分并查询不同的签证类型？,国际事务与签证,,EVIDENCE_SUFFICIENT,,True,国际学生可查询不同签证类型如下：X1签证颁发给长期学习，需在入境后30日内申请学习类居留许可；X2签证颁发给短期学习，有效期以签证注明为准。,1,2,2,2,0,0.0,,,0.6666666666666666,False,"[""INCOMPLETE"", ""CITATION_MISSING"", ""TASK_COMPLETION""]",INCOMPLETE,True,PROVISIONAL_PROXY
+B,A17,电磁感应定律的物理含义是什么？,ACADEMIC,大学物理,EVIDENCE_SUFFICIENT,True,True,电磁感应定律的物理含义是：闭合回路中的感应电动势等于磁通量减小的速率。[C1],1,2,,1,0,1.0,1.0,1.0,0.3333333333333333,False,"[""INCOMPLETE"", ""TASK_COMPLETION""]",INCOMPLETE,True,PROVISIONAL_PROXY
+B,A15,p值和显著性水平应该如何解释？,ACADEMIC,概率统计,EVIDENCE_SUFFICIENT,True,True,"p值和显著性水平是统计学中用来判断假设检验结果是否显著的两个重要概念。
+
+p值是指在假设检验中，如果原假设为真，随机抽样得到当前样本结果或更极端结果的概率。通常，p值越小，说明样本结果越极端，越有理由拒绝原假设。
+
+显著性水平（通常用α表示）是检验的门槛，如果p值小于显著性水平，那么我们拒绝原假设，认为样本结果显著，即原假设不成立。显著性水平决定了我们愿意接受的错误概率，通常取值为0.05、0.01等。
+
+[C1]-[C3]",1,1,,5,5,0.2,1.0,0.0,0.6666666666666666,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_INCOMPLETE"", ""CITATION_MISMATCH"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+B,A08,SVD分解在最小二乘中的作用如何解释？,ACADEMIC,线性代数,EVIDENCE_SUFFICIENT,True,True,SVD分解在最小二乘中的作用是通过将最小二乘问题转化为求解SVD分解的最小二乘问题，从而简化求解过程。具体来说，最小二乘问题可以表示为求解一组向量的线性组合，使得这些向量与一组目标向量之间的误差平方和最小。SVD分解可以将这个问题转化为求解一组向量的线性组合，使得这些向量与一组目标向量之间的误差平方和最小，从而简化求解过程。,1,2,,3,3,0.0,,,0.0,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_MISSING"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+B,A24,单位根检验和协整关系有什么区别？,ACADEMIC,经济学/计量,EVIDENCE_SUFFICIENT,True,True,单位根检验和协整关系是两个不同的概念。单位根检验是用来判断时间序列数据是否为平稳的时间序列，而协整关系则是指在多个非平稳时间序列之间存在一种长期均衡关系，这种关系可以通过误差修正模型来表示。[C1]-[C3],1,2,,2,1,0.5,1.0,1.0,0.0,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_INCOMPLETE"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+B,A26,Dijkstra算法为什么要求边权非负？,ACADEMIC,计算机/算法,EVIDENCE_SUFFICIENT,True,True,Dijkstra算法要求边权非负的原因在于，如果边权为负，算法可能会陷入死循环。具体来说，Dijkstra算法通过不断更新每个顶点的最短路径，如果某个顶点的最短路径已经被更新过，那么在后续的更新过程中，如果发现新的更短路径，算法会继续更新这个顶点的最短路径，直到找到所有可能的最短路径。然而，如果边权为负，算法可能会在某个顶点的最短路径已经被更新过的情况下，发现新的更短路径，从而导致算法陷入死循环。因此，为了保证算法的正确性，Dijkstra算法要求边权非负。,1,2,,4,4,0.0,,,0.0,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_MISSING"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+B,A02,二重积分换元时雅可比行列式有什么作用？,ACADEMIC,高等数学,EVIDENCE_SUFFICIENT,True,True,二重积分换元时雅可比行列式的作用是将积分区域转换为新的坐标系，从而简化积分计算。在新的坐标系中，积分区域的面积保持不变，因此雅可比行列式可以用来计算新的坐标系下面积的变化，从而确定积分的大小。[C1]-[C3],1,1,,2,2,0.5,1.0,0.0,0.0,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_INCOMPLETE"", ""CITATION_MISMATCH"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+B,C03,清华校医院联系方式是什么？,CAMPUS,,EVIDENCE_SUFFICIENT,True,True,"清华校医院的联系方式如下：
+
+[C1] 清华大学医院
+* [![](/__local/A/85/D5/AB4550590F1618BF6A6EF14BF24_A6A3D780_C40.jpg)](ksjs1.htm ""科室介绍"")
+* [![](/__local/A/64/15/A04C67F88BADD2327ED1E511037_17D35F10_B7F.jpg)](jyzn1.htm ""就医指南"")
+* [![](/__local/E/28/2B/FB10AFBE9FB703811870466D478_338598B3_CC1.jpg)
+
+清华校医院没有提供具体的联系方式，因此无法给出答案。",1,1,,5,2,0.2,1.0,0.0,1.0,True,"[""UNSUPPORTED_ADDITION"", ""WRONG_REFUSAL"", ""CITATION_INCOMPLETE"", ""CITATION_MISMATCH"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+B,G01,2026年量子计算领域有哪些最新新闻？,GENERAL,,EVIDENCE_SUFFICIENT,True,True,"2026年量子计算领域有以下最新新闻：
+
+[C1] 2026年3月16日，美国麻萨诸塞州的一处雪覆蓋的田野上，一位叫罗伯特戈达德的教授点燃了人类第一枚液态燃料火箭，它飞得很慢，最高只飞了12.5公尺，甚至还没有旁邊的穀倉高，飞行时间只有2.5秒。当时的新聞報道稱，紐約時報甚至寫社論嘲笑他，說他缺乏高中程度的物理常識，因為大家認為真空裡沒有空氣，火箭根本沒有東西可以推，就在此時，大西洋彼岸的奧地利薛丁格寫下了一行描述波動的方程式，沒有人知道這跟真實世界有什麼關係。
+
+[C2] 2026年，一台科技巨星的隕落（上）—英特爾的興起。英特爾的興起是因為在1926年3",1,1,,5,1,0.4,1.0,0.5,0.3333333333333333,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_INCOMPLETE"", ""CITATION_MISMATCH"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+B,G02,动态规划软件市场规模目前是多少？,GENERAL,,EVIDENCE_SUFFICIENT,True,True,根据提供的资料，没有直接提到动态规划软件的市场规模。因此，无法根据现有资料回答动态规划软件市场规模目前是多少的问题。,1,1,,1,1,0.0,,,0.0,False,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""CITATION_MISSING"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+B,N04,哪个国家的人口最多？,HARD_NEGATIVE,,EVIDENCE_SUFFICIENT,True,True,"[C1] 各国家和地区人口列表 - 维基百科，自由的百科全书
+
+根据维基百科提供的信息，目前没有明确指出哪个国家的人口最多。因此，无法给出一个确切的答案。",1,1,,2,1,0.5,1.0,1.0,0.3333333333333333,True,"[""INCOMPLETE"", ""UNSUPPORTED_ADDITION"", ""WRONG_REFUSAL"", ""CITATION_INCOMPLETE"", ""TASK_COMPLETION""]",UNSUPPORTED_ADDITION,True,PROVISIONAL_PROXY
+B,N02,苹果公司的固定效果是什么？,HARD_NEGATIVE,,EVIDENCE_INSUFFICIENT,True,,由于提供的资料中没有关于苹果公司固定效果的信息，因此无法回答这个问题。,0,1,,0,0,,,,,True,"[""TASK_COMPLETION""]",TASK_COMPLETION,True,PROVISIONAL_PROXY

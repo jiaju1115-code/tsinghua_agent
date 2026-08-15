@@ -1,0 +1,255 @@
+{
+  "evaluation_name": "HISTORICAL_CALIBRATION_COMPATIBILITY_REGRESSION",
+  "runtime_version": "EVIDENCE_SUFFICIENCY_V1",
+  "input_source": "experiments/evidence_sufficiency_v0_3/dataset/unified_calibration_dataset.json",
+  "input_total_rows": 147,
+  "eligible_exactly_top5_rows": 101,
+  "excluded_non_top5_rows": 46,
+  "eligibility_rule": "Only historical rows already containing exactly five frozen evidence items are accepted; no truncation, padding, or retrieval rerun.",
+  "interpretation_limits": [
+    "This is compatibility regression on previously used calibration/adjudication/synthetic material.",
+    "It is not a new blind test, held-out test, production estimate, or semantic-entailment validation.",
+    "Historical reference labels are evaluation references, not absolute gold truth."
+  ],
+  "thresholds_locked_before_regression": true,
+  "schema_failure_count": 0,
+  "schema_failure_ids": [],
+  "all_eligible": {
+    "sample_count": 101,
+    "reference_distribution": {
+      "INSUFFICIENT": 44,
+      "SUFFICIENT": 51,
+      "PARTIAL": 6
+    },
+    "runtime_distribution": {
+      "INSUFFICIENT": 52,
+      "SUFFICIENT": 3,
+      "PARTIAL": 46
+    },
+    "confusion_matrix_reference_rows_runtime_columns": {
+      "SUFFICIENT": {
+        "SUFFICIENT": 3,
+        "PARTIAL": 35,
+        "INSUFFICIENT": 13
+      },
+      "PARTIAL": {
+        "SUFFICIENT": 0,
+        "PARTIAL": 4,
+        "INSUFFICIENT": 2
+      },
+      "INSUFFICIENT": {
+        "SUFFICIENT": 0,
+        "PARTIAL": 7,
+        "INSUFFICIENT": 37
+      }
+    },
+    "exact_agreement_count": 44,
+    "exact_agreement_pct": 43.5644,
+    "macro_f1": 0.345264,
+    "macro_f1_pct": 34.5264,
+    "per_class": {
+      "SUFFICIENT": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 48,
+        "support": 51,
+        "precision": 1.0,
+        "precision_pct": 100.0,
+        "recall": 0.058824,
+        "recall_pct": 5.8824,
+        "f1": 0.111111,
+        "f1_pct": 11.1111
+      },
+      "PARTIAL": {
+        "tp": 4,
+        "fp": 42,
+        "fn": 2,
+        "support": 6,
+        "precision": 0.086957,
+        "precision_pct": 8.6957,
+        "recall": 0.666667,
+        "recall_pct": 66.6667,
+        "f1": 0.153846,
+        "f1_pct": 15.3846
+      },
+      "INSUFFICIENT": {
+        "tp": 37,
+        "fp": 15,
+        "fn": 7,
+        "support": 44,
+        "precision": 0.711538,
+        "precision_pct": 71.1538,
+        "recall": 0.840909,
+        "recall_pct": 84.0909,
+        "f1": 0.770833,
+        "f1_pct": 77.0833
+      }
+    },
+    "false_sufficient_count": 0,
+    "false_sufficient_pct_of_all": 0.0,
+    "missed_sufficient_count": 48,
+    "missed_sufficient_pct_of_all": 47.5248,
+    "false_insufficient_or_over_refusal_count": 48,
+    "false_insufficient_or_over_refusal_pct_of_all": 47.5248,
+    "partial_boundary_error_count": 44,
+    "partial_boundary_error_pct_of_all": 43.5644
+  },
+  "real_adjudicated": {
+    "sample_count": 38,
+    "reference_distribution": {
+      "INSUFFICIENT": 1,
+      "SUFFICIENT": 31,
+      "PARTIAL": 6
+    },
+    "runtime_distribution": {
+      "INSUFFICIENT": 11,
+      "SUFFICIENT": 3,
+      "PARTIAL": 24
+    },
+    "confusion_matrix_reference_rows_runtime_columns": {
+      "SUFFICIENT": {
+        "SUFFICIENT": 3,
+        "PARTIAL": 20,
+        "INSUFFICIENT": 8
+      },
+      "PARTIAL": {
+        "SUFFICIENT": 0,
+        "PARTIAL": 4,
+        "INSUFFICIENT": 2
+      },
+      "INSUFFICIENT": {
+        "SUFFICIENT": 0,
+        "PARTIAL": 0,
+        "INSUFFICIENT": 1
+      }
+    },
+    "exact_agreement_count": 8,
+    "exact_agreement_pct": 21.0526,
+    "macro_f1": 0.203268,
+    "macro_f1_pct": 20.3268,
+    "per_class": {
+      "SUFFICIENT": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 28,
+        "support": 31,
+        "precision": 1.0,
+        "precision_pct": 100.0,
+        "recall": 0.096774,
+        "recall_pct": 9.6774,
+        "f1": 0.176471,
+        "f1_pct": 17.6471
+      },
+      "PARTIAL": {
+        "tp": 4,
+        "fp": 20,
+        "fn": 2,
+        "support": 6,
+        "precision": 0.166667,
+        "precision_pct": 16.6667,
+        "recall": 0.666667,
+        "recall_pct": 66.6667,
+        "f1": 0.266667,
+        "f1_pct": 26.6667
+      },
+      "INSUFFICIENT": {
+        "tp": 1,
+        "fp": 10,
+        "fn": 0,
+        "support": 1,
+        "precision": 0.090909,
+        "precision_pct": 9.0909,
+        "recall": 1.0,
+        "recall_pct": 100.0,
+        "f1": 0.166667,
+        "f1_pct": 16.6667
+      }
+    },
+    "false_sufficient_count": 0,
+    "false_sufficient_pct_of_all": 0.0,
+    "missed_sufficient_count": 28,
+    "missed_sufficient_pct_of_all": 73.6842,
+    "false_insufficient_or_over_refusal_count": 28,
+    "false_insufficient_or_over_refusal_pct_of_all": 73.6842,
+    "partial_boundary_error_count": 22,
+    "partial_boundary_error_pct_of_all": 57.8947
+  },
+  "synthetic_constructed": {
+    "sample_count": 63,
+    "reference_distribution": {
+      "INSUFFICIENT": 43,
+      "SUFFICIENT": 20
+    },
+    "runtime_distribution": {
+      "INSUFFICIENT": 41,
+      "PARTIAL": 22
+    },
+    "confusion_matrix_reference_rows_runtime_columns": {
+      "SUFFICIENT": {
+        "SUFFICIENT": 0,
+        "PARTIAL": 15,
+        "INSUFFICIENT": 5
+      },
+      "PARTIAL": {
+        "SUFFICIENT": 0,
+        "PARTIAL": 0,
+        "INSUFFICIENT": 0
+      },
+      "INSUFFICIENT": {
+        "SUFFICIENT": 0,
+        "PARTIAL": 7,
+        "INSUFFICIENT": 36
+      }
+    },
+    "exact_agreement_count": 36,
+    "exact_agreement_pct": 57.1429,
+    "macro_f1": 0.285714,
+    "macro_f1_pct": 28.5714,
+    "per_class": {
+      "SUFFICIENT": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 20,
+        "support": 20,
+        "precision": 0.0,
+        "precision_pct": 0.0,
+        "recall": 0.0,
+        "recall_pct": 0.0,
+        "f1": 0.0,
+        "f1_pct": 0.0
+      },
+      "PARTIAL": {
+        "tp": 0,
+        "fp": 22,
+        "fn": 0,
+        "support": 0,
+        "precision": 0.0,
+        "precision_pct": 0.0,
+        "recall": 0.0,
+        "recall_pct": 0.0,
+        "f1": 0.0,
+        "f1_pct": 0.0
+      },
+      "INSUFFICIENT": {
+        "tp": 36,
+        "fp": 5,
+        "fn": 7,
+        "support": 43,
+        "precision": 0.878049,
+        "precision_pct": 87.8049,
+        "recall": 0.837209,
+        "recall_pct": 83.7209,
+        "f1": 0.857143,
+        "f1_pct": 85.7143
+      }
+    },
+    "false_sufficient_count": 0,
+    "false_sufficient_pct_of_all": 0.0,
+    "missed_sufficient_count": 20,
+    "missed_sufficient_pct_of_all": 31.746,
+    "false_insufficient_or_over_refusal_count": 20,
+    "false_insufficient_or_over_refusal_pct_of_all": 31.746,
+    "partial_boundary_error_count": 22,
+    "partial_boundary_error_pct_of_all": 34.9206
+  }
+}

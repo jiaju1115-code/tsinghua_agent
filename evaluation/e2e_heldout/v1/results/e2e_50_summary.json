@@ -1,0 +1,134 @@
+{
+  "artifact": "e2e_50_summary",
+  "evaluation": "HELD_OUT_E2E_V1",
+  "total_cases": 50,
+  "status_distributions": {
+    "retrieval": {
+      "SUCCESS": {
+        "count": 50,
+        "percentage": 100.0
+      }
+    },
+    "evidence": {
+      "INSUFFICIENT": {
+        "count": 38,
+        "percentage": 76.0
+      },
+      "PARTIAL": {
+        "count": 12,
+        "percentage": 24.0
+      }
+    },
+    "citation": {
+      "BLOCKED": {
+        "count": 38,
+        "percentage": 76.0
+      },
+      "PARTIAL": {
+        "count": 12,
+        "percentage": 24.0
+      }
+    },
+    "answer": {
+      "PARTIAL_ANSWER": {
+        "count": 12,
+        "percentage": 24.0
+      },
+      "REFUSAL": {
+        "count": 38,
+        "percentage": 76.0
+      }
+    },
+    "orchestrator": {
+      "COMPLETED": {
+        "count": 50,
+        "percentage": 100.0
+      }
+    }
+  },
+  "natural_e2e_status": {
+    "READY": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "PARTIAL": {
+      "count": 12,
+      "percentage": 24.0
+    },
+    "BLOCKED": {
+      "count": 38,
+      "percentage": 76.0
+    }
+  },
+  "answer_outcomes": {
+    "FULL_ANSWER": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "PARTIAL_ANSWER": {
+      "count": 12,
+      "percentage": 24.0
+    },
+    "REFUSAL": {
+      "count": 38,
+      "percentage": 76.0
+    },
+    "E2E_ERROR": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "e2e_error": {
+    "count": 0,
+    "percentage": 0.0
+  },
+  "model_calls": {
+    "model_called": {
+      "count": 12,
+      "percentage": 24.0
+    },
+    "no_model_call": {
+      "count": 38,
+      "percentage": 76.0
+    }
+  },
+  "latency_ms": {
+    "retrieval": {
+      "count": 50,
+      "mean_ms": 22.668,
+      "median_ms": 22.632,
+      "min_ms": 17.038,
+      "max_ms": 30.435
+    },
+    "evidence": {
+      "count": 50,
+      "mean_ms": 10.507,
+      "median_ms": 9.948,
+      "min_ms": 6.512,
+      "max_ms": 17.492
+    },
+    "citation": {
+      "count": 50,
+      "mean_ms": 0.976,
+      "median_ms": 0.658,
+      "min_ms": 0.421,
+      "max_ms": 2.853
+    },
+    "answer": {
+      "count": 50,
+      "mean_ms": 2702.129,
+      "median_ms": 0.516,
+      "min_ms": 0.374,
+      "max_ms": 22074.834
+    },
+    "total": {
+      "count": 50,
+      "mean_ms": 2944.014,
+      "median_ms": 237.135,
+      "min_ms": 203.188,
+      "max_ms": 22311.925
+    }
+  },
+  "human_review": "NOT_STARTED",
+  "deterministic_only": true
+}

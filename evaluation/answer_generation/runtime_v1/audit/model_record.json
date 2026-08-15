@@ -1,0 +1,24 @@
+{
+  "artifact": "Answer Generation Runtime V1 local model record",
+  "created_at_utc": "2026-08-15T05:20:58.361832+00:00",
+  "name": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+  "quantization": "Q4_K_M",
+  "path_relative_to_home": ".cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct-GGUF/snapshots/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "size_bytes": 1117320736,
+  "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "architecture": "qwen2",
+  "gguf_file_type": 15,
+  "gguf_quantization_version": 2,
+  "trained_context_length": 32768,
+  "tokenizer": "embedded GPT-2 tokenizer in GGUF",
+  "chat_template": "embedded Qwen chat template",
+  "engine": {
+    "name": "llama-cpp-python",
+    "version": "0.3.34",
+    "vendor_path": "evaluation/answer_generation/v0/vendor",
+    "device": "CPU",
+    "gpu_layers": 0
+  },
+  "artifact_verified_pre_and_post": true
+}

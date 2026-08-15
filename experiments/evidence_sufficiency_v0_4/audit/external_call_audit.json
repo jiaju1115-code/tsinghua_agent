@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "offline local-only",
+  "external_calls": {
+    "search": 0,
+    "tavily": 0,
+    "extract": 0,
+    "web_fetch": 0,
+    "external_llm_api": 0,
+    "answer_generation": 0
+  },
+  "local_calls": {
+    "ollama_loopback_http_candidate_attempts": 1,
+    "ollama_loopback_http_capability_probes": 2
+  },
+  "note": "All model traffic used 127.0.0.1 and the pre-existing deepseek-r1:7b model. No model download occurred."
+}

@@ -1,0 +1,6 @@
+﻿sample_id,expected,predicted,reason_codes,coverage
+C03,EVIDENCE_INSUFFICIENT,EVIDENCE_INSUFFICIENT,EVIDENCE_CONTAMINATION|NO_CORE_ANSWER|QUERY_CONCEPT_MISMATCH|WRONG_DOCUMENT,"{""total"": 1, ""supported"": 0, ""partial"": 0, ""unsupported"": 1}"
+RET-10,EVIDENCE_PARTIAL,EVIDENCE_PARTIAL,KEY_INFORMATION_MISSING|PARTIAL_COVERAGE,"{""total"": 3, ""supported"": 1, ""partial"": 0, ""unsupported"": 2}"
+PROV-020,EVIDENCE_SUFFICIENT,EVIDENCE_SUFFICIENT,FULL_COVERAGE,"{""total"": 2, ""supported"": 2, ""partial"": 0, ""unsupported"": 0}"
+A02,EVIDENCE_INSUFFICIENT,EVIDENCE_INSUFFICIENT,NO_CORE_ANSWER|TOPIC_RELATED_NOT_ANSWERING,"{""total"": 1, ""supported"": 0, ""partial"": 0, ""unsupported"": 1}"
+G02,EVIDENCE_INSUFFICIENT,EVIDENCE_INSUFFICIENT,NO_CORE_ANSWER|QUERY_CONCEPT_MISMATCH|WRONG_DOCUMENT,"{""total"": 1, ""supported"": 0, ""partial"": 0, ""unsupported"": 1}"

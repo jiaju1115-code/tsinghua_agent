@@ -1,0 +1,49 @@
+{
+  "version": "EVIDENCE_SUFFICIENCY_V1",
+  "method": "deterministic_lexical_structural_support_proxy",
+  "semantic_entailment": false,
+  "expected_retriever_version": "RAG_RETRIEVAL_V1",
+  "expected_corpus_version": "KNOWLEDGE_BASE_V1",
+  "expected_top_k": 5,
+  "max_required_points": 5,
+  "min_usable_text_chars": 40,
+  "supported_point_score": 0.52,
+  "partial_point_score": 0.18,
+  "document_relevance_score": 0.08,
+  "max_support_spans_per_point": 2,
+  "labels": ["SUFFICIENT", "PARTIAL", "INSUFFICIENT"],
+  "policy_signals": {
+    "SUFFICIENT": "ALLOW_FULL_ANSWER",
+    "PARTIAL": "ALLOW_PARTIAL_ANSWER",
+    "INSUFFICIENT": "REQUIRE_REFUSAL"
+  },
+  "reason_codes": [
+    "CORE_POINTS_SUPPORTED",
+    "CORE_POINT_MISSING",
+    "REQUESTED_ATTRIBUTE_MISSING",
+    "EVIDENCE_ONLY_PARTIAL",
+    "EVIDENCE_IRRELEVANT",
+    "EVIDENCE_CONFLICT",
+    "TEMPORAL_SUPPORT_UNCLEAR",
+    "SOURCE_SUPPORT_TOO_WEAK",
+    "NO_USABLE_EVIDENCE",
+    "RETRIEVAL_ERROR",
+    "INPUT_SCHEMA_INVALID",
+    "VERSION_MISMATCH",
+    "REQUIRED_POINT_PARSE_FAILED",
+    "LEXICAL_PROXY_LIMITATION"
+  ],
+  "requested_attribute_vocabulary": [
+    "TIME",
+    "DEADLINE",
+    "LOCATION",
+    "PRICE",
+    "ELIGIBILITY",
+    "PROCEDURE",
+    "ENTRY",
+    "MATERIALS",
+    "CONTACT",
+    "OBJECT",
+    "CURRENT_STATUS"
+  ]
+}

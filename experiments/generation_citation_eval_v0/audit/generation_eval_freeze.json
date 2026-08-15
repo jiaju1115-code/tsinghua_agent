@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN",
+  "creation_time": "2026-08-14T04:27:37.882167+00:00",
+  "canonical_manifest_sha256": "6ae8bb6c41518f75fb2efc3ea5287283be5792fdeaf232095f82ba75587a1710",
+  "source_hashes": {
+    "D:\\python_projects\\tsinghua_ai\\evaluation\\answer_generation\\v0\\results\\answer_eval_merged.jsonl": "2fc1acf9d67d6c13742f19baf3ecd87b90a09b0d301974e61954b6a78ed24d13",
+    "D:\\python_projects\\tsinghua_ai\\evaluation\\answer_generation\\v0\\results\\answer_generation_results.jsonl": "d606b1fd322a21bcf12aa85332b640e8d492e5600fa7092301cf1e142fa0490e",
+    "D:\\python_projects\\tsinghua_ai\\evaluation\\answer_generation\\v0\\results\\answer_evaluation_results.jsonl": "fb6b95c24e82902c40d54b9beeb6a08276ad059f4e8899bb5006c8038f5d4e5d",
+    "D:\\python_projects\\tsinghua_ai\\experiments\\e2e12_router_v0_2\\results\\e2e12_results.json": "35cc1382d91669009ab22c30a0939171a09165b825a3b29e3dd535f456552518",
+    "D:\\python_projects\\tsinghua_ai\\experiments\\e2e12_router_v0_2\\audit\\e2e12_freeze.json": "9f6706cb64812cddf8a02fe81d39e84eca3afcbe9cd0fa22fcd1b4e1dbc454be"
+  },
+  "track_a_count": 38,
+  "track_b_count": 12,
+  "overlap_count": 0,
+  "manifest": "D:\\python_projects\\tsinghua_ai\\experiments\\generation_citation_eval_v0\\evaluation\\generation_eval_manifest.json"
+}

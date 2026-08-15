@@ -1,0 +1,95 @@
+**一、办理成绩单、证书制作件：**
+
+**1、****线上申请（推荐）：**
+
+**网址：**<https://gradservice.tsinghua.edu.cn/#/studentlogin>
+
+1）本人通过以上网址线上申请；
+
+2）使用微信、支付宝或银行卡（国际学生可使用境外银行卡）支付；
+
+3）上门自取或选择快递邮寄：快递可选EMS（国内）、DHL（国际）。
+
+**2****、线下办理：**
+
+1）本人办理：本人持**有效证件原件（身份证或护照）**到注册中心办理。
+
+2）代办：代办者持本人**有效证件原件(身份证或护照)**、被代办人的**有效证件复印件**到注册中心办理。
+
+备注：
+
+1、线上申请可选择电子成绩单或纸质成绩单、证书制作件、成绩排名等；
+
+2、如需办理证书制作件，请先在线上申请；
+
+3、1999年之前入学的同学，如果填写信息时提示“学生信息不存在”，原因为注册中心没有数据，需到学校档案馆调档。
+
+请发邮件办理，邮件内容：姓名、学号、院系、入学年月、毕业年月、身份证号或护照号。
+
+**二、收费标准**
+
+1、成绩单（中英文分别计算）：
+
+本科生1999年（含）以后毕业、研究生1998年（含）以后入学的成绩单均为10元/份（注：除美术学院）。
+
+1999年以前毕业的本科生翻译费80元，制作件6元/份；
+
+1998年以前入学的研究生翻译费50元，制作件5元/份；
+
+2、证书制作件：
+
+证书翻译费20元/证/次；制作件4元/份；
+
+**三、办公时间地点、咨询电话及邮箱**
+
+办公时间**：**上午8:00－12:00，下午1:00－5:00（周一至周五，节假日除外）
+
+办公地点：清华大学紫荆C楼201
+
+联系电话：010-62773044
+
+邮箱地址：[zczx@tsinghua.edu.cn](mailto:zczx@tsinghua.edu.cn)
+
+Tsinghua Registrar’s Office offers transcript and other certificates to alumni. Below are the instructions on how to obtain an official certificate.
+
+**Categories of Official Certificate**
+
+(Chinese & English version)
+
+Transcript, Degree Verification Letter, Enrollment Certificate,Ranking Certificate
+
+**Process**
+
+A. In-Person-Pick-up:
+
+If choosing pick up the certificate from Tsinghua Registrar’s Office (C Building, Room 201), please take the original copy of your diploma or provide a same size scanned copy of it when requesting a Degree Verification or Letter of Enrollment Certificate.
+
+If you wish to authorize another individual to order your certificate, be aware of providing that person a copy of your ID card, or passport. The appointed person should bring his/her valid certification as well.
+
+B. Send by mail (EMS/DHL): Use the link below to access to the Online Ordering System
+
+<https://gradservice.tsinghua.edu.cn/#/studentlogin-en>.
+
+**Payment and Fees**
+
+Payment:
+
+Pay electronically by using Bank Card(including international cards), Alipay or WeChat
+
+Certificate related fees:
+
+Transcripts: ¥10/per copy
+
+Verification Letter/Enrollment Certificate: translation fee ¥20/per order plus handling charge ¥4/per order
+
+**Contact Information**
+
+Office Address: Building C, Room 201, Tsinghua Registrar’s Office,
+
+Tsinghua University, Beijing, China 100084
+
+Office Hours: Mon-Fri AM 8:00- 12:00 PM 1:00 -5:00(excluding holidays)
+
+Tel. : 86-10-62773044
+
+E-mail: zczx@tsinghua.edu.cn

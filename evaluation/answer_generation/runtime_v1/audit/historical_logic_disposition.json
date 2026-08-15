@@ -1,0 +1,73 @@
+{
+  "artifact": "Historical Answer Generation logic disposition for Runtime V1",
+  "model_candidate": {
+    "logic": "Verified Qwen2.5-1.5B-Instruct GGUF snapshot and Q4_K_M artifact",
+    "disposition": "REUSE_WITH_ADAPTATION",
+    "reason": "Artifact, revision, GGUF metadata, tokenizer, engine, and hash are reproducible locally; the input/output protocol must be replaced."
+  },
+  "engine": {
+    "logic": "Vendored llama-cpp-python 0.3.34 CPU runtime",
+    "disposition": "REUSE_AS_IS",
+    "reason": "Repository-local engine imports and reports its exact version without network access."
+  },
+  "decoding": {
+    "logic": "Temperature 0, fixed seed, finite output limit",
+    "disposition": "REUSE_WITH_ADAPTATION",
+    "reason": "Retain conservative deterministic settings; reduce the contract to grammar-constrained structured output and record measured repeatability."
+  },
+  "v0_prompt": {
+    "logic": "Full Dense Top-5 plus plain answer and [C1]-[C5] instructions",
+    "disposition": "REJECT_FOR_RUNTIME",
+    "reason": "It bypasses Evidence/Citation gates and failed stable structured/citation output."
+  },
+  "prompt_b": {
+    "logic": "Historical strict natural-language Prompt B",
+    "disposition": "REJECT_FOR_RUNTIME",
+    "reason": "Historical A/B showed safety and citation-compliance regression and still used full Top-5."
+  },
+  "evidence_first_principle": {
+    "logic": "Only evidence-backed facts, conservative refusal",
+    "disposition": "REUSE_WITH_ADAPTATION",
+    "reason": "Re-express around validated support units and deterministic claim-to-unit validation."
+  },
+  "historical_refusal_phrase": {
+    "logic": "根据当前资料无法确认",
+    "disposition": "REUSE_WITH_ADAPTATION",
+    "reason": "Freeze as a deterministic BLOCKED/refusal template, not model-generated behavior."
+  },
+  "full_top5_context": {
+    "logic": "Generator reads all Retriever Top-5 chunks",
+    "disposition": "REJECT_FOR_RUNTIME",
+    "reason": "Violates the formal Citation Support boundary."
+  },
+  "inline_citation_rendering": {
+    "logic": "Model emits [C#] markers",
+    "disposition": "REJECT_FOR_RUNTIME",
+    "reason": "Final citation rendering is separate; Runtime V1 records stable support IDs instead."
+  },
+  "historical_claim_segmentation": {
+    "logic": "Evaluator-derived sentence/claim units",
+    "disposition": "EVALUATION_ONLY",
+    "reason": "Not a stable required-point runtime schema and not human-validated."
+  },
+  "same_model_evaluator": {
+    "logic": "Qwen generator self-evaluates correctness and faithfulness",
+    "disposition": "REJECT_FOR_RUNTIME",
+    "reason": "Not independent, not semantic gold, and unsuitable for fail-closed validation."
+  },
+  "historical_metrics": {
+    "logic": "Correctness, faithfulness, unsupported-claim, citation, and refusal proxies",
+    "disposition": "EVALUATION_ONLY",
+    "reason": "Human fields are blank and the 38 questions are seen/excluded."
+  },
+  "historical_answers": {
+    "logic": "38 V0 and A/B generated answers",
+    "disposition": "EVALUATION_ONLY",
+    "reason": "SEEN_HISTORICAL lineage only; never runtime context, tuning targets, or held-out scoring."
+  },
+  "human_answer_labels": {
+    "logic": "Workbook human correctness/faithfulness/hallucination/error/comment fields",
+    "disposition": "UNRESOLVED",
+    "reason": "All fields are blank; no human Answer correctness reference exists."
+  }
+}

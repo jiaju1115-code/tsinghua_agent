@@ -1,0 +1,307 @@
+{
+  "artifact": "Public Expansion V2 V3.2 human check evaluation",
+  "scope": "49-row sample only",
+  "human_label_statement": "human_action is the human reference for this evaluation and is not asserted to be absolute gold truth.",
+  "completeness_check": {
+    "passed": true,
+    "data_row_count": 49,
+    "check_id_range": "HC0001-HC0049",
+    "legal_actions": [
+      "approve",
+      "review",
+      "reject"
+    ],
+    "legal_human_reject_types": [
+      "expired_event",
+      "other",
+      "topic_irrelevant"
+    ]
+  },
+  "input_freeze": {
+    "artifact": "Public Expansion V2 V3.2 adjudicated human check input freeze",
+    "status": "frozen",
+    "frozen_at_utc": "2026-08-14T16:48:39.978848Z",
+    "input_path": "data/02_public_expansion/v2/human_check/public_v3_2_human_check_adjudicated.xlsx",
+    "sha256": "b6640c3a871f0d42e724452f2569935fd6f9131d817e3cd4d7076fe8719a5c9c",
+    "size_bytes": 84040,
+    "modified_at_utc": "2026-08-14T15:37:56.551741Z",
+    "worksheet": "Human Check",
+    "data_row_count": 49,
+    "fields": [
+      "check_id",
+      "original_id",
+      "title",
+      "url",
+      "domain",
+      "category",
+      "content_type",
+      "topic_relevance",
+      "time_status",
+      "v3_2_action",
+      "v3_2_reject_type",
+      "v3_2_reason",
+      "cleaned_content",
+      "human_action",
+      "human_reject_type",
+      "human_note"
+    ],
+    "normalization_used_for_validation_only": "Leading/trailing whitespace and line breaks were stripped only for validation and metrics; the XLSX was not modified.",
+    "constraints": [
+      "human_action, human_reject_type, and human_note are frozen",
+      "human_check_rows.json and pre-existing Public Expansion V2 frozen materials were not modified"
+    ]
+  },
+  "sampling_limitation": {
+    "source": "data/02_public_expansion/v2/human_check/human_check_rows.json",
+    "source_row_count": 49,
+    "documented_design": "No randomization, strata, weights, or inclusion probabilities are documented in the supplied 49-row JSON. The accompanying guide calls this production quality sampling and says it is not a blind test.",
+    "conclusion": "Sample agreement must not be interpreted as full-pool performance for all 165 rows; representativeness is not established."
+  },
+  "action_distribution": {
+    "v3_2": {
+      "approve": {
+        "count": 22,
+        "denominator": 49,
+        "percent": 44.89795918367347
+      },
+      "review": {
+        "count": 15,
+        "denominator": 49,
+        "percent": 30.612244897959183
+      },
+      "reject": {
+        "count": 12,
+        "denominator": 49,
+        "percent": 24.489795918367346
+      }
+    },
+    "human_reference": {
+      "approve": {
+        "count": 25,
+        "denominator": 49,
+        "percent": 51.02040816326531
+      },
+      "review": {
+        "count": 8,
+        "denominator": 49,
+        "percent": 16.3265306122449
+      },
+      "reject": {
+        "count": 16,
+        "denominator": 49,
+        "percent": 32.6530612244898
+      }
+    }
+  },
+  "confusion_matrix": {
+    "rows": "v3_2_action",
+    "columns": "human_action",
+    "counts": {
+      "approve": {
+        "approve": 19,
+        "review": 0,
+        "reject": 3
+      },
+      "review": {
+        "approve": 6,
+        "review": 6,
+        "reject": 3
+      },
+      "reject": {
+        "approve": 0,
+        "review": 2,
+        "reject": 10
+      }
+    },
+    "percent_of_sample": {
+      "approve": {
+        "approve": 38.775510204081634,
+        "review": 0.0,
+        "reject": 6.122448979591836
+      },
+      "review": {
+        "approve": 12.244897959183673,
+        "review": 12.244897959183673,
+        "reject": 6.122448979591836
+      },
+      "reject": {
+        "approve": 0.0,
+        "review": 4.081632653061225,
+        "reject": 20.408163265306122
+      }
+    }
+  },
+  "agreement": {
+    "exact": {
+      "count": 35,
+      "denominator": 49,
+      "percent": 71.42857142857143
+    },
+    "cohen_kappa": 0.5542560103963613,
+    "class_metrics_human_reference": {
+      "approve": {
+        "tp": {
+          "count": 19,
+          "denominator": 49,
+          "percent": 38.775510204081634
+        },
+        "fp": {
+          "count": 3,
+          "denominator": 49,
+          "percent": 6.122448979591836
+        },
+        "fn": {
+          "count": 6,
+          "denominator": 49,
+          "percent": 12.244897959183673
+        },
+        "precision": {
+          "count": 19,
+          "denominator": 22,
+          "percent": 86.36363636363636
+        },
+        "recall": {
+          "count": 19,
+          "denominator": 25,
+          "percent": 76.0
+        },
+        "f1": {
+          "value": 0.8085106382978724,
+          "percent": 80.85106382978724
+        }
+      },
+      "review": {
+        "tp": {
+          "count": 6,
+          "denominator": 49,
+          "percent": 12.244897959183673
+        },
+        "fp": {
+          "count": 9,
+          "denominator": 49,
+          "percent": 18.367346938775512
+        },
+        "fn": {
+          "count": 2,
+          "denominator": 49,
+          "percent": 4.081632653061225
+        },
+        "precision": {
+          "count": 6,
+          "denominator": 15,
+          "percent": 40.0
+        },
+        "recall": {
+          "count": 6,
+          "denominator": 8,
+          "percent": 75.0
+        },
+        "f1": {
+          "value": 0.5217391304347827,
+          "percent": 52.17391304347827
+        }
+      },
+      "reject": {
+        "tp": {
+          "count": 10,
+          "denominator": 49,
+          "percent": 20.408163265306122
+        },
+        "fp": {
+          "count": 2,
+          "denominator": 49,
+          "percent": 4.081632653061225
+        },
+        "fn": {
+          "count": 6,
+          "denominator": 49,
+          "percent": 12.244897959183673
+        },
+        "precision": {
+          "count": 10,
+          "denominator": 12,
+          "percent": 83.33333333333334
+        },
+        "recall": {
+          "count": 10,
+          "denominator": 16,
+          "percent": 62.5
+        },
+        "f1": {
+          "value": 0.7142857142857143,
+          "percent": 71.42857142857143
+        }
+      }
+    },
+    "macro_f1": {
+      "value": 0.6815118276727898,
+      "percent": 68.15118276727898
+    }
+  },
+  "error_sets": {
+    "false_approve": {
+      "count": 3,
+      "denominator": 49,
+      "percent": 6.122448979591836
+    },
+    "over_reject": {
+      "count": 2,
+      "denominator": 49,
+      "percent": 4.081632653061225
+    },
+    "review_boundary": {
+      "count": 11,
+      "denominator": 49,
+      "percent": 22.448979591836736
+    },
+    "reject_type_agreement": {
+      "applicable_definition": "both V3.2 and human action are reject",
+      "applicable_samples": {
+        "count": 10,
+        "denominator": 49,
+        "percent": 20.408163265306122
+      },
+      "match": {
+        "count": 10,
+        "denominator": 10,
+        "percent": 100.0
+      }
+    }
+  },
+  "disagreement_summary": {
+    "false_approve": {
+      "count": 3,
+      "denominator": 49,
+      "percent": 6.122448979591836
+    },
+    "over_reject": {
+      "count": 2,
+      "denominator": 49,
+      "percent": 4.081632653061225
+    },
+    "review_to_approve": {
+      "count": 6,
+      "denominator": 49,
+      "percent": 12.244897959183673
+    },
+    "review_to_reject": {
+      "count": 3,
+      "denominator": 49,
+      "percent": 6.122448979591836
+    },
+    "reject_type_mismatch": {
+      "count": 0,
+      "denominator": 49,
+      "percent": 0.0
+    },
+    "other": {
+      "count": 0,
+      "denominator": 49,
+      "percent": 0.0
+    }
+  },
+  "audit": {
+    "status": "pass",
+    "prohibited_artifacts_modified": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "artifact": "Citation / Support Runtime V1 final upstream integrity comparison",
+  "created_at_utc": "2026-08-15T04:40:35.399296+00:00",
+  "scope": [
+    "data/03_knowledge_base/v1",
+    "src/retrieval_v1/adapter.py",
+    "src/evidence_sufficiency_v1",
+    "evaluation/evidence_sufficiency/v1",
+    "experiments/evidence_sufficiency_v0_1",
+    "experiments/evidence_sufficiency_v0_2",
+    "experiments/evidence_sufficiency_v0_3",
+    "experiments/evidence_sufficiency_v0_4",
+    "evaluation/citation",
+    "evaluation/answer_generation",
+    "experiments/generation_citation_eval_v0",
+    "evaluation/rag",
+    "data/02_public_expansion/v2/human_check",
+    "data/06_human_annotation",
+    "experiments/router_v0_2",
+    "evaluation/prompt_v3_2_blind_test_v1",
+    "evaluation/e2e/v1/benchmark/exclusion_registry.jsonl"
+  ],
+  "pre_file_count": 1467,
+  "post_file_count": 1467,
+  "pre_inventory_sha256": "9468e847db92c5819027ec177a6d680b77c4861a609d7c152c8fb79135b1c9a4",
+  "post_inventory_sha256": "9468e847db92c5819027ec177a6d680b77c4861a609d7c152c8fb79135b1c9a4",
+  "modified_files_count": 0,
+  "added_upstream_files_count": 0,
+  "removed_upstream_files_count": 0,
+  "modified_files": [],
+  "added_upstream_files": [],
+  "removed_upstream_files": [],
+  "upstream_sections_pre": {
+    "knowledge_base_v1": {
+      "file_count": 273,
+      "inventory_sha256": "595a3cbcb7c59b53660756bf02f1b43d628a32fe223d6fb895f4223ee3859659"
+    },
+    "rag_retrieval_v1": {
+      "file_count": 1,
+      "inventory_sha256": "457d6c10e185054ee8ac2308e5b3a67a5d53d49a13eae999397c6ffa665b09bf"
+    },
+    "evidence_sufficiency_v1": {
+      "file_count": 19,
+      "inventory_sha256": "9e3fe09caee35e0840f374112e74c379e5455523be6a29ca9105af40335df4e6"
+    }
+  },
+  "knowledge_base_v1_unchanged": true,
+  "rag_retrieval_v1_unchanged": true,
+  "evidence_sufficiency_v1_unchanged": true,
+  "overall_status": "PASS"
+}

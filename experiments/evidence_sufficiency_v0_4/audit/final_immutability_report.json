@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "run_status": "SEMANTIC_ENGINE_UNAVAILABLE",
+  "candidate": "v0.4-a",
+  "candidate_freeze_status": "PASS",
+  "input_audit_status": "PASS",
+  "v0_3_protocol_reused_without_modification": true,
+  "v0_1_modified": false,
+  "v0_2_modified": false,
+  "v0_3_modified": false,
+  "router_modified": false,
+  "retrieval_modified": false,
+  "answer_generation_modified": false,
+  "production_gate_modified": false,
+  "new_samples_created": false,
+  "new_blind_created": false,
+  "semantic_matrix_completed": false,
+  "cross_validation_completed": false,
+  "historical_regression_completed": false,
+  "stop_reason": "The frozen local semantic-engine prompt exceeded the locally served model context and returned HTTP 502 on the first sample."
+}

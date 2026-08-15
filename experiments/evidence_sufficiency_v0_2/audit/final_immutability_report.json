@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "protected_components_modified": false,
+  "new_files_scope": "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_sufficiency_v0_2",
+  "offline_calls": {
+    "search": 0,
+    "tavily": 0,
+    "extract": 0,
+    "external_llm": 0,
+    "answer_regeneration": 0
+  },
+  "candidate_sample_specific_audit": "PASS",
+  "formal_real_holdout_runs": 1,
+  "formal_synthetic_holdout_runs": 1,
+  "post_holdout_candidate_changes": 0,
+  "candidate_freeze_sha256": "09756a0d4756d715c43141054b83fd662f7aa6a1e62d35112cb7b8cd7f680e4a"
+}

@@ -1,0 +1,74 @@
+{
+  "artifact": "one_shot_execution_freeze",
+  "evaluation": "HELD_OUT_E2E_V1",
+  "status": "ONE_SHOT_HELD_OUT_E2E_V1_FROZEN",
+  "created_at_utc": "2026-08-15T06:49:37.784445+00:00",
+  "dataset": {
+    "path": "evaluation/e2e_heldout/v1/cases/e2e_50_cases.jsonl",
+    "sha256": "8194d0272a29fce8b5f97fea65c4efb47f96b0dc93b04f4a3da1865fa588582f",
+    "case_count": 50
+  },
+  "results": {
+    "path": "evaluation/e2e_heldout/v1/results/e2e_50_results.jsonl",
+    "sha256": "35a71a4aa014141a99ca41508534459caa10b3e912bda32eb4520c0246032817",
+    "record_count": 50
+  },
+  "summary": {
+    "path": "evaluation/e2e_heldout/v1/results/e2e_50_summary.json",
+    "sha256": "70aaa059e68f825e8cdf98f715204b51225e963309f47f599ad18b58fd9a19a7"
+  },
+  "execution": {
+    "attempted": 50,
+    "completed": 50,
+    "rerun": false,
+    "runner_retries": 0,
+    "repair": false,
+    "formal_result_records": 50
+  },
+  "gates": {
+    "preflight_import_ok": true,
+    "runner_exit_code_zero": true,
+    "exactly_50_attempted_and_completed": true,
+    "each_frozen_case_exactly_once": true,
+    "no_rerun": true,
+    "dataset_hash_unchanged": true,
+    "dataset_freeze_status_unchanged": true,
+    "upstream_runtime_manifests_and_sidecars_unchanged": true,
+    "no_human_review_or_quality_scoring": true,
+    "results_sha256_recorded": true,
+    "summary_sha256_recorded": true
+  },
+  "frozen_runtime_inputs": {
+    "knowledge_base_v1": {
+      "path": "data/03_knowledge_base/v1/audit/knowledge_base_v1_freeze.json",
+      "status": "KNOWLEDGE_BASE_V1_FROZEN",
+      "sha256": "e54315552f65458570ca9d4108e8e592e8638a331f21012e92e120f87b0edf8b"
+    },
+    "rag_retrieval_v1": {
+      "path": "data/03_knowledge_base/v1/audit/rag_retrieval_v1_freeze.json",
+      "status": "RAG_RETRIEVAL_V1_FROZEN",
+      "sha256": "37364781a7061fd10cdf0fd75d29b22c620999e4afe24aabab6357318766e76d"
+    },
+    "evidence_sufficiency_v1": {
+      "path": "evaluation/evidence_sufficiency/v1/audit/evidence_sufficiency_v1_freeze.json",
+      "status": "EVIDENCE_SUFFICIENCY_V1_FROZEN",
+      "sha256": "49b5aca7e442980f748fecaad8632101f28d0eee0fc34c2ff6043c4deaa49095"
+    },
+    "citation_support_v1": {
+      "path": "evaluation/citation_support/v1/audit/citation_support_v1_freeze.json",
+      "status": "CITATION_SUPPORT_V1_FROZEN",
+      "sha256": "cdc096e8b8578f3e8f770cb643f07e66b73ffa0d4181abc15633aaa74927885c"
+    },
+    "answer_generation_v1": {
+      "path": "evaluation/answer_generation/runtime_v1/audit/answer_generation_v1_freeze.json",
+      "status": "ANSWER_GENERATION_V1_FROZEN",
+      "sha256": "10451c1b9b1867bc14586edfffadc657d0c7d7ce50bf9989ef2f4047b0b5cc60"
+    },
+    "unified_e2e_orchestrator_v1": {
+      "path": "evaluation/e2e_orchestrator/runtime_v1/audit/unified_e2e_orchestrator_v1_freeze.json",
+      "status": "UNIFIED_E2E_ORCHESTRATOR_V1_FROZEN",
+      "sha256": "27ae05185a85863b5d7a417601809b248a7ceb23a25f26239e86d18496800bd7"
+    }
+  },
+  "human_review": "NOT_STARTED"
+}

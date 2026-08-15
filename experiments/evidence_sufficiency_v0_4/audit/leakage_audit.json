@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "point_and_support_inference_input": [
+    "record_id",
+    "sample_id_for_trace_only",
+    "query",
+    "frozen_evidence",
+    "source_dataset",
+    "construction_type"
+  ],
+  "excluded_from_semantic_prompt": [
+    "gold_label",
+    "v0_3_prediction",
+    "v0_3_error_taxonomy",
+    "historical_prediction"
+  ],
+  "sample_specific_rules": false,
+  "note": "No per-sample semantic inference completed because the first frozen candidate call failed before schema-valid output."
+}

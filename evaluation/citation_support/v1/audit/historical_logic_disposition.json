@@ -1,0 +1,85 @@
+{
+  "artifact": "Citation historical logic disposition for Citation Support Runtime V1",
+  "final_answer_citation_correctness_available": false,
+  "human_claim_to_citation_gold_available": false,
+  "items": [
+    {
+      "logic": "top5_only_candidate_boundary",
+      "source": "Citation V1-V2",
+      "disposition": "REUSE_AS_IS",
+      "basis": "Citation candidates must remain inside the already frozen retrieval result."
+    },
+    {
+      "logic": "chunk_source_identity_validation",
+      "source": "Citation V1-V2",
+      "disposition": "REUSE_WITH_ADAPTATION",
+      "basis": "Runtime V1 validates Evidence provenance directly against Retriever V1 metadata."
+    },
+    {
+      "logic": "sentence_span_boundary_and_normalization",
+      "source": "Citation V2",
+      "disposition": "REUSE_WITH_ADAPTATION",
+      "basis": "Useful engineering concept, but Runtime V1 requires exact traceability back to raw frozen chunk text."
+    },
+    {
+      "logic": "source_level_deduplication",
+      "source": "Historical citation reference lists",
+      "disposition": "REUSE_WITH_ADAPTATION",
+      "basis": "Multiple chunks from one canonical source must aggregate without deleting required-point support."
+    },
+    {
+      "logic": "historical_claim_segmentation",
+      "source": "Citation V1-V2",
+      "disposition": "REJECT_FOR_RUNTIME",
+      "basis": "Runtime V1 has no answer and must not create answer claims."
+    },
+    {
+      "logic": "claim_span_embedding_similarity",
+      "source": "Citation V1-V2",
+      "disposition": "REJECT_FOR_RUNTIME",
+      "basis": "It ranks relevance and does not validate Evidence provenance or entailment."
+    },
+    {
+      "logic": "bge_reranker_verifier",
+      "source": "Citation V2",
+      "disposition": "REJECT_FOR_RUNTIME",
+      "basis": "Recorded as unreliable for entailment with 20/20 hard-negative false-positive anchors at the selected threshold."
+    },
+    {
+      "logic": "automatic_supported_partial_labels",
+      "source": "Citation V1-V2",
+      "disposition": "EVALUATION_ONLY",
+      "basis": "No completed human citation labels; labels were produced by the evaluated rules themselves."
+    },
+    {
+      "logic": "citation_precision_proxy",
+      "source": "Citation V1-V2",
+      "disposition": "REJECT_FOR_RUNTIME",
+      "basis": "A rule pass rate cannot be reported as human citation correctness."
+    },
+    {
+      "logic": "unsupported_claim_detection_and_faithfulness",
+      "source": "Generation Citation Eval V0 and Citation V1-V2",
+      "disposition": "REJECT_FOR_RUNTIME",
+      "basis": "No answer exists in this runtime layer."
+    },
+    {
+      "logic": "final_marker_and_reference_rendering",
+      "source": "Citation V1-V2",
+      "disposition": "REJECT_FOR_RUNTIME",
+      "basis": "Rendering belongs after Answer Generation."
+    },
+    {
+      "logic": "secondary_ai_adjudication",
+      "source": "Generation Citation Eval V0 adjudicated workbook",
+      "disposition": "EVALUATION_ONLY",
+      "basis": "Qualitative secondary AI review, not human gold or independent held-out citation labels."
+    },
+    {
+      "logic": "human_claim_to_citation_correctness",
+      "source": "Historical workbooks",
+      "disposition": "UNRESOLVED",
+      "basis": "Citation V1 fields are blank; Citation V2 36-row calibration fields are also blank."
+    }
+  ]
+}

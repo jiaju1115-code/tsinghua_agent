@@ -1,0 +1,19 @@
+{
+  "artifact": "Evidence Sufficiency historical logic disposition",
+  "semantic_entailment_implemented": false,
+  "items": [
+    {"logic": "three_state_coverage_decision", "source": "V0.1", "disposition": "REUSE_AS_IS", "basis": "Stable label semantics: all core supported / some supported / none safely supported."},
+    {"logic": "query_required_point_decomposition", "source": "V0.1-V0.4", "disposition": "REUSE_WITH_ADAPTATION", "basis": "Concept validated, historical parser unstable and sometimes over-splits."},
+    {"logic": "sentence_span_audit_trace", "source": "V0.2", "disposition": "REUSE_WITH_ADAPTATION", "basis": "Useful provenance, but n-gram overlap is not semantic support."},
+    {"logic": "minimal_core_points", "source": "V0.3-V0.4", "disposition": "REUSE_WITH_ADAPTATION", "basis": "Optional details must not become hard sufficiency conditions."},
+    {"logic": "requested_attribute_check", "source": "V0.3-V0.4", "disposition": "REUSE_WITH_ADAPTATION", "basis": "Explicitly requested time/location/amount/eligibility/procedure/etc. must be supported."},
+    {"logic": "optional_support_output", "source": "V0.4 schema", "disposition": "REUSE_WITH_ADAPTATION", "basis": "Schema concept only; V0.4 never materialized it."},
+    {"logic": "fixed_sample_mismatch_tokens", "source": "V0.1", "disposition": "REJECT_FOR_RUNTIME", "basis": "Sample-shaped hard coding is not general runtime logic."},
+    {"logic": "v0_2_ngram_thresholds", "source": "V0.2", "disposition": "EVALUATION_ONLY", "basis": "Chosen on historical development; wrong-document holdout remained 0/3."},
+    {"logic": "v0_3_random_forest_and_threshold_0_58", "source": "V0.3", "disposition": "REJECT_FOR_RUNTIME", "basis": "All-seen calibration model; real false-sufficient 4/15 and unstable Partial boundary."},
+    {"logic": "v0_3_semantic_entailment_claim", "source": "V0.3 config/spec", "disposition": "REJECT_FOR_RUNTIME", "basis": "Implementation is lexical/structural proxy only."},
+    {"logic": "v0_4_local_semantic_engine", "source": "V0.4-a", "disposition": "REJECT_FOR_RUNTIME", "basis": "No schema-valid execution or evaluation exists."},
+    {"logic": "v0_4_support_matrix_schema", "source": "V0.4 schema", "disposition": "UNRESOLVED", "basis": "Desirable future contract, but relation labels such as ENTAILED require an actual validated entailment engine."},
+    {"logic": "historical_metrics", "source": "V0.1-V0.3", "disposition": "EVALUATION_ONLY", "basis": "Tiny holdouts, seen calibration, synthetic construction and cross-version query reuse prevent official claims."}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "router_version": "Router V0.2 frozen",
+  "retrieval": "existing Web Search V0 ranking/source-quality/evidence components",
+  "search_provider": "Tavily basic search, max_results=5, live calls; cache bypassed",
+  "extract": "Tavily Extract, top 3 URLs",
+  "generation": "Qwen2.5-1.5B-Instruct-GGUF Q4_K_M, local llama-cpp CPU, temperature=0, seed=20260813",
+  "evaluation": "PROVISIONAL_PROXY_LOCAL_SELF_EVAL; no external LLM judge; no human validation",
+  "hashes": {
+    "router_v0_2.py": "2972f5ab6636a55fde82223087d592ee18c84935bbc4e8b0b4d234503de248e8",
+    "tavily_client.py": "bafe1ba6a4ace474a435431ed1dba60a88a829faf383406ca165623238171f96",
+    "query_rewriter.py": "e77ea499f3f425a173000ae329e08ce04dabffaed671dbcf3e6ee1f1badbaa76",
+    "ranking.py": "f3091640c173180ce6d123871ced7a1ff1cbf2adb4207478303e87f1ca75fb6f",
+    "source_quality.py": "17a646b2cf91e05b579005313f8c17396b5cde6cfd2eeb5de1f25129492334bf",
+    "evidence_span.py": "fa1c2a88c2a37dcc98fdb33ac49b8347b0a9fa82797f993e02d5715472d6a25d",
+    "generation_config.json": "6d93f370cfa959071d84e9e0ef7effcf83a961da022ad3415a4260836bf01ecd",
+    "grounded_generation_prompt.md": "3670300a43527a74e0fe5e48d5f17640a50741290cfb5eaaeae448abacd51257"
+  }
+}

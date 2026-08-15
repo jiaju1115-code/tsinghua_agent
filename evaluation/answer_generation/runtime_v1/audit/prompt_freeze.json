@@ -1,0 +1,25 @@
+{
+  "artifact": "Answer Generation Runtime V1 prompt freeze",
+  "created_at_utc": "2026-08-15T05:20:58.361832+00:00",
+  "prompt_version": "ANSWER_GENERATION_V1_PROMPT",
+  "prompt_path": "evaluation/answer_generation/runtime_v1/prompts/answer_generation_v1_prompt.md",
+  "prompt_sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb",
+  "prompt_hash_verified": true,
+  "model_name": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+  "decoding": {
+    "context_length": 6144,
+    "max_output_tokens": 256,
+    "temperature": 0.0,
+    "seed": 20260815,
+    "repeat_penalty": 1.05,
+    "threads": 12,
+    "batch_threads": 16,
+    "prompt_batch_size": 1024,
+    "micro_batch_size": 256,
+    "json_schema_constrained": true
+  },
+  "retry_count": 0,
+  "timeout_seconds": 45,
+  "config_sha256": "a7d2392de8e8d05123826926831e71d75f56b51e438dd1412e9a752593253200"
+}

@@ -1,0 +1,154 @@
+{
+  "artifact": "Evidence Sufficiency Runtime V1 interface integration test",
+  "created_at_utc": "2026-08-15T05:51:52.668556+00:00",
+  "chain": "query -> RAG Retrieval V1 Top-5 -> Evidence Sufficiency Runtime V1 -> structured decision",
+  "answer_generation_called": false,
+  "citation_runtime_called": false,
+  "case_count": 3,
+  "cases": [
+    {
+      "case_id": "INT-001",
+      "query": "清华大学图书馆开放时间是什么？",
+      "checks": {
+        "retrieval_error_is_null": true,
+        "retriever_version_match": true,
+        "corpus_version_match": true,
+        "top5_count_is_five": true,
+        "evidence_error_is_null": true,
+        "evidence_version_match": true,
+        "output_schema_exact": true,
+        "evidence_repeatability_excluding_latency": true
+      },
+      "passed": true,
+      "retrieved_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0239-0001",
+        "KBV1-CHUNK-PUBV2C-0240-0001",
+        "KBV1-CHUNK-PUBV2C-0048-0001",
+        "KBV1-CHUNK-PUBV2C-0242-0001",
+        "KBV1-CHUNK-PUBV2C-0056-0007"
+      ],
+      "retrieved_source_ids": [
+        "KBV1-PUB-PUBV2C-0239",
+        "KBV1-PUB-PUBV2C-0240",
+        "KBV1-PUB-PUBV2C-0048",
+        "KBV1-PUB-PUBV2C-0242",
+        "KBV1-PUB-PUBV2C-0056"
+      ],
+      "retrieval_scores": [
+        0.59358686,
+        0.52222592,
+        0.5105679,
+        0.50809175,
+        0.49254701
+      ],
+      "evidence_decision": "INSUFFICIENT",
+      "policy_signal": "REQUIRE_REFUSAL",
+      "reason_codes": [
+        "CORE_POINT_MISSING",
+        "EVIDENCE_IRRELEVANT",
+        "LEXICAL_PROXY_LIMITATION",
+        "REQUESTED_ATTRIBUTE_MISSING"
+      ],
+      "supporting_chunk_ids": [],
+      "supporting_source_ids": []
+    },
+    {
+      "case_id": "INT-002",
+      "query": "清华大学本科生奖学金申请条件和截止时间是什么？",
+      "checks": {
+        "retrieval_error_is_null": true,
+        "retriever_version_match": true,
+        "corpus_version_match": true,
+        "top5_count_is_five": true,
+        "evidence_error_is_null": true,
+        "evidence_version_match": true,
+        "output_schema_exact": true,
+        "evidence_repeatability_excluding_latency": true
+      },
+      "passed": true,
+      "retrieved_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0075-0003",
+        "KBV1-CHUNK-PUBV2C-0075-0002",
+        "KBV1-CHUNK-PUBV2C-0076-0003",
+        "KBV1-CHUNK-PUBV2C-0077-0003",
+        "KBV1-CHUNK-PUBV2C-0075-0001"
+      ],
+      "retrieved_source_ids": [
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0076",
+        "KBV1-PUB-PUBV2C-0077",
+        "KBV1-PUB-PUBV2C-0075"
+      ],
+      "retrieval_scores": [
+        0.66109324,
+        0.62930447,
+        0.61840028,
+        0.61407858,
+        0.61381257
+      ],
+      "evidence_decision": "PARTIAL",
+      "policy_signal": "ALLOW_PARTIAL_ANSWER",
+      "reason_codes": [
+        "CORE_POINT_MISSING",
+        "EVIDENCE_ONLY_PARTIAL",
+        "LEXICAL_PROXY_LIMITATION",
+        "REQUESTED_ATTRIBUTE_MISSING"
+      ],
+      "supporting_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0075-0001"
+      ],
+      "supporting_source_ids": [
+        "KBV1-PUB-PUBV2C-0075"
+      ]
+    },
+    {
+      "case_id": "INT-003",
+      "query": "清华大学校医院的就诊流程如何？",
+      "checks": {
+        "retrieval_error_is_null": true,
+        "retriever_version_match": true,
+        "corpus_version_match": true,
+        "top5_count_is_five": true,
+        "evidence_error_is_null": true,
+        "evidence_version_match": true,
+        "output_schema_exact": true,
+        "evidence_repeatability_excluding_latency": true
+      },
+      "passed": true,
+      "retrieved_chunk_ids": [
+        "KBV1-CHUNK-PUBV2C-0262-0007",
+        "KBV1-CHUNK-PUBV2C-0018-0002",
+        "KBV1-CHUNK-PUBV2C-0262-0002",
+        "KBV1-CHUNK-PUBV2C-0147-0006",
+        "KBV1-CHUNK-PUBV2C-0147-0007"
+      ],
+      "retrieved_source_ids": [
+        "KBV1-PUB-PUBV2C-0262",
+        "KBV1-PUB-PUBV2C-0018",
+        "KBV1-PUB-PUBV2C-0262",
+        "KBV1-PUB-PUBV2C-0147",
+        "KBV1-PUB-PUBV2C-0147"
+      ],
+      "retrieval_scores": [
+        0.62694657,
+        0.61211032,
+        0.60939252,
+        0.58476555,
+        0.58149463
+      ],
+      "evidence_decision": "INSUFFICIENT",
+      "policy_signal": "REQUIRE_REFUSAL",
+      "reason_codes": [
+        "CORE_POINT_MISSING",
+        "EVIDENCE_IRRELEVANT",
+        "LEXICAL_PROXY_LIMITATION",
+        "REQUESTED_ATTRIBUTE_MISSING"
+      ],
+      "supporting_chunk_ids": [],
+      "supporting_source_ids": []
+    }
+  ],
+  "retrieval_repeatability_excluding_latency": true,
+  "overall_status": "PASS"
+}

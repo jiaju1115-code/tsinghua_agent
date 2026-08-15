@@ -1,0 +1,29 @@
+{
+  "name": "Evidence Sufficiency V0.3 Final Candidate",
+  "variant": "v0.3-c",
+  "config": {
+    "max_depth": 7,
+    "min_samples_leaf": 2,
+    "sufficient_threshold": 0.58
+  },
+  "features": [
+    "query_length",
+    "core_point_count",
+    "evidence_count",
+    "log_useful_chars",
+    "max_chunk_chars",
+    "min_chunk_chars",
+    "navigation_count",
+    "query_document_overlap",
+    "max_point_support",
+    "min_point_support",
+    "mean_point_support",
+    "all_short_fragments",
+    "single_evidence_multi_point",
+    "query_title_overlap",
+    "requested_attribute_support"
+  ],
+  "policy": "Minimal core points + requested attribute viability + semantic entailment coverage + calibrated three-class boundary",
+  "parser": "native strict JSON",
+  "model": "offline RandomForest trained only on seen calibration data"
+}

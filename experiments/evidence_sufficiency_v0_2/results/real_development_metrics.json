@@ -1,0 +1,65 @@
+{
+  "n": 24,
+  "accuracy": {
+    "count": 15,
+    "rate": 0.625
+  },
+  "sufficient_precision": 0.875,
+  "sufficient_recall": 0.6666666666666666,
+  "partial_recall": 0.3333333333333333,
+  "false_sufficient": {
+    "count": 2,
+    "denominator": 3,
+    "rate": 0.6666666666666666
+  },
+  "missed_sufficient": {
+    "count": 7,
+    "denominator": 21,
+    "rate": 0.3333333333333333
+  },
+  "macro_f1": 0.31285831285831284,
+  "confusion_matrix": {
+    "EVIDENCE_SUFFICIENT": {
+      "EVIDENCE_SUFFICIENT": 14,
+      "EVIDENCE_PARTIAL": 7,
+      "EVIDENCE_INSUFFICIENT": 0
+    },
+    "EVIDENCE_PARTIAL": {
+      "EVIDENCE_SUFFICIENT": 2,
+      "EVIDENCE_PARTIAL": 1,
+      "EVIDENCE_INSUFFICIENT": 0
+    },
+    "EVIDENCE_INSUFFICIENT": {
+      "EVIDENCE_SUFFICIENT": 0,
+      "EVIDENCE_PARTIAL": 0,
+      "EVIDENCE_INSUFFICIENT": 0
+    }
+  },
+  "per_class": {
+    "EVIDENCE_SUFFICIENT": {
+      "precision": 0.875,
+      "recall": 0.6666666666666666,
+      "f1": 0.7567567567567567,
+      "support": 21
+    },
+    "EVIDENCE_PARTIAL": {
+      "precision": 0.125,
+      "recall": 0.3333333333333333,
+      "f1": 0.18181818181818182,
+      "support": 3
+    },
+    "EVIDENCE_INSUFFICIENT": {
+      "precision": null,
+      "recall": null,
+      "f1": 0,
+      "support": 0
+    }
+  },
+  "by_construction_type": {
+    "REAL": {
+      "n": 24,
+      "correct": 15,
+      "accuracy": 0.625
+    }
+  }
+}

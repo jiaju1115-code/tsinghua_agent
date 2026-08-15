@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "input_hash_changes": [],
+  "missing_inputs": [],
+  "network_calls": 0,
+  "search_extract_calls": 0,
+  "answers_regenerated": 0,
+  "existing_experiment_files_modified": false,
+  "secondary_ai_label": "SECONDARY_AI_ADJUDICATION",
+  "generation_eval_v0_prior_immutability_status": "PASS",
+  "protected_git_checks": {
+    "experiments\\router_v0_2": [
+      "?? experiments/router_v0_2/"
+    ],
+    "experiments\\web_search_v0\\src": [],
+    "experiments\\web_search_v0_followup\\src": [],
+    "evaluation\\answer_generation\\v0\\config": [],
+    "prompts": [],
+    "data_first": [],
+    "data_second": []
+  },
+  "new_outputs_root": "D:\\python_projects\\tsinghua_ai\\experiments\\evaluation_reconciliation_v0_1",
+  "completed_at": "2026-08-14T06:26:50.165527+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "v0_3_cv_script_sha256": "f1bb5ebbec6e5b0c1e3c6ae64d9a53f250caf53178553357326e2858f9573edc",
+  "verified_against_v0_3_freeze": true,
+  "outer_folds": 5,
+  "real_stratum": "gold_label (as implemented in V0.3)",
+  "synthetic_stratum": "construction_type",
+  "inner_folds": 3,
+  "random_seed": 20260814,
+  "dedup_rule": "reuse V0.3 unified Query+Evidence dataset without re-deduplication"
+}

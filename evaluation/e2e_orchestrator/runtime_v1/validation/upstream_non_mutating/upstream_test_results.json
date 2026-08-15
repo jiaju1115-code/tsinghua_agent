@@ -1,0 +1,151 @@
+{
+  "artifact": "Non-mutating execution of all existing frozen upstream test entry points",
+  "created_at_utc": "2026-08-15T05:52:24.737268+00:00",
+  "method": "Loaded each existing script unchanged and redirected only its output globals/root to the new orchestrator validation area.",
+  "upstream_files_written": false,
+  "test_entry_count": 7,
+  "passed_count": 7,
+  "failed_count": 0,
+  "cases": [
+    {
+      "name": "e2e_upstream_rag_regression",
+      "source_script": "scripts/run_rag_retrieval_v1_regression.py",
+      "exit_code": 0,
+      "passed": true,
+      "exception": null,
+      "stdout_tail": [
+        "",
+        "Loading weights:   0%|          | 0/71 [00:00<?, ?it/s]",
+        "Loading weights: 100%|##########| 71/71 [00:00<00:00, 8593.40it/s]",
+        "{\"status\": \"PASS\", \"queries\": 38, \"errors\": 0, \"schema_failures\": 0}"
+      ]
+    },
+    {
+      "name": "e2e_upstream_evidence_unit",
+      "source_script": "scripts/run_evidence_sufficiency_v1_unit_tests.py",
+      "exit_code": 0,
+      "passed": true,
+      "exception": null,
+      "stdout_tail": [
+        "    \"test_optional_only_missing_does_not_block (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_optional_only_missing_does_not_block) ... ok\",",
+        "    \"test_partial_multi_point (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_partial_multi_point) ... ok\",",
+        "    \"test_repeatability_excluding_latency (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_repeatability_excluding_latency) ... ok\",",
+        "    \"test_sufficient (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_sufficient) ... ok\",",
+        "    \"test_version_mismatch_fails_closed (evaluation.evidence_sufficiency.v1.tests.test_runtime.RuntimeV1Tests.test_version_mismatch_fails_closed) ... ok\",",
+        "    \"\",",
+        "    \"----------------------------------------------------------------------\",",
+        "    \"Ran 10 tests in 0.015s\",",
+        "    \"\",",
+        "    \"OK\"",
+        "  ]",
+        "}"
+      ]
+    },
+    {
+      "name": "e2e_upstream_evidence_integration",
+      "source_script": "scripts/run_evidence_sufficiency_v1_integration.py",
+      "exit_code": 0,
+      "passed": true,
+      "exception": null,
+      "stdout_tail": [
+        "        \"CORE_POINT_MISSING\",",
+        "        \"EVIDENCE_IRRELEVANT\",",
+        "        \"LEXICAL_PROXY_LIMITATION\",",
+        "        \"REQUESTED_ATTRIBUTE_MISSING\"",
+        "      ],",
+        "      \"supporting_chunk_ids\": [],",
+        "      \"supporting_source_ids\": []",
+        "    }",
+        "  ],",
+        "  \"retrieval_repeatability_excluding_latency\": true,",
+        "  \"overall_status\": \"PASS\"",
+        "}"
+      ]
+    },
+    {
+      "name": "e2e_upstream_citation_unit",
+      "source_script": "scripts/run_citation_support_v1_unit_tests.py",
+      "exit_code": 0,
+      "passed": true,
+      "exception": null,
+      "stdout_tail": [
+        "    {",
+        "      \"scenario\": \"determinism\",",
+        "      \"status\": \"PASS\",",
+        "      \"error\": null",
+        "    },",
+        "    {",
+        "      \"scenario\": \"restricted_metadata_sanitization\",",
+        "      \"status\": \"PASS\",",
+        "      \"error\": null",
+        "    }",
+        "  ]",
+        "}"
+      ]
+    },
+    {
+      "name": "e2e_upstream_citation_integration",
+      "source_script": "scripts/run_citation_support_v1_integration.py",
+      "exit_code": 0,
+      "passed": true,
+      "exception": null,
+      "stdout_tail": [
+        "        \"frozen_retrieval_rows_reused\": true,",
+        "        \"citation_support_error_is_null\": true,",
+        "        \"sufficient_maps_to_ready\": true,",
+        "        \"support_repeatable_excluding_latency\": true,",
+        "        \"output_schema_exact\": true,",
+        "        \"support_unit_schema_exact\": true",
+        "      },",
+        "      \"passed\": true",
+        "    }",
+        "  ],",
+        "  \"overall_status\": \"PASS\"",
+        "}"
+      ]
+    },
+    {
+      "name": "e2e_upstream_answer_unit",
+      "source_script": "scripts/run_answer_generation_v1_unit_tests.py",
+      "exit_code": 0,
+      "passed": true,
+      "exception": null,
+      "stdout_tail": [
+        "    {",
+        "      \"scenario\": \"lexical_trace_failure\",",
+        "      \"status\": \"PASS\",",
+        "      \"error\": null",
+        "    },",
+        "    {",
+        "      \"scenario\": \"model_load_error\",",
+        "      \"status\": \"PASS\",",
+        "      \"error\": null",
+        "    }",
+        "  ]",
+        "}"
+      ]
+    },
+    {
+      "name": "e2e_upstream_answer_integration",
+      "source_script": "scripts/run_answer_generation_v1_integration.py",
+      "exit_code": 0,
+      "passed": true,
+      "exception": null,
+      "stdout_tail": [
+        "      \"passed\": true,",
+        "      \"support_status\": \"READY\",",
+        "      \"answer_status\": \"REFUSAL\",",
+        "      \"reason_codes\": [",
+        "        \"MODEL_NOT_CALLED\",",
+        "        \"PROMPT_INJECTION_GUARD\",",
+        "        \"SAFE_REFUSAL\"",
+        "      ]",
+        "    }",
+        "  ],",
+        "  \"overall_status\": \"PASS\"",
+        "}"
+      ]
+    }
+  ],
+  "overall_status": "PASS"
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Unified E2E Orchestrator V1 output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "query", "case_id", "orchestrator_version", "orchestrator_status",
+    "retrieval_status", "evidence_status", "citation_status", "answer_status",
+    "final_answer", "answered_required_point_ids", "unanswered_required_point_ids",
+    "used_support_unit_ids", "used_source_ids", "claims", "provenance",
+    "trace_summary", "layer_latencies_ms", "orchestration_overhead_ms",
+    "total_latency_ms", "reason_codes", "error"
+  ],
+  "properties": {
+    "query": {"type": "string"},
+    "case_id": {"type": "string"},
+    "orchestrator_version": {"const": "UNIFIED_E2E_ORCHESTRATOR_V1"},
+    "orchestrator_status": {"enum": ["COMPLETED", "E2E_ERROR"]},
+    "retrieval_status": {"enum": ["SUCCESS", "ERROR", "NOT_RUN"]},
+    "evidence_status": {"enum": ["SUFFICIENT", "PARTIAL", "INSUFFICIENT", "ERROR", "NOT_RUN"]},
+    "citation_status": {"enum": ["READY", "PARTIAL", "BLOCKED", "ERROR", "NOT_RUN"]},
+    "answer_status": {"enum": ["FULL_ANSWER", "PARTIAL_ANSWER", "REFUSAL", "ERROR", "NOT_RUN"]},
+    "final_answer": {"type": "string"},
+    "answered_required_point_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "unanswered_required_point_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "used_support_unit_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "used_source_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "claims": {"type": "array", "items": {"type": "object"}},
+    "provenance": {"type": "array", "items": {"type": "object"}},
+    "trace_summary": {"type": "array", "items": {"type": "object"}, "maxItems": 4},
+    "layer_latencies_ms": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["retrieval", "evidence", "citation", "answer"],
+      "properties": {
+        "retrieval": {"type": ["number", "null"]},
+        "evidence": {"type": ["number", "null"]},
+        "citation": {"type": ["number", "null"]},
+        "answer": {"type": ["number", "null"]}
+      }
+    },
+    "orchestration_overhead_ms": {"type": "number", "minimum": 0},
+    "total_latency_ms": {"type": "number", "minimum": 0},
+    "reason_codes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "error": {"type": ["object", "null"]}
+  }
+}

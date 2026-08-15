@@ -1,0 +1,521 @@
+[
+  {
+    "sample_id": "PROV-021",
+    "query": "国际学生选择校外住宿时应查看什么住宿指南？",
+    "category": "国际事务与签证",
+    "academic_subject": "",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0170",
+        "title": "Accommodation",
+        "url": "https://www.is.tsinghua.edu.cn/asdfasdf/Accommodationq.htm",
+        "text": "the contract or pay for the rental, do confirm that the owner of the apartment/house property is able to process the\n\naccommodation registration for you. Otherwise you will get into trouble of illegal stay. Moreover, you need to renew your Registration Form of Temporary Residence if you have moved to another place, changed your passport or renewed your visa.\n\n[****附件:2026国际学生住宿指南****](../zhongwen-qinghuadaxueguojixueshenggongyuzhusushenghuozhinan.pdf)\n\n[**2026Accommodation Guide for International Students >>**](../yingwen-qinghuadaxueguojixueshenggongyuzhusushenghuozhinan.pdf)",
+        "chunk_id": "PROV0-STGPUB-0170-0007"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0003",
+        "title": "Visa Procedures-Tsinghua International Students & Scholars Center",
+        "url": "https://www.is.tsinghua.edu.cn/asdfasdf/vp/VisaProcedures.htm",
+        "text": "to their local police station.\n\n2) Students living in hotels should take their passport to the building’s reception.\n\n3) Students living in on-campus international students’ accommodation should take their passport to the building’s reception.\n\n持学习(X1)签证的国际学生应于入境起30日内申请居留许可手续,逾期不办者,责任自负,罚款自理。所需文件为:\n\n★本人有效护照\n\n★北京市国际旅行卫生保健中心开具的 《外国留学人员来华签证体检证明》原件\n\n★经国际学生学者中心审核盖章的《外国人签证证件申请表》(自办签证)/或国际学生学者中心开具的《清华大学国际学生办理签证通知单》(由商联国际代办签证)\n\n★清华大学《录取通知书》原件及复印件\n\n★《外国留学人员来华签证申请表》(JW201/JW202表)原件\n\n★ 一张2寸(护照规格)的正面免冠照片(白色背景)\n\n★《临时住宿登记表》原件及复印件。在校内住宿由紫荆公寓开具,在校外住宿由属地派出所或者酒店开具。\n\n办理完居留许可手续后,须持护照到居住地公安派出所或酒店重新办理《临时住宿登记表》。\n\n国际学生如在校外的中国居民家中、驻华外国机构、在中国的外国人家中住宿,必须在抵达后24小时内,由留宿人和国际学生本人持相关材料一起到居住地公安派出所进行登记,填写《临时住宿登记表》。在校外非法住宿者,学校将不予注册。\n\n**2. Extension of Residence Permit/ 学习类居留许可延期**",
+        "chunk_id": "PROV0-STGPUB-0003-0002"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0003",
+        "title": "Visa Procedures-Tsinghua International Students & Scholars Center",
+        "url": "https://www.is.tsinghua.edu.cn/asdfasdf/vp/VisaProcedures.htm",
+        "text": "1) Students living in off-campus private accommodation should take their passport to their local police station.\n\n2) Students living in hotels should take their passport to the building’s reception.\n\n3) Students living in on-campus international students’ accommodation should take their passport to the building’s reception.\n\n需要延长居留期限的国际学生须至少在有效期满一周前到国际学生学者中心申请,所需文件为:\n\n★本人有效护照\n\n★北京市国际旅行卫生保健中心开具的《外国留学人员来华签证体检证明》原件\n\n★清华大学《录取通知书》原件及复印件\n\n★《外国留学人员来华签证申请表》(JW201/JW202表)原件\n\n★经国际学生学者中心审核盖章的《外国人签证证件申请表》(自办签证)/或国际学生学者中心开具的《清华大学国际学生办理签证通知单》(由商联国际代办签证)\n\n★ 一张2寸(护照规格)的正面免冠照片(背景为白色)\n\n★《临时住宿登记表》原件及复印件\n\n办理完居留许可手续后,须持护照到居住地公安派出所或酒店重新办理《临时住宿登记表》。\n\n**5. Internship Annotation/实习加注申请**",
+        "chunk_id": "PROV0-STGPUB-0003-0009"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0003",
+        "title": "Visa Procedures-Tsinghua International Students & Scholars Center",
+        "url": "https://www.is.tsinghua.edu.cn/asdfasdf/vp/VisaProcedures.htm",
+        "text": "1) Students living in off-campus private accommodation should take their passport to their local police station.\n\n2) Students living in hotels should take their passport to the building' s reception.\n\n3) Students living in on-campus international students’ accommodation should take their passport to the building' s reception.\n\n申请居留许可延期所需文件为:\n\n★本人有效护照\n\n★经国际学生学者中心审核盖章的《外国人签证证件申请表》(自办签证)/或国际学生学者中心开具的《清华大学国际学生办理签证通知单》(由商联国际代办签证)\n\n★ 一张2寸(护照规格)的正面免冠照片(背景为白色)\n\n★《临时住宿登记表》原件及复印件\n\n办理完居留许可手续后,须持护照到居住地公安派出所或酒店重新办理《临时住宿登记表》。\n\n校内可拍摄照片并获得回执单的地点有C楼咔咔照相馆和紫荆2号楼嘉艺照相馆。\n\n**3. X2 Visa Extension or Adding of Entries/ X2签证延期或加次**",
+        "chunk_id": "PROV0-STGPUB-0003-0004"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0003",
+        "title": "Visa Procedures-Tsinghua International Students & Scholars Center",
+        "url": "https://www.is.tsinghua.edu.cn/asdfasdf/vp/VisaProcedures.htm",
+        "text": "their passport to the building’s reception.\n\n需要办理X2延期或加次的国际学生须在学期中以前到国际学生学者中心申请,所需文件为:\n\n★本人有效护照\n\n★清华大学《录取通知书》原件及复印件\n\n★《外国留学人员来华签证申请表》(JW201/JW202表)原件\n\n★经国际学生学者中心审核盖章的《外国人签证证件申请表》(自办签证)/或国际学生学者中心开具的《清华大学国际学生办理签证通知单》(由商联国际代办签证)\n\n★ 一张2寸(护照规格)的正面免冠照片(背景为白色)\n\n★《临时住宿登记表》原件及复印件\n\n办理完加次手续后,须持护照到居住地公安派出所或所住涉外公寓、酒店重新办理《临时住宿登记表》。\n\n**4. From X2 Visa to Residence Permit/ X2签证换发学习类居留许可**\n\nFor students who need to extend the duration of their Residence Permit, they should apply at least one week before the date of expiration, and should provide the following:\n\n★Valid passport;\n\n★Physical Examination Certification issued by the Beijing International Travel Health Care Center;\n\n★The Admission Notice of Tsinghua University (original and photocopy)",
+        "chunk_id": "PROV0-STGPUB-0003-0007"
+      }
+    ],
+    "evidence_ids": "C1 | C2 | C3 | C4 | C5",
+    "evidence_source_titles": "Accommodation | Visa Procedures-Tsinghua International Students & Scholars Center | Visa Procedures-Tsinghua International Students & Scholars Center | Visa Procedures-Tsinghua International Students & Scholars Center | Visa Procedures-Tsinghua International Students & Scholars Center",
+    "evidence_origin": "answer_generation_v0.retrieved_context",
+    "prior_usage": "ORIGINAL_PROXY_UNREVIEWED; GENERATION_EVALUATION",
+    "recovery_status": "RECOVERED_EXACT",
+    "adjudicated_evidence_gate": "EVIDENCE_SUFFICIENT",
+    "adjudication_confidence": "HIGH",
+    "adjudication_reason": "Accommodation 页面明确提供“2026 Accommodation Guide for International Students”，并包含校外住宿登记和合法住宿提醒，足以指向应查看的住宿指南。",
+    "required_answer_points": [
+      "国际学生校外住宿应查看哪份指南",
+      "校外住宿需要注意的登记要求"
+    ],
+    "evidence_coverage_notes": "[{\"point\":\"国际学生校外住宿应查看哪份指南\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\"]},{\"point\":\"校外住宿需要注意的登记要求\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\",\"C3\"]}]",
+    "reason_codes": "FULL_COVERAGE",
+    "label": "EVIDENCE_SUFFICIENT",
+    "selection_hash": "070db13e2f4f52f25af055822854d6061c41bbb875bba2e9692bd59ece2a4766"
+  },
+  {
+    "sample_id": "PROV-025",
+    "query": "清华通讯作者在IEEE开放获取期刊发表论文有何APC优惠？",
+    "category": "科研参与",
+    "academic_subject": "",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0197",
+        "title": "剑桥大学出版社（CUP）开放获取（OA）政策-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1344/5970.htm",
+        "text": "2026年,我校师生在剑桥大学出版社(CUP)的金色OA(Gold OA)期刊与混合OA(Hybrid OA)期刊上选择以 OA(Open Access)方式发表论文时,第一作者或通讯作者可以申请使用6篇免费发表的额度。名额有限,先到先得!\n\n除上述6篇APC费用全免之外,我校师生在CUP期刊以OA 方式发表论文都可获得 10% 的费用折扣——清华师生作为第一作者或通讯作者,在 CUP金色OA期刊或混合OA期刊选择以OA方式投稿时,均可使用此项优惠,无名额限制。\n\n为确保投稿时被正确识别为我校作者,从而拥有使用以上优惠的资格。请我校师生填写作者信息时,将机构信息正确关联系统中的学校账号:Tsinghua University,并使用清华大学提供的邮箱地址:形如username@mail.tsinghua.edu.cn;username@mails.tsinghua.edu.cn;username@tsinghua.edu.cn 等形式的邮箱。\n\n优惠生效时间:2026.1.1-2026.12.31 (名额已用完)",
+        "chunk_id": "PROV0-STGPUB-0197-0000"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0203",
+        "title": "电气电子工程师学会（IEEE）开放获取（OA）政策-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1344/5971.htm",
+        "text": "经图书馆与IEEE洽商,IEEE出版社在我校订购此数据库期间对我校师生提供APC减免优惠。\n\n适用人群:通讯作者为我校师生\n\n优惠幅度:出版社对我校师生作为通讯作者在IEEE发表OA论文的文章处理费用(Article Processing Charge,APC)给予9折优惠。\n\n优惠范围:我校通讯作者在IEEE金色OA期刊上发表,或者在IEEE混合期刊上选择以OA模式发表时,均可使用APC减免优惠。适用期刊请见[**列表**](https://open.ieee.org/publishing-options/ieee-title-list/)中Full Open Access与Hybrid Open Access期刊。请注意在匹配通讯作者所在机构时,正确关联系统中**学校级别账号:Tsinghua University**,才能使用此优惠。此优惠不与其他优惠叠加使用。\n\n具体使用流程请见**附件**介绍。\n\n**优惠时间:****即日起至2026年12月31日**\n\n特别提示:如发现未抵扣,请暂不要付款。",
+        "chunk_id": "PROV0-STGPUB-0203-0000"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0188",
+        "title": "MDPI（多学科数字出版机构）开放获取（OA）政策-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1359/5862.htm",
+        "text": "我校师生在MDPI期刊进行OA论文投稿可享受10% APC折扣,无名额限制。\n\n请师生注意填写作者信息时,需要保障任意一位作者将机构信息正确关联系统中的学校账号:Tsinghua University,并使用清华大学提供的邮箱地址:形如username@mail.tsinghua.edu.cn;username@mails.tsinghua.edu.cn;username@tsinghua.edu.cn 等形式的邮箱,保证被正确识别为我校作者,拥有使用以上优惠的资格。",
+        "chunk_id": "PROV0-STGPUB-0188-0000"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0205",
+        "title": "美国计算机协会（ACM）开放获取（OA）政策-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1344/5969.htm",
+        "text": "所有符合条件的清华大学通讯作者在任何ACM出版的刊物上发表文章时,均可选择以OA形式免费发表,无名额限制。\n\nACM为其出版的每篇文章提供一个默认的知识共享授权(CC-BY),作者也可选择CC-BY-NC-ND授权。需注意,ACM中有少量与其他出版社合作出版的会议录可能涉及版权转让。\n\n为确保投稿时被正确识别为我校作者,从而拥有使用以上优惠的资格。请我校师生填写作者信息时,将机构信息正确关联系统中的学校账号:Tsinghua University,并使用清华大学提供的邮箱地址。有效邮箱包括:\n\n1.username@sz.tsinghua.edu.cn(清华大学深圳国际研究生院)\n\n2.username@mail.tsinghua.edu.cn(员工电子邮件域名)\n\n3.username@mails.tsinghua.edu.cn(学生电子邮件域名)\n\n4.username@tsinghua.edu.cn(员工电子邮件域名)\n\n5.username@air.tsinghua.edu.cn(清华大学AI工业研究所)\n\n6.username@sc.tsinghua.edu.cn(清华大学苏世民书院)\n\n7.username@sem.tsinghua.edu.cn (清华大学经管学院)\n\n8.username@pbcsf.tsinghua.edu.cn(清华大学五道口金融学院)",
+        "chunk_id": "PROV0-STGPUB-0205-0000"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0186",
+        "title": "ACM(美国计算机协会)开放获取(OA)政策-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1347/5858.htm",
+        "text": "所有符合条件的清华大学通讯作者在任何ACM刊物上发表文章时,均可选择以OA形式免费发表,无名额限制。\n\nACM为每篇文章提供一个默认的知识共享授权(CC-BY)。当然,作者也可以选择任何一个知识共享CC授权选项,或者根据自己的意愿将版权或独家出版权转让给ACM。为确保投稿时被正确识别为我校作者,从而拥有使用以上优惠的资格。请我校师生填写作者信息时,将机构信息正确关联系统中的学校账号:Tsinghua University,并使用清华大学提供的邮箱地址。有效邮箱包括:\n\n1.username@sz.tsinghua.edu.cn(清华大学深圳国际研究生院)\n\n2.username@mail.tsinghua.edu.cn(员工电子邮件域名)\n\n3.username@mails.tsinghua.edu.cn(学生电子邮件域名)\n\n4.username@tsinghua.edu.cn(员工电子邮件域名)\n\n5.username@air.tsinghua.edu.cn(清华大学AI工业研究所)\n\n6.username@sc.tsinghua.edu.cn(清华大学苏世民书院)\n\n7.username@sem.tsinghua.edu.cb(清华大学经管学院)\n\n8.username@pbcsf.tsinghua.edu.cn",
+        "chunk_id": "PROV0-STGPUB-0186-0000"
+      }
+    ],
+    "evidence_ids": "C1 | C2 | C3 | C4 | C5",
+    "evidence_source_titles": "剑桥大学出版社（CUP）开放获取（OA）政策-清华大学图书馆 | 电气电子工程师学会（IEEE）开放获取（OA）政策-清华大学图书馆 | MDPI（多学科数字出版机构）开放获取（OA）政策-清华大学图书馆 | 美国计算机协会（ACM）开放获取（OA）政策-清华大学图书馆 | ACM(美国计算机协会)开放获取(OA)政策-清华大学图书馆",
+    "evidence_origin": "answer_generation_v0.retrieved_context",
+    "prior_usage": "ORIGINAL_PROXY_UNREVIEWED; GENERATION_EVALUATION",
+    "recovery_status": "RECOVERED_EXACT",
+    "adjudicated_evidence_gate": "EVIDENCE_SUFFICIENT",
+    "adjudication_confidence": "HIGH",
+    "adjudication_reason": "IEEE开放获取政策直接说明清华通讯作者享受APC九折优惠、适用期刊范围、机构匹配要求和优惠期限。",
+    "required_answer_points": [
+      "清华通讯作者IEEE OA APC优惠幅度",
+      "优惠适用范围",
+      "使用优惠的关键条件/期限"
+    ],
+    "evidence_coverage_notes": "[{\"point\":\"清华通讯作者IEEE OA APC优惠幅度\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C2\"]},{\"point\":\"优惠适用范围\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C2\"]},{\"point\":\"使用优惠的关键条件/期限\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C2\"]}]",
+    "reason_codes": "FULL_COVERAGE",
+    "label": "EVIDENCE_SUFFICIENT",
+    "selection_hash": "0e6c444194e9b314b7ce060ebd591d07555ad708897afdc3ec01d69a6d5eac67"
+  },
+  {
+    "sample_id": "PROV-023",
+    "query": "学生想进行一对一生涯咨询、简历修改或模拟面试，可以找什么服务？",
+    "category": "就业与职业发展",
+    "academic_subject": "",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0005",
+        "title": "个体咨询（校内导师）",
+        "url": "https://career.tsinghua.edu.cn/info/1008/2435.htm",
+        "text": "学生职业发展指导中心有30余位学生职业发展指导中心有近30位咨询师向同学提供个性化咨询。同学们可以与咨询师一对一面谈在职业生涯方面的问题和困惑,咨询师会根据需要,帮助分析兴趣爱好、个性特征、能力特长,选择适合的职业发展方向,与同学们共同讨论如何应对职业选择和求职过程中遇到的困难和挑战,帮助同学们提高问题解决能力,发掘自身优势,提高实现梦想的信心。\n\n生涯咨询可以在以下几个方面对你有所帮助:\n\n- **自我了解****:**帮助你深入剖析自己的兴趣爱好、性格特征、能力特长,以及你对人生意义和价值的看法;\n- **职业探索****:**与你探讨收集职业信息的技巧,帮助你提高收集职业信息的能力,以便在专业学习和职业世界中进行精准定位;\n- **方向选择****:**帮助你使用理性、科学的方法,分析和比较多种发展方向的选择,从而做出恰当的决策;\n- **简历与面试****:**帮助您修改适用于升学、留学、实习和求职使用的简历,进行适用于上述情境的模拟面试;\n- **求职心理****:**帮助你提高应对求职中挫折和困境的能力,学习心理调适的方法。\n\n**咨询师介绍**\n\n****一、学术机构职业选择与发展咨询****\n\n| | |\n| --- | --- |\n| | **李锋亮**,博士(教育经济学),清华大学教育研究院教授,开设“教育与就业”、“教育经济学”等课程,一直从事教育与就业之间关系的研究。 --- **咨询领域**:专业/职业选择与准备、擅长进行决策的成本与收益分析。 |\n| | **马昱春**,博士(计算机专业),教授,清华大学计算机系教学办公室主任。 --- **咨询领域**:专业/职业选择与准备;博士生的学术职业与非学术职业选择。 |\n| | **王大亮**,博士,清华大学基础医学院教授,基础医学院党委副书记,从事肿瘤病理学领域的研究与教学工作。",
+        "chunk_id": "PROV0-STGPUB-0005-0000"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0005",
+        "title": "个体咨询（校内导师）",
+        "url": "https://career.tsinghua.edu.cn/info/1008/2435.htm",
+        "text": "|\n| | **朱李婧**,深圳国际研究生院职业发展指导中心国际与跨文化项目主管,美国加州大学欧文分校公共政策硕士,曾任职于院学生全球胜任力中心。 --- **咨询领域**:职业生涯选择与发展、外企/政府/海外高校就业指导、国际组织就业规划、中英文简历修改、双语模拟面试, 海外就业选择咨询、面试礼仪、个人发展规划。 |\n| | **陈旭东**,深圳国际研究生院职业发展指导中心老师,清华大学公共管理硕士,GCDF全球生涯规划师,国家人力资源二级、CISET国际注册高级礼仪培训师。 --- **咨询领域**:职业生涯咨询、企业就业指导、专业/职业选择与准备、简历修改、面试技巧、面试礼仪培训。 |\n| | **董亮**,深圳国际研究生院职业发展指导中心老师,清华大学法律硕士。 --- **咨询领域**:公共服务部门就业指导、专业/职业选择与准备、简历修改、面试技巧、职业生涯规划、选调政策解读。 |\n| | **赵梦圆**,深圳国际研究生院职业发展指导中心老师,澳大利亚悉尼大学商学硕士,GCDF全球生涯规划师。 --- **咨询领域**:职业生涯咨询、国际组织实习及就业指导、双语模拟面试、简历修改。 |\n\n**六、就业政策咨询**\n\n| | |\n| --- | --- |\n| | **张杨**,文学博士,讲师,清华大学学生职业发展指导中心校地人才合作与综合办公室主任。 --- **咨询领域**:大学生就业政策、企事业单位就业等。 |\n| | |\n\n**在校生预约咨询方式:**\n\n**预约方式一:**请先于首页登录(用户名和密码同info信息门户),然后点击左侧快速通道的咨询预约链接,查询咨询师个人信息,预约个体咨询。([操作视频](https://m.v.qq.com/z/msite/play-short/index.html?",
+        "chunk_id": "PROV0-STGPUB-0005-0006"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0005",
+        "title": "个体咨询（校内导师）",
+        "url": "https://career.tsinghua.edu.cn/info/1008/2435.htm",
+        "text": "--- **咨询领域**:各学科学生专业/职业选择与发展,可为不同学历、不同年级的学生提供系统性的生涯辅导。 |\n| | **詹逸思**,教育学博士,副教授,清华大学学生学习与发展指导中心副主任。10年职业咨询经验,累计讲授大学生学习发展讲座、工作坊350场,一对一咨询1700余小时,学生咨询满意率保持在95%以上。通过专业咨询资质包括:全球职业规划师(GCDF,美国认证与教育中心,2012-),注册生涯教练(BCC)(美国认证与教育中心,2015-),MBTI施测师(2016-),全国三级心理咨询师(2017-),4D卓越团队与领导力培训师(2019-),Strong Interest Inventory施测师(20-)。 --- **咨询领域**:专业选择与申请准备,学习能力提升,读研选择与准备,职业发展规划,教育学学术科研。可提供中英双语咨询。 |\n| | **周思彤**,文学硕士,现任清华大学计算机科学与技术系党委办公室教师,负责学生就业、实践及学生发展。生涯规划师(BCF, 20-), 全球职业规划师(GCDF,20-),全球生涯教练(BCC,2022-)。 --- **咨询领域**:专业/职业选择与准备、简历修改、面试技巧、信息行业的职业选择与发展。 |\n\n**五、深圳国际研究生院职业咨询师**\n\n| | |\n| --- | --- |\n| | **梁大伟**,深圳国际研究生院职业发展指导中心主任,清华大学法律硕士,曾任院团委书记。 --- **咨询领域**:有志于在公共部门、重点行业与单位工作的在校生和青年校友提供个人选择与发展咨询、公考政策与考试技能提升等一对一咨询。 |\n| | **朱李婧**,深圳国际研究生院职业发展指导中心国际与跨文化项目主管,美国加州大学欧文分校公共政策硕士,曾任职于院学生全球胜任力中心。",
+        "chunk_id": "PROV0-STGPUB-0005-0005"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0005",
+        "title": "个体咨询（校内导师）",
+        "url": "https://career.tsinghua.edu.cn/info/1008/2435.htm",
+        "text": "--- **咨询领域**:企业的职业选择与发展、企业招聘的要求、简历面试准备、职场胜任力培养。 |\n| | **关麟凤**,中国电力工程有限公司高级顾问,二十多年的HR从业经历,北京中外企业人力资源协会(HRA)学习与发展委员会委员;全球职业规划师(GCDF)。 --- **咨询领域**:企业的职业选择与发展、个人特质(能力、价值观、兴趣等)探索、职业信息的收集、简历面试准备。 |\n| | **俞婷君**,华为公司人力资源资深专家,北师大教育经济与管理专业硕士,华为人力资源管理15年经验,擅长职业规划、简历撰写等。 --- **咨询领域**:简历,面试指导;职业规划等。 |\n\n**三、国际组织职业选择与发展咨询**\n\n| | |\n| --- | --- |\n| | **徐雅楠**,翻译硕士,清华大学学生职业发展指导中心教师,全球职业规划师(GCDF)、生涯规划师(BCF)。 --- **咨询领域**:国际组织实习任职的选择与准备、政策解答及实习申请渠道和技巧;国际学生的职业选择与准备、简历修改、面试技巧等。可提供中英双语咨询。 |\n\n**四、各学科学生职业选择与发展咨询**\n\n| | |\n| --- | --- |\n| | **关晓壮**,文学硕士,现任清华大学学生职业发展指导中心职业生涯教育办公室主任,负责设计、开展课外职业发展教育活动;负责学生职业发展协会的管理。 --- **咨询领域**:专业/职业选择与准备、简历修改、面试技巧、文科专业职业选择与发展。 |\n| | **谷红丽**,清华大学深圳国际研究生院驻校办老师。国家二级心理咨询师(人力资源和社会保障部2010-),全球职业规划师(GCDF,2011-),职业测评师(北森生涯学院CAT认证培训2012-),注册职业教练(BCC)(美国认证与教育中心,2013-),高校生涯教练(UCC)(2015-)。",
+        "chunk_id": "PROV0-STGPUB-0005-0002"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0011",
+        "title": "学生职业发展协会",
+        "url": "https://career.tsinghua.edu.cn/info/1037/2434.htm",
+        "text": "Day,覆盖金融、教育、通信、咨询、制造业等各行业头部企业。\n\n2、朋辈辅导\n\n学生职协讲师团(以下简称“讲师团”)是职业发展中心培训、考核的一支朋辈辅导队伍,旨在面向本研学生提供多主题的集体出讲、小规模的简历指导和面试训练等辅导资源。讲师团出讲以校内团体主动预约为主、定点合作为辅的模式开展,出讲主题包含“本科生的升学与就业选择”“保研的材料准备与沟通表达”“企业求职锦囊”“时间管理和焦虑管理”“国际组织和工作机会介绍”“就业普法与实务”“学术面试中的Job Talk”等。讲师团出讲预约涵盖了校内各类学生团体,包括本科、研究生群体的班级、团支部、党支部,院系学生会、研究生会,校学生会、校研究生会、校团委各部门等,形式上涵盖了主题工作坊、党团日、学生骨干培训、因材施教培养计划等。同时主动开设面向全校师生自由报名的工作坊。\n\n3、求职技巧实训\n\n学生职协针对同学们在职业发展过程中简历、面试、职业形象三大“刚需”提供常态化的服务窗口。\n\n(1)简历工作坊\n\n“简历工作坊”邀请企业嘉宾、校内专业教师、学生讲师为关心自身职业发展、渴望提升简历质量的清华在校同学开展简历撰写培训,提供简历修改指导意见。同时,在毕业生大型就业洽谈会、职业发展早春营实习双选会等重要招聘活动现场设置中英双语简历修改工作站,现场服务学生简历修改需求。\n\n(2)面试4S店\n\n“面试4S店”以“标准、专业、策略、优秀”为宗旨,邀请企业嘉宾、校内专业教师、学生讲师面向渴望提升面试能力的清华在校同学开展面试技巧培训和模拟面试演练(分为单面模拟和群面模拟两种形式),结束后进行复盘总结、提供针对性指导建议。\n\n(3)职业形象沙龙",
+        "chunk_id": "PROV0-STGPUB-0011-0002"
+      }
+    ],
+    "evidence_ids": "C1 | C2 | C3 | C4 | C5",
+    "evidence_source_titles": "个体咨询（校内导师） | 个体咨询（校内导师） | 个体咨询（校内导师） | 个体咨询（校内导师） | 学生职业发展协会",
+    "evidence_origin": "answer_generation_v0.retrieved_context",
+    "prior_usage": "ORIGINAL_PROXY_UNREVIEWED; GENERATION_EVALUATION",
+    "recovery_status": "RECOVERED_EXACT",
+    "adjudicated_evidence_gate": "EVIDENCE_SUFFICIENT",
+    "adjudication_confidence": "HIGH",
+    "adjudication_reason": "“个体咨询（校内导师）”明确提供一对一生涯咨询，并直接覆盖简历修改和模拟面试，且含预约方式。",
+    "required_answer_points": [
+      "一对一生涯咨询可找什么服务",
+      "简历修改服务",
+      "模拟面试服务"
+    ],
+    "evidence_coverage_notes": "[{\"point\":\"一对一生涯咨询可找什么服务\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\"]},{\"point\":\"简历修改服务\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\",\"C4\"]},{\"point\":\"模拟面试服务\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\",\"C5\"]}]",
+    "reason_codes": "FULL_COVERAGE",
+    "label": "EVIDENCE_SUFFICIENT",
+    "selection_hash": "19f897df2900e4cf1fc81276423cf93b2846f6590122d335187daf0e7b6eefa5"
+  },
+  {
+    "sample_id": "PROV-005",
+    "query": "学生想申请调整宿舍，应查看什么办理流程？",
+    "category": "住宿服务",
+    "academic_subject": "",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0072",
+        "title": "宿舍调整申请及办理流程",
+        "url": "https://www.tsinghua.edu.cn/xssqglfwzx/info/1043/1173.htm",
+        "text": "##\n\n在宿舍调整期间,学生如遇疾病等特殊情况需要调换宿舍的,应通过所在院系向学生社区管理服务中心提出申请,经批准后方可进行调换。具体办理流程如下:\n\n1. 同学在“我们的家园”网站http://myhome.tsinghua.edu.cn“下载专区”下载《清华大学学生宿舍申请表》并填写签字,目标房源可填写,也可不填写;或线上登录info—在线服务系统—国内学生住宿申请及调整进行申请。学生社区中心不提供房源信息查询。\n\n2. 同学将填写好的《清华大学学生宿舍申请表》纸质版提交给院系主管学生工作负责人(学工组组长、研工组组长或党委副书记)签字、签署意见,并加盖院系公章。\n\n3. 同学将经本人签字、院系签字盖章的纸质版《清华大学学生宿舍申请表》交至学生公寓总服务台(C楼109室)。\n\n4. 学生社区中心将根据住宿分配原则、现有房源情况进行调宿分配,调宿结果将在7个工作日内告知申请同学。\n\n5. 调宿申请审批通过后,同学到原住楼公寓管理员处办理搬家手续,到新入住楼公寓管理员处领取钥匙。同学应在3日内搬家完毕。住宿在国内学生公寓的国际学生调宿后,住宿在国内学生公寓的国际学生调宿后,需在新搬入公寓楼的楼长处重新办理住宿登记。\n\n**关于宿舍调整的说明:**\n\n1. 国内学生公寓按照本、硕、博分区住宿,院系相对集中的原则进行宿舍分配调整。住宿学生需在同等住宿标准内申请调宿,三人间不能调宿到两人间和单人间,两人间不能调宿到单人间。宿舍调整原则上不能多出空床位,空房间不作为调宿房源使用。调宿优先在院系内部调整。每年寒暑假,因涉及学生搬家、新生分配、集中住宿等工作,宿舍调整暂停,开学后恢复。具体暂停和恢复时间会在“我们的家园”网站发布。\n\n2. 在学校寒假、暑假以及其他特殊时间段内,因毕业生离校、新生宿舍分配和住宿规划搬家等原因,学生公寓部门一般会暂停宿舍调整工作,将学生住宿状态暂时冻结。",
+        "chunk_id": "PROV0-STGPUB-0072-0000"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0072",
+        "title": "宿舍调整申请及办理流程",
+        "url": "https://www.tsinghua.edu.cn/xssqglfwzx/info/1043/1173.htm",
+        "text": "2. 在学校寒假、暑假以及其他特殊时间段内,因毕业生离校、新生宿舍分配和住宿规划搬家等原因,学生公寓部门一般会暂停宿舍调整工作,将学生住宿状态暂时冻结。暂停宿舍调宿工作前,学生公寓部门会提前在“我们的家园”网上发布宿舍调整暂停通知。",
+        "chunk_id": "PROV0-STGPUB-0072-0001"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0001",
+        "title": "2023.04.24 清华大学学生公寓住宿管理办法",
+        "url": "https://www.tsinghua.edu.cn/xssqglfwzx/info/1044/1177.htm",
+        "text": "学生公寓管理委员会设工作组,由学生社区管理服务中心、学生处、研究生工作部、国际合作与交流处等部门作为成员单位,通过工作组会议形式具体协调处理学生公寓住宿管理服务相关工作。\n\n**第三章 入住与退宿**\n\n第六条 具有学校学籍的全日制在校学生具有申请入住学生公寓的资格。学生提出住宿申请,经学校批准后方可入住。\n\n第七条 获批住宿的学生应当与学生社区管理服务中心签订住宿协议。\n\n第八条 学生公寓按照分区住宿、院系相对集中的原则进行住宿分配,学生社区管理服务中心具体负责相关工作。住宿学生应当服从学校住宿安排及调整。\n\n第九条 学生办理入住手续后应当入住指定床位,不得擅自调换。住宿学生遇疾病等特殊情况确需调换床位的,应当向所在院系和学生社区管理服务中心提出申请,获批后方可进行调换。\n\n第十条 住宿学生不得擅自到学生公寓外住宿,外出超过三天的应当提前向住宿公寓办公室备案。\n\n第十一条 国际学生住宿期间应当持有合法有效的身份证件,并通过学生社区管理服务中心按相关规定办理临时住宿登记。登记信息发生变更的,应当重新办理临时住宿登记。\n\n第十二条 住宿学生毕业、住宿协议到期、退学、离校六个月以上的,应当及时办理退宿手续,并自退宿手续办结之日起七日内搬离宿舍。未按期搬离宿舍的,由学生工作部门、所在院系、保卫部门、学生社区管理服务中心依法依规依约相应进行处理。\n\n第十三条 住宿学生自愿退宿的,应当提出退宿申请,经所在院系和学生工作部门批准后及时办理退宿手续。\n\n**第四章 住宿管理**\n\n第十四条 住宿学生应当增强安全意识、掌握安全知识技能,参加安全培训、演练等安全教育活动,提升自我管理能力、防范能力和自救逃生能力。\n\n第十五条 住宿学生发现火情、治安或刑事案件以及安全隐患、可疑人员等,应当及时报告。",
+        "chunk_id": "PROV0-STGPUB-0001-0001"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0031",
+        "title": "清华大学学生申诉处理办法 为了保障学生合法权益，规范校内学生申诉处理程序，根据《普通高等学校学生管理规定》(教育部令第41号)以及《清华大学章程》《清华大学学生纪律处分管理规定》等的相关规定，制定本办法。",
+        "url": "https://qzc.tsinghua.edu.cn/info/1029/1446.htm",
+        "text": "复查决定书应当包括以下内容:\n\n(一)申诉学生的姓名、(原)班级、(原)学号和其他基本情况;\n\n(二)学生申诉处理委员会作出复查结论的事实、理由和依据;\n\n(三)原处理或处分机构重新研究作出决定的事实、理由和依据;\n\n(四)作出维持原处理或处分决定的事实、理由和依据,或撤销原处理或处分决定并作出新的处理或处分决定的事实、理由和依据;\n\n(五)复查决定;\n\n(六)申诉途径和期限;\n\n(七)作出复查决定的日期。\n\n第二十九条 学生可以按照有关规定向北京市教育委员会提出书面申诉。\n\n**第四章 附则**\n\n第三十条 本办法中的有关期间,开始当日不计算在期间内,期间不包括在途时间。\n\n第三十一条 非学历教育专业学位研究生的申诉处理,参照本办法执行。\n\n涉及撤销学历证书、撤销学位证书的申诉处理,参照本办法执行。\n\n第三十二条 本办法由学生工作指导委员会负责解释。\n\n第三十三条 本办法自公布之日起施行。",
+        "chunk_id": "PROV0-STGPUB-0031-0005"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0047",
+        "title": "清华大学本科生学籍管理规定 为了规范学籍管理工作，维护学校正常的教育教学秩序，保证教学培养质量，保障学生合法权益，根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》（教育部令第41号）、《清华大学章程》，结合学校...",
+        "url": "https://qzc.tsinghua.edu.cn/info/1029/1444.htm",
+        "text": "被批准缓考的学生可以在缓考课程开设学期重修该课程。\n\n第二十二条 学生可以根据校际协议申请跨校修读课程。跨校修读课程所取得的学分按照学校有关规定经院系审核认定后,学生可以免修所在专业培养方案中相应的课程。\n\n第二十三条 学生参加创新创业活动、科技活动、在线课程学习等,相应的学分计算和认定按照学校有关规定执行。\n\n第二十四条 学生主修专业学习成绩优良、学有余力的,可跨专业类攻读辅修学位。已按照双学士学位项目培养的学生不得申请辅修学位。\n\n第二十五条 学生违反课程考核纪律的,该课程考核成绩无效(记0分或者F等级)。\n\n**第六章 休学与复学**\n\n第二十六条 在学校规定的最长学习年限内,学生可以申请休学分阶段完成学业。一学期因病假、事假缺课累计达该学期课程总学时三分之一的,应当休学。学生本人申请休学或者学校认为应当休学的,经学校批准后休学,学校予以保留学籍。\n\n第二十七条 休学时间以学期为单位,累计休学时间原则上不得超过两年。\n\n对休学创业的学生,经学校批准,休学时间可以延长至三年。\n\n学生应征参加中国人民解放军(含中国人民武装警察部队),应当休学,学校予以保留学籍至退役后两年。\n\n第二十八条 学生本人申请休学,应当提交书面申请和相关证明材料,经院系同意后,由教务处备案并发给休学证明。\n\n第二十九条 休学学生应当及时办理休学离校手续。学期第14周之前办理休学手续的,该学期计入休学时间,已考核课程成绩有效,已修但尚未考核的课程应当办理休学退课。学期第2周之后办理休学手续的,该学期已缴费用不退。\n\n第三十条 学生休学期间,不享受在校学习学生待遇。因病休学学生的医疗费按国家及北京市有关规定处理。\n\n第三十一条 休学学生申请复学,应当在拟复学学期开学前向所在院系提交书面复学申请。",
+        "chunk_id": "PROV0-STGPUB-0047-0004"
+      }
+    ],
+    "evidence_ids": "C1 | C2 | C3 | C4 | C5",
+    "evidence_source_titles": "宿舍调整申请及办理流程 | 宿舍调整申请及办理流程 | 2023.04.24 清华大学学生公寓住宿管理办法 | 清华大学学生申诉处理办法 为了保障学生合法权益，规范校内学生申诉处理程序，根据《普通高等学校学生管理规定》(教育部令第41号)以及《清华大学章程》《清华大学学生纪律处分管理规定》等的相关规定，制定本办法。 | 清华大学本科生学籍管理规定 为了规范学籍管理工作，维护学校正常的教育教学秩序，保证教学培养质量，保障学生合法权益，根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》（教育部令第41号）、《清华大学章程》，结合学校...",
+    "evidence_origin": "answer_generation_v0.retrieved_context",
+    "prior_usage": "ORIGINAL_PROXY_UNREVIEWED; GENERATION_EVALUATION",
+    "recovery_status": "RECOVERED_EXACT",
+    "adjudicated_evidence_gate": "EVIDENCE_SUFFICIENT",
+    "adjudication_confidence": "HIGH",
+    "adjudication_reason": "“宿舍调整申请及办理流程”给出线上/线下申请、院系审批、材料提交、分配及搬家等完整步骤。",
+    "required_answer_points": [
+      "宿舍调整应查看的办理流程",
+      "申请渠道和材料审批",
+      "审批后调宿与搬家步骤"
+    ],
+    "evidence_coverage_notes": "[{\"point\":\"宿舍调整应查看的办理流程\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\"]},{\"point\":\"申请渠道和材料审批\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\"]},{\"point\":\"审批后调宿与搬家步骤\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\"]}]",
+    "reason_codes": "FULL_COVERAGE",
+    "label": "EVIDENCE_SUFFICIENT",
+    "selection_hash": "1cef2cb1f9d6441450412e470bcf2f63ec9193775d51f480adfe13d3be8ba0ba"
+  },
+  {
+    "sample_id": "PROV-010",
+    "query": "在清华办理生育医疗费用报销需要查看什么程序？",
+    "category": "医疗健康",
+    "academic_subject": "",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "RESV1-0015",
+        "title": "生育医疗报销程序 - 清华大学信息门户",
+        "url": "https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=663ad10bbe42431aa4a65c0d658bfb96",
+        "text": "二、生育医疗费报销需提交的材料\n(一)产前检查医疗费报销材料:\n1、《北京市生育保险医疗费用手工报销申报表》(手工填写一份,加盖单位章,医事服务费写在其他中,其余都写在检查费中);\n2、原始票据(如原始票据上未打印完整的明细,请提供完整的检查、治疗明细单;含药品的请提供处方;已实时结算的请剔除!特需请剔除!);\n3、诊断证明书复印件(住院分娩当次的);\n4、《出生医学证明》复印件;\n5、《出生医学证明》和《医学诊断证明书》若为非中文材料需提供翻译公司出具的翻译文件,并同时提供具有翻译资质的翻译公司营业执照副本复印件。\n6、因北京市就医政策调整,医改后设置了医事服务费,产前检查时垫付的医事服务费请一并放入产前检查费用中按医保政策报销。\n(二)北京市住院分娩医疗费用报销材料:\n1、《北京市生育保险医疗费用手工报销申报表》(手工填写一份,加盖单位章);\n2、原始票据;\n3、住院费用明细清单;\n4、医院全额结账证明(医院医保办开具);\n5、单位情况说明(未在本市医院持卡实时结算的原因);\n6、诊断证明书复印件(住院分娩当次的);\n7、《出生医学证明》复印件。\n(三)外地生育分娩住院医疗费报销材料:\n1、《北京市生育保险医疗费用手工报销申报表》(手工填写一份,加盖单位章);\n2、原始票据;\n3、住院费用明细清单;\n4、诊断证明书复印件(住院分娩当次的);\n5、《出生医学证明》复印件;\n6、单位出具因北京无人照顾需到外地生育分娩的详细情况说明(加盖单位公章)。\n(四)计划生育手术医疗费用报销材料\n1、《北京市生育保险医疗费用手工报销申报表》(手工填写一份,加盖单位章);\n2、原始票据(如原始票据上未打印完整的明细,请提供完整的检查、治疗明细单;含药品的请提供处方);\n5、诊断证明书复印件;\n6、单位出具符合国家计划生育政策证明(加盖单位公章)。\n三、报销标准\n1、产前检查限额支付标准",
+        "chunk_id": "PROV0-RESV1-0015-0001"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "RESV1-0015",
+        "title": "生育医疗报销程序 - 清华大学信息门户",
+        "url": "https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=663ad10bbe42431aa4a65c0d658bfb96",
+        "text": "# 生育医疗报销程序 - 清华大学信息门户\n\n- Source: https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=663ad10bbe42431aa4a65c0d658bfb96\n\n关闭\n生育医疗报销程序\n表格下载 | 社保福利\n人事处 2024-11-14 15:07\n参加生育保险女职工\n生育就医及生育医疗费报销须知\n我校参加生育保险的女职工,按照北京市社会保险有关管理规定享受生育医疗报销待遇,具体报销过程中应由职工本人准备相关材料提交给所在单位人事部门,经由学校福利办公室统一报送。现将生育就医和报销有关注意事项通知如下:\n一、就医须知\n1、选好就医医院——就医医院必须是本人基本医疗保险选定的定点医疗机构或者北京市19家A类医院、北京市定点专科医院、北京市定点中医医院,在其他医院就医将无法报销;因在北京无人照顾,需到外地生育分娩的,也可到外地生育分娩,只限外地住院生产费用,报销时须由单位提交相关说明。\n2、出示“社会保障卡”——每次就医时须主动出示本人“社会保障卡”,并明确告知医院本人已参加生育保险。\n3、产前检查门诊费用现金垫付——产前检查的门诊费用(含外地)需个人全额现金垫付,并注意留存全部医疗单据,待孩子出生后经由单位申请手工报销。\n4、生育住院医疗费用实时结算——在北京市住院的生育医疗费用,一般在出院时凭“社会保障卡”实时结算,个人只需交纳个人负担部分;因各种原因未实时结算的(例如,社会保障卡丢失或在外地生育分娩的),应注意留存全部医疗单据,再经由单位申请手工报销。\n二、生育医疗费报销需提交的材料\n(一)产前检查医疗费报销材料:\n1、《北京市生育保险医疗费用手工报销申报表》(手工填写一份,加盖单位章,医事服务费写在其他中,其余都写在检查费中);",
+        "chunk_id": "PROV0-RESV1-0015-0000"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "RESV1-0015",
+        "title": "生育医疗报销程序 - 清华大学信息门户",
+        "url": "https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=663ad10bbe42431aa4a65c0d658bfb96",
+        "text": "1198\n门诊高危人工流产手术+宫内节育器取出术+宫内节育器放置术\n1510\n住院计划生育按医院等级执行以下定额支付标准:\n病种名称\n三级医院\n二级医院\n一级医院\n住院人工流产手术\n1695\n1575\n1545\n住院高危人工流产手术\n1885\n1765\n1735\n住院人工流产手术+输卵管结扎术\n2547\n2347\n2297\n住院高危人工流产术+输卵管结扎术\n2628\n2428\n2378\n住院输卵管结扎术\n2357\n2157\n2107\n住院人工流产手术+宫内节育器取出术\n1954\n1834\n1804\n住院人工流产手术+宫内节育器放置术\n2021\n1901\n1871\n住院人工流产手术+宫内节育器取出术+宫内节育器放置术\n2103\n1983\n1953\n住院高危人工流产手术+宫内节育器取出术+宫内节育器放置术\n2293\n2173\n2143\n符合计划生育规定因母婴原因需中止妊娠的中期引产术\n3593\n3393\n3343\n四、其他注意事项\n1、《北京市生育保险医疗费用手工报销申报表》中“项目类别”分类不需要再分类,汇总所提供的产前检查票据票面金额后填写在“检查费”一栏。产前检查门诊费用务必提供发生日期为最早就诊日期和最后就诊日期的票据;\n2、产前检查时垫付的医事服务费与产前医疗费用一次性申报,填写在“其他”一栏;\n3、门诊、住院的费用须分别填写《北京市生育保险医疗费用手工报销申报表》;\n4、生育医疗报销各种表格填写齐全,不能空项,金额准确;\n5、稽留流产、不全流产、自然流产、先兆流产、清宫术不属于生育险范畴,当次费用按照基本医疗费用申报;之前相关门诊检查费可按产前检查申报;职工孕期治疗各种疾病发生的医疗费用,符合基本医疗保险规定的由基本医疗保险基金支付,生育保险不予支付。\n北京市生育保险医疗费用手工报销申报表.xls\n表格下载\n人事处\n职工合同解除和终止",
+        "chunk_id": "PROV0-RESV1-0015-0003"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "RESV1-0015",
+        "title": "生育医疗报销程序 - 清华大学信息门户",
+        "url": "https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=663ad10bbe42431aa4a65c0d658bfb96",
+        "text": "2、原始票据(如原始票据上未打印完整的明细,请提供完整的检查、治疗明细单;含药品的请提供处方);\n5、诊断证明书复印件;\n6、单位出具符合国家计划生育政策证明(加盖单位公章)。\n三、报销标准\n1、产前检查限额支付标准\n(一)产前检查支付标准(2020年5月1日前生产的职工按原有政策执行,最高限额支付1400元)\n自确定妊娠至终止妊娠,发生的产前检查费用按限额标准支付3000元。低于限额标准的按实际发生的费用支付,高于限额标准的,按限额标准支付。\n2、住院分娩定额支付标准(元)\n分娩方式\n三级医院\n二级医院\n一级医院\n自然分娩\n5000\n4800\n4750\n人工干预分娩\n5200\n5000\n4950\n剖宫产手术\n5800\n5600\n5550\n(剖宫产术后再次妊娠阴道试产且采取椎管内分娩镇痛,定额支付标准在各级医院“自然分娩”定额标准的基础上分别增加1000元。)\n3、计划生育支付标准(元)\n门诊计划生育不分医院等级,执行以下限额支付标准:\n病种名称\n支付标准\n门诊人工流产手术\n777\n门诊高危人工流产手术\n859\n门诊药物流产\n560\n门诊输卵管药物粘堵术\n2127\n门诊输精管结扎术\n1988\n门诊输精管药物粘堵术\n2093\n门诊宫内节育器放置术\n900\n门诊宫内节育器取出术\n832\n门诊宫内节育器取出术+宫内节育器放置术\n1186\n门诊人工流产手术+宫内节育器取出术\n982\n门诊人工流产手术+宫内节育器放置术\n1171\n门诊人工流产手术+宫内节育器取出术+宫内节育器放置术\n1320\n门诊高危人工流产手术+宫内节育器取出术\n1131\n门诊高危人工流产手术+宫内节育器放置术\n1198\n门诊高危人工流产手术+宫内节育器取出术+宫内节育器放置术\n1510\n住院计划生育按医院等级执行以下定额支付标准:\n病种名称\n三级医院\n二级医院\n一级医院\n住院人工流产手术\n1695\n1575",
+        "chunk_id": "PROV0-RESV1-0015-0002"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "RESV1-0015",
+        "title": "生育医疗报销程序 - 清华大学信息门户",
+        "url": "https://info.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/template/detail?xxid=663ad10bbe42431aa4a65c0d658bfb96",
+        "text": "北京市生育保险医疗费用手工报销申报表.xls\n表格下载\n人事处\n职工合同解除和终止\n2026-07-16 16:12\n新教师入职材料下载\n2026-07-05 09:30\n新教师入职材料下载\n2026-07-05 09:30\n教学系列教师专业技术职务聘任(2026年秋季)\n2026-07-01 10:12\n思政课教师系列教师专业技术职务聘任(2026年秋季)\n2026-07-01 09:30\n研究系列和专业研究人员专业技术职务聘任(2026年秋季)\n2026-07-01 09:18\n教研系列教师专业技术职务聘任(2026年秋季)\n2026-07-01 08:45\n清华大学教师校内兼职协议书(202606修订)\n2026-06-30 13:47\n清华大学新入职人员经商办企业情况申报表\n2026-04-22 13:27\n工伤劳动能力鉴定申请所需材料\n2025-10-28 13:30\n版权所有 © 清华大学 技术支持:清华大学信息化技术中心 http://its.tsinghua.edu.cn its@tsinghua.edu.cn 62784859",
+        "chunk_id": "PROV0-RESV1-0015-0004"
+      }
+    ],
+    "evidence_ids": "C1 | C2 | C3 | C4 | C5",
+    "evidence_source_titles": "生育医疗报销程序 - 清华大学信息门户 | 生育医疗报销程序 - 清华大学信息门户 | 生育医疗报销程序 - 清华大学信息门户 | 生育医疗报销程序 - 清华大学信息门户 | 生育医疗报销程序 - 清华大学信息门户",
+    "evidence_origin": "answer_generation_v0.retrieved_context",
+    "prior_usage": "ORIGINAL_PROXY_UNREVIEWED; GENERATION_EVALUATION",
+    "recovery_status": "RECOVERED_EXACT",
+    "adjudicated_evidence_gate": "EVIDENCE_SUFFICIENT",
+    "adjudication_confidence": "HIGH",
+    "adjudication_reason": "“生育医疗报销程序”直接给出就医须知、报销材料、提交路径、报销标准和注意事项。",
+    "required_answer_points": [
+      "应查看的生育医疗费用报销程序",
+      "报销所需材料",
+      "报销提交/办理路径及注意事项"
+    ],
+    "evidence_coverage_notes": "[{\"point\":\"应查看的生育医疗费用报销程序\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\"]},{\"point\":\"报销所需材料\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\"]},{\"point\":\"报销提交/办理路径及注意事项\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C2\",\"C3\",\"C4\"]}]",
+    "reason_codes": "FULL_COVERAGE",
+    "label": "EVIDENCE_SUFFICIENT",
+    "selection_hash": "28cdb64a53b8f29ec48ef3988c7175a16808f48ae4c791d0d38c024835f664b8"
+  },
+  {
+    "sample_id": "PROV-026",
+    "query": "学校的信息化教室、录播系统和教学技术支持由什么服务负责？",
+    "category": "教学培养",
+    "academic_subject": "",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0214",
+        "title": "教学环境服务",
+        "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/dfasf.htm",
+        "text": "2. 信息化教学环境运行支持与保障\n\n目前,清华大学共有各类教室360余间,开放实验室现有计算机353台,本中心为学校教学提供以下几项运行服务的支持与保障:\n\n(1)为各类教室、开放实验室等信息化教学环境提供日常维护、使用保障;\n\n(2)为教师上课的课程录制与直播提供服务与保障;\n\n(3)为教师提供线上、线下融合式教学服务与保障;\n\n(4)为学校各类考试和阅卷工作(包括各类研究生、本科生招生考试与面试、全国高考阅卷、研究生入学考试阅卷等)提供考试电子监考及软硬件服务。\n\n![](/__local/7/CA/A0/2DB6737E229D1E5330E0D70B325_02606FE9_20DFD.png)![](/__local/2/2D/CF/002EBF1FB2BD19FD3468BA44105_3C0D0F77_D63E.jpg)\n\n图1 信息化教学环境:教室、管理控制中心\n\n3. 《现代教育技术》期刊的出版发行及相应学术活动开展\n\n《现代教育技术》(月刊)创刊于1991年,是教育部主管,清华大学主办的刊物,是中国教育技术协会会刊、中文社会科学引文索引(CSSCI)来源期刊、中国人文社会科学期刊AMI综合评价(A刊)核心期刊、中国科学评价研究中心(RCCSE)核心期刊。依托学校在信息化教学环境建设方面的研究与实践优势,刊物也展现教育技术理论研究与应用实践的最新进展和典型经验,引领全国高校教育技术的应用发展。杂志社牵头和参与主办的“数字校园建设与创新发展高峰论坛”等学术活动已成为中国教育信息化领域影响较大的盛会之一。\n\n![](/__local/4/A9/E7/6491B4A9C661D92F7CF0CB13303_ED7EA41A_9D8B.jpg)\n\n!",
+        "chunk_id": "PROV0-STGPUB-0214-0001"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0214",
+        "title": "教学环境服务",
+        "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/dfasf.htm",
+        "text": "**一、服务介绍**\n\n教学环境支撑服务的主要内容是根据学校发展需要,开展信息化教学环境相关工作。具体服务内容包括:\n\n1. 提供学校信息化教学环境的设计、建设、运行和支撑服务,包括各类信息化教室、智能化管理控制平台、电子监考巡视系统、直播录播系统、开放实验室等;\n\n2. 为师生信息化教学环境技术培训和先进教学设备及工具的使用推广提供服务;\n\n3. 负责[《现代教育技术》杂志(月刊)](http://xjjs.cbpt.cnki.net/wkc/WebPublication/index.aspx?mid=xjjs)编辑出版工作。\n\n**二、服务人员**\n\n信息化教学环境服务团队主要包括教学环境设计建设、教学技术支持、远程中控、音视频技术支持、期刊编辑等岗位。\n\n**三、****主要业绩**\n\n1. 信息化教学环境的技术研究和规划建设\n\n跟踪现代教育技术新前沿、新技术、新动态,探索适应智慧化教学时代的教学设计、教学模式、教学手段的教学支撑环境,为学校教学环境的规划和建设决策提供参考依据。同时,在配合学校各管理部门和广泛征求师生对教学环境功能需求的基础上,运用实用、可靠和先进的技术和装备,设计和建设好一流、高效的教学环境,具体工作成果包括:\n\n(1)撰写信息技术教育应用与发展调研报告,提出学校信息化教学环境发展规划建议,制定发布相关国家标准、团体标准和校级标准等;\n\n(2)制定信息化教学环境年度改造与设备更新计划;\n\n(3)完成全校教学环境的系统架构、运行管理、安全保障和用户技术培训等的系统规划及建设实施任务。\n\n2. 信息化教学环境运行支持与保障\n\n目前,清华大学共有各类教室360余间,开放实验室现有计算机353台,本中心为学校教学提供以下几项运行服务的支持与保障:\n\n(1)为各类教室、开放实验室等信息化教学环境提供日常维护、使用保障;",
+        "chunk_id": "PROV0-STGPUB-0214-0000"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0215",
+        "title": "教学资源开发",
+        "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/jxzykf.htm",
+        "text": "**一、服务介绍**\n\n教学资源开发团队长期致力于为学校教学、科研、宣传提供多种媒体数字资源开发服务,其服务的主要内容包括:\n\n1. 数字化教学资源及平台建设\n\n面向校内开展数字化教学资源开发服务,包括国家精品课程、精品视频公开课、精品资源共享课、慕课(Massive Open Online Course)、演播室节目、课堂教学实录、实验教学演示等各类音视频教学专题片、报奖申报材料等的开发、制作工作。建设新一代教学支撑和资源开发平台,包括:数字资源在线服务系统、活动直播系统、虚拟仿真三维扫描建模系统、虚拟仿真教学资源管理发布系统、教学资源知识库构建与管理系统等,可实现对资源进行采集、存储、编目、发布与播出,助力多种形式教学改革的尝试、研究,促进优质教学资源的传播、共享。\n\n![](/__local/A/43/49/53168C053520698AF7DB4D79917_F8CC5563_2F1DC.jpg)\n\n多种形式教学资源制作\n\n2. 音视频档案管理\n\n对信息化技术中心保障的学校各类重大活动相关音视频资料进行存档管理。开展历史声像资料的保管和整理任务,近年来陆续完成历史声像资料的数字化采集和内容整理工作,按照国家和学校相关规定和技术标准对数字文件进行储存、利用。\n\n![](/__local/2/EE/27/67EE0B4EB2D9398339954290BE5_0E9EDD76_D7888.png)\n\n音视频档案库与珍贵历史影像数字化\n\n3. VR虚拟教学资源制作与管理\n\n具备从三维激光扫描、VR资源建模、资源编辑、虚仿交互制作、资源发布等环节的全流程VR虚拟教学资源制作能力。已支持教务处完成全校400余间教室全景VR扫描,提供线上全景导览。\n\n!",
+        "chunk_id": "PROV0-STGPUB-0215-0000"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0083",
+        "title": "信息化技术中心",
+        "url": "http://www.itc.tsinghua.edu.cn/",
+        "text": "为进一步加强学校信息化建设和提高信息化服务水平,推动信息化工作的科学、健康和快速发展,2012年学校决定成立信息化技术中心。撤销原信息网络工程研究中心(成立于1994年)、电化教育中心(成立于1978年)和计算机与信息管理中心(成立于1976年),其相关职能并入信息化技术中心。\n信息化技术中心按学校直属单位管理,承担学校信息化基础设施的运行服务与建设开发工作,为学校信息化建设和服务提供保障。具体职能包括:学校信息化基础设施的设计建设、运行管理和用户服务,包括:学校计算机网络(包括有线网和无线网)、有线电视网、信息化核心机房及其数据中心和多媒体教学环境等;学校各类信息系统的设计开发、运行维护和用户服务;学校各类教学资源的设计开发和运行服务;学校重大活动的现场信息化技术支持与保障;各院系的信息化技术支持和服务等。\n\n[查看详细](http://www.itc.tsinghua.edu.cn/zxgk/zxjj.htm)\n\n### 机构设置\n\n清华大学信息化技术中心承担学校信息化基础设施和信息系统的建设开发与运行服务,为学校信息化建设和服务提供保障。其构成情况如下:\n\n- ### 校园网、信息系统服务电话\n\n010-62784859\n\n(每天 08:00-22:00,节假日除外)\n- ### 有线电视用户服务电话\n\n010-62771764\n\nIts@tsinghua.edu.cn\n\n(每天 上午08:00-12:00 下午 13:00-17:00,节假日除外)\n- ### 办公室\n\n010-62781357\n\nitc-office@tsinghua.edu.cn",
+        "chunk_id": "PROV0-STGPUB-0083-0000"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0215",
+        "title": "教学资源开发",
+        "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/jxzykf.htm",
+        "text": "![](/__local/C/CF/A6/BB779A2B986812E35E8E5669F01_42441C5D_4FFAF.jpg)\n\n教学资源管理与积累\n\n2. 提供教育信息化应用相关研究的服务\n\n在服务学校综合改革的基础上,教学资源开发团队开展了教育信息化相关的研究工作,内容包括教育管理、教育信息化相关标准、学校教改项目、学校信息化建设项目、资源建设规范等研究工作。\n\n主导的部分典型研究成果:\n\nGB/T 36642—2018 信息技术 学习、教育和培训 在线课程\n\nGB/T 36366—2018 信息技术 学习、教育和培训 电子学档信息模型规范\n\nGB/T 38861—20 干部网络培训 课程制作流程\n\nGB/T 38857—20 干部网络培训 课程信息模型\n\nGB/T 38862—20 干部网络培训 课程审核\n\nGB/T 38859—20 干部网络培训 课程评价指标\n\nGB/T 46348-2025 信息技术 学习、教育和培训 移动学习终端功能要求\n\n《高等学校数字校园建设规范(试行)》(教科信函【2021】14号文件)\n\nJY/T 0650—2022 智慧教育平台 数字教育资源技术要求\n\nJY/T 0651—2022 在线直播类网课平台安全保障要求\n\nT/BAHE—202001 高等学校智慧教室建设技术要求\n\nT/BAHE-202 数字校园人工智能平台开放能力要求\n\nISO/IEC 8808:2026 Information technology for learning, education and training — Online course information model(信息技术 学习、教育和培训 在线课程信息模型)",
+        "chunk_id": "PROV0-STGPUB-0215-0002"
+      }
+    ],
+    "evidence_ids": "C1 | C2 | C3 | C4 | C5",
+    "evidence_source_titles": "教学环境服务 | 教学环境服务 | 教学资源开发 | 信息化技术中心 | 教学资源开发",
+    "evidence_origin": "answer_generation_v0.retrieved_context",
+    "prior_usage": "ORIGINAL_PROXY_UNREVIEWED; GENERATION_EVALUATION",
+    "recovery_status": "RECOVERED_EXACT",
+    "adjudicated_evidence_gate": "EVIDENCE_SUFFICIENT",
+    "adjudication_confidence": "HIGH",
+    "adjudication_reason": "“教学环境服务”明确负责信息化教室、直播录播系统和教学技术支持/培训，信息化技术中心资料也确认其整体职责。",
+    "required_answer_points": [
+      "信息化教室由什么服务负责",
+      "录播/直播系统由什么服务负责",
+      "教学技术支持由什么服务负责"
+    ],
+    "evidence_coverage_notes": "[{\"point\":\"信息化教室由什么服务负责\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\"]},{\"point\":\"录播/直播系统由什么服务负责\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\"]},{\"point\":\"教学技术支持由什么服务负责\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C2\",\"C4\"]}]",
+    "reason_codes": "FULL_COVERAGE",
+    "label": "EVIDENCE_SUFFICIENT",
+    "selection_hash": "2b289ee0bd67843804b7703a645c27c19f080287f58006aa61c54ab45bc04bbc"
+  },
+  {
+    "sample_id": "RET-09",
+    "query": "校园交通、校车和进出校路线怎么查询？",
+    "category": "交通服务",
+    "academic_subject": "",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0077",
+        "title": "车辆-清华大学接待服务中心",
+        "url": "https://www.tsinghua.edu.cn/jdfwzx/jdfw/cl.htm",
+        "text": "### 车辆\n\n(1)校园交通车班组\n\n车队校园交通车班组自1999年开设至今,已经走过20余载的风雨历程,通过不断地优化路线和运行方式、增加服务内容,在学校日常通勤服务中发挥了积极作用。2016年初原有老旧燃油车辆全部更换为新能源电动车,自此校园交通车进入绿色通行时代,成为“清华园里一道亮丽的风景线”。\n\n具体校园交通车运行方式如下:\n\n1. 外环(车前窗立有“外环”标识牌)\n\n1)运行时间:工作日7:20-18:00,非工作日及节假日8:30-17:40,寒暑假运行以公告为准。\n\n2)始发站点:世纪林\n\n3)运行模式:固定线路行驶,固定站点停靠。工作日7:20、7:30、7:40班次按逆时针行车路线驶往游泳馆方向,7:50班次按顺时针行车路线驶往东侧门方向。其余时段为每小时的整点、20分、40分驶往东侧门方向(顺时针方向)。10分、30分、50分驶往游泳馆方向(逆时针方向)。\n\n4)顺时针方向行车路线:世纪林—东侧门—艺术博物馆—美术学院大楼—东南门—李兆基科技大楼—东楼南门—照澜院—老年活动中心—七公寓—中五楼—后勤综合服务平台—西湖游泳池—西门—西湖游泳池—校医院—西北门—理科楼—西大操场—图书馆北馆—低碳能源楼—北门—桃李园—紫荆园—玉树园—紫荆操场东北角—紫荆操场东南角—苏世民书院大楼—游泳馆—世纪林\n\n5)逆时针方向行车路线:世纪林—游泳馆—苏世民书院大楼—紫荆操场东南角—紫荆操场东北角—玉树园—紫荆园—桃李园—北门—低碳能源楼—图书馆北馆—西大操场—理科楼—西北门—校医院—西湖游泳池—西门—西湖游泳池—后勤综合服务平台—中五楼—七公寓—老年活动中心—照澜院—东楼南门—李兆基科技大楼—东南门—美术学院大楼—艺术博物馆—东侧门—世纪林\n\n6)午间加密:工作日10:50--13:10班次加密,每班次双向各发一车,行车路线为外环行车路线,非工作日不加密。",
+        "chunk_id": "PROV0-STGPUB-0077-0000"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0077",
+        "title": "车辆-清华大学接待服务中心",
+        "url": "https://www.tsinghua.edu.cn/jdfwzx/jdfw/cl.htm",
+        "text": "6)午间加密:工作日10:50--13:10班次加密,每班次双向各发一车,行车路线为外环行车路线,非工作日不加密。\n\n2. 内环(车前窗立有“内环”标识牌)\n\n1)运行时间:工作日7:40—11:10,12:40-17:25,周末、节假日及寒暑假停运。\n\n2)始发站点:世纪林\n\n3)运行模式:固定线路行驶,固定站点停靠。每小时的10分、40分驶往东侧门方向(顺时针方向),25分、55分驶往东北门方向(逆时针方向)。\n\n4)顺时针方向行车路线:世纪林—东侧门—艺术博物馆—西主楼—新清华学堂—二校门—后勤综合服务平台—西湖游泳池—西门—西湖游泳池—校医院—西北门—理科楼—西大操场—图书馆北馆—听涛园—苏世民书院大楼—紫荆操场东南角—紫荆操场东北角—东北门—世纪林\n\n5)逆时针方向行车路线:世纪林—东北门—紫荆操场东北角—紫荆操场东南角—苏世民书院大楼—听涛园—图书馆北馆—西大操场—理科楼—西北门—校医院—西湖游泳池—西门—西湖游泳池—后勤综合服务平台—二校门—新清华学堂—西主楼—艺术博物馆—东侧门—世纪林\n\n3. 学生专线(车前窗立有“学生专线”标识牌)\n\n1)运行时间:工作日7:40、9:20、13:00、14:50各运行一班,周末、节假日及寒暑假停运。\n\n2)始发站点:桃李园\n\n3)运行模式:按四趟发车时间从桃李园站点发车,固定线路行驶,固定站点停靠。\n\n4)行车路线:桃李园—紫荆园—玉树园—东北门—世纪林—东侧门—艺术博物馆—西主楼—新清华学堂—二校门—后勤综合服务平台—西湖游泳池—西门—西湖游泳池—校医院—西北门—理科楼—西大操场—图书馆北馆—听涛园—游泳馆—世纪林\n\n4. 敬老专线(车前窗立有“敬老专线”标识牌)\n\n清华园街道办事处联合清华大学接待服务中心推出敬老专线,分南线(东南小区、蓝旗营小区、西南小区)、北线(学清苑小区)、东线(双清苑小区)。",
+        "chunk_id": "PROV0-STGPUB-0077-0001"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0077",
+        "title": "车辆-清华大学接待服务中心",
+        "url": "https://www.tsinghua.edu.cn/jdfwzx/jdfw/cl.htm",
+        "text": "4. 敬老专线(车前窗立有“敬老专线”标识牌)\n\n清华园街道办事处联合清华大学接待服务中心推出敬老专线,分南线(东南小区、蓝旗营小区、西南小区)、北线(学清苑小区)、东线(双清苑小区)。发车站点上车,中途不停车上下人。运行时间为工作日,非工作日及节假日停运,寒假运行以公告为准。\n\n1)南线:工作日7:30东南小区门口发车,至蓝旗营小区1、2号楼之间,7:40蓝旗营发车,进西南门经停西南小区5号楼、西南小区居委会,驶往校医院;\n\n2)北线:工作日7:20学清苑小区南门外发车驶往校医院;\n\n3)东线:工作日7:20双清苑小区南门外发车驶往校医院;\n\n4)返程:工作日9:30校医院南侧发车送回各小区。线路一(车队负责):校医院至学清苑南门、双清苑南门,发车地点:校医院站点东侧,车头朝北;线路二(街道负责):校医院至蓝旗营小区北门,发车地点:校医院站点,车头朝南。\n\n5.送医专线:工作日8:00至12:00,13:00至17:00,请有需要去往西苑医院、北医三院的老师提前一天拨打清华园街道办事处预约电话62775656进行预约。\n\n6. 环线收费标准:免费乘坐范围之外人员需缴费乘车,工作日2元/人,周末和节假日3元/人\n\n可免费乘坐的人员:\n\n1)持校内工作证、校园卡、退休证、学生证、校友卡的人员;\n\n2)持老年证、残疾证、军人证的人员;\n\n3)1米4以下儿童。\n\n校园车咨询及投诉电话:62783237(工作日8:00-17:00)\n\n详情请微信关注“清华巴士”小程序\n\n(2)运营车班组\n\n车队运营车班组是构建学校交通服务保障体系中不可或缺的一支队伍。不仅承担每年迎新、校庆、重大接待活动及应急保障的交通服务任务,更是校内各部门业务用车服务的有力补充。近年来,不断借助社会资源,进行统筹管理,集中调配,不断提高管理水平和服务能力建设,保障了校内多样化、多元化的用车需求。",
+        "chunk_id": "PROV0-STGPUB-0077-0002"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0226",
+        "title": "科室职能",
+        "url": "https://peace.tsinghua.edu.cn/bmgk/kszn.htm",
+        "text": "负责配合上级有关部门开展涉及国家安全和校园稳定的沟通协调工作;开展涉稳专项调查研究,防范和参与处置涉稳事件;负责部门职责范围内的保密管理工作;参与学校国家安全人民防线建设具体工作;为师生员工办理政审及相关申请手续。\n\n开展校园安全文化建设,组织开展安全与法治宣传教育培训;负责“平安清华”网络平台维护工作;指导安全类学生社团协会开展活动\n\n督促检查各单位安全责任制落实情况;审核相关消防报备事项;配合消防管理部门开展相关工作;参与处置各类安全事故。承担防火安全委员会办事机构日常事务。\n\n参与校园治安管理;协助相关部门参与重大治安类案件(事件)的善后处置;具体负责公安列管行业领域监督管理工作;开展校内治安管理相关研究。\n\n负责管理和维护校园交通秩序,负责实施校园机动车通行证管理和停车场统筹管理,维护校内交通管理和交通导引设施、标识,协助公安交管部门处理校园交通事故。承担清华园街道交通安全工作部门联席会办公室日常事务\n\n负责学校集体户口管理与服务工作,协助公安机关办理学校师生员工集体户口和身份证相关事务。\n\n承担部门24小时值班值守和综合指挥调度任务,前期处置突发案(事)件,协助执法机关打击校内扰序行为,强化校园综合安全和秩序管理,实施教学科研区网格化管理,组织开展对二级单位的检查监督和管理服务,为各类大型、重要活动提供勤务保障工作,负责部门技防设施设备运行维护和升级改造工作,承担保安员队伍建设及相关工作。\n\n拟订并具体组织实施校园安全和校园秩序管理年度工作计划,承担校园安全和校园秩序管理相关制度的起草及组织实施具体工作。承担部门职责范围内内部控制建设具体工作,组织协调师生安全保卫工作督导组开展工作,承担部门日常运转具体工作。承担校园综合治理委员会办事机构日常事务。",
+        "chunk_id": "PROV0-STGPUB-0226-0000"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0152",
+        "title": "联系我们-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/gk/lxwm.htm",
+        "text": "| 读者接待处(西102) | 62772208 | - |\n| 检索证明 | 科技查新站(西107) | 62784744 | [检索证明](http://lib.tsinghua.edu.cn/kyzc/jszm.htm) |\n| 科技查新 | 科技查新站(西107) | 62783349 | [查新工作站](http://lib.tsinghua.edu.cn/kyzc/kjcx.htm) |\n| 信息计量、知识产权信息服务 | 情报分析组(西504) | 62782367 | [analysis@mail.tsinghua.edu.cn](mailto:analysis@mail.tsinghua.edu.cn) |\n| 安全保卫 | 综合办公室(西111) | 62773588 | [ymzhu@mail.tsinghua.edu.cn](mailto:ymzhu@mail.tsinghua.edu.cn) |",
+        "chunk_id": "PROV0-STGPUB-0152-0003"
+      }
+    ],
+    "evidence_ids": "C1 | C2 | C3 | C4 | C5",
+    "evidence_source_titles": "车辆-清华大学接待服务中心 | 车辆-清华大学接待服务中心 | 车辆-清华大学接待服务中心 | 科室职能 | 联系我们-清华大学图书馆",
+    "evidence_origin": "answer_generation_v0.retrieved_context",
+    "prior_usage": "ORIGINAL_PROXY_UNREVIEWED; GENERATION_EVALUATION",
+    "recovery_status": "RECOVERED_EXACT",
+    "adjudicated_evidence_gate": "EVIDENCE_PARTIAL",
+    "adjudication_confidence": "MEDIUM",
+    "adjudication_reason": "校园交通车线路、班次和部分校门节点信息非常充分，但没有形成面向“如何进出校园”的独立交通指引或完整进出校路线说明。",
+    "required_answer_points": [
+      "校园交通/校车线路",
+      "校车班次与运行时间",
+      "进出校园的交通路线/指引"
+    ],
+    "evidence_coverage_notes": "[{\"point\":\"校园交通/校车线路\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\",\"C3\"]},{\"point\":\"校车班次与运行时间\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\",\"C3\"]},{\"point\":\"进出校园的交通路线/指引\",\"status\":\"PARTIALLY_SUPPORTED\",\"evidence_ids\":[\"C1\",\"C2\",\"C4\"]}]",
+    "reason_codes": "PARTIAL_COVERAGE; KEY_INFORMATION_MISSING",
+    "label": "EVIDENCE_PARTIAL",
+    "selection_hash": "2da9cdd04938d24aebe9477ee528aad6fed4b8fbe2e9a43d6535d6af538fb775"
+  },
+  {
+    "sample_id": "RET-03",
+    "query": "清华校园网如何接入，账号或网络故障如何处理？",
+    "category": "网络与信息化",
+    "academic_subject": "",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0106",
+        "title": "用户服务",
+        "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/fsdf.htm",
+        "text": "**一、服务介绍**\n\n清华大学信息化用户服务的主要内容是:\n\n1. 接待来访服务:面向全校个人用户,接待来访用户,提供信息系统统一用户及校园网账号申请相关问题处理;接收校园网中各类资源的使用申请;校内有线电视使用办理;校园网及信息系统、校园正版软件使用指导等服务。\n\n2. 热线服务:提供7\\*14小时的人工热线电话,对用户在使用校园网、信息系统、有线电视、公共软件等过程中遇到的问题进行解答帮助或者接收报修。\n\n3. 在线服务:接收用户通过服务邮箱([its@tsinghua.edu.cn](mailto:its@tsinghua.edu.cn))、服务网站([its.tsinghua.edu.cn](https://its.tsinghua.edu.cn/))及清华大学信息服务企业微信中的“信息化服务—服务支持—我要报修”提交的问题,并进行处理。\n\n4. 上门服务:对校园网、有线电视个人用户提供上门维修服务。\n\n5. 单位IT维护服务:为校内单位提供有线电视的接入与维护、单位计算机系统维护等服务。\n\n**二、服务人员**\n\n用户服务团队设有热线接待组、上门服务组和服务支持组。\n\n**三、主要业绩**\n\n1. 面向全校师生提供热线电话、邮件咨询、来访接待和上门服务,全年接待用户、受理电话、邮件及微信咨询超过8万人次,上门服务近3000人次。\n\n2. 为校内有线电视用户提供服务,保障系统稳定运行,每年有线电视线路及机房巡检1500多次。\n\n3. 为全校师生提供校园正版软件服务,每年面向师生组织12场次以上软件使用培训。\n\n![](/__local/9/24/FA/88F98651B2B0EC90F9B08030987_9228C318_DD790.png)\n\n图1 用户服务大厅",
+        "chunk_id": "PROV0-STGPUB-0106-0000"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0104",
+        "title": "校园网络运行",
+        "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/xywlyx.htm",
+        "text": "2. 提供覆盖教学办公区、学生宿舍区和校内教工住宅区的有线网络服务\n\n3. 提供覆盖教学办公区和学生宿舍区的无线网络服务\n\n4. 提供除蓝旗营、荷清苑外的校内教工宿舍区校园网GPON光纤入户服务\n\n5. 提供校园网DNS、DHCP、计费认证、邮件及VPN等校园网络支撑服务\n\n![](/__local/A/5F/E9/97CD080DF9627A01F5A33BFBEE4_94E3C105_1421F0.png)\n\n图1 校园网电子邮件系统\n\n![](/__local/E/7B/C7/8747916E2E0FB42F25EC910E6A0_7C1C2375_B819B.png)\n\n图2 校园网WebVPN系统\n\n6. 全面开启支持基于IPv4/IPv6双栈的实名准入认证服务\n\n![](/__local/1/2F/B9/36B3F609B542CF4EA5400BEF193_3D054AAD_10BE3.png)\n\n图3 校园网准入认证登录页面\n\n7. 提供校园网网络安全服务\n\n![](/__local/3/62/35/20AB0EBAFF393D42E832D01B145_CC742C39_73BDE.png)\n\n图4 校园网网络安全事件处理指南\n\n8.提供多种企业版防病毒软件的服务\n\n![](/__local/5/9B/3C/42D6F93847F9E879060CFCFDB0F_1BEA3CDB_CC7B.png)\n\n图5 ESET NOD32防病毒软件\n\n![](/__local/0/6D/6B/6FB453E1AACB6ABDD15C3AA0F27_61C5B2E1_6F08.png)\n\n图6 卡巴斯基防病毒软件\n\n9. 提供24小时网络运行监控的服务\n\n!",
+        "chunk_id": "PROV0-STGPUB-0104-0001"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0104",
+        "title": "校园网络运行",
+        "url": "https://www.itc.tsinghua.edu.cn/ggfwsd/xywlyx.htm",
+        "text": "NOD32防病毒软件\n\n![](/__local/0/6D/6B/6FB453E1AACB6ABDD15C3AA0F27_61C5B2E1_6F08.png)\n\n图6 卡巴斯基防病毒软件\n\n9. 提供24小时网络运行监控的服务\n\n![](/__local/5/A4/19/12695CF2F353C60798D31EF1308_8F52EC55_ECF8E.png)\n\n图7 监控大厅\n\n10. 提供校园网校管机房的建设运维服务\n\n![](/__local/7/4F/DE/C2D6C87ED582EEED8BD246C72E4_E475839C_13292.jpg)\n\n图8 校园网核心机房\n\n11. 提供全校联通铜缆电话的安装与维护服务\n\n![](/__local/B/8C/27/23E2877189EEE4DEFFC8680F946_058E8116_1C753.jpg)\n\n图9 维修师傅在给用户安装电话\n\n![](/__local/4/0C/9E/4B80C82F37D89F1C563DEF6CAC2_5BE00572_114A2E.png)\n\n图10 维修师傅在机房检查电话故障\n\n12. 维护校园内弱电管井管线并增强地下弱电管网的安全管理\n\n![](/__local/B/3E/BC/4B26C1E33170D573808B5FC4536_DB8B87F4_47A26.png)\n\n图11 维修师傅在进行校园网弱电管井管线的检修",
+        "chunk_id": "PROV0-STGPUB-0104-0002"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0152",
+        "title": "联系我们-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/gk/lxwm.htm",
+        "text": "| 读者接待处(西102) | 62772208 | - |\n| 检索证明 | 科技查新站(西107) | 62784744 | [检索证明](http://lib.tsinghua.edu.cn/kyzc/jszm.htm) |\n| 科技查新 | 科技查新站(西107) | 62783349 | [查新工作站](http://lib.tsinghua.edu.cn/kyzc/kjcx.htm) |\n| 信息计量、知识产权信息服务 | 情报分析组(西504) | 62782367 | [analysis@mail.tsinghua.edu.cn](mailto:analysis@mail.tsinghua.edu.cn) |\n| 安全保卫 | 综合办公室(西111) | 62773588 | [ymzhu@mail.tsinghua.edu.cn](mailto:ymzhu@mail.tsinghua.edu.cn) |",
+        "chunk_id": "PROV0-STGPUB-0152-0003"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0032",
+        "title": "清华大学学生社区管理服务中心",
+        "url": "https://www.tsinghua.edu.cn/xssqglfwzx/",
+        "text": "一、如何进出学生公寓学生公寓楼门采用门禁系统,同学们凭学生证IC卡刷卡进出楼门。将卡在门禁读卡器上刷一下,门禁电控锁会打...\n- [邮寄地址及邮条](https://www.tsinghua.edu.cn/info/1043/1174.htm)\n\n1、紫荆公寓中文地址:100084 北京市海淀区清华大学 紫荆学生公寓×# 楼 ×××房间 某某(收) ...\n- [宿舍调整申请及办理流程](https://www.tsinghua.edu.cn/info/1043/1173.htm)\n\n在宿舍调整期间,学生如遇疾病等特殊情况需要调换宿舍的,应通过所在院系向学生社区管理服务中心提出申请,经批准后方可进行调...\n- [住宿注意事项](https://www.tsinghua.edu.cn/info/1043/1175.htm)\n\n1.具有清华大学学籍的全日制在校学生具有申请入住学生公寓的资格。经本人提出住宿申请,学校批准同意后,应当与学生社区管理服...\n\n- ### 学生社区管理服务中心\n\n电话:010-62782461 传真:010-62788899 邮箱:cscms@mail.tsinghua.edu.cn",
+        "chunk_id": "PROV0-STGPUB-0032-0001"
+      }
+    ],
+    "evidence_ids": "C1 | C2 | C3 | C4 | C5",
+    "evidence_source_titles": "用户服务 | 校园网络运行 | 校园网络运行 | 联系我们-清华大学图书馆 | 清华大学学生社区管理服务中心",
+    "evidence_origin": "answer_generation_v0.retrieved_context",
+    "prior_usage": "ORIGINAL_PROXY_UNREVIEWED; GENERATION_EVALUATION",
+    "recovery_status": "RECOVERED_EXACT",
+    "adjudicated_evidence_gate": "EVIDENCE_PARTIAL",
+    "adjudication_confidence": "HIGH",
+    "adjudication_reason": "证据明确说明校园网提供有线/无线接入、实名认证及账号和故障支持渠道，但缺少用户实际接入网络的完整操作步骤（如具体连接/登录流程）。",
+    "required_answer_points": [
+      "校园网可通过何种方式接入",
+      "账号申请或账号问题如何处理",
+      "网络故障如何报修/求助"
+    ],
+    "evidence_coverage_notes": "[{\"point\":\"校园网可通过何种方式接入\",\"status\":\"PARTIALLY_SUPPORTED\",\"evidence_ids\":[\"C2\"]},{\"point\":\"账号申请或账号问题如何处理\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\"]},{\"point\":\"网络故障如何报修/求助\",\"status\":\"SUPPORTED\",\"evidence_ids\":[\"C1\"]}]",
+    "reason_codes": "PARTIAL_COVERAGE; KEY_INFORMATION_MISSING",
+    "label": "EVIDENCE_PARTIAL",
+    "selection_hash": "58330ef79711aa89b8b8ec0e78c39c044934dba612adfe49e68ef40e9d1cc1ab"
+  }
+]

@@ -1,0 +1,9 @@
+﻿sample_id,expected,predicted,construction_type,reason_codes,coverage
+PROV-021,EVIDENCE_SUFFICIENT,EVIDENCE_SUFFICIENT,REAL,FULL_COVERAGE,"{""total"": 1, ""supported"": 1, ""partial"": 0, ""unsupported"": 0}"
+PROV-025,EVIDENCE_SUFFICIENT,EVIDENCE_SUFFICIENT,REAL,FULL_COVERAGE,"{""total"": 1, ""supported"": 1, ""partial"": 0, ""unsupported"": 0}"
+PROV-023,EVIDENCE_SUFFICIENT,EVIDENCE_PARTIAL,REAL,KEY_INFORMATION_MISSING|PARTIAL_COVERAGE,"{""total"": 3, ""supported"": 2, ""partial"": 0, ""unsupported"": 1}"
+PROV-005,EVIDENCE_SUFFICIENT,EVIDENCE_SUFFICIENT,REAL,FULL_COVERAGE,"{""total"": 2, ""supported"": 2, ""partial"": 0, ""unsupported"": 0}"
+PROV-010,EVIDENCE_SUFFICIENT,EVIDENCE_SUFFICIENT,REAL,FULL_COVERAGE,"{""total"": 1, ""supported"": 1, ""partial"": 0, ""unsupported"": 0}"
+PROV-026,EVIDENCE_SUFFICIENT,EVIDENCE_SUFFICIENT,REAL,FULL_COVERAGE,"{""total"": 3, ""supported"": 3, ""partial"": 0, ""unsupported"": 0}"
+RET-09,EVIDENCE_PARTIAL,EVIDENCE_PARTIAL,REAL,KEY_INFORMATION_MISSING|PARTIAL_COVERAGE,"{""total"": 3, ""supported"": 1, ""partial"": 1, ""unsupported"": 1}"
+RET-03,EVIDENCE_PARTIAL,EVIDENCE_PARTIAL,REAL,KEY_INFORMATION_MISSING|PARTIAL_COVERAGE,"{""total"": 2, ""supported"": 1, ""partial"": 1, ""unsupported"": 0}"

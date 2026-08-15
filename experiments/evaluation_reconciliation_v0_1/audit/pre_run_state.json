@@ -1,0 +1,60 @@
+{
+  "captured_at": "2026-08-14T06:22:35.890324+00:00",
+  "files": {
+    "experiments/generation_citation_eval_v0/results/generation_case_matrix.json": {
+      "sha256": "02357252dde3b88621c6cb3dd0cfb2de7d60c8c33468e823f4a53e5dba88153c",
+      "size": 56629,
+      "mtime_ns": 1786681658016143300
+    },
+    "experiments/generation_citation_eval_v0/results/generation_metrics.json": {
+      "sha256": "28ba21c92fd6208bcd12d5d6cef8d6661486c23ab2f3b70914de9cc5d4736a0c",
+      "size": 5191,
+      "mtime_ns": 1786681658024125400
+    },
+    "experiments/generation_citation_eval_v0/results/human_review_queue.csv": {
+      "sha256": "176ff20ac32cf9b347b62474b668cb46ee0431223f391df8caab6898f88fd894",
+      "size": 10124,
+      "mtime_ns": 1786681658021147800
+    },
+    "experiments/generation_citation_eval_v0/results/independent_review_packet.xlsx": {
+      "sha256": "95a057841c8e6c9787d2657ce810ff4dc01b97d887ba905300cf845b2b68c00c",
+      "size": 34195,
+      "mtime_ns": 1786685348063842900
+    },
+    "experiments/generation_citation_eval_v0/results/independent_review_packet_adjudicated.xlsx": {
+      "sha256": "7c2086d8abfa409a5a66e2f597a3ac6d985c77810b2852dc0b30fc04dc27511e",
+      "size": 39250,
+      "mtime_ns": 1786688336656645000
+    },
+    "experiments/generation_citation_eval_v0/results/claim_level_audit.json": {
+      "sha256": "6c70885928cb0a921eee8cba33fc7076b59b29160ae7a57104472c6099ffcaa2",
+      "size": 93554,
+      "mtime_ns": 1786681761916748500
+    },
+    "experiments/generation_citation_eval_v0/results/completeness_matrix.csv": {
+      "sha256": "0956fc12d931b5834822a2639c91158b5a64913fd2cbc9541a4ee344d8b1ad3f",
+      "size": 29794,
+      "mtime_ns": 1786681658021147800
+    },
+    "experiments/generation_citation_eval_v0/audit/generation_eval_freeze.json": {
+      "sha256": "fdc89981bf678f7f24bf13dacfb7a33851ad76f792394bfe90210a5c099ad48f",
+      "size": 1304,
+      "mtime_ns": 1786681657882167400
+    },
+    "experiments/e2e12_router_v0_2/audit/e2e12_freeze.json": {
+      "sha256": "9f6706cb64812cddf8a02fe81d39e84eca3afcbe9cd0fa22fcd1b4e1dbc454be",
+      "size": 4583,
+      "mtime_ns": 1786679692062423400
+    }
+  },
+  "git_status": [
+    " M experiments/web_search_v0_followup/academic_retrieval_v0_1_report.md",
+    " M experiments/web_search_v0_followup/analysis/router_error_analysis.md",
+    "?? experiments/e2e12_router_v0_2/",
+    "?? experiments/evaluation_reconciliation_v0_1/",
+    "?? experiments/generation_citation_eval_v0/",
+    "?? experiments/router_v0_2/",
+    "?? router_v0_2/",
+    "?? web_search_v0_1/"
+  ]
+}

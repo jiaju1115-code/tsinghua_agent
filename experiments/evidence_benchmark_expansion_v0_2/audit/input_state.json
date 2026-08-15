@@ -1,0 +1,14 @@
+{
+  "generated_utc": "2026-08-14T07:28:55.946678+00:00",
+  "inputs": {
+    "D:\\python_projects\\tsinghua_ai\\experiments\\evaluation_reconciliation_v0_1\\results\\reconciled_case_matrix.json": "1a4579c2e8a84e164f3b6d7072f7ed7ab50d19879a73a44245f3f070fa37c4a1",
+    "D:\\python_projects\\tsinghua_ai\\evaluation\\answer_generation\\v0\\results\\answer_generation_results.jsonl": "d606b1fd322a21bcf12aa85332b640e8d492e5600fa7092301cf1e142fa0490e",
+    "D:\\python_projects\\tsinghua_ai\\experiments\\generation_citation_eval_v0\\results\\independent_review_packet.json": "df594e3c45a0b895dd7e1587dfa8401d55bbde821e7e9c6c57b321b7ceb117cb"
+  },
+  "offline_calls": {
+    "search": 0,
+    "tavily": 0,
+    "extract": 0,
+    "external_llm": 0
+  }
+}

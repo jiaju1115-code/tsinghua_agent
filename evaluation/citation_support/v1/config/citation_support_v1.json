@@ -1,0 +1,39 @@
+{
+  "runtime_version": "CITATION_SUPPORT_V1",
+  "expected_evidence_version": "EVIDENCE_SUFFICIENCY_V1",
+  "expected_retriever_version": "RAG_RETRIEVAL_V1",
+  "expected_corpus_version": "KNOWLEDGE_BASE_V1",
+  "expected_top_k": 5,
+  "minimum_compact_span_chars": 8,
+  "maximum_merged_span_chars": 900,
+  "maximum_adjacent_gap_chars": 4,
+  "unicode_normalization": "NFKC",
+  "title_only_support_allowed": false,
+  "span_offsets": "raw_chunk_zero_based_end_exclusive",
+  "stable_id_algorithm": "sha256_prefix_16_uppercase_hex",
+  "support_unit_id_prefix": "CSU",
+  "citation_candidate_id_prefix": "CSC",
+  "source_group_id_prefix": "CSG",
+  "support_roles": ["PRIMARY", "SUPPLEMENTARY"],
+  "support_status_policy": {
+    "SUFFICIENT": "READY only when every required point has at least one validated support unit; otherwise BLOCKED",
+    "PARTIAL": "PARTIAL when at least one valid supported piece remains; otherwise BLOCKED",
+    "INSUFFICIENT": "BLOCKED with no usable support units or citation candidates"
+  },
+  "restricted_source_prefixes": ["KBV1-RES-"],
+  "source_metadata_allowlist": ["source_id", "title", "url", "category", "source_class"],
+  "candidate_order": ["required_point_coverage_desc", "retriever_rank_asc", "source_id_asc"],
+  "normalization_reason_vocabulary": [
+    "ADJACENT_SPANS_MERGED", "EXACT_TEXT", "HTML_TEXT_NORMALIZED", "MARKDOWN_TEXT_NORMALIZED",
+    "PARTIAL_SENTENCE_BOUNDARY", "SENTENCE_BOUNDARY_VALIDATED", "TRAILING_BOUNDARY_EXPANDED",
+    "UNICODE_WHITESPACE_NORMALIZED"
+  ],
+  "reason_code_vocabulary": [
+    "ADJACENT_SUPPORT_MERGED", "CANDIDATES_EXCLUDED", "CHUNK_NOT_IN_RETRIEVAL",
+    "DUPLICATE_SUPPORT", "EMPTY_SUPPORT", "EVIDENCE_DECISION_BLOCKED", "EVIDENCE_NOT_SUPPORTED",
+    "INPUT_SCHEMA_INVALID", "PARTIAL_SUPPORT_ONLY", "POLICY_SIGNAL_MISMATCH", "QUERY_CASE_MISMATCH",
+    "READY_FOR_ANSWER", "REQUIRED_POINT_UNMAPPED", "RESTRICTED_METADATA_SANITIZED",
+    "SOURCE_DUPLICATE", "SOURCE_ID_MISMATCH", "SPAN_INVALID", "SPAN_NOT_FOUND",
+    "SPAN_TOO_WEAK", "SUPPORT_INTEGRITY_BLOCKED", "VERSION_MISMATCH"
+  ]
+}

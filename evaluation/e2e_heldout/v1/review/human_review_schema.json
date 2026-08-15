@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Held-out E2E Evaluation V1 human review record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "reviewer_id", "answer_correctness", "faithfulness", "citation_correctness", "unsupported_claim", "refusal_appropriateness", "partial_answer_appropriateness", "usefulness", "human_note"],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^E2E0(?:0[1-9]|[1-4][0-9]|50)$"},
+    "reviewer_id": {"type": "string"},
+    "answer_correctness": {"enum": [2, 1, 0, null]},
+    "faithfulness": {"enum": [2, 1, 0, null]},
+    "citation_correctness": {"enum": [2, 1, 0, null]},
+    "unsupported_claim": {"enum": ["YES", "NO", null]},
+    "refusal_appropriateness": {"enum": ["CORRECT_REFUSAL", "OVER_REFUSAL", "SHOULD_REFUSE_BUT_ANSWERED", "N/A", null]},
+    "partial_answer_appropriateness": {"enum": ["CORRECT_SCOPE", "OMITTED_SUPPORTED_CONTENT", "ANSWERED_UNSUPPORTED_CONTENT", "N/A", null]},
+    "usefulness": {"enum": [2, 1, 0, null]},
+    "human_note": {"type": "string"}
+  }
+}

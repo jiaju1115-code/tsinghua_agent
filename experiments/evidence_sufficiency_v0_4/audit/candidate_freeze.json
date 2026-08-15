@@ -1,0 +1,31 @@
+{
+  "candidate": "v0.4-a",
+  "frozen_at_utc": "2026-08-14T10:32:26.689347+00:00",
+  "rule": "No prompt, model, seed, schema, feature, threshold-selection protocol, or code changes after this freeze.",
+  "artifacts": {
+    "config/experiment_config.json": {
+      "sha256": "526222e59967bf84d2d23e280c58abedf61cccfe27e90a13202ad46276e412a5",
+      "bytes": 1029
+    },
+    "config/evaluation_protocol.json": {
+      "sha256": "7a989343d99f70ea0db1be83d0fc6686b68516e53b0b6ce3ebc1b27504625500",
+      "bytes": 400
+    },
+    "config/semantic_engine_manifest.json": {
+      "sha256": "2001c5c5f02a5710db3515a0d1b402ef38ef915adf240c75da168d2aa470d1f6",
+      "bytes": 701
+    },
+    "schema/semantic_support_schema.json": {
+      "sha256": "b0d46958fe35e40dbeede207452f1eaf6064847302bf39e896ba76ce196ce471",
+      "bytes": 3253
+    },
+    "schema/required_point_schema.json": {
+      "sha256": "1a247e07b0a56085cf4be4fc3159baf9e4796b3774127e5e6ae4fa4567d645ce",
+      "bytes": 1313
+    },
+    "scripts/run_v0_4_experiment.py": {
+      "sha256": "2fe7284ad7148c026e97433f09a299f8fb322f246174911b16c65e4a7d145b28",
+      "bytes": 25745
+    }
+  }
+}

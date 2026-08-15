@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-08-14T07:30:12.123635+00:00",
+  "files": {
+    "recovery\\frozen_evidence_recovery.json": "b98fb64db8f4bdcaf6b2b57fa4e24acb59010fe3daabaf2de7358fd2f71249b3",
+    "candidates\\real_evidence_candidate_pool.json": "c5d522b8222801b5f56e928e8ff211491d164cde7e171cdb8d69c4995e5d24d9",
+    "adjudication\\new_real_adjudication_packet.json": "13288ab40c756c2ef1848d73e97d9abec505e1af87f3f4fc0380eb2d6c531029",
+    "adjudication\\new_real_adjudication_packet.xlsx": "5fa692359353cd2822eb76654fd3880d523a3998a5863895740a11286cb0322b",
+    "synthetic\\synthetic_stress_set_v0_2.json": "ae159b91be50d2e877f623073d46ff97e04d945171ede0081e28a6b3fac1d0df"
+  },
+  "git_state": " M experiments/web_search_v0_followup/academic_retrieval_v0_1_report.md\n M experiments/web_search_v0_followup/analysis/router_error_analysis.md\n?? experiments/e2e12_router_v0_2/\n?? experiments/evaluation_reconciliation_v0_1/\n?? experiments/evidence_benchmark_expansion_v0_2/\n?? experiments/evidence_sufficiency_v0_1/\n?? experiments/generation_citation_eval_v0/\n?? experiments/router_v0_2/\n?? router_v0_2/\n?? web_search_v0_1/\n",
+  "freeze_scope": "Benchmark inputs only; no adjudication, candidate tuning, or blind-holdout split."
+}

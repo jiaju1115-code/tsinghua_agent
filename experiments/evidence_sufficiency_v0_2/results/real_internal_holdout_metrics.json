@@ -1,0 +1,65 @@
+{
+  "n": 8,
+  "accuracy": {
+    "count": 7,
+    "rate": 0.875
+  },
+  "sufficient_precision": 1.0,
+  "sufficient_recall": 0.8333333333333334,
+  "partial_recall": 1.0,
+  "false_sufficient": {
+    "count": 0,
+    "denominator": 2,
+    "rate": 0.0
+  },
+  "missed_sufficient": {
+    "count": 1,
+    "denominator": 6,
+    "rate": 0.16666666666666666
+  },
+  "macro_f1": 0.5696969696969697,
+  "confusion_matrix": {
+    "EVIDENCE_SUFFICIENT": {
+      "EVIDENCE_SUFFICIENT": 5,
+      "EVIDENCE_PARTIAL": 1,
+      "EVIDENCE_INSUFFICIENT": 0
+    },
+    "EVIDENCE_PARTIAL": {
+      "EVIDENCE_SUFFICIENT": 0,
+      "EVIDENCE_PARTIAL": 2,
+      "EVIDENCE_INSUFFICIENT": 0
+    },
+    "EVIDENCE_INSUFFICIENT": {
+      "EVIDENCE_SUFFICIENT": 0,
+      "EVIDENCE_PARTIAL": 0,
+      "EVIDENCE_INSUFFICIENT": 0
+    }
+  },
+  "per_class": {
+    "EVIDENCE_SUFFICIENT": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091,
+      "support": 6
+    },
+    "EVIDENCE_PARTIAL": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "support": 2
+    },
+    "EVIDENCE_INSUFFICIENT": {
+      "precision": null,
+      "recall": null,
+      "f1": 0,
+      "support": 0
+    }
+  },
+  "by_construction_type": {
+    "REAL": {
+      "n": 8,
+      "correct": 7,
+      "accuracy": 0.875
+    }
+  }
+}

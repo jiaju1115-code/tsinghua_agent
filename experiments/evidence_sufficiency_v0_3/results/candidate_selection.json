@@ -1,0 +1,9 @@
+{
+  "outer_fold_selections": {
+    "v0.3-c": 4,
+    "v0.3-b": 4,
+    "v0.3-a": 2
+  },
+  "selected": "v0.3-c",
+  "selection_rule": "most frequent inner-CV winner across Real and Synthetic outer folds"
+}

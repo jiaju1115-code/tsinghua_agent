@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KB V2 candidate pipeline record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_id", "raw", "source_validation", "dedup", "quality_privacy", "category", "chunk_candidate", "kb_v2_candidate"],
+  "properties": {
+    "record_id": {"type": "string", "minLength": 1},
+    "raw": {"type": "object", "required": ["source_url", "title", "text"], "properties": {"source_url": {"type": "string"}, "title": {"type": "string"}, "text": {"type": "string"}}},
+    "source_validation": {"type": "object", "required": ["status", "reason"], "properties": {"status": {"enum": ["pending", "pass", "fail"]}, "reason": {"type": "string"}}},
+    "dedup": {"type": "object", "required": ["status", "content_sha256"], "properties": {"status": {"enum": ["pending", "unique", "duplicate"]}, "content_sha256": {"type": "string"}, "duplicate_of": {"type": ["string", "null"]}}},
+    "quality_privacy": {"type": "object", "required": ["status", "flags"], "properties": {"status": {"enum": ["pending", "pass", "fail", "manual_review"]}, "flags": {"type": "array", "items": {"type": "string"}}}},
+    "category": {"type": "object", "required": ["status", "value"], "properties": {"status": {"enum": ["pending", "proposed", "confirmed"]}, "value": {"type": ["string", "null"]}}},
+    "chunk_candidate": {"type": "object", "required": ["status", "chunks"], "properties": {"status": {"enum": ["pending", "candidate", "rejected"]}, "chunks": {"type": "array"}}},
+    "kb_v2_candidate": {"type": "object", "required": ["status"], "properties": {"status": {"enum": ["pending", "candidate", "rejected"]}, "reason": {"type": ["string", "null"]}}}
+  }
+}

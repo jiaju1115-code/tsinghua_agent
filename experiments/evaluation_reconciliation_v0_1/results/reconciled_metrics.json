@@ -1,0 +1,167 @@
+{
+  "scope": "HYBRID_RECONCILED",
+  "mapping": {
+    "adjudicated_mapped": 17,
+    "unreviewed_original_proxy": 33,
+    "mapping_failures": 0
+  },
+  "set_a_original_v0": {
+    "evidence_gate_distribution": {
+      "EVIDENCE_SUFFICIENT": 43,
+      "EVIDENCE_INSUFFICIENT": 7
+    },
+    "clean_subset_size": 43,
+    "samples": 43,
+    "correctness_mean_0_to_2": 1.186046511627907,
+    "faithfulness_mean_0_to_2": 1.3255813953488371,
+    "completeness_ratio_proxy": 0.3798449612403101,
+    "unsupported_claim_rate_proxy": 0.2366412213740458,
+    "claim_level_citation_coverage": 0.0916030534351145,
+    "citation_validity_given_present": 1.0,
+    "citation_support_given_present": 0.6666666666666666,
+    "primary_failure_counts": {
+      "INCOMPLETE": 27,
+      "TASK_COMPLETION": 2,
+      "UNSUPPORTED_ADDITION": 12,
+      "WRONG_REFUSAL": 1,
+      "CITATION_MISSING": 1
+    },
+    "failure_label_counts": {
+      "INCOMPLETE": 39,
+      "CITATION_MISSING": 34,
+      "TASK_COMPLETION": 35,
+      "UNSUPPORTED_ADDITION": 12,
+      "WRONG_REFUSAL": 3,
+      "CITATION_INCOMPLETE": 6,
+      "CITATION_MISMATCH": 4
+    },
+    "review_queue_count": 16,
+    "scope": "PROVISIONAL_PROXY"
+  },
+  "set_b_adjudicated_17": {
+    "samples": 17,
+    "evidence_gate_distribution": {
+      "EVIDENCE_INSUFFICIENT": 7,
+      "EVIDENCE_SUFFICIENT": 7,
+      "EVIDENCE_PARTIAL": 3
+    },
+    "correctness_mean_0_to_2": 0.9411764705882353,
+    "correctness_normalized": 0.47058823529411764,
+    "completeness_distribution": {
+      "severely_incomplete": 5,
+      "partial": 6,
+      "complete": 6
+    },
+    "unsupported_answer_distribution": {
+      "yes": 8,
+      "no": 9
+    },
+    "citation_assessment_distribution": {
+      "missing": 8,
+      "adequate": 1,
+      "incomplete_or_mismatch": 2,
+      "incomplete": 1,
+      "mismatch": 1,
+      "extraneous_or_mismatch": 1,
+      "mismatch_or_incomplete": 1,
+      "not_required_for_refusal": 2
+    },
+    "primary_failure_distribution": {
+      "EVIDENCE_MISUSE": 2,
+      "TASK_COMPLETION": 2,
+      "NO_GENERATION_FAILURE": 4,
+      "CITATION_MISSING": 1,
+      "INCOMPLETE": 3,
+      "UNSUPPORTED_ADDITION": 4,
+      "WRONG_REFUSAL": 1
+    },
+    "failure_stage_distribution": {
+      "G": 12,
+      "E": 2,
+      "C": 1,
+      "NONE": 2
+    },
+    "correct_refusal_count": 2,
+    "proxy_disposition": {
+      "PARTIALLY_CONFIRMED": 5,
+      "REASSIGN_FAILURE": 2,
+      "FALSE_POSITIVE": 5,
+      "CONFIRMED": 5
+    }
+  },
+  "set_c_hybrid_reconciled_50": {
+    "samples": 50,
+    "evidence_gate_distribution": {
+      "EVIDENCE_SUFFICIENT": 34,
+      "EVIDENCE_INSUFFICIENT": 13,
+      "EVIDENCE_PARTIAL": 3
+    },
+    "clean_subset_size": 34,
+    "correctness_mean_0_to_2_all": 1.14,
+    "correctness_normalized_all": 0.57,
+    "clean_correctness_mean_0_to_2": 1.2058823529411764,
+    "clean_correctness_normalized": 0.6029411764705882,
+    "faithfulness_mean_0_to_2_retained_proxy": 1.28,
+    "clean_faithfulness_mean_0_to_2_retained_proxy": 1.3235294117647058,
+    "faithfulness_reconciliation_coverage": 0.0,
+    "completeness": "NOT_DIRECTLY_COMPARABLE",
+    "unsupported_claim_rate": "NOT_DIRECTLY_COMPARABLE",
+    "citation_coverage": "NOT_DIRECTLY_COMPARABLE",
+    "reviewed_completeness_distribution": {
+      "severely_incomplete": 5,
+      "partial": 6,
+      "complete": 6
+    },
+    "reviewed_unsupported_answer_distribution": {
+      "yes": 8,
+      "no": 9
+    },
+    "reviewed_citation_assessment_distribution": {
+      "missing": 8,
+      "adequate": 1,
+      "incomplete_or_mismatch": 2,
+      "incomplete": 1,
+      "mismatch": 1,
+      "extraneous_or_mismatch": 1,
+      "mismatch_or_incomplete": 1,
+      "not_required_for_refusal": 2
+    },
+    "failure_stage_distribution": {
+      "G": 44,
+      "E": 2,
+      "C": 2,
+      "NONE": 2
+    },
+    "primary_failure_distribution": {
+      "INCOMPLETE": 28,
+      "TASK_COMPLETION": 6,
+      "EVIDENCE_MISUSE": 2,
+      "NO_GENERATION_FAILURE": 4,
+      "FAILED_REFUSAL": 3,
+      "CITATION_MISSING": 2,
+      "UNSUPPORTED_ADDITION": 4,
+      "WRONG_REFUSAL": 1
+    },
+    "correct_refusal_count_confirmed": 2,
+    "wrong_refusal_count": 1,
+    "evidence_sufficient_citation_behavior_reviewed": {
+      "missing": 4,
+      "adequate": 1,
+      "mismatch_or_incomplete": 1,
+      "incomplete_or_mismatch": 1
+    },
+    "non_sufficient_citation_behavior_reviewed": {
+      "missing": 4,
+      "incomplete_or_mismatch": 1,
+      "incomplete": 1,
+      "mismatch": 1,
+      "extraneous_or_mismatch": 1,
+      "not_required_for_refusal": 2
+    }
+  },
+  "evidence_gate_changes": {
+    "EVIDENCE_SUFFICIENT->EVIDENCE_INSUFFICIENT": 6,
+    "UNCHANGED": 8,
+    "EVIDENCE_SUFFICIENT->EVIDENCE_PARTIAL": 3
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "n": 36,
+  "accuracy": {
+    "count": 25,
+    "rate": 0.6944444444444444
+  },
+  "sufficient_precision": 0.7,
+  "sufficient_recall": 0.5833333333333334,
+  "partial_recall": 0.4,
+  "false_sufficient": {
+    "count": 3,
+    "denominator": 24,
+    "rate": 0.125
+  },
+  "missed_sufficient": {
+    "count": 5,
+    "denominator": 12,
+    "rate": 0.4166666666666667
+  },
+  "macro_f1": 0.6036556036556037,
+  "confusion_matrix": {
+    "EVIDENCE_SUFFICIENT": {
+      "EVIDENCE_SUFFICIENT": 7,
+      "EVIDENCE_PARTIAL": 5,
+      "EVIDENCE_INSUFFICIENT": 0
+    },
+    "EVIDENCE_PARTIAL": {
+      "EVIDENCE_SUFFICIENT": 2,
+      "EVIDENCE_PARTIAL": 2,
+      "EVIDENCE_INSUFFICIENT": 1
+    },
+    "EVIDENCE_INSUFFICIENT": {
+      "EVIDENCE_SUFFICIENT": 1,
+      "EVIDENCE_PARTIAL": 2,
+      "EVIDENCE_INSUFFICIENT": 16
+    }
+  },
+  "per_class": {
+    "EVIDENCE_SUFFICIENT": {
+      "precision": 0.7,
+      "recall": 0.5833333333333334,
+      "f1": 0.6363636363636365,
+      "support": 12
+    },
+    "EVIDENCE_PARTIAL": {
+      "precision": 0.2222222222222222,
+      "recall": 0.4,
+      "f1": 0.2857142857142857,
+      "support": 5
+    },
+    "EVIDENCE_INSUFFICIENT": {
+      "precision": 0.9411764705882353,
+      "recall": 0.8421052631578947,
+      "f1": 0.8888888888888888,
+      "support": 19
+    }
+  },
+  "by_construction_type": {
+    "CONTAMINATED_EVIDENCE": {
+      "n": 4,
+      "correct": 4,
+      "accuracy": 1.0
+    },
+    "PARTIAL_COVERAGE": {
+      "n": 5,
+      "correct": 2,
+      "accuracy": 0.4
+    },
+    "QUERY_CONCEPT_MISMATCH": {
+      "n": 5,
+      "correct": 4,
+      "accuracy": 0.8
+    },
+    "SUFFICIENT_CONTROL": {
+      "n": 12,
+      "correct": 7,
+      "accuracy": 0.5833333333333334
+    },
+    "TOPIC_RELATED_NOT_ANSWERING": {
+      "n": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "WRONG_DOCUMENT": {
+      "n": 5,
+      "correct": 3,
+      "accuracy": 0.6
+    }
+  }
+}

@@ -1,0 +1,1918 @@
+[
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-01",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华校医院门诊、报销和就医流程是什么？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0140",
+        "title": "常见问题（FAQ）",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/cjwt_FAQ_.htm",
+        "text": "常见问题(FAQ)\n\n(2013年3月25日)\n\n(20年8月27日更新)\n\n- 1\n\nQ: 金融图书馆开放时间?\n\nA: 金融图书馆的开放时间为:周一至周五:8:00—22:00,周末:14:00—22:00 节假日另行通知。\n- 2\n\nQ: 谁可以使用金融图书馆?\n\nA: 金融图书馆面向清华大学全校师生和金融学院校友开放服务。清华大学的师生可持已开通借书权限的本人工作证或学生证按有关规定借用金融图书馆的图书资料。金融学院的校友凭金融学院校友办发放的“校友卡”和本人有效身份证件按有关规程使用金融图书馆。\n- 3\n\nQ: ​进入金融图书馆需要证件吗?\n\nA: 凭本人的校园一卡通学生证、工作证和临时借阅证(含五道口校友卡)可以刷卡进入金融图书馆。请不要借用他人证件或将证件借给他人进入图书馆。\n- 4\n\nQ: 带亲朋好友参观金融馆或进馆查找资料?\n\nA: 可以。按照《清华大学图书馆参观接待办法》规定:本校教师、学生和其他工作人员陪同本人亲属、同学等来馆参观,须将本人有效证件(工作证或学生证),在《金融图书馆参观读者入馆登记本》上登记,参观时间限30分钟。\n- 5\n\nQ: 怎么从金融图书馆借书?\n\nA: 读者必须先开通借书权限才能从图书馆借书。详见\n\n[开通借书权限](http://tempcard.lib.tsinghua.edu.cn/dispatcher?classid=perApply)。\n特别说明:五道口校友卡开通借书权限请咨询李老师,联系电话:62773671。\n- 6\n\nQ: 在金融图书馆借的书可以还到学校其他图书馆吗?\n\nA: 可以。清华大学的校图书馆(含北馆、西馆、老馆)和6个专业分馆(文科馆、金融馆、美术馆、经管馆、法律馆、建筑馆)之间已经实现了通还,读者可以将书还到这些图书馆中的任何一个。\n- 7\n\nQ: 金融图书馆的期刊可以出借吗?"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0113",
+        "title": "M-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/kyzc/kfkx/cbzc/M.htm",
+        "text": "| |\n| --- |\n| 微信扫一扫 关注清华大学开放科学公众号 |\n\n[首页](https://lib.tsinghua.edu.cn/index.htm)>内容页\n\n开放科学\n\n我校师生在MDPI期刊进行OA论文投稿可享受10% APC折扣,无名额限制。\n\n请师生注意填写作者信息时,需要保障任意一位作者将机构信息正确关联系统中的学校账号:Tsinghua University,并使用清华大学提供的邮箱地址:形如username@mail.tsinghua.edu.cn;username@mails.tsinghua.edu.cn;username@tsinghua.edu.cn 等形式的邮箱,保证被正确识别为我校作者,拥有使用以上优惠的资格。\n\n### 出版支持\n\n- [MDPI(多学科数字出版机构)开放获取(OA)政策](https://lib.tsinghua.edu.cn/info/1359/5862.htm)2022-10-05\n\n- ### IWA(国际水协会)开放获取(OA)政策\n- ### IEEE(电气电子工程师学会)开放获取(OA)政策\n\n- ### MDPI(多学科数字出版机构)开放获取(OA)政策\n\n- ### SCOAP3(高能物理开放获取出版资助联盟)开放获取(OA)政策\n\n- [MDPI(多学科数字出版机构)开放获取(OA)政策](https://lib.tsinghua.edu.cn/info/1359/5862.htm)2022-10-05\n\n清华大学图书馆开放科学工作组邮箱:opens@mail.tsinghua.edu.cn\n\n本页面内容遵循 CC BY-NC-ND 协议"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0141",
+        "title": "开放科学-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/kyzc/kfkx.htm",
+        "text": "### 时事追踪\n\n- [打破围墙:这十几所欧洲先锋大学,正在拆除知识的“付费门槛”](https://lib.tsinghua.edu.cn/info/1377/8050.htm)2026-05-12\n- [Frontiers发布出版行业首份AI实践指南:为科研出版构建负责任 AI 应用路线图](https://lib.tsinghua.edu.cn/info/1377/7996.htm)2026-04-23\n- [服务国家开放创新战略:Frontiers、NSFC科学传播与成果转化中心、CEPIEC 达成战略合作](https://lib.tsinghua.edu.cn/info/1377/7998.htm)2026-04-22\n- [AEGIS-OA项目启动:将欧洲钻石开放获取支持体系扩展至学术图书](https://lib.tsinghua.edu.cn/info/1377/7975.htm)2026-04-09\n- [EMS Press推出“Launch to Open”透明开放获取新模式,助力老牌期刊向社区主导出版转型](https://lib.tsinghua.edu.cn/info/1377/7968.htm)2026-04-08\n\n- ### IWA(国际水协会)开放获取(OA)政策\n- ### IEEE(电气电子工程师学会)开放获取(OA)政策\n\n- ### MDPI(多学科数字出版机构)开放获取(OA)政策\n\n- ### SCOAP3(高能物理开放获取出版资助联盟)开放获取(OA)政策\n\n- [洞察变革,优化路径——第二届开放科学会议在清华大学成功举办](https://lib.tsinghua.edu.cn/info/1345/8049.htm)2026-05-11"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0140",
+        "title": "常见问题（FAQ）",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/cjwt_FAQ_.htm",
+        "text": "A: 可以。清华大学的校图书馆(含北馆、西馆、老馆)和6个专业分馆(文科馆、金融馆、美术馆、经管馆、法律馆、建筑馆)之间已经实现了通还,读者可以将书还到这些图书馆中的任何一个。\n- 7\n\nQ: 金融图书馆的期刊可以出借吗?\n\nA: 现刊只能馆内阅览,不能出借;过刊合订本可以出借。\n- 8\n\nQ: 金融图书馆地下书库的书能借吗?怎么借?\n\nA: 可以借。地下书库采用闭架预约借还书的方式为大家服务:读者在图书馆馆藏目录系统中提交申请,在接到通知后,到金融图书馆服务台办理出借手续,金融学院正、副教授及博士生可凭证登记入库查阅资料。服务时间:周一至五8:00-12:00,13:00-17:00周六、日14:00-17:00。\n- 9\n\nQ: 金融图书馆闭馆期间能还书吗?怎么还?\n\nA: 能。金融图书馆大门外有“24小时还书窗口”,读者可以通过该窗口还书,详见《24小时还书窗口使用说明》。\n- 10\n\nQ: 是否有金融类的数据库?\n\nA: 有,详见金融图书馆主页(\n\n<https://lib.tsinghua.edu.cn/finance/>):“资源-金融学相关数据库”或者<https://lib.tsinghua.edu.cn/finance/info/1122/1235.htm>。\n- 11\n\nQ: 怎么使用数据库?\n\nA: 无论何时何地,只要你能联入Internet,你就能通过已经开通借书权限的校园一卡通账号和密码使用图书馆订购的数据库。具体每种数据库的使用可咨询:校图书馆咨询台62782137;金融图书馆咨询台62772511。\n- 12\n\nQ: 读者可以向金融图书馆推荐购买资料吗?如何推荐?\n\nA: 可以。随时通过金融图书馆邮箱地址与我们联系。libfinance@mail.tsinghua.edu.cn或library@pbcsf.tsinghua.edu.cn。"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0205",
+        "title": "美国计算机协会（ACM）开放获取（OA）政策-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1344/5969.htm",
+        "text": "所有符合条件的清华大学通讯作者在任何ACM出版的刊物上发表文章时,均可选择以OA形式免费发表,无名额限制。\n\nACM为其出版的每篇文章提供一个默认的知识共享授权(CC-BY),作者也可选择CC-BY-NC-ND授权。需注意,ACM中有少量与其他出版社合作出版的会议录可能涉及版权转让。\n\n为确保投稿时被正确识别为我校作者,从而拥有使用以上优惠的资格。请我校师生填写作者信息时,将机构信息正确关联系统中的学校账号:Tsinghua University,并使用清华大学提供的邮箱地址。有效邮箱包括:\n\n1.username@sz.tsinghua.edu.cn(清华大学深圳国际研究生院)\n\n2.username@mail.tsinghua.edu.cn(员工电子邮件域名)\n\n3.username@mails.tsinghua.edu.cn(学生电子邮件域名)\n\n4.username@tsinghua.edu.cn(员工电子邮件域名)\n\n5.username@air.tsinghua.edu.cn(清华大学AI工业研究所)\n\n6.username@sc.tsinghua.edu.cn(清华大学苏世民书院)\n\n7.username@sem.tsinghua.edu.cn (清华大学经管学院)\n\n8.username@pbcsf.tsinghua.edu.cn(清华大学五道口金融学院)"
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "RET-04"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-01",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华校医院门诊、报销和就医流程是什么？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0140",
+        "title": "常见问题（FAQ）",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/cjwt_FAQ_.htm",
+        "text": "常见问题(FAQ)\n\n(2013年3月25日)\n\n(20年8月27日更新)\n\n- 1\n\nQ: 金融图书馆开放时间?\n\nA: 金融图书馆的开放时间为:周一至周五:8:00—22:00,周末:14:00—22:00 节假日另行通知。\n- 2\n\nQ: 谁可以使用金融图书馆?\n\nA: 金融图书馆面向清华大学全校师生和金融学院校友开放服务。清华大学的师生可持已开通借书权限的本人工作证或学生证按有关规定借用金融图书馆的图书资料。金融学院的校友凭金融学院校友办发放的“校友卡”和本人有效身份证件按有关规程使用金融图书馆。\n- 3\n\nQ: ​进入金融图书馆需要证件吗?\n\nA: 凭本人的校园一卡通学生证、工作证和临时借阅证(含五道口校友卡)可以刷卡进入金融图书馆。请不要借用他人证件或将证件借给他人进入图书馆。\n- 4\n\nQ: 带亲朋好友参观金融馆或进馆查找资料?\n\nA: 可以。按照《清华大学图书馆参观接待办法"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0113",
+        "title": "M-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/kyzc/kfkx/cbzc/M.htm",
+        "text": "| |\n| --- |\n| 微信扫一扫 关注清华大学开放科学公众号 |\n\n[首页](https://lib.tsinghua.edu.cn/index.htm)>内容页\n\n开放科学\n\n我校师生在MDPI期刊进行OA论文投稿可享受10% APC折扣,无名额限制。\n\n请师生注意填写作者信息时,需要保障任意一位作者将机构信息正确关联系统中的学校账号:Tsinghua University,并使用清华大学提供的邮箱地址:形如username@mail.tsinghua.edu.cn;username@mails.tsinghua.edu.cn;username@tsinghua.edu.cn 等形式的邮箱,保证被正确识别为我校作者,拥有使用以上优惠的资格。\n\n### 出版支持\n\n- [MDPI(多学科数字出版机构)开放获取(OA)政策](https://lib.tsinghua.edu.cn/in"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0141",
+        "title": "开放科学-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/kyzc/kfkx.htm",
+        "text": "### 时事追踪\n\n- [打破围墙:这十几所欧洲先锋大学,正在拆除知识的“付费门槛”](https://lib.tsinghua.edu.cn/info/1377/8050.htm)2026-05-12\n- [Frontiers发布出版行业首份AI实践指南:为科研出版构建负责任 AI 应用路线图](https://lib.tsinghua.edu.cn/info/1377/7996.htm)2026-04-23\n- [服务国家开放创新战略:Frontiers、NSFC科学传播与成果转化中心、CEPIEC 达成战略合作](https://lib.tsinghua.edu.cn/info/1377/7998.htm)2026-04-22\n- [AEGIS-OA项目启动:将欧洲钻石开放获取支持体系扩展至学术图书](https://lib.tsinghua.edu.cn/info/1377/797"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0140",
+        "title": "常见问题（FAQ）",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/cjwt_FAQ_.htm",
+        "text": "A: 可以。清华大学的校图书馆(含北馆、西馆、老馆)和6个专业分馆(文科馆、金融馆、美术馆、经管馆、法律馆、建筑馆)之间已经实现了通还,读者可以将书还到这些图书馆中的任何一个。\n- 7\n\nQ: 金融图书馆的期刊可以出借吗?\n\nA: 现刊只能馆内阅览,不能出借;过刊合订本可以出借。\n- 8\n\nQ: 金融图书馆地下书库的书能借吗?怎么借?\n\nA: 可以借。地下书库采用闭架预约借还书的方式为大家服务:读者在图书馆馆藏目录系统中提交申请,在接到通知后,到金融图书馆服务台办理出借手续,金融学院正、副教授及博士生可凭证登记入库查阅资料。服务时间:周一至五8:00-12:00,13:00-17:00周六、日14:00-17:00。\n- 9\n\nQ: 金融图书馆闭馆期间能还书吗?怎么还?\n\nA: 能。金融图书馆大门外有“24小时还书窗口”,读者可以通过该窗口还书,详见《24小时还书窗口使用说明》。\n- 10"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0205",
+        "title": "美国计算机协会（ACM）开放获取（OA）政策-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1344/5969.htm",
+        "text": "所有符合条件的清华大学通讯作者在任何ACM出版的刊物上发表文章时,均可选择以OA形式免费发表,无名额限制。\n\nACM为其出版的每篇文章提供一个默认的知识共享授权(CC-BY),作者也可选择CC-BY-NC-ND授权。需注意,ACM中有少量与其他出版社合作出版的会议录可能涉及版权转让。\n\n为确保投稿时被正确识别为我校作者,从而拥有使用以上优惠的资格。请我校师生填写作者信息时,将机构信息正确关联系统中的学校账号:Tsinghua University,并使用清华大学提供的邮箱地址。有效邮箱包括:\n\n1.username@sz.tsinghua.edu.cn(清华大学深圳国际研究生院)\n\n2.username@mail.tsinghua.edu.cn(员工电子邮件域名)\n\n3.username@mails.tsinghua.edu.cn(学生电子邮件域名)\n\n4.username@tsinghu"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "RET-04"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-01",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华校医院门诊、报销和就医流程是什么？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0092",
+        "title": "清华大学玉泉医院",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/qhdxyqyy.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "RET-04"
+  },
+  {
+    "sample_id": "SYN-PARTIAL-01",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华校医院门诊、报销和就医流程是什么？",
+    "label": "EVIDENCE_PARTIAL",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0092",
+        "title": "清华大学玉泉医院",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/qhdxyqyy.htm",
+        "text": "[检验医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/jyyxk.htm)\n[输血科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/sxk.htm)\n[超声科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/csk.htm)\n[药剂科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/yjk.htm)\n[临床药学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/lcyxk.htm)\n[临床营养科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/lcyyk.htm)\n[放射诊断科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/fszdk.htm)\n[核医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/hyxk.htm)\n[全科与健康医学部](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)\n[全科医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)\n[健康管理中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/jkglzx.htm)\n[肝胆胰中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdywk.htm)"
+      }
+    ],
+    "construction_type": "PARTIAL_COVERAGE",
+    "source_sample_id": "RET-04"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-02",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华大学图书馆如何借书、使用电子资源和查询开放时间？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0065",
+        "title": "清华大学医院可在114平台预约挂号啦！-清华大学医学院",
+        "url": "https://www.med.tsinghua.edu.cn/info/1407/4477.htm",
+        "text": "清华大学医院自2024年7月1日起,正式与北京市114预约挂号平台实现直连。关注“北京114预约挂号”公众号,搜索“清华大学医院”可进行预约挂号。\n\n目前114预约挂号平台与我院自有平台一致,可预约挂号,号源与各途径号源同步放号,可支持公费医疗、医保及自费患者的预约挂号,已预约患者凭相应医保卡、工作证、学生证、身份证至院内自助机或窗口均可取号。\n\n★特别提示:预约就诊信息不能作为入校凭证,校外人员请自行报备入校。"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "- 多学科联合诊疗:\n\n医院MDT团队由来自不同学科的资深专家组成,确保从多个角度综合评估患者的病情。通过团队讨论,MDT团队为每位患者制定个性化的诊疗计划,从诊断到治疗,再到康复和随访,MDT团队为患者提供全程管理服务,确保患者在整个治疗过程中得到最佳的医疗支持。\n- 专病门诊:\n\n医院积极推进专病门诊建设。目前,31个科室陆续开设了百个专病门诊,有效满足了患者就医需求,帮助患者精准就医,提升就医体验。\n- 一站式服务:\n\n门诊“一站式服务中心”,集门诊导诊、分诊、咨询、预约、健康教育、便民服务、陪护等功能于一体,为患者提供便、捷、快、优的“一站式服务”。\n- 远程中心:\n\n通过创新技术,医院致力于提供无边界的医疗服务,让每一位患者都能享受到专业、便捷的医疗体验。远程医疗中心能够为患者提供远程诊断服务,包括远程影像学解读、病理学分析等,使患者无需亲临医院即可获得专业医生的诊断意见。\n- 国际医疗:\n\n为国内外各界人士提供高端的医疗服务,具体业务包括全面的高层次的健康管理;提供特需知名专家的预约及门诊挂号服务;住院病区可以提供各种疾病的诊治、保健医疗及住院体检服务。医院为每位国际患者提供个性化的医疗方案,对于无法亲自到访的患者,医院提供远程医疗服务,包括远程咨询和远程诊断,使患者能够在家中接受专业的医疗建议。\n- 精准医疗帮扶:\n\n开展以先天性心脏病精准医疗帮扶工作,形成源于南涧成于大理推广全国医疗帮扶的大理模式。京蒙协作、对口帮扶、定点支援滇黔藏蒙宁等地。\n\n国际交流与合作:\n\n与英国爱丁堡大学、美国哈佛大学、澳大利亚墨尔本大学、日本东京大学及新加坡国立大学等院校开展学术交流。成为英国爱丁堡皇家外科医学院及香港外科医学院认可的英国皇家外科医师(Membership of Royal College Surgeon, MRCS)培训中心。"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0086",
+        "title": "医疗服务",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bj.htm",
+        "text": "[其他](https://www.med.tsinghua.edu.cn/bj/ystd/yj5/ylmrk.htm)\n[医疗美容科](https://www.med.tsinghua.edu.cn/bj/ystd/yj5/ylmrk.htm)\n- [新闻动态](https://www.med.tsinghua.edu.cn/bj/xwdt.htm)\n- [北京华信医院(清华大学第一附属医院)](https://www.med.tsinghua.edu.cn/bjhxyy_qhdxdyfsyy.htm)\n- [清华大学玉泉医院](https://www.med.tsinghua.edu.cn/qhdxyqyy.htm)\n- [清华大学附属北京市垂杨柳医院](https://www.cylh.com/)\n\n- #### 大型综合性公立医院:\n\n由清华大学与北京市共建共管,总规划床位1500床,一期开放1000张床位\n\n2019年12月30日,医院二期工程正式奠基,规划新增500张床位,2024年投入使用\n- #### ​医保服务:\n\n2015年11月正式为医保患者服务;2017年6月实现异地医保直接结算;2021年11月成为北京市基本医疗保险A类定点医疗机构\n\n2023年12月1日,医院APP上线医保直接结算功能,实现“一部手机,搞定就医全流程”\n\n- #### 临床和医技科室:\n\n设有内科部、外科部、妇儿部、专科部、急重症部、医技部、全科与健康医学部7大医疗部和50余个临床医技专科。\n- #### ​重点建设中心:\n\n感染疾病中心、急重症中心、肿瘤中心\n\n- #### ​优势中心:\n\n肝胆胰中心、器官移植中心、心血管中心、消化中心、神经中心。\n- #### ​重点专科:"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0089",
+        "title": "校医院",
+        "url": "http://xyy.tsinghua.edu.cn/",
+        "text": "2025-11-14\n\n至灵胶囊\n\n2025-11-14\n\n友情链接\n\n清华大学医院\n\n支付宝生活号\n\n地址:北京市海淀区清华大学医院 邮编:100084 联系电话:010-62784635 传真:010-62784635\n\n版权所有©清华大学医院 邮箱:xyy@mail.tsinghua.edu.cn"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0063",
+        "title": "就医指南",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bj/jyzn.htm",
+        "text": "![1.png](/__local/9/92/5D/B0C9F577371AEB7E93A4B2A2A04_BB75B031_16A77.png?e=.png)\n\n多元挂号方式:\n\n![2.png](/__local/9/0C/AD/5F2F4EBE0C4DC6594549F9E1130_7EFBB890_1FDF6.png?e=.png)\n\n![3.png](/__local/A/1D/CA/98A46F0C172DCE92455FB5A9A1A_8ABDADBE_1948E.png?e=.png)\n\n![4.png](/__local/D/5F/9F/18C837B64B633FA4E9E3DD52D0E_6C0F7126_1A51C.png?e=.png)\n\n![5.png](/__local/0/9F/77/C8CFFACD6653BD87DAAA6FD7B2F_A30C2A21_15988.png?e=.png)\n\n![](/__local/2/0C/7D/C91A849D77C12A82D709EB1BF1E_57077896_1D5EB.png?e=.png)\n\n![](/__local/F/FA/71/F8BA983F270A8812EE1397078C0_F816A092_298F1.png?e=.png)\n\n![](/__local/8/0B/58/B2A9213728288669B8AF1160015_EA24D1CB_118AF.png?e=.png)\n\n![](/__local/8/D0/4F/B9AD0166B7F7E464BD0F2983227_B9AB5A1A_1D818.png?e=.png)\n\n![](/__local/2/EF/00/0ECF37F83E7092B9A6D3D628A2B_E3E403C9_20249.png?"
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "RET-05"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-02",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华大学图书馆如何借书、使用电子资源和查询开放时间？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0065",
+        "title": "清华大学医院可在114平台预约挂号啦！-清华大学医学院",
+        "url": "https://www.med.tsinghua.edu.cn/info/1407/4477.htm",
+        "text": "清华大学医院自2024年7月1日起,正式与北京市114预约挂号平台实现直连。关注“北京114预约挂号”公众号,搜索“清华大学医院”可进行预约挂号。\n\n目前114预约挂号平台与我院自有平台一致,可预约挂号,号源与各途径号源同步放号,可支持公费医疗、医保及自费患者的预约挂号,已预约患者凭相应医保卡、工作证、学生证、身份证至院内自助机或窗口均可取号。\n\n★特别提示:预约就诊信息不能作为入校凭证,校外人员请自行报备入校。"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "- 多学科联合诊疗:\n\n医院MDT团队由来自不同学科的资深专家组成,确保从多个角度综合评估患者的病情。通过团队讨论,MDT团队为每位患者制定个性化的诊疗计划,从诊断到治疗,再到康复和随访,MDT团队为患者提供全程管理服务,确保患者在整个治疗过程中得到最佳的医疗支持。\n- 专病门诊:\n\n医院积极推进专病门诊建设。目前,31个科室陆续开设了百个专病门诊,有效满足了患者就医需求,帮助患者精准就医,提升就医体验。\n- 一站式服务:\n\n门诊“一站式服务中心”,集门诊导诊、分诊、咨询、预约、健康教育、便民服务、陪护等功能于一体,为患者提供便、捷、快、优的“一站式服务”。\n- 远程中心:\n\n通过创新技术,医院致力于提供无边界的医疗服务,让每一位患者都能享受到专业、便捷的医疗体验。远程医疗中心能够为患者提供远程诊断服务,包括远程影像学解读、病理学分析等,使患者无需亲临医院即可获得专业医生的诊断意见。\n- "
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0086",
+        "title": "医疗服务",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bj.htm",
+        "text": "[其他](https://www.med.tsinghua.edu.cn/bj/ystd/yj5/ylmrk.htm)\n[医疗美容科](https://www.med.tsinghua.edu.cn/bj/ystd/yj5/ylmrk.htm)\n- [新闻动态](https://www.med.tsinghua.edu.cn/bj/xwdt.htm)\n- [北京华信医院(清华大学第一附属医院)](https://www.med.tsinghua.edu.cn/bjhxyy_qhdxdyfsyy.htm)\n- [清华大学玉泉医院](https://www.med.tsinghua.edu.cn/qhdxyqyy.htm)\n- [清华大学附属北京市垂杨柳医院](https://www.cylh.com/)\n\n- #### 大型综合性公立医院:\n\n由清华大学与北京市共建共管,总规划床位1500床"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0089",
+        "title": "校医院",
+        "url": "http://xyy.tsinghua.edu.cn/",
+        "text": "2025-11-14\n\n至灵胶囊\n\n2025-11-14\n\n友情链接\n\n清华大学医院\n\n支付宝生活号\n\n地址:北京市海淀区清华大学医院 邮编:100084 联系电话:010-62784635 传真:010-62784635\n\n版权所有©清华大学医院 邮箱:xyy@mail.tsinghua.edu.cn"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0063",
+        "title": "就医指南",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bj/jyzn.htm",
+        "text": "![1.png](/__local/9/92/5D/B0C9F577371AEB7E93A4B2A2A04_BB75B031_16A77.png?e=.png)\n\n多元挂号方式:\n\n![2.png](/__local/9/0C/AD/5F2F4EBE0C4DC6594549F9E1130_7EFBB890_1FDF6.png?e=.png)\n\n![3.png](/__local/A/1D/CA/98A46F0C172DCE92455FB5A9A1A_8ABDADBE_1948E.png?e=.png)\n\n![4.png](/__local/D/5F/9F/18C837B64B633FA4E9E3DD52D0E_6C0F7126_1A51C.png?e=.png)\n\n![5.png](/__local/0/9F/77/C8CFFACD6653BD87DAAA6FD7B2F_A30C2A21_"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "RET-05"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-02",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华大学图书馆如何借书、使用电子资源和查询开放时间？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0140",
+        "title": "常见问题（FAQ）",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/cjwt_FAQ_.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0113",
+        "title": "M-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/kyzc/kfkx/cbzc/M.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0141",
+        "title": "开放科学-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/kyzc/kfkx.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0140",
+        "title": "常见问题（FAQ）",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/cjwt_FAQ_.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0205",
+        "title": "美国计算机协会（ACM）开放获取（OA）政策-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1344/5969.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "RET-05"
+  },
+  {
+    "sample_id": "SYN-PARTIAL-02",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华大学图书馆如何借书、使用电子资源和查询开放时间？",
+    "label": "EVIDENCE_PARTIAL",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0140",
+        "title": "常见问题（FAQ）",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/cjwt_FAQ_.htm",
+        "text": "常见问题(FAQ)\n\n(2013年3月25日)\n\n(20年8月27日更新)\n\n- 1\n\nQ: 金融图书馆开放时间?\n\nA: 金融图书馆的开放时间为:周一至周五:8:00—22:00,周末:14:00—22:00 节假日另行通知。\n- 2\n\nQ: 谁可以使用金融图书馆?\n\nA: 金融图书馆面向清华大学全校师生和金融学院校友开放服务。清华大学的师生可持已开通借书权限的本人工作证或学生证按有关规定借用金融图书馆的图书资料。金融学院的校友凭金融学院校友办发放的“校友卡”和本人有效身份证件按有关规程使用金融图书馆。\n- 3\n\nQ: ​进入金融图书馆需要证件吗?\n\nA: 凭本人的校园一卡通学生证、工作证和临时借阅证(含五道口校友卡)可以刷卡进入金融图书馆。请不要借用他人证件或将证件借给他人进入图书馆。\n- 4\n\nQ: 带亲朋好友参观金融馆或进馆查找资料?\n\nA: 可以。按照《清华大学图书馆参观接待办法》规定:本校教师、学生和其他工作人员陪同本人亲属、同学等来馆参观,须将本人有效证件(工作证或学生证),在《金融图书馆参观读者入馆登记本》上登记,参观时间限30分钟。\n- 5\n\nQ: 怎么从金融图书馆借书?\n\nA: 读者必须先开通借书权限才能从图书馆借书。详见\n\n[开通借书权限](http://tempcard.lib.tsinghua.edu.cn/dispatcher?classid=perApply)。\n特别说明:五道口校友卡开通借书权限请咨询李老师,联系电话:62773671。\n- 6\n\nQ: 在金融图书馆借的书可以还到学校其他图书馆吗?\n\nA: 可以。清华大学的校图书馆(含北馆、西馆、老馆)和6个专业分馆(文科馆、金融馆、美术馆、经管馆、法律馆、建筑馆)之间已经实现了通还,读者可以将书还到这些图书馆中的任何一个。\n- 7\n\nQ: 金融图书馆的期刊可以出借吗?"
+      }
+    ],
+    "construction_type": "PARTIAL_COVERAGE",
+    "source_sample_id": "RET-05"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-03",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华大学医院能否通过北京114平台预约挂号？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0147",
+        "title": "清华大学图书馆入馆管理办法-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1114/2613.htm",
+        "text": "**—经2021年4月6日图书馆党政联席会议审议通过修订,经2024年11月4日图书馆党政联席会审议再次修订—**\n\n第一条 为了维护广大读者的公共利益,保障读者在馆的财物安全,保持图书馆良好的环境和秩序,根据学校有关规章制度,结合图书馆实际工作情况,制定本管理办法。\n\n第二条 校内读者凭本人有效图书证入馆;校外读者按规定办理手续后入馆。\n\n第三条 清华校友凭校友总会发放的“校友卡”或毕业证(或复印件),并附上本人有效身份证件,可进入校图书馆,在馆内阅览图书馆资源。\n\n第四条 注意防火安全,严禁在馆内任何地方吸烟。\n\n第五条 读者可携带非酒精类饮料(置于防溢出容器内)入馆,不可携带有气味食物、外卖盒餐等入馆。按照相关要求,在规定区域内食用或饮用,保持馆内整洁卫生,遵守垃圾分类要求。\n\n第六条 保持馆内安静,入馆将手持电话置于静音状态。\n\n第七条 举止文明礼貌,衣着整齐。\n\n第八条 读者应在图书馆每日闭馆前带走个人物品,严禁违规滞留在图书馆内。\n\n第九条 爱护书刊资料及一切公共财物,请勿涂抹、撕毁、私藏书刊。\n\n第十条 不得在馆内随意从事影响读者学习的活动,如采访、拍摄、发放问卷等。如有相关需求,请提前联系图书馆综合办公室。\n\n第十一条 自觉遵守图书馆各项规定,服从工作人员管理。\n\n第十二条 对违反上述规定者,将予以批评教育;情节严重者,图书馆有权视情况采取限制入馆等措施,报学校有关部门进行处理。\n\n第十三条 本办法由图书馆负责解释。\n\n第十四条 本办法自图书馆党政联席会通过之日起开始施行。"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0122",
+        "title": "入馆须知",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/rgxz.htm",
+        "text": "清华大学金融图书馆入馆管理办法\n\n--2021年5月6日修订--\n\n第一条 为了维护广大读者的公共利益,保持图书馆良好的环境和秩序,根据学校有关规章制度,结合金融图书馆实际工作情况,制定本规定。\n\n第二条 校内读者凭本人有效图书证入馆;校外读者按规定办理手续后入馆。\n\n第三条 清华校友凭校友总会发放的“校友卡”或毕业证(或复印件),并附上本人有效身份证件,可进入金融图书馆,在馆内阅览图书馆资源。\n\n第四条 五道口金融学院的校友按照《清华大学五道口金融学院校友使用图书馆规程》办理相关事宜。\n\n第五条 注意防火安全,严禁在馆内任何地方吸烟。\n\n第六条 读者可携带非酒精类饮料(置于防溢出容器内)入馆,不可携带有气味食物、外卖盒餐等入馆。 按照相关要求,在规定区域内食用或饮用,保持馆内整洁卫生,遵守垃圾分类要求。\n\n第七条 保持馆内安静,入馆将手持电话置于静音状态,阅览区内请保持安静。\n\n第八条 举止文明礼貌,衣着整齐。\n\n第九条 加强公德意识,勿用物品占用阅览席位。\n\n第十条 爱护书刊资料及一切公共财物,请勿涂抹、撕毁、私藏书刊。\n\n第十一条 不得在馆内随意从事影响读者学习的活动,如采访、拍摄、发放问卷等。如有相关需求,请提前联系校图书馆综合办公室。\n\n第十二条 自觉遵守金融图书馆各项规定,服从工作人员管理。\n\n第十三条 对违反上述规定者,将予以批评教育;情节严重者报学校有关部门进行处理。\n\n第十四条 本办法由金融图书馆负责解释。\n\n第十五条 本办法自修订之日起开始施行。"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0148",
+        "title": "清华大学图书馆参观接待管理办法-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1114/2614.htm",
+        "text": "—2013年4月发布,2025年10月11日图书馆党政联席会会议审议修订—\n\n第一条 为了进一步规范图书馆对参观接待工作的管理,根据学校相关规定,结合工作实际,制定本办法。\n\n第二条 图书馆作为学术支撑单位,在保障正常工作秩序和读者阅览的前提下,可在开馆时间内接待国内外友好团体来馆参观。本馆一般不接待校外个人入馆参观。\n\n第三条 国内外单位组织参观本馆,须提前与综合办公室联系,提供来访公函或所在单位介绍信,经本馆同意后,可入馆参观。具体流程详见<https://lib.tsinghua.edu.cn/tjfw/cgjdlx.htm>。\n\n第四条 凡属外宾参观,主请单位须向学校国际合作与交流处申请,经同意后与综合办公室联系参观。\n\n第五条 对于专业性、学术性参观,来馆交流或参加活动的人员,经本馆同意,由馆领导或相关负责人接待,可进入指定阅览室和开、闭架库参观。\n\n本校教师、学生和其他工作人员陪同本人亲属、同学等来馆参观,须将本人有效证件(工作证或学生证)暂留在图书馆接待处,并按规定进行登记,本馆专业阅览室不接待参观。参观时间限为30分钟之内,如超过30分钟则需补办临时阅览证。\n\n第六条 清华校友本人可凭校友卡或其他可证明校友身份的证件进入图书馆。\n\n第七条 参观者应遵守馆内各项规定,维护馆内秩序,参观人数较多时不引导进入各类阅览室。\n\n第八条 本办法由图书馆负责解释。\n\n第九条 本办法自图书馆党政联席会通过之日起施行。"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0227",
+        "title": "组织机构-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/gk/zzjg.htm",
+        "text": "部门主要职责:负责拟定并组织实施图书馆信息服务支撑环境建设计划。负责拟定并组织实施清华学术产出数据管理计划。负责图书馆系统与校园信息化系统的集成和数据交换。承担相关设备采购及系统运行支持具体工作。\n\n部门主要职责:具体承担图书馆基础理论和管理发展、服务创新研究任务。承担品牌建设与推广具体任务。\n\n部门主要职责:承担图书馆职责范围内资产归口管理具体任务。承担机构日常运转具体工作。"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0047",
+        "title": "清华大学本科生学籍管理规定 为了规范学籍管理工作，维护学校正常的教育教学秩序，保证教学培养质量，保障学生合法权益，根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》（教育部令第41号）、《清华大学章程》，结合学校...",
+        "url": "https://qzc.tsinghua.edu.cn/info/1029/1444.htm",
+        "text": "(经2016~2017学年度第25次校务会议通过,2019~20学年度第30次校务会议修订)\n\n**第一章 总则**\n\n第一条 为了规范学籍管理工作,维护学校正常的教育教学秩序,保证教学培养质量,保障学生合法权益,根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》(教育部令第41号)、《清华大学章程》,结合学校实际,制定本规定。\n\n第二条 本规定适用于对全校本科生的学籍管理。\n\n**第二章 入学与注册**\n\n第三条 按国家招生规定、经由我校正式录取的本科生新生,应当持《清华大学录取通知书》,按学校有关要求和规定的期限到校办理入学手续。因故不能按期入学的,应当提前向录取学院、学系(以下简称院系)按要求正式请假。未请假或者请假逾期的,除因不可抗力等正当事由以外,视为放弃入学资格。\n\n第四条 学校在新生报到时对新生入学资格进行初步审查,审查合格的办理入学手续,予以注册学籍。审查发现新生的录取通知、考生信息等证明材料与本人实际情况和学校录取信息不符,或者有其他违反国家招生考试规定等情形的,取消入学资格。\n\n第五条 新生可以向学校申请保留入学资格。保留入学资格时间原则上不超过两年,应征参加中国人民解放军(含中国人民武装警察部队)的,保留入学资格至退役后两年。新生保留入学资格期间不具有学籍,不享受在校学习学生待遇。新生保留入学资格期满前,应当向学校申请入学,经学校审查合格后,办理入学手续。审查不合格的,取消入学资格;逾期不办理入学手续且未有因不可抗力延迟等正当理由的,视为放弃入学资格。\n\n第六条 新生入学后,学校在3个月内按照国家招生规定进行复查。\n\n复查中发现学生存在弄虚作假、徇私舞弊等情形的,确定为复查不合格,取消学籍;情节严重的,移交有关部门调查处理。"
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "PROV-011"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-03",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华大学医院能否通过北京114平台预约挂号？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0147",
+        "title": "清华大学图书馆入馆管理办法-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1114/2613.htm",
+        "text": "**—经2021年4月6日图书馆党政联席会议审议通过修订,经2024年11月4日图书馆党政联席会审议再次修订—**\n\n第一条 为了维护广大读者的公共利益,保障读者在馆的财物安全,保持图书馆良好的环境和秩序,根据学校有关规章制度,结合图书馆实际工作情况,制定本管理办法。\n\n第二条 校内读者凭本人有效图书证入馆;校外读者按规定办理手续后入馆。\n\n第三条 清华校友凭校友总会发放的“校友卡”或毕业证(或复印件),并附上本人有效身份证件,可进入校图书馆,在馆内阅览图书馆资源。\n\n第四条 注意防火安全,严禁在馆内任何地方吸烟。\n\n第五条 读者可携带非酒精类饮料(置于防溢出容器内)入馆,不可携带有气味食物、外卖盒餐等入馆。按照相关要求,在规定区域内食用或饮用,保持馆内整洁卫生,遵守垃圾分类要求。\n\n第六条 保持馆内安静,入馆将手持电话置于静音状态。\n\n第七条 举止文明礼貌,衣着整齐。\n\n第八条 读者应在"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0122",
+        "title": "入馆须知",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/rgxz.htm",
+        "text": "清华大学金融图书馆入馆管理办法\n\n--2021年5月6日修订--\n\n第一条 为了维护广大读者的公共利益,保持图书馆良好的环境和秩序,根据学校有关规章制度,结合金融图书馆实际工作情况,制定本规定。\n\n第二条 校内读者凭本人有效图书证入馆;校外读者按规定办理手续后入馆。\n\n第三条 清华校友凭校友总会发放的“校友卡”或毕业证(或复印件),并附上本人有效身份证件,可进入金融图书馆,在馆内阅览图书馆资源。\n\n第四条 五道口金融学院的校友按照《清华大学五道口金融学院校友使用图书馆规程》办理相关事宜。\n\n第五条 注意防火安全,严禁在馆内任何地方吸烟。\n\n第六条 读者可携带非酒精类饮料(置于防溢出容器内)入馆,不可携带有气味食物、外卖盒餐等入馆。 按照相关要求,在规定区域内食用或饮用,保持馆内整洁卫生,遵守垃圾分类要求。\n\n第七条 保持馆内安静,入馆将手持电话置于静音状态,阅览区内请保持安静。\n\n第八条 "
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0148",
+        "title": "清华大学图书馆参观接待管理办法-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1114/2614.htm",
+        "text": "—2013年4月发布,2025年10月11日图书馆党政联席会会议审议修订—\n\n第一条 为了进一步规范图书馆对参观接待工作的管理,根据学校相关规定,结合工作实际,制定本办法。\n\n第二条 图书馆作为学术支撑单位,在保障正常工作秩序和读者阅览的前提下,可在开馆时间内接待国内外友好团体来馆参观。本馆一般不接待校外个人入馆参观。\n\n第三条 国内外单位组织参观本馆,须提前与综合办公室联系,提供来访公函或所在单位介绍信,经本馆同意后,可入馆参观。具体流程详见<https://lib.tsinghua.edu.cn/tjfw/cgjdlx.htm>。\n\n第四条 凡属外宾参观,主请单位须向学校国际合作与交流处申请,经同意后与综合办公室联系参观。\n\n第五条 对于专业性、学术性参观,来馆交流或参加活动的人员,经本馆同意,由馆领导或相关负责人接待,可进入指定阅览室和开、闭架库参观。\n\n本校教师、学生和其他工作人员"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0227",
+        "title": "组织机构-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/gk/zzjg.htm",
+        "text": "部门主要职责:负责拟定并组织实施图书馆信息服务支撑环境建设计划。负责拟定并组织实施清华学术产出数据管理计划。负责图书馆系统与校园信息化系统的集成和数据交换。承担相关设备采购及系统运行支持具体工作。\n\n部门主要职责:具体承担图书馆基础理论和管理发展、服务创新研究任务。承担品牌建设与推广具体任务。\n\n部门主要职责:承担图书馆职责范围内资产归口管理具体任务。承担机构日常运转具体工作。"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0047",
+        "title": "清华大学本科生学籍管理规定 为了规范学籍管理工作，维护学校正常的教育教学秩序，保证教学培养质量，保障学生合法权益，根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》（教育部令第41号）、《清华大学章程》，结合学校...",
+        "url": "https://qzc.tsinghua.edu.cn/info/1029/1444.htm",
+        "text": "(经2016~2017学年度第25次校务会议通过,2019~20学年度第30次校务会议修订)\n\n**第一章 总则**\n\n第一条 为了规范学籍管理工作,维护学校正常的教育教学秩序,保证教学培养质量,保障学生合法权益,根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》(教育部令第41号)、《清华大学章程》,结合学校实际,制定本规定。\n\n第二条 本规定适用于对全校本科生的学籍管理。\n\n**第二章 入学与注册**\n\n第三条 按国家招生规定、经由我校正式录取的本科生新生,应当持《清华大学录取通知书》,按学校有关要求和规定的期限到校办理入学手续。因故不能按期入学的,应当提前向录取学院、学系(以下简称院系)按要求正式请假。未请假或者请假逾期的,除因不可抗力等正当事由以外,视为放弃入学资格。\n\n第四条 学校在新生报到时对新生入学资格进行初步审查,审查合格的办理入学手续,予以注册学籍。审查发现"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "PROV-011"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-03",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "清华大学医院能否通过北京114平台预约挂号？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0065",
+        "title": "清华大学医院可在114平台预约挂号啦！-清华大学医学院",
+        "url": "https://www.med.tsinghua.edu.cn/info/1407/4477.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0086",
+        "title": "医疗服务",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bj.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0089",
+        "title": "校医院",
+        "url": "http://xyy.tsinghua.edu.cn/",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0063",
+        "title": "就医指南",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bj/jyzn.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "PROV-011"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-04",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "进入清华大学图书馆需要遵守什么入馆管理办法？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-3323851c",
+        "source_id": "",
+        "title": "§7.1 电磁感应定律",
+        "url": "http://staff.ustc.edu.cn/~yjdeng/EM2020/pdf/7-2(2020).pdf",
+        "text": "2020年5月20日星期三 电磁学A 1 §7.1 电磁感应定律 闭合回路中的感应电动势等于磁通量减小的速率  ε = −dΦ dt , !"
+      },
+      {
+        "evidence_id": "web-638c138b",
+        "source_id": "",
+        "title": "§7.1 电磁感应定律",
+        "url": "http://staff.ustc.edu.cn/~yjdeng/EM2020/pdf/7-2(2020).pdf",
+        "text": "B ∂t n  磁场变化时，会在空间产生涡旋电场 n 某点 B 的变化决定的是该点 E旋 的旋度，⽽而非 E旋 本身 n E旋 的产⽣生⽆无关回路，不需导体 ε \u0001 !"
+      },
+      {
+        "evidence_id": "web-7a3bac32",
+        "source_id": "",
+        "title": "§7.1 电磁感应定律",
+        "url": "http://staff.ustc.edu.cn/~yjdeng/EM2020/pdf/7-2(2020).pdf",
+        "text": "A ∂t n  涡旋电场与磁矢势 n 某点磁⽮矢势的变化决定了该点处 E旋 的⼤大小和⽅方向 n 总电场 \u0001 !"
+      },
+      {
+        "evidence_id": "web-92f7b351",
+        "source_id": "",
+        "title": "法拉第电磁感应定律 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B",
+        "text": "[![](/static/images/icons/wikipedia.png)  ![维基百科](/static/images/mobile/copyright/wikipedia-wordmark-zh-hans.svg) ![自由的百科全书](/static/images/mobile/copyright/wikipedia-tagline-zh-hans.svg)](/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)"
+      },
+      {
+        "evidence_id": "web-89a3afdd",
+        "source_id": "",
+        "title": "法拉第电磁感应定律 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B",
+        "text": "* [1 定律内容](#定律内容)\n* [2 马克士威-法拉第方程与感应电动势](#馬克士威-法拉第方程与感应电动势)\n* [3 洛伦兹力与动生电动势](#洛伦兹力与动生电动势)\n  + [3.1 例一：空间变强磁场](#例一：空間變強磁場)\n    - [3.1.1 洛伦兹力法](#洛倫茲力法)\n    - [3.1.2 法拉第定律法](#法拉第定律法)\n  + [3.2 例二：均匀磁场中的运动环路。](#例二：均勻磁場中的運動環路。)\n    - [3.2.1 洛伦兹力法](#洛倫茲力法_2)\n    - [3.2.2 法拉第定律法](#法拉第定律法_2)\n    - [3.2.3 直接从通量变量中推导](#直接從通量變量中推導)\n* [4 动生电动势和感应电动势的统一](#动生电动势和感应电动势的统一)\n  + [4.1 示例：移动观测者的视点](#示例：移動觀測者的視點)\n    - [4.1.1 洛伦兹力定律版本](#洛倫茲力定律版本)\n    - [4.1.2 法拉第电磁感应定律](#法拉第電磁感應定律)\n* [5 应用](#應用)\n  + [5.1 发电机](#發電機)\n"
+      },
+      {
+        "evidence_id": "web-5facb77c",
+        "source_id": "",
+        "title": "法拉第电磁感应定律 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B",
+        "text": "* [Afrikaans](https://af.wikipedia.org/wiki/Faraday_se_wet \"Faraday se wet – 南非荷兰语\")\n* [العربية](https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D9%81%D8%A7%D8%B1%D8%A7%D8%AF%D8%A7%D9%8A \"قانون فاراداي – 阿拉伯语\")\n* [Asturianu](https://ast.wikipedia.org/wiki/Llei_de_Faraday \"Llei de Faraday – 阿斯图里亚斯语\")\n* [বাংলা](https://bn.wikipedia.org/wiki/%E0%A6%AB%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%B0_%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%B6_%E0%A6%B8%E0%A7%82%E0%A6%A"
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "PROV-015"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-04",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "进入清华大学图书馆需要遵守什么入馆管理办法？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-3323851c",
+        "source_id": "",
+        "title": "§7.1 电磁感应定律",
+        "url": "http://staff.ustc.edu.cn/~yjdeng/EM2020/pdf/7-2(2020).pdf",
+        "text": "2020年5月20日星期三 电磁学A 1 §7.1 电磁感应定律 闭合回路中的感应电动势等于磁通量减小的速率  ε = −dΦ dt , !"
+      },
+      {
+        "evidence_id": "web-638c138b",
+        "source_id": "",
+        "title": "§7.1 电磁感应定律",
+        "url": "http://staff.ustc.edu.cn/~yjdeng/EM2020/pdf/7-2(2020).pdf",
+        "text": "B ∂t n  磁场变化时，会在空间产生涡旋电场 n 某点 B 的变化决定的是该点 E旋 的旋度，⽽而非 E旋 本身 n E旋 的产⽣生⽆无关回路，不需导体 ε \u0001 !"
+      },
+      {
+        "evidence_id": "web-7a3bac32",
+        "source_id": "",
+        "title": "§7.1 电磁感应定律",
+        "url": "http://staff.ustc.edu.cn/~yjdeng/EM2020/pdf/7-2(2020).pdf",
+        "text": "A ∂t n  涡旋电场与磁矢势 n 某点磁⽮矢势的变化决定了该点处 E旋 的⼤大小和⽅方向 n 总电场 \u0001 !"
+      },
+      {
+        "evidence_id": "web-92f7b351",
+        "source_id": "",
+        "title": "法拉第电磁感应定律 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B",
+        "text": "[![](/static/images/icons/wikipedia.png)  ![维基百科](/static/images/mobile/copyright/wikipedia-wordmark-zh-hans.svg) ![自由的百科全书](/static/images/mobile/copyright/wikipedia-tagline-zh-hans.svg)](/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)"
+      },
+      {
+        "evidence_id": "web-89a3afdd",
+        "source_id": "",
+        "title": "法拉第电磁感应定律 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B",
+        "text": "* [1 定律内容](#定律内容)\n* [2 马克士威-法拉第方程与感应电动势](#馬克士威-法拉第方程与感应电动势)\n* [3 洛伦兹力与动生电动势](#洛伦兹力与动生电动势)\n  + [3.1 例一：空间变强磁场](#例一：空間變強磁場)\n    - [3.1.1 洛伦兹力法](#洛倫茲力法)\n    - [3.1.2 法拉第定律法](#法拉第定律法)\n  + [3.2 例二：均匀磁场中的运动环路。](#例二：均勻磁場中的運動環路。)\n    - [3.2.1 洛伦兹力法](#洛倫茲力法_2)\n    - [3.2.2 法拉第定律法](#法拉第定律法_2)\n    - [3.2.3 直接从通量变量中推导](#直接從通量變量中推導)\n* [4 动生电动势和感应电动势的统一](#动生电动势和感应电动势的统一)\n  + [4.1 示例：移动观测者的视点](#示例：移動觀測者的視點)\n    "
+      },
+      {
+        "evidence_id": "web-5facb77c",
+        "source_id": "",
+        "title": "法拉第电磁感应定律 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B",
+        "text": "* [Afrikaans](https://af.wikipedia.org/wiki/Faraday_se_wet \"Faraday se wet – 南非荷兰语\")\n* [العربية](https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D9%81%D8%A7%D8%B1%D8%A7%D8%AF%D8%A7%D9%8A \"قانون فاراداي – 阿拉伯语\")\n* [Asturianu](https://ast.wikipedia.org/wiki/Llei_de_Faraday \"Llei de Faraday – 阿斯图里亚斯语\")\n* [বাংলা](https://bn.wikipedia.org/wiki/%E0%A6%AB%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "PROV-015"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-04",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "进入清华大学图书馆需要遵守什么入馆管理办法？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0147",
+        "title": "清华大学图书馆入馆管理办法-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1114/2613.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0122",
+        "title": "入馆须知",
+        "url": "https://lib.tsinghua.edu.cn/finance/gk/rgxz.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0148",
+        "title": "清华大学图书馆参观接待管理办法-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/info/1114/2614.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0227",
+        "title": "组织机构-清华大学图书馆",
+        "url": "https://lib.tsinghua.edu.cn/gk/zzjg.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0047",
+        "title": "清华大学本科生学籍管理规定 为了规范学籍管理工作，维护学校正常的教育教学秩序，保证教学培养质量，保障学生合法权益，根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》（教育部令第41号）、《清华大学章程》，结合学校...",
+        "url": "https://qzc.tsinghua.edu.cn/info/1029/1444.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "PROV-015"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-05",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "电磁感应定律的物理含义是什么？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-a308971c",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "假设检验是应用统计中被使用最多的方法之一，\n在现在这样的大数据年代，越来越多的数据被收集，\n可以支持更多的假设检验。"
+      },
+      {
+        "evidence_id": "web-4647d03d",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "多次进行检验，\n如果每次检验的第一类错误概率是\\alpha，\n各次检验独立，\n则检验m次，\n在所有零假设都成立的情况下至少犯一次第一类错误的概率为\n1 - (1 - \\alpha)^m\n比如，\nm=100，\\alpha=0.05时，\n至少犯一次第一类错误概率为0.994。"
+      },
+      {
+        "evidence_id": "web-565392f1",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "这类问题称为多重比较(Multiple Comparison)或者多重检验(Multiple Testing),\n统计文献中有许多对这种问题进行处理的方法，\n比如，\n控制总的第一类错误概率，\n控制错误发现率，\n用重抽样方法控制总错误率([Dudoit and Laan 2008](#ref-Dudoit-MulTest08))，\n等等。"
+      },
+      {
+        "evidence_id": "web-3cc236ae",
+        "source_id": "",
+        "title": "显著性差异 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82",
+        "text": "[![](/static/images/icons/wikipedia.png)  ![维基百科](/static/images/mobile/copyright/wikipedia-wordmark-zh-hans.svg) ![自由的百科全书](/static/images/mobile/copyright/wikipedia-tagline-zh-hans.svg)](/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)"
+      },
+      {
+        "evidence_id": "web-d9ed61f9",
+        "source_id": "",
+        "title": "显著性差异 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82",
+        "text": "* [序言](#)\n* [1 历史](#歷史)\n  + [1.1 相关概念](#相關概念)\n* [2 显著水准](#顯著水準)\n* [3 局限性](#局限性)\n  + [3.1 效应值](#效应值)\n  + [3.2 再现性](#再现性)\n* [4 参见](#参见)\n* [5 参考文献](#参考文献)"
+      },
+      {
+        "evidence_id": "web-f09cfaa0",
+        "source_id": "",
+        "title": "显著性差异 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82",
+        "text": "* [العربية](https://ar.wikipedia.org/wiki/%D8%AF%D9%84%D8%A7%D9%84%D8%A9_%D8%A5%D8%AD%D8%B5%D8%A7%D8%A6%D9%8A%D8%A9 \"دلالة إحصائية – 阿拉伯语\")\n* [Azərbaycanca](https://az.wikipedia.org/wiki/Statistik_%C3%B6n%C9%99mlilik \"Statistik önəmlilik – 阿塞拜疆语\")\n* [Català](https://ca.wikipedia.org/wiki/Significaci%C3%B3_estad%C3%ADstica \"Significació estadística – 加泰罗尼亚语\")\n* [Čeština](https://cs.wikipedia.org/wiki/Statistick%C3%A1_v%C3%BDznamnost \"Statistická významnost – 捷克语\")\n* [Deutsch](https://de.wikipedia"
+      },
+      {
+        "evidence_id": "web-0024f7ba",
+        "source_id": "",
+        "title": "Recognition of Hypothesis Test and P Value 假设检验与 ...",
+        "url": "https://pdf.hanspub.org/sa20200400000_33826532.pdf",
+        "text": "Statistics and Application 统计学与应用, 2020, 9(4), 719-726 Published Online August 2020 in Hans."
+      },
+      {
+        "evidence_id": "web-e92b6f9f",
+        "source_id": "",
+        "title": "Recognition of Hypothesis Test and P Value 假设检验与 ...",
+        "url": "https://pdf.hanspub.org/sa20200400000_33826532.pdf",
+        "text": "http://www.hanspub.org/journal/sa https://doi.org/10.12677/sa.2020.94074 文章引用: 吴海燕, 赵茜琳."
+      },
+      {
+        "evidence_id": "web-b36ff38f",
+        "source_id": "",
+        "title": "Recognition of Hypothesis Test and P Value 假设检验与 ...",
+        "url": "https://pdf.hanspub.org/sa20200400000_33826532.pdf",
+        "text": "DOI: 10.12677/sa.2020.94074 Recognition of Hypothesis Test and P Value Haiyan Wu, Qianlin Zhao Qufu Normal University, Qufu Shandong Received: Aug."
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "A17"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-05",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "电磁感应定律的物理含义是什么？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-a308971c",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "假设检验是应用统计中被使用最多的方法之一，\n在现在这样的大数据年代，越来越多的数据被收集，\n可以支持更多的假设检验。"
+      },
+      {
+        "evidence_id": "web-4647d03d",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "多次进行检验，\n如果每次检验的第一类错误概率是\\alpha，\n各次检验独立，\n则检验m次，\n在所有零假设都成立的情况下至少犯一次第一类错误的概率为\n1 - (1 - \\alpha)^m\n比如，\nm=100，\\alpha=0.05时，\n至少犯一次第一类错误概率为0.994。"
+      },
+      {
+        "evidence_id": "web-565392f1",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "这类问题称为多重比较(Multiple Comparison)或者多重检验(Multiple Testing),\n统计文献中有许多对这种问题进行处理的方法，\n比如，\n控制总的第一类错误概率，\n控制错误发现率，\n用重抽样方法控制总错误率([Dudoit and Laan 2008](#ref-Dudoit-MulTest08))，\n等等。"
+      },
+      {
+        "evidence_id": "web-3cc236ae",
+        "source_id": "",
+        "title": "显著性差异 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82",
+        "text": "[![](/static/images/icons/wikipedia.png)  ![维基百科](/static/images/mobile/copyright/wikipedia-wordmark-zh-hans.svg) ![自由的百科全书](/static/images/mobile/copyright/wikipedia-tagline-zh-hans.svg)](/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)"
+      },
+      {
+        "evidence_id": "web-d9ed61f9",
+        "source_id": "",
+        "title": "显著性差异 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82",
+        "text": "* [序言](#)\n* [1 历史](#歷史)\n  + [1.1 相关概念](#相關概念)\n* [2 显著水准](#顯著水準)\n* [3 局限性](#局限性)\n  + [3.1 效应值](#效应值)\n  + [3.2 再现性](#再现性)\n* [4 参见](#参见)\n* [5 参考文献](#参考文献)"
+      },
+      {
+        "evidence_id": "web-f09cfaa0",
+        "source_id": "",
+        "title": "显著性差异 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82",
+        "text": "* [العربية](https://ar.wikipedia.org/wiki/%D8%AF%D9%84%D8%A7%D9%84%D8%A9_%D8%A5%D8%AD%D8%B5%D8%A7%D8%A6%D9%8A%D8%A9 \"دلالة إحصائية – 阿拉伯语\")\n* [Azərbaycanca](https://az.wikipedia.org/wiki/Statistik_%C3%B6n%C9%99mlilik \"Statistik önəmlilik – 阿塞拜疆语\")\n* [Català](https://ca.wikipedia.org/wiki/Significaci%C3%B3_estad%C3%ADstica \"Significació estadística – 加泰罗尼亚语\")\n* [Čeština](https://cs.wikipedia.org/wi"
+      },
+      {
+        "evidence_id": "web-0024f7ba",
+        "source_id": "",
+        "title": "Recognition of Hypothesis Test and P Value 假设检验与 ...",
+        "url": "https://pdf.hanspub.org/sa20200400000_33826532.pdf",
+        "text": "Statistics and Application 统计学与应用, 2020, 9(4), 719-726 Published Online August 2020 in Hans."
+      },
+      {
+        "evidence_id": "web-e92b6f9f",
+        "source_id": "",
+        "title": "Recognition of Hypothesis Test and P Value 假设检验与 ...",
+        "url": "https://pdf.hanspub.org/sa20200400000_33826532.pdf",
+        "text": "http://www.hanspub.org/journal/sa https://doi.org/10.12677/sa.2020.94074 文章引用: 吴海燕, 赵茜琳."
+      },
+      {
+        "evidence_id": "web-b36ff38f",
+        "source_id": "",
+        "title": "Recognition of Hypothesis Test and P Value 假设检验与 ...",
+        "url": "https://pdf.hanspub.org/sa20200400000_33826532.pdf",
+        "text": "DOI: 10.12677/sa.2020.94074 Recognition of Hypothesis Test and P Value Haiyan Wu, Qianlin Zhao Qufu Normal University, Qufu Shandong Received: Aug."
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "A17"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-05",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "电磁感应定律的物理含义是什么？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-3323851c",
+        "source_id": "",
+        "title": "§7.1 电磁感应定律",
+        "url": "http://staff.ustc.edu.cn/~yjdeng/EM2020/pdf/7-2(2020).pdf",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-638c138b",
+        "source_id": "",
+        "title": "§7.1 电磁感应定律",
+        "url": "http://staff.ustc.edu.cn/~yjdeng/EM2020/pdf/7-2(2020).pdf",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-7a3bac32",
+        "source_id": "",
+        "title": "§7.1 电磁感应定律",
+        "url": "http://staff.ustc.edu.cn/~yjdeng/EM2020/pdf/7-2(2020).pdf",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-92f7b351",
+        "source_id": "",
+        "title": "法拉第电磁感应定律 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-89a3afdd",
+        "source_id": "",
+        "title": "法拉第电磁感应定律 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-5facb77c",
+        "source_id": "",
+        "title": "法拉第电磁感应定律 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "A17"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-06",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "p值和显著性水平应该如何解释？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-9c5b42a6",
+        "source_id": "",
+        "title": "奇异值分解（SVD）｜集智百科 | 集智俱乐部",
+        "url": "https://swarma.org?p=55080",
+        "text": "* [首页](http://swarma.org)\n* [集智斑图](https://pattern.swarma.org)\n* [集智学园](https://campus.swarma.org/)\n* [维基](http://wiki.swarma.org/)\n* [Ai&Society](https://swarma.org/?special=aisociety)\n* [研读营](https://swarma.org/?special=%e7%a0%94%e8%af%bb%e8%90%a5)\n* [关于我们](https://pattern.swarma.org/about_us)"
+      },
+      {
+        "evidence_id": "web-7a545601",
+        "source_id": "",
+        "title": "奇异值分解（SVD）｜集智百科 | 集智俱乐部",
+        "url": "https://swarma.org?p=55080",
+        "text": "* [首页](http://swarma.org)\n* [集智斑图](https://pattern.swarma.org)\n* [集智学园](https://campus.swarma.org/)\n* [维基](http://wiki.swarma.org/)\n* [Ai&Society](https://swarma.org/?special=aisociety)\n* [研读营](https://swarma.org/?special=%e7%a0%94%e8%af%bb%e8%90%a5)\n* [关于我们](https://pattern.swarma.org/about_us)"
+      },
+      {
+        "evidence_id": "web-e91046d1",
+        "source_id": "",
+        "title": "奇异值分解（SVD）｜集智百科 | 集智俱乐部",
+        "url": "https://swarma.org?p=55080",
+        "text": "2025-01-10  6,323  [0](https://swarma.org/?p=55080#respond)"
+      },
+      {
+        "evidence_id": "web-1f21ab59",
+        "source_id": "",
+        "title": "奇異值分解 (SVD) | 線代啟示錄",
+        "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd",
+        "text": "Young man, in mathematics you don't understand things."
+      },
+      {
+        "evidence_id": "web-7d79b7d5",
+        "source_id": "",
+        "title": "奇異值分解 (SVD) | 線代啟示錄",
+        "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd",
+        "text": "[![](https://ccjou.wordpress.com/wp-content/uploads/2012/02/cropped-000012.jpg)](https://ccjou.wordpress.com/ \"線代啟示錄\")"
+      },
+      {
+        "evidence_id": "web-6bd6af84",
+        "source_id": "",
+        "title": "奇異值分解 (SVD) | 線代啟示錄",
+        "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd",
+        "text": "* [Home](https://ccjou.wordpress.com/)\n* [閱讀導引](https://ccjou.wordpress.com/%e9%96%b1%e8%ae%80%e5%b0%8e%e5%bc%95/)\n  + [線性代數的核心問題](https://ccjou.wordpress.com/%e9%96%b1%e8%ae%80%e5%b0%8e%e5%bc%95/%e7%b7%9a%e6%80%a7%e4%bb%a3%e6%95%b8%e7%9a%84%e6%a0%b8%e5%bf%83%e5%95%8f%e9%a1%8c/)\n  + [線性代數的核心課綱](https://ccjou.wordpress.com/%e9%96%b1%e8%ae%80%e5%b0%8e%e5%bc%95/%e7%b7%9a%e6%80%a7%e4%bb%a3%e6%95%b8%e7%9a%84%e6%a0%b8%e5%bf%83%e8%aa%b2%e7%b6%b1/)\n  + [強打推薦文章](https://ccjou.wordpress.com/%e9%96%b1%e8%a"
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "A15"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-06",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "p值和显著性水平应该如何解释？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-9c5b42a6",
+        "source_id": "",
+        "title": "奇异值分解（SVD）｜集智百科 | 集智俱乐部",
+        "url": "https://swarma.org?p=55080",
+        "text": "* [首页](http://swarma.org)\n* [集智斑图](https://pattern.swarma.org)\n* [集智学园](https://campus.swarma.org/)\n* [维基](http://wiki.swarma.org/)\n* [Ai&Society](https://swarma.org/?special=aisociety)\n* [研读营](https://swarma.org/?special=%e7%a0%94%e8%af%bb%e8%90%a5)\n* [关于我们](https://pattern.swarma.org/about_us)"
+      },
+      {
+        "evidence_id": "web-7a545601",
+        "source_id": "",
+        "title": "奇异值分解（SVD）｜集智百科 | 集智俱乐部",
+        "url": "https://swarma.org?p=55080",
+        "text": "* [首页](http://swarma.org)\n* [集智斑图](https://pattern.swarma.org)\n* [集智学园](https://campus.swarma.org/)\n* [维基](http://wiki.swarma.org/)\n* [Ai&Society](https://swarma.org/?special=aisociety)\n* [研读营](https://swarma.org/?special=%e7%a0%94%e8%af%bb%e8%90%a5)\n* [关于我们](https://pattern.swarma.org/about_us)"
+      },
+      {
+        "evidence_id": "web-e91046d1",
+        "source_id": "",
+        "title": "奇异值分解（SVD）｜集智百科 | 集智俱乐部",
+        "url": "https://swarma.org?p=55080",
+        "text": "2025-01-10  6,323  [0](https://swarma.org/?p=55080#respond)"
+      },
+      {
+        "evidence_id": "web-1f21ab59",
+        "source_id": "",
+        "title": "奇異值分解 (SVD) | 線代啟示錄",
+        "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd",
+        "text": "Young man, in mathematics you don't understand things."
+      },
+      {
+        "evidence_id": "web-7d79b7d5",
+        "source_id": "",
+        "title": "奇異值分解 (SVD) | 線代啟示錄",
+        "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd",
+        "text": "[![](https://ccjou.wordpress.com/wp-content/uploads/2012/02/cropped-000012.jpg)](https://ccjou.wordpress.com/ \"線代啟示錄\")"
+      },
+      {
+        "evidence_id": "web-6bd6af84",
+        "source_id": "",
+        "title": "奇異值分解 (SVD) | 線代啟示錄",
+        "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd",
+        "text": "* [Home](https://ccjou.wordpress.com/)\n* [閱讀導引](https://ccjou.wordpress.com/%e9%96%b1%e8%ae%80%e5%b0%8e%e5%bc%95/)\n  + [線性代數的核心問題](https://ccjou.wordpress.com/%e9%96%b1%e8%ae%80%e5%b0%8e%e5%bc%95/%e7%b7%9a%e6%80%a7%e4%bb%a3%e6%95%b8%e7%9a%84%e6%a0%b8%e5%bf%83%e5%95%8f%e9%a1%8c/)\n  + [線性代數的核心課綱](https://ccjou.wordpress.com/%e9%96%b1%e8%ae%80%e5%b0%8e%e5%bc%95/%e7%b7%9a%e6%80%a7%e4%bb%a3%e6%95%b8%e7"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "A15"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-06",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "p值和显著性水平应该如何解释？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-a308971c",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-4647d03d",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-565392f1",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-3cc236ae",
+        "source_id": "",
+        "title": "显著性差异 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-d9ed61f9",
+        "source_id": "",
+        "title": "显著性差异 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-f09cfaa0",
+        "source_id": "",
+        "title": "显著性差异 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-0024f7ba",
+        "source_id": "",
+        "title": "Recognition of Hypothesis Test and P Value 假设检验与 ...",
+        "url": "https://pdf.hanspub.org/sa20200400000_33826532.pdf",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-e92b6f9f",
+        "source_id": "",
+        "title": "Recognition of Hypothesis Test and P Value 假设检验与 ...",
+        "url": "https://pdf.hanspub.org/sa20200400000_33826532.pdf",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-b36ff38f",
+        "source_id": "",
+        "title": "Recognition of Hypothesis Test and P Value 假设检验与 ...",
+        "url": "https://pdf.hanspub.org/sa20200400000_33826532.pdf",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "A15"
+  },
+  {
+    "sample_id": "SYN-PARTIAL-06",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "p值和显著性水平应该如何解释？",
+    "label": "EVIDENCE_PARTIAL",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-a308971c",
+        "source_id": "",
+        "title": "5 多重比较 | 多元统计分析讲义",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/mvr/mvrnotes/html/_mvrnotes/multcomp.html",
+        "text": "假设检验是应用统计中被使用最多的方法之一，\n在现在这样的大数据年代，越来越多的数据被收集，\n可以支持更多的假设检验。"
+      }
+    ],
+    "construction_type": "PARTIAL_COVERAGE",
+    "source_sample_id": "A15"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-07",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "SVD分解在最小二乘中的作用如何解释？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-1afbe31a",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "### 出自 MBA智库百科([https://wiki.mbalib.com/](//wiki.mbalib.com/))"
+      },
+      {
+        "evidence_id": "web-fbb3b58d",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "|  |\n| --- |\n| 目录   * [1 什么是协整理论](#.E4.BB.80.E4.B9.88.E6.98.AF.E5.8D.8F.E6.95.B4.E7.90.86.E8.AE.BA) * [2 协整理论产生的背景](#.E5.8D.8F.E6.95.B4.E7.90.86.E8.AE.BA.E4.BA.A7.E7.94.9F.E7.9A.84.E8.83.8C.E6.99.AF) * [3 协整理论的发展](#.E5.8D.8F.E6.95.B4.E7.90.86.E8.AE.BA.E7.9A.84.E5.8F.91.E5.B1.95) * [4 协整理论的内容](#.E5.8D.8F.E6.95.B4.E7.90.86.E8.AE.BA.E7.9A.84.E5.86.85.E5.AE.B9) * [5 协整理论的意义](#.E5.8D.8F.E6.95.B4.E7.90.86.E8.AE.BA.E7.9A.84.E6.84.8F.E4.B9.89) |"
+      },
+      {
+        "evidence_id": "web-984f18bb",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "协整理论的作用在于正确地[解释](/wiki/%E8%A7%A3%E9%87%8A \"解释\")了[经济](/wiki/%E7%BB%8F%E6%B5%8E \"经济\")现象和[预测](/wiki/%E9%A2%84%E6%B5%8B \"预测\")现象，[误差修正模型](/wiki/%E8%AF%AF%E5%B7%AE%E4%BF%AE%E6%AD%A3%E6%A8%A1%E5%9E%8B \"误差修正模型\")（[ECM](/wiki/ECM \"ECM\")）将影响变化的因素有效地分解成长期静态关系和[短期](/wiki/%E7%9F%AD%E6%9C%9F \"短期\")动态关系之和。其中[格兰杰](/wiki/%E6%A0%BC%E5%85%B0%E6%9D%B0 \"格兰杰\")定理证明了协整关系与误差修正模型之间的关系，指出若干个一阶非平稳[经济变量](/wiki/%E7%BB%8F%E6%B5%8E%E5%8F%98%E9%87%8F \"经济变量\")间若存在协整关系，那么这些[变量](/wiki/%E5%8F%98%E9%87%8F \"变量\")一定存在误差修正模型表达式，反之也成立。"
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "A08"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-07",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "SVD分解在最小二乘中的作用如何解释？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-1afbe31a",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "### 出自 MBA智库百科([https://wiki.mbalib.com/](//wiki.mbalib.com/))"
+      },
+      {
+        "evidence_id": "web-fbb3b58d",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "|  |\n| --- |\n| 目录   * [1 什么是协整理论](#.E4.BB.80.E4.B9.88.E6.98.AF.E5.8D.8F.E6.95.B4.E7.90.86.E8.AE.BA) * [2 协整理论产生的背景](#.E5.8D.8F.E6.95.B4.E7.90.86.E8.AE.BA.E4.BA.A7.E7.94.9F.E7.9A.84.E8.83.8C.E6.99.AF) * [3 协整理论的发展](#.E5.8D.8F.E6.95.B4.E7.90.86.E8.AE.BA.E7.9A.84.E5.8F.91.E5.B1.95) * [4 协整理论的内容](#.E5.8D.8F.E6.95.B4.E7.90.86.E8.AE.BA.E7.9A.84.E5.86.85.E5.AE.B9) * [5 协整理论的意义](#.E5.8D.8F.E6.95.B4.E7.90."
+      },
+      {
+        "evidence_id": "web-984f18bb",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "协整理论的作用在于正确地[解释](/wiki/%E8%A7%A3%E9%87%8A \"解释\")了[经济](/wiki/%E7%BB%8F%E6%B5%8E \"经济\")现象和[预测](/wiki/%E9%A2%84%E6%B5%8B \"预测\")现象，[误差修正模型](/wiki/%E8%AF%AF%E5%B7%AE%E4%BF%AE%E6%AD%A3%E6%A8%A1%E5%9E%8B \"误差修正模型\")（[ECM](/wiki/ECM \"ECM\")）将影响变化的因素有效地分解成长期静态关系和[短期](/wiki/%E7%9F%AD%E6%9C%9F \"短期\")动态关系之和。其中[格兰杰](/wiki/%E6%A0%BC%E5%85%B0%E6%9D%B0 \"格兰杰\")定理证明了协整关系与误差修正模型之间的关系，指出若干个一阶非平稳[经济变量](/wiki/%E7%BB%8F%E6%B5%8"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "A08"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-07",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "SVD分解在最小二乘中的作用如何解释？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-9c5b42a6",
+        "source_id": "",
+        "title": "奇异值分解（SVD）｜集智百科 | 集智俱乐部",
+        "url": "https://swarma.org?p=55080",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-7a545601",
+        "source_id": "",
+        "title": "奇异值分解（SVD）｜集智百科 | 集智俱乐部",
+        "url": "https://swarma.org?p=55080",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-e91046d1",
+        "source_id": "",
+        "title": "奇异值分解（SVD）｜集智百科 | 集智俱乐部",
+        "url": "https://swarma.org?p=55080",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-1f21ab59",
+        "source_id": "",
+        "title": "奇異值分解 (SVD) | 線代啟示錄",
+        "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-7d79b7d5",
+        "source_id": "",
+        "title": "奇異值分解 (SVD) | 線代啟示錄",
+        "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-6bd6af84",
+        "source_id": "",
+        "title": "奇異值分解 (SVD) | 線代啟示錄",
+        "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "A08"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-08",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "单位根检验和协整关系有什么区别？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-1f85cf96",
+        "source_id": "",
+        "title": "Lecture 16: Introduction to Asymptotic Analysis",
+        "url": "https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm",
+        "text": "# [Lecture 16: Introduction to Asymptotic Analysis](http://www.cs.cornell.edu.invalid/wiki/wiki.pl?search=October+21+lecture \"Click to search for references to this page\")"
+      },
+      {
+        "evidence_id": "web-b635683d",
+        "source_id": "",
+        "title": "Lecture 16: Introduction to Asymptotic Analysis",
+        "url": "https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm",
+        "text": "[Worst-Case and Average-Case Analysis](#Worst-Case%20and%20Average-Case%20Analysis)\n3."
+      },
+      {
+        "evidence_id": "web-ad2f3495",
+        "source_id": "",
+        "title": "Lecture 16: Introduction to Asymptotic Analysis",
+        "url": "https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm",
+        "text": "[Order of Growth and Big-O Notation](#Order%20of%20Growth%20and%20Big-O%20Notation)\n4."
+      },
+      {
+        "evidence_id": "web-aedcc010",
+        "source_id": "",
+        "title": "Asymptotic Notations for Analysis of Algorithms - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms",
+        "text": "[![geeksforgeeks](https://media.geeksforgeeks.org/gfg-gg-logo.svg)](https://www.geeksforgeeks.org/)"
+      },
+      {
+        "evidence_id": "web-6dbea31e",
+        "source_id": "",
+        "title": "Asymptotic Notations for Analysis of Algorithms - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms",
+        "text": "![search icon](https://media.geeksforgeeks.org/auth-dashboard-uploads/Property=Light---Default.svg)"
+      },
+      {
+        "evidence_id": "web-846e3bc5",
+        "source_id": "",
+        "title": "Asymptotic Notations for Analysis of Algorithms - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms",
+        "text": "* [DSA Tutorial](https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/)\n* [Interview Questions](https://www.geeksforgeeks.org/dsa/top-100-data-structure-and-algorithms-dsa-interview-questions-topic-wise/)\n* [Quizzes](https://www.geeksforgeeks.org/dsa/data-structures-and-algorithms-online-quiz/)\n* [Must Do](https://www.geeksforgeeks.org/dsa/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/)\n* [Advanced DSA](https://www.geeksforgeeks.org/dsa/advance"
+      },
+      {
+        "evidence_id": "web-1c430bc7",
+        "source_id": "",
+        "title": "Data Structures - Asymptotic Analysis",
+        "url": "https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm",
+        "text": "[Home](/) [Whiteboard](/whiteboard.htm)  [Practice Code](/practice/index.htm) [Graphing Calculator](/online_graphing_calculator.htm) [Online Compilers](/codingground.htm) [Articles](/articles/index.php) [Tools](/online_dev_tools.htm)"
+      },
+      {
+        "evidence_id": "web-fa6c8ce0",
+        "source_id": "",
+        "title": "Data Structures - Asymptotic Analysis",
+        "url": "https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm",
+        "text": "Find the perfect tutorial for your learning journey"
+      },
+      {
+        "evidence_id": "web-68f80ff2",
+        "source_id": "",
+        "title": "Data Structures - Asymptotic Analysis",
+        "url": "https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm",
+        "text": "[Python Technologies](/python_technologies_tutorials.htm)[Databases](/database_tutorials.htm)[Computer Programming](/computer_programming_tutorials.htm)[Web Development](/web_development_tutorials.htm)[Java Technologies](/java_technology_tutorials.htm)[Computer Science](/computer_science_tutorials.htm)[Mobile Development](/mobile_development_tutorials.htm)[Big Data & Analytics](/big_data_tutorials.htm)[Microsoft Technologies](/microsoft_technologies_tutorials.htm)[DevOps](/devops_tutorials.htm)["
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "A24"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-08",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "单位根检验和协整关系有什么区别？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-1f85cf96",
+        "source_id": "",
+        "title": "Lecture 16: Introduction to Asymptotic Analysis",
+        "url": "https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm",
+        "text": "# [Lecture 16: Introduction to Asymptotic Analysis](http://www.cs.cornell.edu.invalid/wiki/wiki.pl?search=October+21+lecture \"Click to search for references to this page\")"
+      },
+      {
+        "evidence_id": "web-b635683d",
+        "source_id": "",
+        "title": "Lecture 16: Introduction to Asymptotic Analysis",
+        "url": "https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm",
+        "text": "[Worst-Case and Average-Case Analysis](#Worst-Case%20and%20Average-Case%20Analysis)\n3."
+      },
+      {
+        "evidence_id": "web-ad2f3495",
+        "source_id": "",
+        "title": "Lecture 16: Introduction to Asymptotic Analysis",
+        "url": "https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm",
+        "text": "[Order of Growth and Big-O Notation](#Order%20of%20Growth%20and%20Big-O%20Notation)\n4."
+      },
+      {
+        "evidence_id": "web-aedcc010",
+        "source_id": "",
+        "title": "Asymptotic Notations for Analysis of Algorithms - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms",
+        "text": "[![geeksforgeeks](https://media.geeksforgeeks.org/gfg-gg-logo.svg)](https://www.geeksforgeeks.org/)"
+      },
+      {
+        "evidence_id": "web-6dbea31e",
+        "source_id": "",
+        "title": "Asymptotic Notations for Analysis of Algorithms - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms",
+        "text": "![search icon](https://media.geeksforgeeks.org/auth-dashboard-uploads/Property=Light---Default.svg)"
+      },
+      {
+        "evidence_id": "web-846e3bc5",
+        "source_id": "",
+        "title": "Asymptotic Notations for Analysis of Algorithms - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms",
+        "text": "* [DSA Tutorial](https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/)\n* [Interview Questions](https://www.geeksforgeeks.org/dsa/top-100-data-structure-and-algorithms-dsa-interview-questions-topic-wise/)\n* [Quizzes](https://www.geeksforgeeks.org/dsa/data-structures-and-algorithms-online-quiz/)\n* [Must Do](https://www.geeksforgeeks.org/dsa/must-do-coding-questions-fo"
+      },
+      {
+        "evidence_id": "web-1c430bc7",
+        "source_id": "",
+        "title": "Data Structures - Asymptotic Analysis",
+        "url": "https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm",
+        "text": "[Home](/) [Whiteboard](/whiteboard.htm)  [Practice Code](/practice/index.htm) [Graphing Calculator](/online_graphing_calculator.htm) [Online Compilers](/codingground.htm) [Articles](/articles/index.php) [Tools](/online_dev_tools.htm)"
+      },
+      {
+        "evidence_id": "web-fa6c8ce0",
+        "source_id": "",
+        "title": "Data Structures - Asymptotic Analysis",
+        "url": "https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm",
+        "text": "Find the perfect tutorial for your learning journey"
+      },
+      {
+        "evidence_id": "web-68f80ff2",
+        "source_id": "",
+        "title": "Data Structures - Asymptotic Analysis",
+        "url": "https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm",
+        "text": "[Python Technologies](/python_technologies_tutorials.htm)[Databases](/database_tutorials.htm)[Computer Programming](/computer_programming_tutorials.htm)[Web Development](/web_development_tutorials.htm)[Java Technologies](/java_technology_tutorials.htm)[Computer Science](/computer_science_tutorials.htm)[Mobile Development](/mobile_development_tutorials.htm)[Big Data & Analytics](/big_data_tutorials"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "A24"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-08",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "单位根检验和协整关系有什么区别？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-1afbe31a",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-fbb3b58d",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-984f18bb",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "A24"
+  },
+  {
+    "sample_id": "SYN-PARTIAL-08",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "单位根检验和协整关系有什么区别？",
+    "label": "EVIDENCE_PARTIAL",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-1afbe31a",
+        "source_id": "",
+        "title": "协整理论 - MBA智库百科",
+        "url": "https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%95%B4%E7%90%86%E8%AE%BA",
+        "text": "### 出自 MBA智库百科([https://wiki.mbalib.com/](//wiki.mbalib.com/))"
+      }
+    ],
+    "construction_type": "PARTIAL_COVERAGE",
+    "source_sample_id": "A24"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-09",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "Dijkstra算法为什么要求边权非负？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-898d0070",
+        "source_id": "",
+        "title": "Who will gain the upper hand in quantum computing? Will 2026 ...",
+        "url": "https://www.youtube.com/watch?v=tSccNXr2DkQ&vl=zh",
+        "text": "### Description\n255766 views\nPosted: 17 Feb 2026\n// 延伸閱讀 //\n拆解邊緣AI熱潮：伺服器如何提供穩固的運算基石？"
+      },
+      {
+        "evidence_id": "web-72dd67c9",
+        "source_id": "",
+        "title": "Who will gain the upper hand in quantum computing? Will 2026 ...",
+        "url": "https://www.youtube.com/watch?v=tSccNXr2DkQ&vl=zh",
+        "text": "https://pansci.asia/archives/379180\n一顆科技巨星的隕落（上）—英特爾的興起\nhttps://pansci.asia/archives/378894"
+      },
+      {
+        "evidence_id": "web-a3d230de",
+        "source_id": "",
+        "title": "Who will gain the upper hand in quantum computing? Will 2026 ...",
+        "url": "https://www.youtube.com/watch?v=tSccNXr2DkQ&vl=zh",
+        "text": "252 comments\n### Transcript:\n如果我說 點亮 2026 年最關鍵的一道光束 其實是在 100 年前發出的 你相信嗎 我們把時間撥回 1926 年 3 月 16 日 在美國麻薩諸塞州一處被雪覆蓋的田野上 一位叫羅伯特戈達德的教授 點燃了人類第一枚液態燃料火箭 它飛得很慢 最高只飛了 12.5 公尺 甚至還沒有旁邊的穀倉高 飛行時間只有 2.5 秒 當時的紐約時報甚至寫社論嘲笑他 說他缺乏高中程度的物理常識 因為大家認為真空裡沒有空氣 火箭根本沒有東西可以推 就在同一年 大西洋彼岸的奧地利 薛丁格寫下了一行描述波動的方程式 沒人知道這跟真實世界有什麼關係 而在倫敦 約翰羅傑貝爾德 第一次公開展示了模糊不清的機械電視畫面 那是人類第一次看到畫面被拆解成訊號傳送 當時的世界 緩慢 充滿質疑 沒人相信這些微弱的訊號能改變什麼 但 100 年後的今天 我們接收到了那道光 時間來到 2026 這一年 戈達德的小火箭進化成了準備在太空加油 高達 120 公尺的巨型星艦 薛丁格的算式在台積電的 2 奈米晶片中 被精準操控 成為控制電子的核心法則 貝爾德的電視變成了能生成一切影"
+      },
+      {
+        "evidence_id": "web-b497c3de",
+        "source_id": "",
+        "title": "量子運算：歐洲有望獲勝的一場科技競賽？",
+        "url": "https://www.bbc.com/zhongwen/articles/cx299lz2gdxo/trad",
+        "text": "![](https://a1.api.bbc.co.uk/hit.xiti?s=598342&s2=38&p=zhongwen.articles.cx299lz2gdxo.trad.page&x1=[urn%3Abbc%3Aoptimo%3Aasset%3Acx299lz2gdxo]&x2=[responsive]&x3=[news-zhongwen]&x4=[zh-hant]&x7=[article]&x8=[simorgh-nojs]&x9=[%E9%87%8F%E5%AD%90%E9%81%8B%E7%AE%97%EF%BC%9A%E6%AD%90%E6%B4%B2%E6%9C%89%E6%9C%9B%E7%8D%B2%E5%8B%9D%E7%9A%84%E4%B8%80%E5%A0%B4%E7%A7%91%E6%8A%80%E7%AB%B6%E8%B3%BD%EF%BC%9F]&x11=[2026-04-14T05%3A47%3A51.260Z]&x12=[2026-04-14T05%3A47%3A51.260Z]&x13=[Science~Technology]&x14=[0"
+      },
+      {
+        "evidence_id": "web-e8039f50",
+        "source_id": "",
+        "title": "量子運算：歐洲有望獲勝的一場科技競賽？",
+        "url": "https://www.bbc.com/zhongwen/articles/cx299lz2gdxo/trad",
+        "text": "![一名技術人員正在檢修冷卻一台量子電腦的低溫恆溫器。](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2826/live/e51ba3a0-37b8-11f1-9d5c-8ba507d7dbde.jpg.webp)"
+      },
+      {
+        "evidence_id": "web-014cc809",
+        "source_id": "",
+        "title": "量子運算：歐洲有望獲勝的一場科技競賽？",
+        "url": "https://www.bbc.com/zhongwen/articles/cx299lz2gdxo/trad",
+        "text": "巴黎西郊一間實驗室所在地有塞納河寬闊的河面，有軌電車穿梭於玻璃幕牆的建築和盛開的櫻花樹之間。一位名叫雷米（Rémi）的技術員正用扳手進行一些調整。"
+      },
+      {
+        "evidence_id": "web-abf0f2e0",
+        "source_id": "",
+        "title": "2026年科技前沿：从量子突破到生命解码，重塑人类未来的 ...",
+        "url": "https://caifuhao.eastmoney.com/news/20260807163106337978800",
+        "text": "* [财经](http://finance.eastmoney.com/ \"财经\")\n* [焦点](http://finance.eastmoney.com/yaowen.html \"焦点\")\n* [股票](http://stock.eastmoney.com/ \"股票\")\n* [新股](http://stock.eastmoney.com/newstock.html \"新股\")\n* [期指](http://stock.eastmoney.com/gzqh.html \"期指\")\n* [期权](http://option.eastmoney.com/ \"期权\")\n* [行情](http://quote.eastmoney.com/flash/sz300059.html \"行情\")\n* [数据](http://data.eastmoney.com/ \"数据\")\n* [全球](http://stock.eastmoney.com/global.html \"全球\")\n* [美股](http://stock.eastmoney.com/america.html \"美股\")\n* [港股](http"
+      },
+      {
+        "evidence_id": "web-3d5f7479",
+        "source_id": "",
+        "title": "2026年科技前沿：从量子突破到生命解码，重塑人类未来的 ...",
+        "url": "https://caifuhao.eastmoney.com/news/20260807163106337978800",
+        "text": "[指数](http://quote.eastmoney.com/center/hszs.html \"指数\")[期指](http://quote.eastmoney.com/center/gridlist.html#futures_cffex \"期指\")[期权](http://quote.eastmoney.com/center/qqsc.html \"期权\")[个股](http://quote.eastmoney.com/ \"个股\")[板块](http://quote.eastmoney.com/center/hsbk.html \"板块\")[排行](http://quote.eastmoney.com/center/gridlist.html#hs_a_board \"排行\")[新股](http://quote.eastmoney.com/center/gridlist.html#newshares \"新股\")[基金](http://quote.eastmoney.com/center/jjsc.html \"基金\")[港股](http://quote.eastmoney.com/cente"
+      },
+      {
+        "evidence_id": "web-a6afdbd2",
+        "source_id": "",
+        "title": "2026年科技前沿：从量子突破到生命解码，重塑人类未来的 ...",
+        "url": "https://caifuhao.eastmoney.com/news/20260807163106337978800",
+        "text": "[资金流向](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_01_0 \"资金流向\")[主力排名](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_02_0 \"主力排名\")[板块资金](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_03_0 \"板块资金\")[个股研报](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_04_0 \"个股研报\")[新股申购](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_05_0 \"新股申购\")[转债申购](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_06_0 \"转债申购\")[北交所申购](https://acttg.eastmoney.com/pub/web_"
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "A26"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-09",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "Dijkstra算法为什么要求边权非负？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-898d0070",
+        "source_id": "",
+        "title": "Who will gain the upper hand in quantum computing? Will 2026 ...",
+        "url": "https://www.youtube.com/watch?v=tSccNXr2DkQ&vl=zh",
+        "text": "### Description\n255766 views\nPosted: 17 Feb 2026\n// 延伸閱讀 //\n拆解邊緣AI熱潮：伺服器如何提供穩固的運算基石？"
+      },
+      {
+        "evidence_id": "web-72dd67c9",
+        "source_id": "",
+        "title": "Who will gain the upper hand in quantum computing? Will 2026 ...",
+        "url": "https://www.youtube.com/watch?v=tSccNXr2DkQ&vl=zh",
+        "text": "https://pansci.asia/archives/379180\n一顆科技巨星的隕落（上）—英特爾的興起\nhttps://pansci.asia/archives/378894"
+      },
+      {
+        "evidence_id": "web-a3d230de",
+        "source_id": "",
+        "title": "Who will gain the upper hand in quantum computing? Will 2026 ...",
+        "url": "https://www.youtube.com/watch?v=tSccNXr2DkQ&vl=zh",
+        "text": "252 comments\n### Transcript:\n如果我說 點亮 2026 年最關鍵的一道光束 其實是在 100 年前發出的 你相信嗎 我們把時間撥回 1926 年 3 月 16 日 在美國麻薩諸塞州一處被雪覆蓋的田野上 一位叫羅伯特戈達德的教授 點燃了人類第一枚液態燃料火箭 它飛得很慢 最高只飛了 12.5 公尺 甚至還沒有旁邊的穀倉高 飛行時間只有 2.5 秒 當時的紐約時報甚至寫社論嘲笑他 說他缺乏高中程度的物理常識 因為大家認為真空裡沒有空氣 火箭根本沒有東西可以推 就在同一年 大西洋彼岸的奧地利 薛丁格寫下了一行描述波動的方程式 沒人知道這跟真實世界有什麼關係 而在倫敦 約翰羅傑貝爾德 第一次公開展示了模糊不清的機械電視畫面 那是人類第一次看到畫面被拆解成訊號傳送 當時的世界 緩慢 充滿質疑 沒人相信這些微弱的訊號能改變什麼 但 100 年後的今天 我們接收到了那道光 時"
+      },
+      {
+        "evidence_id": "web-b497c3de",
+        "source_id": "",
+        "title": "量子運算：歐洲有望獲勝的一場科技競賽？",
+        "url": "https://www.bbc.com/zhongwen/articles/cx299lz2gdxo/trad",
+        "text": "![](https://a1.api.bbc.co.uk/hit.xiti?s=598342&s2=38&p=zhongwen.articles.cx299lz2gdxo.trad.page&x1=[urn%3Abbc%3Aoptimo%3Aasset%3Acx299lz2gdxo]&x2=[responsive]&x3=[news-zhongwen]&x4=[zh-hant]&x7=[article]&x8=[simorgh-nojs]&x9=[%E9%87%8F%E5%AD%90%E9%81%8B%E7%AE%97%EF%BC%9A%E6%AD%90%E6%B4%B2%E6%9C%89%E6%9C%9B%E7%8D%B2%E5%8B%9D%E7%9A%84%E4%B8%80%E5%A0%B4%E7%A7%91%E6%8A%80%E7%AB%B6%E8%B3%BD%EF%BC%9F]&x"
+      },
+      {
+        "evidence_id": "web-e8039f50",
+        "source_id": "",
+        "title": "量子運算：歐洲有望獲勝的一場科技競賽？",
+        "url": "https://www.bbc.com/zhongwen/articles/cx299lz2gdxo/trad",
+        "text": "![一名技術人員正在檢修冷卻一台量子電腦的低溫恆溫器。](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2826/live/e51ba3a0-37b8-11f1-9d5c-8ba507d7dbde.jpg.webp)"
+      },
+      {
+        "evidence_id": "web-014cc809",
+        "source_id": "",
+        "title": "量子運算：歐洲有望獲勝的一場科技競賽？",
+        "url": "https://www.bbc.com/zhongwen/articles/cx299lz2gdxo/trad",
+        "text": "巴黎西郊一間實驗室所在地有塞納河寬闊的河面，有軌電車穿梭於玻璃幕牆的建築和盛開的櫻花樹之間。一位名叫雷米（Rémi）的技術員正用扳手進行一些調整。"
+      },
+      {
+        "evidence_id": "web-abf0f2e0",
+        "source_id": "",
+        "title": "2026年科技前沿：从量子突破到生命解码，重塑人类未来的 ...",
+        "url": "https://caifuhao.eastmoney.com/news/20260807163106337978800",
+        "text": "* [财经](http://finance.eastmoney.com/ \"财经\")\n* [焦点](http://finance.eastmoney.com/yaowen.html \"焦点\")\n* [股票](http://stock.eastmoney.com/ \"股票\")\n* [新股](http://stock.eastmoney.com/newstock.html \"新股\")\n* [期指](http://stock.eastmoney.com/gzqh.html \"期指\")\n* [期权](http://option.eastmoney.com/ \"期权\")\n* [行情](http://quote.eastmoney.com/flash/sz300059.html \"行情\")\n* [数据](http://data.eastmoney.com/ \"数据\")\n* [全球](http://st"
+      },
+      {
+        "evidence_id": "web-3d5f7479",
+        "source_id": "",
+        "title": "2026年科技前沿：从量子突破到生命解码，重塑人类未来的 ...",
+        "url": "https://caifuhao.eastmoney.com/news/20260807163106337978800",
+        "text": "[指数](http://quote.eastmoney.com/center/hszs.html \"指数\")[期指](http://quote.eastmoney.com/center/gridlist.html#futures_cffex \"期指\")[期权](http://quote.eastmoney.com/center/qqsc.html \"期权\")[个股](http://quote.eastmoney.com/ \"个股\")[板块](http://quote.eastmoney.com/center/hsbk.html \"板块\")[排行](http://quote.eastmoney.com/center/gridlist.html#hs_a_board \"排行\")[新股](http://quote.eastmoney.com/center/gridlist.html#newsha"
+      },
+      {
+        "evidence_id": "web-a6afdbd2",
+        "source_id": "",
+        "title": "2026年科技前沿：从量子突破到生命解码，重塑人类未来的 ...",
+        "url": "https://caifuhao.eastmoney.com/news/20260807163106337978800",
+        "text": "[资金流向](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_01_0 \"资金流向\")[主力排名](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_02_0 \"主力排名\")[板块资金](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_03_0 \"板块资金\")[个股研报](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_04_0 \"个股研报\")[新股申购](https://acttg.eastmoney.com/pub/web_dfcfsy_wzl_dhl_03_01_05_0 \"新股申购\")[转债申购](https://acttg"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "A26"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-09",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "Dijkstra算法为什么要求边权非负？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-1f85cf96",
+        "source_id": "",
+        "title": "Lecture 16: Introduction to Asymptotic Analysis",
+        "url": "https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-b635683d",
+        "source_id": "",
+        "title": "Lecture 16: Introduction to Asymptotic Analysis",
+        "url": "https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-ad2f3495",
+        "source_id": "",
+        "title": "Lecture 16: Introduction to Asymptotic Analysis",
+        "url": "https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-aedcc010",
+        "source_id": "",
+        "title": "Asymptotic Notations for Analysis of Algorithms - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-6dbea31e",
+        "source_id": "",
+        "title": "Asymptotic Notations for Analysis of Algorithms - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-846e3bc5",
+        "source_id": "",
+        "title": "Asymptotic Notations for Analysis of Algorithms - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-1c430bc7",
+        "source_id": "",
+        "title": "Data Structures - Asymptotic Analysis",
+        "url": "https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-fa6c8ce0",
+        "source_id": "",
+        "title": "Data Structures - Asymptotic Analysis",
+        "url": "https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-68f80ff2",
+        "source_id": "",
+        "title": "Data Structures - Asymptotic Analysis",
+        "url": "https://www.tutorialspoint.com/data_structures_algorithms/asymptotic_analysis.htm",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "A26"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-10",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "2026年量子计算领域有哪些最新新闻？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-3bceb1d8",
+        "source_id": "",
+        "title": "各国家和地区人口列表 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%84%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%9C%B0%E5%8C%BA%E4%BA%BA%E5%8F%A3%E5%88%97%E8%A1%A8",
+        "text": "[![](/static/images/icons/wikipedia.png)  ![维基百科](/static/images/mobile/copyright/wikipedia-wordmark-zh-hans.svg) ![自由的百科全书](/static/images/mobile/copyright/wikipedia-tagline-zh-hans.svg)](/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)"
+      },
+      {
+        "evidence_id": "web-2795eafa",
+        "source_id": "",
+        "title": "各国家和地区人口列表 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%84%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%9C%B0%E5%8C%BA%E4%BA%BA%E5%8F%A3%E5%88%97%E8%A1%A8",
+        "text": "* [序言](#)\n* [1 列表](#列表)\n* [2 参见](#參見)\n* [3 注释](#注释)\n* [4 参考文献](#参考文献)"
+      },
+      {
+        "evidence_id": "web-ef19adad",
+        "source_id": "",
+        "title": "各国家和地区人口列表 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%84%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%9C%B0%E5%8C%BA%E4%BA%BA%E5%8F%A3%E5%88%97%E8%A1%A8",
+        "text": "* [Afrikaans](https://af.wikipedia.org/wiki/Lys_van_lande_volgens_bevolking \"Lys van lande volgens bevolking – 南非荷兰语\")\n* [Alemannisch](https://als.wikipedia.org/wiki/Liste_unabh%C3%A4ngiger_Staaten_nach_Einwohnerzahl \"Liste unabhängiger Staaten nach Einwohnerzahl – 瑞士德语\")\n* [Aragonés](https://an.wikipedia.org/wiki/Lista_de_pa%C3%ADses_por_poblaci%C3%B3n \"Lista de países por población – 阿拉贡语\")\n* [العربية](https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A8%D9%84%D8%AF%"
+      },
+      {
+        "evidence_id": "web-8b0dad46",
+        "source_id": "",
+        "title": "按国家排列的人口 (2026) - 沃尔德米特",
+        "url": "https://www.worldometers.info/zh/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%8F%A3/%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3",
+        "text": "[人口](/zh/人口/)   [二氧化碳排放](/zh/二氧化碳排放/)   [国家](/zh/地理/世界各国/)   [能源](/zh/能源/)   [旗帜](/zh/地理/世界国旗/)   [食品与农业](/zh/食品农业/)   [各国 GDP](/zh/国内生产总值/各国gdp/)   [水资源](/zh/水资源/)"
+      },
+      {
+        "evidence_id": "web-d856ef8c",
+        "source_id": "",
+        "title": "按国家排列的人口 (2026) - 沃尔德米特",
+        "url": "https://www.worldometers.info/zh/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%8F%A3/%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3",
+        "text": "| # | 国家（或属地） | 人口 2026 | 年度变化 | 净变化 | 密度（人/平方公里） | 陆地面积 (平方公里) | 净移民 | 生育率 | 年龄中位数 | 城市人口百分比 | 世界份额 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | [印度](/zh/世界人口/印度-人口/) | 1,476,625,576 | 0.87% | 12,760,051 | 497 | 2,973,190 | −440,456 | 1.93 | 29.2 | 37.6% | 17.79% |\n| 2 | [中国](/zh/世界人口/中国-人口/) | 1,412,914,089 | −0.22% | −3,182,005 | 150 | 9,388,211 | −232,107 | 1.03 | 40.6 | 68.7% | 17.02% |\n| 3 | [美国](/zh/世界人口/美国-人口/) | 349,035,494 | 0.51% | 1,759,687 | 38 |"
+      },
+      {
+        "evidence_id": "web-3e58a91b",
+        "source_id": "",
+        "title": "按国家排列的人口 (2026) - 沃尔德米特",
+        "url": "https://www.worldometers.info/zh/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%8F%A3/%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3",
+        "text": "数据由联合国经济和社会事务部人口司编制。[世界人口展望：2024年修订版](https://population.un.org/wpp/)。（中等生育率方案）。"
+      },
+      {
+        "evidence_id": "web-f9f5f6ec",
+        "source_id": "",
+        "title": "世界各国人口排名",
+        "url": "https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799",
+        "text": "[网页](https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D)[新闻](http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D)[贴吧](https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D)[知道](https://zhidao.baidu.com/search?pn=0&&rn=10&lm=0&fr=bks0000&word=%E4%B8%96%E7%95%8C%E5%90%8"
+      },
+      {
+        "evidence_id": "web-96915a1a",
+        "source_id": "",
+        "title": "世界各国人口排名",
+        "url": "https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799",
+        "text": "[登录](https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799)"
+      },
+      {
+        "evidence_id": "web-ad40f2c1",
+        "source_id": "",
+        "title": "世界各国人口排名",
+        "url": "https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799",
+        "text": "[注册](https://passport.baidu.com/v2/?reg&regType=1&tpl=wk)"
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "G01"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-10",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "2026年量子计算领域有哪些最新新闻？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-3bceb1d8",
+        "source_id": "",
+        "title": "各国家和地区人口列表 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%84%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%9C%B0%E5%8C%BA%E4%BA%BA%E5%8F%A3%E5%88%97%E8%A1%A8",
+        "text": "[![](/static/images/icons/wikipedia.png)  ![维基百科](/static/images/mobile/copyright/wikipedia-wordmark-zh-hans.svg) ![自由的百科全书](/static/images/mobile/copyright/wikipedia-tagline-zh-hans.svg)](/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)"
+      },
+      {
+        "evidence_id": "web-2795eafa",
+        "source_id": "",
+        "title": "各国家和地区人口列表 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%84%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%9C%B0%E5%8C%BA%E4%BA%BA%E5%8F%A3%E5%88%97%E8%A1%A8",
+        "text": "* [序言](#)\n* [1 列表](#列表)\n* [2 参见](#參見)\n* [3 注释](#注释)\n* [4 参考文献](#参考文献)"
+      },
+      {
+        "evidence_id": "web-ef19adad",
+        "source_id": "",
+        "title": "各国家和地区人口列表 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%84%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%9C%B0%E5%8C%BA%E4%BA%BA%E5%8F%A3%E5%88%97%E8%A1%A8",
+        "text": "* [Afrikaans](https://af.wikipedia.org/wiki/Lys_van_lande_volgens_bevolking \"Lys van lande volgens bevolking – 南非荷兰语\")\n* [Alemannisch](https://als.wikipedia.org/wiki/Liste_unabh%C3%A4ngiger_Staaten_nach_Einwohnerzahl \"Liste unabhängiger Staaten nach Einwohnerzahl – 瑞士德语\")\n* [Aragonés](https://an.wikipedia.org/wiki/Lista_de_pa%C3%ADses_por_poblaci%C3%B3n \"Lista de países por población – 阿拉贡语\")\n* [ا"
+      },
+      {
+        "evidence_id": "web-8b0dad46",
+        "source_id": "",
+        "title": "按国家排列的人口 (2026) - 沃尔德米特",
+        "url": "https://www.worldometers.info/zh/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%8F%A3/%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3",
+        "text": "[人口](/zh/人口/)   [二氧化碳排放](/zh/二氧化碳排放/)   [国家](/zh/地理/世界各国/)   [能源](/zh/能源/)   [旗帜](/zh/地理/世界国旗/)   [食品与农业](/zh/食品农业/)   [各国 GDP](/zh/国内生产总值/各国gdp/)   [水资源](/zh/水资源/)"
+      },
+      {
+        "evidence_id": "web-d856ef8c",
+        "source_id": "",
+        "title": "按国家排列的人口 (2026) - 沃尔德米特",
+        "url": "https://www.worldometers.info/zh/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%8F%A3/%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3",
+        "text": "| # | 国家（或属地） | 人口 2026 | 年度变化 | 净变化 | 密度（人/平方公里） | 陆地面积 (平方公里) | 净移民 | 生育率 | 年龄中位数 | 城市人口百分比 | 世界份额 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | [印度](/zh/世界人口/印度-人口/) | 1,476,625,576 | 0.87% | 12,760,051 | 497 | 2,973,190 | −440,456 | 1.93 | 29.2 | 37.6% | 17.79% |\n| 2 | [中国](/zh/世界人口/中国-人口/) | 1,412,914,089 | −0.22% | −3,182,005 | 150 | 9,388,211 | −232,107 |"
+      },
+      {
+        "evidence_id": "web-3e58a91b",
+        "source_id": "",
+        "title": "按国家排列的人口 (2026) - 沃尔德米特",
+        "url": "https://www.worldometers.info/zh/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%8F%A3/%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3",
+        "text": "数据由联合国经济和社会事务部人口司编制。[世界人口展望：2024年修订版](https://population.un.org/wpp/)。（中等生育率方案）。"
+      },
+      {
+        "evidence_id": "web-f9f5f6ec",
+        "source_id": "",
+        "title": "世界各国人口排名",
+        "url": "https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799",
+        "text": "[网页](https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D)[新闻](http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D)[贴吧](https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90"
+      },
+      {
+        "evidence_id": "web-96915a1a",
+        "source_id": "",
+        "title": "世界各国人口排名",
+        "url": "https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799",
+        "text": "[登录](https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799)"
+      },
+      {
+        "evidence_id": "web-ad40f2c1",
+        "source_id": "",
+        "title": "世界各国人口排名",
+        "url": "https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799",
+        "text": "[注册](https://passport.baidu.com/v2/?reg&regType=1&tpl=wk)"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "G01"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-10",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "2026年量子计算领域有哪些最新新闻？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-898d0070",
+        "source_id": "",
+        "title": "Who will gain the upper hand in quantum computing? Will 2026 ...",
+        "url": "https://www.youtube.com/watch?v=tSccNXr2DkQ&vl=zh",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-72dd67c9",
+        "source_id": "",
+        "title": "Who will gain the upper hand in quantum computing? Will 2026 ...",
+        "url": "https://www.youtube.com/watch?v=tSccNXr2DkQ&vl=zh",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-a3d230de",
+        "source_id": "",
+        "title": "Who will gain the upper hand in quantum computing? Will 2026 ...",
+        "url": "https://www.youtube.com/watch?v=tSccNXr2DkQ&vl=zh",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-b497c3de",
+        "source_id": "",
+        "title": "量子運算：歐洲有望獲勝的一場科技競賽？",
+        "url": "https://www.bbc.com/zhongwen/articles/cx299lz2gdxo/trad",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-e8039f50",
+        "source_id": "",
+        "title": "量子運算：歐洲有望獲勝的一場科技競賽？",
+        "url": "https://www.bbc.com/zhongwen/articles/cx299lz2gdxo/trad",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-014cc809",
+        "source_id": "",
+        "title": "量子運算：歐洲有望獲勝的一場科技競賽？",
+        "url": "https://www.bbc.com/zhongwen/articles/cx299lz2gdxo/trad",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-abf0f2e0",
+        "source_id": "",
+        "title": "2026年科技前沿：从量子突破到生命解码，重塑人类未来的 ...",
+        "url": "https://caifuhao.eastmoney.com/news/20260807163106337978800",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-3d5f7479",
+        "source_id": "",
+        "title": "2026年科技前沿：从量子突破到生命解码，重塑人类未来的 ...",
+        "url": "https://caifuhao.eastmoney.com/news/20260807163106337978800",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-a6afdbd2",
+        "source_id": "",
+        "title": "2026年科技前沿：从量子突破到生命解码，重塑人类未来的 ...",
+        "url": "https://caifuhao.eastmoney.com/news/20260807163106337978800",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "G01"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-11",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "哪个国家的人口最多？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "N04"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-11",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "哪个国家的人口最多？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "N04"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-11",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "哪个国家的人口最多？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "web-3bceb1d8",
+        "source_id": "",
+        "title": "各国家和地区人口列表 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%84%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%9C%B0%E5%8C%BA%E4%BA%BA%E5%8F%A3%E5%88%97%E8%A1%A8",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-2795eafa",
+        "source_id": "",
+        "title": "各国家和地区人口列表 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%84%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%9C%B0%E5%8C%BA%E4%BA%BA%E5%8F%A3%E5%88%97%E8%A1%A8",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-ef19adad",
+        "source_id": "",
+        "title": "各国家和地区人口列表 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%84%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%9C%B0%E5%8C%BA%E4%BA%BA%E5%8F%A3%E5%88%97%E8%A1%A8",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-8b0dad46",
+        "source_id": "",
+        "title": "按国家排列的人口 (2026) - 沃尔德米特",
+        "url": "https://www.worldometers.info/zh/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%8F%A3/%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-d856ef8c",
+        "source_id": "",
+        "title": "按国家排列的人口 (2026) - 沃尔德米特",
+        "url": "https://www.worldometers.info/zh/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%8F%A3/%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-3e58a91b",
+        "source_id": "",
+        "title": "按国家排列的人口 (2026) - 沃尔德米特",
+        "url": "https://www.worldometers.info/zh/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%8F%A3/%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-f9f5f6ec",
+        "source_id": "",
+        "title": "世界各国人口排名",
+        "url": "https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-96915a1a",
+        "source_id": "",
+        "title": "世界各国人口排名",
+        "url": "https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      },
+      {
+        "evidence_id": "web-ad40f2c1",
+        "source_id": "",
+        "title": "世界各国人口排名",
+        "url": "https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%90%84%E5%9B%BD%E4%BA%BA%E5%8F%A3%E6%8E%92%E5%90%8D/23333799",
+        "text": "[首页](x) [导航](x) [图片](x) [更多](x)"
+      }
+    ],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "N04"
+  },
+  {
+    "sample_id": "SYN-WRONG_DOCUMENT-12",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "苹果公司的固定效果是什么？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0092",
+        "title": "清华大学玉泉医院",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/qhdxyqyy.htm",
+        "text": "[检验医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/jyyxk.htm)\n[输血科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/sxk.htm)\n[超声科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/csk.htm)\n[药剂科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/yjk.htm)\n[临床药学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/lcyxk.htm)\n[临床营养科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/lcyyk.htm)\n[放射诊断科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/fszdk.htm)\n[核医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/hyxk.htm)\n[全科与健康医学部](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)\n[全科医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)\n[健康管理中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/jkglzx.htm)\n[肝胆胰中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdywk.htm)"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[首页](https://www.med.tsinghua.edu.cn/index.htm)\n/\n[医疗服务](https://www.med.tsinghua.edu.cn/bj.htm)\n/\n[北京华信医院(清华大学第一附属医院)](https://www.med.tsinghua.edu.cn/bjhxyy_qhdxdyfsyy.htm)\n\n- [北京清华长庚医院](https://www.med.tsinghua.edu.cn/bj.htm)\n- [医院介绍](https://www.med.tsinghua.edu.cn/bj/yyjs.htm)\n- [就医指南](https://www.med.tsinghua.edu.cn/bj/jyzn.htm)\n- [医师团队](https://www.med.tsinghua.edu.cn/bj/ystd.htm) [内科部](https://www.med.tsinghua.edu.cn/bj/ystd/nk/nfmydxk.htm)\n[内分泌与代谢科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/nfmydxk.htm)\n[感染性疾病科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/grxjbk.htm)\n[消化内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/xhnk.htm)\n[肾脏内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/sznk.htm)\n[心血管内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/xxgnk.htm)"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[血管外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/xgwk.htm)\n[胸腔外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/xqwk.htm)\n[神经外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/sjwk.htm)\n[泌尿外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/mnwk.htm)\n[整形外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/zxwk.htm)\n[麻醉科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/mzk.htm)\n[疼痛科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/ttk.htm)\n[妇儿部](https://www.med.tsinghua.edu.cn/bj/ystd/fck/ek.htm)\n[儿科](https://www.med.tsinghua.edu.cn/bj/ystd/fck/ek.htm)\n[妇产科](https://www.med.tsinghua.edu.cn/bj/ystd/fck/fck.htm)\n[预防保健科](https://www.med.tsinghua.edu.cn/bj/ystd/fck/yfbjk.htm)\n[儿外科](https://www.med.tsinghua.edu.cn/bj/ystd/fck/ewk.htm)\n[急重症部](https://www.med.tsinghua.edu.cn/bj/ystd/mzks/ptnk.htm)"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[全科与健康医学部](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)\n[全科医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)\n[健康管理中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/jkglzx.htm)\n[肝胆胰中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdywk.htm)\n[肝胆胰外科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdywk.htm)\n[肝胆内科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdnk.htm)\n[肝胆介入科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdjrk.htm)\n[肝胆肿瘤科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdzlk.htm)\n[儿童肝病科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/etgbk.htm)\n[肝脏ICU](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gzICU.htm)\n[肝移植科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gyzk.htm)\n[肝胆研究实验室](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdyjsys.htm)"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[心血管内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/xxgnk.htm)\n[呼吸与危重症医学科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/hxywzzyxk.htm)\n[神经内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/sjnk.htm)\n[血液肿瘤科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/xyzlk.htm)\n[风湿免疫科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/fsmyk.htm)\n[老年医学科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/lnyxk.htm)\n[精神心理科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/jsxlk.htm)\n[外科部](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/ptwk.htm)\n[普通外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/ptwk.htm)\n[胃肠外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/wcwk.htm)\n[心脏外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/xzwk.htm)\n[血管外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/xgwk.htm)"
+      }
+    ],
+    "construction_type": "WRONG_DOCUMENT",
+    "source_sample_id": "N02"
+  },
+  {
+    "sample_id": "SYN-TOPIC_RELATED_NOT_ANSWERING-12",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "苹果公司的固定效果是什么？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [
+      {
+        "evidence_id": "C1",
+        "source_id": "STGPUB-0092",
+        "title": "清华大学玉泉医院",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/qhdxyqyy.htm",
+        "text": "[检验医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/jyyxk.htm)\n[输血科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/sxk.htm)\n[超声科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/csk.htm)\n[药剂科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/yjk.htm)\n[临床药学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/lcyxk.htm)\n[临床营养科](https://www.med.tsinghua.edu.cn/bj/ystd/yj1/lcyyk.htm)\n[放射诊断科](https://www.med.tsinghua.e"
+      },
+      {
+        "evidence_id": "C2",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[首页](https://www.med.tsinghua.edu.cn/index.htm)\n/\n[医疗服务](https://www.med.tsinghua.edu.cn/bj.htm)\n/\n[北京华信医院(清华大学第一附属医院)](https://www.med.tsinghua.edu.cn/bjhxyy_qhdxdyfsyy.htm)\n\n- [北京清华长庚医院](https://www.med.tsinghua.edu.cn/bj.htm)\n- [医院介绍](https://www.med.tsinghua.edu.cn/bj/yyjs.htm)\n- [就医指南](https://www.med.tsinghua.edu.cn/bj/jyzn.htm)\n- [医师团队](https://www.med.tsinghua.edu.cn/bj/ystd.htm) [内科部](htt"
+      },
+      {
+        "evidence_id": "C3",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[血管外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/xgwk.htm)\n[胸腔外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/xqwk.htm)\n[神经外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/sjwk.htm)\n[泌尿外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/mnwk.htm)\n[整形外科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/zxwk.htm)\n[麻醉科](https://www.med.tsinghua.edu.cn/bj/ystd/wkxt/mzk.htm)\n[疼痛科](https://www.med.tsinghua"
+      },
+      {
+        "evidence_id": "C4",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[全科与健康医学部](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)\n[全科医学科](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/qkyxk.htm)\n[健康管理中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj2/jkglzx.htm)\n[肝胆胰中心](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdywk.htm)\n[肝胆胰外科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdywk.htm)\n[肝胆内科](https://www.med.tsinghua.edu.cn/bj/ystd/yj3/gdnk.htm)\n[肝胆介入科](https://www"
+      },
+      {
+        "evidence_id": "C5",
+        "source_id": "STGPUB-0085",
+        "title": "北京华信医院（清华大学第一附属医院）",
+        "url": "https://www.med.tsinghua.edu.cn/tlff/bjhxyy_qhdxdyfsyy.htm",
+        "text": "[心血管内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/xxgnk.htm)\n[呼吸与危重症医学科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/hxywzzyxk.htm)\n[神经内科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/sjnk.htm)\n[血液肿瘤科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/xyzlk.htm)\n[风湿免疫科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/fsmyk.htm)\n[老年医学科](https://www.med.tsinghua.edu.cn/bj/ystd/nk/lnyxk.htm)\n[精神心理科](https://www.me"
+      }
+    ],
+    "construction_type": "TOPIC_RELATED_NOT_ANSWERING",
+    "source_sample_id": "N02"
+  },
+  {
+    "sample_id": "SYN-CONTAMINATED_EVIDENCE-12",
+    "track": "SYNTHETIC_CONSTRUCTED",
+    "query": "苹果公司的固定效果是什么？",
+    "label": "EVIDENCE_INSUFFICIENT",
+    "frozen_evidence": [],
+    "construction_type": "CONTAMINATED_EVIDENCE",
+    "source_sample_id": "N02"
+  }
+]

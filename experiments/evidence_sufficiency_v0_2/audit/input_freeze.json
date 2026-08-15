@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-14T08:00:14.781996+00:00",
+  "files": {
+    "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_benchmark_expansion_v0_2\\adjudication\\new_real_adjudication_packet_adjudicated.xlsx": "103e1959ca1d52c3fb3278a36adfc376d627e49601fe6a506d031198ed7acd31",
+    "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_benchmark_expansion_v0_2\\synthetic\\synthetic_stress_set_v0_2.json": "ae159b91be50d2e877f623073d46ff97e04d945171ede0081e28a6b3fac1d0df",
+    "D:\\python_projects\\tsinghua_ai\\experiments\\evidence_sufficiency_v0_1\\evaluation\\synthetic_stress_set.json": "eba301275b02cdb17b041295c73f4c5505fcf684ddf70cd260c2db8848973708",
+    "D:\\python_projects\\tsinghua_ai\\experiments\\generation_citation_eval_v0\\results\\independent_review_packet_adjudicated.xlsx": "7c2086d8abfa409a5a66e2f597a3ac6d985c77810b2852dc0b30fc04dc27511e"
+  },
+  "offline_calls": {
+    "search": 0,
+    "tavily": 0,
+    "extract": 0,
+    "external_llm": 0,
+    "answer_regeneration": 0
+  }
+}

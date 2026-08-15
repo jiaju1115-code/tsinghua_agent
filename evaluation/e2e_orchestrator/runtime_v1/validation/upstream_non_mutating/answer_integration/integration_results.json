@@ -1,0 +1,134 @@
+{
+  "artifact": "Answer Generation Runtime V1 full-chain integration",
+  "created_at_utc": "2026-08-15T05:52:24.528400+00:00",
+  "chain": "query -> RAG_RETRIEVAL_V1 -> EVIDENCE_SUFFICIENCY_V1 -> CITATION_SUPPORT_V1 -> ANSWER_GENERATION_V1 -> structured grounded answer",
+  "network_access": false,
+  "formal_e2e_50_executed": false,
+  "historical_answer_used": false,
+  "case_count": 4,
+  "live_full_chain_case_count": 2,
+  "contract_fixture_count": 2,
+  "model_generation_call_count": 3,
+  "required_path_coverage_passed": true,
+  "cases": [
+    {
+      "case_id": "AG-INT-PARTIAL",
+      "path": "PARTIAL",
+      "fixture_type": null,
+      "retrieval_live": true,
+      "evidence_live": true,
+      "citation_live": true,
+      "model_called": true,
+      "checks": {
+        "answer_error_is_null": true,
+        "output_schema_exact": true,
+        "claim_schema_exact": true,
+        "answer_status_adheres": true,
+        "used_support_ids_valid": true,
+        "used_source_ids_derived": true,
+        "semantic_unsupported_claim_detection_false": true
+      },
+      "passed": true,
+      "support_status": "PARTIAL",
+      "answer_status": "PARTIAL_ANSWER",
+      "reason_codes": [
+        "LEXICAL_TRACE_REPAIRED",
+        "MODEL_CALLED",
+        "NON_SEMANTIC_SUPPORT_VALIDATION",
+        "PARTIAL_ANSWER_GENERATED",
+        "SUPPORT_PARTIAL"
+      ]
+    },
+    {
+      "case_id": "AG-INT-BLOCKED",
+      "path": "BLOCKED",
+      "fixture_type": null,
+      "retrieval_live": true,
+      "evidence_live": true,
+      "citation_live": true,
+      "model_called": false,
+      "checks": {
+        "answer_error_is_null": true,
+        "output_schema_exact": true,
+        "claim_schema_exact": true,
+        "answer_status_adheres": true,
+        "used_support_ids_valid": true,
+        "used_source_ids_derived": true,
+        "semantic_unsupported_claim_detection_false": true,
+        "blocked_no_model_call": true
+      },
+      "passed": true,
+      "support_status": "BLOCKED",
+      "answer_status": "REFUSAL",
+      "reason_codes": [
+        "MODEL_NOT_CALLED",
+        "SAFE_REFUSAL",
+        "SUPPORT_BLOCKED",
+        "UPSTREAM_BLOCKED"
+      ]
+    },
+    {
+      "case_id": "AG-INT-READY-FIXTURE",
+      "path": "READY",
+      "fixture_type": "CONTRACT_FIXTURE",
+      "fixture_reason": "the live frozen pipeline has no citation-ready READY case; frozen live Top-5 rows plus schema-valid Evidence fixture exercise only the downstream contract",
+      "retrieval_live": false,
+      "retrieval_rows_from_live_frozen_call": true,
+      "evidence_live": false,
+      "citation_live": true,
+      "model_called": true,
+      "checks": {
+        "answer_error_is_null": true,
+        "output_schema_exact": true,
+        "claim_schema_exact": true,
+        "answer_status_adheres": true,
+        "used_support_ids_valid": true,
+        "used_source_ids_derived": true,
+        "semantic_unsupported_claim_detection_false": true,
+        "contract_fixture_declared": true,
+        "repeatable_excluding_latency": true
+      },
+      "passed": true,
+      "support_status": "READY",
+      "answer_status": "FULL_ANSWER",
+      "reason_codes": [
+        "FULL_ANSWER_GENERATED",
+        "MODEL_CALLED",
+        "NON_SEMANTIC_SUPPORT_VALIDATION",
+        "SUPPORT_READY"
+      ]
+    },
+    {
+      "case_id": "AG-INT-INJECTION-FIXTURE",
+      "path": "SAFETY",
+      "fixture_type": "CONTRACT_FIXTURE",
+      "fixture_reason": "synthetic Top-5/Evidence provenance contains an explicit prompt-injection string",
+      "retrieval_live": false,
+      "evidence_live": false,
+      "citation_live": true,
+      "model_called": false,
+      "checks": {
+        "output_schema_exact": true,
+        "claim_schema_exact": true,
+        "deterministic_refusal": true,
+        "injection_no_model_call": true,
+        "used_support_ids_valid": true,
+        "used_source_ids_derived": true,
+        "semantic_unsupported_claim_detection_false": true,
+        "contract_fixture_declared": true,
+        "injection_guard_triggered": true,
+        "injection_not_executed": true,
+        "system_prompt_not_leaked": true
+      },
+      "passed": true,
+      "support_status": "READY",
+      "answer_status": "REFUSAL",
+      "reason_codes": [
+        "MODEL_NOT_CALLED",
+        "PROMPT_INJECTION_GUARD",
+        "SAFE_REFUSAL"
+      ]
+    }
+  ],
+  "overall_status": "PASS"
+}

@@ -1,0 +1,52 @@
+{
+  "scope": "ORIGINAL_V0_VS_HYBRID_RECONCILED",
+  "metrics": {
+    "evidence_sufficient_count": {
+      "original": 43,
+      "reconciled": 34,
+      "delta": -9
+    },
+    "clean_subset_size": {
+      "original": 43,
+      "reconciled": 34,
+      "delta": -9
+    },
+    "clean_correctness_mean_0_to_2": {
+      "original": 1.186046511627907,
+      "reconciled": 1.2058823529411764,
+      "delta": 0.01983584131326932
+    },
+    "completeness": {
+      "original": 0.3798449612403101,
+      "reconciled": "NOT_DIRECTLY_COMPARABLE",
+      "delta": "NOT_DIRECTLY_COMPARABLE"
+    },
+    "unsupported_claim_rate": {
+      "original": 0.2366412213740458,
+      "reconciled": "NOT_DIRECTLY_COMPARABLE",
+      "delta": "NOT_DIRECTLY_COMPARABLE"
+    },
+    "citation_coverage": {
+      "original": 0.0916030534351145,
+      "reconciled": "NOT_DIRECTLY_COMPARABLE",
+      "delta": "NOT_DIRECTLY_COMPARABLE"
+    },
+    "evidence_non_sufficient_count": {
+      "original": 7,
+      "reconciled": 16,
+      "delta": 9
+    },
+    "generation_primary_failure_count": {
+      "original": 49,
+      "reconciled": 44
+    },
+    "correct_refusal_count": {
+      "original": "PROXY_NOT_STRICTLY_COMPARABLE",
+      "reconciled": 2
+    },
+    "wrong_refusal_count": {
+      "original": 1,
+      "reconciled": 1
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "artifact": "Knowledge Base V1 final integrity verification",
+  "chunk_count": 488,
+  "created_at_utc": "2026-08-14T18:26:58.896489+00:00",
+  "embedding_shape": [
+    488,
+    512
+  ],
+  "failures": [],
+  "historical_files_checked": 2875,
+  "historical_snapshot_sha256": "7077cf1cedb66fd20c979cbb7c05a92cd16f6f9dc4ceeb35506fcce6d463c06c",
+  "knowledge_base_status": "KNOWLEDGE_BASE_V1_FROZEN",
+  "rag_retrieval_status": "RAG_RETRIEVAL_V1_FROZEN",
+  "source_count": 122,
+  "status": "PASS"
+}
