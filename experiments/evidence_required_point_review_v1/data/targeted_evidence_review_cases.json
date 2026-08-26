@@ -1,0 +1,17 @@
+[
+  {
+    "case_id": "DEMO002",
+    "query": "我想了解清华大学奖学金申请需要满足哪些基本条件。",
+    "expected_behavior": "SHOULD_PARTIAL"
+  },
+  {
+    "case_id": "DEMO013",
+    "query": "请告诉我清华奖学金获奖后学校会做什么。",
+    "expected_behavior": "SHOULD_PARTIAL"
+  },
+  {
+    "case_id": "POS003",
+    "query": "申请清华大学奖学金要符合哪些基本条件？",
+    "expected_behavior": "SHOULD_ANSWER"
+  }
+]

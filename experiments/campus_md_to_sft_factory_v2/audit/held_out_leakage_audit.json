@@ -1,0 +1,6 @@
+{
+  "protected_case_ids": ["DEMO002", "POS003", "DEMO013"],
+  "held_out_leakage": 0,
+  "status": "PASS",
+  "method": "case/query/evidence family scan against frozen held-out protection"
+}

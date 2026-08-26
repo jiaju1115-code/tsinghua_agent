@@ -1,0 +1,21 @@
+{
+  "baseline_date": "2026-08-16",
+  "timezone": "Asia/Shanghai",
+  "vocabulary": [
+    "ACTIVE",
+    "UPCOMING",
+    "EXPIRED",
+    "ONGOING",
+    "UNKNOWN",
+    "NOT_APPLICABLE"
+  ],
+  "counts": {
+    "UNKNOWN": 643,
+    "ACTIVE": 41,
+    "EXPIRED": 149,
+    "NOT_APPLICABLE": 19,
+    "ONGOING": 71,
+    "UPCOMING": 1
+  },
+  "extraction_rule": "deterministic regex only"
+}

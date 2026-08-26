@@ -1,0 +1,241 @@
+{
+  "models": [
+    "gpt-5.6-luna",
+    "gpt-5.5",
+    "gpt-5.4",
+    "gpt-5.4-mini",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra"
+  ],
+  "matrix": [
+    {
+      "model_id": "gpt-5.6-luna",
+      "chat_stream_status": 504,
+      "chat_stream_result": "FAIL",
+      "chat_stream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 61.538751,
+        "total_seconds": 61.539611,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:11:15 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: close\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0ad9458f525da-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      },
+      "chat_nonstream_status": 504,
+      "chat_nonstream_result": "FAIL",
+      "chat_nonstream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 61.585772,
+        "total_seconds": 61.586456,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:11:15 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: close\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0ad945985cbab-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      },
+      "responses_api_result": "FAIL",
+      "responses_api": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 60.964941,
+        "total_seconds": 60.965718,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:13:17 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: close\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0b094f804b152-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      }
+    },
+    {
+      "model_id": "gpt-5.5",
+      "chat_stream_status": 504,
+      "chat_stream_result": "FAIL",
+      "chat_stream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 61.348364,
+        "total_seconds": 61.349161,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:11:15 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: close\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0ad931e0b8626-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      },
+      "chat_nonstream_status": 504,
+      "chat_nonstream_result": "FAIL",
+      "chat_nonstream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 61.570162,
+        "total_seconds": 61.571458,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:11:15 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: keep-alive\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0ad931dd19ab6-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      },
+      "responses_api_result": "FAIL",
+      "responses_api": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 60.976761,
+        "total_seconds": 60.977499,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:14:18 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: keep-alive\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0b2126d77f039-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      }
+    },
+    {
+      "model_id": "gpt-5.4",
+      "chat_stream_status": 504,
+      "chat_stream_result": "FAIL",
+      "chat_stream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 60.943776,
+        "total_seconds": 60.944325,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:11:14 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: keep-alive\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0ad945913f50e-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      },
+      "chat_nonstream_status": 504,
+      "chat_nonstream_result": "FAIL",
+      "chat_nonstream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 61.195076,
+        "total_seconds": 61.195899,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:11:14 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: keep-alive\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0ad94495ad908-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      }
+    },
+    {
+      "model_id": "gpt-5.4-mini",
+      "chat_stream_status": 504,
+      "chat_stream_result": "FAIL",
+      "chat_stream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 60.701724,
+        "total_seconds": 60.703169,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:12:15 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: close\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0af11ee43cbaa-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      },
+      "chat_nonstream_status": 504,
+      "chat_nonstream_result": "FAIL",
+      "chat_nonstream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 61.860732,
+        "total_seconds": 61.861597,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:12:16 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: keep-alive\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0af13be793760-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      }
+    },
+    {
+      "model_id": "gpt-5.6-sol",
+      "chat_nonstream_status": 504,
+      "chat_nonstream_result": "FAIL",
+      "chat_nonstream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 61.143716,
+        "total_seconds": 61.145303,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:12:15 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: close\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0af12ebe03dc4-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      },
+      "chat_stream_status": 504,
+      "chat_stream_result": "FAIL",
+      "chat_stream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 61.180354,
+        "total_seconds": 61.18139,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:12:16 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: keep-alive\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0af15bb3c19ff-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      }
+    },
+    {
+      "model_id": "gpt-5.6-terra",
+      "chat_nonstream_status": 504,
+      "chat_nonstream_result": "FAIL",
+      "chat_nonstream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 60.702679,
+        "total_seconds": 60.703973,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:12:16 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: keep-alive\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0af145b0bdab4-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      },
+      "chat_stream_status": 504,
+      "chat_stream_result": "FAIL",
+      "chat_stream": {
+        "status": 504,
+        "curl_exit_code": 0,
+        "first_byte_seconds": 60.702087,
+        "total_seconds": 60.703672,
+        "content_type": "text/plain; charset=UTF-8",
+        "response_headers": "HTTP/1.1 200 Connection established\n\nHTTP/1.1 504 Gateway Timeout\nDate: Sun, 16 Aug 2026 13:12:16 GMT\nContent-Type: text/plain; charset=UTF-8\nContent-Length: 16\nConnection: keep-alive\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\nReferrer-Policy: same-origin\nX-Frame-Options: SAMEORIGIN\nServer: cloudflare\nCF-RAY: a2c0af145b5e4fd6-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+        "response_body": "error code: 504\n",
+        "sse_detected": false,
+        "done_detected": false,
+        "assistant_content_received": false,
+        "response_error": null
+      }
+    }
+  ],
+  "conclusion": "MOMOAPI_GENERATION_UNAVAILABLE",
+  "secret_recorded": false,
+  "campus_markdown_sent": false
+}

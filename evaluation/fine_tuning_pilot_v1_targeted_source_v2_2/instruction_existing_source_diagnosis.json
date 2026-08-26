@@ -1,0 +1,61 @@
+{
+  "family": "INSTRUCTION_VALUE_FIDELITY",
+  "target_new": 263,
+  "verified_accepted": 40,
+  "remaining": 223,
+  "sources": [
+    {
+      "source": "nvidia/Nemotron-Instruction-Following-Chat-v1",
+      "requested": 220,
+      "replayed": 0,
+      "normalized": 220,
+      "accepted": 2,
+      "rejected": 218,
+      "review": 0,
+      "unresolved": 220,
+      "verified_accepted": 0,
+      "actual_yield": 0.0,
+      "reject_reasons": {
+        "HIDDEN_COT_DEPENDENCY": 179,
+        "TOO_LONG": 39
+      },
+      "main_reject_cause": "Explicit reasoning dependency and excessive length; repository JSON representation also prevented raw-hash replay.",
+      "decision": "STOP"
+    },
+    {
+      "source": "allenai/tulu-3-sft-personas-instruction-following",
+      "requested": 120,
+      "replayed": 120,
+      "normalized": 120,
+      "accepted": 23,
+      "rejected": 97,
+      "review": 0,
+      "unresolved": 0,
+      "verified_accepted": 23,
+      "actual_yield": 0.1917,
+      "reject_reasons": {
+        "WRONG_FAMILY": 94,
+        "ALIGNMENT_FAIL": 3
+      },
+      "main_reject_cause": "Most prompts are general/persona constraint following rather than exact value or field fidelity.",
+      "decision": "MINOR"
+    },
+    {
+      "source": "databricks/databricks-dolly-15k",
+      "requested": 60,
+      "replayed": 60,
+      "normalized": 60,
+      "accepted": 17,
+      "rejected": 43,
+      "review": 0,
+      "unresolved": 0,
+      "verified_accepted": 17,
+      "actual_yield": 0.2833,
+      "reject_reasons": {
+        "WRONG_FAMILY": 43
+      },
+      "main_reject_cause": "Extraction/classification subset is often ordinary instruction/QA rather than strict preservation or structured transformation.",
+      "decision": "MINOR"
+    }
+  ]
+}

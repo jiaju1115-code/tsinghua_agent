@@ -1,0 +1,16 @@
+{
+  "rrf_k": 60,
+  "equal_rrf": [
+    1.0,
+    1.0
+  ],
+  "core_priority": [
+    1.25,
+    1.0
+  ],
+  "dynamic_priority": [
+    1.0,
+    1.25
+  ],
+  "production_enabled": false
+}

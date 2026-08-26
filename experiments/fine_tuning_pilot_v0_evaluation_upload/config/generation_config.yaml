@@ -1,0 +1,10 @@
+seed: 42
+do_sample: false
+temperature: null
+top_p: null
+max_new_tokens: 512
+use_cache: true
+torch_dtype: bfloat16
+local_files_only: true
+system_prompt: |
+  You are a careful Tsinghua University information assistant. Answer only from the supplied evidence. If the evidence is insufficient, say so clearly. Cite supporting source IDs in square brackets, for example [KBV1-CHUNK-...]. Do not invent facts or citations.

@@ -1,0 +1,109 @@
+{
+  "version": "EVIDENCE_PARAPHRASE_CANDIDATE_COMPARISON_V1",
+  "candidates": [
+    {
+      "candidate": "BASELINE",
+      "target_recovery": "0/3",
+      "target_recovery_rate": 0.0,
+      "paraphrase_recovery": 0,
+      "false_promote_count": 0,
+      "false_promote_rate": 0.0,
+      "positive_retention_rate": 1.0,
+      "refusal_retention_rate": 1.0,
+      "insufficient_retention_rate": 1.0,
+      "hard_negative_accuracy": 0.3333333333333333,
+      "recovery_by_case": {
+        "DEMO002": "INSUFFICIENT",
+        "POS003": "INSUFFICIENT",
+        "DEMO013": "INSUFFICIENT"
+      },
+      "rule_complexity": {
+        "new_rule_count": 0,
+        "case_specific_literals": false,
+        "threshold_changed": false
+      },
+      "deterministic": true
+    },
+    {
+      "candidate": "ENTITY_GUARD",
+      "target_recovery": "2/3",
+      "target_recovery_rate": 0.6666666666666666,
+      "paraphrase_recovery": 0,
+      "false_promote_count": 0,
+      "false_promote_rate": 0.0,
+      "positive_retention_rate": 1.0,
+      "refusal_retention_rate": 1.0,
+      "insufficient_retention_rate": 1.0,
+      "hard_negative_accuracy": 1.0,
+      "recovery_by_case": {
+        "DEMO002": "PARTIAL",
+        "POS003": "PARTIAL",
+        "DEMO013": "INSUFFICIENT"
+      },
+      "rule_complexity": {
+        "new_rule_count": 1,
+        "case_specific_literals": false,
+        "threshold_changed": false
+      },
+      "deterministic": true
+    },
+    {
+      "candidate": "PARAPHRASE_NORMALIZATION",
+      "target_recovery": "1/3",
+      "target_recovery_rate": 0.3333333333333333,
+      "paraphrase_recovery": 1,
+      "false_promote_count": 0,
+      "false_promote_rate": 0.0,
+      "positive_retention_rate": 1.0,
+      "refusal_retention_rate": 1.0,
+      "insufficient_retention_rate": 1.0,
+      "hard_negative_accuracy": 1.0,
+      "recovery_by_case": {
+        "DEMO002": "INSUFFICIENT",
+        "POS003": "INSUFFICIENT",
+        "DEMO013": "PARTIAL"
+      },
+      "rule_complexity": {
+        "new_rule_count": 1,
+        "case_specific_literals": false,
+        "threshold_changed": false
+      },
+      "deterministic": true
+    },
+    {
+      "candidate": "SEMANTIC_RESCUE",
+      "target_recovery": "1/3",
+      "target_recovery_rate": 0.3333333333333333,
+      "paraphrase_recovery": 1,
+      "false_promote_count": 0,
+      "false_promote_rate": 0.0,
+      "positive_retention_rate": 1.0,
+      "refusal_retention_rate": 1.0,
+      "insufficient_retention_rate": 1.0,
+      "hard_negative_accuracy": 1.0,
+      "recovery_by_case": {
+        "DEMO002": "INSUFFICIENT",
+        "POS003": "INSUFFICIENT",
+        "DEMO013": "PARTIAL"
+      },
+      "rule_complexity": {
+        "new_rule_count": 1,
+        "case_specific_literals": false,
+        "threshold_changed": false
+      },
+      "deterministic": true
+    }
+  ],
+  "best_by_target_recovery": "ENTITY_GUARD",
+  "safe_gate": {
+    "false_promote_zero": true,
+    "refusal_retention_preserved": true,
+    "hard_negative_accuracy": {
+      "BASELINE": 0.3333333333333333,
+      "ENTITY_GUARD": 1.0,
+      "PARAPHRASE_NORMALIZATION": 1.0,
+      "SEMANTIC_RESCUE": 1.0
+    }
+  },
+  "decision": "SAFE_CANDIDATE_IDENTIFIED"
+}

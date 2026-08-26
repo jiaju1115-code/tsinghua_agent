@@ -1,0 +1,60 @@
+{
+  "confirmed": [
+    {
+      "dataset": "NousResearch/hermes-function-calling-v1",
+      "sha": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+      "file": "func-calling.json",
+      "config": "func_calling",
+      "split": "train",
+      "license": "apache-2.0",
+      "fit": 4.25,
+      "candidate_count": 190,
+      "yield": 0.65,
+      "expected": 124,
+      "generation": "Synthetic; NousResearch/interstellarninja-led structured function-calling and extraction generation",
+      "validation": "Schema-oriented structured generation; V2.2 quality gate must revalidate every row",
+      "tier": "CONFIRMED_SOURCE",
+      "replay": "REPLAY_FEASIBILITY_PASS",
+      "template_risk": "MODERATE",
+      "leakage_risk": "LOW",
+      "license_status": "PASS"
+    },
+    {
+      "dataset": "Team-ACE/ToolACE",
+      "sha": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+      "file": "data.json",
+      "config": "default",
+      "split": "train",
+      "license": "apache-2.0",
+      "fit": 4.25,
+      "candidate_count": 180,
+      "yield": 0.65,
+      "expected": 117,
+      "generation": "Synthetic self-evolution pipeline over a 26,507-API pool",
+      "validation": "Dual-layer rule/model verification reported by publisher; V2.2 quality gate must revalidate every row",
+      "tier": "CONFIRMED_SOURCE",
+      "replay": "REPLAY_FEASIBILITY_PASS",
+      "template_risk": "MODERATE",
+      "leakage_risk": "LOW",
+      "license_status": "PASS"
+    }
+  ],
+  "provisional": [
+    {
+      "dataset": "Salesforce/xlam-function-calling-60k",
+      "full_commit_sha": "26d14ebfe18b1f7b524bd39b404b50af5dc97866",
+      "license": "cc-by-4.0",
+      "fit_score": 4.5,
+      "tier": "PROVISIONAL_SOURCE",
+      "reason": "Gated repository terms not accepted in this environment; pinned data-file replay failed before preview."
+    },
+    {
+      "dataset": "HuggingFaceTB/smoltalk",
+      "full_commit_sha": "5feaf2fd3ffca7c237fc38d1861bc30365d48ffa",
+      "license": "UNKNOWN",
+      "fit_score": 4.5,
+      "tier": "PROVISIONAL_SOURCE",
+      "reason": "Pinned smol-constraints replay passed, but dataset card does not declare a dataset license."
+    }
+  ]
+}

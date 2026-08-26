@@ -1,0 +1,7 @@
+{
+  "GSM8K": "EVAL_ONLY",
+  "MMLU": "EVAL_ONLY",
+  "AI2_ARC": "EVAL_ONLY",
+  "training_rows_from_frozen_eval": 0,
+  "status": "PASS"
+}

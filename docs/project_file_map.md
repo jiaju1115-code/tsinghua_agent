@@ -24,6 +24,20 @@
 | `data_second/prompt_v3_2_blind_test_v1/` | `evaluation/prompt_v3_2_blind_test_v1/` | Frozen Prompt V3.2 blind test | frozen |
 | `data_second/citation_pipeline_v*/` | `evaluation/citation/v*/` | Citation experiments | experimental |
 | `data_second/public_rebuild_v1/` | `experiments/public_rebuild_v1/` | Rebuild experiment | historical experiment |
+| -- | `data/04_kb_expansion_candidate/dynamic_campus_v1/` | Dynamic Campus Candidate V1: frozen raw input, normalized candidates, recovery/audit outputs, manifests, and report | active candidate / not runtime |
+| -- | `data/05_kb_staging/dynamic_campus_v1/` | Independent Dynamic KB Staging V1 sources, chunks, manifests, and reports | shadow staging / not Core KB |
+| -- | `experiments/dynamic_retriever_v0/` | Independent Dynamic BM25/Dense/Hybrid Retriever V0 configuration and indexes | experimental / not production |
+| -- | `evaluation/dynamic_retrieval_shadow_v0/` | Dynamic-only shadow cases, metrics, leakage cases, and integration readiness | experimental / shadow only |
+| -- | `experiments/core_dynamic_shadow_v1/` | Core + Dynamic shadow fusion contracts and adapters; never production-enabled | experimental / shadow only |
+| -- | `evaluation/core_dynamic_e2e_shadow_v1/` | Mixed 80-case proxy/schema shadow evaluation | experimental / proxy only |
+| -- | `evaluation/core_dynamic_e2e_runtime_shadow_v1/` | Actual Frozen Runtime execution audit, failures, metrics, and readiness | experimental / runtime shadow only |
+| -- | `experiments/frozen_bundle_v1_1_candidate/` | Approved canonical cross-platform Frozen Bundle V1.1, portability audit, fail-closed shadow loader, and provenance | active recommended freeze / legacy V1 unchanged |
+| -- | `experiments/runtime_v1_architecture_audit/` | Current Runtime V1 architecture inventory, wiring audit, duplicate-runtime inventory, and integration gap report | active audit / no production runtime |
+| -- | `src/runtime_v1/` | User-facing Runtime V1 façade, approved Frozen Bundle V1.1 loader glue, and minimal CLI | production candidate / Dense-only chain; answer-ready path blocked by frozen Prompt raw-hash contract |
+| -- | `experiments/runtime_v1_integration/` | Bounded Runtime V1 smoke and historical stable-field equivalence outputs | integration validation only |
+| -- | `src/runtime_v1/demo_cli.py` | Thin presentation-only Enhanced CLI for Runtime V1 demonstrations | demo interface / no business logic |
+| -- | `experiments/demo_runtime_validation_v1/` | 15-question natural-language Demo validation set, results, failure inventory, readiness summary, and report | demo validation / bounded |
+| -- | `experiments/answer_v1_prompt_freeze_v1_1/` | Approved Answer Prompt Freeze V1.1 canonical-text portability manifest, mismatch inventory, semantic audit, and tests | approved portability contract / Prompt semantics unchanged |
 | legacy prompt tests and residual files | `archive/deprecated_or_legacy/` | Retained non-mainline research history | archived |
 | root Codex scripts | `scripts/` | Historical operational scripts | historical |
 

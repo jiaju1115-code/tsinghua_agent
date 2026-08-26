@@ -1,0 +1,27 @@
+{
+  "overall": {
+    "total": 33,
+    "accuracy": 0.303,
+    "support_precision": 0.5217,
+    "support_recall": 0.9231
+  },
+  "safety": {
+    "false_promote_count": 11,
+    "false_promote_rate": 0.55,
+    "true_entity_preservation": 0.8182,
+    "mixed_case_accuracy": 0.6,
+    "hard_negative_accuracy": 0.0
+  },
+  "utility": {
+    "pseudo_entity_recovery": 0.7143,
+    "DEMO002_recovery": "PARTIAL",
+    "POS003_recovery": "PARTIAL"
+  },
+  "retention": {
+    "positive_count": 13,
+    "positive_accuracy": 0.7692,
+    "refusal_insufficient_count": 20,
+    "refusal_insufficient_accuracy": 0.0
+  },
+  "conclusion": "ENTITY_GUARD_REJECTED_FOR_SAFETY"
+}

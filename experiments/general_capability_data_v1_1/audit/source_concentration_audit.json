@@ -1,0 +1,9 @@
+{
+  "source_distribution": {
+    "OpenAssistant/oasst1": 181,
+    "TIGER-Lab/MathInstruct": 299,
+    "Surpem/GEmO": 200
+  },
+  "source_concentration_risk": false,
+  "programmatic_math_share": 0.294
+}

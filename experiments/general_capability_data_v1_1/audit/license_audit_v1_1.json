@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "datasets_used": {
+    "OpenAssistant/oasst1": "LICENSE_OK",
+    "TIGER-Lab/MathInstruct": "LICENSE_OK",
+    "Surpem/GEmO": "LICENSE_OK"
+  },
+  "subset_level_gate": "PASS",
+  "downloaded_rows": 805
+}

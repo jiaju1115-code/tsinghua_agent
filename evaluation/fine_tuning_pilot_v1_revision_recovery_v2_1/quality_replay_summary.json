@@ -1,0 +1,9 @@
+{
+  "transitions": {
+    "REJECT->None": 372,
+    "ACCEPT->None": 38,
+    "ACCEPT->ACCEPT": 364,
+    "REJECT->REJECT": 416
+  },
+  "same_quality_gate": true
+}

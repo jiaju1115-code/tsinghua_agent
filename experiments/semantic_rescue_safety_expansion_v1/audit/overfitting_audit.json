@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "case_id_in_code": false,
+    "benchmark_metadata_dependency": false,
+    "target_specific_synonym_rule": false,
+    "entity_guard_ignore_logic_reintroduced": false,
+    "threshold_derived_from_DEMO013": false
+  },
+  "notes": "All thresholds are aggregate dense-score percentiles. The gate uses generic constraint classes only."
+}

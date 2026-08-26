@@ -1,0 +1,28 @@
+{
+  "version": "ENTITY_GUARD_GENERALIZATION_AUDIT_V1",
+  "families": {
+    "A_PSEUDO_ENTITY_POSITIVE": {
+      "count": 7,
+      "accuracy": 0.7143
+    },
+    "B_TRUE_ENTITY_MISSING_NEGATIVE": {
+      "count": 7,
+      "accuracy": 0.0
+    },
+    "C_MIXED": {
+      "count": 5,
+      "accuracy": 0.6
+    },
+    "D_ADVERSARIAL_HARD_NEGATIVE": {
+      "count": 7,
+      "accuracy": 0.0
+    },
+    "REGRESSION": {
+      "count": 7,
+      "accuracy": 0.2857
+    }
+  },
+  "no_case_specific_patch": true,
+  "cause": "functional query prefixes may be ignored only when retained entity evidence remains present",
+  "complexity": "unchanged original candidate; no refined candidate created"
+}

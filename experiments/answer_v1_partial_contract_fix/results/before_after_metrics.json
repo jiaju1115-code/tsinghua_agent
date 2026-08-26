@@ -1,0 +1,13 @@
+{
+  "version": "ANSWER_V1_PARTIAL_CONTRACT_BEFORE_AFTER_V1",
+  "before": {
+    "positive_answer_rate": 0.5,
+    "full_support_rate": 0.25,
+    "runtime_completion": 0.625,
+    "citation_presence": 1.0,
+    "paraphrase_robustness": "1/3"
+  },
+  "after": null,
+  "status": "ANSWER_PARTIAL_CONTRACT_FIX_BLOCKED",
+  "reason": "No safe production fix was applied because the three real outputs violate the frozen model-output contract; an after metric would be misleading without changing Prompt/model semantics or weakening fail-closed validation."
+}

@@ -1,0 +1,168 @@
+{
+  "freeze_id": "PILOT_V1_GENERAL_REPLAY_FROZEN",
+  "status": "FROZEN",
+  "seed": 42,
+  "files": {
+    "general_replay_v1.jsonl": {
+      "path": "general_replay_v1.jsonl",
+      "sha256": "47f24ab1f0a20ebc25a6783e69fc44bdb36ad362eee9395bc852d29a391fb767",
+      "bytes": 2873179,
+      "lines": 1200
+    },
+    "train.jsonl": {
+      "path": "train.jsonl",
+      "sha256": "5b6d47f9ab88493b095cba0e7eb2fa5757f5b338ba0086d4756046e40eb07ec2",
+      "bytes": 2636954,
+      "lines": 1080
+    },
+    "validation.jsonl": {
+      "path": "validation.jsonl",
+      "sha256": "b58eeae79b33e228d1b62cf254f7b317d36400ffc9609457491820cce5edff6c",
+      "bytes": 236225,
+      "lines": 120
+    },
+    "accepted_surplus.jsonl": {
+      "path": "accepted_surplus.jsonl",
+      "sha256": "e4146cabd39ce4b9ec17f9a7080a1d40320c90fbb8d1486305ab044f6906dc2b",
+      "bytes": 161058,
+      "lines": 53
+    },
+    "source_provenance.jsonl": {
+      "path": "source_provenance.jsonl",
+      "sha256": "5a4e1191553d285f4a01c5eccd01ef62f5be4139f65f9c19f4e44ffa29bd1fee",
+      "bytes": 666796,
+      "lines": 1200
+    },
+    "license_manifest.json": {
+      "path": "license_manifest.json",
+      "sha256": "a0af694a8f7fba8e9d97ca9ff6c6069ea342c0597d01063bb51d85733df3f747",
+      "bytes": 2540,
+      "lines": null
+    },
+    "final_dataset_manifest.json": {
+      "path": "final_dataset_manifest.json",
+      "sha256": "98b85fab2c2560005e97491804ce19bdb51af9acca6027a80fefa79f1b584d75",
+      "bytes": 3034,
+      "lines": null
+    }
+  },
+  "general_v0_1_leakage": {
+    "accepted_overlap_count": 0,
+    "eval_rows": 100,
+    "eval_sha256": "937f03412296f537d92a90c09e2626fcc14343dc74174d00e27441c063dacb71"
+  },
+  "train_validation_overlap": {
+    "status": "PASS",
+    "exact_overlap": 0,
+    "normalized_overlap": 0,
+    "lexical_near_overlap": 0,
+    "lexical_threshold": 0.9,
+    "lexical_pairs": [],
+    "semantic_near_overlap": 0,
+    "semantic_method": "local char_wb TF-IDF cosine",
+    "semantic_threshold": 0.985
+  },
+  "input_integrity": {
+    "status": "PASS",
+    "before": {
+      "data\\fine_tuning_v1\\general_capability_candidates_v1_2": {
+        "sha256": "db2df77fa8de1deaa4910b48e8edd88de823c11e8611d9d18d243a9a598d359b",
+        "files": 9
+      },
+      "evaluation\\fine_tuning_pilot_v1_data_preflight\\proposed_keep.jsonl": {
+        "sha256": "34c56e4d9ebb25688f8fa365b26da5b9462b65aab9c41f003adad0b4c66065d0",
+        "bytes": 182480
+      },
+      "evaluation\\fine_tuning_pilot_v1_data_preflight\\proposed_drop.jsonl": {
+        "sha256": "f5cdb46cebccbe085d4f4b03232afa78290dfbcb09560bb71d4fa0249df65fa3",
+        "bytes": 189304
+      },
+      "evaluation\\fine_tuning_pilot_v1_acquisition_v2": {
+        "sha256": "45d5c61f0ecf123d4f8990ff51d71e663677d69e8d115513bda4310ee34ff5be",
+        "files": 10
+      },
+      "evaluation\\fine_tuning_pilot_v1_revision_recovery_v2_1": {
+        "sha256": "7d667276a582136b45f47f7e37e70b9cbf519c7f326ea0be37d978a166c3530e",
+        "files": 8
+      },
+      "evaluation\\fine_tuning_pilot_v1_targeted_source_v2_2": {
+        "sha256": "29f6176b0a7bf6d903b9f61b72c92b1ca879b08a861e310d2dc3e208adca400b",
+        "files": 12
+      },
+      "data\\03_fine_tuning\\pilot_v1\\general_acquisition_v2": {
+        "sha256": "f5bf52a8650d32a88ff37b1739c314a33fbf9275ef4a791f9a069575d23fea2a",
+        "files": 6
+      },
+      "data\\03_fine_tuning\\pilot_v1\\general_acquisition_v2_1_revision_recovery": {
+        "sha256": "79982768b9d5598b255f7f77d58d38351a3071fbe3a1a5935fc262a28e04ef80",
+        "files": 5
+      },
+      "data\\03_fine_tuning\\pilot_v1\\opencode_revision_recovery_v2_2": {
+        "sha256": "06fa188f907d8147517e0402ea6e6f72c74e2efdfb1117311f4639d3f4a81f78",
+        "files": 6
+      },
+      "experiments\\fine_tuning_pilot_v0_upload\\config\\training_config.yaml": {
+        "sha256": "8c9b1ebe1d144edfcf1d70384cb50542602569a2abca02e6c10c1647793f3af7",
+        "bytes": 745
+      },
+      "experiments\\fine_tuning_pilot_v0_upload\\scripts\\preprocess.py": {
+        "sha256": "c7d7b7725093a914b383a351586247763d12d9f4b6b5be28a34f72eac8e1e430",
+        "bytes": 1713
+      },
+      "experiments\\fine_tuning_pilot_v0_evaluation_upload\\data\\general\\general_eval_v0_1.jsonl": {
+        "sha256": "937f03412296f537d92a90c09e2626fcc14343dc74174d00e27441c063dacb71",
+        "bytes": 41136
+      }
+    },
+    "after": {
+      "data\\fine_tuning_v1\\general_capability_candidates_v1_2": {
+        "sha256": "db2df77fa8de1deaa4910b48e8edd88de823c11e8611d9d18d243a9a598d359b",
+        "files": 9
+      },
+      "evaluation\\fine_tuning_pilot_v1_data_preflight\\proposed_keep.jsonl": {
+        "sha256": "34c56e4d9ebb25688f8fa365b26da5b9462b65aab9c41f003adad0b4c66065d0",
+        "bytes": 182480
+      },
+      "evaluation\\fine_tuning_pilot_v1_data_preflight\\proposed_drop.jsonl": {
+        "sha256": "f5cdb46cebccbe085d4f4b03232afa78290dfbcb09560bb71d4fa0249df65fa3",
+        "bytes": 189304
+      },
+      "evaluation\\fine_tuning_pilot_v1_acquisition_v2": {
+        "sha256": "45d5c61f0ecf123d4f8990ff51d71e663677d69e8d115513bda4310ee34ff5be",
+        "files": 10
+      },
+      "evaluation\\fine_tuning_pilot_v1_revision_recovery_v2_1": {
+        "sha256": "7d667276a582136b45f47f7e37e70b9cbf519c7f326ea0be37d978a166c3530e",
+        "files": 8
+      },
+      "evaluation\\fine_tuning_pilot_v1_targeted_source_v2_2": {
+        "sha256": "29f6176b0a7bf6d903b9f61b72c92b1ca879b08a861e310d2dc3e208adca400b",
+        "files": 12
+      },
+      "data\\03_fine_tuning\\pilot_v1\\general_acquisition_v2": {
+        "sha256": "f5bf52a8650d32a88ff37b1739c314a33fbf9275ef4a791f9a069575d23fea2a",
+        "files": 6
+      },
+      "data\\03_fine_tuning\\pilot_v1\\general_acquisition_v2_1_revision_recovery": {
+        "sha256": "79982768b9d5598b255f7f77d58d38351a3071fbe3a1a5935fc262a28e04ef80",
+        "files": 5
+      },
+      "data\\03_fine_tuning\\pilot_v1\\opencode_revision_recovery_v2_2": {
+        "sha256": "06fa188f907d8147517e0402ea6e6f72c74e2efdfb1117311f4639d3f4a81f78",
+        "files": 6
+      },
+      "experiments\\fine_tuning_pilot_v0_upload\\config\\training_config.yaml": {
+        "sha256": "8c9b1ebe1d144edfcf1d70384cb50542602569a2abca02e6c10c1647793f3af7",
+        "bytes": 745
+      },
+      "experiments\\fine_tuning_pilot_v0_upload\\scripts\\preprocess.py": {
+        "sha256": "c7d7b7725093a914b383a351586247763d12d9f4b6b5be28a34f72eac8e1e430",
+        "bytes": 1713
+      },
+      "experiments\\fine_tuning_pilot_v0_evaluation_upload\\data\\general\\general_eval_v0_1.jsonl": {
+        "sha256": "937f03412296f537d92a90c09e2626fcc14343dc74174d00e27441c063dacb71",
+        "bytes": 41136
+      }
+    }
+  }
+}

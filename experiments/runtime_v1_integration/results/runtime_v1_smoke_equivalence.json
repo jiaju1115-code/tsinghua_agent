@@ -1,0 +1,32 @@
+{
+  "runtime_version": "RUNTIME_V1",
+  "freeze": "FROZEN_BUNDLE_V1.1",
+  "case_count": 2,
+  "all_passed": true,
+  "results": [
+    {
+      "case_id": "E2E001",
+      "checks": {
+        "retriever_top5_present": true,
+        "evidence_decision_equal": true,
+        "citation_status_equal": true,
+        "answer_status_equal": true,
+        "answer_text_equal": true,
+        "refusal_policy_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "E2E002",
+      "checks": {
+        "retriever_top5_present": true,
+        "evidence_decision_equal": true,
+        "citation_status_equal": true,
+        "answer_status_equal": true,
+        "answer_text_equal": true,
+        "refusal_policy_preserved": true
+      },
+      "passed": true
+    }
+  ]
+}

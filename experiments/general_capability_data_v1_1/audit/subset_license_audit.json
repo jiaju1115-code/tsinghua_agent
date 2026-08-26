@@ -1,0 +1,6 @@
+{
+  "oasst1_default_train": "LICENSE_OK",
+  "mathinstruct_train": "LICENSE_OK",
+  "gemo_train": "LICENSE_OK",
+  "benchmark_eval_splits": "EXCLUDED"
+}

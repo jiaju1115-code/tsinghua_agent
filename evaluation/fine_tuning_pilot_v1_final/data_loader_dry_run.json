@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "model_loaded": false,
+  "tokenizer_only": true,
+  "samples": [
+    {
+      "id": "NEW-86c222ef4cad33bcfbfff847",
+      "prompt_tokens": 133,
+      "full_tokens": 138
+    },
+    {
+      "id": "TOP-5896aeb2f79fb67d",
+      "prompt_tokens": 74,
+      "full_tokens": 562
+    },
+    {
+      "id": "GEN-9319c9e2b245f6e0",
+      "prompt_tokens": 59,
+      "full_tokens": 188
+    },
+    {
+      "id": "GEN-8804119d2f6a5368",
+      "prompt_tokens": 43,
+      "full_tokens": 92
+    },
+    {
+      "id": "NEW-f8a3ce340506da8ab0feab4a",
+      "prompt_tokens": 301,
+      "full_tokens": 316
+    },
+    {
+      "id": "GEN-47d4d801bdeb48c4",
+      "prompt_tokens": 62,
+      "full_tokens": 192
+    }
+  ]
+}

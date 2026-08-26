@@ -1,0 +1,64 @@
+{
+  "version": "ANSWER_V1_CONSTRAINED_RUNTIME_REGRESSION_V1",
+  "known_failures": {
+    "POS002": {
+      "final_status": "COMPLETED",
+      "answer_status": "PARTIAL_ANSWER",
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    "POS006": {
+      "final_status": "COMPLETED",
+      "answer_status": "PARTIAL_ANSWER",
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    "POS008": {
+      "final_status": "COMPLETED",
+      "answer_status": "PARTIAL_ANSWER",
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    }
+  },
+  "positive_set": {
+    "count": 8,
+    "runtime_errors": 0,
+    "answer_count": 7
+  },
+  "full_answer_regression": {
+    "cases": [
+      "POS001",
+      "POS005"
+    ],
+    "passed": true
+  },
+  "partial_answer_regression": {
+    "cases": [
+      "POS004",
+      "POS007"
+    ],
+    "passed": true
+  },
+  "refusal_regression": {
+    "cases": [
+      "POS003",
+      "DEMO005",
+      "DEMO012"
+    ],
+    "passed": true,
+    "runtime_results_artifact": "refusal_regression_runtime_results.json"
+  },
+  "legacy_replay": {
+    "default_generate_answer_constraint": null,
+    "status": "PASS_BY_API_SEAM_TEST"
+  },
+  "fail_closed": {
+    "invalid_status": "PASS",
+    "illegal_support_id": "PASS",
+    "duplicate_required_point": "PASS",
+    "missing_required_point": "PASS",
+    "malformed_object": "PASS",
+    "unsupported_citation_provenance": "PASS"
+  },
+  "pre_existing_unrelated_failures": [
+    "Prompt Freeze exception-message matching",
+    "Demo CLI encoding/text assertion"
+  ]
+}

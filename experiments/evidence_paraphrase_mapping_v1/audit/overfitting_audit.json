@@ -1,0 +1,16 @@
+{
+  "version": "EVIDENCE_PARAPHRASE_OVERFITTING_AUDIT_V1",
+  "checks": {
+    "case_id_references_in_candidate_code": false,
+    "target_query_literals_in_candidate_code": false,
+    "target_specific_synonyms": false,
+    "threshold_tuned_to_0166667": false,
+    "benchmark_metadata_dependency": false,
+    "case_specific_branching": false
+  },
+  "candidate_rule_notes": {
+    "ENTITY_GUARD": "generic suffix-in-document recovery; no target strings",
+    "PARAPHRASE_NORMALIZATION": "generic function-word reduction; no domain-specific synonym",
+    "SEMANTIC_RESCUE": "borderline score plus existing dense rank guard; experiment-only"
+  }
+}

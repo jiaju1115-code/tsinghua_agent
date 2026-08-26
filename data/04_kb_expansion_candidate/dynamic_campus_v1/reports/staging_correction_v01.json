@@ -1,0 +1,10 @@
+{
+  "canonical_count": 920,
+  "cross_dedup_counts": {
+    "UNIQUE_DYNAMIC": 920
+  },
+  "final_dynamic_sources": 920,
+  "final_dynamic_chunks": 2429,
+  "excluded_exact_core_duplicate_ids": [],
+  "conclusion": "The 920/916 discrepancy was not reproduced: current deterministic cross-dedup has 0 EXACT_CORE_DUPLICATE; the 4 groups in canonicalization are internal duplicate groups, not Core matches."
+}

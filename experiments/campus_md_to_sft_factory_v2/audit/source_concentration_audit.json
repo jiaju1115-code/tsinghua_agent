@@ -1,0 +1,5 @@
+{
+  "candidate_count_per_parent_md": {"max": 2, "mean": 1.924},
+  "source_concentration_risk": false,
+  "sampling_cap_recommendation": "retain current cap; review before future expansion"
+}

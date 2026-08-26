@@ -1,0 +1,89 @@
+{
+  "all_pass": true,
+  "sources": [
+    {
+      "source": "AIML-TUDA/SLR-Bench",
+      "license": "CC-BY-4.0",
+      "revision": "cecc0aa2602943ead28a4ea74c7a8f3c91264cbf",
+      "status": "PASS",
+      "selected_count": 39
+    },
+    {
+      "source": "NousResearch/hermes-function-calling-v1",
+      "license": "Apache-2.0",
+      "revision": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+      "status": "PASS",
+      "selected_count": 121
+    },
+    {
+      "source": "OpenAssistant/oasst1",
+      "license": "Apache-2.0",
+      "revision": "fdf72ae0827c1cda404aff25b6603abec9e3399b",
+      "status": "PASS",
+      "selected_count": 242
+    },
+    {
+      "source": "Surpem/GEmO",
+      "license": "MIT",
+      "revision": "fd553b069ca17bbbcfe13dbb49912aba155606b2",
+      "status": "PASS",
+      "selected_count": 120
+    },
+    {
+      "source": "TIGER-Lab/MathInstruct",
+      "license": "MIT",
+      "revision": "b4fdc323a7be1379c9c7c0b67b1de72dfee2111a",
+      "status": "PASS",
+      "selected_count": 60
+    },
+    {
+      "source": "Team-ACE/ToolACE",
+      "license": "Apache-2.0",
+      "revision": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+      "status": "PASS",
+      "selected_count": 102
+    },
+    {
+      "source": "allenai/tulu-3-sft-personas-instruction-following",
+      "license": "ODC-BY-1.0",
+      "revision": "fe0c7d350c9b4542b8d829a6f1daa1c259f0ba0e",
+      "status": "PASS",
+      "selected_count": 35
+    },
+    {
+      "source": "databricks/databricks-dolly-15k",
+      "license": "CC-BY-SA-3.0",
+      "revision": "bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a",
+      "status": "PASS",
+      "selected_count": 65
+    },
+    {
+      "source": "google-research-datasets/mbpp",
+      "license": "CC-BY-4.0",
+      "revision": "4bb6404fdc6cacfda99d4ac4205087b89d32030c",
+      "status": "PASS",
+      "selected_count": 41
+    },
+    {
+      "source": "nvidia/OpenCodeInstruct",
+      "license": "CC-BY-4.0",
+      "revision": "8f3ba5bafe4d6e8db46082cf7ae6741bc370604d",
+      "status": "PASS",
+      "selected_count": 46
+    },
+    {
+      "source": "rajpurkar/squad",
+      "license": "CC-BY-SA-4.0",
+      "revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+      "status": "PASS",
+      "selected_count": 179
+    },
+    {
+      "source": "tasksource/ruletaker",
+      "license": "Apache-2.0",
+      "revision": "a3e0880baeb6ec3d478f4c4d85afe04b21b6cf7f",
+      "status": "PASS",
+      "selected_count": 150
+    }
+  ]
+}

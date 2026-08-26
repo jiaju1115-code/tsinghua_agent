@@ -1,0 +1,24 @@
+{
+  "status": "POST_TRAINING_BLIND_GENERAL_EVAL_V0_FROZEN",
+  "creation_timestamp_utc": "2026-08-17T03:36:59.407290+00:00",
+  "post_training_constructed": true,
+  "blind_before_inference": true,
+  "not_used_for_training_or_validation": true,
+  "not_selected_based_on_model_outputs": true,
+  "generator_version": "1.0",
+  "generator_seed": 20260817,
+  "raw_sha256": "6f0ada253cc3aaf12f75c134e7138dc7f34adb36d7505af0d9bf51aaa415429a",
+  "normalized_sha256": "6f0ada253cc3aaf12f75c134e7138dc7f34adb36d7505af0d9bf51aaa415429a",
+  "case_count": 100,
+  "family_distribution": {
+    "GENERAL_INSTRUCTION": 20,
+    "MATHEMATICAL_REASONING": 20,
+    "LINEAR_ALGEBRA": 12,
+    "CALCULUS": 10,
+    "PROBABILITY_STATISTICS": 10,
+    "GENERAL_REASONING": 15,
+    "BASIC_CODE": 8,
+    "BASIC_SCIENCE": 5
+  },
+  "scoring_version": "POST_TRAINING_BLIND_GENERAL_EVAL_V0_SCORING_1"
+}

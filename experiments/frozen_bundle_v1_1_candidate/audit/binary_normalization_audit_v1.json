@@ -1,0 +1,36 @@
+[
+  {
+    "file_path": "data/03_knowledge_base/v1/audit/knowledge_base_v1_freeze.json",
+    "encoding": "UTF-8",
+    "bom": false,
+    "trailing_newline": true,
+    "trailing_whitespace_lines": 0,
+    "variant_sha256": {
+      "raw": "8c4ee077c44d99c580c043abd8818dd50720d484746cb31049ed00af02f94cbd",
+      "lf_normalized": "e54315552f65458570ca9d4108e8e592e8638a331f21012e92e120f87b0edf8b",
+      "crlf_normalized": "8c4ee077c44d99c580c043abd8818dd50720d484746cb31049ed00af02f94cbd",
+      "bom_removed": "8c4ee077c44d99c580c043abd8818dd50720d484746cb31049ed00af02f94cbd",
+      "final_newline_lf": "e54315552f65458570ca9d4108e8e592e8638a331f21012e92e120f87b0edf8b"
+    },
+    "expected_exact_variant": "lf_normalized",
+    "git_blob_equals_lf_normalized": true,
+    "parsed_json_equal_to_git_blob": true
+  },
+  {
+    "file_path": "data/03_knowledge_base/v1/audit/rag_retrieval_v1_freeze.json",
+    "encoding": "UTF-8",
+    "bom": false,
+    "trailing_newline": true,
+    "trailing_whitespace_lines": 0,
+    "variant_sha256": {
+      "raw": "b403174e361cfd5915c319e1e60713925fbf6895bec16b4a7096134c1018a479",
+      "lf_normalized": "37364781a7061fd10cdf0fd75d29b22c620999e4afe24aabab6357318766e76d",
+      "crlf_normalized": "b403174e361cfd5915c319e1e60713925fbf6895bec16b4a7096134c1018a479",
+      "bom_removed": "b403174e361cfd5915c319e1e60713925fbf6895bec16b4a7096134c1018a479",
+      "final_newline_lf": "37364781a7061fd10cdf0fd75d29b22c620999e4afe24aabab6357318766e76d"
+    },
+    "expected_exact_variant": "lf_normalized",
+    "git_blob_equals_lf_normalized": true,
+    "parsed_json_equal_to_git_blob": true
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "lf_crlf_canonical_equal": true,
+  "real_prompt_verification": true,
+  "content_mutation_detected": true,
+  "template_contract_token_mutation_detected": true,
+  "whitespace_mutation_detected": true,
+  "render_equivalence": true
+}

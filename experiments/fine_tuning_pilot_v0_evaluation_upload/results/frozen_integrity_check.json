@@ -1,0 +1,7 @@
+{
+  "status": "SEMANTIC_MATCH_RAW_HASH_MISMATCH",
+  "expected_sha256": "8194d0272a29fce8b5f97fea65c4efb47f96b0dc93b04f4a3da1865fa588582f",
+  "actual_raw_sha256": "958887cf2ce556f85e37cfd281e985980d6dae4f7fc6f381d8da0cbd95483a16",
+  "normalized_lf_sha256": "8194d0272a29fce8b5f97fea65c4efb47f96b0dc93b04f4a3da1865fa588582f",
+  "action": "Raw canonical bytes were not found. Evaluation is permitted only with prominent provenance warning because the historical digest matches normalized LF bytes."
+}

@@ -1,0 +1,24 @@
+{
+  "campus_grounded": {
+    "human_gold": "NOT_YET_ACQUIRED",
+    "confirmed_hard_negatives": 16,
+    "valid_partial_candidates": 20,
+    "positive_supported_cases": "NOT_YET_INVENTORIED",
+    "paraphrase_positives": "NOT_YET_INVENTORIED",
+    "historical_failures": "NOT_YET_INVENTORIED",
+    "retriever_mined_near_negatives": "NOT_YET_ACQUIRED",
+    "entity_numeric_temporal_negation_safety_cases": 16,
+    "ood_cases": 1
+  },
+  "general_capability": {
+    "general_instruction_qa": "NOT_YET_ACQUIRED",
+    "calculus": "NOT_YET_ACQUIRED",
+    "linear_algebra": "NOT_YET_ACQUIRED",
+    "probability_statistics": "NOT_YET_ACQUIRED",
+    "reasoning": "NOT_YET_ACQUIRED",
+    "basic_science": "NOT_YET_ACQUIRED",
+    "optional_code": "NOT_YET_ACQUIRED"
+  },
+  "not_a_final_split": true,
+  "held_out_protection": "ALL_HELD_OUT_ISOLATED"
+}

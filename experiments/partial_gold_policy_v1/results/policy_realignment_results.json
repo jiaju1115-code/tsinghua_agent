@@ -1,0 +1,8 @@
+{
+  "policy_mismatch_total": 7,
+  "POLICY_REALIGNMENT_PROPOSED": 7,
+  "POLICY_AMBIGUOUS": 0,
+  "f04_status": "PROVENANCE_ATTRIBUTION_ERROR_CONFIRMED",
+  "human_review_status": "RESOLVED_BY_POLICY_V1",
+  "note": "No historical labels or evaluation metadata were overwritten."
+}

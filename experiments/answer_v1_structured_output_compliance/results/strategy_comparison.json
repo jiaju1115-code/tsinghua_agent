@@ -1,0 +1,22 @@
+{
+  "version": "ANSWER_V1_STRUCTURED_OUTPUT_STRATEGY_COMPARISON_V1",
+  "scope": "POS002/POS006/POS008; original Answer V1 validator unchanged",
+  "metrics_definition": {
+    "contract_pass": "final Answer status is PARTIAL_ANSWER and Runtime status is COMPLETED",
+    "safety": "original validator remains final authority; no unsupported repair observed",
+    "latency": "Runtime total latency including generation",
+    "baseline_note": "current deterministic baseline captured once per case; temperature 0 and fixed seed make repeated baseline runs redundant for this audit"
+  },
+  "strategies": [
+    {"strategy": "BASELINE", "contract_pass": "0/3", "pass_rate": 0.0, "safety": "PASS_FAIL_CLOSED", "extra_model_calls": 0, "avg_latency_ms": 16830.5, "max_latency_ms": 18836.4, "recommendation": "baseline only"},
+    {"strategy": "CONSTRAINED_DECODING", "contract_pass": "3/3", "pass_rate": 1.0, "safety": "PASS_FAIL_CLOSED_AND_VALIDATOR_PRESERVED", "extra_model_calls": 0, "avg_latency_ms": 16260.7, "max_latency_ms": 25942.8, "recommendation": "RECOMMEND_EXPERIMENTAL_ONLY"},
+    {"strategy": "BOUNDED_RETRY", "contract_pass": "1/3", "pass_rate": 0.3333, "safety": "PASS_FAIL_CLOSED_BUT_INCOMPLETE", "extra_model_calls": 3, "avg_latency_ms": 26564.0, "max_latency_ms": 30518.1, "recommendation": "NOT_RECOMMENDED"},
+    {"strategy": "DETERMINISTIC_GENERATION", "contract_pass": "NOT_APPLICABLE", "pass_rate": null, "safety": "CURRENT_BASELINE_ALREADY_TEMPERATURE_0_FIXED_SEED", "extra_model_calls": 0, "avg_latency_ms": null, "max_latency_ms": null, "recommendation": "NOT_APPLICABLE"}
+  ],
+  "case_results": {
+    "CONSTRAINED_DECODING": {"POS002": "PASS_PARTIAL_ANSWER", "POS006": "PASS_PARTIAL_ANSWER", "POS008": "PASS_PARTIAL_ANSWER"},
+    "BOUNDED_RETRY": {"POS002": "PASS_PARTIAL_ANSWER", "POS006": "FAIL_DUPLICATE_REQUIRED_POINT", "POS008": "FAIL_MISSING_ALLOWED_POINT"}
+  },
+  "unsupported_repair_count": 0,
+  "production_runtime_integrated": false
+}

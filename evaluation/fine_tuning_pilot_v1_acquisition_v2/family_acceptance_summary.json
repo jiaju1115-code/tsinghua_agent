@@ -1,0 +1,47 @@
+[
+  {
+    "family": "INSTRUCTION_VALUE_FIDELITY",
+    "target_gap": 263,
+    "candidates": 400,
+    "accepted": 42,
+    "rejected": 358,
+    "remaining": 221,
+    "observed_yield": 0.105
+  },
+  {
+    "family": "GENERAL_QA_SCIENCE_READING",
+    "target_gap": 209,
+    "candidates": 320,
+    "accepted": 152,
+    "rejected": 168,
+    "remaining": 57,
+    "observed_yield": 0.475
+  },
+  {
+    "family": "GENERAL_REASONING",
+    "target_gap": 189,
+    "candidates": 300,
+    "accepted": 102,
+    "rejected": 198,
+    "remaining": 87,
+    "observed_yield": 0.34
+  },
+  {
+    "family": "WRITING_MULTILINGUAL",
+    "target_gap": 30,
+    "candidates": 50,
+    "accepted": 42,
+    "rejected": 8,
+    "remaining": 0,
+    "observed_yield": 0.84
+  },
+  {
+    "family": "CODING",
+    "target_gap": 87,
+    "candidates": 120,
+    "accepted": 64,
+    "rejected": 56,
+    "remaining": 23,
+    "observed_yield": 0.5333
+  }
+]

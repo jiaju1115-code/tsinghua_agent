@@ -1,0 +1,12 @@
+{
+  "same_base_model": true,
+  "same_tokenizer": true,
+  "same_decoding": true,
+  "same_prompts": true,
+  "same_seed": true,
+  "adapter_only_experimental_variable": true,
+  "adapter_inference_only": true,
+  "general_uses_campus_system_prompt": false,
+  "single_gpu_only": true,
+  "trainer_or_deepspeed_dependency": false
+}

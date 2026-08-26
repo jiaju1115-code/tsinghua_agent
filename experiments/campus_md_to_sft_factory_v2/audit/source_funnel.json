@@ -1,0 +1,9 @@
+{
+  "canonical_md_total": 122,
+  "public_training_eligible": 119,
+  "restricted_or_nonpublic": 3,
+  "exclusions": {
+    "restricted_or_nonpublic": 3
+  },
+  "selected": 119
+}

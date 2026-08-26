@@ -1,0 +1,48 @@
+{
+  "initial_plan": {
+    "NousResearch/hermes-function-calling-v1": 190,
+    "Team-ACE/ToolACE": 180,
+    "rajpurkar/squad": 50,
+    "databricks/databricks-dolly-15k": 110,
+    "tasksource/ruletaker": 120,
+    "AIML-TUDA/SLR-Bench": 45,
+    "google-research-datasets/mbpp": 15,
+    "nvidia/OpenCodeInstruct": 25
+  },
+  "adaptive_bounds": {
+    "instruction_hermes_rows_read": 320,
+    "instruction_toolace_rows_read": 300,
+    "squad_additional_rows_read": 30,
+    "google-research-datasets/mbpp": 15,
+    "nvidia/OpenCodeInstruct": 25,
+    "mbpp_adaptive_max": 35
+  },
+  "accepted_topup": {
+    "INSTRUCTION_VALUE_FIDELITY": 246,
+    "GENERAL_QA_SCIENCE_READING": 63,
+    "GENERAL_REASONING": 96,
+    "CODING": 26
+  },
+  "selected_topup": {
+    "INSTRUCTION_VALUE_FIDELITY": 223,
+    "GENERAL_QA_SCIENCE_READING": 57,
+    "GENERAL_REASONING": 87,
+    "CODING": 23
+  },
+  "rejected": 77,
+  "reject_reasons": {
+    "EXACT_DUPLICATE": 17,
+    "GOLD_AMBIGUOUS": 60,
+    "CODE_TEST_FAIL_OR_UNSAFE": 30
+  },
+  "review": 0,
+  "not_admitted_after_buffer_reached": 385,
+  "dedup": {
+    "reasons": {
+      "EXACT_DUPLICATE": 17,
+      "GOLD_AMBIGUOUS": 60
+    },
+    "semantic_method": "local char_wb TF-IDF cosine",
+    "semantic_threshold": 0.985
+  }
+}

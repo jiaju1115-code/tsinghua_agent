@@ -1,0 +1,5 @@
+{
+  "equal_rrf": "SAFE_DEFAULT",
+  "core_priority": "RECORDED",
+  "dynamic_priority": "RECORDED"
+}

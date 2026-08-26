@@ -1,0 +1,12 @@
+general:
+  status: POST_TRAINING_BLIND_GENERAL_EVAL_V0_FROZEN
+  source: data/general/general_eval_v0.jsonl
+  case_count: 100
+  reason: Post-training constructed, blind before inference, machine-checkable, and audited against the complete 841-row training/validation pool.
+campus:
+  layer_a_status: PREPARED_WITH_SEMANTIC_MATCH_RAW_HASH_MISMATCH
+  source: data/campus/e2e_50_cases.jsonl + data/campus/retrieval_replay.jsonl
+  frozen: true
+  scoring: deterministic_rule_based_proxy_no_external_llm
+  layer_b_status: NOT_EXECUTED
+  layer_b_reason: Replacing only the generation model in the frozen production runtime is not established by this package.

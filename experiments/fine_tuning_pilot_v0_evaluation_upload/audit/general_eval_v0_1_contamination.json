@@ -1,0 +1,32 @@
+{
+  "case_count": 100,
+  "checks": [
+    "exact ID overlap",
+    "source_row overlap",
+    "exact text overlap",
+    "normalized text overlap",
+    "high lexical overlap >= 0.80",
+    "generated-parameter overlap"
+  ],
+  "train": {
+    "label": "train",
+    "rows": 757,
+    "overlap_count": 0,
+    "findings": []
+  },
+  "validation": {
+    "label": "validation",
+    "rows": 84,
+    "overlap_count": 0,
+    "findings": []
+  },
+  "unified_pool": {
+    "label": "unified_pool",
+    "rows": 841,
+    "overlap_count": 0,
+    "findings": []
+  },
+  "TRAIN_OVERLAP": 0,
+  "VALIDATION_OVERLAP": 0,
+  "status": "PASS"
+}

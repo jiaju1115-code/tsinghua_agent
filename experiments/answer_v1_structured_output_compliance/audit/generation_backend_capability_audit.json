@@ -1,0 +1,37 @@
+{
+  "version": "GENERATION_BACKEND_CAPABILITY_AUDIT_V1",
+  "backend": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "model_file": "~/.cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct-GGUF/snapshots/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "engine": "llama-cpp-python",
+    "engine_version": "0.3.34",
+    "device": "CPU",
+    "current_api": "Llama.create_chat_completion"
+  },
+  "generation_settings": {
+    "temperature": 0.0,
+    "seed": 20260815,
+    "repeat_penalty": 1.05,
+    "max_tokens": 256,
+    "top_p": "not explicitly set; backend default",
+    "top_k": "not explicitly set; backend default",
+    "stop_tokens": "not explicitly set",
+    "json_mode": true,
+    "json_schema": true,
+    "grammar_argument": true,
+    "deterministic_candidate": true
+  },
+  "capabilities_verified_from_installed_api": {
+    "json_mode": true,
+    "json_schema_response_format": true,
+    "native_grammar": true,
+    "dynamic_json_schema_to_gbnf": true,
+    "cross_field_semantic_constraints": false,
+    "runtime_support_inventory_in_schema": "experimental dynamic schema only"
+  },
+  "source": [
+    "src/answer_generation_v1/model_adapter.py",
+    "evaluation/answer_generation/runtime_v1/config/answer_generation_v1.json",
+    "installed llama_cpp signatures for Llama.create_chat_completion and LlamaGrammar.from_json_schema"
+  ]
+}

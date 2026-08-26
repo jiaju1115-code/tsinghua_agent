@@ -1,0 +1,72 @@
+[
+  {
+    "priority": "CRITICAL",
+    "family": "INSTRUCTION_VALUE_FIDELITY",
+    "current_keep": 37,
+    "target_final": 300,
+    "minimum_accepted_needed": 263,
+    "recommended_candidate_acquisition_range": "658-1052",
+    "desired_characteristics": "exact value copying, extraction, transformation, schema/format constraints, multi-condition compliance",
+    "exclusions": "subjective essays, evaluation paraphrases, repetitive JSON templates; always exclude General V0.1 overlap/paraphrases/near-duplicates and malformed labels"
+  },
+  {
+    "priority": "CRITICAL",
+    "family": "GENERAL_QA_SCIENCE_READING",
+    "current_keep": 55,
+    "target_final": 264,
+    "minimum_accepted_needed": 209,
+    "recommended_candidate_acquisition_range": "523-836",
+    "desired_characteristics": "stable factual QA, basic science, passage-grounded reading with verifiable short answers",
+    "exclusions": "time-sensitive facts, unsupported open-domain claims, ambiguous references; always exclude General V0.1 overlap/paraphrases/near-duplicates and malformed labels"
+  },
+  {
+    "priority": "CRITICAL",
+    "family": "GENERAL_REASONING",
+    "current_keep": 51,
+    "target_final": 240,
+    "minimum_accepted_needed": 189,
+    "recommended_candidate_acquisition_range": "473-756",
+    "desired_characteristics": "deterministic logic, ordering, set/symbolic and finite-state tasks with unique verifiable answers",
+    "exclusions": "pure arithmetic, benchmark leakage, labels requiring hidden chain-of-thought; always exclude General V0.1 overlap/paraphrases/near-duplicates and malformed labels"
+  },
+  {
+    "priority": "HIGH",
+    "family": "WRITING_MULTILINGUAL",
+    "current_keep": 90,
+    "target_final": 120,
+    "minimum_accepted_needed": 30,
+    "recommended_candidate_acquisition_range": "75-120",
+    "desired_characteristics": "clean multilingual instruction following, concise rewriting, controlled generation with objective constraints",
+    "exclusions": "unverifiable long-form preference labels, low-quality machine translation; always exclude General V0.1 overlap/paraphrases/near-duplicates and malformed labels"
+  },
+  {
+    "priority": "MEDIUM",
+    "family": "CODING",
+    "current_keep": 9,
+    "target_final": 96,
+    "minimum_accepted_needed": 87,
+    "recommended_candidate_acquisition_range": "218-348",
+    "desired_characteristics": "diverse safe pure functions with executable unit tests and clean code-only targets",
+    "exclusions": "shell/network/filesystem tasks, duplicated reverse-string templates; always exclude General V0.1 overlap/paraphrases/near-duplicates and malformed labels"
+  },
+  {
+    "priority": "DO_NOT_ADD",
+    "family": "PROGRAMMATIC_MATH",
+    "current_keep": 120,
+    "target_final": 120,
+    "minimum_accepted_needed": 0,
+    "recommended_candidate_acquisition_range": "0",
+    "desired_characteristics": "no acquisition; retain template-diverse representative subset only",
+    "exclusions": "all new programmatic math; always exclude General V0.1 overlap/paraphrases/near-duplicates and malformed labels"
+  },
+  {
+    "priority": "DO_NOT_ADD",
+    "family": "OTHER_MATH",
+    "current_keep": 60,
+    "target_final": 60,
+    "minimum_accepted_needed": 0,
+    "recommended_candidate_acquisition_range": "0",
+    "desired_characteristics": "no acquisition in this phase; retain diverse non-programmatic subset",
+    "exclusions": "additional math until non-math gaps are filled; always exclude General V0.1 overlap/paraphrases/near-duplicates and malformed labels"
+  }
+]

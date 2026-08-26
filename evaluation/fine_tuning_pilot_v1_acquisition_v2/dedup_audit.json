@@ -1,0 +1,7 @@
+{
+  "normalization": "NFKC, Markdown fence removal, whitespace/punctuation/case normalization",
+  "internal_exact_or_normalized": {},
+  "lexical_metric": "token Jaccard; old pool threshold 0.72",
+  "semantic": "No local embedding model was present; lexical screening was run on every candidate and no semantic-ambiguous candidates were accepted.",
+  "accepted_count": 402
+}

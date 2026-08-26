@@ -1,0 +1,25 @@
+{
+  "readiness": "DEMO_READY_WITH_LIMITATIONS",
+  "reason": "bounded natural-language validation through Runtime V1",
+  "summary": {
+    "validation_version": "DEMO_RUNTIME_VALIDATION_V1",
+    "total_questions": 15,
+    "scenario_counts": {
+      "PARTIAL": 6,
+      "INSUFFICIENT": 7,
+      "OOD": 2
+    },
+    "runtime_completion_rate": 1.0,
+    "expected_behavior_match_rate": 0.8,
+    "citation_presence_rate_answered": 1.0,
+    "refusal_count": 12,
+    "latency_ms": {
+      "min": 17.643,
+      "median": 24.711,
+      "max": 15927.731
+    },
+    "failure_counts": {
+      "EXPECTED_BEHAVIOR_MISMATCH": 3
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": "PARTIAL_POLICY_RECONSTRUCTION_V1",
+  "sources": [
+    "src/evidence_sufficiency_v1/runtime.py",
+    "src/evidence_sufficiency_v1/schema.py",
+    "evaluation/evidence_sufficiency/v1/README.md",
+    "src/citation_support_v1/policy.py",
+    "src/answer_generation_v1/validation.py"
+  ],
+  "decisions": {
+    "SUFFICIENT": "Every parsed core point is SUPPORTED; explicitly requested attributes are present.",
+    "PARTIAL": "At least one point is SUPPORTED or PARTIALLY_SUPPORTED; documentation permits incomplete core points or requested attributes. Runtime marks a point PARTIALLY_SUPPORTED at lexical score >= 0.18 with no missing extracted entity, even when requested attributes are missing.",
+    "NOT_SUPPORTED": "Point-level status used when score < partial threshold or an extracted entity is missing.",
+    "INSUFFICIENT": "No point supported, retrieval/input failure, or detected evidence conflict; sends REQUIRE_REFUSAL.",
+    "REFUSAL": "Not an Evidence decision enum; downstream behavior for INSUFFICIENT/BLOCKED."
+  },
+  "answers_to_questions": {
+    "multiple_required_points": "Yes. Any supported/partial point yields PARTIAL when not all are fully supported.",
+    "single_point_incomplete": "Yes in implementation: a single point can be PARTIALLY_SUPPORTED from lexical score >= 0.18.",
+    "missing_entity": "No for extracted entities, but the extractor only recognizes organization-like patterns and does not model degree/scope/value constraints.",
+    "missing_attribute": "Yes: implementation allows PARTIALLY_SUPPORTED despite missing requested attributes; README describes this as an incomplete PARTIAL.",
+    "evidence_supports_only_part": "Yes, if the runtime calls that point usable support.",
+    "unresolved_qualifier": "Underspecified; only configured attribute conflicts and current-status checks are explicit.",
+    "partial_enters_answer_generation": "Yes. PARTIAL maps to ALLOW_PARTIAL_ANSWER and Answer permits only supported/PARTIALLY_SUPPORTED mapped units.",
+    "partial_answer_scope": "Citation/Answer contracts prohibit exposing unsupported point units, but they do not redefine the Evidence point threshold.",
+    "boundary": "INSUFFICIENT requires no support, conflict, or validation failure; PARTIAL is a lexical proxy boundary, not semantic entailment."
+  }
+}

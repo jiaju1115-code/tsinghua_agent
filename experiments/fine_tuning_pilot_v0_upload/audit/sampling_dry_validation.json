@@ -1,0 +1,93 @@
+{
+  "config_parse": "PASS",
+  "train_count": 757,
+  "epochs_simulated": 2,
+  "sampling_epochs": [
+    {
+      "epoch": 0,
+      "sample_count": 757,
+      "families": {
+        "BASIC_CODE": {
+          "sampled_count": 12,
+          "sampled_ratio": 0.015852
+        },
+        "CALCULUS": {
+          "sampled_count": 17,
+          "sampled_ratio": 0.022457
+        },
+        "GENERAL_INSTRUCTION": {
+          "sampled_count": 267,
+          "sampled_ratio": 0.352708
+        },
+        "GENERAL_REASONING": {
+          "sampled_count": 77,
+          "sampled_ratio": 0.101717
+        },
+        "LINEAR_ALGEBRA": {
+          "sampled_count": 108,
+          "sampled_ratio": 0.142668
+        },
+        "MATHEMATICAL_REASONING": {
+          "sampled_count": 265,
+          "sampled_ratio": 0.350066
+        },
+        "PROBABILITY_STATISTICS": {
+          "sampled_count": 11,
+          "sampled_ratio": 0.014531
+        }
+      },
+      "unique_examples_seen": 445,
+      "duplicate_exposure": 312,
+      "mathematical_reasoning_ratio": 0.350066,
+      "target_ratio": 0.35,
+      "status": "PASS"
+    },
+    {
+      "epoch": 1,
+      "sample_count": 757,
+      "families": {
+        "BASIC_CODE": {
+          "sampled_count": 13,
+          "sampled_ratio": 0.017173
+        },
+        "BASIC_SCIENCE": {
+          "sampled_count": 2,
+          "sampled_ratio": 0.002642
+        },
+        "CALCULUS": {
+          "sampled_count": 21,
+          "sampled_ratio": 0.027741
+        },
+        "GENERAL_INSTRUCTION": {
+          "sampled_count": 261,
+          "sampled_ratio": 0.344782
+        },
+        "GENERAL_REASONING": {
+          "sampled_count": 76,
+          "sampled_ratio": 0.100396
+        },
+        "LINEAR_ALGEBRA": {
+          "sampled_count": 106,
+          "sampled_ratio": 0.140026
+        },
+        "MATHEMATICAL_REASONING": {
+          "sampled_count": 265,
+          "sampled_ratio": 0.350066
+        },
+        "PROBABILITY_STATISTICS": {
+          "sampled_count": 13,
+          "sampled_ratio": 0.017173
+        }
+      },
+      "unique_examples_seen": 454,
+      "duplicate_exposure": 303,
+      "mathematical_reasoning_ratio": 0.350066,
+      "target_ratio": 0.35,
+      "status": "PASS"
+    }
+  ],
+  "optimizer_steps_per_epoch": 48,
+  "estimated_total_optimizer_steps": 96,
+  "no_forward_backward_executed": true,
+  "status": "PASS"
+}

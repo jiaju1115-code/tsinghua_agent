@@ -1,0 +1,20 @@
+{
+  "version": "ANSWER_V1_PARTIAL_CONTRACT_REGRESSION_V1",
+  "status": "PASS_TARGETED_REVIEW_BLOCKED_FIX",
+  "runtime_cases": {
+    "POS002": "FAIL_CLOSED_MODEL_SCHEMA_NONCOMPLIANCE",
+    "POS006": "FAIL_CLOSED_MODEL_SCHEMA_NONCOMPLIANCE",
+    "POS008": "FAIL_CLOSED_MODEL_SCHEMA_NONCOMPLIANCE"
+  },
+  "unit_regressions": {
+    "duplicate_required_point": "PASS_FAIL_CLOSED",
+    "wrong_support_mapping": "PASS_FAIL_CLOSED",
+    "missing_allowed_point": "PASS_FAIL_CLOSED",
+    "valid_partial_shape": "PASS_PARTIAL_SCOPE_PRESERVED"
+  },
+  "pytest": "3 passed",
+  "full_answer_cases": "NOT_RERUN_NO_FIX_APPLIED",
+  "refusal_cases": "NOT_RERUN_NO_FIX_APPLIED",
+  "malformed_output": "covered_by_existing_parser_contract_and targeted fail-closed policy; no relaxation made",
+  "unsupported_partial_output": "PASS_FAIL_CLOSED"
+}

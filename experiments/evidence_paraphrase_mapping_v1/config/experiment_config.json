@@ -1,0 +1,7 @@
+{
+  "version": "EVIDENCE_PARAPHRASE_MAPPING_EXPERIMENT_V1",
+  "production_evidence_thresholds": {"supported": 0.52, "partial": 0.18, "document_relevance": 0.08},
+  "candidates": ["BASELINE", "ENTITY_GUARD", "PARAPHRASE_NORMALIZATION", "SEMANTIC_RESCUE"],
+  "semantic_rescue_borderline": {"lower": 0.15, "upper_exclusive": 0.18, "min_dense_rank1": 0.60},
+  "safety_policy": {"any_new_false_promote_rejects_candidate": true, "production_integration": false}
+}

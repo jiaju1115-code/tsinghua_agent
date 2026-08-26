@@ -1,0 +1,24 @@
+{
+  "canonical_byte_equality": true,
+  "unicode_codepoint_equality": true,
+  "line_count_equal": true,
+  "placeholder_inventory_equal": true,
+  "placeholder_inventory": {},
+  "literal_instruction_equality": true,
+  "delimiter_equality": true,
+  "semantic_content_changed": false,
+  "rendered_prompt_equivalence": [
+    {
+      "case": "What official fact is supported?",
+      "canonical_model_input_equal": true
+    },
+    {
+      "case": "What is only partially supported?",
+      "canonical_model_input_equal": true
+    },
+    {
+      "case": "What cannot be supported?",
+      "canonical_model_input_equal": true
+    }
+  ]
+}

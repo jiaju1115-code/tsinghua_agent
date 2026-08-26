@@ -1,0 +1,15 @@
+{
+  "implementation": "Qwen chat-template prefix/full token alignment; labels are -100 for all prefix tokens and assistant completion IDs for completion tokens",
+  "chat_template": "Qwen2Tokenizer apply_chat_template with add_generation_prompt=True for the masked prefix",
+  "user_token_masked": "YES",
+  "system_token_masked": "YES",
+  "assistant_token_supervised": "YES",
+  "special_token_handling": "assistant role marker is prefix-masked; assistant completion and terminal im_end token are supervised",
+  "truncation_strategy": "retain assistant completion; truncate left-side prompt first; warn when completion alone exceeds max_length",
+  "dry_validation": {
+    "status": "PASS",
+    "prefix_tokens_masked": true,
+    "assistant_tokens_supervised": true,
+    "model_forward_backward_executed": false
+  }
+}

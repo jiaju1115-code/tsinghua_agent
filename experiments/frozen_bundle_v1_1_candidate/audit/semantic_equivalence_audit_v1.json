@@ -1,0 +1,89 @@
+{
+  "manifest_parsed_equality": true,
+  "manifest_ordering_equal": true,
+  "content_changes": false,
+  "nested_artifacts": [
+    {
+      "file": "config/chunking_v1.json",
+      "expected": "7dd4c3615679e2ce56fe394bedfb121c0b106e00d61945384f1f04b7487119ec",
+      "raw": "da7460ae1994af5c9fd162e28ecc4f464e905c7c4d82d628d2da5796f1ab7fae",
+      "canonical": "7dd4c3615679e2ce56fe394bedfb121c0b106e00d61945384f1f04b7487119ec",
+      "hash_mode": "CANONICAL_TEXT_V1",
+      "match": true,
+      "raw_match": false
+    },
+    {
+      "file": "chunks/chunks.jsonl",
+      "expected": "45b2f9c1eda6fd7e0e2deca1d8e1e2c4ae2075648bc74dfda5ab9f167abc6535",
+      "raw": "5609b8df081bd899a82591b8b21eae080ed587a8be8d71810e36a0dfc20e10da",
+      "canonical": "45b2f9c1eda6fd7e0e2deca1d8e1e2c4ae2075648bc74dfda5ab9f167abc6535",
+      "hash_mode": "CANONICAL_TEXT_V1",
+      "match": true,
+      "raw_match": false
+    },
+    {
+      "file": "manifests/chunk_manifest.jsonl",
+      "expected": "4ca0733c136d28cdf4c14c16ee8975d32fd9e47af7a6a4c652e1a462e6661e80",
+      "raw": "4e9678c64136bb0989563e097d6636a3ce6d2a5c7759ef2b418098b7d57e2f9f",
+      "canonical": "4ca0733c136d28cdf4c14c16ee8975d32fd9e47af7a6a4c652e1a462e6661e80",
+      "hash_mode": "CANONICAL_TEXT_V1",
+      "match": true,
+      "raw_match": false
+    },
+    {
+      "file": "manifests/source_manifest.jsonl",
+      "expected": "ad9754265f5ebf9778b1e732acd0146f96e3a0e2fc1f54190dcdd687ed86ee74",
+      "raw": "59d162c336910164ca94b440108f5c82f91ce5d9aefca78d4f1e67e92a309d6e",
+      "canonical": "ad9754265f5ebf9778b1e732acd0146f96e3a0e2fc1f54190dcdd687ed86ee74",
+      "hash_mode": "CANONICAL_TEXT_V1",
+      "match": true,
+      "raw_match": false
+    },
+    {
+      "file": "provenance/source_provenance.jsonl",
+      "expected": "ad9754265f5ebf9778b1e732acd0146f96e3a0e2fc1f54190dcdd687ed86ee74",
+      "raw": "59d162c336910164ca94b440108f5c82f91ce5d9aefca78d4f1e67e92a309d6e",
+      "canonical": "ad9754265f5ebf9778b1e732acd0146f96e3a0e2fc1f54190dcdd687ed86ee74",
+      "hash_mode": "CANONICAL_TEXT_V1",
+      "match": true,
+      "raw_match": false
+    },
+    {
+      "file": "index/index_manifest.json",
+      "expected": "545b4a873fdc11499b44a28aadf18e67ead84747df017d7acad8e836a0553480",
+      "raw": "46ba1e1ae5a613af5b51fc70f6e8fb534b64d72fa2e9b0fc97964509e2657272",
+      "canonical": "545b4a873fdc11499b44a28aadf18e67ead84747df017d7acad8e836a0553480",
+      "hash_mode": "CANONICAL_TEXT_V1",
+      "match": true,
+      "raw_match": false
+    },
+    {
+      "file": "config/retriever_v1.json",
+      "expected": "2b091a71f3d318023584aaad903db2eeac14b0562dd7e62b3fa91dbd4f3dec6b",
+      "raw": "081b33411fba504b225df507a105527c26f979c438de5aa48e5dccc6e6e5e31f",
+      "canonical": "2b091a71f3d318023584aaad903db2eeac14b0562dd7e62b3fa91dbd4f3dec6b",
+      "hash_mode": "CANONICAL_TEXT_V1",
+      "match": true,
+      "raw_match": false
+    },
+    {
+      "file": "index/document_embeddings.npy",
+      "expected": "369edb25725c790f832883dedc82b8eb4d42304e48ed00d8568a2d0fdc852888",
+      "raw": "369edb25725c790f832883dedc82b8eb4d42304e48ed00d8568a2d0fdc852888",
+      "canonical": "369edb25725c790f832883dedc82b8eb4d42304e48ed00d8568a2d0fdc852888",
+      "hash_mode": "RAW_BINARY",
+      "match": true,
+      "raw_match": true
+    },
+    {
+      "file": "index/model/model.safetensors",
+      "expected": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+      "raw": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+      "canonical": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026",
+      "hash_mode": "RAW_BINARY",
+      "match": true,
+      "raw_match": true
+    }
+  ],
+  "all_nested_match": true
+}

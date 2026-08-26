@@ -1,0 +1,7 @@
+{
+  "status": "FAIL",
+  "http_status": 0,
+  "error": "curl transport failure",
+  "body_prefix": "",
+  "secret_recorded": false
+}

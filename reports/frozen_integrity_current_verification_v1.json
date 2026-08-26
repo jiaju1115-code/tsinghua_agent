@@ -1,0 +1,62 @@
+{
+  "verification": "FROZEN_INTEGRITY_CURRENT_VERIFICATION_V1",
+  "checked_at": "2026-08-17",
+  "decision": "FROZEN_INTEGRITY_CONFIRMED",
+  "canonical_text_hash_mode": "CANONICAL_TEXT_V1",
+  "git_reference": "75a6b89d7a0c2550f6dc3805b5e37feeec61f176",
+  "checkout_context": {
+    "core_autocrlf": "true",
+    "explanation": "The Windows working tree has CRLF line endings while the frozen hash records the LF Git blob."
+  },
+  "files": [
+    {
+      "path": "data/03_knowledge_base/v1/manifests/source_manifest.jsonl",
+      "original_frozen_sha256": "ad9754265f5ebf9778b1e732acd0146f96e3a0e2fc1f54190dcdd687ed86ee74",
+      "current_raw_sha256": "59d162c336910164ca94b440108f5c82f91ce5d9aefca78d4f1e67e92a309d6e",
+      "current_bytes": 166365,
+      "current_mtime_utc": "2026-08-15T14:59:02Z",
+      "git_blob_bytes": 166243,
+      "crlf_count": 122,
+      "canonical_sha256": "ad9754265f5ebf9778b1e732acd0146f96e3a0e2fc1f54190dcdd687ed86ee74",
+      "canonical_bytes_equal_git_blob": true,
+      "semantic_comparison": "SEMANTICALLY_IDENTICAL"
+    },
+    {
+      "path": "data/03_knowledge_base/v1/chunks/chunks.jsonl",
+      "original_frozen_sha256": "45b2f9c1eda6fd7e0e2deca1d8e1e2c4ae2075648bc74dfda5ab9f167abc6535",
+      "current_raw_sha256": "5609b8df081bd899a82591b8b21eae080ed587a8be8d71810e36a0dfc20e10da",
+      "current_bytes": 1036657,
+      "current_mtime_utc": "2026-08-15T14:59:02Z",
+      "git_blob_bytes": 1036169,
+      "crlf_count": 488,
+      "canonical_sha256": "45b2f9c1eda6fd7e0e2deca1d8e1e2c4ae2075648bc74dfda5ab9f167abc6535",
+      "canonical_bytes_equal_git_blob": true,
+      "semantic_comparison": "SEMANTICALLY_IDENTICAL"
+    },
+    {
+      "path": "data/03_knowledge_base/v1/config/retriever_v1.json",
+      "original_frozen_sha256": "2b091a71f3d318023584aaad903db2eeac14b0562dd7e62b3fa91dbd4f3dec6b",
+      "current_raw_sha256": "081b33411fba504b225df507a105527c26f979c438de5aa48e5dccc6e6e5e31f",
+      "current_bytes": 1133,
+      "current_mtime_utc": "2026-08-15T14:59:02Z",
+      "git_blob_bytes": 1132,
+      "crlf_count": 1,
+      "canonical_sha256": "2b091a71f3d318023584aaad903db2eeac14b0562dd7e62b3fa91dbd4f3dec6b",
+      "canonical_bytes_equal_git_blob": true,
+      "semantic_comparison": "SEMANTICALLY_IDENTICAL"
+    },
+    {
+      "path": "data/03_knowledge_base/v1/index/document_embeddings.npy",
+      "original_frozen_sha256": "369edb25725c790f832883dedc82b8eb4d42304e48ed00d8568a2d0fdc852888",
+      "current_raw_sha256": "369edb25725c790f832883dedc82b8eb4d42304e48ed00d8568a2d0fdc852888",
+      "current_mtime_utc": "2026-08-15T14:59:02Z",
+      "semantic_comparison": "RAW_BINARY_IDENTICAL"
+    }
+  ],
+  "structural_diff": {
+    "source_manifest": {"source_count": [122, 122], "source_ids_equal": true, "records_equal": true},
+    "chunks": {"chunk_count": [488, 488], "chunk_ids_equal": true, "text_equal": true, "records_equal": true},
+    "retriever_config": {"parsed_json_equal": true, "retrieval_parameter_changes": false}
+  },
+  "frozen_artifacts_modified": false
+}

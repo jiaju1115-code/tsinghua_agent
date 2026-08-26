@@ -1,0 +1,130 @@
+{
+  "version": "EVIDENCE_REQUIRED_POINT_ROOT_CAUSE_MATRIX_V1",
+  "cases": [
+    {
+      "case_id": "DEMO002",
+      "retrieval_status": "RETRIEVAL_OK",
+      "required_points": [
+        {
+          "point_id": "P1",
+          "text": "我想了解清华大学奖学金申请需要满足哪些基本条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "NOT_SUPPORTED",
+          "best_support_score": 0.294118,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S8",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.294118,
+              "text": "**第八条** 奖学金命名规范 (一)学校出资设立的奖学金命名规范为“清华大学×××奖学金”; (二)校友出资设立的奖学金命名规范为“清华校友—×××奖学金”,企事业单位、社会人士出资设立的奖学金命名规范为“清华之友—×××奖学金”"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0074-0001#S5",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0074-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0074",
+              "score": 0.27451,
+              "text": "**第四条** 清华大学学生申请国家助学金的基本条件: (一)热爱社会主义祖国,拥护中国共产党的领导; (二)遵守法律法规及校规校纪,品行端正; (三)学习努力,积极进取,具有良好的学风和科研作风; (四)自立自强,生活俭朴; (五)符合学校学生资助的认定标准"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "supported_points": [],
+      "unsupported_points": [
+        "P1"
+      ],
+      "primary_root_cause": "LEXICAL_MATCH_OVERSTRICT",
+      "secondary_causes": [
+        "SEMANTIC_MATCH_WEAKNESS"
+      ],
+      "systemic": true,
+      "related_cases": [
+        "POS003"
+      ],
+      "confidence": "HIGH",
+      "finding": "Correct scholarship eligibility chunks and spans are in Top-5, but entity extraction overcaptures the conversational prefix as an entity. missing_query_entities then makes entity_ok false and forces NOT_SUPPORTED despite document relevance 0.549020 and support spans above the partial floor."
+    },
+    {
+      "case_id": "DEMO013",
+      "retrieval_status": "RETRIEVAL_OK",
+      "required_points": [
+        {
+          "point_id": "P1",
+          "text": "请告诉我清华奖学金获奖后学校会做什么",
+          "requested_attributes": [],
+          "missing_requested_attributes": [],
+          "status": "NOT_SUPPORTED",
+          "best_support_score": 0.166667,
+          "support_spans": [],
+          "conflicts": []
+        }
+      ],
+      "supported_points": [],
+      "unsupported_points": [
+        "P1"
+      ],
+      "primary_root_cause": "LEXICAL_MATCH_OVERSTRICT",
+      "secondary_causes": [
+        "SEMANTIC_MATCH_WEAKNESS"
+      ],
+      "systemic": true,
+      "related_cases": [
+        "DEMO002",
+        "POS003"
+      ],
+      "confidence": "MEDIUM",
+      "finding": "Relevant scholarship chunks are in Top-5, but the single required point receives best lexical score 0.166667, below the partial threshold 0.18, so no support span is admitted. No entity mismatch is present; this is a separate lexical-paraphrase subcase."
+    },
+    {
+      "case_id": "POS003",
+      "retrieval_status": "RETRIEVAL_OK",
+      "required_points": [
+        {
+          "point_id": "P1",
+          "text": "申请清华大学奖学金要符合哪些基本条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "NOT_SUPPORTED",
+          "best_support_score": 0.357143,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0074-0001#S5",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0074-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0074",
+              "score": 0.357143,
+              "text": "**第四条** 清华大学学生申请国家助学金的基本条件: (一)热爱社会主义祖国,拥护中国共产党的领导; (二)遵守法律法规及校规校纪,品行端正; (三)学习努力,积极进取,具有良好的学风和科研作风; (四)自立自强,生活俭朴; (五)符合学校学生资助的认定标准"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S8",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.357143,
+              "text": "**第八条** 奖学金命名规范 (一)学校出资设立的奖学金命名规范为“清华大学×××奖学金”; (二)校友出资设立的奖学金命名规范为“清华校友—×××奖学金”,企事业单位、社会人士出资设立的奖学金命名规范为“清华之友—×××奖学金”"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "supported_points": [],
+      "unsupported_points": [
+        "P1"
+      ],
+      "primary_root_cause": "LEXICAL_MATCH_OVERSTRICT",
+      "secondary_causes": [
+        "SEMANTIC_MATCH_WEAKNESS"
+      ],
+      "systemic": true,
+      "related_cases": [
+        "DEMO002"
+      ],
+      "confidence": "HIGH",
+      "finding": "Correct eligibility spans are in Top-5 with score 0.357143 and document relevance 0.547619, but entity extraction overcaptures the conversational prefix as an entity. missing_query_entities forces the point to NOT_SUPPORTED."
+    }
+  ]
+}

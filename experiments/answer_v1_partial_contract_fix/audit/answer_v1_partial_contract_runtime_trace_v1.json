@@ -1,0 +1,104 @@
+{
+  "version": "ANSWER_V1_PARTIAL_CONTRACT_RUNTIME_TRACE_V1",
+  "cases": [
+    {
+      "case_id": "POS002",
+      "query": "奖学金每学年评选几次，通常在什么时候组织？",
+      "retrieval_status": null,
+      "evidence_status": "PARTIAL",
+      "citation_status": null,
+      "answer_invoked": true,
+      "model_called": true,
+      "raw_model_output": "{\"answer_status\":\"PARTIAL_ANSWER\",\"claims\":[{\"required_point_id\":\"P1\",\"claim_text\":\"奖学金每学年评选一次，通常在秋季学期开学初组织。\",\"support_unit_ids\":[\"CSU-5332070CC908D199\"]},{\"required_point_id\":\"P1\",\"claim_text\":\"国家助学金每学年评审一次，坚持公开、公平、公正的原则。\",\"support_unit_ids\":[\"CSU-3A69E34D26408641\"]}]}",
+      "raw_output_sha256": "6a28b8b9cba789d8ff66235f2bd3ff50d732d8c8e9f527d89bc8ac5c74c26a84",
+      "parser_result": {
+        "answer_status": "REFUSAL",
+        "claim_record_count": 1
+      },
+      "validation_result": {
+        "reason_codes": [
+          "ANSWER_SCHEMA_INVALID",
+          "MODEL_CALLED",
+          "SAFE_REFUSAL"
+        ],
+        "error": "model emitted multiple claims for one required point"
+      },
+      "runtime_final_status": "E2E_ERROR",
+      "runtime_diagnostics": {
+        "orchestrator_status": "E2E_ERROR",
+        "answer_status": "ERROR",
+        "error": {
+          "layer": "answer",
+          "code": "ANSWER_ERROR",
+          "message": "model emitted multiple claims for one required point"
+        }
+      }
+    },
+    {
+      "case_id": "POS006",
+      "query": "清华奖学金获奖后，学校会怎样表彰学生？",
+      "retrieval_status": null,
+      "evidence_status": "PARTIAL",
+      "citation_status": null,
+      "answer_invoked": true,
+      "model_called": true,
+      "raw_model_output": "{\"answer_status\": \"PARTIAL_ANSWER\", \"claims\": [{\"required_point_id\": \"P1\", \"claim_text\": \"清华奖学金获奖后，学校会撤销其所获奖学金（收回奖励金及证书等）\", \"support_unit_ids\": [\"CSU-D9D42C478CF92EA0\"]}, {\"required_point_id\": \"P2\", \"claim_text\": \"学校会在评选当年对奖学金获得者进行表彰\", \"support_unit_ids\": [\"CSU-9E5F311CD95CDDBD\"]}]}",
+      "raw_output_sha256": "be5a094fe11538811bbb01adb8ed15e10832f0aaf1eb872d9feb9997c9118d54",
+      "parser_result": {
+        "answer_status": "REFUSAL",
+        "claim_record_count": 1
+      },
+      "validation_result": {
+        "reason_codes": [
+          "INVALID_SUPPORT_REFERENCE",
+          "MODEL_CALLED",
+          "SAFE_REFUSAL"
+        ],
+        "error": "model claim contains an unknown or out-of-scope support ID"
+      },
+      "runtime_final_status": "E2E_ERROR",
+      "runtime_diagnostics": {
+        "orchestrator_status": "E2E_ERROR",
+        "answer_status": "ERROR",
+        "error": {
+          "layer": "answer",
+          "code": "ANSWER_ERROR",
+          "message": "model claim contains an unknown or out-of-scope support ID"
+        }
+      }
+    },
+    {
+      "case_id": "POS008",
+      "query": "如果想申请奖学金，最基本需要满足什么要求？",
+      "retrieval_status": null,
+      "evidence_status": "PARTIAL",
+      "citation_status": null,
+      "answer_invoked": true,
+      "model_called": true,
+      "raw_model_output": "{\"answer_status\": \"PARTIAL_ANSWER\", \"claims\": [{\"required_point_id\": \"P1\", \"claim_text\": \"申请奖学金应当满足以下基本条件：\\n\\n(一)热爱社会主义祖国,拥护中国共产党的领导;\\n\\n(二)遵守法律法规及校规校纪,品行端正;\\n\\n(三)学习刻苦、勤奋,具有良好的学风和科研作风,学习成绩优良,或者在某一方面有突出成绩或贡献且其他方面达到基本要求。\", \"support_unit_ids\": [\"CSU-AD522606D6644208\"]}]}",
+      "raw_output_sha256": "3b2310fb0b10936e71e82666a8cabb6690317393096519610d1b2345ce02d3ee",
+      "parser_result": {
+        "answer_status": "REFUSAL",
+        "claim_record_count": 1
+      },
+      "validation_result": {
+        "reason_codes": [
+          "MODEL_CALLED",
+          "PARTIAL_SCOPE_VIOLATION",
+          "SAFE_REFUSAL"
+        ],
+        "error": "model omitted one or more allowed required points"
+      },
+      "runtime_final_status": "E2E_ERROR",
+      "runtime_diagnostics": {
+        "orchestrator_status": "E2E_ERROR",
+        "answer_status": "ERROR",
+        "error": {
+          "layer": "answer",
+          "code": "ANSWER_ERROR",
+          "message": "model omitted one or more allowed required points"
+        }
+      }
+    }
+  ]
+}

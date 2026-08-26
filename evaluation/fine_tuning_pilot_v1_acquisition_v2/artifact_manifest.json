@@ -1,0 +1,32 @@
+{
+  "accepted_candidates.jsonl": {
+    "sha256": "bb232449ca8f08bf75e2cc3021650911e7d8ff7946a062e1e7ebe12fa7b83787",
+    "bytes": 1384590,
+    "lines": 402
+  },
+  "accepted_surplus.jsonl": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "lines": 0
+  },
+  "normalized_candidates.jsonl": {
+    "sha256": "142d6b1dc9cbf268ab5d86e7b81b2be1c3d9e7a4120b310b995d6d194ae6e6ae",
+    "bytes": 9941007,
+    "lines": 1190
+  },
+  "raw_candidates.jsonl": {
+    "sha256": "142d6b1dc9cbf268ab5d86e7b81b2be1c3d9e7a4120b310b995d6d194ae6e6ae",
+    "bytes": 9941007,
+    "lines": 1190
+  },
+  "rejected_candidates.jsonl": {
+    "sha256": "2c6f3d00e68c65f62f3073941176ade0d50179fcd767c8a56fe388c6ca1d7780",
+    "bytes": 8556417,
+    "lines": 788
+  },
+  "review_candidates.jsonl": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "lines": 0
+  }
+}

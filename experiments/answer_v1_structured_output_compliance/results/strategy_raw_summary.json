@@ -1,0 +1,116 @@
+{
+  "version": "ANSWER_V1_STRUCTURED_OUTPUT_STRATEGY_RESULTS_V1",
+  "baseline": {
+    "source": "answer_v1_partial_contract_runtime_trace_v1.json",
+    "cases": 3,
+    "note": "deterministic baseline captured previously; no additional baseline calls required"
+  },
+  "constrained_decoding": [
+    {
+      "case_id": "POS002",
+      "strategy": "CONSTRAINED_DECODING",
+      "final_status": "COMPLETED",
+      "answer_status": "PARTIAL_ANSWER",
+      "reason_codes": [
+        "LEXICAL_TRACE_REPAIRED",
+        "MODEL_CALLED",
+        "NON_SEMANTIC_SUPPORT_VALIDATION",
+        "PARTIAL_ANSWER_GENERATED",
+        "SUPPORT_PARTIAL"
+      ],
+      "error": null,
+      "model_called": true,
+      "latency_ms": 8366.009,
+      "adapter_calls": 1,
+      "adapter_errors": []
+    },
+    {
+      "case_id": "POS006",
+      "strategy": "CONSTRAINED_DECODING",
+      "final_status": "COMPLETED",
+      "answer_status": "PARTIAL_ANSWER",
+      "reason_codes": [
+        "LEXICAL_TRACE_REPAIRED",
+        "MODEL_CALLED",
+        "NON_SEMANTIC_SUPPORT_VALIDATION",
+        "PARTIAL_ANSWER_GENERATED",
+        "SUPPORT_PARTIAL"
+      ],
+      "error": null,
+      "model_called": true,
+      "latency_ms": 14473.246,
+      "adapter_calls": 2,
+      "adapter_errors": []
+    },
+    {
+      "case_id": "POS008",
+      "strategy": "CONSTRAINED_DECODING",
+      "final_status": "COMPLETED",
+      "answer_status": "PARTIAL_ANSWER",
+      "reason_codes": [
+        "LEXICAL_TRACE_REPAIRED",
+        "MODEL_CALLED",
+        "NON_SEMANTIC_SUPPORT_VALIDATION",
+        "PARTIAL_ANSWER_GENERATED",
+        "SUPPORT_PARTIAL"
+      ],
+      "error": null,
+      "model_called": true,
+      "latency_ms": 25942.827,
+      "adapter_calls": 3,
+      "adapter_errors": []
+    }
+  ],
+  "bounded_retry": [
+    {
+      "case_id": "POS002",
+      "strategy": "BOUNDED_RETRY",
+      "final_status": "COMPLETED",
+      "answer_status": "PARTIAL_ANSWER",
+      "reason_codes": [
+        "LEXICAL_TRACE_REPAIRED",
+        "MODEL_CALLED",
+        "NON_SEMANTIC_SUPPORT_VALIDATION",
+        "PARTIAL_ANSWER_GENERATED",
+        "SUPPORT_PARTIAL"
+      ],
+      "error": null,
+      "model_called": true,
+      "latency_ms": 20791.438,
+      "adapter_calls": 2,
+      "adapter_errors": []
+    },
+    {
+      "case_id": "POS006",
+      "strategy": "BOUNDED_RETRY",
+      "final_status": "E2E_ERROR",
+      "answer_status": "REFUSAL",
+      "reason_codes": [
+        "ANSWER_SCHEMA_INVALID",
+        "MODEL_CALLED",
+        "SAFE_REFUSAL"
+      ],
+      "error": "model emitted multiple claims for one required point",
+      "model_called": true,
+      "latency_ms": 28382.368,
+      "adapter_calls": 4,
+      "adapter_errors": []
+    },
+    {
+      "case_id": "POS008",
+      "strategy": "BOUNDED_RETRY",
+      "final_status": "E2E_ERROR",
+      "answer_status": "REFUSAL",
+      "reason_codes": [
+        "MODEL_CALLED",
+        "PARTIAL_SCOPE_VIOLATION",
+        "SAFE_REFUSAL"
+      ],
+      "error": "model omitted one or more allowed required points",
+      "model_called": true,
+      "latency_ms": 30518.101,
+      "adapter_calls": 6,
+      "adapter_errors": []
+    }
+  ]
+}

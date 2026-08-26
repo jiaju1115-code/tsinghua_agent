@@ -1,0 +1,43 @@
+{
+  "acquisition_v1_1": {
+    "downloaded": 805,
+    "deduplicated": 680,
+    "oasst1": 181,
+    "mathinstruct": 299,
+    "gemo": 200,
+    "programmatic_math": 200,
+    "programmatic_math_ratio": 0.29411764705882354
+  },
+  "topup_v1_final": {
+    "total": 841,
+    "programmatic_math": 300,
+    "programmatic_math_ratio": 0.356718192627824
+  },
+  "actual_input_pool": 841,
+  "actual_train": 757,
+  "actual_validation": 84,
+  "train_task_family_distribution": {
+    "BASIC_CODE": 8,
+    "BASIC_SCIENCE": 1,
+    "CALCULUS": 11,
+    "GENERAL_INSTRUCTION": 163,
+    "GENERAL_REASONING": 46,
+    "LINEAR_ALGEBRA": 70,
+    "MATHEMATICAL_REASONING": 449,
+    "PROBABILITY_STATISTICS": 9
+  },
+  "train_source_distribution": {
+    "OpenAssistant/oasst1": 218,
+    "Surpem/GEmO": 270,
+    "TIGER-Lab/MathInstruct": 269
+  },
+  "mathematical_reasoning_train_ratio": 0.5931307793923382,
+  "all_math_family_train_ratio": 0.7120211360634082,
+  "effective_sampling_target_math_reasoning_ratio": 0.35,
+  "notes": [
+    "The 680 figure belongs to acquisition V1.1; Pilot V0 actually trained on 757 rows split from the 841-row V1.2 pool.",
+    "V1.2 programmatic math is 300/841 (35.67%), higher than the earlier 200/680 (29.41%).",
+    "Effective sampling targets 35% MATHEMATICAL_REASONING; family/source labels show imbalance but do not prove causality.",
+    "BASIC_CODE has only 8 train rows and BASIC_SCIENCE only 1; spot checks also show family-label quality concerns."
+  ]
+}

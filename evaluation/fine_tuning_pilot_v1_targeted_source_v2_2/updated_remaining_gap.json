@@ -1,0 +1,50 @@
+{
+  "families": [
+    {
+      "family": "INSTRUCTION_VALUE_FIDELITY",
+      "verified": 40,
+      "target": 263,
+      "remaining": 223,
+      "surplus": 0
+    },
+    {
+      "family": "GENERAL_QA_SCIENCE_READING",
+      "verified": 152,
+      "target": 209,
+      "remaining": 57,
+      "surplus": 0
+    },
+    {
+      "family": "GENERAL_REASONING",
+      "verified": 102,
+      "target": 189,
+      "remaining": 87,
+      "surplus": 0
+    },
+    {
+      "family": "WRITING_MULTILINGUAL",
+      "verified": 42,
+      "target": 30,
+      "remaining": 0,
+      "surplus": 12
+    },
+    {
+      "family": "CODING",
+      "verified": 64,
+      "target": 87,
+      "remaining": 23,
+      "surplus": 0
+    },
+    {
+      "family": "PROGRAMMATIC_MATH",
+      "remaining": 0
+    },
+    {
+      "family": "OTHER_MATH",
+      "remaining": 0
+    }
+  ],
+  "total_remaining": 390,
+  "writing_surplus_not_transferable": 12,
+  "opencode_recovered": 36
+}

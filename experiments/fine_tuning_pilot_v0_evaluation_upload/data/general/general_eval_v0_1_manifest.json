@@ -1,0 +1,24 @@
+{
+  "status": "POST_TRAINING_BLIND_GENERAL_EVAL_V0_1_FROZEN",
+  "case_count": 100,
+  "family_distribution": {
+    "GENERAL_INSTRUCTION": 20,
+    "MATHEMATICAL_REASONING": 20,
+    "LINEAR_ALGEBRA": 12,
+    "CALCULUS": 10,
+    "PROBABILITY_STATISTICS": 10,
+    "GENERAL_REASONING": 15,
+    "BASIC_CODE": 8,
+    "BASIC_SCIENCE": 5
+  },
+  "raw_sha256": "32e26d4649266f7a96e2773b54def4b64a02d8395700b364a955aff262a1144a",
+  "normalized_sha256": "32e26d4649266f7a96e2773b54def4b64a02d8395700b364a955aff262a1144a",
+  "unique_prompt_count": 100,
+  "exact_duplicate_prompts": 0,
+  "normalized_duplicate_prompts": 0,
+  "generator_seed": 2026081701,
+  "scoring_version": "POST_TRAINING_BLIND_GENERAL_EVAL_V0_1_SCORING_1",
+  "creation_time_utc": "2026-08-17T03:58:45.292266+00:00",
+  "blind_before_inference": true,
+  "inference_executed": false
+}

@@ -1,5 +1,19 @@
 # 清华校园智能问答 / Tsinghua Agent
 
+> **Submission Candidate V1 (2026-08-17).** The candidate runtime combines Frozen RAG Runtime V1, Evidence Sufficiency V1, Citation Support V1, and Natural Uncertainty Runtime Adapter V1. Frozen text artifacts are verified with canonical LF hashing for cross-platform checkout compatibility. Pilot V1 is a validated research candidate and is not part of the submission runtime. Formal held-out E2E and beta/user testing have not been completed.
+
+截至 2026-08-26 的完整进度、已知限制与下一步见 [`docs/current_progress_20260826.md`](docs/current_progress_20260826.md)。
+
+### 本地交互体验
+
+从项目根目录执行：
+
+```powershell
+python scripts/chat_submission_candidate_v1.py
+```
+
+这是 Submission Candidate V1 的本地开发者交互入口，支持 `/help`、`/debug on`、`/debug off`、`/clear` 和 `/exit`。
+
 本项目面向清华校园场景的智能问答，重点解决“回答看起来合理但无法核验”的问题。项目以公开、可追溯的校园资料为基础，建立从数据采集、质量审计、知识库构建、检索、证据充分性判断、引用支持整理到答案生成的分层流水线。
 
 项目的核心原则是：先确认资料和证据是否足够，再决定能否回答；证据不足时必须降级为部分回答或拒答，不能通过模型自由发挥补齐事实。

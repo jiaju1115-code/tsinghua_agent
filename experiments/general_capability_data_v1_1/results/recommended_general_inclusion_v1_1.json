@@ -1,0 +1,12 @@
+{
+  "recommended_candidates": 680,
+  "task_family_distribution": {
+    "GENERAL_INSTRUCTION": 181,
+    "MATHEMATICAL_REASONING": 499
+  },
+  "source_distribution": {
+    "OpenAssistant/oasst1": 181,
+    "Surpem/GEmO": 200,
+    "TIGER-Lab/MathInstruct": 299
+  }
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "dataset": "HuggingFaceTB/smoltalk",
+    "full_commit_sha": "5feaf2fd3ffca7c237fc38d1861bc30365d48ffa",
+    "hf_license": "UNKNOWN",
+    "upstream_license": "Per pinned dataset card; upstream notice must be preserved",
+    "commercial_restriction": "UNRESOLVED",
+    "sharealike": false,
+    "attribution_required": true,
+    "redistribution": "review required",
+    "derivative_restrictions": "license notices/attribution",
+    "status": "REVIEW"
+  },
+  {
+    "dataset": "Salesforce/xlam-function-calling-60k",
+    "full_commit_sha": "26d14ebfe18b1f7b524bd39b404b50af5dc97866",
+    "hf_license": "cc-by-4.0",
+    "upstream_license": "Per pinned dataset card; upstream notice must be preserved",
+    "commercial_restriction": false,
+    "sharealike": false,
+    "attribution_required": true,
+    "redistribution": "allowed subject to license",
+    "derivative_restrictions": "license notices/attribution",
+    "status": "REVIEW",
+    "gated_terms": "Must be accepted and reviewed before acquisition."
+  },
+  {
+    "dataset": "NousResearch/hermes-function-calling-v1",
+    "full_commit_sha": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+    "hf_license": "apache-2.0",
+    "upstream_license": "Per pinned dataset card; upstream notice must be preserved",
+    "commercial_restriction": false,
+    "sharealike": false,
+    "attribution_required": true,
+    "redistribution": "allowed subject to license",
+    "derivative_restrictions": "license notices/attribution",
+    "status": "PASS"
+  },
+  {
+    "dataset": "HuggingFaceH4/ifeval-like-data",
+    "full_commit_sha": "fe1800ce27e0c8e97ac519302e3e6c0c870d440f",
+    "hf_license": "UNKNOWN",
+    "upstream_license": "Per pinned dataset card; upstream notice must be preserved",
+    "commercial_restriction": "UNRESOLVED",
+    "sharealike": false,
+    "attribution_required": true,
+    "redistribution": "review required",
+    "derivative_restrictions": "license notices/attribution",
+    "status": "REVIEW"
+  },
+  {
+    "dataset": "argilla/ifeval-like-data",
+    "full_commit_sha": "56505d1771e36fa5aa07aa9a1b39008fe60a8487",
+    "hf_license": "other",
+    "upstream_license": "Per pinned dataset card; upstream notice must be preserved",
+    "commercial_restriction": "UNRESOLVED",
+    "sharealike": false,
+    "attribution_required": true,
+    "redistribution": "review required",
+    "derivative_restrictions": "license notices/attribution",
+    "status": "REVIEW"
+  },
+  {
+    "dataset": "glaiveai/glaive-function-calling-v2",
+    "full_commit_sha": "e7f4b6456019f5d8bcb991ef0dd67d8ff23221ac",
+    "hf_license": "apache-2.0",
+    "upstream_license": "Per pinned dataset card; upstream notice must be preserved",
+    "commercial_restriction": false,
+    "sharealike": false,
+    "attribution_required": true,
+    "redistribution": "allowed subject to license",
+    "derivative_restrictions": "license notices/attribution",
+    "status": "PASS"
+  },
+  {
+    "dataset": "Team-ACE/ToolACE",
+    "full_commit_sha": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+    "hf_license": "apache-2.0",
+    "upstream_license": "Per pinned dataset card; upstream notice must be preserved",
+    "commercial_restriction": false,
+    "sharealike": false,
+    "attribution_required": true,
+    "redistribution": "allowed subject to license",
+    "derivative_restrictions": "license notices/attribution",
+    "status": "PASS"
+  },
+  {
+    "dataset": "stindardlogic/instruction-following-dpo-100k",
+    "full_commit_sha": "3d0897b2aa688dc3e32994a1ebcbeb80b79cbd26",
+    "hf_license": "apache-2.0",
+    "upstream_license": "Per pinned dataset card; upstream notice must be preserved",
+    "commercial_restriction": false,
+    "sharealike": false,
+    "attribution_required": true,
+    "redistribution": "allowed subject to license",
+    "derivative_restrictions": "license notices/attribution",
+    "status": "PASS"
+  },
+  {
+    "dataset": "NexLM/InstructionFollowing",
+    "full_commit_sha": "1cac82987dd4961b469be3818fe51188756c60c5",
+    "hf_license": "UNKNOWN",
+    "upstream_license": "Per pinned dataset card; upstream notice must be preserved",
+    "commercial_restriction": "UNRESOLVED",
+    "sharealike": false,
+    "attribution_required": true,
+    "redistribution": "review required",
+    "derivative_restrictions": "license notices/attribution",
+    "status": "REVIEW"
+  }
+]

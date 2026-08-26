@@ -10,8 +10,10 @@
 **/*credential*.json
 **/*webvpn*
 **/browser_profile/
+/.browser-*/
 **/playwright/.auth/
 data/01_public_baseline/data/auth/
+/agent_prompt_backup_*.txt
 
 # Regenerable tooling, caches and local runtimes
 **/__pycache__/
@@ -36,9 +38,24 @@ data/01_public_baseline/data/auth/
 **/*.safetensors
 **/pytorch_model.bin
 **/_download_parts/
+**/*.npy
+**/*.npz
+**/*.tar
+**/*.tar.gz
+**/*.zip
+**/*.zip.sha256
+/models/
+/data/03_fine_tuning/pilot_v1/targeted_topup_v3/raw/
+/release/pilot_v1/outputs_balanced_mb4/
+/release/fast_campus_kb_v1/
+/experiments/fine_tuning_pilot_v0_evaluation_upload_backup/
+/experiments/fine_tuning_pilot_v0_upload/**/*_1.*
+**/checkpoint-*/
+**/optimizer.pt
 
 # The exact frozen encoder used by RAG Retrieval V1 is published for offline reproduction.
 !data/03_knowledge_base/v1/index/model/model.safetensors
+!data/03_knowledge_base/v1/index/document_embeddings.npy
 
 # Editor and operating-system files
 .vscode/

@@ -1,0 +1,7 @@
+{
+  "calculus": "REVIEW_REQUIRED_NO_ROWS_IN_CURRENT_ACQUISITION",
+  "linear_algebra": "PASS_PROGRAMMATIC_GEMO",
+  "probability_statistics": "REVIEW_REQUIRED_NO_ROWS_IN_CURRENT_ACQUISITION",
+  "mathematical_reasoning": "PASS_WITH_PROGRAMMATIC_MATH_LABEL",
+  "overall": "PASS_WITH_LIMITATIONS"
+}

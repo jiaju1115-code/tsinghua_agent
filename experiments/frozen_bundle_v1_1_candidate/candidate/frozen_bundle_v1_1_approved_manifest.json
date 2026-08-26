@@ -1,0 +1,29 @@
+{
+  "version": "FROZEN_BUNDLE_V1.1",
+  "status": "APPROVED",
+  "active_reference": true,
+  "derived_from": "LEGACY_FROZEN_BUNDLE_V1",
+  "semantic_content_changed": false,
+  "approval_basis": "cross-platform line-ending portability",
+  "hash_modes": {
+    "text": "CANONICAL_TEXT_V1",
+    "binary": "RAW_BINARY"
+  },
+  "legacy_bundle": {
+    "status": "LEGACY_FROZEN_BUNDLE_V1",
+    "preserved": true,
+    "modified": false
+  },
+  "candidate_audit": {
+    "root_cause": "LINE_ENDING_ONLY",
+    "semantic_equivalence": true,
+    "binary_integrity": true,
+    "nested_artifact_equivalence": true,
+    "retrieval_regression": 0,
+    "cross_platform_test": "PASS",
+    "provenance_complete": true
+  },
+  "approval_timestamp": "2026-08-16T14:06:41.8372545+08:00",
+  "production_enabled": false,
+  "e2e_rerun_required": false
+}

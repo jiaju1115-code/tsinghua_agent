@@ -1,0 +1,16 @@
+{
+  "base_url": "https://momoapi.cc",
+  "models_path": "/v1/models",
+  "chat_paths": ["/v1/responses", "/v1/chat/completions"],
+  "pilot_size": 50,
+  "temperature": 0,
+  "timeout_seconds": 60,
+  "transport": "curl",
+  "max_retries": 3,
+  "max_total_input_tokens": 500000,
+  "max_total_output_tokens": 100000,
+  "max_api_calls": 100,
+  "max_retry_calls": 100,
+  "source_manifest": "data/03_knowledge_base/v1/manifests/source_manifest.jsonl",
+  "eligibility_manifest": "data/03_knowledge_base/v1/audit/eligibility_decisions.jsonl"
+}

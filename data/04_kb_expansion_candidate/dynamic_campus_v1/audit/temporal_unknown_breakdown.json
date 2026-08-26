@@ -1,0 +1,8 @@
+{
+  "total_unknown": 643,
+  "breakdown": {
+    "AMBIGUOUS_TEMPORAL": 370,
+    "PARSE_FAILED": 183,
+    "INSUFFICIENT_CONTEXT": 90
+  }
+}

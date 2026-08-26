@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "duplicate_group": "dg-d1dd79c48bd6",
+      "record_indices": [
+        135,
+        497
+      ],
+      "recommended_canonical_index": 135
+    },
+    {
+      "duplicate_group": "dg-f11c6a29cf25",
+      "record_indices": [
+        259,
+        470,
+        742
+      ],
+      "recommended_canonical_index": 259
+    },
+    {
+      "duplicate_group": "dg-ba2e015b08f3",
+      "record_indices": [
+        316,
+        325
+      ],
+      "recommended_canonical_index": 316
+    },
+    {
+      "duplicate_group": "dg-fd969760e90e",
+      "record_indices": [
+        525,
+        924
+      ],
+      "recommended_canonical_index": 525
+    }
+  ],
+  "field_duplicates": {
+    "xxid": {},
+    "yxxid": {},
+    "url": {},
+    "zxurl": {}
+  }
+}

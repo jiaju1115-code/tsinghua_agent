@@ -1,0 +1,57 @@
+{
+  "version": "ANSWER_V1_CONSTRAINED_RUNTIME_LATENCY_V1",
+  "baseline_avg_ms": 16830.5,
+  "experimental_avg_ms": 16260.7,
+  "integrated_avg_ms": 10451.481625,
+  "integrated_max_ms": 29714.882,
+  "cases": [
+    {
+      "case_id": "POS001",
+      "total_ms": 7480.305,
+      "answer_ms": 7408.653,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    {
+      "case_id": "POS002",
+      "total_ms": 6104.932,
+      "answer_ms": 6068.445,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    {
+      "case_id": "POS003",
+      "total_ms": 37.86,
+      "answer_ms": 0.82,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    {
+      "case_id": "POS004",
+      "total_ms": 14897.445,
+      "answer_ms": 14839.667,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    {
+      "case_id": "POS005",
+      "total_ms": 5948.972,
+      "answer_ms": 5907.506,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    {
+      "case_id": "POS006",
+      "total_ms": 13605.416,
+      "answer_ms": 13541.216,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    {
+      "case_id": "POS007",
+      "total_ms": 5822.041,
+      "answer_ms": 5786.98,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    {
+      "case_id": "POS008",
+      "total_ms": 29714.882,
+      "answer_ms": 29664.984,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    }
+  ]
+}

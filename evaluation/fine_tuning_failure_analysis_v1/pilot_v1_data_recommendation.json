@@ -1,0 +1,65 @@
+{
+  "increase_general_replay": "YES_WITH_TARGETED_REBALANCING",
+  "priorities": [
+    {
+      "capability": "instruction following with value fidelity / transformations",
+      "priority": "HIGH",
+      "additional_cases": "100-150"
+    },
+    {
+      "capability": "general reasoning with deterministic gold",
+      "priority": "HIGH",
+      "additional_cases": "80-120"
+    },
+    {
+      "capability": "general QA, basic science, reading comprehension",
+      "priority": "HIGH",
+      "additional_cases": "100-150"
+    },
+    {
+      "capability": "writing and multilingual instruction",
+      "priority": "MEDIUM",
+      "additional_cases": "50-80"
+    },
+    {
+      "capability": "safe functional coding diversity",
+      "priority": "LOW",
+      "additional_cases": "20-40 maintenance replay"
+    },
+    {
+      "capability": "non-programmatic math diversity",
+      "priority": "LOW",
+      "additional_cases": "20-30 while reducing programmatic repetition"
+    }
+  ],
+  "pilot_v1_general_replay_total": "1100-1350 after quality filtering and math downsampling",
+  "target_distribution_percent": {
+    "instruction_following_value_fidelity": 25,
+    "general_qa_basic_science_reading": 22,
+    "general_reasoning": 20,
+    "writing_multilingual": 12,
+    "coding": 8,
+    "non_programmatic_math": 8,
+    "linear_algebra_calculus_probability": 5
+  },
+  "programmatic_math_cap": "<=10-12% of general replay",
+  "problem_source_verdict": "LIKELY_DATA_ISSUE",
+  "pilot_v1_freeze": [
+    "base model",
+    "tokenizer",
+    "chat template",
+    "LoRA r/alpha/dropout/target modules",
+    "General V0.1 evaluation",
+    "evaluator",
+    "seed 42",
+    "deterministic decoding",
+    "learning rate 1e-4 for first attribution run"
+  ],
+  "pilot_v1_change": [
+    "general replay composition",
+    "family sampling ratios"
+  ],
+  "optional_second_variable": "Only if a composition-only run still regresses: lower learning rate modestly from 1e-4 in a separate experiment.",
+  "predefined_gate": "CONDITIONAL_GO",
+  "data_acquisition_decision": "READY_FOR_TARGETED_DATA_ACQUISITION"
+}

@@ -1,0 +1,9 @@
+{
+  "paraphrase_sample_audit": "PASS",
+  "partial_audit": "PASS",
+  "grounded_answer_sample_audit": "PASS",
+  "hard_negative_audit": "PASS_EXISTING_ONLY",
+  "held_out_leakage": 0,
+  "family_integrity": "PASS",
+  "production_unchanged": "YES"
+}

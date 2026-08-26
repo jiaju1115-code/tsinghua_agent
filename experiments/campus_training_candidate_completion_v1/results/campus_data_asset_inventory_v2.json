@@ -1,0 +1,35 @@
+{
+  "parent_supported": 229,
+  "final_supported": 229,
+  "paraphrase_generated": 229,
+  "paraphrase_accepted": 229,
+  "partial_existing": 40,
+  "partial_new": 0,
+  "partial_by_construction": {
+    "REAL": 0,
+    "HISTORICAL": 0,
+    "CONTROLLED_SYNTHETIC": 40
+  },
+  "not_supported_existing_confirmed": 57,
+  "not_supported_new": 0,
+  "grounded_generated": 229,
+  "grounded_accepted": 229,
+  "boundary_pairs": 20,
+  "evidence_candidate_total": 555,
+  "grounded_answer_total": 229,
+  "held_out_leakage": 0,
+  "duplicate_removal": 0,
+  "family_count": 229,
+  "family_integrity": "PASS",
+  "label_distribution": {
+    "SUPPORTED": 229,
+    "PARAPHRASE_SUPPORTED": 229,
+    "PARTIAL": 40,
+    "NOT_SUPPORTED": 57,
+    "GROUNDED_ANSWER": 229,
+    "BOUNDARY_CONTRAST": 20
+  },
+  "production_unchanged": "YES",
+  "final_split": "NO",
+  "training": "NO"
+}

@@ -1,0 +1,105 @@
+{
+  "artifact": "Held-out E2E Evaluation V1 dataset freeze manifest",
+  "status": "HELD_OUT_E2E_V1_DATASET_FROZEN",
+  "dataset_version": "HELD_OUT_E2E_V1",
+  "purpose": "One-shot evaluation of the frozen Unified E2E Orchestrator V1; not a development, tuning, or calibration dataset.",
+  "dataset_path": "evaluation/e2e_heldout/v1/cases/e2e_50_cases.jsonl",
+  "dataset_sha256": "8194d0272a29fce8b5f97fea65c4efb47f96b0dc93b04f4a3da1865fa588582f",
+  "case_count": 50,
+  "case_id_range": "E2E001-E2E050",
+  "all_seen_status": "HELD_OUT",
+  "category_distribution": {
+    "校园生活/办事": 15,
+    "学术/教学资源": 10,
+    "奖助/学生事务": 8,
+    "图书馆/网络/交通/餐饮": 7,
+    "信息不足/拒答": 5,
+    "多部分/部分回答": 5
+  },
+  "contamination_audit": {
+    "exact_duplicate_count": 0,
+    "normalized_duplicate_count": 0,
+    "near_duplicate_count": 0,
+    "historical_registry_row_count": 1425,
+    "historical_source_dataset_count": 45,
+    "external_model_or_api_called": false
+  },
+  "human_review": {
+    "schema_version": "HELD_OUT_E2E_V1_HUMAN_REVIEW",
+    "workbook_rows": 50,
+    "manual_review_nonblank_cell_count": 0,
+    "contains_system_output": false,
+    "contains_ai_automatic_scores": false
+  },
+  "execution_history": {
+    "formal_held_out_system_answers": 0,
+    "formal_e2e_50_executed": false,
+    "official_dataset_runner_schema_check_only": true,
+    "official_dataset_system_calls": 0,
+    "separate_contract_fixture_schema_check_only": true,
+    "runner_retries": 0,
+    "runner_repair": false
+  },
+  "frozen_runtime_inputs": {
+    "knowledge_base_v1": {
+      "path": "data/03_knowledge_base/v1/audit/knowledge_base_v1_freeze.json",
+      "status": "KNOWLEDGE_BASE_V1_FROZEN",
+      "sha256": "e54315552f65458570ca9d4108e8e592e8638a331f21012e92e120f87b0edf8b"
+    },
+    "rag_retrieval_v1": {
+      "path": "data/03_knowledge_base/v1/audit/rag_retrieval_v1_freeze.json",
+      "status": "RAG_RETRIEVAL_V1_FROZEN",
+      "sha256": "37364781a7061fd10cdf0fd75d29b22c620999e4afe24aabab6357318766e76d"
+    },
+    "evidence_sufficiency_v1": {
+      "path": "evaluation/evidence_sufficiency/v1/audit/evidence_sufficiency_v1_freeze.json",
+      "status": "EVIDENCE_SUFFICIENCY_V1_FROZEN",
+      "sha256": "49b5aca7e442980f748fecaad8632101f28d0eee0fc34c2ff6043c4deaa49095"
+    },
+    "citation_support_v1": {
+      "path": "evaluation/citation_support/v1/audit/citation_support_v1_freeze.json",
+      "status": "CITATION_SUPPORT_V1_FROZEN",
+      "sha256": "cdc096e8b8578f3e8f770cb643f07e66b73ffa0d4181abc15633aaa74927885c"
+    },
+    "answer_generation_v1": {
+      "path": "evaluation/answer_generation/runtime_v1/audit/answer_generation_v1_freeze.json",
+      "status": "ANSWER_GENERATION_V1_FROZEN",
+      "sha256": "10451c1b9b1867bc14586edfffadc657d0c7d7ce50bf9989ef2f4047b0b5cc60"
+    },
+    "unified_e2e_orchestrator_v1": {
+      "path": "evaluation/e2e_orchestrator/runtime_v1/audit/unified_e2e_orchestrator_v1_freeze.json",
+      "status": "UNIFIED_E2E_ORCHESTRATOR_V1_FROZEN",
+      "sha256": "27ae05185a85863b5d7a417601809b248a7ceb23a25f26239e86d18496800bd7"
+    }
+  },
+  "freeze_gates": {
+    "exactly_50_cases": true,
+    "unique_case_ids": true,
+    "all_schema_valid": true,
+    "all_cases_held_out": true,
+    "no_exact_historical_duplicates": true,
+    "no_normalized_historical_duplicates": true,
+    "near_duplicate_audit_complete": true,
+    "category_distribution_recorded": true,
+    "review_rubric_frozen": true,
+    "review_workbook_blank": true,
+    "formal_system_answers_zero": true,
+    "formal_e2e_50_never_executed": true,
+    "frozen_runtimes_unchanged": true,
+    "dataset_hash_recorded": true,
+    "freeze_manifest_complete": true
+  },
+  "freeze_gates_passed": 15,
+  "freeze_gates_total": 15,
+  "artifact_sha256": {
+    "README.md": "a8164dcb496c6ffdb48bab1e93c434a8d0636d8bc09e905aa9c75b94e253fb2b",
+    "cases/e2e_50_cases.jsonl": "8194d0272a29fce8b5f97fea65c4efb47f96b0dc93b04f4a3da1865fa588582f",
+    "cases/e2e_50_cases.xlsx": "d7fe780ebd77b0c012f8e0028f1d24ee47ac6a409be154f842928848a54a92f3",
+    "cases/e2e_50_case_schema.json": "3917858ef33a96945ca81d3eb7227812696a939fea770e505fce11a531479aa2",
+    "audit/contamination_audit.json": "013648e81a33b3b60971b2b4d9339dcddba7238f1659aee14144604c00bad252",
+    "audit/heldout_exclusion_registry_v1.jsonl": "399eb854819d26d165077d2e3762b1930badf77b0d0c027b4ded8c36f71d7cd7",
+    "review/e2e_50_human_review.xlsx": "f18c528d14f97705b4a93d3ad98b5fb5efd53994d4c353187af33b0bad7b23f4",
+    "review/human_review_schema.json": "8da8548a618abbe54d0813a462faefa21ef114ddc2765ef719977bd53ecd64f8",
+    "runner/run_e2e_50.py": "96a4d3399b58e8beca9be92908f45b965c459580fa882abd894963970d39e05f"
+  }
+}

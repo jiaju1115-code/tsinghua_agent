@@ -1,0 +1,89 @@
+{
+  "version": "FINE_TUNING_DATASET_SOURCE_FREEZE_V1",
+  "sources": [
+    {
+      "path": "experiments\\partial_gold_policy_v1\\policy\\partial_gold_policy_v1.json",
+      "type": "FROZEN_INPUT",
+      "sha256": "ec13150d6fdf3c6eab55d83dbf20eda1f088ebd6b24dde928c40a5cc526736b5",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "experiments\\partial_gold_policy_v1\\audit\\held_out_protection.json",
+      "type": "FROZEN_INPUT",
+      "sha256": "4bc5a940fee2f79a49ec2c7f4bda1b697f060369e2d04fccb6ffbffbe4ee845a",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "experiments\\partial_gold_policy_v1\\audit\\f04_provenance_trace.json",
+      "type": "FROZEN_INPUT",
+      "sha256": "59014752681bd617ec2c159882e68bb0bf7f5ff8ab4d402d27643f1f3fd7dc1a",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "experiments\\partial_gold_policy_v1\\results\\policy_realignment_results.json",
+      "type": "FROZEN_INPUT",
+      "sha256": "aa983714e9b75aba1c5fbb48dadd0d0de78c36feb668d3d1f2632aecaa6cc575",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "data\\fine_tuning_v1_candidates\\hard_negative_candidates.jsonl",
+      "type": "FROZEN_INPUT",
+      "sha256": "cefa0b1c8ad14fc400d47982d3f3c674f0dbc6a08ae5604cfe6a33af92714c46",
+      "eligible_for_candidate_generation": true
+    },
+    {
+      "path": "data\\fine_tuning_v1_candidates\\policy_mismatch_cases.jsonl",
+      "type": "FROZEN_INPUT",
+      "sha256": "2e5557053900c5e962053f4a1e669c6e82f352b5a7088da6bda914ee53b02f53",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "data\\fine_tuning_v1_candidates\\valid_partial_candidates.jsonl",
+      "type": "FROZEN_INPUT",
+      "sha256": "ad83bb91c2ddaaf08e47525391dadf041656b3ec700050e5c4b895fd035af88c",
+      "eligible_for_candidate_generation": true
+    },
+    {
+      "path": "data\\03_knowledge_base\\v1\\chunks\\chunks.jsonl",
+      "type": "FROZEN_INPUT",
+      "sha256": "5609b8df081bd899a82591b8b21eae080ed587a8be8d71810e36a0dfc20e10da",
+      "eligible_for_candidate_generation": true
+    },
+    {
+      "path": "data\\03_knowledge_base\\v1\\audit\\knowledge_base_v1_freeze.json",
+      "type": "FROZEN_INPUT",
+      "sha256": "8c4ee077c44d99c580c043abd8818dd50720d484746cb31049ed00af02f94cbd",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "src\\evidence_sufficiency_v1\\runtime.py",
+      "type": "FROZEN_INPUT",
+      "sha256": "040ad74f2cf3db0ec863b19338976212b1c0f3832c9d2193de74b2c0dc0f4557",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "src\\evidence_sufficiency_v1\\policy.py",
+      "type": "FROZEN_INPUT",
+      "sha256": "cecdce46bdf0bc1445fc8e3f9e4b33511d71c4c2a13f4a3f233412a714085e7d",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "src\\retrieval_v1\\adapter.py",
+      "type": "FROZEN_INPUT",
+      "sha256": "db64118692cc877ebb05a6585c9c81c63b1c1b8da8840e4e180baec58b8be33e",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "src\\citation_support_v1\\runtime.py",
+      "type": "FROZEN_INPUT",
+      "sha256": "85825baf0c3b596e42b51e164673fed1c707ee00a94ea523a8060cdadd489c33",
+      "eligible_for_candidate_generation": false
+    },
+    {
+      "path": "src\\answer_generation_v1\\runtime.py",
+      "type": "FROZEN_INPUT",
+      "sha256": "0e21c54aaf168fa04507d65b99b757a90f827b39196e1969c63471663d2d2fe6",
+      "eligible_for_candidate_generation": false
+    }
+  ]
+}

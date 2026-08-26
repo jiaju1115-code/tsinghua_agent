@@ -1,0 +1,18 @@
+{
+  "version": "PARTIAL_GOLD_POLICY_V1",
+  "status": "FROZEN_FOR_EVALUATION_AND_CANDIDATE_LABELING",
+  "formal_definition": "Gold PARTIAL requires at least two independent required points, at least one explicitly supported point with a locatable non-conflicting span, and at least one separately missing/insufficient point. The supported sub-answer must be safely answerable.",
+  "not_partial": [
+    "single required point not fully supported",
+    "entity/numeric/temporal/scope/negation/logical conflict",
+    "wrong attribute",
+    "OOD/topic-near overlap",
+    "multi-object match to a wrong or ambiguous object"
+  ],
+  "labels": {
+    "PARTIAL": "multi-point partial support only",
+    "SUPPORTED": "all required points explicitly supported without conflict",
+    "NOT_SUPPORTED": "all other unsupported, conflicting, single-point-incomplete, or ambiguous cases"
+  },
+  "implementation_scope": "Gold/evaluation/training-candidate policy only; not production runtime."
+}

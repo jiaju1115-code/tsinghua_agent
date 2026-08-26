@@ -1,0 +1,9 @@
+{
+  "held_out_leakage": 0,
+  "status": "PASS",
+  "protected": [
+    "DEMO002",
+    "POS003",
+    "DEMO013"
+  ]
+}

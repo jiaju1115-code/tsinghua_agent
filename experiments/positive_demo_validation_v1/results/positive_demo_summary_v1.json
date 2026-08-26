@@ -1,0 +1,17 @@
+{
+  "validation_version": "POSITIVE_DEMO_VALIDATION_V1",
+  "total_positive_cases": 8,
+  "should_answer_count": 8,
+  "actual_answer_count": 7,
+  "full_support_count": 2,
+  "unexpected_refusal_count": 1,
+  "runtime_error_count": 0,
+  "positive_answer_rate": 0.875,
+  "full_support_rate": 0.25,
+  "citation_presence_rate": 1.0,
+  "runtime_completion_rate": 1.0,
+  "paraphrase_robustness": {
+    "pairs": 3,
+    "answered_pairs": 3
+  }
+}

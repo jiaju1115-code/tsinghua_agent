@@ -1,0 +1,805 @@
+{
+  "evaluation_version": "SEMANTIC_RETRIEVAL_V1_1_OFFLINE_60",
+  "case_count": 60,
+  "kb_gap_count": 30,
+  "metrics": {
+    "Frozen Dense V1": {
+      "Recall@5": 0.1,
+      "Recall@10": 0.1,
+      "Recall@20": 0.1,
+      "MRR": 0.0667,
+      "Campus_RAG_bypass_rate": 0.7667
+    },
+    "Normalized Dense": {
+      "Recall@5": 0.7333,
+      "Recall@10": 0.7667,
+      "Recall@20": 0.8333,
+      "MRR": 0.6506,
+      "Campus_RAG_bypass_rate": 0.0
+    },
+    "Hybrid Dense+BM25+RRF": {
+      "Recall@5": 0.8,
+      "Recall@10": 0.8333,
+      "Recall@20": 0.8667,
+      "MRR": 0.7483,
+      "Campus_RAG_bypass_rate": 0.0
+    },
+    "Hybrid+Reranker": "NOT_RUN_NO_LOCAL_RERANKER"
+  },
+  "cases": [
+    {
+      "query": "我的爸妈怎么预约入校",
+      "category": "visitor_entry",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "我爸妈想进学校看看怎么弄",
+      "category": "visitor_entry",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "父母咋预约进学校",
+      "category": "visitor_entry",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "校外家属怎么预约进校",
+      "category": "visitor_entry",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "家长怎么进清华",
+      "category": "visitor_entry",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "怎么预约C楼的教室",
+      "category": "room_booking",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "C楼怎么订",
+      "category": "room_booking",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "怎么约个教室",
+      "category": "room_booking",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "怎么借C楼的教室",
+      "category": "room_booking",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "C楼场地申请在哪",
+      "category": "room_booking",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "给我推荐一个便宜又好吃的食堂",
+      "category": "dining",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0303",
+        "KBV1-PUB-PUBV2C-0304",
+        "KBV1-PUB-PUBV2C-0305",
+        "KBV1-PUB-PUBV2C-0306"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "有没有便宜点的食堂",
+      "category": "dining",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0303",
+        "KBV1-PUB-PUBV2C-0304",
+        "KBV1-PUB-PUBV2C-0305",
+        "KBV1-PUB-PUBV2C-0306"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "学校里吃饭去哪",
+      "category": "dining",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0303",
+        "KBV1-PUB-PUBV2C-0304",
+        "KBV1-PUB-PUBV2C-0305",
+        "KBV1-PUB-PUBV2C-0306"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "食堂有什么推荐",
+      "category": "dining",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0303",
+        "KBV1-PUB-PUBV2C-0304",
+        "KBV1-PUB-PUBV2C-0305",
+        "KBV1-PUB-PUBV2C-0306"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "餐厅便宜吗",
+      "category": "dining",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0303",
+        "KBV1-PUB-PUBV2C-0304",
+        "KBV1-PUB-PUBV2C-0305",
+        "KBV1-PUB-PUBV2C-0306"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 2,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "图书馆几点关",
+      "category": "library_hours",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "图书馆啥时候闭馆",
+      "category": "library_hours",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "晚上能去图书馆到几点",
+      "category": "library_hours",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "图书馆开放时间",
+      "category": "library_hours",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "图书馆夜里关门吗",
+      "category": "library_hours",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "奖学金咋搞",
+      "category": "scholarship",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0074",
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0079",
+        "KBV1-PUB-PUBV2C-0091"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "奖学金怎么申请",
+      "category": "scholarship",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0074",
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0079",
+        "KBV1-PUB-PUBV2C-0091"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "本科奖学金在哪申请",
+      "category": "scholarship",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0074",
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0079",
+        "KBV1-PUB-PUBV2C-0091"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "学生奖助什么时候弄",
+      "category": "scholarship",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0074",
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0079",
+        "KBV1-PUB-PUBV2C-0091"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 2,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "清华本科生奖学金什么时候申请",
+      "category": "scholarship",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0074",
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0079",
+        "KBV1-PUB-PUBV2C-0091"
+      ],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": 1,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "宿舍怎么申请",
+      "category": "accommodation",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0010",
+        "KBV1-PUB-PUBV2C-0047"
+      ],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": 2,
+      "normalized_dense_rank": 2,
+      "hybrid_rank": 2
+    },
+    {
+      "query": "住宿安排在哪看",
+      "category": "accommodation",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0010",
+        "KBV1-PUB-PUBV2C-0047"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 2
+    },
+    {
+      "query": "学生公寓怎么住",
+      "category": "accommodation",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0010",
+        "KBV1-PUB-PUBV2C-0047"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "宿舍管理规定",
+      "category": "accommodation",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0010",
+        "KBV1-PUB-PUBV2C-0047"
+      ],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": 2,
+      "normalized_dense_rank": 2,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "研究生住宿怎么弄",
+      "category": "accommodation",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0010",
+        "KBV1-PUB-PUBV2C-0047"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "校园卡怎么办",
+      "category": "campus_card",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "一卡通丢了怎么办",
+      "category": "campus_card",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "校园卡充值在哪",
+      "category": "campus_card",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "学生卡能干嘛",
+      "category": "campus_card",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "办卡流程",
+      "category": "campus_card",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "校园网怎么连",
+      "category": "network",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "wifi连不上怎么办",
+      "category": "network",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "学校网络服务在哪",
+      "category": "network",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "宿舍网怎么用",
+      "category": "network",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "网络账号怎么开",
+      "category": "network",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "校医院怎么去",
+      "category": "medical",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0262"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "学校看病去哪",
+      "category": "medical",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0262"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "医疗报销怎么弄",
+      "category": "medical",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0262"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 11,
+      "hybrid_rank": 7
+    },
+    {
+      "query": "校内医院电话",
+      "category": "medical",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0262"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "学生就诊流程",
+      "category": "medical",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0262"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 4,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "校车怎么坐",
+      "category": "transport",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "校园交通怎么走",
+      "category": "transport",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": true,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "班车时间",
+      "category": "transport",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "校内出行",
+      "category": "transport",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "学校交通服务",
+      "category": "transport",
+      "label": "KB_GAP",
+      "relevant_source_ids": [],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "学生请假怎么办",
+      "category": "student_affairs",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0076",
+        "KBV1-PUB-PUBV2C-0079"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "处分规定在哪",
+      "category": "student_affairs",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0076",
+        "KBV1-PUB-PUBV2C-0079"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "助学贷款怎么申请",
+      "category": "student_affairs",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0076",
+        "KBV1-PUB-PUBV2C-0079"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 13,
+      "hybrid_rank": 18
+    },
+    {
+      "query": "学籍异动流程",
+      "category": "student_affairs",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0076",
+        "KBV1-PUB-PUBV2C-0079"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "学生事务咨询",
+      "category": "student_affairs",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0075",
+        "KBV1-PUB-PUBV2C-0076",
+        "KBV1-PUB-PUBV2C-0079"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": null
+    },
+    {
+      "query": "实验室怎么申请",
+      "category": "research_resources",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0259",
+        "KBV1-PUB-PUBV2C-0293"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "科研资源在哪找",
+      "category": "research_resources",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0259",
+        "KBV1-PUB-PUBV2C-0293"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": null,
+      "hybrid_rank": 4
+    },
+    {
+      "query": "仪器怎么预约",
+      "category": "research_resources",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0259",
+        "KBV1-PUB-PUBV2C-0293"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "研究生实验室管理",
+      "category": "research_resources",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0259",
+        "KBV1-PUB-PUBV2C-0293"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 1,
+      "hybrid_rank": 1
+    },
+    {
+      "query": "校内设备使用",
+      "category": "research_resources",
+      "label": "RELEVANT_IN_KB",
+      "relevant_source_ids": [
+        "KBV1-PUB-PUBV2C-0259",
+        "KBV1-PUB-PUBV2C-0293"
+      ],
+      "frozen_v1_route": false,
+      "candidate_route": "CAMPUS_RAG",
+      "v1_rank": null,
+      "normalized_dense_rank": 10,
+      "hybrid_rank": 1
+    }
+  ],
+  "limitations": [
+    "Candidate remains diagnostic-only and is not integrated into frozen Evidence/Citation chain.",
+    "Reranker was not found locally and was not downloaded."
+  ]
+}

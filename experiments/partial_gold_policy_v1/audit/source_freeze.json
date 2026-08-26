@@ -1,0 +1,18 @@
+{
+  "version": "PARTIAL_GOLD_POLICY_SOURCE_FREEZE_V1",
+  "source_sha256": {
+    "experiments\\partial_semantics_audit_v1\\reports\\partial_semantics_audit_v1.md": "b99d8d620a65527320d7e9dc8b256b9047f46f1ef8f311e6803ef80772c84a6e",
+    "experiments\\partial_semantics_audit_v1\\results\\partial_case_audit.jsonl": "bd9fa8fd6ee613fd28429ce3619adc72b829864d4c49982ebdc2cb73771c68e3",
+    "experiments\\partial_semantics_audit_v1\\results\\partial_audit_summary.json": "bbe0df5199e113ebe107254b27a5d08e85fe968d6ea1fefe6b136d4e0f98cc45",
+    "experiments\\partial_semantics_audit_v1\\audit\\partial_policy_reconstruction.json": "c35c7361e52efbe12eb3d36dbfcd4351281f34b03e6346a46ab51c3c88f6d843",
+    "experiments\\partial_semantics_audit_v1\\reports\\human_review_queue.md": "8729e7c7a27e80b3c82a516ebc9640d956205582c392a03fc44ddbc9c3c9e70c",
+    "src\\evidence_sufficiency_v1\\schema.py": "131bf241254d3fe571250140cedf66d80520abbae18f5b79ff79d4436117c49f",
+    "src\\evidence_sufficiency_v1\\policy.py": "cecdce46bdf0bc1445fc8e3f9e4b33511d71c4c2a13f4a3f233412a714085e7d",
+    "src\\citation_support_v1\\schema.py": "867637ee9c61222b5ccb5cd0a51ae9525201005589c02600d5a008b396d93cd3",
+    "src\\citation_support_v1\\policy.py": "ac7382cb2ce46c2d1bf2b0e46a6999e577a169fa9e326a229da779df55a341bf",
+    "src\\answer_generation_v1\\validation.py": "17272df23ee012dff0499d933da2d4b4897827145230051e2166a43dfa331a6e",
+    "evaluation\\evidence_sufficiency\\v1\\README.md": "8f9ac65de901e075033bbc10c30b9471de324f9045ecd0cdc265ae71aaef520b",
+    "experiments\\semantic_rescue_safety_expansion_v1\\results\\case_level_results.jsonl": "bc5f44d833d1b436b457132d092fe1e9ae5ff0f6847462559f700191d1954539",
+    "experiments\\semantic_rescue_safety_expansion_v1\\audit\\false_promote_audit.json": "1a02ba2babbbac97aad295f51115b3ac2419a041e64df15cff2203d1730de6f4"
+  }
+}

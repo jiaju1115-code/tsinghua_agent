@@ -1,0 +1,5 @@
+{
+  "version": "POST_TRAINING_BLIND_GENERAL_EVAL_V0_1_SCORING_1",
+  "machine_checkable_only": true,
+  "external_llm_used": false
+}

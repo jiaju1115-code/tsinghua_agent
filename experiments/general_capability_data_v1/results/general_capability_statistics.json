@@ -1,0 +1,23 @@
+{
+  "researched_datasets": 5,
+  "accepted_datasets": 0,
+  "rejected_datasets": 1,
+  "eval_only_datasets": 3,
+  "metadata_only_datasets": 1,
+  "downloaded_rows": 0,
+  "raw_candidates": 6,
+  "quality_passed": 6,
+  "deduplicated_final_candidates": 6,
+  "task_family_distribution": {
+    "CALCULUS": 1,
+    "LINEAR_ALGEBRA": 1,
+    "PROBABILITY_STATISTICS": 1,
+    "REASONING": 1,
+    "SCIENCE": 1,
+    "CODE": 1
+  },
+  "final_split": "NO",
+  "training": "NO",
+  "campus_cross_leakage": 0,
+  "quality_audit": "PASS_WITH_LIMITATIONS"
+}

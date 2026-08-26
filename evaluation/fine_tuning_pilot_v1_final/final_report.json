@@ -1,0 +1,42 @@
+{
+  "decision": "READY_FOR_SERVER_UPLOAD_AND_PILOT_V1_TRAINING",
+  "family_before": {
+    "INSTRUCTION_VALUE_FIDELITY": 40,
+    "WRITING_MULTILINGUAL": 42,
+    "GENERAL_QA_SCIENCE_READING": 152,
+    "GENERAL_REASONING": 102,
+    "CODING": 64
+  },
+  "family_topup_accepted": {
+    "INSTRUCTION_VALUE_FIDELITY": 246,
+    "GENERAL_QA_SCIENCE_READING": 63,
+    "GENERAL_REASONING": 96,
+    "CODING": 26
+  },
+  "family_new_selected": {
+    "INSTRUCTION_VALUE_FIDELITY": 263,
+    "GENERAL_QA_SCIENCE_READING": 209,
+    "GENERAL_REASONING": 189,
+    "WRITING_MULTILINGUAL": 30,
+    "CODING": 87
+  },
+  "final_family": {
+    "CODING": 96,
+    "GENERAL_QA_SCIENCE_READING": 264,
+    "PROGRAMMATIC_MATH": 120,
+    "INSTRUCTION_VALUE_FIDELITY": 300,
+    "WRITING_MULTILINGUAL": 120,
+    "GENERAL_REASONING": 240,
+    "OTHER_MATH": 60
+  },
+  "train": 1080,
+  "validation": 120,
+  "surplus": 53,
+  "rejected": 107,
+  "review": 0,
+  "general_v0_1_leakage": 0,
+  "integrity": "PASS",
+  "license": "PASS",
+  "provenance": "PASS",
+  "package_path": "release/pilot_v1_training_package"
+}

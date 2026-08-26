@@ -6,7 +6,7 @@ import json
 import time
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeoutError
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 from src.citation_support_v1.normalization import canonicalize
 
@@ -28,6 +28,11 @@ from .schema import (
     VERSION,
 )
 from .validation import validate_support_package
+
+
+# Optional dependency seam.  Omitting it preserves the historical raw-hash
+# verifier and therefore the legacy Answer V1 replay contract.
+PromptVerifier = Callable[[], dict[str, str]]
 
 
 def _base(query: Any, case_id: Any, package: Any) -> dict[str, Any]:
@@ -104,10 +109,17 @@ def _prompt(
     package: dict[str, Any],
     context: dict[str, Any],
     config: dict[str, Any],
+    prompt_verifier: PromptVerifier | None = None,
 ) -> tuple[list[dict[str, str]], bool, str | None]:
     prompt_path = ROOT / config["prompt"]["path"]
-    if not prompt_path.is_file() or sha256(prompt_path) != config["prompt"]["sha256"]:
-        return [], False, "frozen prompt file is missing or has a hash mismatch"
+    if prompt_verifier is None:
+        if not prompt_path.is_file() or sha256(prompt_path) != config["prompt"]["sha256"]:
+            return [], False, "frozen prompt file is missing or has a hash mismatch"
+    else:
+        try:
+            prompt_verifier()
+        except Exception as exc:
+            return [], False, f"versioned prompt freeze verification failed: {type(exc).__name__}: {exc}"
     system_prompt = prompt_path.read_text(encoding="utf-8")
     allowed_points = []
     injection_redacted = False
@@ -233,6 +245,9 @@ def generate_answer(
     case_id: str,
     support_package: dict[str, Any],
     model_adapter: GenerationAdapter | None = None,
+    *,
+    prompt_verifier: PromptVerifier | None = None,
+    decoding_constraint: str | None = None,
 ) -> dict[str, Any]:
     """Generate only from a frozen Citation Support V1 package."""
     started = time.perf_counter()
@@ -255,6 +270,7 @@ def generate_answer(
         "prompt_version": config["prompt"]["version"],
         "prompt_sha256": config["prompt"]["sha256"],
         "json_schema_constrained": config["decoding"]["json_schema_constrained"],
+        "answer_generation_constraint": decoding_constraint,
     })
     if any(unit["source_class"] == "restricted" for unit in package["support_units"]):
         output["reason_codes"].append("RESTRICTED_METADATA_SANITIZED")
@@ -265,7 +281,7 @@ def generate_answer(
     if package["support_status"] == "BLOCKED":
         return _safe_refusal(output, config, package, started, ["SUPPORT_BLOCKED", "UPSTREAM_BLOCKED", "MODEL_NOT_CALLED"], None)
 
-    messages, evidence_injection, prompt_error = _prompt(query, package, context, config)
+    messages, evidence_injection, prompt_error = _prompt(query, package, context, config, prompt_verifier=prompt_verifier)
     output["diagnostics"]["evidence_injection_redacted"] = evidence_injection
     if evidence_injection:
         output["reason_codes"].append("PROMPT_INJECTION_GUARD")

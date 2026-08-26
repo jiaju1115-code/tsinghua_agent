@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "full_revision": "cecc0aa2602943ead28a4ea74c7a8f3c91264cbf",
+  "license": "CC-BY-4.0",
+  "upstream": "ml-research/ScalableLogicalReasoning",
+  "config": "v1-All",
+  "split": "train",
+  "source_file": "v1-All/train-00000-of-00003.parquet",
+  "schema": [
+    "id",
+    "prompt",
+    "ground-truth rule",
+    "validation program",
+    "symbols",
+    "curriculum level",
+    "curriculum tier",
+    "rule sampling",
+    "rule complexity",
+    "background sampling",
+    "problem size",
+    "vocabulary predicates",
+    "vocabulary car constants",
+    "validation_program_shortcuts"
+  ],
+  "pinned_rows_replayed": 6018,
+  "preview_rows_checked": 12,
+  "selected_candidate_rows": 45,
+  "filters": [
+    "train only",
+    "curriculum level <= 8",
+    "no arithmetic predicate",
+    "no recursive target predicate",
+    "unique rule signature"
+  ],
+  "validation_program_present": true
+}

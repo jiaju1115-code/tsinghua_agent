@@ -1,0 +1,15 @@
+{
+  "version": "POST_TRAINING_BLIND_GENERAL_EVAL_V0_SCORING_1",
+  "machine_checkable_only": true,
+  "external_llm_used": false,
+  "families": [
+    "BASIC_CODE",
+    "BASIC_SCIENCE",
+    "CALCULUS",
+    "GENERAL_INSTRUCTION",
+    "GENERAL_REASONING",
+    "LINEAR_ALGEBRA",
+    "MATHEMATICAL_REASONING",
+    "PROBABILITY_STATISTICS"
+  ]
+}

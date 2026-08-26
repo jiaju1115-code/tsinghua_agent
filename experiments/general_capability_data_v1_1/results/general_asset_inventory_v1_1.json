@@ -1,0 +1,14 @@
+{
+  "external_rows_downloaded": 805,
+  "deduplicated_candidates": 680,
+  "oasst1_candidates": 181,
+  "mathinstruct_candidates": 299,
+  "gemo_candidates": 200,
+  "programmatic_math": 200,
+  "errors": [],
+  "license_audit": "PASS",
+  "benchmark_leakage": "PASS",
+  "campus_cross_leakage": 0,
+  "final_split": "NO",
+  "training": "NO"
+}

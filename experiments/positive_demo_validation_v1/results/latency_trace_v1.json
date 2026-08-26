@@ -1,0 +1,15 @@
+{
+  "version": "LATENCY_TRACE_V1",
+  "scope": "positive_demo_validation_v1",
+  "slowest_case": "POS008",
+  "total_ms": 18836.423,
+  "layers_ms": {
+    "retrieval": 24.19,
+    "evidence": 19.355,
+    "citation": 8.129,
+    "answer": 18783.493
+  },
+  "model_called": true,
+  "diagnosis": "Answer/model inference dominates; retrieval, Evidence, and Citation are each below 0.2 seconds. This run does not expose a separate cold-start timer, and the repeated model-call pattern indicates model inference rather than retrieval or citation latency.",
+  "cold_warm_boundary": "not separately instrumented; no evidence of a retriever cold-start bottleneck in the recorded layer timings"
+}

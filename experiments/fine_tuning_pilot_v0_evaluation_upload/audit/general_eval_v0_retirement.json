@@ -1,0 +1,6 @@
+{
+  "status": "V0_RETIRED_BEFORE_INFERENCE_DUE_TO_DUPLICATE_PROMPTS",
+  "reason": "Benchmark composition quality issue: duplicate prompts. This is not contamination and is unrelated to any model output.",
+  "inference_executed": false,
+  "v0_artifacts_preserved": true
+}

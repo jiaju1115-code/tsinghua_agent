@@ -1,0 +1,33 @@
+{
+  "target_cases": 24,
+  "audit_class_counts": {
+    "CONFIRMED_PRODUCTION_FALSE_PROMOTE": 16,
+    "LABEL_POLICY_MISMATCH": 7,
+    "HUMAN_REVIEW_REQUIRED": 1
+  },
+  "confirmed_root_causes": {
+    "scope_conflict": 6,
+    "numeric_conflict": 4,
+    "negation_conflict": 2,
+    "single_required_point_lexical_partial": 1,
+    "multi_object_conflict": 3,
+    "requested_attribute_missing": 2,
+    "ood_topic_near": 1
+  },
+  "policy": {
+    "production_semantics_clear_consistent_cases": 0,
+    "policy_ambiguity_cases": 24,
+    "safety_set_production_label_mismatch_cases": 7,
+    "source_provenance_conflict_cases": 1
+  },
+  "systematic_partial_boundary_weakness": {
+    "present": true,
+    "description": "The frozen runtime gives a single point PARTIALLY_SUPPORTED from lexical overlap >= 0.18 without modeling degree/scope/numeric/negation/object constraints."
+  },
+  "future_use_counts": {
+    "HARD_NEGATIVE_CANDIDATE": 16,
+    "EVAL_POLICY_FIX_REQUIRED": 7,
+    "HUMAN_REVIEW": 1
+  },
+  "conclusion": "MIXED_PARTIAL_SEMANTICS"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "train_source_recommendations": [
+    "OpenAssistant/oasst1 metadata only, subject to sample-level filtering"
+  ],
+  "future_eval_only": [
+    "openai/gsm8k",
+    "allenai/math_qa",
+    "MU-NLPC/Calc-math_qa",
+    "allenai/ai2_arc"
+  ],
+  "excluded": [
+    "Open-Orca/OpenOrca"
+  ],
+  "rule": "No benchmark test split may be used in future training and evaluation."
+}

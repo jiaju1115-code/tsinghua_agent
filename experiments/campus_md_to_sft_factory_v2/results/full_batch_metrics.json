@@ -1,0 +1,18 @@
+{
+  "selected_md": 119,
+  "processed": 119,
+  "no_training_sample": 4,
+  "generated_candidates": 229,
+  "accepted": 229,
+  "rejected": 0,
+  "evidence_span_validity": 1.0,
+  "held_out_leakage": 0,
+  "by_type": {
+    "SUPPORTED": 229,
+    "PARTIAL": 0,
+    "PARAPHRASE": 0,
+    "GROUNDED_ANSWER": 0,
+    "NEGATIVE_PROPOSAL": 0
+  },
+  "codex_usage": "CODEX_USAGE_NOT_AVAILABLE"
+}

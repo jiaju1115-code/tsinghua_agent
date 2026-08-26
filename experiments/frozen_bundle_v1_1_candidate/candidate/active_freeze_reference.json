@@ -1,0 +1,9 @@
+{
+  "active_freeze": "FROZEN_BUNDLE_V1.1",
+  "legacy_freeze": "FROZEN_BUNDLE_V1",
+  "legacy_role": "historical immutable legacy freeze",
+  "v1_1_role": "approved canonical cross-platform freeze",
+  "semantic_content_evolution": false,
+  "portability_evolution": true,
+  "production_integration": false
+}

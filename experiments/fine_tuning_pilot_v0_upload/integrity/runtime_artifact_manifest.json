@@ -1,0 +1,10 @@
+{
+  "policy": "Runtime-generated audit and run outputs are deliberately excluded from static input SHA256 validation. Their post-generation hashes belong in per-run manifests.",
+  "runtime_generated": [
+    "audit/loss_masking_audit.json",
+    "audit/sampling_dry_validation.json",
+    "data/truncation_audit.json",
+    "outputs/<run_id>/"
+  ],
+  "static_integrity": "integrity/SHA256SUMS.txt"
+}

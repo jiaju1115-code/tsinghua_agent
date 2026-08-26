@@ -1,0 +1,19 @@
+{
+  "Lexical": {
+    "status": "READY",
+    "source": "existing Dynamic lexical index"
+  },
+  "Dense": {
+    "status": "READY",
+    "embedding_count": 2429,
+    "dimension": 512
+  },
+  "Hybrid": {
+    "status": "READY",
+    "rrf_k": 60
+  },
+  "Core Regression": {
+    "status": "GOLD_AVAILABLE_FOR_20_CORE_CASES",
+    "evaluation": "read-only evaluation layer"
+  }
+}

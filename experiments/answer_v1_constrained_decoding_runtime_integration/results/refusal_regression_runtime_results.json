@@ -1,0 +1,23 @@
+{
+  "version": "ANSWER_V1_CONSTRAINED_REFUSAL_REGRESSION_V1",
+  "cases": [
+    {
+      "case_id": "DEMO005",
+      "status": "COMPLETED",
+      "answer_status": "REFUSAL",
+      "evidence_status": "INSUFFICIENT",
+      "citation_status": "BLOCKED",
+      "refused": true,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    },
+    {
+      "case_id": "DEMO012",
+      "status": "COMPLETED",
+      "answer_status": "REFUSAL",
+      "evidence_status": "SUFFICIENT",
+      "citation_status": "BLOCKED",
+      "refused": true,
+      "constraint_version": "ANSWER_V1_CONSTRAINED_DECODING_V1"
+    }
+  ]
+}

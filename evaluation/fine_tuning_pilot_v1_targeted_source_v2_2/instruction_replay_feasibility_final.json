@@ -1,0 +1,40 @@
+[
+  {
+    "dataset": "NousResearch/hermes-function-calling-v1",
+    "full_commit_sha": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+    "config": "func_calling",
+    "split": "train",
+    "source_file": "func-calling.json",
+    "file_etag": "769478035a886678d525d057ea66e3fd1e247f43e35c8d6d7cc866e080b6742b",
+    "rows_read": 12,
+    "stable_id_present": true,
+    "raw_row_hash_recorded": true,
+    "sample_schema": [
+      "category",
+      "conversations",
+      "id",
+      "subcategory",
+      "task",
+      "tools"
+    ],
+    "status": "REPLAY_FEASIBILITY_PASS",
+    "error": null
+  },
+  {
+    "dataset": "Team-ACE/ToolACE",
+    "full_commit_sha": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+    "config": "default",
+    "split": "train",
+    "source_file": "data.json",
+    "file_etag": "ba12c083fca7e8da48c67ad5b895e495447da7c66e39a2e19742c082e6cb537e",
+    "rows_read": 12,
+    "stable_id_present": false,
+    "raw_row_hash_recorded": true,
+    "sample_schema": [
+      "conversations",
+      "system"
+    ],
+    "status": "REPLAY_FEASIBILITY_PASS",
+    "error": null
+  }
+]

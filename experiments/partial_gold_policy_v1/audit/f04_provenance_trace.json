@@ -1,0 +1,11 @@
+{
+  "case_id": "F04",
+  "production_primary_output": "SUFFICIENT",
+  "semantic_rescue_original_candidate_output": "SUFFICIENT",
+  "semantic_rescue_guarded_candidate_output": "SUFFICIENT",
+  "final_experiment_output": "SUFFICIENT",
+  "safety_audit_list_source": "semantic_rescue_safety_expansion_v1/audit/false_promote_audit.json confirmed_false_promotes",
+  "root_cause": "The prior audit used candidate final status to define false promotion, then described all entries as inherited production-primary PARTIAL results. F04 is the exception.",
+  "status": "PROVENANCE_ATTRIBUTION_ERROR_CONFIRMED",
+  "policy_v1_resolution": "RESOLVED_BY_POLICY_V1: single required-point materials query with no complete support is NOT_SUPPORTED; it is not a VALID PARTIAL candidate."
+}

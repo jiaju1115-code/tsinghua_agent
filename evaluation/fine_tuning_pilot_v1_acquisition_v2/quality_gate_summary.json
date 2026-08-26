@@ -1,0 +1,58 @@
+{
+  "raw_records": 1190,
+  "accepted": 402,
+  "rejected": 788,
+  "review": 0,
+  "reasons": {
+    "HIDDEN_COT_DEPENDENCY": 179,
+    "TOO_LONG": 39,
+    "WRONG_FAMILY": 237,
+    "ALIGNMENT_FAIL": 4,
+    "SUBJECTIVE_GOLD": 7,
+    "CONTEXT_UNSUPPORTED": 150,
+    "TIME_SENSITIVE": 18,
+    "GOLD_AMBIGUOUS": 98,
+    "CODE_TEST_FAIL": 46,
+    "UNSAFE_CODE": 10
+  },
+  "source_failures": [],
+  "input_integrity": {
+    "before": {
+      "data\\fine_tuning_v1\\general_capability_candidates_v1_2": {
+        "sha256": "db2df77fa8de1deaa4910b48e8edd88de823c11e8611d9d18d243a9a598d359b",
+        "file_count": 9
+      },
+      "evaluation\\fine_tuning_pilot_v1_data_preflight\\proposed_keep.jsonl": {
+        "sha256": "34c56e4d9ebb25688f8fa365b26da5b9462b65aab9c41f003adad0b4c66065d0",
+        "bytes": 182480
+      },
+      "evaluation\\fine_tuning_pilot_v1_data_preflight\\proposed_drop.jsonl": {
+        "sha256": "f5cdb46cebccbe085d4f4b03232afa78290dfbcb09560bb71d4fa0249df65fa3",
+        "bytes": 189304
+      },
+      "experiments\\fine_tuning_pilot_v0_evaluation_upload\\data\\general\\general_eval_v0_1.jsonl": {
+        "sha256": "937f03412296f537d92a90c09e2626fcc14343dc74174d00e27441c063dacb71",
+        "bytes": 41136
+      }
+    },
+    "after": {
+      "data\\fine_tuning_v1\\general_capability_candidates_v1_2": {
+        "sha256": "db2df77fa8de1deaa4910b48e8edd88de823c11e8611d9d18d243a9a598d359b",
+        "file_count": 9
+      },
+      "evaluation\\fine_tuning_pilot_v1_data_preflight\\proposed_keep.jsonl": {
+        "sha256": "34c56e4d9ebb25688f8fa365b26da5b9462b65aab9c41f003adad0b4c66065d0",
+        "bytes": 182480
+      },
+      "evaluation\\fine_tuning_pilot_v1_data_preflight\\proposed_drop.jsonl": {
+        "sha256": "f5cdb46cebccbe085d4f4b03232afa78290dfbcb09560bb71d4fa0249df65fa3",
+        "bytes": 189304
+      },
+      "experiments\\fine_tuning_pilot_v0_evaluation_upload\\data\\general\\general_eval_v0_1.jsonl": {
+        "sha256": "937f03412296f537d92a90c09e2626fcc14343dc74174d00e27441c063dacb71",
+        "bytes": 41136
+      }
+    },
+    "pass": true
+  }
+}

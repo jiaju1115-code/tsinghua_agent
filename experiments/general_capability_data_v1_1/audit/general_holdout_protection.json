@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "protected_families": 680,
+  "policy": "FUTURE_GENERAL_HOLDOUT; no final split created"
+}

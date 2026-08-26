@@ -1,0 +1,22 @@
+{
+  "version": "ANSWER_V1_STRUCTURED_OUTPUT_CONTRACT_INVENTORY_V1",
+  "source": ["src/answer_generation_v1/schema.py", "src/answer_generation_v1/runtime.py", "evaluation/answer_generation/runtime_v1/prompts/answer_generation_v1_prompt.md"],
+  "model_output": {
+    "top_level_fields": ["answer_status", "claims"],
+    "answer_status_enum": ["FULL_ANSWER", "PARTIAL_ANSWER"],
+    "claim_fields": ["required_point_id", "claim_text", "support_unit_ids"],
+    "claim_cardinality": "one claim per allowed required point; duplicate point IDs rejected",
+    "required_point_rule": "claim point must be in supported or partially-supported mappings",
+    "support_id_rule": "every support ID must belong to the same required-point mapping",
+    "coverage_rule": "all allowed required points must be represented",
+    "claim_text_rule": "non-empty, bounded, injection-safe; runtime deterministically emits mapped support text",
+    "limitation_fields": "not emitted by model; Runtime appends deterministic partial limitation",
+    "citation_fields": "not emitted by model; Citation support units remain upstream input",
+    "refusal_representation": "model does not emit refusal; Runtime fail-closed refusal carries reason codes"
+  },
+  "runtime_output": {
+    "answer_status_enum": ["FULL_ANSWER", "PARTIAL_ANSWER", "REFUSAL"],
+    "partial_required_fields": ["answer_text", "answered_required_point_ids", "unanswered_required_point_ids", "used_support_unit_ids", "used_source_ids", "claim_records", "reason_codes", "diagnostics"],
+    "safety_authority": "original Answer V1 parser/validator and Runtime support package validation"
+  }
+}

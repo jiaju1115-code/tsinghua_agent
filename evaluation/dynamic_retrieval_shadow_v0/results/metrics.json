@@ -1,0 +1,28 @@
+{
+  "Core Only": {
+    "n": 70,
+    "Hit@1": 0.0,
+    "Hit@5": 0.0,
+    "Hit@10": 0.0,
+    "Hit@20": 0.0,
+    "MRR": 0.0,
+    "note": "Core chunks contain no expected Dynamic candidate IDs; read-only baseline"
+  },
+  "Dynamic Only": {
+    "n": 70,
+    "Hit@1": 0.8571428571428571,
+    "Hit@5": 1.0,
+    "Hit@10": 1.0,
+    "Hit@20": 1.0,
+    "MRR": 0.919047619047619
+  },
+  "Core + Dynamic": {
+    "n": 70,
+    "Hit@1": 0.8571428571428571,
+    "Hit@5": 1.0,
+    "Hit@10": 1.0,
+    "Hit@20": 1.0,
+    "MRR": 0.919047619047619
+  },
+  "dense_note": "Dense unavailable; BM25/TF-IDF deterministic shadow run"
+}

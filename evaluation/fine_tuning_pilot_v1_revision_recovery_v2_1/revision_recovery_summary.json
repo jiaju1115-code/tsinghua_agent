@@ -1,0 +1,15 @@
+{
+  "stage2_candidates": 1190,
+  "successfully_replayed": 780,
+  "exact_raw_match": 780,
+  "normalized_content_match": 0,
+  "content_mismatch": 0,
+  "not_found": 310,
+  "unresolved": 0,
+  "legacy_accepted": 402,
+  "revision_verified_accepted": 364,
+  "accepted_leakage": 0,
+  "license_status": "PASS (Stage 1 conclusion rechecked against pinned README presence; no conflict detected)",
+  "frozen_input_integrity": true,
+  "decision": "REVISION_PROVENANCE_RECOVERED"
+}

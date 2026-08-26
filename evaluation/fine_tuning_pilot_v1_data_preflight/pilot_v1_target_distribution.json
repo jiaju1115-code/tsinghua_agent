@@ -1,0 +1,27 @@
+{
+  "primary_total": 1200,
+  "allowed_range": [
+    1100,
+    1300
+  ],
+  "targets": {
+    "INSTRUCTION_VALUE_FIDELITY": 300,
+    "GENERAL_QA_SCIENCE_READING": 264,
+    "GENERAL_REASONING": 240,
+    "WRITING_MULTILINGUAL": 120,
+    "CODING": 96,
+    "PROGRAMMATIC_MATH": 120,
+    "OTHER_MATH": 60
+  },
+  "percent": {
+    "INSTRUCTION_VALUE_FIDELITY": 25,
+    "GENERAL_QA_SCIENCE_READING": 22,
+    "GENERAL_REASONING": 20,
+    "WRITING_MULTILINGUAL": 10,
+    "CODING": 8,
+    "PROGRAMMATIC_MATH": 10,
+    "OTHER_MATH": 5
+  },
+  "total_percent": 100,
+  "total_math_percent": 15
+}

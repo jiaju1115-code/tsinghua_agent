@@ -1,0 +1,112 @@
+{
+  "overall": {
+    "N": 100,
+    "base_correct": 22,
+    "pilot_correct": 30,
+    "base_accuracy": 0.22,
+    "pilot_accuracy": 0.3,
+    "delta": 0.08,
+    "BOTH_PASS": 19,
+    "BOTH_FAIL": 67,
+    "REGRESSION": 3,
+    "WIN": 11
+  },
+  "families": {
+    "BASIC_CODE": {
+      "N": 8,
+      "base_correct": 0,
+      "pilot_correct": 7,
+      "base_accuracy": 0.0,
+      "pilot_accuracy": 0.875,
+      "delta": 0.875,
+      "WIN": 7,
+      "REGRESSION": 0,
+      "BOTH_PASS": 0,
+      "BOTH_FAIL": 1
+    },
+    "BASIC_SCIENCE": {
+      "N": 5,
+      "base_correct": 5,
+      "pilot_correct": 4,
+      "base_accuracy": 1.0,
+      "pilot_accuracy": 0.8,
+      "delta": -0.2,
+      "WIN": 0,
+      "REGRESSION": 1,
+      "BOTH_PASS": 4,
+      "BOTH_FAIL": 0
+    },
+    "CALCULUS": {
+      "N": 10,
+      "base_correct": 0,
+      "pilot_correct": 2,
+      "base_accuracy": 0.0,
+      "pilot_accuracy": 0.2,
+      "delta": 0.2,
+      "WIN": 2,
+      "REGRESSION": 0,
+      "BOTH_PASS": 0,
+      "BOTH_FAIL": 8
+    },
+    "GENERAL_INSTRUCTION": {
+      "N": 20,
+      "base_correct": 17,
+      "pilot_correct": 17,
+      "base_accuracy": 0.85,
+      "pilot_accuracy": 0.85,
+      "delta": 0.0,
+      "WIN": 2,
+      "REGRESSION": 2,
+      "BOTH_PASS": 15,
+      "BOTH_FAIL": 1
+    },
+    "GENERAL_REASONING": {
+      "N": 15,
+      "base_correct": 0,
+      "pilot_correct": 0,
+      "base_accuracy": 0.0,
+      "pilot_accuracy": 0.0,
+      "delta": 0.0,
+      "WIN": 0,
+      "REGRESSION": 0,
+      "BOTH_PASS": 0,
+      "BOTH_FAIL": 15
+    },
+    "LINEAR_ALGEBRA": {
+      "N": 12,
+      "base_correct": 0,
+      "pilot_correct": 0,
+      "base_accuracy": 0.0,
+      "pilot_accuracy": 0.0,
+      "delta": 0.0,
+      "WIN": 0,
+      "REGRESSION": 0,
+      "BOTH_PASS": 0,
+      "BOTH_FAIL": 12
+    },
+    "MATHEMATICAL_REASONING": {
+      "N": 20,
+      "base_correct": 0,
+      "pilot_correct": 0,
+      "base_accuracy": 0.0,
+      "pilot_accuracy": 0.0,
+      "delta": 0.0,
+      "WIN": 0,
+      "REGRESSION": 0,
+      "BOTH_PASS": 0,
+      "BOTH_FAIL": 20
+    },
+    "PROBABILITY_STATISTICS": {
+      "N": 10,
+      "base_correct": 0,
+      "pilot_correct": 0,
+      "base_accuracy": 0.0,
+      "pilot_accuracy": 0.0,
+      "delta": 0.0,
+      "WIN": 0,
+      "REGRESSION": 0,
+      "BOTH_PASS": 0,
+      "BOTH_FAIL": 10
+    }
+  }
+}

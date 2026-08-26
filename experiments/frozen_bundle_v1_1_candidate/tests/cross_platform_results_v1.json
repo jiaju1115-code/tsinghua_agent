@@ -1,0 +1,11 @@
+{
+  "lf_canonical_hashes": {
+    "knowledge_base_v1_freeze.json": "e54315552f65458570ca9d4108e8e592e8638a331f21012e92e120f87b0edf8b",
+    "rag_retrieval_v1_freeze.json": "37364781a7061fd10cdf0fd75d29b22c620999e4afe24aabab6357318766e76d"
+  },
+  "crlf_canonical_hashes": {
+    "knowledge_base_v1_freeze.json": "e54315552f65458570ca9d4108e8e592e8638a331f21012e92e120f87b0edf8b",
+    "rag_retrieval_v1_freeze.json": "37364781a7061fd10cdf0fd75d29b22c620999e4afe24aabab6357318766e76d"
+  },
+  "pass": true
+}

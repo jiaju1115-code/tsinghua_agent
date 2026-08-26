@@ -1,0 +1,121 @@
+{
+  "sources": {
+    "nvidia/Nemotron-Instruction-Following-Chat-v1": {
+      "requested_stage1_revision": "83dcd3a",
+      "resolved_commit_sha": "83dcd3aded0d289b0bbc018d3f9af4c5dd4005df",
+      "resolution_timestamp_utc": "2026-08-17T06:28:21.561986+00:00",
+      "resolution_method": "HfApi.dataset_info(repo_type=dataset, revision=Stage1 revision)",
+      "replay_scanned_source_rows": 220,
+      "replayed_candidate_records": 0,
+      "legacy_candidate_records": 220
+    },
+    "allenai/tulu-3-sft-personas-instruction-following": {
+      "requested_stage1_revision": "fe0c7d3",
+      "resolved_commit_sha": "fe0c7d350c9b4542b8d829a6f1daa1c259f0ba0e",
+      "resolution_timestamp_utc": "2026-08-17T06:28:22.474254+00:00",
+      "resolution_method": "HfApi.dataset_info(repo_type=dataset, revision=Stage1 revision)",
+      "replay_scanned_source_rows": 140,
+      "replayed_candidate_records": 140,
+      "legacy_candidate_records": 140
+    },
+    "databricks/databricks-dolly-15k": {
+      "requested_stage1_revision": "bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a",
+      "resolved_commit_sha": "bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a",
+      "resolution_timestamp_utc": "2026-08-17T06:28:23.263799+00:00",
+      "resolution_method": "HfApi.dataset_info(repo_type=dataset, revision=Stage1 revision)",
+      "replay_scanned_source_rows": 1603,
+      "replayed_candidate_records": 270,
+      "legacy_candidate_records": 270
+    },
+    "rajpurkar/squad": {
+      "requested_stage1_revision": "7b6d24c",
+      "resolved_commit_sha": "7b6d24c440a36b6815f21b70d25016731768db1f",
+      "resolution_timestamp_utc": "2026-08-17T06:28:24.309235+00:00",
+      "resolution_method": "HfApi.dataset_info(repo_type=dataset, revision=Stage1 revision)",
+      "replay_scanned_source_rows": 140,
+      "replayed_candidate_records": 140,
+      "legacy_candidate_records": 140
+    },
+    "tasksource/ruletaker": {
+      "requested_stage1_revision": "a3e0880",
+      "resolved_commit_sha": "a3e0880baeb6ec3d478f4c4d85afe04b21b6cf7f",
+      "resolution_timestamp_utc": "2026-08-17T06:28:25.947768+00:00",
+      "resolution_method": "HfApi.dataset_info(repo_type=dataset, revision=Stage1 revision)",
+      "replay_scanned_source_rows": 200,
+      "replayed_candidate_records": 200,
+      "legacy_candidate_records": 200
+    },
+    "facebook/babi_qa": {
+      "requested_stage1_revision": "021d7ae",
+      "resolved_commit_sha": "021d7aeb7307b7856dd0632f92827bc607dc2f1b",
+      "resolution_timestamp_utc": "2026-08-17T06:28:27.894688+00:00",
+      "resolution_method": "HfApi.dataset_info(repo_type=dataset, revision=Stage1 revision)",
+      "replay_scanned_source_rows": 0,
+      "replayed_candidate_records": 0,
+      "legacy_candidate_records": 100,
+      "recovery_status": "PROVENANCE_UNRESOLVED: legacy script upstream archive did not complete bounded stream"
+    },
+    "nvidia/OpenCodeInstruct": {
+      "requested_stage1_revision": "8f3ba5b",
+      "resolved_commit_sha": "8f3ba5bafe4d6e8db46082cf7ae6741bc370604d",
+      "resolution_timestamp_utc": "2026-08-17T06:28:28.609542+00:00",
+      "resolution_method": "HfApi.dataset_info(repo_type=dataset, revision=Stage1 revision)",
+      "replay_scanned_source_rows": 90,
+      "replayed_candidate_records": 0,
+      "legacy_candidate_records": 90
+    },
+    "google-research-datasets/mbpp": {
+      "requested_stage1_revision": "4bb6404",
+      "resolved_commit_sha": "4bb6404fdc6cacfda99d4ac4205087b89d32030c",
+      "resolution_timestamp_utc": "2026-08-17T06:28:29.256470+00:00",
+      "resolution_method": "HfApi.dataset_info(repo_type=dataset, revision=Stage1 revision)",
+      "replay_scanned_source_rows": 30,
+      "replayed_candidate_records": 30,
+      "legacy_candidate_records": 30
+    }
+  },
+  "file_metadata": {
+    "nvidia/Nemotron-Instruction-Following-Chat-v1": {
+      "path": "data/structured_outputs.jsonl",
+      "commit_pinned_url": "https://huggingface.co/datasets/nvidia/Nemotron-Instruction-Following-Chat-v1/resolve/83dcd3aded0d289b0bbc018d3f9af4c5dd4005df/data/structured_outputs.jsonl",
+      "etag": "03e4cc9a657f9f193860d82fe49764acc6b298f6ce6811497412aa5a0181ec77",
+      "size": 94752457
+    },
+    "allenai/tulu-3-sft-personas-instruction-following": {
+      "path": "data/train-00000-of-00001.parquet",
+      "commit_pinned_url": "https://huggingface.co/datasets/allenai/tulu-3-sft-personas-instruction-following/resolve/fe0c7d350c9b4542b8d829a6f1daa1c259f0ba0e/data/train-00000-of-00001.parquet",
+      "etag": "19a16c5f1649d367f69899b3cfadbbeb5ffef91f24e20c6617588bdd87cd3e60",
+      "size": 39171921
+    },
+    "databricks/databricks-dolly-15k": {
+      "path": "databricks-dolly-15k.jsonl",
+      "commit_pinned_url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k/resolve/bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a/databricks-dolly-15k.jsonl",
+      "etag": "2df9083338b4abd6bceb5635764dab5d833b393b55759dffb0959b6fcbf794ec",
+      "size": 13085339
+    },
+    "rajpurkar/squad": {
+      "path": "plain_text/train-00000-of-00001.parquet",
+      "commit_pinned_url": "https://huggingface.co/datasets/rajpurkar/squad/resolve/7b6d24c440a36b6815f21b70d25016731768db1f/plain_text/train-00000-of-00001.parquet",
+      "etag": "ea7f52bac024f6b1bdc7aaa2a4ee302cba8c2fdc8d4a235cf18a9a5196b6175b",
+      "size": 14458314
+    },
+    "tasksource/ruletaker": {
+      "path": "data/train-00000-of-00001-52adaa842dd7ed92.parquet",
+      "commit_pinned_url": "https://huggingface.co/datasets/tasksource/ruletaker/resolve/a3e0880baeb6ec3d478f4c4d85afe04b21b6cf7f/data/train-00000-of-00001-52adaa842dd7ed92.parquet",
+      "etag": "beade0ce8650bfaf3f1d57bae54e686db029bbef277fa75617e35edc1d53b2c9",
+      "size": 28594899
+    },
+    "nvidia/OpenCodeInstruct": {
+      "path": "data/train-00000-of-00050.parquet",
+      "commit_pinned_url": "https://huggingface.co/datasets/nvidia/OpenCodeInstruct/resolve/8f3ba5bafe4d6e8db46082cf7ae6741bc370604d/data/train-00000-of-00050.parquet",
+      "etag": "342757e0c6b706c8f68cf0a867ead5c417d0273726453dbcfc934f5c3c6ca891",
+      "size": 133476478
+    },
+    "google-research-datasets/mbpp": {
+      "path": "full/train-00000-of-00001.parquet",
+      "commit_pinned_url": "https://huggingface.co/datasets/google-research-datasets/mbpp/resolve/4bb6404fdc6cacfda99d4ac4205087b89d32030c/full/train-00000-of-00001.parquet",
+      "etag": "09d125ca31edacb7800be8c67c45abff618faf0214ff551291817d06bdb914ae",
+      "size": 87223
+    }
+  }
+}

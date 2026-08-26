@@ -1,0 +1,153 @@
+{
+  "execution_status": "PLAN_ONLY_DO_NOT_ACQUIRE",
+  "families": [
+    {
+      "family": "INSTRUCTION_VALUE_FIDELITY",
+      "verified_current": 40,
+      "target": 263,
+      "remaining": 223,
+      "sources": [
+        {
+          "source": "NousResearch/hermes-function-calling-v1",
+          "tier": "CONFIRMED_SOURCE",
+          "revision": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+          "config": "func_calling",
+          "split": "train",
+          "candidates": 190,
+          "expected_yield": 0.65,
+          "expected_accepted": 124
+        },
+        {
+          "source": "Team-ACE/ToolACE",
+          "tier": "CONFIRMED_SOURCE",
+          "revision": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+          "config": "default",
+          "split": "train",
+          "candidates": 180,
+          "expected_yield": 0.65,
+          "expected_accepted": 117
+        }
+      ],
+      "candidate_total": 370,
+      "expected_accepted_total": 241,
+      "buffer": 18
+    },
+    {
+      "family": "GENERAL_QA_SCIENCE_READING",
+      "verified_current": 152,
+      "target": 209,
+      "remaining": 57,
+      "sources": [
+        {
+          "source": "rajpurkar/squad",
+          "tier": "CONFIRMED_SOURCE",
+          "revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+          "config": "plain_text",
+          "split": "train",
+          "candidates": 50,
+          "expected_yield": 0.88,
+          "expected_accepted": 44
+        },
+        {
+          "source": "databricks/databricks-dolly-15k",
+          "tier": "CONFIRMED_SOURCE",
+          "revision": "bdd27f4d94b9c1f951818a7da7fd7aeea5dbff1a",
+          "config": "default",
+          "split": "train",
+          "candidates": 110,
+          "expected_yield": 0.17,
+          "expected_accepted": 18
+        }
+      ],
+      "candidate_total": 160,
+      "expected_accepted_total": 62,
+      "buffer": 5
+    },
+    {
+      "family": "GENERAL_REASONING",
+      "verified_current": 102,
+      "target": 189,
+      "remaining": 87,
+      "sources": [
+        {
+          "source": "tasksource/ruletaker",
+          "tier": "CONFIRMED_SOURCE",
+          "revision": "a3e0880baeb6ec3d478f4c4d85afe04b21b6cf7f",
+          "config": "default",
+          "split": "train",
+          "candidates": 120,
+          "expected_yield": 0.51,
+          "expected_accepted": 61
+        },
+        {
+          "source": "AIML-TUDA/SLR-Bench",
+          "tier": "PROVISIONAL_SOURCE",
+          "revision": "cecc0aa2602943ead28a4ea74c7a8f3c91264cbf",
+          "config": "v1-All",
+          "split": "train",
+          "candidates": 45,
+          "expected_yield": 0.6,
+          "expected_accepted": 27,
+          "restriction": "Non-math, non-recursive relational/ordering rows only; needs dedicated leakage and preview gate before acquisition."
+        }
+      ],
+      "candidate_total": 165,
+      "expected_accepted_total": 88,
+      "buffer": 1
+    },
+    {
+      "family": "CODING",
+      "verified_current": 64,
+      "target": 87,
+      "remaining": 23,
+      "sources": [
+        {
+          "source": "google-research-datasets/mbpp",
+          "tier": "CONFIRMED_SOURCE",
+          "revision": "4bb6404fdc6cacfda99d4ac4205087b89d32030c",
+          "config": "full",
+          "split": "train",
+          "candidates": 15,
+          "expected_yield": 0.93,
+          "expected_accepted": 14
+        },
+        {
+          "source": "nvidia/OpenCodeInstruct",
+          "tier": "CONFIRMED_SOURCE",
+          "revision": "8f3ba5bafe4d6e8db46082cf7ae6741bc370604d",
+          "config": "train",
+          "split": "train",
+          "candidates": 25,
+          "expected_yield": 0.4,
+          "expected_accepted": 10
+        }
+      ],
+      "candidate_total": 40,
+      "expected_accepted_total": 24,
+      "buffer": 1
+    },
+    {
+      "family": "WRITING_MULTILINGUAL",
+      "candidate_total": 0,
+      "expected_accepted_total": 0,
+      "remaining": 0
+    },
+    {
+      "family": "PROGRAMMATIC_MATH",
+      "candidate_total": 0,
+      "expected_accepted_total": 0,
+      "remaining": 0
+    },
+    {
+      "family": "OTHER_MATH",
+      "candidate_total": 0,
+      "expected_accepted_total": 0,
+      "remaining": 0
+    }
+  ],
+  "candidate_total": 735,
+  "expected_accepted_total": 415,
+  "remaining_gap_total": 390,
+  "overall_buffer": 25,
+  "automatic_acquisition_rule": "Only CONFIRMED_SOURCE rows may be acquired; PROVISIONAL_SOURCE requires a separate gate."
+}

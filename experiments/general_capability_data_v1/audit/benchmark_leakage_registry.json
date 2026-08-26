@@ -1,0 +1,22 @@
+{
+  "OpenAssistant/oasst1": {
+    "decision": "METADATA_ONLY_PENDING_SAMPLE_FILTER",
+    "test_split": "N/A"
+  },
+  "openai/gsm8k": {
+    "decision": "EVAL_ONLY",
+    "test_split": "EVAL_ONLY"
+  },
+  "cais/mmlu": {
+    "decision": "EVAL_ONLY",
+    "test_split": "EVAL_ONLY"
+  },
+  "allenai/ai2_arc": {
+    "decision": "EVAL_ONLY",
+    "test_split": "EVAL_ONLY"
+  },
+  "Open-Orca/OpenOrca": {
+    "decision": "EXCLUDE",
+    "test_split": "N/A"
+  }
+}

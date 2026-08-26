@@ -1,0 +1,27 @@
+{
+  "version": "PARTIAL_SEMANTICS_CONFLICT_V1",
+  "status": "PARTIAL_SEMANTICS_CONFLICT",
+  "conflicts": [
+    {
+      "sources": [
+        "runtime.py point-status branch",
+        "README Decisions section"
+      ],
+      "issue": "Runtime permits PARTIALLY_SUPPORTED solely from score >= partial threshold and extracted-entity presence, while README requires \"usable support\" but does not define whether topic-only overlap qualifies."
+    },
+    {
+      "sources": [
+        "runtime.py entity extraction",
+        "README entity viability checks"
+      ],
+      "issue": "Only organization-like entities are extracted. Degree, enrollment, location, year, numeric, negation, object, and scope constraints can be absent from the entity gate."
+    },
+    {
+      "sources": [
+        "semantic_rescue false_promote_audit.json",
+        "case_level_results.jsonl"
+      ],
+      "issue": "F04 is listed among final false promotes although its production primary decision is INSUFFICIENT."
+    }
+  ]
+}

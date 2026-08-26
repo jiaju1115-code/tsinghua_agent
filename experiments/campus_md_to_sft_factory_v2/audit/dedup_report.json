@@ -1,0 +1,6 @@
+{
+  "candidate_files": ["supported_candidates.jsonl", "partial_candidates.jsonl", "paraphrase_candidates.jsonl", "grounded_answer_candidates.jsonl", "negative_proposals.jsonl"],
+  "unique_candidates": 229,
+  "duplicate_removed": 0,
+  "status": "PASS"
+}

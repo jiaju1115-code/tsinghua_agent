@@ -1,0 +1,25 @@
+{
+  "v1_1": 680,
+  "topup_raw": 558,
+  "topup_accepted": 161,
+  "final_total": 841,
+  "task_family_distribution": {
+    "BASIC_CODE": 9,
+    "BASIC_SCIENCE": 1,
+    "CALCULUS": 12,
+    "GENERAL_INSTRUCTION": 181,
+    "GENERAL_REASONING": 51,
+    "LINEAR_ALGEBRA": 78,
+    "MATHEMATICAL_REASONING": 499,
+    "PROBABILITY_STATISTICS": 10
+  },
+  "programmatic_math_count": 300,
+  "programmatic_math_ratio": 0.3567,
+  "dedup_removed": 397,
+  "license": "PASS",
+  "benchmark_leakage": "PASS",
+  "holdout": "PASS",
+  "campus_cross_leakage": 0,
+  "final_split": "NO",
+  "training": "NO"
+}

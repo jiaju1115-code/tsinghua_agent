@@ -1,0 +1,10 @@
+{
+  "mode": "CAMPUS_GROUNDED",
+  "model": "GPT-5.6 Luna",
+  "reasoning": "low",
+  "speed": "standard",
+  "batch_size": 20,
+  "external_llm_api": false,
+  "training_eligibility": "PUBLIC_TRAINING_ELIGIBLE",
+  "held_out": ["DEMO002", "POS003", "DEMO013"]
+}

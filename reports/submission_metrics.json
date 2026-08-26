@@ -1,0 +1,30 @@
+{
+  "status": "SUBMISSION_READY",
+  "natural_response": {
+    "evaluation_type": "deterministic regression",
+    "dataset": "experiments/natural_uncertainty_response_v1/natural_response_cases.jsonl",
+    "human_validated": false,
+    "proxy": false,
+    "mode_accuracy": "30/30",
+    "partial_salvage_rate": 1.0,
+    "mechanical_refusal_rate": 0.0,
+    "general_conversation_false_refusal_rate": 0.0,
+    "unsupported_campus_claim_rate": 0.0,
+    "citation_integrity": 1.0,
+    "exact_duplicate_uncertain_rate": 0.0
+  },
+  "fine_tuning_pilot_v1": {
+    "evaluation_type": "server evaluation with changed-case manual review",
+    "dataset": "General V0.1, 100 cases",
+    "human_validated": "changed cases only (8 cases)",
+    "proxy": false,
+    "base_score": "22/100",
+    "pilot_v0_score": "30/100",
+    "pilot_v1_score": "32/100",
+    "pilot_v1_vs_v0_true_wins": 5,
+    "pilot_v1_vs_v0_true_regressions": 3,
+    "status": "VALIDATED_WITH_MODEST_GAIN"
+  },
+  "frozen_integrity": "PASS_WITH_RECONCILIATION; see reports/frozen_integrity_current_verification_v1.json",
+  "note": "Metrics are bounded evaluation evidence, not a claim of complete historical regression or held-out E2E completion."
+}

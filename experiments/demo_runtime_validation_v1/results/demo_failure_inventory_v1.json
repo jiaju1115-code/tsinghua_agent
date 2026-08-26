@@ -1,0 +1,131 @@
+{
+  "validation_version": "DEMO_RUNTIME_VALIDATION_V1",
+  "failures": [
+    {
+      "demo_id": "DEMO002",
+      "query": "我想了解清华大学奖学金申请需要满足哪些基本条件。",
+      "category": "教务与学籍",
+      "scenario": "PARTIAL",
+      "expected_behavior": "SHOULD_PARTIAL",
+      "status": "COMPLETED",
+      "retrieval_status": "SUCCESS",
+      "evidence_status": "INSUFFICIENT",
+      "citation_status": "BLOCKED",
+      "answer_status": "REFUSAL",
+      "answer": "根据当前已有资料，暂时无法可靠确认该问题。",
+      "citation_presence": null,
+      "expected_behavior_match": false,
+      "refusal": {
+        "refused": true,
+        "reason_codes": [
+          "MODEL_NOT_CALLED",
+          "SUPPORT_BLOCKED",
+          "UPSTREAM_BLOCKED"
+        ],
+        "message": null
+      },
+      "latency_ms": 29.92,
+      "layer_latencies_ms": {
+        "retrieval": 13.934,
+        "evidence": 13.27,
+        "citation": 0.921,
+        "answer": 0.875
+      },
+      "presentation": {
+        "line_count": 14,
+        "contains_traceback": false
+      },
+      "source_count": 5,
+      "demo_ready": "YES",
+      "answer_useful": "NO",
+      "citation_clear": "N/A",
+      "behavior_safe": "YES",
+      "presentation_issue": "NONE",
+      "failure_type": "EXPECTED_BEHAVIOR_MISMATCH"
+    },
+    {
+      "demo_id": "DEMO012",
+      "query": "清华大学学生奖学金管理规定第十七条讲了什么？",
+      "category": "自然改写",
+      "scenario": "PARTIAL",
+      "expected_behavior": "SHOULD_PARTIAL",
+      "status": "COMPLETED",
+      "retrieval_status": "SUCCESS",
+      "evidence_status": "SUFFICIENT",
+      "citation_status": "BLOCKED",
+      "answer_status": "REFUSAL",
+      "answer": "根据当前已有资料，暂时无法可靠确认该问题。",
+      "citation_presence": null,
+      "expected_behavior_match": false,
+      "refusal": {
+        "refused": true,
+        "reason_codes": [
+          "MODEL_NOT_CALLED",
+          "SUPPORT_BLOCKED",
+          "UPSTREAM_BLOCKED"
+        ],
+        "message": null
+      },
+      "latency_ms": 24.711,
+      "layer_latencies_ms": {
+        "retrieval": 11.742,
+        "evidence": 10.37,
+        "citation": 0.883,
+        "answer": 0.883
+      },
+      "presentation": {
+        "line_count": 14,
+        "contains_traceback": false
+      },
+      "source_count": 5,
+      "demo_ready": "YES",
+      "answer_useful": "NO",
+      "citation_clear": "N/A",
+      "behavior_safe": "YES",
+      "presentation_issue": "NONE",
+      "failure_type": "EXPECTED_BEHAVIOR_MISMATCH"
+    },
+    {
+      "demo_id": "DEMO013",
+      "query": "请告诉我清华奖学金获奖后学校会做什么。",
+      "category": "自然改写",
+      "scenario": "PARTIAL",
+      "expected_behavior": "SHOULD_PARTIAL",
+      "status": "COMPLETED",
+      "retrieval_status": "SUCCESS",
+      "evidence_status": "INSUFFICIENT",
+      "citation_status": "BLOCKED",
+      "answer_status": "REFUSAL",
+      "answer": "根据当前已有资料，暂时无法可靠确认该问题。",
+      "citation_presence": null,
+      "expected_behavior_match": false,
+      "refusal": {
+        "refused": true,
+        "reason_codes": [
+          "MODEL_NOT_CALLED",
+          "SUPPORT_BLOCKED",
+          "UPSTREAM_BLOCKED"
+        ],
+        "message": null
+      },
+      "latency_ms": 20.724,
+      "layer_latencies_ms": {
+        "retrieval": 10.682,
+        "evidence": 8.194,
+        "citation": 0.67,
+        "answer": 0.499
+      },
+      "presentation": {
+        "line_count": 14,
+        "contains_traceback": false
+      },
+      "source_count": 5,
+      "demo_ready": "YES",
+      "answer_useful": "NO",
+      "citation_clear": "N/A",
+      "behavior_safe": "YES",
+      "presentation_issue": "NONE",
+      "failure_type": "EXPECTED_BEHAVIOR_MISMATCH"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "PROGRAMMATIC_MATH": "construction_type=PROGRAMMATIC_MATH",
+    "OTHER_MATH": "non-programmatic math families",
+    "GENERAL_REASONING": "original GENERAL_REASONING",
+    "CODING": "original BASIC_CODE",
+    "GENERAL_QA_SCIENCE_READING": "BASIC_SCIENCE or question-like GENERAL_INSTRUCTION",
+    "WRITING_MULTILINGUAL": "non-English/writing-like GENERAL_INSTRUCTION",
+    "INSTRUCTION_VALUE_FIDELITY": "remaining GENERAL_INSTRUCTION"
+  },
+  "source_labels_preserved": true,
+  "analysis_only": true
+}

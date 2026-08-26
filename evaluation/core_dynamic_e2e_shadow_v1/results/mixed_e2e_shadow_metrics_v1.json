@@ -1,0 +1,27 @@
+{
+  "case_counts": {
+    "CORE_STABLE": 20,
+    "DYNAMIC_CURRENT": 10,
+    "DYNAMIC_EXPIRED": 10,
+    "CROSS_LAYER_CONFLICT": 15,
+    "CROSS_LAYER_COMPLEMENTARY": 15,
+    "KNOWN_GAP": 10
+  },
+  "evidence_sufficient_rate": {
+    "core_only": 0.875,
+    "core_dynamic": 0.875
+  },
+  "citation_traceability_rate": 0.875,
+  "dynamic_answer_success": 0.8,
+  "correct_refusal": 1.0,
+  "false_refusal": 0.0,
+  "stale_answer_error": 0.0,
+  "core_regression_rate": 0.0,
+  "wrong_layer_rate": 0.0,
+  "fusion_comparison": {
+    "equal_rrf": "SAFE_DEFAULT",
+    "core_priority": "RECORDED",
+    "dynamic_priority": "RECORDED"
+  },
+  "proxy_mode": true
+}

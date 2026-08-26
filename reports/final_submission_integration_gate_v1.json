@@ -1,0 +1,31 @@
+{
+  "gate": "FINAL_SUBMISSION_INTEGRATION_GATE_V1",
+  "checked_at": "2026-08-17",
+  "decision": "SUBMISSION_READY",
+  "blocking_issues": [],
+  "frozen_integrity": {
+    "status": "PASS_WITH_RECONCILIATION",
+    "reconciliation_report": "reports/frozen_integrity_reconciliation_v1.md",
+    "current_verification": "reports/frozen_integrity_current_verification_v1.json",
+    "explanation": "The raw SHA256 differences are CRLF checkout representation only. Canonical LF hashes equal the original frozen hashes and Git blob 75a6b89; embedding index raw hash matches."
+  },
+  "verified": {
+    "natural_uncertainty_regression": "30/30",
+    "natural_runtime_adapter_smoke": "6/6",
+    "runtime_answer_prompt_tests": "27 passed; 2 pytest marker warnings",
+    "pilot_v1_adapter_readable": true,
+    "pilot_v1_adapter_merged": false,
+    "pilot_v1_freeze_id": "PILOT_V1_GENERAL_REPLAY_FROZEN",
+    "pilot_v1_base_model_load_smoke": "NOT_COMPLETED_BASE_MODEL_SNAPSHOT_UNAVAILABLE_LOCALLY",
+    "legacy_data_second": "NOT_COMPLETED_DUE_TO_LOCAL_MODEL_RUNTIME_STALL"
+  },
+  "runtime_strategy": "Frozen RAG Runtime V1 plus Natural Uncertainty Runtime Adapter V1; Pilot V1 is retained as a validated research candidate and is not integrated into the submission runtime.",
+  "frozen_artifacts_modified_by_gate": false,
+  "known_limitations": [
+    "Pilot V1 is not integrated into the submission runtime.",
+    "Pilot V1 remains VALIDATED_WITH_MODEST_GAIN research evidence only.",
+    "Base plus LoRA load smoke was not completed because no local Qwen Base snapshot is available.",
+    "legacy_data_second is NOT_COMPLETED_DUE_TO_LOCAL_MODEL_RUNTIME_STALL.",
+    "Formal held-out E2E evaluation has not been run."
+  ]
+}

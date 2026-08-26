@@ -1,0 +1,187 @@
+{
+  "version": "EVIDENCE_DECISION_RULE_TRACE_V1",
+  "cases": [
+    {
+      "case_id": "DEMO002",
+      "required_point_generation": {
+        "count": 1,
+        "points": [
+          {
+            "point_id": "P1",
+            "text": "我想了解清华大学奖学金申请需要满足哪些基本条件",
+            "requested_attributes": [
+              "ELIGIBILITY"
+            ],
+            "mandatory": true
+          }
+        ]
+      },
+      "matching_inputs": {
+        "best_support_score": 0.294118,
+        "partial_threshold": 0.18,
+        "supported_threshold": 0.52,
+        "document_relevance_score": 0.54902,
+        "document_relevance_threshold": 0.08,
+        "missing_query_entities": [
+          "我想了解清华大学"
+        ]
+      },
+      "decision_path": [
+        {
+          "rule": "RETRIEVAL_INPUT_ACCEPTED",
+          "result": "PASS"
+        },
+        {
+          "rule": "REQUIRED_POINT_PARSE",
+          "result": "PASS"
+        },
+        {
+          "rule": "DOCUMENT_RELEVANCE",
+          "result": "PASS"
+        },
+        {
+          "rule": "ENTITY_GATE",
+          "result": "FAIL",
+          "detail": "missing_query_entities blocks supported classification"
+        },
+        {
+          "rule": "POINT_SCORE_GATE",
+          "result": "SUPPORTED_THRESHOLD_NOT_MET"
+        },
+        {
+          "rule": "PARTIAL_THRESHOLD_GATE",
+          "result": "PASS"
+        },
+        {
+          "rule": "FINAL_DECISION",
+          "result": "INSUFFICIENT",
+          "reason_codes": [
+            "CORE_POINT_MISSING",
+            "EVIDENCE_IRRELEVANT",
+            "LEXICAL_PROXY_LIMITATION"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "DEMO013",
+      "required_point_generation": {
+        "count": 1,
+        "points": [
+          {
+            "point_id": "P1",
+            "text": "请告诉我清华奖学金获奖后学校会做什么",
+            "requested_attributes": [],
+            "mandatory": true
+          }
+        ]
+      },
+      "matching_inputs": {
+        "best_support_score": 0.166667,
+        "partial_threshold": 0.18,
+        "supported_threshold": 0.52,
+        "document_relevance_score": 0.214286,
+        "document_relevance_threshold": 0.08,
+        "missing_query_entities": []
+      },
+      "decision_path": [
+        {
+          "rule": "RETRIEVAL_INPUT_ACCEPTED",
+          "result": "PASS"
+        },
+        {
+          "rule": "REQUIRED_POINT_PARSE",
+          "result": "PASS"
+        },
+        {
+          "rule": "DOCUMENT_RELEVANCE",
+          "result": "PASS"
+        },
+        {
+          "rule": "ENTITY_GATE",
+          "result": "PASS",
+          "detail": "no missing query entities"
+        },
+        {
+          "rule": "POINT_SCORE_GATE",
+          "result": "SUPPORTED_THRESHOLD_NOT_MET"
+        },
+        {
+          "rule": "PARTIAL_THRESHOLD_GATE",
+          "result": "PARTIAL_THRESHOLD_NOT_MET"
+        },
+        {
+          "rule": "FINAL_DECISION",
+          "result": "INSUFFICIENT",
+          "reason_codes": [
+            "CORE_POINT_MISSING",
+            "LEXICAL_PROXY_LIMITATION",
+            "SOURCE_SUPPORT_TOO_WEAK"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "POS003",
+      "required_point_generation": {
+        "count": 1,
+        "points": [
+          {
+            "point_id": "P1",
+            "text": "申请清华大学奖学金要符合哪些基本条件",
+            "requested_attributes": [
+              "ELIGIBILITY"
+            ],
+            "mandatory": true
+          }
+        ]
+      },
+      "matching_inputs": {
+        "best_support_score": 0.357143,
+        "partial_threshold": 0.18,
+        "supported_threshold": 0.52,
+        "document_relevance_score": 0.547619,
+        "document_relevance_threshold": 0.08,
+        "missing_query_entities": [
+          "申请清华大学"
+        ]
+      },
+      "decision_path": [
+        {
+          "rule": "RETRIEVAL_INPUT_ACCEPTED",
+          "result": "PASS"
+        },
+        {
+          "rule": "REQUIRED_POINT_PARSE",
+          "result": "PASS"
+        },
+        {
+          "rule": "DOCUMENT_RELEVANCE",
+          "result": "PASS"
+        },
+        {
+          "rule": "ENTITY_GATE",
+          "result": "FAIL",
+          "detail": "missing_query_entities blocks supported classification"
+        },
+        {
+          "rule": "POINT_SCORE_GATE",
+          "result": "SUPPORTED_THRESHOLD_NOT_MET"
+        },
+        {
+          "rule": "PARTIAL_THRESHOLD_GATE",
+          "result": "PASS"
+        },
+        {
+          "rule": "FINAL_DECISION",
+          "result": "INSUFFICIENT",
+          "reason_codes": [
+            "CORE_POINT_MISSING",
+            "EVIDENCE_IRRELEVANT",
+            "LEXICAL_PROXY_LIMITATION"
+          ]
+        }
+      ]
+    }
+  ]
+}

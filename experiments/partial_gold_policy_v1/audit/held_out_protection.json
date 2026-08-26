@@ -1,0 +1,20 @@
+{
+  "version": "HELD_OUT_PROTECTION_V1",
+  "protected_case_ids": [
+    "DEMO002",
+    "POS003",
+    "DEMO013"
+  ],
+  "protected_queries": {
+    "DEMO002": "我想了解清华大学奖学金申请需要满足哪些基本条件",
+    "POS003": "申请清华大学奖学金要符合哪些基本条件？",
+    "DEMO013": "请告诉我清华奖学金获奖后学校会做什么。"
+  },
+  "rule": "HELD_OUT_FAMILY: exact cases, their paraphrases, same parent evidence near-duplicates, and obvious query-family variants are excluded from all candidate pools and future training splits.",
+  "candidate_pool_scan": {
+    "hard_negative_overlap": [],
+    "policy_mismatch_overlap": [],
+    "valid_partial_overlap": []
+  },
+  "status": "ALL_HELD_OUT_ISOLATED"
+}

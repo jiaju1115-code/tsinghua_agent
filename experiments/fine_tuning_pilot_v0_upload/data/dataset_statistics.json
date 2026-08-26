@@ -1,0 +1,54 @@
+{
+  "dataset_version": "general_capability_candidates_v1_2",
+  "input_count": 841,
+  "train_count": 757,
+  "validation_count": 84,
+  "task_family_distribution": {
+    "input": {
+      "BASIC_CODE": 9,
+      "BASIC_SCIENCE": 1,
+      "CALCULUS": 12,
+      "GENERAL_INSTRUCTION": 181,
+      "GENERAL_REASONING": 51,
+      "LINEAR_ALGEBRA": 78,
+      "MATHEMATICAL_REASONING": 499,
+      "PROBABILITY_STATISTICS": 10
+    },
+    "train": {
+      "BASIC_CODE": 8,
+      "BASIC_SCIENCE": 1,
+      "CALCULUS": 11,
+      "GENERAL_INSTRUCTION": 163,
+      "GENERAL_REASONING": 46,
+      "LINEAR_ALGEBRA": 70,
+      "MATHEMATICAL_REASONING": 449,
+      "PROBABILITY_STATISTICS": 9
+    },
+    "validation": {
+      "BASIC_CODE": 1,
+      "BASIC_SCIENCE": 0,
+      "CALCULUS": 1,
+      "GENERAL_INSTRUCTION": 18,
+      "GENERAL_REASONING": 5,
+      "LINEAR_ALGEBRA": 8,
+      "MATHEMATICAL_REASONING": 50,
+      "PROBABILITY_STATISTICS": 1
+    }
+  },
+  "split_seed": 42,
+  "split_algorithm_version": "family_stratified_random_v1",
+  "source_hashes": {
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\basic_code.jsonl": "33f4f6b3ec7a60ebc6d679f6ee24ba87cf7687b9f2cd04f5c5f6a4190e30cb00",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\basic_science.jsonl": "bad3e75d676b732ee7a457642bdac9449c462e14e36f91107d84efd355c86f29",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\calculus.jsonl": "199a2b0e7fa7aafade0b61ef20f253f959fd3dc4ec321d392acd3a14baf1b384",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\general_family_registry.jsonl": "293663643d780494b4acbc89879c7a630d373519d366246a516726aa7a0e6917",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\general_instruction.jsonl": "c5a059b82e69b6b67b5992364ff6f47e600a77fa031f2e56a837e4a08a511ed3",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\general_reasoning.jsonl": "8318610a59f8f428f0869269214e1c4f338da0b7396a55b2db52bfb110b756b6",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\linear_algebra.jsonl": "5347f9100843f9669b862a6a0f1af15c3bab1723fad2a38ccdc09830c25cbe20",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\mathematical_reasoning.jsonl": "5c5bab9fc4bf7d16d6c768e5a4e107fe97ae34f1a704eb910275312aff4c7990",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\probability_statistics.jsonl": "3fd9959c1032536f7da097297cadc7ba638d678e7d0093541ba2e12ab60b3d74"
+  },
+  "generation_timestamp": "2026-08-16",
+  "test_created": false,
+  "final_split": false
+}

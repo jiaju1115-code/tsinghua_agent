@@ -1,0 +1,12 @@
+{
+  "status": "PROPOSED",
+  "future_holdout_families": [
+    "calculus",
+    "linear_algebra",
+    "probability_statistics",
+    "general_knowledge",
+    "reasoning",
+    "basic_science"
+  ],
+  "rule": "Select unseen, independently authored cases; never reuse a chosen training benchmark test split."
+}

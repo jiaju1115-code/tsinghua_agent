@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "exact_id",
+    "exact_text",
+    "normalized_text",
+    "source_row"
+  ],
+  "campus_case_count": 50,
+  "training_row_count": 841,
+  "matches": [],
+  "source_row_overlap": "NOT_APPLICABLE_NO_SHARED_SOURCE_ROW_IDS"
+}

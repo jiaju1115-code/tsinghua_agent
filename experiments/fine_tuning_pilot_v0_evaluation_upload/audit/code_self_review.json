@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "path": "scripts/general_scorer.py",
+      "syntax_check": "PASS",
+      "import_check": "PASS (stdlib/declared imports only; no model loaded)",
+      "path_check": "PASS (package-relative paths)",
+      "offline_check": "PASS (local_files_only=True; no URL/API)",
+      "environment_compatibility_check": "PASS (PyTorch + Transformers + PEFT only; no Trainer/DeepSpeed/Accelerate)",
+      "reviewer_notes": [
+        "No undefined paths or Campus system-prompt use in General runner."
+      ],
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/build_general_eval_v0_1.py",
+      "syntax_check": "PASS",
+      "import_check": "PASS (stdlib/declared imports only; no model loaded)",
+      "path_check": "PASS (package-relative paths)",
+      "offline_check": "PASS (local_files_only=True; no URL/API)",
+      "environment_compatibility_check": "PASS (PyTorch + Transformers + PEFT only; no Trainer/DeepSpeed/Accelerate)",
+      "reviewer_notes": [
+        "No undefined paths or Campus system-prompt use in General runner."
+      ],
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/run_general_eval.py",
+      "syntax_check": "PASS",
+      "import_check": "PASS (stdlib/declared imports only; no model loaded)",
+      "path_check": "PASS (package-relative paths)",
+      "offline_check": "PASS (local_files_only=True; no URL/API)",
+      "environment_compatibility_check": "PASS (PyTorch + Transformers + PEFT only; no Trainer/DeepSpeed/Accelerate)",
+      "reviewer_notes": [
+        "No undefined paths or Campus system-prompt use in General runner."
+      ],
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/test_general_scorer.py",
+      "syntax_check": "PASS",
+      "import_check": "PASS (stdlib/declared imports only; no model loaded)",
+      "path_check": "PASS (package-relative paths)",
+      "offline_check": "PASS (local_files_only=True; no URL/API)",
+      "environment_compatibility_check": "PASS (PyTorch + Transformers + PEFT only; no Trainer/DeepSpeed/Accelerate)",
+      "reviewer_notes": [
+        "No undefined paths or Campus system-prompt use in General runner."
+      ],
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/build_general_comparison.py",
+      "syntax_check": "PASS",
+      "import_check": "PASS (stdlib/declared imports only; no model loaded)",
+      "path_check": "PASS (package-relative paths)",
+      "offline_check": "PASS (local_files_only=True; no URL/API)",
+      "environment_compatibility_check": "PASS (PyTorch + Transformers + PEFT only; no Trainer/DeepSpeed/Accelerate)",
+      "reviewer_notes": [
+        "No undefined paths or Campus system-prompt use in General runner."
+      ],
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/check_general_contamination.py",
+      "syntax_check": "PASS",
+      "import_check": "PASS (stdlib/declared imports only; no model loaded)",
+      "path_check": "PASS (package-relative paths)",
+      "offline_check": "PASS (local_files_only=True; no URL/API)",
+      "environment_compatibility_check": "PASS (PyTorch + Transformers + PEFT only; no Trainer/DeepSpeed/Accelerate)",
+      "reviewer_notes": [
+        "No undefined paths or Campus system-prompt use in General runner."
+      ],
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/compare_results.py",
+      "syntax_check": "PASS",
+      "import_check": "PASS (stdlib/declared imports only; no model loaded)",
+      "path_check": "PASS (package-relative paths)",
+      "offline_check": "PASS (local_files_only=True; no URL/API)",
+      "environment_compatibility_check": "PASS (PyTorch + Transformers + PEFT only; no Trainer/DeepSpeed/Accelerate)",
+      "reviewer_notes": [
+        "No undefined paths or Campus system-prompt use in General runner."
+      ],
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/check_frozen_integrity.py",
+      "syntax_check": "PASS",
+      "import_check": "PASS (stdlib/declared imports only; no model loaded)",
+      "path_check": "PASS (package-relative paths)",
+      "offline_check": "PASS (local_files_only=True; no URL/API)",
+      "environment_compatibility_check": "PASS (PyTorch + Transformers + PEFT only; no Trainer/DeepSpeed/Accelerate)",
+      "reviewer_notes": [
+        "No undefined paths or Campus system-prompt use in General runner."
+      ],
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/run_campus_eval.py",
+      "syntax_check": "PASS",
+      "import_check": "PASS (stdlib/declared imports only; no model loaded)",
+      "path_check": "PASS (package-relative paths)",
+      "offline_check": "PASS (local_files_only=True; no URL/API)",
+      "environment_compatibility_check": "PASS (PyTorch + Transformers + PEFT only; no Trainer/DeepSpeed/Accelerate)",
+      "reviewer_notes": [
+        "No undefined paths or Campus system-prompt use in General runner."
+      ],
+      "status": "PASS"
+    }
+  ],
+  "shell": [
+    {
+      "path": "run_preflight.sh",
+      "syntax_check": "EQUIVALENT_STATIC_AUDIT_PASS",
+      "status": "PASS",
+      "stderr": "bash unavailable locally; checked shebang, strict mode, and LF line endings."
+    },
+    {
+      "path": "run_general_eval.sh",
+      "syntax_check": "EQUIVALENT_STATIC_AUDIT_PASS",
+      "status": "PASS",
+      "stderr": "bash unavailable locally; checked shebang, strict mode, and LF line endings."
+    },
+    {
+      "path": "run_campus_eval.sh",
+      "syntax_check": "EQUIVALENT_STATIC_AUDIT_PASS",
+      "status": "PASS",
+      "stderr": "bash unavailable locally; checked shebang, strict mode, and LF line endings."
+    },
+    {
+      "path": "run_all_eval.sh",
+      "syntax_check": "EQUIVALENT_STATIC_AUDIT_PASS",
+      "status": "PASS",
+      "stderr": "bash unavailable locally; checked shebang, strict mode, and LF line endings."
+    }
+  ],
+  "import_dry_run": "PENDING_TARGET_ENVIRONMENT_PRECHECK (local Transformers/PEFT import exceeded 60 seconds and was stopped without model loading)",
+  "status": "PASS"
+}

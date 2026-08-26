@@ -1,0 +1,21 @@
+{
+  "status": "PASS_FOR_RESEARCH_ONLY",
+  "recommended_for_future_sample_review": [
+    {
+      "dataset": "OpenAssistant/oasst1",
+      "license": "Apache-2.0",
+      "decision": "METADATA_ONLY_PENDING_SAMPLE_FILTER"
+    }
+  ],
+  "future_eval_only": [
+    {"dataset": "openai/gsm8k", "license": "MIT", "reason": "benchmark leakage risk"},
+    {"dataset": "allenai/math_qa", "license": "Apache-2.0", "reason": "benchmark leakage risk"},
+    {"dataset": "MU-NLPC/Calc-math_qa", "license": "Apache-2.0", "reason": "MathQA benchmark lineage"},
+    {"dataset": "allenai/ai2_arc", "license": "CC-BY-SA-4.0", "reason": "benchmark leakage and share-alike review"}
+  ],
+  "excluded": [
+    {"dataset": "Open-Orca/OpenOrca", "license": "MIT", "reason": "synthetic provenance/contamination and unsuitable scale"}
+  ],
+  "downloaded_raw_rows": 0,
+  "note": "No license claim is a legal opinion; future download requires a revision-pinned, sample-level license and provenance review."
+}

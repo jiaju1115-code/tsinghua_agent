@@ -1,0 +1,11 @@
+{
+  "package": "fine_tuning_pilot_v0_evaluation_upload",
+  "purpose": "Fair offline Before/After evaluation preparation only; no training, adapter merge, GGUF conversion, production changes, frozen-data changes, or external LLM calls.",
+  "model_pair": {"base": "Qwen2.5-1.5B-Instruct", "pilot": "Base + pilot_v0_20260817T025613Z_seed42"},
+  "expected_adapter_sha256": "c3b7ed33eb89793a6cd91a821d628a841f428ac08ba2d5074227f4b5e32fb76c",
+  "variable_under_test": "Pilot V0 LoRA adapter enabled",
+  "general": "POST_TRAINING_BLIND_GENERAL_EVAL_V0_FROZEN",
+  "campus_layer_a": "SEMANTIC_MATCH_RAW_HASH_MISMATCH: frozen Held-out E2E V1 with replayed evidence",
+  "campus_layer_b": "NOT_EXECUTED",
+  "gpu_status": "GPU_EVALUATION_PENDING"
+}

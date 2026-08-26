@@ -1,0 +1,12 @@
+{
+  "recommended_training_candidates": 6,
+  "recommendation": "PROJECT_AUTHORED_SEED_ONLY_PENDING_LICENSE-CLEARED_ACQUISITION",
+  "task_family_distribution": {
+    "CALCULUS": 1,
+    "LINEAR_ALGEBRA": 1,
+    "PROBABILITY_STATISTICS": 1,
+    "REASONING": 1,
+    "SCIENCE": 1,
+    "CODE": 1
+  }
+}

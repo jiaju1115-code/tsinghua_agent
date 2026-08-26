@@ -1,0 +1,448 @@
+{
+  "version": "DEMO_FAILURE_TRACE_V1",
+  "traces": [
+    {
+      "case_id": "POS002",
+      "source": "positive_demo_results_v1.jsonl",
+      "failure_type": "OTHER",
+      "systemic": true,
+      "classification_confidence": "high",
+      "query": "奖学金每学年评选几次，通常在什么时候组织？",
+      "expected_behavior": "SHOULD_ANSWER",
+      "trace": {
+        "retrieval": {
+          "status": "SUCCESS",
+          "top5_chunk_ids": [
+            "KBV1-CHUNK-PUBV2C-0075-0002",
+            "KBV1-CHUNK-PUBV2C-0075-0003",
+            "KBV1-CHUNK-PUBV2C-0075-0001",
+            "KBV1-CHUNK-PUBV2C-0074-0001",
+            "KBV1-CHUNK-PUBV2C-0091-0001"
+          ],
+          "source_ids": [
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0074",
+            "KBV1-PUB-PUBV2C-0091"
+          ]
+        },
+        "evidence": {
+          "decision": "PARTIAL",
+          "reason_codes": [
+            "CORE_POINT_MISSING",
+            "LEXICAL_PROXY_LIMITATION",
+            "REQUESTED_ATTRIBUTE_MISSING"
+          ],
+          "required_points": [
+            {
+              "point_id": "P1",
+              "status": "SUPPORTED",
+              "best_support_score": 0.75
+            },
+            {
+              "point_id": "P2",
+              "status": "NOT_SUPPORTED",
+              "best_support_score": 0.066667
+            }
+          ]
+        },
+        "citation": {
+          "status": "PARTIAL",
+          "reason_codes": [
+            "PARTIAL_SUPPORT_ONLY"
+          ],
+          "support_unit_count": 2,
+          "excluded_candidates": []
+        },
+        "answer": {
+          "status": "ERROR",
+          "reason_codes": [
+            "ANSWER_SCHEMA_INVALID",
+            "MODEL_CALLED",
+            "SAFE_REFUSAL"
+          ],
+          "model_called": true,
+          "error": "model emitted multiple claims for one required point"
+        },
+        "latency": {
+          "total_ms": 14687.933,
+          "layers_ms": {
+            "retrieval": 16.489,
+            "evidence": 19.596,
+            "citation": 3.68,
+            "answer": 14646.355
+          }
+        }
+      },
+      "root_cause": {
+        "boundary": "answer_contract",
+        "finding": "Answer V1 was called after partial support but rejected the model output as an invalid claim/reference/scope shape; this is an Answer contract failure, not a retrieval miss."
+      }
+    },
+    {
+      "case_id": "POS003",
+      "source": "positive_demo_results_v1.jsonl",
+      "failure_type": "EVIDENCE_OVER_REJECT",
+      "systemic": false,
+      "classification_confidence": "high",
+      "query": "申请清华大学奖学金要符合哪些基本条件？",
+      "expected_behavior": "SHOULD_ANSWER",
+      "trace": {
+        "retrieval": {
+          "status": "SUCCESS",
+          "top5_chunk_ids": [
+            "KBV1-CHUNK-PUBV2C-0075-0002",
+            "KBV1-CHUNK-PUBV2C-0075-0003",
+            "KBV1-CHUNK-PUBV2C-0075-0001",
+            "KBV1-CHUNK-PUBV2C-0074-0001",
+            "KBV1-CHUNK-PUBV2C-0082-0002"
+          ],
+          "source_ids": [
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0074",
+            "KBV1-PUB-PUBV2C-0082"
+          ]
+        },
+        "evidence": {
+          "decision": "INSUFFICIENT",
+          "reason_codes": [
+            "CORE_POINT_MISSING",
+            "EVIDENCE_IRRELEVANT",
+            "LEXICAL_PROXY_LIMITATION"
+          ],
+          "required_points": [
+            {
+              "point_id": "P1",
+              "status": "NOT_SUPPORTED",
+              "best_support_score": 0.357143
+            }
+          ]
+        },
+        "citation": {
+          "status": "BLOCKED",
+          "reason_codes": [
+            "CANDIDATES_EXCLUDED",
+            "EVIDENCE_DECISION_BLOCKED"
+          ],
+          "support_unit_count": 0,
+          "excluded_candidates": [
+            {
+              "reason_code": "EVIDENCE_NOT_SUPPORTED",
+              "point_id": "P1",
+              "evidence_span_id": "KBV1-CHUNK-PUBV2C-0074-0001#S5",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0074-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0074"
+            },
+            {
+              "reason_code": "EVIDENCE_NOT_SUPPORTED",
+              "point_id": "P1",
+              "evidence_span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S8",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075"
+            }
+          ]
+        },
+        "answer": {
+          "status": "REFUSAL",
+          "reason_codes": [
+            "MODEL_NOT_CALLED",
+            "SAFE_REFUSAL",
+            "SUPPORT_BLOCKED",
+            "UPSTREAM_BLOCKED"
+          ],
+          "model_called": false,
+          "error": null
+        },
+        "latency": {
+          "total_ms": 30.634,
+          "layers_ms": {
+            "retrieval": 13.384,
+            "evidence": 14.475,
+            "citation": 0.99,
+            "answer": 0.857
+          }
+        }
+      },
+      "root_cause": {
+        "boundary": "evidence_decision",
+        "finding": "Retriever returned related frozen-KB material, but the Evidence decision did not map the requested point to supported evidence, so Citation and Answer were safely blocked."
+      }
+    },
+    {
+      "case_id": "POS006",
+      "source": "positive_demo_results_v1.jsonl",
+      "failure_type": "OTHER",
+      "systemic": true,
+      "classification_confidence": "high",
+      "query": "清华奖学金获奖后，学校会怎样表彰学生？",
+      "expected_behavior": "SHOULD_ANSWER",
+      "trace": {
+        "retrieval": {
+          "status": "SUCCESS",
+          "top5_chunk_ids": [
+            "KBV1-CHUNK-PUBV2C-0091-0002",
+            "KBV1-CHUNK-PUBV2C-0091-0001",
+            "KBV1-CHUNK-PUBV2C-0091-0003",
+            "KBV1-CHUNK-PUBV2C-0075-0003",
+            "KBV1-CHUNK-PUBV2C-0075-0002"
+          ],
+          "source_ids": [
+            "KBV1-PUB-PUBV2C-0091",
+            "KBV1-PUB-PUBV2C-0091",
+            "KBV1-PUB-PUBV2C-0091",
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0075"
+          ]
+        },
+        "evidence": {
+          "decision": "PARTIAL",
+          "reason_codes": [
+            "EVIDENCE_ONLY_PARTIAL",
+            "LEXICAL_PROXY_LIMITATION"
+          ],
+          "required_points": [
+            {
+              "point_id": "P1",
+              "status": "PARTIALLY_SUPPORTED",
+              "best_support_score": 0.388889
+            },
+            {
+              "point_id": "P2",
+              "status": "PARTIALLY_SUPPORTED",
+              "best_support_score": 0.2
+            }
+          ]
+        },
+        "citation": {
+          "status": "PARTIAL",
+          "reason_codes": [
+            "PARTIAL_SUPPORT_ONLY"
+          ],
+          "support_unit_count": 4,
+          "excluded_candidates": []
+        },
+        "answer": {
+          "status": "ERROR",
+          "reason_codes": [
+            "INVALID_SUPPORT_REFERENCE",
+            "MODEL_CALLED",
+            "SAFE_REFUSAL"
+          ],
+          "model_called": true,
+          "error": "model claim contains an unknown or out-of-scope support ID"
+        },
+        "latency": {
+          "total_ms": 16967.178,
+          "layers_ms": {
+            "retrieval": 17.054,
+            "evidence": 16.386,
+            "citation": 6.106,
+            "answer": 16926.183
+          }
+        }
+      },
+      "root_cause": {
+        "boundary": "answer_contract",
+        "finding": "Answer V1 was called after partial support but rejected the model output as an invalid claim/reference/scope shape; this is an Answer contract failure, not a retrieval miss."
+      }
+    },
+    {
+      "case_id": "POS008",
+      "source": "positive_demo_results_v1.jsonl",
+      "failure_type": "OTHER",
+      "systemic": true,
+      "classification_confidence": "high",
+      "query": "如果想申请奖学金，最基本需要满足什么要求？",
+      "expected_behavior": "SHOULD_ANSWER",
+      "trace": {
+        "retrieval": {
+          "status": "SUCCESS",
+          "top5_chunk_ids": [
+            "KBV1-CHUNK-PUBV2C-0075-0002",
+            "KBV1-CHUNK-PUBV2C-0075-0003",
+            "KBV1-CHUNK-PUBV2C-0075-0001",
+            "KBV1-CHUNK-PUBV2C-0076-0002",
+            "KBV1-CHUNK-PUBV2C-0074-0001"
+          ],
+          "source_ids": [
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0075",
+            "KBV1-PUB-PUBV2C-0076",
+            "KBV1-PUB-PUBV2C-0074"
+          ]
+        },
+        "evidence": {
+          "decision": "PARTIAL",
+          "reason_codes": [
+            "EVIDENCE_ONLY_PARTIAL",
+            "LEXICAL_PROXY_LIMITATION"
+          ],
+          "required_points": [
+            {
+              "point_id": "P1",
+              "status": "PARTIALLY_SUPPORTED",
+              "best_support_score": 0.5
+            },
+            {
+              "point_id": "P2",
+              "status": "PARTIALLY_SUPPORTED",
+              "best_support_score": 0.2
+            }
+          ]
+        },
+        "citation": {
+          "status": "PARTIAL",
+          "reason_codes": [
+            "PARTIAL_SUPPORT_ONLY"
+          ],
+          "support_unit_count": 2,
+          "excluded_candidates": []
+        },
+        "answer": {
+          "status": "ERROR",
+          "reason_codes": [
+            "MODEL_CALLED",
+            "PARTIAL_SCOPE_VIOLATION",
+            "SAFE_REFUSAL"
+          ],
+          "model_called": true,
+          "error": "model omitted one or more allowed required points"
+        },
+        "latency": {
+          "total_ms": 18836.423,
+          "layers_ms": {
+            "retrieval": 24.19,
+            "evidence": 19.355,
+            "citation": 8.129,
+            "answer": 18783.493
+          }
+        }
+      },
+      "root_cause": {
+        "boundary": "answer_contract",
+        "finding": "Answer V1 was called after partial support but rejected the model output as an invalid claim/reference/scope shape; this is an Answer contract failure, not a retrieval miss."
+      }
+    },
+    {
+      "case_id": "DEMO002",
+      "source": "demo_runtime_results_v1.jsonl",
+      "failure_type": "EVIDENCE_REQUIRED_POINT_MISMATCH",
+      "systemic": true,
+      "classification_confidence": "medium",
+      "query": "我想了解清华大学奖学金申请需要满足哪些基本条件。",
+      "expected_behavior": "SHOULD_PARTIAL",
+      "trace": {
+        "retrieval_status": "SUCCESS",
+        "source_count": 5,
+        "evidence_status": "INSUFFICIENT",
+        "citation_status": "BLOCKED",
+        "answer_status": "REFUSAL",
+        "refusal": {
+          "refused": true,
+          "reason_codes": [
+            "MODEL_NOT_CALLED",
+            "SUPPORT_BLOCKED",
+            "UPSTREAM_BLOCKED"
+          ],
+          "message": null
+        },
+        "latency": {
+          "total_ms": 29.92,
+          "layers_ms": {
+            "retrieval": 13.934,
+            "evidence": 13.27,
+            "citation": 0.921,
+            "answer": 0.875
+          }
+        },
+        "historical_trace_limit": "Public demo result has no point-level Evidence/Citation package."
+      },
+      "root_cause": {
+        "boundary": "evidence_decision",
+        "finding": "Historical public trace shows successful retrieval followed by INSUFFICIENT evidence and blocked citation/refusal; the available validation record does not expose required-point internals, so the precise mismatch is bounded to the Evidence decision boundary."
+      }
+    },
+    {
+      "case_id": "DEMO013",
+      "source": "demo_runtime_results_v1.jsonl",
+      "failure_type": "EVIDENCE_REQUIRED_POINT_MISMATCH",
+      "systemic": true,
+      "classification_confidence": "medium",
+      "query": "请告诉我清华奖学金获奖后学校会做什么。",
+      "expected_behavior": "SHOULD_PARTIAL",
+      "trace": {
+        "retrieval_status": "SUCCESS",
+        "source_count": 5,
+        "evidence_status": "INSUFFICIENT",
+        "citation_status": "BLOCKED",
+        "answer_status": "REFUSAL",
+        "refusal": {
+          "refused": true,
+          "reason_codes": [
+            "MODEL_NOT_CALLED",
+            "SUPPORT_BLOCKED",
+            "UPSTREAM_BLOCKED"
+          ],
+          "message": null
+        },
+        "latency": {
+          "total_ms": 20.724,
+          "layers_ms": {
+            "retrieval": 10.682,
+            "evidence": 8.194,
+            "citation": 0.67,
+            "answer": 0.499
+          }
+        },
+        "historical_trace_limit": "Public demo result has no point-level Evidence/Citation package."
+      },
+      "root_cause": {
+        "boundary": "evidence_decision",
+        "finding": "Historical public trace has the same retrieval-success → insufficient-evidence → blocked-citation/refusal pattern as DEMO002; classify as the same family with bounded confidence because the public record lacks point-level evidence details."
+      }
+    },
+    {
+      "case_id": "DEMO012",
+      "source": "demo_runtime_results_v1.jsonl",
+      "failure_type": "CITATION_CONTRACT_BLOCK",
+      "systemic": false,
+      "classification_confidence": "low",
+      "query": "清华大学学生奖学金管理规定第十七条讲了什么？",
+      "expected_behavior": "SHOULD_PARTIAL",
+      "trace": {
+        "retrieval_status": "SUCCESS",
+        "source_count": 5,
+        "evidence_status": "SUFFICIENT",
+        "citation_status": "BLOCKED",
+        "answer_status": "REFUSAL",
+        "refusal": {
+          "refused": true,
+          "reason_codes": [
+            "MODEL_NOT_CALLED",
+            "SUPPORT_BLOCKED",
+            "UPSTREAM_BLOCKED"
+          ],
+          "message": null
+        },
+        "latency": {
+          "total_ms": 24.711,
+          "layers_ms": {
+            "retrieval": 11.742,
+            "evidence": 10.37,
+            "citation": 0.883,
+            "answer": 0.883
+          }
+        },
+        "historical_trace_limit": "Public demo result has no point-level Evidence/Citation package."
+      },
+      "root_cause": {
+        "boundary": "citation_contract",
+        "finding": "Historical public trace shows successful retrieval and a blocked citation/refusal. The stored historical record does not include support units or excluded-candidate details, so the exact citation integrity reason cannot be recovered from this artifact; this is a citation/data-contract boundary, not an Answer model call."
+      }
+    }
+  ]
+}

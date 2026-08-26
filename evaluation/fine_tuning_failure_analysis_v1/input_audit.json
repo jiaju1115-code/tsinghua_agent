@@ -1,0 +1,33 @@
+{
+  "package": "D:\\python_projects\\tsinghua_ai\\experiments\\fine_tuning_pilot_v0_evaluation_upload",
+  "sets": {
+    "general_v0_1": {
+      "base_count": 100,
+      "pilot_count": 100,
+      "paired_count": 100,
+      "base_unique_ids": 100,
+      "pilot_unique_ids": 100,
+      "missing_in_base": [],
+      "missing_in_pilot": [],
+      "comparable_fields": [
+        "case_id",
+        "family",
+        "prompt",
+        "gold",
+        "raw_output",
+        "parsed_output",
+        "score",
+        "scorer_type",
+        "reason",
+        "latency_ms",
+        "output_token_count"
+      ],
+      "score_definition": "Binary 0/1 from frozen deterministic machine scorer; pass threshold is the native score, not an invented threshold."
+    }
+  },
+  "other_assets": {
+    "campus_per_case_present": false,
+    "general_comparison_present": false,
+    "training_config_present": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "base_experiment": "Fine-tuning Pilot V0",
+  "new_experiment": "Fine-tuning Pilot V1",
+  "changed": {
+    "dataset_composition": "422 frozen KEEP + 778 revision-pinned verified new rows",
+    "dataset_rows": {
+      "from": 841,
+      "to": 1200
+    },
+    "split_rows": {
+      "from": {
+        "train": 757,
+        "validation": 84
+      },
+      "to": {
+        "train": 1080,
+        "validation": 120
+      }
+    },
+    "run_name_prefix": {
+      "from": "pilot_v0",
+      "to": "pilot_v1"
+    },
+    "freeze_id": "PILOT_V1_GENERAL_REPLAY_FROZEN"
+  },
+  "hyperparameters_frozen": true,
+  "frozen_fields": [
+    "base_model",
+    "seed",
+    "epochs",
+    "learning_rate",
+    "per_device_train_batch_size",
+    "gradient_accumulation_steps",
+    "max_seq_length",
+    "bf16",
+    "fp16",
+    "gradient_checkpointing",
+    "logging_steps",
+    "eval_steps",
+    "save_steps",
+    "save_total_limit",
+    "lora",
+    "sampling"
+  ],
+  "loss_masking": "ASSISTANT_COMPLETION_ONLY",
+  "chat_template": "Qwen tokenizer apply_chat_template"
+}

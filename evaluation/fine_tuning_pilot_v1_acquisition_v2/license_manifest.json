@@ -1,0 +1,45 @@
+{
+  "all_pass": true,
+  "sources": [
+    {
+      "dataset": "nvidia/Nemotron-Instruction-Following-Chat-v1",
+      "license": "CC-BY-4.0",
+      "stage1_status": "PASS"
+    },
+    {
+      "dataset": "allenai/tulu-3-sft-personas-instruction-following",
+      "license": "ODC-BY-1.0",
+      "stage1_status": "PASS"
+    },
+    {
+      "dataset": "databricks/databricks-dolly-15k",
+      "license": "CC-BY-SA-3.0",
+      "stage1_status": "PASS"
+    },
+    {
+      "dataset": "rajpurkar/squad",
+      "license": "CC-BY-SA-4.0",
+      "stage1_status": "PASS"
+    },
+    {
+      "dataset": "tasksource/ruletaker",
+      "license": "Apache-2.0",
+      "stage1_status": "PASS"
+    },
+    {
+      "dataset": "facebook/babi_qa",
+      "license": "CC-BY-3.0",
+      "stage1_status": "PASS"
+    },
+    {
+      "dataset": "nvidia/OpenCodeInstruct",
+      "license": "CC-BY-4.0",
+      "stage1_status": "PASS"
+    },
+    {
+      "dataset": "google-research-datasets/mbpp",
+      "license": "CC-BY-4.0",
+      "stage1_status": "PASS"
+    }
+  ]
+}

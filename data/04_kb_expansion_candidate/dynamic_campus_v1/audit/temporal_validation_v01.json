@@ -1,0 +1,77 @@
+{
+  "counts": {
+    "UNKNOWN": 643,
+    "ACTIVE": 41,
+    "EXPIRED": 149,
+    "NOT_APPLICABLE": 19,
+    "ONGOING": 71,
+    "UPCOMING": 1
+  },
+  "deadline_count": 188,
+  "event_interval_count": 0,
+  "valid_until_count": 2,
+  "ambiguous_date_count": 588,
+  "parse_failure_count": 93,
+  "manual_review_samples": {
+    "ACTIVE": [
+      "dcc-0002",
+      "dcc-0006",
+      "dcc-0030",
+      "dcc-0031",
+      "dcc-0032",
+      "dcc-0033",
+      "dcc-0056",
+      "dcc-0062",
+      "dcc-0068",
+      "dcc-0094"
+    ],
+    "ONGOING": [
+      "dcc-0072",
+      "dcc-0082",
+      "dcc-0096",
+      "dcc-0097",
+      "dcc-0098",
+      "dcc-0122",
+      "dcc-0136",
+      "dcc-0137",
+      "dcc-0138",
+      "dcc-0146"
+    ],
+    "EXPIRED": [
+      "dcc-0011",
+      "dcc-0029",
+      "dcc-0046",
+      "dcc-0048",
+      "dcc-0061",
+      "dcc-0067",
+      "dcc-0088",
+      "dcc-0089",
+      "dcc-0090",
+      "dcc-0093"
+    ],
+    "UNKNOWN": [
+      "dcc-0001",
+      "dcc-0003",
+      "dcc-0004",
+      "dcc-0005",
+      "dcc-0007",
+      "dcc-0008",
+      "dcc-0009",
+      "dcc-0010",
+      "dcc-0012",
+      "dcc-0013"
+    ],
+    "NOT_APPLICABLE": [
+      "dcc-0065",
+      "dcc-0238",
+      "dcc-0240",
+      "dcc-0255",
+      "dcc-0376",
+      "dcc-0396",
+      "dcc-0443",
+      "dcc-0445",
+      "dcc-0451",
+      "dcc-0506"
+    ]
+  }
+}

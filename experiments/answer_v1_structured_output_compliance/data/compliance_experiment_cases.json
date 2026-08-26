@@ -1,0 +1,9 @@
+[
+  {"case_id": "POS002", "source": "positive_demo_validation_v1", "expected_support": "PARTIAL", "target_violation": "duplicate required point"},
+  {"case_id": "POS006", "source": "positive_demo_validation_v1", "expected_support": "PARTIAL", "target_violation": "wrong support binding"},
+  {"case_id": "POS008", "source": "positive_demo_validation_v1", "expected_support": "PARTIAL", "target_violation": "missing allowed point"},
+  {"case_id": "POS004", "source": "positive_demo_validation_v1", "expected_support": "PARTIAL", "target_violation": "successful partial regression"},
+  {"case_id": "POS007", "source": "positive_demo_validation_v1", "expected_support": "PARTIAL", "target_violation": "successful partial regression"},
+  {"case_id": "POS001", "source": "positive_demo_validation_v1", "expected_support": "READY", "target_violation": "full-answer regression"},
+  {"case_id": "POS003", "source": "positive_demo_validation_v1", "expected_support": "BLOCKED", "target_violation": "refusal regression"}
+]

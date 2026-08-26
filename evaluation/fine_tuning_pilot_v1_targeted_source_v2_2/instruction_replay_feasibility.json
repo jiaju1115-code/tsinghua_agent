@@ -1,0 +1,63 @@
+[
+  {
+    "dataset": "HuggingFaceTB/smoltalk",
+    "full_commit_sha": "5feaf2fd3ffca7c237fc38d1861bc30365d48ffa",
+    "config": "smol-constraints",
+    "split": "train",
+    "rows_read": 12,
+    "revision_pin_works": true,
+    "stable_id_present": false,
+    "raw_row_hash_recordable": true,
+    "status": "REPLAY_FEASIBILITY_PASS",
+    "sample_schema": [
+      "messages"
+    ]
+  },
+  {
+    "dataset": "Salesforce/xlam-function-calling-60k",
+    "full_commit_sha": "26d14ebfe18b1f7b524bd39b404b50af5dc97866",
+    "config": "default",
+    "split": "train",
+    "rows_read": 0,
+    "status": "FAIL",
+    "error": "ConnectionError: Couldn't reach https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k/resolve/26d14ebfe18b1f7b524bd39b404b50af5dc97866/.huggingface.yaml (ConnectionError('Unauthorized for URL https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k/resolve/26d14ebfe18b1f7b524bd39b404b50af5dc97866/.huggingface.yaml. Please use the parameter `token=True` after logging in with `huggingface-cli login`'))"
+  },
+  {
+    "dataset": "NousResearch/hermes-function-calling-v1",
+    "full_commit_sha": "dae3e1d28cfbcf4b915c04ea1e072030529b4bda",
+    "config": "func_calling",
+    "split": "train",
+    "source_file": "func-calling.json",
+    "file_etag": "769478035a886678d525d057ea66e3fd1e247f43e35c8d6d7cc866e080b6742b",
+    "rows_read": 12,
+    "stable_id_present": true,
+    "raw_row_hash_recorded": true,
+    "sample_schema": [
+      "category",
+      "conversations",
+      "id",
+      "subcategory",
+      "task",
+      "tools"
+    ],
+    "status": "REPLAY_FEASIBILITY_PASS",
+    "error": null
+  },
+  {
+    "dataset": "Team-ACE/ToolACE",
+    "full_commit_sha": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+    "config": "default",
+    "split": "train",
+    "source_file": "data.json",
+    "file_etag": "ba12c083fca7e8da48c67ad5b895e495447da7c66e39a2e19742c082e6cb537e",
+    "rows_read": 12,
+    "stable_id_present": false,
+    "raw_row_hash_recorded": true,
+    "sample_schema": [
+      "conversations",
+      "system"
+    ],
+    "status": "REPLAY_FEASIBILITY_PASS",
+    "error": null
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "original_path": "data/fine_tuning_v1/general_capability_candidates_v1_2/*.jsonl",
+    "source_hash": "recorded in prior V1.2 audit",
+    "copied_path": "data/train.jsonl + data/validation.jsonl",
+    "copied_hash": "488fa49b3b2a583193cd09507fa44177da317cef3fd696754ab5329a4a98f60f / ba8bab77db1f07a5872dbf6def9e716bb200149cafbe2f5ce6db56f2f1ff0caf",
+    "count": 841,
+    "role": "experimental split input"
+  }
+]

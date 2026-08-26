@@ -1,0 +1,24 @@
+{
+  "sample_size": 24,
+  "case_level_counts": {
+    "TRUE_CAPABILITY_FAIL": 14,
+    "FORMAT_ONLY_FAIL": 4,
+    "EVALUATOR_FALSE_NEGATIVE_RISK": 6,
+    "PARSING_FAILURE": 0,
+    "AMBIGUOUS_GOLD_OR_PROMPT": 0
+  },
+  "base_diagnoses": {
+    "FORMAT_ONLY_FAIL": 2,
+    "TRUE_CAPABILITY_FAIL": 17,
+    "EVALUATOR_FALSE_NEGATIVE_RISK": 5
+  },
+  "pilot_diagnoses": {
+    "EVALUATOR_FALSE_NEGATIVE_RISK": 4,
+    "TRUE_CAPABILITY_FAIL": 17,
+    "FORMAT_ONLY_FAIL": 3
+  },
+  "evaluator_false_negative_risk": "HIGH",
+  "interpretation_warning": "DO_NOT_INTERPRET_RAW_PASS_RATE_AS_PURE_REASONING_ABILITY",
+  "evaluator_overoptimization_risk": "MODERATE",
+  "overoptimization_reason": "Pilot gains are concentrated in exact-format compliance; this is useful instruction following, but several Base answers contain correct cores rejected by strict scorers."
+}

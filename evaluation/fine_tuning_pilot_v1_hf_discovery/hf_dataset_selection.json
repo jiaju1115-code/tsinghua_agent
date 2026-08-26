@@ -1,0 +1,37 @@
+{
+  "decision": "READY_FOR_CONTROLLED_HF_ACQUISITION",
+  "selection_rule": "Only TIER_1_PRIMARY entries may be queried in Stage 2; counts are candidate reads, not accepted training rows.",
+  "tier_1_primary": [
+    {"dataset_id": "nvidia/Nemotron-Instruction-Following-Chat-v1", "allowed_component": "structured_outputs only", "families": {"INSTRUCTION_VALUE_FIDELITY": {"candidate": 220, "expected_accepted": 187}}},
+    {"dataset_id": "allenai/tulu-3-sft-personas-instruction-following", "allowed_component": "structurally verifiable, non-subjective rows", "families": {"INSTRUCTION_VALUE_FIDELITY": {"candidate": 120, "expected_accepted": 78}, "WRITING_MULTILINGUAL": {"candidate": 20, "expected_accepted": 14}}},
+    {"dataset_id": "databricks/databricks-dolly-15k", "allowed_component": "closed_qa, information_extraction, classification, constrained summarization", "families": {"INSTRUCTION_VALUE_FIDELITY": {"candidate": 60, "expected_accepted": 42}, "GENERAL_QA_SCIENCE_READING": {"candidate": 180, "expected_accepted": 126}, "WRITING_MULTILINGUAL": {"candidate": 30, "expected_accepted": 24}}},
+    {"dataset_id": "rajpurkar/squad", "allowed_component": "train only", "families": {"GENERAL_QA_SCIENCE_READING": {"candidate": 140, "expected_accepted": 112}}},
+    {"dataset_id": "tasksource/ruletaker", "allowed_component": "train only; depth/config stratified; final label only", "families": {"GENERAL_REASONING": {"candidate": 200, "expected_accepted": 144}}},
+    {"dataset_id": "facebook/babi_qa", "allowed_component": "English train only; task-balanced", "families": {"GENERAL_REASONING": {"candidate": 100, "expected_accepted": 68}}},
+    {"dataset_id": "nvidia/OpenCodeInstruct", "allowed_component": "all tests pass; average_test_score=1; safe pure functions only", "families": {"CODING": {"candidate": 90, "expected_accepted": 72}}},
+    {"dataset_id": "google-research-datasets/mbpp", "allowed_component": "full/train task_ids 601-974 only", "families": {"CODING": {"candidate": 30, "expected_accepted": 24}}}
+  ],
+  "tier_2_backup": [
+    {"dataset_id": "OpenAssistant/oasst1", "activation_condition": "Tier 1 accepted shortfall after dedup; source concentration review required"},
+    {"dataset_id": "HuggingFaceH4/no_robots", "activation_condition": "project-purpose/legal approval of CC-BY-NC-4.0"},
+    {"dataset_id": "allenai/sciq", "activation_condition": "project-purpose/legal approval plus permanent benchmark-lineage eval exclusion"},
+    {"dataset_id": "google-research-datasets/natural_questions", "activation_condition": "QA shortfall and Dataset Server-only sampling; C-grade fallback"},
+    {"dataset_id": "yale-nlp/FOLIO", "activation_condition": "gate terms accepted and license/access review completed"}
+  ],
+  "rejected": [
+    {"dataset_id": "sahil2801/CodeAlpaca-20k", "reason": "HF/upstream license conflict and weak untested outputs"},
+    {"dataset_id": "Muennighoff/natural-instructions", "reason": "mixed benchmark corpus, no dataset-wide license, explicit excluded components"},
+    {"dataset_id": "tasksource/stepgame", "reason": "D-grade preview, extreme templates, apparent label inconsistencies"},
+    {"dataset_id": "allenai/openbookqa", "reason": "unknown license and benchmark leakage"},
+    {"dataset_id": "Open-Orca/OpenOrca", "reason": "large synthetic benchmark mixture and provenance/contamination risk"},
+    {"dataset_id": "allenai/ai2_arc", "reason": "existing project policy reserves it for future evaluation"},
+    {"dataset_id": "openai/gsm8k", "reason": "explicit benchmark exclusion and math DO_NOT_ADD"},
+    {"dataset_id": "TIGER-Lab/MathInstruct", "reason": "OTHER_MATH DO_NOT_ADD; already overrepresented"},
+    {"dataset_id": "Surpem/GEmO", "reason": "PROGRAMMATIC_MATH DO_NOT_ADD; already overrepresented"}
+  ],
+  "existing_source_decisions": {
+    "OpenAssistant/oasst1": "DO_NOT_ACQUIRE_NOW; retain existing 242 proposed KEEP rows, use only as Tier 2 backup",
+    "Surpem/GEmO": "STOP_ACQUISITION",
+    "TIGER-Lab/MathInstruct": "STOP_ACQUISITION"
+  }
+}

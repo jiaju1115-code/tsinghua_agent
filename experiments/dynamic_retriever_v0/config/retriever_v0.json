@@ -1,0 +1,11 @@
+{
+  "version": "DYNAMIC_RETRIEVER_V0",
+  "baseline_date": "2026-08-16",
+  "bm25_status": "READY_TFIDF_LEXICAL_DETERMINISTIC",
+  "dense_status": "UNAVAILABLE_LOCAL_MODEL_NOT_LOADED",
+  "hybrid_status": "READY_BM25_ONLY_FALLBACK",
+  "rrf_k": 60,
+  "top_k": 20,
+  "temporal_filter_default": "all",
+  "staging_manifest_sha256": "0621667a51d61b339515d43a8a546df9a051fbf2fdbd54e9c1f3c562011a188e"
+}

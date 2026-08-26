@@ -1,0 +1,126 @@
+{
+  "name": "Fine-tuning Pilot V1 General Replay",
+  "rows": 1200,
+  "train_rows": 1080,
+  "validation_rows": 120,
+  "seed": 42,
+  "family_counts": {
+    "CODING": 96,
+    "GENERAL_QA_SCIENCE_READING": 264,
+    "PROGRAMMATIC_MATH": 120,
+    "INSTRUCTION_VALUE_FIDELITY": 300,
+    "WRITING_MULTILINGUAL": 120,
+    "GENERAL_REASONING": 240,
+    "OTHER_MATH": 60
+  },
+  "old_keep": 422,
+  "new_selected": 778,
+  "drop_reintroduced": 0,
+  "source_counts": [
+    {
+      "source": "AIML-TUDA/SLR-Bench",
+      "family": "GENERAL_REASONING",
+      "count": 39
+    },
+    {
+      "source": "NousResearch/hermes-function-calling-v1",
+      "family": "INSTRUCTION_VALUE_FIDELITY",
+      "count": 121
+    },
+    {
+      "source": "OpenAssistant/oasst1",
+      "family": "CODING",
+      "count": 9
+    },
+    {
+      "source": "OpenAssistant/oasst1",
+      "family": "GENERAL_QA_SCIENCE_READING",
+      "count": 55
+    },
+    {
+      "source": "OpenAssistant/oasst1",
+      "family": "GENERAL_REASONING",
+      "count": 51
+    },
+    {
+      "source": "OpenAssistant/oasst1",
+      "family": "INSTRUCTION_VALUE_FIDELITY",
+      "count": 37
+    },
+    {
+      "source": "OpenAssistant/oasst1",
+      "family": "WRITING_MULTILINGUAL",
+      "count": 90
+    },
+    {
+      "source": "Surpem/GEmO",
+      "family": "PROGRAMMATIC_MATH",
+      "count": 120
+    },
+    {
+      "source": "TIGER-Lab/MathInstruct",
+      "family": "OTHER_MATH",
+      "count": 60
+    },
+    {
+      "source": "Team-ACE/ToolACE",
+      "family": "INSTRUCTION_VALUE_FIDELITY",
+      "count": 102
+    },
+    {
+      "source": "allenai/tulu-3-sft-personas-instruction-following",
+      "family": "INSTRUCTION_VALUE_FIDELITY",
+      "count": 23
+    },
+    {
+      "source": "allenai/tulu-3-sft-personas-instruction-following",
+      "family": "WRITING_MULTILINGUAL",
+      "count": 12
+    },
+    {
+      "source": "databricks/databricks-dolly-15k",
+      "family": "GENERAL_QA_SCIENCE_READING",
+      "count": 30
+    },
+    {
+      "source": "databricks/databricks-dolly-15k",
+      "family": "INSTRUCTION_VALUE_FIDELITY",
+      "count": 17
+    },
+    {
+      "source": "databricks/databricks-dolly-15k",
+      "family": "WRITING_MULTILINGUAL",
+      "count": 18
+    },
+    {
+      "source": "google-research-datasets/mbpp",
+      "family": "CODING",
+      "count": 41
+    },
+    {
+      "source": "nvidia/OpenCodeInstruct",
+      "family": "CODING",
+      "count": 46
+    },
+    {
+      "source": "rajpurkar/squad",
+      "family": "GENERAL_QA_SCIENCE_READING",
+      "count": 179
+    },
+    {
+      "source": "tasksource/ruletaker",
+      "family": "GENERAL_REASONING",
+      "count": 150
+    }
+  ],
+  "instruction_subtypes": {
+    "schema_adherence": 103,
+    "negative_constraint": 5,
+    "constrained_transform": 4,
+    "structured_extraction": 9,
+    "label_fidelity": 8,
+    "exact_copy": 33,
+    "multi_condition": 79,
+    "ordering": 22
+  }
+}

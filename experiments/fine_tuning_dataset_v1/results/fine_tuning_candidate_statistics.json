@@ -1,0 +1,32 @@
+{
+  "campus": {
+    "SUPPORTED": 29,
+    "PARTIAL": 20,
+    "NOT_SUPPORTED": 23,
+    "paraphrase": 15,
+    "retriever_hard_negatives": 11,
+    "grounded_answer": 29,
+    "boundary_contrast": 20,
+    "hard_negative": 16,
+    "source_type": {
+      "FROZEN_APPROVED_KB": 29,
+      "CONTROLLED_SYNTHETIC": 20,
+      "candidate": 23
+    }
+  },
+  "general": {
+    "calculus": 1,
+    "linear_algebra": 1,
+    "probability_statistics": 1,
+    "reasoning": 1,
+    "science": 1,
+    "code": 1
+  },
+  "total_candidates": 153,
+  "recommended_future_ratio": {
+    "campus_grounded_safety": "55-65%",
+    "general_capability": "35-45%"
+  },
+  "final_split_created": false,
+  "training_started": false
+}

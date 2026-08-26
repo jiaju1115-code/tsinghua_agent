@@ -1,0 +1,80 @@
+{
+  "cases": 10,
+  "chunk_count": 488,
+  "embedding_count": 488,
+  "all_rankings_equal": true,
+  "all_scores_equal": true,
+  "retrieval_regression": 0,
+  "case_results": [
+    {
+      "case_id": "E2E001",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    },
+    {
+      "case_id": "E2E002",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    },
+    {
+      "case_id": "E2E003",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    },
+    {
+      "case_id": "E2E004",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    },
+    {
+      "case_id": "E2E005",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    },
+    {
+      "case_id": "E2E006",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    },
+    {
+      "case_id": "E2E007",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    },
+    {
+      "case_id": "E2E008",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    },
+    {
+      "case_id": "E2E009",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    },
+    {
+      "case_id": "E2E010",
+      "chunk_ids_equal": true,
+      "rankings_equal": true,
+      "scores_equal": true,
+      "max_abs_score_delta": 0.0
+    }
+  ]
+}

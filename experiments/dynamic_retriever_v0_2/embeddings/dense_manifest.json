@@ -1,0 +1,16 @@
+{
+  "status": "READY",
+  "model": "BAAI/bge-small-zh-v1.5",
+  "revision": "7999e1d3359715c523056ef9478215996d62a620",
+  "local_model_path": "data/03_knowledge_base/v1/index/model",
+  "dimension": 512,
+  "embedding_count": 2429,
+  "chunk_count": 2429,
+  "dtype": "float32",
+  "normalization": "L2",
+  "pooling": "CLS last_hidden_state[:,0]",
+  "max_length": 512,
+  "source_chunk_manifest_sha256": "e117c73c4041b7679f2597122fd87f7a71dba0651206d9efeedbaf09d5ea2791",
+  "embeddings_sha256": "a90cf60516e32406a7cf5afe49ee0cffc3e6524a012ae752584fcc5b00175cff",
+  "recovery_method": "READ_ONLY_FROZEN_LOCAL_MODEL"
+}

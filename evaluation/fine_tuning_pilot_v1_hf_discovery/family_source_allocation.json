@@ -1,0 +1,72 @@
+{
+  "accepted_gap_baseline": 778,
+  "candidate_acquisition_envelope": {"minimum": 1040, "recommended": 1190, "upper_bound": 1420, "upper_bound_rule": "do not exceed without a new discovery review"},
+  "recommended_plan": {
+    "candidate_total": 1190,
+    "expected_accepted_total": 891,
+    "expected_buffer_above_gap": 113,
+    "families": [
+      {
+        "family": "INSTRUCTION_VALUE_FIDELITY",
+        "accepted_gap": 263,
+        "candidate_total": 400,
+        "expected_accepted_total": 307,
+        "sources": [
+          {"dataset_id": "nvidia/Nemotron-Instruction-Following-Chat-v1", "component": "structured_outputs", "candidate": 220, "yield": 0.85, "expected_accepted": 187},
+          {"dataset_id": "allenai/tulu-3-sft-personas-instruction-following", "component": "verifiable constraints", "candidate": 120, "yield": 0.65, "expected_accepted": 78},
+          {"dataset_id": "databricks/databricks-dolly-15k", "component": "information_extraction/classification", "candidate": 60, "yield": 0.70, "expected_accepted": 42}
+        ]
+      },
+      {
+        "family": "GENERAL_QA_SCIENCE_READING",
+        "accepted_gap": 209,
+        "candidate_total": 320,
+        "expected_accepted_total": 238,
+        "sources": [
+          {"dataset_id": "databricks/databricks-dolly-15k", "component": "closed_qa/context-grounded science", "candidate": 180, "yield": 0.70, "expected_accepted": 126},
+          {"dataset_id": "rajpurkar/squad", "component": "train only", "candidate": 140, "yield": 0.80, "expected_accepted": 112}
+        ]
+      },
+      {
+        "family": "GENERAL_REASONING",
+        "accepted_gap": 189,
+        "candidate_total": 300,
+        "expected_accepted_total": 212,
+        "sources": [
+          {"dataset_id": "tasksource/ruletaker", "component": "train, depth/config-stratified", "candidate": 200, "yield": 0.72, "expected_accepted": 144},
+          {"dataset_id": "facebook/babi_qa", "component": "English train, task-balanced", "candidate": 100, "yield": 0.68, "expected_accepted": 68}
+        ]
+      },
+      {
+        "family": "WRITING_MULTILINGUAL",
+        "accepted_gap": 30,
+        "candidate_total": 50,
+        "expected_accepted_total": 38,
+        "sources": [
+          {"dataset_id": "databricks/databricks-dolly-15k", "component": "constrained summarization", "candidate": 30, "yield": 0.80, "expected_accepted": 24},
+          {"dataset_id": "allenai/tulu-3-sft-personas-instruction-following", "component": "objective rewrite/controlled generation", "candidate": 20, "yield": 0.70, "expected_accepted": 14}
+        ],
+        "note": "English controlled writing only in primary plan; multilingual expansion is intentionally deferred because the gap is small and no PASS-quality multilingual source was needed."
+      },
+      {
+        "family": "CODING",
+        "accepted_gap": 87,
+        "candidate_total": 120,
+        "expected_accepted_total": 96,
+        "sources": [
+          {"dataset_id": "nvidia/OpenCodeInstruct", "component": "all-tests-pass safe pure functions", "candidate": 90, "yield": 0.80, "expected_accepted": 72},
+          {"dataset_id": "google-research-datasets/mbpp", "component": "full/train task_ids 601-974", "candidate": 30, "yield": 0.80, "expected_accepted": 24}
+        ]
+      },
+      {"family": "PROGRAMMATIC_MATH", "accepted_gap": 0, "candidate_total": 0, "expected_accepted_total": 0, "decision": "DO_NOT_ADD"},
+      {"family": "OTHER_MATH", "accepted_gap": 0, "candidate_total": 0, "expected_accepted_total": 0, "decision": "DO_NOT_ADD"}
+    ]
+  },
+  "source_diversity": {"tier_1_dataset_count": 8, "largest_source_candidate_count": 270, "largest_source_share_of_candidates": 0.2269, "no_source_absolute_majority": true},
+  "stage_2_stop_conditions": [
+    "Stop a family once expected accepted plus already accepted meets its target and quality buffer.",
+    "Stop all acquisition at 1420 candidate reads and return to discovery review.",
+    "Do not activate Tier 2 without documenting the realized Tier 1 shortfall.",
+    "Do not acquire any new math rows."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "CURL_TRANSPORT_AVAILABLE",
+  "http_status": 200,
+  "latency_ms": 1864.97,
+  "json_valid": true,
+  "model_count": 6,
+  "model_ids": [
+    "gpt-5.6-luna",
+    "gpt-5.5",
+    "gpt-5.4",
+    "gpt-5.4-mini",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra"
+  ]
+}

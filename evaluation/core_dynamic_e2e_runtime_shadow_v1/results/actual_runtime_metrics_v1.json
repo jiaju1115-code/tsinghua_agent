@@ -1,0 +1,37 @@
+{
+  "dataset": {
+    "cases": 80,
+    "case_sha256": "3197c2d721199c3c4e5fcbefb9966be2060648605049b45f478b4dba11f68e40",
+    "case_counts": {
+      "CORE_STABLE": 20,
+      "DYNAMIC_CURRENT": 10,
+      "DYNAMIC_EXPIRED": 10,
+      "CROSS_LAYER_CONFLICT": 15,
+      "CROSS_LAYER_COMPLEMENTARY": 15,
+      "KNOWN_GAP": 10
+    }
+  },
+  "actual_execution": {
+    "retrieval": 0,
+    "evidence": 0,
+    "citation": 0,
+    "answer": 0,
+    "failed_before_retrieval": 80
+  },
+  "actual_evidence_metrics": "NOT_COMPUTABLE",
+  "actual_citation_metrics": "NOT_COMPUTABLE",
+  "actual_answer_metrics": "NOT_COMPUTABLE",
+  "proxy_runtime_agreement_rate": 0.0,
+  "disagreements": {
+    "RUNTIME_ERROR": 80
+  },
+  "core_regression": "NOT_COMPUTABLE",
+  "dynamic_gain": "NOT_COMPUTABLE",
+  "conflict_evaluation": "NOT_COMPUTABLE",
+  "fusion": {
+    "equal_rrf": "BLOCKED",
+    "core_priority": "BLOCKED",
+    "dynamic_priority": "BLOCKED"
+  },
+  "readiness": "NEEDS_RUNTIME_INTEGRATION_FIX"
+}

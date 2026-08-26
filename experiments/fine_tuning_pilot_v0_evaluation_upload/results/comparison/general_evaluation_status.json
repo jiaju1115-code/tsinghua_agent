@@ -1,0 +1,7 @@
+{
+  "status": "POST_TRAINING_BLIND_GENERAL_EVAL_V0_FROZEN",
+  "executed": false,
+  "reason": "Prepared only. GPU evaluation requires explicit remote Base/LoRA invocation; no local inference is performed.",
+  "case_count": 100,
+  "raw_sha256": "6f0ada253cc3aaf12f75c134e7138dc7f34adb36d7505af0d9bf51aaa415429a"
+}

@@ -1,0 +1,6450 @@
+{
+  "groups": [
+    {
+      "duplicate_group_id": "canon-7b8ddf4a1eaf",
+      "candidate_ids": [
+        "dcc-0001"
+      ],
+      "canonical_candidate_id": "dcc-0001"
+    },
+    {
+      "duplicate_group_id": "canon-d2867078ac73",
+      "candidate_ids": [
+        "dcc-0002"
+      ],
+      "canonical_candidate_id": "dcc-0002"
+    },
+    {
+      "duplicate_group_id": "canon-a522d736e5a9",
+      "candidate_ids": [
+        "dcc-0003"
+      ],
+      "canonical_candidate_id": "dcc-0003"
+    },
+    {
+      "duplicate_group_id": "canon-2882600c2005",
+      "candidate_ids": [
+        "dcc-0004"
+      ],
+      "canonical_candidate_id": "dcc-0004"
+    },
+    {
+      "duplicate_group_id": "canon-30e3cefdd1e9",
+      "candidate_ids": [
+        "dcc-0005"
+      ],
+      "canonical_candidate_id": "dcc-0005"
+    },
+    {
+      "duplicate_group_id": "canon-10d0ffc1c86d",
+      "candidate_ids": [
+        "dcc-0006"
+      ],
+      "canonical_candidate_id": "dcc-0006"
+    },
+    {
+      "duplicate_group_id": "canon-1be1de874378",
+      "candidate_ids": [
+        "dcc-0007"
+      ],
+      "canonical_candidate_id": "dcc-0007"
+    },
+    {
+      "duplicate_group_id": "canon-bf01d0bb5aaf",
+      "candidate_ids": [
+        "dcc-0008"
+      ],
+      "canonical_candidate_id": "dcc-0008"
+    },
+    {
+      "duplicate_group_id": "canon-cefe7a3b5163",
+      "candidate_ids": [
+        "dcc-0009"
+      ],
+      "canonical_candidate_id": "dcc-0009"
+    },
+    {
+      "duplicate_group_id": "canon-702872a555e8",
+      "candidate_ids": [
+        "dcc-0010"
+      ],
+      "canonical_candidate_id": "dcc-0010"
+    },
+    {
+      "duplicate_group_id": "canon-f4dd6959d823",
+      "candidate_ids": [
+        "dcc-0011"
+      ],
+      "canonical_candidate_id": "dcc-0011"
+    },
+    {
+      "duplicate_group_id": "canon-b6c2c96a00a1",
+      "candidate_ids": [
+        "dcc-0012"
+      ],
+      "canonical_candidate_id": "dcc-0012"
+    },
+    {
+      "duplicate_group_id": "canon-0d2b22fd667e",
+      "candidate_ids": [
+        "dcc-0013"
+      ],
+      "canonical_candidate_id": "dcc-0013"
+    },
+    {
+      "duplicate_group_id": "canon-baf5284389af",
+      "candidate_ids": [
+        "dcc-0014"
+      ],
+      "canonical_candidate_id": "dcc-0014"
+    },
+    {
+      "duplicate_group_id": "canon-49ba46f9d990",
+      "candidate_ids": [
+        "dcc-0015"
+      ],
+      "canonical_candidate_id": "dcc-0015"
+    },
+    {
+      "duplicate_group_id": "canon-c032b12c955a",
+      "candidate_ids": [
+        "dcc-0016"
+      ],
+      "canonical_candidate_id": "dcc-0016"
+    },
+    {
+      "duplicate_group_id": "canon-5096b185b94e",
+      "candidate_ids": [
+        "dcc-0017"
+      ],
+      "canonical_candidate_id": "dcc-0017"
+    },
+    {
+      "duplicate_group_id": "canon-e83524b173ab",
+      "candidate_ids": [
+        "dcc-0018"
+      ],
+      "canonical_candidate_id": "dcc-0018"
+    },
+    {
+      "duplicate_group_id": "canon-5c462ca5534d",
+      "candidate_ids": [
+        "dcc-0019"
+      ],
+      "canonical_candidate_id": "dcc-0019"
+    },
+    {
+      "duplicate_group_id": "canon-cec8676baa1b",
+      "candidate_ids": [
+        "dcc-0020"
+      ],
+      "canonical_candidate_id": "dcc-0020"
+    },
+    {
+      "duplicate_group_id": "canon-18b5c54b404b",
+      "candidate_ids": [
+        "dcc-0021"
+      ],
+      "canonical_candidate_id": "dcc-0021"
+    },
+    {
+      "duplicate_group_id": "canon-066c86f80c68",
+      "candidate_ids": [
+        "dcc-0022"
+      ],
+      "canonical_candidate_id": "dcc-0022"
+    },
+    {
+      "duplicate_group_id": "canon-40a5f7be0db2",
+      "candidate_ids": [
+        "dcc-0023"
+      ],
+      "canonical_candidate_id": "dcc-0023"
+    },
+    {
+      "duplicate_group_id": "canon-3675a5d9b0ce",
+      "candidate_ids": [
+        "dcc-0024"
+      ],
+      "canonical_candidate_id": "dcc-0024"
+    },
+    {
+      "duplicate_group_id": "canon-63a77fe5c6e7",
+      "candidate_ids": [
+        "dcc-0025"
+      ],
+      "canonical_candidate_id": "dcc-0025"
+    },
+    {
+      "duplicate_group_id": "canon-132aa5d040d2",
+      "candidate_ids": [
+        "dcc-0026"
+      ],
+      "canonical_candidate_id": "dcc-0026"
+    },
+    {
+      "duplicate_group_id": "canon-6a41b5feceab",
+      "candidate_ids": [
+        "dcc-0027"
+      ],
+      "canonical_candidate_id": "dcc-0027"
+    },
+    {
+      "duplicate_group_id": "canon-dea7c8ae7dc5",
+      "candidate_ids": [
+        "dcc-0028"
+      ],
+      "canonical_candidate_id": "dcc-0028"
+    },
+    {
+      "duplicate_group_id": "canon-0fec6aef330b",
+      "candidate_ids": [
+        "dcc-0029"
+      ],
+      "canonical_candidate_id": "dcc-0029"
+    },
+    {
+      "duplicate_group_id": "canon-40ae29864f5e",
+      "candidate_ids": [
+        "dcc-0030"
+      ],
+      "canonical_candidate_id": "dcc-0030"
+    },
+    {
+      "duplicate_group_id": "canon-ec059ecee424",
+      "candidate_ids": [
+        "dcc-0031"
+      ],
+      "canonical_candidate_id": "dcc-0031"
+    },
+    {
+      "duplicate_group_id": "canon-7f526e8c7edb",
+      "candidate_ids": [
+        "dcc-0032"
+      ],
+      "canonical_candidate_id": "dcc-0032"
+    },
+    {
+      "duplicate_group_id": "canon-0fded32d0a64",
+      "candidate_ids": [
+        "dcc-0033"
+      ],
+      "canonical_candidate_id": "dcc-0033"
+    },
+    {
+      "duplicate_group_id": "canon-796cf4a9a8cf",
+      "candidate_ids": [
+        "dcc-0034"
+      ],
+      "canonical_candidate_id": "dcc-0034"
+    },
+    {
+      "duplicate_group_id": "canon-c3acdee084e2",
+      "candidate_ids": [
+        "dcc-0035"
+      ],
+      "canonical_candidate_id": "dcc-0035"
+    },
+    {
+      "duplicate_group_id": "canon-307074b495db",
+      "candidate_ids": [
+        "dcc-0036"
+      ],
+      "canonical_candidate_id": "dcc-0036"
+    },
+    {
+      "duplicate_group_id": "canon-aa852eb9f4c5",
+      "candidate_ids": [
+        "dcc-0037"
+      ],
+      "canonical_candidate_id": "dcc-0037"
+    },
+    {
+      "duplicate_group_id": "canon-b90afca8cbf6",
+      "candidate_ids": [
+        "dcc-0038"
+      ],
+      "canonical_candidate_id": "dcc-0038"
+    },
+    {
+      "duplicate_group_id": "canon-98947df58777",
+      "candidate_ids": [
+        "dcc-0039"
+      ],
+      "canonical_candidate_id": "dcc-0039"
+    },
+    {
+      "duplicate_group_id": "canon-1fdfcbf87737",
+      "candidate_ids": [
+        "dcc-0040"
+      ],
+      "canonical_candidate_id": "dcc-0040"
+    },
+    {
+      "duplicate_group_id": "canon-2684b24f71d9",
+      "candidate_ids": [
+        "dcc-0041"
+      ],
+      "canonical_candidate_id": "dcc-0041"
+    },
+    {
+      "duplicate_group_id": "canon-5d9046dc0324",
+      "candidate_ids": [
+        "dcc-0042"
+      ],
+      "canonical_candidate_id": "dcc-0042"
+    },
+    {
+      "duplicate_group_id": "canon-b1c85e45e419",
+      "candidate_ids": [
+        "dcc-0043"
+      ],
+      "canonical_candidate_id": "dcc-0043"
+    },
+    {
+      "duplicate_group_id": "canon-db8e8ea184af",
+      "candidate_ids": [
+        "dcc-0044"
+      ],
+      "canonical_candidate_id": "dcc-0044"
+    },
+    {
+      "duplicate_group_id": "canon-546097f6260f",
+      "candidate_ids": [
+        "dcc-0045"
+      ],
+      "canonical_candidate_id": "dcc-0045"
+    },
+    {
+      "duplicate_group_id": "canon-7234ab6dfc24",
+      "candidate_ids": [
+        "dcc-0046"
+      ],
+      "canonical_candidate_id": "dcc-0046"
+    },
+    {
+      "duplicate_group_id": "canon-233746f6ea31",
+      "candidate_ids": [
+        "dcc-0047"
+      ],
+      "canonical_candidate_id": "dcc-0047"
+    },
+    {
+      "duplicate_group_id": "canon-b84c5609a3b7",
+      "candidate_ids": [
+        "dcc-0048"
+      ],
+      "canonical_candidate_id": "dcc-0048"
+    },
+    {
+      "duplicate_group_id": "canon-ffd571da5608",
+      "candidate_ids": [
+        "dcc-0049"
+      ],
+      "canonical_candidate_id": "dcc-0049"
+    },
+    {
+      "duplicate_group_id": "canon-164e2d8dc7e0",
+      "candidate_ids": [
+        "dcc-0050"
+      ],
+      "canonical_candidate_id": "dcc-0050"
+    },
+    {
+      "duplicate_group_id": "canon-d97169f91d31",
+      "candidate_ids": [
+        "dcc-0051"
+      ],
+      "canonical_candidate_id": "dcc-0051"
+    },
+    {
+      "duplicate_group_id": "canon-8da08ff42c67",
+      "candidate_ids": [
+        "dcc-0052"
+      ],
+      "canonical_candidate_id": "dcc-0052"
+    },
+    {
+      "duplicate_group_id": "canon-060bd1a20e50",
+      "candidate_ids": [
+        "dcc-0053"
+      ],
+      "canonical_candidate_id": "dcc-0053"
+    },
+    {
+      "duplicate_group_id": "canon-82ec3feb269f",
+      "candidate_ids": [
+        "dcc-0054"
+      ],
+      "canonical_candidate_id": "dcc-0054"
+    },
+    {
+      "duplicate_group_id": "canon-8a3f01f2c04c",
+      "candidate_ids": [
+        "dcc-0055"
+      ],
+      "canonical_candidate_id": "dcc-0055"
+    },
+    {
+      "duplicate_group_id": "canon-57745c511f5e",
+      "candidate_ids": [
+        "dcc-0056"
+      ],
+      "canonical_candidate_id": "dcc-0056"
+    },
+    {
+      "duplicate_group_id": "canon-b1cf1ce4e9bb",
+      "candidate_ids": [
+        "dcc-0057"
+      ],
+      "canonical_candidate_id": "dcc-0057"
+    },
+    {
+      "duplicate_group_id": "canon-d494b712004a",
+      "candidate_ids": [
+        "dcc-0058"
+      ],
+      "canonical_candidate_id": "dcc-0058"
+    },
+    {
+      "duplicate_group_id": "canon-f69a10a2fbea",
+      "candidate_ids": [
+        "dcc-0059"
+      ],
+      "canonical_candidate_id": "dcc-0059"
+    },
+    {
+      "duplicate_group_id": "canon-f22ee570df8e",
+      "candidate_ids": [
+        "dcc-0060"
+      ],
+      "canonical_candidate_id": "dcc-0060"
+    },
+    {
+      "duplicate_group_id": "canon-6fe0e8122c3d",
+      "candidate_ids": [
+        "dcc-0061"
+      ],
+      "canonical_candidate_id": "dcc-0061"
+    },
+    {
+      "duplicate_group_id": "canon-69dde758c191",
+      "candidate_ids": [
+        "dcc-0062"
+      ],
+      "canonical_candidate_id": "dcc-0062"
+    },
+    {
+      "duplicate_group_id": "canon-6c60ac08799a",
+      "candidate_ids": [
+        "dcc-0063"
+      ],
+      "canonical_candidate_id": "dcc-0063"
+    },
+    {
+      "duplicate_group_id": "canon-29446f6246eb",
+      "candidate_ids": [
+        "dcc-0064"
+      ],
+      "canonical_candidate_id": "dcc-0064"
+    },
+    {
+      "duplicate_group_id": "canon-d36449abbb14",
+      "candidate_ids": [
+        "dcc-0065"
+      ],
+      "canonical_candidate_id": "dcc-0065"
+    },
+    {
+      "duplicate_group_id": "canon-dc4ffbb87ce8",
+      "candidate_ids": [
+        "dcc-0066"
+      ],
+      "canonical_candidate_id": "dcc-0066"
+    },
+    {
+      "duplicate_group_id": "canon-2872b0818ffd",
+      "candidate_ids": [
+        "dcc-0067"
+      ],
+      "canonical_candidate_id": "dcc-0067"
+    },
+    {
+      "duplicate_group_id": "canon-17f04f37a477",
+      "candidate_ids": [
+        "dcc-0068"
+      ],
+      "canonical_candidate_id": "dcc-0068"
+    },
+    {
+      "duplicate_group_id": "canon-e3ee473cb06a",
+      "candidate_ids": [
+        "dcc-0069"
+      ],
+      "canonical_candidate_id": "dcc-0069"
+    },
+    {
+      "duplicate_group_id": "canon-3b0d16a28d59",
+      "candidate_ids": [
+        "dcc-0070"
+      ],
+      "canonical_candidate_id": "dcc-0070"
+    },
+    {
+      "duplicate_group_id": "canon-353fc912c08c",
+      "candidate_ids": [
+        "dcc-0071"
+      ],
+      "canonical_candidate_id": "dcc-0071"
+    },
+    {
+      "duplicate_group_id": "canon-751f9153b54a",
+      "candidate_ids": [
+        "dcc-0072"
+      ],
+      "canonical_candidate_id": "dcc-0072"
+    },
+    {
+      "duplicate_group_id": "canon-2a692f243723",
+      "candidate_ids": [
+        "dcc-0073"
+      ],
+      "canonical_candidate_id": "dcc-0073"
+    },
+    {
+      "duplicate_group_id": "canon-9c9f5e8d2b33",
+      "candidate_ids": [
+        "dcc-0074"
+      ],
+      "canonical_candidate_id": "dcc-0074"
+    },
+    {
+      "duplicate_group_id": "canon-80f233162337",
+      "candidate_ids": [
+        "dcc-0075"
+      ],
+      "canonical_candidate_id": "dcc-0075"
+    },
+    {
+      "duplicate_group_id": "canon-05576265c6e4",
+      "candidate_ids": [
+        "dcc-0076"
+      ],
+      "canonical_candidate_id": "dcc-0076"
+    },
+    {
+      "duplicate_group_id": "canon-d4ea6100a261",
+      "candidate_ids": [
+        "dcc-0077"
+      ],
+      "canonical_candidate_id": "dcc-0077"
+    },
+    {
+      "duplicate_group_id": "canon-70f7fb8b3c35",
+      "candidate_ids": [
+        "dcc-0078"
+      ],
+      "canonical_candidate_id": "dcc-0078"
+    },
+    {
+      "duplicate_group_id": "canon-a848da120d6d",
+      "candidate_ids": [
+        "dcc-0079"
+      ],
+      "canonical_candidate_id": "dcc-0079"
+    },
+    {
+      "duplicate_group_id": "canon-2f63b2b153a4",
+      "candidate_ids": [
+        "dcc-0080"
+      ],
+      "canonical_candidate_id": "dcc-0080"
+    },
+    {
+      "duplicate_group_id": "canon-0e9d2a6ece65",
+      "candidate_ids": [
+        "dcc-0081"
+      ],
+      "canonical_candidate_id": "dcc-0081"
+    },
+    {
+      "duplicate_group_id": "canon-aaf2b5452ff7",
+      "candidate_ids": [
+        "dcc-0082"
+      ],
+      "canonical_candidate_id": "dcc-0082"
+    },
+    {
+      "duplicate_group_id": "canon-12869a1358d3",
+      "candidate_ids": [
+        "dcc-0083"
+      ],
+      "canonical_candidate_id": "dcc-0083"
+    },
+    {
+      "duplicate_group_id": "canon-72644cc7f3cd",
+      "candidate_ids": [
+        "dcc-0084"
+      ],
+      "canonical_candidate_id": "dcc-0084"
+    },
+    {
+      "duplicate_group_id": "canon-29241db95ef9",
+      "candidate_ids": [
+        "dcc-0085"
+      ],
+      "canonical_candidate_id": "dcc-0085"
+    },
+    {
+      "duplicate_group_id": "canon-62f17e11b4f5",
+      "candidate_ids": [
+        "dcc-0086"
+      ],
+      "canonical_candidate_id": "dcc-0086"
+    },
+    {
+      "duplicate_group_id": "canon-2a4f03f15f24",
+      "candidate_ids": [
+        "dcc-0087"
+      ],
+      "canonical_candidate_id": "dcc-0087"
+    },
+    {
+      "duplicate_group_id": "canon-e154ad8f881f",
+      "candidate_ids": [
+        "dcc-0088"
+      ],
+      "canonical_candidate_id": "dcc-0088"
+    },
+    {
+      "duplicate_group_id": "canon-d5570dd54983",
+      "candidate_ids": [
+        "dcc-0089"
+      ],
+      "canonical_candidate_id": "dcc-0089"
+    },
+    {
+      "duplicate_group_id": "canon-4cf9920bdf05",
+      "candidate_ids": [
+        "dcc-0090"
+      ],
+      "canonical_candidate_id": "dcc-0090"
+    },
+    {
+      "duplicate_group_id": "canon-508451ea3278",
+      "candidate_ids": [
+        "dcc-0091"
+      ],
+      "canonical_candidate_id": "dcc-0091"
+    },
+    {
+      "duplicate_group_id": "canon-e31c7917be54",
+      "candidate_ids": [
+        "dcc-0092"
+      ],
+      "canonical_candidate_id": "dcc-0092"
+    },
+    {
+      "duplicate_group_id": "canon-e60d673a8ea2",
+      "candidate_ids": [
+        "dcc-0093"
+      ],
+      "canonical_candidate_id": "dcc-0093"
+    },
+    {
+      "duplicate_group_id": "canon-e042169b83be",
+      "candidate_ids": [
+        "dcc-0094"
+      ],
+      "canonical_candidate_id": "dcc-0094"
+    },
+    {
+      "duplicate_group_id": "canon-6cbcf015ab6f",
+      "candidate_ids": [
+        "dcc-0095"
+      ],
+      "canonical_candidate_id": "dcc-0095"
+    },
+    {
+      "duplicate_group_id": "canon-b6670aeb3fc9",
+      "candidate_ids": [
+        "dcc-0096"
+      ],
+      "canonical_candidate_id": "dcc-0096"
+    },
+    {
+      "duplicate_group_id": "canon-1aa94bb0c783",
+      "candidate_ids": [
+        "dcc-0097"
+      ],
+      "canonical_candidate_id": "dcc-0097"
+    },
+    {
+      "duplicate_group_id": "canon-7294966cf390",
+      "candidate_ids": [
+        "dcc-0098"
+      ],
+      "canonical_candidate_id": "dcc-0098"
+    },
+    {
+      "duplicate_group_id": "canon-0021dbb8cc9f",
+      "candidate_ids": [
+        "dcc-0099"
+      ],
+      "canonical_candidate_id": "dcc-0099"
+    },
+    {
+      "duplicate_group_id": "canon-2e8871d0bc05",
+      "candidate_ids": [
+        "dcc-0100"
+      ],
+      "canonical_candidate_id": "dcc-0100"
+    },
+    {
+      "duplicate_group_id": "canon-0e129de6b87a",
+      "candidate_ids": [
+        "dcc-0101"
+      ],
+      "canonical_candidate_id": "dcc-0101"
+    },
+    {
+      "duplicate_group_id": "canon-6ff851448002",
+      "candidate_ids": [
+        "dcc-0102"
+      ],
+      "canonical_candidate_id": "dcc-0102"
+    },
+    {
+      "duplicate_group_id": "canon-5ea4bd6ceda1",
+      "candidate_ids": [
+        "dcc-0103"
+      ],
+      "canonical_candidate_id": "dcc-0103"
+    },
+    {
+      "duplicate_group_id": "canon-b8529c7a4e58",
+      "candidate_ids": [
+        "dcc-0104"
+      ],
+      "canonical_candidate_id": "dcc-0104"
+    },
+    {
+      "duplicate_group_id": "canon-0c8f2c7f5cdd",
+      "candidate_ids": [
+        "dcc-0105"
+      ],
+      "canonical_candidate_id": "dcc-0105"
+    },
+    {
+      "duplicate_group_id": "canon-3cb7bbf5db42",
+      "candidate_ids": [
+        "dcc-0106"
+      ],
+      "canonical_candidate_id": "dcc-0106"
+    },
+    {
+      "duplicate_group_id": "canon-413554a67d52",
+      "candidate_ids": [
+        "dcc-0107"
+      ],
+      "canonical_candidate_id": "dcc-0107"
+    },
+    {
+      "duplicate_group_id": "canon-591d9d83ea8c",
+      "candidate_ids": [
+        "dcc-0108"
+      ],
+      "canonical_candidate_id": "dcc-0108"
+    },
+    {
+      "duplicate_group_id": "canon-1906c2273881",
+      "candidate_ids": [
+        "dcc-0109"
+      ],
+      "canonical_candidate_id": "dcc-0109"
+    },
+    {
+      "duplicate_group_id": "canon-26166d475819",
+      "candidate_ids": [
+        "dcc-0110"
+      ],
+      "canonical_candidate_id": "dcc-0110"
+    },
+    {
+      "duplicate_group_id": "canon-75accece2f54",
+      "candidate_ids": [
+        "dcc-0111"
+      ],
+      "canonical_candidate_id": "dcc-0111"
+    },
+    {
+      "duplicate_group_id": "canon-e7f4b2d66e3a",
+      "candidate_ids": [
+        "dcc-0112"
+      ],
+      "canonical_candidate_id": "dcc-0112"
+    },
+    {
+      "duplicate_group_id": "canon-f396b5e06f4b",
+      "candidate_ids": [
+        "dcc-0113"
+      ],
+      "canonical_candidate_id": "dcc-0113"
+    },
+    {
+      "duplicate_group_id": "canon-e971ce83264f",
+      "candidate_ids": [
+        "dcc-0114"
+      ],
+      "canonical_candidate_id": "dcc-0114"
+    },
+    {
+      "duplicate_group_id": "canon-ea0eddf529db",
+      "candidate_ids": [
+        "dcc-0115"
+      ],
+      "canonical_candidate_id": "dcc-0115"
+    },
+    {
+      "duplicate_group_id": "canon-06147e96cb91",
+      "candidate_ids": [
+        "dcc-0116"
+      ],
+      "canonical_candidate_id": "dcc-0116"
+    },
+    {
+      "duplicate_group_id": "canon-d65a1c8bf4dc",
+      "candidate_ids": [
+        "dcc-0117"
+      ],
+      "canonical_candidate_id": "dcc-0117"
+    },
+    {
+      "duplicate_group_id": "canon-d70d18c7b249",
+      "candidate_ids": [
+        "dcc-0118"
+      ],
+      "canonical_candidate_id": "dcc-0118"
+    },
+    {
+      "duplicate_group_id": "canon-25680eaa8606",
+      "candidate_ids": [
+        "dcc-0119"
+      ],
+      "canonical_candidate_id": "dcc-0119"
+    },
+    {
+      "duplicate_group_id": "canon-1aacea2a10c8",
+      "candidate_ids": [
+        "dcc-0120"
+      ],
+      "canonical_candidate_id": "dcc-0120"
+    },
+    {
+      "duplicate_group_id": "canon-90df973eeb4b",
+      "candidate_ids": [
+        "dcc-0121"
+      ],
+      "canonical_candidate_id": "dcc-0121"
+    },
+    {
+      "duplicate_group_id": "canon-de2642f2a9a2",
+      "candidate_ids": [
+        "dcc-0122"
+      ],
+      "canonical_candidate_id": "dcc-0122"
+    },
+    {
+      "duplicate_group_id": "canon-bbc76ded3f67",
+      "candidate_ids": [
+        "dcc-0123"
+      ],
+      "canonical_candidate_id": "dcc-0123"
+    },
+    {
+      "duplicate_group_id": "canon-25c8f4c054d8",
+      "candidate_ids": [
+        "dcc-0124"
+      ],
+      "canonical_candidate_id": "dcc-0124"
+    },
+    {
+      "duplicate_group_id": "canon-1c1086e97ab4",
+      "candidate_ids": [
+        "dcc-0125"
+      ],
+      "canonical_candidate_id": "dcc-0125"
+    },
+    {
+      "duplicate_group_id": "canon-30783d40db63",
+      "candidate_ids": [
+        "dcc-0126"
+      ],
+      "canonical_candidate_id": "dcc-0126"
+    },
+    {
+      "duplicate_group_id": "canon-dc45dd2b7d8b",
+      "candidate_ids": [
+        "dcc-0127"
+      ],
+      "canonical_candidate_id": "dcc-0127"
+    },
+    {
+      "duplicate_group_id": "canon-82394001e85f",
+      "candidate_ids": [
+        "dcc-0128"
+      ],
+      "canonical_candidate_id": "dcc-0128"
+    },
+    {
+      "duplicate_group_id": "canon-cf74cc4a98b9",
+      "candidate_ids": [
+        "dcc-0129"
+      ],
+      "canonical_candidate_id": "dcc-0129"
+    },
+    {
+      "duplicate_group_id": "canon-0eb93785cdae",
+      "candidate_ids": [
+        "dcc-0130"
+      ],
+      "canonical_candidate_id": "dcc-0130"
+    },
+    {
+      "duplicate_group_id": "canon-7755f0af6a33",
+      "candidate_ids": [
+        "dcc-0131"
+      ],
+      "canonical_candidate_id": "dcc-0131"
+    },
+    {
+      "duplicate_group_id": "canon-4f199843d9de",
+      "candidate_ids": [
+        "dcc-0132"
+      ],
+      "canonical_candidate_id": "dcc-0132"
+    },
+    {
+      "duplicate_group_id": "canon-e04651c432b6",
+      "candidate_ids": [
+        "dcc-0133"
+      ],
+      "canonical_candidate_id": "dcc-0133"
+    },
+    {
+      "duplicate_group_id": "canon-94711e3849c7",
+      "candidate_ids": [
+        "dcc-0134"
+      ],
+      "canonical_candidate_id": "dcc-0134"
+    },
+    {
+      "duplicate_group_id": "canon-d1dd79c48bd6",
+      "candidate_ids": [
+        "dcc-0135",
+        "dcc-0497"
+      ],
+      "canonical_candidate_id": "dcc-0135"
+    },
+    {
+      "duplicate_group_id": "canon-079cce040306",
+      "candidate_ids": [
+        "dcc-0136"
+      ],
+      "canonical_candidate_id": "dcc-0136"
+    },
+    {
+      "duplicate_group_id": "canon-a12f09d58bf6",
+      "candidate_ids": [
+        "dcc-0137"
+      ],
+      "canonical_candidate_id": "dcc-0137"
+    },
+    {
+      "duplicate_group_id": "canon-b808aefad2e8",
+      "candidate_ids": [
+        "dcc-0138"
+      ],
+      "canonical_candidate_id": "dcc-0138"
+    },
+    {
+      "duplicate_group_id": "canon-396a114855e4",
+      "candidate_ids": [
+        "dcc-0139"
+      ],
+      "canonical_candidate_id": "dcc-0139"
+    },
+    {
+      "duplicate_group_id": "canon-5404b9840097",
+      "candidate_ids": [
+        "dcc-0140"
+      ],
+      "canonical_candidate_id": "dcc-0140"
+    },
+    {
+      "duplicate_group_id": "canon-3b231c5ff0db",
+      "candidate_ids": [
+        "dcc-0141"
+      ],
+      "canonical_candidate_id": "dcc-0141"
+    },
+    {
+      "duplicate_group_id": "canon-8fd17e71d9f5",
+      "candidate_ids": [
+        "dcc-0142"
+      ],
+      "canonical_candidate_id": "dcc-0142"
+    },
+    {
+      "duplicate_group_id": "canon-196f82c5c3a3",
+      "candidate_ids": [
+        "dcc-0143"
+      ],
+      "canonical_candidate_id": "dcc-0143"
+    },
+    {
+      "duplicate_group_id": "canon-8fc677d9d6a0",
+      "candidate_ids": [
+        "dcc-0144"
+      ],
+      "canonical_candidate_id": "dcc-0144"
+    },
+    {
+      "duplicate_group_id": "canon-6978bc541066",
+      "candidate_ids": [
+        "dcc-0145"
+      ],
+      "canonical_candidate_id": "dcc-0145"
+    },
+    {
+      "duplicate_group_id": "canon-7e9146fa970b",
+      "candidate_ids": [
+        "dcc-0146"
+      ],
+      "canonical_candidate_id": "dcc-0146"
+    },
+    {
+      "duplicate_group_id": "canon-c00ca98d8256",
+      "candidate_ids": [
+        "dcc-0147"
+      ],
+      "canonical_candidate_id": "dcc-0147"
+    },
+    {
+      "duplicate_group_id": "canon-fdff5b98bf64",
+      "candidate_ids": [
+        "dcc-0148"
+      ],
+      "canonical_candidate_id": "dcc-0148"
+    },
+    {
+      "duplicate_group_id": "canon-a13c42dcc79f",
+      "candidate_ids": [
+        "dcc-0149"
+      ],
+      "canonical_candidate_id": "dcc-0149"
+    },
+    {
+      "duplicate_group_id": "canon-408d16761c4b",
+      "candidate_ids": [
+        "dcc-0150"
+      ],
+      "canonical_candidate_id": "dcc-0150"
+    },
+    {
+      "duplicate_group_id": "canon-91566491358a",
+      "candidate_ids": [
+        "dcc-0151"
+      ],
+      "canonical_candidate_id": "dcc-0151"
+    },
+    {
+      "duplicate_group_id": "canon-9dbd8e9538d9",
+      "candidate_ids": [
+        "dcc-0152"
+      ],
+      "canonical_candidate_id": "dcc-0152"
+    },
+    {
+      "duplicate_group_id": "canon-7ee9fc3bd009",
+      "candidate_ids": [
+        "dcc-0153"
+      ],
+      "canonical_candidate_id": "dcc-0153"
+    },
+    {
+      "duplicate_group_id": "canon-07e92e496aca",
+      "candidate_ids": [
+        "dcc-0154"
+      ],
+      "canonical_candidate_id": "dcc-0154"
+    },
+    {
+      "duplicate_group_id": "canon-72e5dfc0ed6f",
+      "candidate_ids": [
+        "dcc-0155"
+      ],
+      "canonical_candidate_id": "dcc-0155"
+    },
+    {
+      "duplicate_group_id": "canon-4f2be551f97f",
+      "candidate_ids": [
+        "dcc-0156"
+      ],
+      "canonical_candidate_id": "dcc-0156"
+    },
+    {
+      "duplicate_group_id": "canon-e79ea7348048",
+      "candidate_ids": [
+        "dcc-0157"
+      ],
+      "canonical_candidate_id": "dcc-0157"
+    },
+    {
+      "duplicate_group_id": "canon-30217b30e708",
+      "candidate_ids": [
+        "dcc-0158"
+      ],
+      "canonical_candidate_id": "dcc-0158"
+    },
+    {
+      "duplicate_group_id": "canon-91638f28cc4f",
+      "candidate_ids": [
+        "dcc-0159"
+      ],
+      "canonical_candidate_id": "dcc-0159"
+    },
+    {
+      "duplicate_group_id": "canon-6ceef18c6ed5",
+      "candidate_ids": [
+        "dcc-0160"
+      ],
+      "canonical_candidate_id": "dcc-0160"
+    },
+    {
+      "duplicate_group_id": "canon-2df5a02ff948",
+      "candidate_ids": [
+        "dcc-0161"
+      ],
+      "canonical_candidate_id": "dcc-0161"
+    },
+    {
+      "duplicate_group_id": "canon-a35c97d639fe",
+      "candidate_ids": [
+        "dcc-0162"
+      ],
+      "canonical_candidate_id": "dcc-0162"
+    },
+    {
+      "duplicate_group_id": "canon-43f70c409e8d",
+      "candidate_ids": [
+        "dcc-0163"
+      ],
+      "canonical_candidate_id": "dcc-0163"
+    },
+    {
+      "duplicate_group_id": "canon-9ad1b9339fc7",
+      "candidate_ids": [
+        "dcc-0164"
+      ],
+      "canonical_candidate_id": "dcc-0164"
+    },
+    {
+      "duplicate_group_id": "canon-5fe1abb19500",
+      "candidate_ids": [
+        "dcc-0165"
+      ],
+      "canonical_candidate_id": "dcc-0165"
+    },
+    {
+      "duplicate_group_id": "canon-745e401c7285",
+      "candidate_ids": [
+        "dcc-0166"
+      ],
+      "canonical_candidate_id": "dcc-0166"
+    },
+    {
+      "duplicate_group_id": "canon-64cfd90e7c41",
+      "candidate_ids": [
+        "dcc-0167"
+      ],
+      "canonical_candidate_id": "dcc-0167"
+    },
+    {
+      "duplicate_group_id": "canon-1591abeb4d11",
+      "candidate_ids": [
+        "dcc-0168"
+      ],
+      "canonical_candidate_id": "dcc-0168"
+    },
+    {
+      "duplicate_group_id": "canon-e60e011c89b9",
+      "candidate_ids": [
+        "dcc-0169"
+      ],
+      "canonical_candidate_id": "dcc-0169"
+    },
+    {
+      "duplicate_group_id": "canon-ef7be205e29b",
+      "candidate_ids": [
+        "dcc-0170"
+      ],
+      "canonical_candidate_id": "dcc-0170"
+    },
+    {
+      "duplicate_group_id": "canon-c923240c32fb",
+      "candidate_ids": [
+        "dcc-0171"
+      ],
+      "canonical_candidate_id": "dcc-0171"
+    },
+    {
+      "duplicate_group_id": "canon-585c04c39d77",
+      "candidate_ids": [
+        "dcc-0172"
+      ],
+      "canonical_candidate_id": "dcc-0172"
+    },
+    {
+      "duplicate_group_id": "canon-720c65ae00f9",
+      "candidate_ids": [
+        "dcc-0173"
+      ],
+      "canonical_candidate_id": "dcc-0173"
+    },
+    {
+      "duplicate_group_id": "canon-c188b7ef30b9",
+      "candidate_ids": [
+        "dcc-0174"
+      ],
+      "canonical_candidate_id": "dcc-0174"
+    },
+    {
+      "duplicate_group_id": "canon-5450781c0f78",
+      "candidate_ids": [
+        "dcc-0175"
+      ],
+      "canonical_candidate_id": "dcc-0175"
+    },
+    {
+      "duplicate_group_id": "canon-8dec39efb303",
+      "candidate_ids": [
+        "dcc-0176"
+      ],
+      "canonical_candidate_id": "dcc-0176"
+    },
+    {
+      "duplicate_group_id": "canon-bbb242047bea",
+      "candidate_ids": [
+        "dcc-0177"
+      ],
+      "canonical_candidate_id": "dcc-0177"
+    },
+    {
+      "duplicate_group_id": "canon-7d97aab06a8f",
+      "candidate_ids": [
+        "dcc-0178"
+      ],
+      "canonical_candidate_id": "dcc-0178"
+    },
+    {
+      "duplicate_group_id": "canon-caa352db61c6",
+      "candidate_ids": [
+        "dcc-0179"
+      ],
+      "canonical_candidate_id": "dcc-0179"
+    },
+    {
+      "duplicate_group_id": "canon-5530b8655d57",
+      "candidate_ids": [
+        "dcc-0180"
+      ],
+      "canonical_candidate_id": "dcc-0180"
+    },
+    {
+      "duplicate_group_id": "canon-8223b560c7b9",
+      "candidate_ids": [
+        "dcc-0181"
+      ],
+      "canonical_candidate_id": "dcc-0181"
+    },
+    {
+      "duplicate_group_id": "canon-253103059888",
+      "candidate_ids": [
+        "dcc-0182"
+      ],
+      "canonical_candidate_id": "dcc-0182"
+    },
+    {
+      "duplicate_group_id": "canon-4e84c45af294",
+      "candidate_ids": [
+        "dcc-0183"
+      ],
+      "canonical_candidate_id": "dcc-0183"
+    },
+    {
+      "duplicate_group_id": "canon-869a7497c509",
+      "candidate_ids": [
+        "dcc-0184"
+      ],
+      "canonical_candidate_id": "dcc-0184"
+    },
+    {
+      "duplicate_group_id": "canon-b6cfbf1e4644",
+      "candidate_ids": [
+        "dcc-0185"
+      ],
+      "canonical_candidate_id": "dcc-0185"
+    },
+    {
+      "duplicate_group_id": "canon-5dfc5fbacdd8",
+      "candidate_ids": [
+        "dcc-0186"
+      ],
+      "canonical_candidate_id": "dcc-0186"
+    },
+    {
+      "duplicate_group_id": "canon-d3792ca70761",
+      "candidate_ids": [
+        "dcc-0187"
+      ],
+      "canonical_candidate_id": "dcc-0187"
+    },
+    {
+      "duplicate_group_id": "canon-52f788e37348",
+      "candidate_ids": [
+        "dcc-0188"
+      ],
+      "canonical_candidate_id": "dcc-0188"
+    },
+    {
+      "duplicate_group_id": "canon-b194d2c4ce03",
+      "candidate_ids": [
+        "dcc-0189"
+      ],
+      "canonical_candidate_id": "dcc-0189"
+    },
+    {
+      "duplicate_group_id": "canon-3827084cc84f",
+      "candidate_ids": [
+        "dcc-0190"
+      ],
+      "canonical_candidate_id": "dcc-0190"
+    },
+    {
+      "duplicate_group_id": "canon-8a3d3c49bd07",
+      "candidate_ids": [
+        "dcc-0191"
+      ],
+      "canonical_candidate_id": "dcc-0191"
+    },
+    {
+      "duplicate_group_id": "canon-d39ce007b5e1",
+      "candidate_ids": [
+        "dcc-0192"
+      ],
+      "canonical_candidate_id": "dcc-0192"
+    },
+    {
+      "duplicate_group_id": "canon-ee2c5503d0fd",
+      "candidate_ids": [
+        "dcc-0193"
+      ],
+      "canonical_candidate_id": "dcc-0193"
+    },
+    {
+      "duplicate_group_id": "canon-a5ab52e11e43",
+      "candidate_ids": [
+        "dcc-0194"
+      ],
+      "canonical_candidate_id": "dcc-0194"
+    },
+    {
+      "duplicate_group_id": "canon-6f2178c9d941",
+      "candidate_ids": [
+        "dcc-0195"
+      ],
+      "canonical_candidate_id": "dcc-0195"
+    },
+    {
+      "duplicate_group_id": "canon-609c523aed51",
+      "candidate_ids": [
+        "dcc-0196"
+      ],
+      "canonical_candidate_id": "dcc-0196"
+    },
+    {
+      "duplicate_group_id": "canon-64f5b3b28bea",
+      "candidate_ids": [
+        "dcc-0197"
+      ],
+      "canonical_candidate_id": "dcc-0197"
+    },
+    {
+      "duplicate_group_id": "canon-c5ae57dd47e7",
+      "candidate_ids": [
+        "dcc-0198"
+      ],
+      "canonical_candidate_id": "dcc-0198"
+    },
+    {
+      "duplicate_group_id": "canon-50a6a30ebe0c",
+      "candidate_ids": [
+        "dcc-0199"
+      ],
+      "canonical_candidate_id": "dcc-0199"
+    },
+    {
+      "duplicate_group_id": "canon-2c3fce34089b",
+      "candidate_ids": [
+        "dcc-0200"
+      ],
+      "canonical_candidate_id": "dcc-0200"
+    },
+    {
+      "duplicate_group_id": "canon-d8d780329387",
+      "candidate_ids": [
+        "dcc-0201"
+      ],
+      "canonical_candidate_id": "dcc-0201"
+    },
+    {
+      "duplicate_group_id": "canon-ae17f2cac4aa",
+      "candidate_ids": [
+        "dcc-0202"
+      ],
+      "canonical_candidate_id": "dcc-0202"
+    },
+    {
+      "duplicate_group_id": "canon-70018ce2f31f",
+      "candidate_ids": [
+        "dcc-0203"
+      ],
+      "canonical_candidate_id": "dcc-0203"
+    },
+    {
+      "duplicate_group_id": "canon-5e95b21db53e",
+      "candidate_ids": [
+        "dcc-0204"
+      ],
+      "canonical_candidate_id": "dcc-0204"
+    },
+    {
+      "duplicate_group_id": "canon-e3134481fd55",
+      "candidate_ids": [
+        "dcc-0205"
+      ],
+      "canonical_candidate_id": "dcc-0205"
+    },
+    {
+      "duplicate_group_id": "canon-9a7ceda50e3d",
+      "candidate_ids": [
+        "dcc-0206"
+      ],
+      "canonical_candidate_id": "dcc-0206"
+    },
+    {
+      "duplicate_group_id": "canon-70741ede9c15",
+      "candidate_ids": [
+        "dcc-0207"
+      ],
+      "canonical_candidate_id": "dcc-0207"
+    },
+    {
+      "duplicate_group_id": "canon-400b51ffe4d8",
+      "candidate_ids": [
+        "dcc-0208"
+      ],
+      "canonical_candidate_id": "dcc-0208"
+    },
+    {
+      "duplicate_group_id": "canon-60a2b8a25d67",
+      "candidate_ids": [
+        "dcc-0209"
+      ],
+      "canonical_candidate_id": "dcc-0209"
+    },
+    {
+      "duplicate_group_id": "canon-8bc6666c9d34",
+      "candidate_ids": [
+        "dcc-0210"
+      ],
+      "canonical_candidate_id": "dcc-0210"
+    },
+    {
+      "duplicate_group_id": "canon-f4373cb5b941",
+      "candidate_ids": [
+        "dcc-0211"
+      ],
+      "canonical_candidate_id": "dcc-0211"
+    },
+    {
+      "duplicate_group_id": "canon-660074a761a6",
+      "candidate_ids": [
+        "dcc-0212"
+      ],
+      "canonical_candidate_id": "dcc-0212"
+    },
+    {
+      "duplicate_group_id": "canon-a927e1e5356f",
+      "candidate_ids": [
+        "dcc-0213"
+      ],
+      "canonical_candidate_id": "dcc-0213"
+    },
+    {
+      "duplicate_group_id": "canon-d4e671d4aac9",
+      "candidate_ids": [
+        "dcc-0214"
+      ],
+      "canonical_candidate_id": "dcc-0214"
+    },
+    {
+      "duplicate_group_id": "canon-5245541e2fae",
+      "candidate_ids": [
+        "dcc-0215"
+      ],
+      "canonical_candidate_id": "dcc-0215"
+    },
+    {
+      "duplicate_group_id": "canon-d84a16f3500d",
+      "candidate_ids": [
+        "dcc-0216"
+      ],
+      "canonical_candidate_id": "dcc-0216"
+    },
+    {
+      "duplicate_group_id": "canon-ad414915916f",
+      "candidate_ids": [
+        "dcc-0217"
+      ],
+      "canonical_candidate_id": "dcc-0217"
+    },
+    {
+      "duplicate_group_id": "canon-5bbdc09827aa",
+      "candidate_ids": [
+        "dcc-0218"
+      ],
+      "canonical_candidate_id": "dcc-0218"
+    },
+    {
+      "duplicate_group_id": "canon-d826e752fd4d",
+      "candidate_ids": [
+        "dcc-0219"
+      ],
+      "canonical_candidate_id": "dcc-0219"
+    },
+    {
+      "duplicate_group_id": "canon-643b19db9484",
+      "candidate_ids": [
+        "dcc-0220"
+      ],
+      "canonical_candidate_id": "dcc-0220"
+    },
+    {
+      "duplicate_group_id": "canon-ed4c14bb8aa4",
+      "candidate_ids": [
+        "dcc-0221"
+      ],
+      "canonical_candidate_id": "dcc-0221"
+    },
+    {
+      "duplicate_group_id": "canon-866225f01312",
+      "candidate_ids": [
+        "dcc-0222"
+      ],
+      "canonical_candidate_id": "dcc-0222"
+    },
+    {
+      "duplicate_group_id": "canon-2b9e4078c72e",
+      "candidate_ids": [
+        "dcc-0223"
+      ],
+      "canonical_candidate_id": "dcc-0223"
+    },
+    {
+      "duplicate_group_id": "canon-77767fb80577",
+      "candidate_ids": [
+        "dcc-0224"
+      ],
+      "canonical_candidate_id": "dcc-0224"
+    },
+    {
+      "duplicate_group_id": "canon-93a8586db0a5",
+      "candidate_ids": [
+        "dcc-0225"
+      ],
+      "canonical_candidate_id": "dcc-0225"
+    },
+    {
+      "duplicate_group_id": "canon-718765bfdd85",
+      "candidate_ids": [
+        "dcc-0226"
+      ],
+      "canonical_candidate_id": "dcc-0226"
+    },
+    {
+      "duplicate_group_id": "canon-0ee3efc2051c",
+      "candidate_ids": [
+        "dcc-0227"
+      ],
+      "canonical_candidate_id": "dcc-0227"
+    },
+    {
+      "duplicate_group_id": "canon-5fea95cb9369",
+      "candidate_ids": [
+        "dcc-0228"
+      ],
+      "canonical_candidate_id": "dcc-0228"
+    },
+    {
+      "duplicate_group_id": "canon-2b31d0f1798d",
+      "candidate_ids": [
+        "dcc-0229"
+      ],
+      "canonical_candidate_id": "dcc-0229"
+    },
+    {
+      "duplicate_group_id": "canon-575d69503539",
+      "candidate_ids": [
+        "dcc-0230"
+      ],
+      "canonical_candidate_id": "dcc-0230"
+    },
+    {
+      "duplicate_group_id": "canon-51756bf0e221",
+      "candidate_ids": [
+        "dcc-0231"
+      ],
+      "canonical_candidate_id": "dcc-0231"
+    },
+    {
+      "duplicate_group_id": "canon-d135c6cbf1d6",
+      "candidate_ids": [
+        "dcc-0232"
+      ],
+      "canonical_candidate_id": "dcc-0232"
+    },
+    {
+      "duplicate_group_id": "canon-f8f85052da27",
+      "candidate_ids": [
+        "dcc-0233"
+      ],
+      "canonical_candidate_id": "dcc-0233"
+    },
+    {
+      "duplicate_group_id": "canon-95fa4039ac95",
+      "candidate_ids": [
+        "dcc-0234"
+      ],
+      "canonical_candidate_id": "dcc-0234"
+    },
+    {
+      "duplicate_group_id": "canon-53db3555e06c",
+      "candidate_ids": [
+        "dcc-0235"
+      ],
+      "canonical_candidate_id": "dcc-0235"
+    },
+    {
+      "duplicate_group_id": "canon-7f098313ed04",
+      "candidate_ids": [
+        "dcc-0236"
+      ],
+      "canonical_candidate_id": "dcc-0236"
+    },
+    {
+      "duplicate_group_id": "canon-3f7e21665b1e",
+      "candidate_ids": [
+        "dcc-0237"
+      ],
+      "canonical_candidate_id": "dcc-0237"
+    },
+    {
+      "duplicate_group_id": "canon-91288b127fa1",
+      "candidate_ids": [
+        "dcc-0238"
+      ],
+      "canonical_candidate_id": "dcc-0238"
+    },
+    {
+      "duplicate_group_id": "canon-96b177b9c2e5",
+      "candidate_ids": [
+        "dcc-0239"
+      ],
+      "canonical_candidate_id": "dcc-0239"
+    },
+    {
+      "duplicate_group_id": "canon-47615225bfff",
+      "candidate_ids": [
+        "dcc-0240"
+      ],
+      "canonical_candidate_id": "dcc-0240"
+    },
+    {
+      "duplicate_group_id": "canon-ad5e7ac3e8a5",
+      "candidate_ids": [
+        "dcc-0241"
+      ],
+      "canonical_candidate_id": "dcc-0241"
+    },
+    {
+      "duplicate_group_id": "canon-57fa77b5d8d2",
+      "candidate_ids": [
+        "dcc-0242"
+      ],
+      "canonical_candidate_id": "dcc-0242"
+    },
+    {
+      "duplicate_group_id": "canon-3c8ad94873a5",
+      "candidate_ids": [
+        "dcc-0243"
+      ],
+      "canonical_candidate_id": "dcc-0243"
+    },
+    {
+      "duplicate_group_id": "canon-a13c82d53bf0",
+      "candidate_ids": [
+        "dcc-0244"
+      ],
+      "canonical_candidate_id": "dcc-0244"
+    },
+    {
+      "duplicate_group_id": "canon-9f83a63330d4",
+      "candidate_ids": [
+        "dcc-0245"
+      ],
+      "canonical_candidate_id": "dcc-0245"
+    },
+    {
+      "duplicate_group_id": "canon-d05c368074bf",
+      "candidate_ids": [
+        "dcc-0246"
+      ],
+      "canonical_candidate_id": "dcc-0246"
+    },
+    {
+      "duplicate_group_id": "canon-641a0a5b0122",
+      "candidate_ids": [
+        "dcc-0247"
+      ],
+      "canonical_candidate_id": "dcc-0247"
+    },
+    {
+      "duplicate_group_id": "canon-2220c822d81c",
+      "candidate_ids": [
+        "dcc-0248"
+      ],
+      "canonical_candidate_id": "dcc-0248"
+    },
+    {
+      "duplicate_group_id": "canon-60ff74f80840",
+      "candidate_ids": [
+        "dcc-0249"
+      ],
+      "canonical_candidate_id": "dcc-0249"
+    },
+    {
+      "duplicate_group_id": "canon-32532fcd91a1",
+      "candidate_ids": [
+        "dcc-0250"
+      ],
+      "canonical_candidate_id": "dcc-0250"
+    },
+    {
+      "duplicate_group_id": "canon-ecee128d7a80",
+      "candidate_ids": [
+        "dcc-0251"
+      ],
+      "canonical_candidate_id": "dcc-0251"
+    },
+    {
+      "duplicate_group_id": "canon-b2098b758a15",
+      "candidate_ids": [
+        "dcc-0252"
+      ],
+      "canonical_candidate_id": "dcc-0252"
+    },
+    {
+      "duplicate_group_id": "canon-377611417506",
+      "candidate_ids": [
+        "dcc-0253"
+      ],
+      "canonical_candidate_id": "dcc-0253"
+    },
+    {
+      "duplicate_group_id": "canon-9536696aa64b",
+      "candidate_ids": [
+        "dcc-0254"
+      ],
+      "canonical_candidate_id": "dcc-0254"
+    },
+    {
+      "duplicate_group_id": "canon-0204940e212f",
+      "candidate_ids": [
+        "dcc-0255"
+      ],
+      "canonical_candidate_id": "dcc-0255"
+    },
+    {
+      "duplicate_group_id": "canon-420855071475",
+      "candidate_ids": [
+        "dcc-0256"
+      ],
+      "canonical_candidate_id": "dcc-0256"
+    },
+    {
+      "duplicate_group_id": "canon-0c6c5a9c5310",
+      "candidate_ids": [
+        "dcc-0257"
+      ],
+      "canonical_candidate_id": "dcc-0257"
+    },
+    {
+      "duplicate_group_id": "canon-c4c7f25e5c19",
+      "candidate_ids": [
+        "dcc-0258"
+      ],
+      "canonical_candidate_id": "dcc-0258"
+    },
+    {
+      "duplicate_group_id": "canon-f11c6a29cf25",
+      "candidate_ids": [
+        "dcc-0259",
+        "dcc-0470",
+        "dcc-0742"
+      ],
+      "canonical_candidate_id": "dcc-0259"
+    },
+    {
+      "duplicate_group_id": "canon-47d84c5911ce",
+      "candidate_ids": [
+        "dcc-0260"
+      ],
+      "canonical_candidate_id": "dcc-0260"
+    },
+    {
+      "duplicate_group_id": "canon-9a933841735c",
+      "candidate_ids": [
+        "dcc-0261"
+      ],
+      "canonical_candidate_id": "dcc-0261"
+    },
+    {
+      "duplicate_group_id": "canon-a469debb59a1",
+      "candidate_ids": [
+        "dcc-0262"
+      ],
+      "canonical_candidate_id": "dcc-0262"
+    },
+    {
+      "duplicate_group_id": "canon-3662ebffd551",
+      "candidate_ids": [
+        "dcc-0263"
+      ],
+      "canonical_candidate_id": "dcc-0263"
+    },
+    {
+      "duplicate_group_id": "canon-91f98ca9cb23",
+      "candidate_ids": [
+        "dcc-0264"
+      ],
+      "canonical_candidate_id": "dcc-0264"
+    },
+    {
+      "duplicate_group_id": "canon-4573ea1d9018",
+      "candidate_ids": [
+        "dcc-0265"
+      ],
+      "canonical_candidate_id": "dcc-0265"
+    },
+    {
+      "duplicate_group_id": "canon-7f7a4308185c",
+      "candidate_ids": [
+        "dcc-0266"
+      ],
+      "canonical_candidate_id": "dcc-0266"
+    },
+    {
+      "duplicate_group_id": "canon-77f68df7fe8c",
+      "candidate_ids": [
+        "dcc-0267"
+      ],
+      "canonical_candidate_id": "dcc-0267"
+    },
+    {
+      "duplicate_group_id": "canon-003a4681eed5",
+      "candidate_ids": [
+        "dcc-0268"
+      ],
+      "canonical_candidate_id": "dcc-0268"
+    },
+    {
+      "duplicate_group_id": "canon-f9e3efd7cf4b",
+      "candidate_ids": [
+        "dcc-0269"
+      ],
+      "canonical_candidate_id": "dcc-0269"
+    },
+    {
+      "duplicate_group_id": "canon-201f852fa02e",
+      "candidate_ids": [
+        "dcc-0270"
+      ],
+      "canonical_candidate_id": "dcc-0270"
+    },
+    {
+      "duplicate_group_id": "canon-12b1cbe97ee7",
+      "candidate_ids": [
+        "dcc-0271"
+      ],
+      "canonical_candidate_id": "dcc-0271"
+    },
+    {
+      "duplicate_group_id": "canon-fe0c794c52a0",
+      "candidate_ids": [
+        "dcc-0272"
+      ],
+      "canonical_candidate_id": "dcc-0272"
+    },
+    {
+      "duplicate_group_id": "canon-dfd8514b9e98",
+      "candidate_ids": [
+        "dcc-0273"
+      ],
+      "canonical_candidate_id": "dcc-0273"
+    },
+    {
+      "duplicate_group_id": "canon-49a4099c0aee",
+      "candidate_ids": [
+        "dcc-0274"
+      ],
+      "canonical_candidate_id": "dcc-0274"
+    },
+    {
+      "duplicate_group_id": "canon-fed6d98f0ff7",
+      "candidate_ids": [
+        "dcc-0275"
+      ],
+      "canonical_candidate_id": "dcc-0275"
+    },
+    {
+      "duplicate_group_id": "canon-3418039c466a",
+      "candidate_ids": [
+        "dcc-0276"
+      ],
+      "canonical_candidate_id": "dcc-0276"
+    },
+    {
+      "duplicate_group_id": "canon-1b895091b072",
+      "candidate_ids": [
+        "dcc-0277"
+      ],
+      "canonical_candidate_id": "dcc-0277"
+    },
+    {
+      "duplicate_group_id": "canon-735326deccc2",
+      "candidate_ids": [
+        "dcc-0278"
+      ],
+      "canonical_candidate_id": "dcc-0278"
+    },
+    {
+      "duplicate_group_id": "canon-f7aa830ab889",
+      "candidate_ids": [
+        "dcc-0279"
+      ],
+      "canonical_candidate_id": "dcc-0279"
+    },
+    {
+      "duplicate_group_id": "canon-291e95193bdb",
+      "candidate_ids": [
+        "dcc-0280"
+      ],
+      "canonical_candidate_id": "dcc-0280"
+    },
+    {
+      "duplicate_group_id": "canon-bc2d0b3c9acb",
+      "candidate_ids": [
+        "dcc-0281"
+      ],
+      "canonical_candidate_id": "dcc-0281"
+    },
+    {
+      "duplicate_group_id": "canon-bd77ed7cefaa",
+      "candidate_ids": [
+        "dcc-0282"
+      ],
+      "canonical_candidate_id": "dcc-0282"
+    },
+    {
+      "duplicate_group_id": "canon-815fe0238173",
+      "candidate_ids": [
+        "dcc-0283"
+      ],
+      "canonical_candidate_id": "dcc-0283"
+    },
+    {
+      "duplicate_group_id": "canon-feaf599891e8",
+      "candidate_ids": [
+        "dcc-0284"
+      ],
+      "canonical_candidate_id": "dcc-0284"
+    },
+    {
+      "duplicate_group_id": "canon-16e2354b6d8c",
+      "candidate_ids": [
+        "dcc-0285"
+      ],
+      "canonical_candidate_id": "dcc-0285"
+    },
+    {
+      "duplicate_group_id": "canon-25a7cf7ca9e8",
+      "candidate_ids": [
+        "dcc-0286"
+      ],
+      "canonical_candidate_id": "dcc-0286"
+    },
+    {
+      "duplicate_group_id": "canon-5ad61ac25d8e",
+      "candidate_ids": [
+        "dcc-0287"
+      ],
+      "canonical_candidate_id": "dcc-0287"
+    },
+    {
+      "duplicate_group_id": "canon-e0ed1a761aca",
+      "candidate_ids": [
+        "dcc-0288"
+      ],
+      "canonical_candidate_id": "dcc-0288"
+    },
+    {
+      "duplicate_group_id": "canon-1cc3e5813e0c",
+      "candidate_ids": [
+        "dcc-0289"
+      ],
+      "canonical_candidate_id": "dcc-0289"
+    },
+    {
+      "duplicate_group_id": "canon-8f537280ae2d",
+      "candidate_ids": [
+        "dcc-0290"
+      ],
+      "canonical_candidate_id": "dcc-0290"
+    },
+    {
+      "duplicate_group_id": "canon-f52dbbf26a81",
+      "candidate_ids": [
+        "dcc-0291"
+      ],
+      "canonical_candidate_id": "dcc-0291"
+    },
+    {
+      "duplicate_group_id": "canon-61e37d88cd1f",
+      "candidate_ids": [
+        "dcc-0292"
+      ],
+      "canonical_candidate_id": "dcc-0292"
+    },
+    {
+      "duplicate_group_id": "canon-22cbd7fe18c0",
+      "candidate_ids": [
+        "dcc-0293"
+      ],
+      "canonical_candidate_id": "dcc-0293"
+    },
+    {
+      "duplicate_group_id": "canon-e3cce2bccc17",
+      "candidate_ids": [
+        "dcc-0294"
+      ],
+      "canonical_candidate_id": "dcc-0294"
+    },
+    {
+      "duplicate_group_id": "canon-5ebb8976000b",
+      "candidate_ids": [
+        "dcc-0295"
+      ],
+      "canonical_candidate_id": "dcc-0295"
+    },
+    {
+      "duplicate_group_id": "canon-4b664c6ad73c",
+      "candidate_ids": [
+        "dcc-0296"
+      ],
+      "canonical_candidate_id": "dcc-0296"
+    },
+    {
+      "duplicate_group_id": "canon-3abeaee1875b",
+      "candidate_ids": [
+        "dcc-0297"
+      ],
+      "canonical_candidate_id": "dcc-0297"
+    },
+    {
+      "duplicate_group_id": "canon-d7f6125e5d4a",
+      "candidate_ids": [
+        "dcc-0298"
+      ],
+      "canonical_candidate_id": "dcc-0298"
+    },
+    {
+      "duplicate_group_id": "canon-c3b7c45ad7fd",
+      "candidate_ids": [
+        "dcc-0299"
+      ],
+      "canonical_candidate_id": "dcc-0299"
+    },
+    {
+      "duplicate_group_id": "canon-a93a92663526",
+      "candidate_ids": [
+        "dcc-0300"
+      ],
+      "canonical_candidate_id": "dcc-0300"
+    },
+    {
+      "duplicate_group_id": "canon-8f78c91a5b1d",
+      "candidate_ids": [
+        "dcc-0301"
+      ],
+      "canonical_candidate_id": "dcc-0301"
+    },
+    {
+      "duplicate_group_id": "canon-e44762f7f0e5",
+      "candidate_ids": [
+        "dcc-0302"
+      ],
+      "canonical_candidate_id": "dcc-0302"
+    },
+    {
+      "duplicate_group_id": "canon-a04a6e4eb044",
+      "candidate_ids": [
+        "dcc-0303"
+      ],
+      "canonical_candidate_id": "dcc-0303"
+    },
+    {
+      "duplicate_group_id": "canon-d3b27bd7d201",
+      "candidate_ids": [
+        "dcc-0304"
+      ],
+      "canonical_candidate_id": "dcc-0304"
+    },
+    {
+      "duplicate_group_id": "canon-bd5c468438b0",
+      "candidate_ids": [
+        "dcc-0305"
+      ],
+      "canonical_candidate_id": "dcc-0305"
+    },
+    {
+      "duplicate_group_id": "canon-6966e24bb7d4",
+      "candidate_ids": [
+        "dcc-0306"
+      ],
+      "canonical_candidate_id": "dcc-0306"
+    },
+    {
+      "duplicate_group_id": "canon-aee2905a386c",
+      "candidate_ids": [
+        "dcc-0307"
+      ],
+      "canonical_candidate_id": "dcc-0307"
+    },
+    {
+      "duplicate_group_id": "canon-16adb74fc6ea",
+      "candidate_ids": [
+        "dcc-0308"
+      ],
+      "canonical_candidate_id": "dcc-0308"
+    },
+    {
+      "duplicate_group_id": "canon-798487ba1b82",
+      "candidate_ids": [
+        "dcc-0309"
+      ],
+      "canonical_candidate_id": "dcc-0309"
+    },
+    {
+      "duplicate_group_id": "canon-5ad4892a0bbe",
+      "candidate_ids": [
+        "dcc-0329"
+      ],
+      "canonical_candidate_id": "dcc-0329"
+    },
+    {
+      "duplicate_group_id": "canon-3665c8f0f75b",
+      "candidate_ids": [
+        "dcc-0330"
+      ],
+      "canonical_candidate_id": "dcc-0330"
+    },
+    {
+      "duplicate_group_id": "canon-c6dcf9ce215d",
+      "candidate_ids": [
+        "dcc-0331"
+      ],
+      "canonical_candidate_id": "dcc-0331"
+    },
+    {
+      "duplicate_group_id": "canon-9bbe31d89c09",
+      "candidate_ids": [
+        "dcc-0332"
+      ],
+      "canonical_candidate_id": "dcc-0332"
+    },
+    {
+      "duplicate_group_id": "canon-9497615b8332",
+      "candidate_ids": [
+        "dcc-0333"
+      ],
+      "canonical_candidate_id": "dcc-0333"
+    },
+    {
+      "duplicate_group_id": "canon-63ba17e81203",
+      "candidate_ids": [
+        "dcc-0334"
+      ],
+      "canonical_candidate_id": "dcc-0334"
+    },
+    {
+      "duplicate_group_id": "canon-1c81e27d39d2",
+      "candidate_ids": [
+        "dcc-0335"
+      ],
+      "canonical_candidate_id": "dcc-0335"
+    },
+    {
+      "duplicate_group_id": "canon-959d69d4ed1e",
+      "candidate_ids": [
+        "dcc-0336"
+      ],
+      "canonical_candidate_id": "dcc-0336"
+    },
+    {
+      "duplicate_group_id": "canon-53770d6dc57f",
+      "candidate_ids": [
+        "dcc-0337"
+      ],
+      "canonical_candidate_id": "dcc-0337"
+    },
+    {
+      "duplicate_group_id": "canon-1170c627305d",
+      "candidate_ids": [
+        "dcc-0338"
+      ],
+      "canonical_candidate_id": "dcc-0338"
+    },
+    {
+      "duplicate_group_id": "canon-53acbc4ec440",
+      "candidate_ids": [
+        "dcc-0339"
+      ],
+      "canonical_candidate_id": "dcc-0339"
+    },
+    {
+      "duplicate_group_id": "canon-b9041d82b386",
+      "candidate_ids": [
+        "dcc-0340"
+      ],
+      "canonical_candidate_id": "dcc-0340"
+    },
+    {
+      "duplicate_group_id": "canon-f5c3c692d8cc",
+      "candidate_ids": [
+        "dcc-0341"
+      ],
+      "canonical_candidate_id": "dcc-0341"
+    },
+    {
+      "duplicate_group_id": "canon-e7a8e6aac9a5",
+      "candidate_ids": [
+        "dcc-0342"
+      ],
+      "canonical_candidate_id": "dcc-0342"
+    },
+    {
+      "duplicate_group_id": "canon-20a0c60d320b",
+      "candidate_ids": [
+        "dcc-0343"
+      ],
+      "canonical_candidate_id": "dcc-0343"
+    },
+    {
+      "duplicate_group_id": "canon-f701b27237ca",
+      "candidate_ids": [
+        "dcc-0344"
+      ],
+      "canonical_candidate_id": "dcc-0344"
+    },
+    {
+      "duplicate_group_id": "canon-16571421d184",
+      "candidate_ids": [
+        "dcc-0345"
+      ],
+      "canonical_candidate_id": "dcc-0345"
+    },
+    {
+      "duplicate_group_id": "canon-43bde87c8a4e",
+      "candidate_ids": [
+        "dcc-0346"
+      ],
+      "canonical_candidate_id": "dcc-0346"
+    },
+    {
+      "duplicate_group_id": "canon-c7e22bc9bd9f",
+      "candidate_ids": [
+        "dcc-0347"
+      ],
+      "canonical_candidate_id": "dcc-0347"
+    },
+    {
+      "duplicate_group_id": "canon-71be7b540111",
+      "candidate_ids": [
+        "dcc-0348"
+      ],
+      "canonical_candidate_id": "dcc-0348"
+    },
+    {
+      "duplicate_group_id": "canon-9afbf83d7434",
+      "candidate_ids": [
+        "dcc-0349"
+      ],
+      "canonical_candidate_id": "dcc-0349"
+    },
+    {
+      "duplicate_group_id": "canon-3c2bd36d5dc8",
+      "candidate_ids": [
+        "dcc-0350"
+      ],
+      "canonical_candidate_id": "dcc-0350"
+    },
+    {
+      "duplicate_group_id": "canon-444b4c50acdc",
+      "candidate_ids": [
+        "dcc-0351"
+      ],
+      "canonical_candidate_id": "dcc-0351"
+    },
+    {
+      "duplicate_group_id": "canon-07753abc7cdf",
+      "candidate_ids": [
+        "dcc-0352"
+      ],
+      "canonical_candidate_id": "dcc-0352"
+    },
+    {
+      "duplicate_group_id": "canon-ae9ce5be9eaf",
+      "candidate_ids": [
+        "dcc-0353"
+      ],
+      "canonical_candidate_id": "dcc-0353"
+    },
+    {
+      "duplicate_group_id": "canon-48cad8c42efb",
+      "candidate_ids": [
+        "dcc-0354"
+      ],
+      "canonical_candidate_id": "dcc-0354"
+    },
+    {
+      "duplicate_group_id": "canon-c8143d4a4b09",
+      "candidate_ids": [
+        "dcc-0355"
+      ],
+      "canonical_candidate_id": "dcc-0355"
+    },
+    {
+      "duplicate_group_id": "canon-c5192cd5f521",
+      "candidate_ids": [
+        "dcc-0356"
+      ],
+      "canonical_candidate_id": "dcc-0356"
+    },
+    {
+      "duplicate_group_id": "canon-facaef02f35c",
+      "candidate_ids": [
+        "dcc-0357"
+      ],
+      "canonical_candidate_id": "dcc-0357"
+    },
+    {
+      "duplicate_group_id": "canon-0c20be37acb0",
+      "candidate_ids": [
+        "dcc-0358"
+      ],
+      "canonical_candidate_id": "dcc-0358"
+    },
+    {
+      "duplicate_group_id": "canon-bc4fbc573f31",
+      "candidate_ids": [
+        "dcc-0359"
+      ],
+      "canonical_candidate_id": "dcc-0359"
+    },
+    {
+      "duplicate_group_id": "canon-f50b87db847b",
+      "candidate_ids": [
+        "dcc-0360"
+      ],
+      "canonical_candidate_id": "dcc-0360"
+    },
+    {
+      "duplicate_group_id": "canon-3e01d617d0d7",
+      "candidate_ids": [
+        "dcc-0361"
+      ],
+      "canonical_candidate_id": "dcc-0361"
+    },
+    {
+      "duplicate_group_id": "canon-00c5fb05e11d",
+      "candidate_ids": [
+        "dcc-0362"
+      ],
+      "canonical_candidate_id": "dcc-0362"
+    },
+    {
+      "duplicate_group_id": "canon-14d1cee73f4a",
+      "candidate_ids": [
+        "dcc-0363"
+      ],
+      "canonical_candidate_id": "dcc-0363"
+    },
+    {
+      "duplicate_group_id": "canon-53c54126beec",
+      "candidate_ids": [
+        "dcc-0364"
+      ],
+      "canonical_candidate_id": "dcc-0364"
+    },
+    {
+      "duplicate_group_id": "canon-65616a66c3e8",
+      "candidate_ids": [
+        "dcc-0365"
+      ],
+      "canonical_candidate_id": "dcc-0365"
+    },
+    {
+      "duplicate_group_id": "canon-3ecc406b4a51",
+      "candidate_ids": [
+        "dcc-0366"
+      ],
+      "canonical_candidate_id": "dcc-0366"
+    },
+    {
+      "duplicate_group_id": "canon-5e0d7411a066",
+      "candidate_ids": [
+        "dcc-0367"
+      ],
+      "canonical_candidate_id": "dcc-0367"
+    },
+    {
+      "duplicate_group_id": "canon-f3f3bd0c086f",
+      "candidate_ids": [
+        "dcc-0368"
+      ],
+      "canonical_candidate_id": "dcc-0368"
+    },
+    {
+      "duplicate_group_id": "canon-3286fdc93658",
+      "candidate_ids": [
+        "dcc-0369"
+      ],
+      "canonical_candidate_id": "dcc-0369"
+    },
+    {
+      "duplicate_group_id": "canon-35bceae9b9a7",
+      "candidate_ids": [
+        "dcc-0370"
+      ],
+      "canonical_candidate_id": "dcc-0370"
+    },
+    {
+      "duplicate_group_id": "canon-ce2c357d5230",
+      "candidate_ids": [
+        "dcc-0371"
+      ],
+      "canonical_candidate_id": "dcc-0371"
+    },
+    {
+      "duplicate_group_id": "canon-dce11e2d76d9",
+      "candidate_ids": [
+        "dcc-0372"
+      ],
+      "canonical_candidate_id": "dcc-0372"
+    },
+    {
+      "duplicate_group_id": "canon-c6f95f4aeae8",
+      "candidate_ids": [
+        "dcc-0373"
+      ],
+      "canonical_candidate_id": "dcc-0373"
+    },
+    {
+      "duplicate_group_id": "canon-5a4dbf1b1c07",
+      "candidate_ids": [
+        "dcc-0374"
+      ],
+      "canonical_candidate_id": "dcc-0374"
+    },
+    {
+      "duplicate_group_id": "canon-1f8f08257d10",
+      "candidate_ids": [
+        "dcc-0375"
+      ],
+      "canonical_candidate_id": "dcc-0375"
+    },
+    {
+      "duplicate_group_id": "canon-61a390bff473",
+      "candidate_ids": [
+        "dcc-0376"
+      ],
+      "canonical_candidate_id": "dcc-0376"
+    },
+    {
+      "duplicate_group_id": "canon-d57dfe8481e9",
+      "candidate_ids": [
+        "dcc-0377"
+      ],
+      "canonical_candidate_id": "dcc-0377"
+    },
+    {
+      "duplicate_group_id": "canon-cdaccafcc5d2",
+      "candidate_ids": [
+        "dcc-0378"
+      ],
+      "canonical_candidate_id": "dcc-0378"
+    },
+    {
+      "duplicate_group_id": "canon-1132c281fc21",
+      "candidate_ids": [
+        "dcc-0379"
+      ],
+      "canonical_candidate_id": "dcc-0379"
+    },
+    {
+      "duplicate_group_id": "canon-b94e74dc8a7d",
+      "candidate_ids": [
+        "dcc-0380"
+      ],
+      "canonical_candidate_id": "dcc-0380"
+    },
+    {
+      "duplicate_group_id": "canon-3a8b0e220f05",
+      "candidate_ids": [
+        "dcc-0381"
+      ],
+      "canonical_candidate_id": "dcc-0381"
+    },
+    {
+      "duplicate_group_id": "canon-ea2ea2a9228e",
+      "candidate_ids": [
+        "dcc-0382"
+      ],
+      "canonical_candidate_id": "dcc-0382"
+    },
+    {
+      "duplicate_group_id": "canon-773568279cb6",
+      "candidate_ids": [
+        "dcc-0384"
+      ],
+      "canonical_candidate_id": "dcc-0384"
+    },
+    {
+      "duplicate_group_id": "canon-9109b70199b2",
+      "candidate_ids": [
+        "dcc-0385"
+      ],
+      "canonical_candidate_id": "dcc-0385"
+    },
+    {
+      "duplicate_group_id": "canon-38a745b690de",
+      "candidate_ids": [
+        "dcc-0386"
+      ],
+      "canonical_candidate_id": "dcc-0386"
+    },
+    {
+      "duplicate_group_id": "canon-683ebb52655a",
+      "candidate_ids": [
+        "dcc-0387"
+      ],
+      "canonical_candidate_id": "dcc-0387"
+    },
+    {
+      "duplicate_group_id": "canon-23e8cc47d62d",
+      "candidate_ids": [
+        "dcc-0388"
+      ],
+      "canonical_candidate_id": "dcc-0388"
+    },
+    {
+      "duplicate_group_id": "canon-983f5c26390f",
+      "candidate_ids": [
+        "dcc-0389"
+      ],
+      "canonical_candidate_id": "dcc-0389"
+    },
+    {
+      "duplicate_group_id": "canon-c7ab31f0cc8e",
+      "candidate_ids": [
+        "dcc-0390"
+      ],
+      "canonical_candidate_id": "dcc-0390"
+    },
+    {
+      "duplicate_group_id": "canon-147731720285",
+      "candidate_ids": [
+        "dcc-0391"
+      ],
+      "canonical_candidate_id": "dcc-0391"
+    },
+    {
+      "duplicate_group_id": "canon-09fa9b58a2f6",
+      "candidate_ids": [
+        "dcc-0392"
+      ],
+      "canonical_candidate_id": "dcc-0392"
+    },
+    {
+      "duplicate_group_id": "canon-92b7b01f1846",
+      "candidate_ids": [
+        "dcc-0393"
+      ],
+      "canonical_candidate_id": "dcc-0393"
+    },
+    {
+      "duplicate_group_id": "canon-72ae697f4a2e",
+      "candidate_ids": [
+        "dcc-0394"
+      ],
+      "canonical_candidate_id": "dcc-0394"
+    },
+    {
+      "duplicate_group_id": "canon-87c68f4d7836",
+      "candidate_ids": [
+        "dcc-0395"
+      ],
+      "canonical_candidate_id": "dcc-0395"
+    },
+    {
+      "duplicate_group_id": "canon-32b84f10ae8e",
+      "candidate_ids": [
+        "dcc-0396"
+      ],
+      "canonical_candidate_id": "dcc-0396"
+    },
+    {
+      "duplicate_group_id": "canon-ed16fcf3c007",
+      "candidate_ids": [
+        "dcc-0397"
+      ],
+      "canonical_candidate_id": "dcc-0397"
+    },
+    {
+      "duplicate_group_id": "canon-65fa277ebab9",
+      "candidate_ids": [
+        "dcc-0398"
+      ],
+      "canonical_candidate_id": "dcc-0398"
+    },
+    {
+      "duplicate_group_id": "canon-f23b0a9eebf1",
+      "candidate_ids": [
+        "dcc-0399"
+      ],
+      "canonical_candidate_id": "dcc-0399"
+    },
+    {
+      "duplicate_group_id": "canon-aa710fa8c62d",
+      "candidate_ids": [
+        "dcc-0400"
+      ],
+      "canonical_candidate_id": "dcc-0400"
+    },
+    {
+      "duplicate_group_id": "canon-13bb982ec7c3",
+      "candidate_ids": [
+        "dcc-0401"
+      ],
+      "canonical_candidate_id": "dcc-0401"
+    },
+    {
+      "duplicate_group_id": "canon-f75dbd553f47",
+      "candidate_ids": [
+        "dcc-0402"
+      ],
+      "canonical_candidate_id": "dcc-0402"
+    },
+    {
+      "duplicate_group_id": "canon-8d842b1f5cf6",
+      "candidate_ids": [
+        "dcc-0403"
+      ],
+      "canonical_candidate_id": "dcc-0403"
+    },
+    {
+      "duplicate_group_id": "canon-64298a3726d0",
+      "candidate_ids": [
+        "dcc-0404"
+      ],
+      "canonical_candidate_id": "dcc-0404"
+    },
+    {
+      "duplicate_group_id": "canon-1e219c460365",
+      "candidate_ids": [
+        "dcc-0405"
+      ],
+      "canonical_candidate_id": "dcc-0405"
+    },
+    {
+      "duplicate_group_id": "canon-adc8e58d5bba",
+      "candidate_ids": [
+        "dcc-0406"
+      ],
+      "canonical_candidate_id": "dcc-0406"
+    },
+    {
+      "duplicate_group_id": "canon-0b170aa651b6",
+      "candidate_ids": [
+        "dcc-0407"
+      ],
+      "canonical_candidate_id": "dcc-0407"
+    },
+    {
+      "duplicate_group_id": "canon-066db852a352",
+      "candidate_ids": [
+        "dcc-0408"
+      ],
+      "canonical_candidate_id": "dcc-0408"
+    },
+    {
+      "duplicate_group_id": "canon-48baddfa8268",
+      "candidate_ids": [
+        "dcc-0409"
+      ],
+      "canonical_candidate_id": "dcc-0409"
+    },
+    {
+      "duplicate_group_id": "canon-e70c1269a2a6",
+      "candidate_ids": [
+        "dcc-0410"
+      ],
+      "canonical_candidate_id": "dcc-0410"
+    },
+    {
+      "duplicate_group_id": "canon-76ee5ee72ba7",
+      "candidate_ids": [
+        "dcc-0411"
+      ],
+      "canonical_candidate_id": "dcc-0411"
+    },
+    {
+      "duplicate_group_id": "canon-59dcc24a8864",
+      "candidate_ids": [
+        "dcc-0412"
+      ],
+      "canonical_candidate_id": "dcc-0412"
+    },
+    {
+      "duplicate_group_id": "canon-17332ed926e2",
+      "candidate_ids": [
+        "dcc-0413"
+      ],
+      "canonical_candidate_id": "dcc-0413"
+    },
+    {
+      "duplicate_group_id": "canon-a4ad077f6fc5",
+      "candidate_ids": [
+        "dcc-0414"
+      ],
+      "canonical_candidate_id": "dcc-0414"
+    },
+    {
+      "duplicate_group_id": "canon-6425b0f6cd1f",
+      "candidate_ids": [
+        "dcc-0415"
+      ],
+      "canonical_candidate_id": "dcc-0415"
+    },
+    {
+      "duplicate_group_id": "canon-d1bdea150ebd",
+      "candidate_ids": [
+        "dcc-0416"
+      ],
+      "canonical_candidate_id": "dcc-0416"
+    },
+    {
+      "duplicate_group_id": "canon-74c497b85e56",
+      "candidate_ids": [
+        "dcc-0417"
+      ],
+      "canonical_candidate_id": "dcc-0417"
+    },
+    {
+      "duplicate_group_id": "canon-8cf8d878c5df",
+      "candidate_ids": [
+        "dcc-0418"
+      ],
+      "canonical_candidate_id": "dcc-0418"
+    },
+    {
+      "duplicate_group_id": "canon-5e5e5661a678",
+      "candidate_ids": [
+        "dcc-0419"
+      ],
+      "canonical_candidate_id": "dcc-0419"
+    },
+    {
+      "duplicate_group_id": "canon-c9fa8610442f",
+      "candidate_ids": [
+        "dcc-0420"
+      ],
+      "canonical_candidate_id": "dcc-0420"
+    },
+    {
+      "duplicate_group_id": "canon-3814576e0b3f",
+      "candidate_ids": [
+        "dcc-0421"
+      ],
+      "canonical_candidate_id": "dcc-0421"
+    },
+    {
+      "duplicate_group_id": "canon-ee4e71373042",
+      "candidate_ids": [
+        "dcc-0422"
+      ],
+      "canonical_candidate_id": "dcc-0422"
+    },
+    {
+      "duplicate_group_id": "canon-34cadcc15af0",
+      "candidate_ids": [
+        "dcc-0423"
+      ],
+      "canonical_candidate_id": "dcc-0423"
+    },
+    {
+      "duplicate_group_id": "canon-f6dd35e725a3",
+      "candidate_ids": [
+        "dcc-0424"
+      ],
+      "canonical_candidate_id": "dcc-0424"
+    },
+    {
+      "duplicate_group_id": "canon-b91bc59bc6a2",
+      "candidate_ids": [
+        "dcc-0425"
+      ],
+      "canonical_candidate_id": "dcc-0425"
+    },
+    {
+      "duplicate_group_id": "canon-46945abcee04",
+      "candidate_ids": [
+        "dcc-0426"
+      ],
+      "canonical_candidate_id": "dcc-0426"
+    },
+    {
+      "duplicate_group_id": "canon-78b34d4aedad",
+      "candidate_ids": [
+        "dcc-0427"
+      ],
+      "canonical_candidate_id": "dcc-0427"
+    },
+    {
+      "duplicate_group_id": "canon-97df5cae6f9e",
+      "candidate_ids": [
+        "dcc-0428"
+      ],
+      "canonical_candidate_id": "dcc-0428"
+    },
+    {
+      "duplicate_group_id": "canon-01ddac0009a8",
+      "candidate_ids": [
+        "dcc-0429"
+      ],
+      "canonical_candidate_id": "dcc-0429"
+    },
+    {
+      "duplicate_group_id": "canon-c5fb344155cc",
+      "candidate_ids": [
+        "dcc-0430"
+      ],
+      "canonical_candidate_id": "dcc-0430"
+    },
+    {
+      "duplicate_group_id": "canon-373b1f7eda58",
+      "candidate_ids": [
+        "dcc-0431"
+      ],
+      "canonical_candidate_id": "dcc-0431"
+    },
+    {
+      "duplicate_group_id": "canon-33e7a3382ed4",
+      "candidate_ids": [
+        "dcc-0432"
+      ],
+      "canonical_candidate_id": "dcc-0432"
+    },
+    {
+      "duplicate_group_id": "canon-741da126e009",
+      "candidate_ids": [
+        "dcc-0433"
+      ],
+      "canonical_candidate_id": "dcc-0433"
+    },
+    {
+      "duplicate_group_id": "canon-c78aa5077a37",
+      "candidate_ids": [
+        "dcc-0434"
+      ],
+      "canonical_candidate_id": "dcc-0434"
+    },
+    {
+      "duplicate_group_id": "canon-98dbb4cd60eb",
+      "candidate_ids": [
+        "dcc-0435"
+      ],
+      "canonical_candidate_id": "dcc-0435"
+    },
+    {
+      "duplicate_group_id": "canon-4e779d66f1f8",
+      "candidate_ids": [
+        "dcc-0436"
+      ],
+      "canonical_candidate_id": "dcc-0436"
+    },
+    {
+      "duplicate_group_id": "canon-f529f6d404b0",
+      "candidate_ids": [
+        "dcc-0437"
+      ],
+      "canonical_candidate_id": "dcc-0437"
+    },
+    {
+      "duplicate_group_id": "canon-1a66f47e46d3",
+      "candidate_ids": [
+        "dcc-0438"
+      ],
+      "canonical_candidate_id": "dcc-0438"
+    },
+    {
+      "duplicate_group_id": "canon-ef1d42cb435b",
+      "candidate_ids": [
+        "dcc-0439"
+      ],
+      "canonical_candidate_id": "dcc-0439"
+    },
+    {
+      "duplicate_group_id": "canon-c3a946e274a9",
+      "candidate_ids": [
+        "dcc-0440"
+      ],
+      "canonical_candidate_id": "dcc-0440"
+    },
+    {
+      "duplicate_group_id": "canon-5c61ce22fb64",
+      "candidate_ids": [
+        "dcc-0441"
+      ],
+      "canonical_candidate_id": "dcc-0441"
+    },
+    {
+      "duplicate_group_id": "canon-5f2954c9f6b2",
+      "candidate_ids": [
+        "dcc-0442"
+      ],
+      "canonical_candidate_id": "dcc-0442"
+    },
+    {
+      "duplicate_group_id": "canon-ef69f4a7b280",
+      "candidate_ids": [
+        "dcc-0443"
+      ],
+      "canonical_candidate_id": "dcc-0443"
+    },
+    {
+      "duplicate_group_id": "canon-6ddca475240f",
+      "candidate_ids": [
+        "dcc-0444"
+      ],
+      "canonical_candidate_id": "dcc-0444"
+    },
+    {
+      "duplicate_group_id": "canon-efe57746f6bf",
+      "candidate_ids": [
+        "dcc-0445"
+      ],
+      "canonical_candidate_id": "dcc-0445"
+    },
+    {
+      "duplicate_group_id": "canon-874c3fd0b3d0",
+      "candidate_ids": [
+        "dcc-0446"
+      ],
+      "canonical_candidate_id": "dcc-0446"
+    },
+    {
+      "duplicate_group_id": "canon-8561faf23f20",
+      "candidate_ids": [
+        "dcc-0447"
+      ],
+      "canonical_candidate_id": "dcc-0447"
+    },
+    {
+      "duplicate_group_id": "canon-21cd7fa9f50f",
+      "candidate_ids": [
+        "dcc-0448"
+      ],
+      "canonical_candidate_id": "dcc-0448"
+    },
+    {
+      "duplicate_group_id": "canon-fdefc0f86016",
+      "candidate_ids": [
+        "dcc-0449"
+      ],
+      "canonical_candidate_id": "dcc-0449"
+    },
+    {
+      "duplicate_group_id": "canon-bd7bcfca43a4",
+      "candidate_ids": [
+        "dcc-0450"
+      ],
+      "canonical_candidate_id": "dcc-0450"
+    },
+    {
+      "duplicate_group_id": "canon-e155dde684af",
+      "candidate_ids": [
+        "dcc-0451"
+      ],
+      "canonical_candidate_id": "dcc-0451"
+    },
+    {
+      "duplicate_group_id": "canon-6a6c5e4dde1d",
+      "candidate_ids": [
+        "dcc-0452"
+      ],
+      "canonical_candidate_id": "dcc-0452"
+    },
+    {
+      "duplicate_group_id": "canon-1616bcfdd30b",
+      "candidate_ids": [
+        "dcc-0453"
+      ],
+      "canonical_candidate_id": "dcc-0453"
+    },
+    {
+      "duplicate_group_id": "canon-58bb449dffe0",
+      "candidate_ids": [
+        "dcc-0454"
+      ],
+      "canonical_candidate_id": "dcc-0454"
+    },
+    {
+      "duplicate_group_id": "canon-a64893412315",
+      "candidate_ids": [
+        "dcc-0455"
+      ],
+      "canonical_candidate_id": "dcc-0455"
+    },
+    {
+      "duplicate_group_id": "canon-33fe16cf82b6",
+      "candidate_ids": [
+        "dcc-0456"
+      ],
+      "canonical_candidate_id": "dcc-0456"
+    },
+    {
+      "duplicate_group_id": "canon-58519e7bf7fb",
+      "candidate_ids": [
+        "dcc-0457"
+      ],
+      "canonical_candidate_id": "dcc-0457"
+    },
+    {
+      "duplicate_group_id": "canon-91d59dc2d61e",
+      "candidate_ids": [
+        "dcc-0458"
+      ],
+      "canonical_candidate_id": "dcc-0458"
+    },
+    {
+      "duplicate_group_id": "canon-62c66d3bed11",
+      "candidate_ids": [
+        "dcc-0459"
+      ],
+      "canonical_candidate_id": "dcc-0459"
+    },
+    {
+      "duplicate_group_id": "canon-ae5a6694341d",
+      "candidate_ids": [
+        "dcc-0460"
+      ],
+      "canonical_candidate_id": "dcc-0460"
+    },
+    {
+      "duplicate_group_id": "canon-c66eb5464e98",
+      "candidate_ids": [
+        "dcc-0461"
+      ],
+      "canonical_candidate_id": "dcc-0461"
+    },
+    {
+      "duplicate_group_id": "canon-ab140d58dd70",
+      "candidate_ids": [
+        "dcc-0462"
+      ],
+      "canonical_candidate_id": "dcc-0462"
+    },
+    {
+      "duplicate_group_id": "canon-3b541d8bc178",
+      "candidate_ids": [
+        "dcc-0463"
+      ],
+      "canonical_candidate_id": "dcc-0463"
+    },
+    {
+      "duplicate_group_id": "canon-3c9cde2ab08a",
+      "candidate_ids": [
+        "dcc-0464"
+      ],
+      "canonical_candidate_id": "dcc-0464"
+    },
+    {
+      "duplicate_group_id": "canon-386d7dca901f",
+      "candidate_ids": [
+        "dcc-0465"
+      ],
+      "canonical_candidate_id": "dcc-0465"
+    },
+    {
+      "duplicate_group_id": "canon-407c3deb37b4",
+      "candidate_ids": [
+        "dcc-0466"
+      ],
+      "canonical_candidate_id": "dcc-0466"
+    },
+    {
+      "duplicate_group_id": "canon-275143ca07c4",
+      "candidate_ids": [
+        "dcc-0467"
+      ],
+      "canonical_candidate_id": "dcc-0467"
+    },
+    {
+      "duplicate_group_id": "canon-9fcb3a85646f",
+      "candidate_ids": [
+        "dcc-0468"
+      ],
+      "canonical_candidate_id": "dcc-0468"
+    },
+    {
+      "duplicate_group_id": "canon-2670cd2127af",
+      "candidate_ids": [
+        "dcc-0469"
+      ],
+      "canonical_candidate_id": "dcc-0469"
+    },
+    {
+      "duplicate_group_id": "canon-b6625cd7c5b9",
+      "candidate_ids": [
+        "dcc-0471"
+      ],
+      "canonical_candidate_id": "dcc-0471"
+    },
+    {
+      "duplicate_group_id": "canon-a06c369f4337",
+      "candidate_ids": [
+        "dcc-0472"
+      ],
+      "canonical_candidate_id": "dcc-0472"
+    },
+    {
+      "duplicate_group_id": "canon-1722e3da77b8",
+      "candidate_ids": [
+        "dcc-0473"
+      ],
+      "canonical_candidate_id": "dcc-0473"
+    },
+    {
+      "duplicate_group_id": "canon-c39c93358e62",
+      "candidate_ids": [
+        "dcc-0474"
+      ],
+      "canonical_candidate_id": "dcc-0474"
+    },
+    {
+      "duplicate_group_id": "canon-fb8cdb58f5d2",
+      "candidate_ids": [
+        "dcc-0475"
+      ],
+      "canonical_candidate_id": "dcc-0475"
+    },
+    {
+      "duplicate_group_id": "canon-ceeee4672703",
+      "candidate_ids": [
+        "dcc-0476"
+      ],
+      "canonical_candidate_id": "dcc-0476"
+    },
+    {
+      "duplicate_group_id": "canon-fc85b68d2afa",
+      "candidate_ids": [
+        "dcc-0477"
+      ],
+      "canonical_candidate_id": "dcc-0477"
+    },
+    {
+      "duplicate_group_id": "canon-32ebfb118cba",
+      "candidate_ids": [
+        "dcc-0478"
+      ],
+      "canonical_candidate_id": "dcc-0478"
+    },
+    {
+      "duplicate_group_id": "canon-256794d277eb",
+      "candidate_ids": [
+        "dcc-0479"
+      ],
+      "canonical_candidate_id": "dcc-0479"
+    },
+    {
+      "duplicate_group_id": "canon-af2cf9b84b3e",
+      "candidate_ids": [
+        "dcc-0480"
+      ],
+      "canonical_candidate_id": "dcc-0480"
+    },
+    {
+      "duplicate_group_id": "canon-6538960a3987",
+      "candidate_ids": [
+        "dcc-0481"
+      ],
+      "canonical_candidate_id": "dcc-0481"
+    },
+    {
+      "duplicate_group_id": "canon-3f8b61a65b01",
+      "candidate_ids": [
+        "dcc-0482"
+      ],
+      "canonical_candidate_id": "dcc-0482"
+    },
+    {
+      "duplicate_group_id": "canon-d25695ccc5e2",
+      "candidate_ids": [
+        "dcc-0483"
+      ],
+      "canonical_candidate_id": "dcc-0483"
+    },
+    {
+      "duplicate_group_id": "canon-77f5cca079a1",
+      "candidate_ids": [
+        "dcc-0484"
+      ],
+      "canonical_candidate_id": "dcc-0484"
+    },
+    {
+      "duplicate_group_id": "canon-b4ac4ca56284",
+      "candidate_ids": [
+        "dcc-0485"
+      ],
+      "canonical_candidate_id": "dcc-0485"
+    },
+    {
+      "duplicate_group_id": "canon-0ff2e67b9eb9",
+      "candidate_ids": [
+        "dcc-0486"
+      ],
+      "canonical_candidate_id": "dcc-0486"
+    },
+    {
+      "duplicate_group_id": "canon-57080a2db81b",
+      "candidate_ids": [
+        "dcc-0487"
+      ],
+      "canonical_candidate_id": "dcc-0487"
+    },
+    {
+      "duplicate_group_id": "canon-db5e0d595f9d",
+      "candidate_ids": [
+        "dcc-0488"
+      ],
+      "canonical_candidate_id": "dcc-0488"
+    },
+    {
+      "duplicate_group_id": "canon-25e9989fa8d0",
+      "candidate_ids": [
+        "dcc-0489"
+      ],
+      "canonical_candidate_id": "dcc-0489"
+    },
+    {
+      "duplicate_group_id": "canon-add71e6d715a",
+      "candidate_ids": [
+        "dcc-0490"
+      ],
+      "canonical_candidate_id": "dcc-0490"
+    },
+    {
+      "duplicate_group_id": "canon-019bf87d8fd0",
+      "candidate_ids": [
+        "dcc-0491"
+      ],
+      "canonical_candidate_id": "dcc-0491"
+    },
+    {
+      "duplicate_group_id": "canon-742a7f4c21cb",
+      "candidate_ids": [
+        "dcc-0492"
+      ],
+      "canonical_candidate_id": "dcc-0492"
+    },
+    {
+      "duplicate_group_id": "canon-647bc9ae7c83",
+      "candidate_ids": [
+        "dcc-0493"
+      ],
+      "canonical_candidate_id": "dcc-0493"
+    },
+    {
+      "duplicate_group_id": "canon-fb7301d9a1da",
+      "candidate_ids": [
+        "dcc-0494"
+      ],
+      "canonical_candidate_id": "dcc-0494"
+    },
+    {
+      "duplicate_group_id": "canon-aeda20f7d0ab",
+      "candidate_ids": [
+        "dcc-0495"
+      ],
+      "canonical_candidate_id": "dcc-0495"
+    },
+    {
+      "duplicate_group_id": "canon-375cb7c8c394",
+      "candidate_ids": [
+        "dcc-0496"
+      ],
+      "canonical_candidate_id": "dcc-0496"
+    },
+    {
+      "duplicate_group_id": "canon-ba2959a71868",
+      "candidate_ids": [
+        "dcc-0498"
+      ],
+      "canonical_candidate_id": "dcc-0498"
+    },
+    {
+      "duplicate_group_id": "canon-da7d8946cfc1",
+      "candidate_ids": [
+        "dcc-0499"
+      ],
+      "canonical_candidate_id": "dcc-0499"
+    },
+    {
+      "duplicate_group_id": "canon-b142a2a61833",
+      "candidate_ids": [
+        "dcc-0500"
+      ],
+      "canonical_candidate_id": "dcc-0500"
+    },
+    {
+      "duplicate_group_id": "canon-5e34ba187691",
+      "candidate_ids": [
+        "dcc-0501"
+      ],
+      "canonical_candidate_id": "dcc-0501"
+    },
+    {
+      "duplicate_group_id": "canon-1af0ad78dc4d",
+      "candidate_ids": [
+        "dcc-0502"
+      ],
+      "canonical_candidate_id": "dcc-0502"
+    },
+    {
+      "duplicate_group_id": "canon-c0f1ecca760d",
+      "candidate_ids": [
+        "dcc-0503"
+      ],
+      "canonical_candidate_id": "dcc-0503"
+    },
+    {
+      "duplicate_group_id": "canon-518fef3f8479",
+      "candidate_ids": [
+        "dcc-0504"
+      ],
+      "canonical_candidate_id": "dcc-0504"
+    },
+    {
+      "duplicate_group_id": "canon-7ec3bf0e79a5",
+      "candidate_ids": [
+        "dcc-0505"
+      ],
+      "canonical_candidate_id": "dcc-0505"
+    },
+    {
+      "duplicate_group_id": "canon-3df2eaea473b",
+      "candidate_ids": [
+        "dcc-0506"
+      ],
+      "canonical_candidate_id": "dcc-0506"
+    },
+    {
+      "duplicate_group_id": "canon-56f9ac2ca5ca",
+      "candidate_ids": [
+        "dcc-0507"
+      ],
+      "canonical_candidate_id": "dcc-0507"
+    },
+    {
+      "duplicate_group_id": "canon-93c5514fa07f",
+      "candidate_ids": [
+        "dcc-0508"
+      ],
+      "canonical_candidate_id": "dcc-0508"
+    },
+    {
+      "duplicate_group_id": "canon-70466191c481",
+      "candidate_ids": [
+        "dcc-0509"
+      ],
+      "canonical_candidate_id": "dcc-0509"
+    },
+    {
+      "duplicate_group_id": "canon-e6f2521a6f68",
+      "candidate_ids": [
+        "dcc-0510"
+      ],
+      "canonical_candidate_id": "dcc-0510"
+    },
+    {
+      "duplicate_group_id": "canon-2ee26a70ce18",
+      "candidate_ids": [
+        "dcc-0511"
+      ],
+      "canonical_candidate_id": "dcc-0511"
+    },
+    {
+      "duplicate_group_id": "canon-b194b0e3be50",
+      "candidate_ids": [
+        "dcc-0512"
+      ],
+      "canonical_candidate_id": "dcc-0512"
+    },
+    {
+      "duplicate_group_id": "canon-12af76dd8698",
+      "candidate_ids": [
+        "dcc-0513"
+      ],
+      "canonical_candidate_id": "dcc-0513"
+    },
+    {
+      "duplicate_group_id": "canon-3b9830f473cb",
+      "candidate_ids": [
+        "dcc-0514"
+      ],
+      "canonical_candidate_id": "dcc-0514"
+    },
+    {
+      "duplicate_group_id": "canon-4700c2275ef1",
+      "candidate_ids": [
+        "dcc-0515"
+      ],
+      "canonical_candidate_id": "dcc-0515"
+    },
+    {
+      "duplicate_group_id": "canon-253d03812d2e",
+      "candidate_ids": [
+        "dcc-0516"
+      ],
+      "canonical_candidate_id": "dcc-0516"
+    },
+    {
+      "duplicate_group_id": "canon-a876337da29a",
+      "candidate_ids": [
+        "dcc-0517"
+      ],
+      "canonical_candidate_id": "dcc-0517"
+    },
+    {
+      "duplicate_group_id": "canon-7985ff12b0eb",
+      "candidate_ids": [
+        "dcc-0518"
+      ],
+      "canonical_candidate_id": "dcc-0518"
+    },
+    {
+      "duplicate_group_id": "canon-84e8d7087558",
+      "candidate_ids": [
+        "dcc-0519"
+      ],
+      "canonical_candidate_id": "dcc-0519"
+    },
+    {
+      "duplicate_group_id": "canon-b5d814192317",
+      "candidate_ids": [
+        "dcc-0520"
+      ],
+      "canonical_candidate_id": "dcc-0520"
+    },
+    {
+      "duplicate_group_id": "canon-d04646baf923",
+      "candidate_ids": [
+        "dcc-0521"
+      ],
+      "canonical_candidate_id": "dcc-0521"
+    },
+    {
+      "duplicate_group_id": "canon-bb3b2b9ecf55",
+      "candidate_ids": [
+        "dcc-0522"
+      ],
+      "canonical_candidate_id": "dcc-0522"
+    },
+    {
+      "duplicate_group_id": "canon-123c0930076e",
+      "candidate_ids": [
+        "dcc-0523"
+      ],
+      "canonical_candidate_id": "dcc-0523"
+    },
+    {
+      "duplicate_group_id": "canon-2d2f0948decf",
+      "candidate_ids": [
+        "dcc-0524"
+      ],
+      "canonical_candidate_id": "dcc-0524"
+    },
+    {
+      "duplicate_group_id": "canon-fd969760e90e",
+      "candidate_ids": [
+        "dcc-0525",
+        "dcc-0924"
+      ],
+      "canonical_candidate_id": "dcc-0525"
+    },
+    {
+      "duplicate_group_id": "canon-0235baf5deaa",
+      "candidate_ids": [
+        "dcc-0526"
+      ],
+      "canonical_candidate_id": "dcc-0526"
+    },
+    {
+      "duplicate_group_id": "canon-1a0027046cde",
+      "candidate_ids": [
+        "dcc-0527"
+      ],
+      "canonical_candidate_id": "dcc-0527"
+    },
+    {
+      "duplicate_group_id": "canon-81a42b64b29b",
+      "candidate_ids": [
+        "dcc-0528"
+      ],
+      "canonical_candidate_id": "dcc-0528"
+    },
+    {
+      "duplicate_group_id": "canon-c5269c48751d",
+      "candidate_ids": [
+        "dcc-0529"
+      ],
+      "canonical_candidate_id": "dcc-0529"
+    },
+    {
+      "duplicate_group_id": "canon-83975fb4d149",
+      "candidate_ids": [
+        "dcc-0530"
+      ],
+      "canonical_candidate_id": "dcc-0530"
+    },
+    {
+      "duplicate_group_id": "canon-4acb422380e4",
+      "candidate_ids": [
+        "dcc-0531"
+      ],
+      "canonical_candidate_id": "dcc-0531"
+    },
+    {
+      "duplicate_group_id": "canon-aacd4ff9986e",
+      "candidate_ids": [
+        "dcc-0532"
+      ],
+      "canonical_candidate_id": "dcc-0532"
+    },
+    {
+      "duplicate_group_id": "canon-6ce6e6647c63",
+      "candidate_ids": [
+        "dcc-0533"
+      ],
+      "canonical_candidate_id": "dcc-0533"
+    },
+    {
+      "duplicate_group_id": "canon-af4dbd687414",
+      "candidate_ids": [
+        "dcc-0534"
+      ],
+      "canonical_candidate_id": "dcc-0534"
+    },
+    {
+      "duplicate_group_id": "canon-6b7a4fde2b6b",
+      "candidate_ids": [
+        "dcc-0535"
+      ],
+      "canonical_candidate_id": "dcc-0535"
+    },
+    {
+      "duplicate_group_id": "canon-7b6ad407edee",
+      "candidate_ids": [
+        "dcc-0536"
+      ],
+      "canonical_candidate_id": "dcc-0536"
+    },
+    {
+      "duplicate_group_id": "canon-3832d086b672",
+      "candidate_ids": [
+        "dcc-0537"
+      ],
+      "canonical_candidate_id": "dcc-0537"
+    },
+    {
+      "duplicate_group_id": "canon-d210f757e647",
+      "candidate_ids": [
+        "dcc-0538"
+      ],
+      "canonical_candidate_id": "dcc-0538"
+    },
+    {
+      "duplicate_group_id": "canon-6fc95f5e32ba",
+      "candidate_ids": [
+        "dcc-0539"
+      ],
+      "canonical_candidate_id": "dcc-0539"
+    },
+    {
+      "duplicate_group_id": "canon-8b0736d877f9",
+      "candidate_ids": [
+        "dcc-0540"
+      ],
+      "canonical_candidate_id": "dcc-0540"
+    },
+    {
+      "duplicate_group_id": "canon-4eddb9546447",
+      "candidate_ids": [
+        "dcc-0541"
+      ],
+      "canonical_candidate_id": "dcc-0541"
+    },
+    {
+      "duplicate_group_id": "canon-74b2ea7e74a5",
+      "candidate_ids": [
+        "dcc-0542"
+      ],
+      "canonical_candidate_id": "dcc-0542"
+    },
+    {
+      "duplicate_group_id": "canon-e7debe7b1643",
+      "candidate_ids": [
+        "dcc-0543"
+      ],
+      "canonical_candidate_id": "dcc-0543"
+    },
+    {
+      "duplicate_group_id": "canon-02d6c4ec6cb9",
+      "candidate_ids": [
+        "dcc-0544"
+      ],
+      "canonical_candidate_id": "dcc-0544"
+    },
+    {
+      "duplicate_group_id": "canon-921765e4da8d",
+      "candidate_ids": [
+        "dcc-0545"
+      ],
+      "canonical_candidate_id": "dcc-0545"
+    },
+    {
+      "duplicate_group_id": "canon-23d505add0d6",
+      "candidate_ids": [
+        "dcc-0546"
+      ],
+      "canonical_candidate_id": "dcc-0546"
+    },
+    {
+      "duplicate_group_id": "canon-812b0f88a7cd",
+      "candidate_ids": [
+        "dcc-0547"
+      ],
+      "canonical_candidate_id": "dcc-0547"
+    },
+    {
+      "duplicate_group_id": "canon-5f334b8e7a6f",
+      "candidate_ids": [
+        "dcc-0548"
+      ],
+      "canonical_candidate_id": "dcc-0548"
+    },
+    {
+      "duplicate_group_id": "canon-9e402b83fa30",
+      "candidate_ids": [
+        "dcc-0549"
+      ],
+      "canonical_candidate_id": "dcc-0549"
+    },
+    {
+      "duplicate_group_id": "canon-70febf8ae9b1",
+      "candidate_ids": [
+        "dcc-0550"
+      ],
+      "canonical_candidate_id": "dcc-0550"
+    },
+    {
+      "duplicate_group_id": "canon-2216be3088de",
+      "candidate_ids": [
+        "dcc-0551"
+      ],
+      "canonical_candidate_id": "dcc-0551"
+    },
+    {
+      "duplicate_group_id": "canon-3ffd6e2603ba",
+      "candidate_ids": [
+        "dcc-0552"
+      ],
+      "canonical_candidate_id": "dcc-0552"
+    },
+    {
+      "duplicate_group_id": "canon-5674e8e03cf1",
+      "candidate_ids": [
+        "dcc-0553"
+      ],
+      "canonical_candidate_id": "dcc-0553"
+    },
+    {
+      "duplicate_group_id": "canon-e00a4b47594c",
+      "candidate_ids": [
+        "dcc-0554"
+      ],
+      "canonical_candidate_id": "dcc-0554"
+    },
+    {
+      "duplicate_group_id": "canon-f0506e7e5c7a",
+      "candidate_ids": [
+        "dcc-0555"
+      ],
+      "canonical_candidate_id": "dcc-0555"
+    },
+    {
+      "duplicate_group_id": "canon-1d0acf77ea8e",
+      "candidate_ids": [
+        "dcc-0556"
+      ],
+      "canonical_candidate_id": "dcc-0556"
+    },
+    {
+      "duplicate_group_id": "canon-1df8966557ea",
+      "candidate_ids": [
+        "dcc-0557"
+      ],
+      "canonical_candidate_id": "dcc-0557"
+    },
+    {
+      "duplicate_group_id": "canon-e528e6c78067",
+      "candidate_ids": [
+        "dcc-0558"
+      ],
+      "canonical_candidate_id": "dcc-0558"
+    },
+    {
+      "duplicate_group_id": "canon-a29ec3829e08",
+      "candidate_ids": [
+        "dcc-0559"
+      ],
+      "canonical_candidate_id": "dcc-0559"
+    },
+    {
+      "duplicate_group_id": "canon-efca607db2f7",
+      "candidate_ids": [
+        "dcc-0560"
+      ],
+      "canonical_candidate_id": "dcc-0560"
+    },
+    {
+      "duplicate_group_id": "canon-29dd08f8a4e1",
+      "candidate_ids": [
+        "dcc-0561"
+      ],
+      "canonical_candidate_id": "dcc-0561"
+    },
+    {
+      "duplicate_group_id": "canon-f8fc7af51bb0",
+      "candidate_ids": [
+        "dcc-0562"
+      ],
+      "canonical_candidate_id": "dcc-0562"
+    },
+    {
+      "duplicate_group_id": "canon-3ee5e2ebfc3e",
+      "candidate_ids": [
+        "dcc-0563"
+      ],
+      "canonical_candidate_id": "dcc-0563"
+    },
+    {
+      "duplicate_group_id": "canon-5a56bccc0054",
+      "candidate_ids": [
+        "dcc-0564"
+      ],
+      "canonical_candidate_id": "dcc-0564"
+    },
+    {
+      "duplicate_group_id": "canon-7c513c8415be",
+      "candidate_ids": [
+        "dcc-0565"
+      ],
+      "canonical_candidate_id": "dcc-0565"
+    },
+    {
+      "duplicate_group_id": "canon-eaabdac89f20",
+      "candidate_ids": [
+        "dcc-0566"
+      ],
+      "canonical_candidate_id": "dcc-0566"
+    },
+    {
+      "duplicate_group_id": "canon-0efe03cbf576",
+      "candidate_ids": [
+        "dcc-0567"
+      ],
+      "canonical_candidate_id": "dcc-0567"
+    },
+    {
+      "duplicate_group_id": "canon-ef5504919063",
+      "candidate_ids": [
+        "dcc-0568"
+      ],
+      "canonical_candidate_id": "dcc-0568"
+    },
+    {
+      "duplicate_group_id": "canon-5f2cac8f3290",
+      "candidate_ids": [
+        "dcc-0569"
+      ],
+      "canonical_candidate_id": "dcc-0569"
+    },
+    {
+      "duplicate_group_id": "canon-27faf7d24387",
+      "candidate_ids": [
+        "dcc-0570"
+      ],
+      "canonical_candidate_id": "dcc-0570"
+    },
+    {
+      "duplicate_group_id": "canon-f8ee909ab97d",
+      "candidate_ids": [
+        "dcc-0571"
+      ],
+      "canonical_candidate_id": "dcc-0571"
+    },
+    {
+      "duplicate_group_id": "canon-d073e87792cc",
+      "candidate_ids": [
+        "dcc-0572"
+      ],
+      "canonical_candidate_id": "dcc-0572"
+    },
+    {
+      "duplicate_group_id": "canon-719375e182cb",
+      "candidate_ids": [
+        "dcc-0573"
+      ],
+      "canonical_candidate_id": "dcc-0573"
+    },
+    {
+      "duplicate_group_id": "canon-7194905447ae",
+      "candidate_ids": [
+        "dcc-0574"
+      ],
+      "canonical_candidate_id": "dcc-0574"
+    },
+    {
+      "duplicate_group_id": "canon-419fd5930aa6",
+      "candidate_ids": [
+        "dcc-0575"
+      ],
+      "canonical_candidate_id": "dcc-0575"
+    },
+    {
+      "duplicate_group_id": "canon-c0a3d265acc8",
+      "candidate_ids": [
+        "dcc-0576"
+      ],
+      "canonical_candidate_id": "dcc-0576"
+    },
+    {
+      "duplicate_group_id": "canon-fe0e332db75e",
+      "candidate_ids": [
+        "dcc-0577"
+      ],
+      "canonical_candidate_id": "dcc-0577"
+    },
+    {
+      "duplicate_group_id": "canon-e87010413dc2",
+      "candidate_ids": [
+        "dcc-0578"
+      ],
+      "canonical_candidate_id": "dcc-0578"
+    },
+    {
+      "duplicate_group_id": "canon-c63110dc660c",
+      "candidate_ids": [
+        "dcc-0579"
+      ],
+      "canonical_candidate_id": "dcc-0579"
+    },
+    {
+      "duplicate_group_id": "canon-ce42a47d0981",
+      "candidate_ids": [
+        "dcc-0580"
+      ],
+      "canonical_candidate_id": "dcc-0580"
+    },
+    {
+      "duplicate_group_id": "canon-34e2c5593567",
+      "candidate_ids": [
+        "dcc-0581"
+      ],
+      "canonical_candidate_id": "dcc-0581"
+    },
+    {
+      "duplicate_group_id": "canon-6acf9c234fff",
+      "candidate_ids": [
+        "dcc-0582"
+      ],
+      "canonical_candidate_id": "dcc-0582"
+    },
+    {
+      "duplicate_group_id": "canon-a076cdd61574",
+      "candidate_ids": [
+        "dcc-0583"
+      ],
+      "canonical_candidate_id": "dcc-0583"
+    },
+    {
+      "duplicate_group_id": "canon-b3edad1b4c13",
+      "candidate_ids": [
+        "dcc-0584"
+      ],
+      "canonical_candidate_id": "dcc-0584"
+    },
+    {
+      "duplicate_group_id": "canon-16cc6b28bb98",
+      "candidate_ids": [
+        "dcc-0585"
+      ],
+      "canonical_candidate_id": "dcc-0585"
+    },
+    {
+      "duplicate_group_id": "canon-119de642bbff",
+      "candidate_ids": [
+        "dcc-0586"
+      ],
+      "canonical_candidate_id": "dcc-0586"
+    },
+    {
+      "duplicate_group_id": "canon-9e67aeb04693",
+      "candidate_ids": [
+        "dcc-0587"
+      ],
+      "canonical_candidate_id": "dcc-0587"
+    },
+    {
+      "duplicate_group_id": "canon-bf50d4c0e0e3",
+      "candidate_ids": [
+        "dcc-0588"
+      ],
+      "canonical_candidate_id": "dcc-0588"
+    },
+    {
+      "duplicate_group_id": "canon-670fec292c89",
+      "candidate_ids": [
+        "dcc-0589"
+      ],
+      "canonical_candidate_id": "dcc-0589"
+    },
+    {
+      "duplicate_group_id": "canon-f9879d7743e8",
+      "candidate_ids": [
+        "dcc-0590"
+      ],
+      "canonical_candidate_id": "dcc-0590"
+    },
+    {
+      "duplicate_group_id": "canon-150855a0888a",
+      "candidate_ids": [
+        "dcc-0591"
+      ],
+      "canonical_candidate_id": "dcc-0591"
+    },
+    {
+      "duplicate_group_id": "canon-fb131caaf16e",
+      "candidate_ids": [
+        "dcc-0592"
+      ],
+      "canonical_candidate_id": "dcc-0592"
+    },
+    {
+      "duplicate_group_id": "canon-12b5254550f4",
+      "candidate_ids": [
+        "dcc-0593"
+      ],
+      "canonical_candidate_id": "dcc-0593"
+    },
+    {
+      "duplicate_group_id": "canon-e6ac202535b6",
+      "candidate_ids": [
+        "dcc-0594"
+      ],
+      "canonical_candidate_id": "dcc-0594"
+    },
+    {
+      "duplicate_group_id": "canon-d2d82b221810",
+      "candidate_ids": [
+        "dcc-0595"
+      ],
+      "canonical_candidate_id": "dcc-0595"
+    },
+    {
+      "duplicate_group_id": "canon-21966eebe0c7",
+      "candidate_ids": [
+        "dcc-0596"
+      ],
+      "canonical_candidate_id": "dcc-0596"
+    },
+    {
+      "duplicate_group_id": "canon-339c903007fd",
+      "candidate_ids": [
+        "dcc-0597"
+      ],
+      "canonical_candidate_id": "dcc-0597"
+    },
+    {
+      "duplicate_group_id": "canon-13c14ed3f737",
+      "candidate_ids": [
+        "dcc-0599"
+      ],
+      "canonical_candidate_id": "dcc-0599"
+    },
+    {
+      "duplicate_group_id": "canon-777d6553f714",
+      "candidate_ids": [
+        "dcc-0600"
+      ],
+      "canonical_candidate_id": "dcc-0600"
+    },
+    {
+      "duplicate_group_id": "canon-f632503428c4",
+      "candidate_ids": [
+        "dcc-0601"
+      ],
+      "canonical_candidate_id": "dcc-0601"
+    },
+    {
+      "duplicate_group_id": "canon-f99cdbf078cd",
+      "candidate_ids": [
+        "dcc-0602"
+      ],
+      "canonical_candidate_id": "dcc-0602"
+    },
+    {
+      "duplicate_group_id": "canon-7bd4f04989d1",
+      "candidate_ids": [
+        "dcc-0603"
+      ],
+      "canonical_candidate_id": "dcc-0603"
+    },
+    {
+      "duplicate_group_id": "canon-846265869c3a",
+      "candidate_ids": [
+        "dcc-0604"
+      ],
+      "canonical_candidate_id": "dcc-0604"
+    },
+    {
+      "duplicate_group_id": "canon-3c4f7f4d4596",
+      "candidate_ids": [
+        "dcc-0605"
+      ],
+      "canonical_candidate_id": "dcc-0605"
+    },
+    {
+      "duplicate_group_id": "canon-ee93fc98e5fe",
+      "candidate_ids": [
+        "dcc-0606"
+      ],
+      "canonical_candidate_id": "dcc-0606"
+    },
+    {
+      "duplicate_group_id": "canon-2a1287bc2193",
+      "candidate_ids": [
+        "dcc-0607"
+      ],
+      "canonical_candidate_id": "dcc-0607"
+    },
+    {
+      "duplicate_group_id": "canon-006d5533f062",
+      "candidate_ids": [
+        "dcc-0608"
+      ],
+      "canonical_candidate_id": "dcc-0608"
+    },
+    {
+      "duplicate_group_id": "canon-ae686d4d31c8",
+      "candidate_ids": [
+        "dcc-0609"
+      ],
+      "canonical_candidate_id": "dcc-0609"
+    },
+    {
+      "duplicate_group_id": "canon-2841915cdd4b",
+      "candidate_ids": [
+        "dcc-0610"
+      ],
+      "canonical_candidate_id": "dcc-0610"
+    },
+    {
+      "duplicate_group_id": "canon-3a667098a07a",
+      "candidate_ids": [
+        "dcc-0611"
+      ],
+      "canonical_candidate_id": "dcc-0611"
+    },
+    {
+      "duplicate_group_id": "canon-24024af5ce2b",
+      "candidate_ids": [
+        "dcc-0612"
+      ],
+      "canonical_candidate_id": "dcc-0612"
+    },
+    {
+      "duplicate_group_id": "canon-261bd777446b",
+      "candidate_ids": [
+        "dcc-0613"
+      ],
+      "canonical_candidate_id": "dcc-0613"
+    },
+    {
+      "duplicate_group_id": "canon-53dc34b45bfb",
+      "candidate_ids": [
+        "dcc-0614"
+      ],
+      "canonical_candidate_id": "dcc-0614"
+    },
+    {
+      "duplicate_group_id": "canon-b5f68975bdca",
+      "candidate_ids": [
+        "dcc-0615"
+      ],
+      "canonical_candidate_id": "dcc-0615"
+    },
+    {
+      "duplicate_group_id": "canon-b38088de7d4a",
+      "candidate_ids": [
+        "dcc-0616"
+      ],
+      "canonical_candidate_id": "dcc-0616"
+    },
+    {
+      "duplicate_group_id": "canon-794a1e1e8e86",
+      "candidate_ids": [
+        "dcc-0617"
+      ],
+      "canonical_candidate_id": "dcc-0617"
+    },
+    {
+      "duplicate_group_id": "canon-7036909a9966",
+      "candidate_ids": [
+        "dcc-0618"
+      ],
+      "canonical_candidate_id": "dcc-0618"
+    },
+    {
+      "duplicate_group_id": "canon-ffe1ede3f735",
+      "candidate_ids": [
+        "dcc-0619"
+      ],
+      "canonical_candidate_id": "dcc-0619"
+    },
+    {
+      "duplicate_group_id": "canon-f1ff102b5995",
+      "candidate_ids": [
+        "dcc-0620"
+      ],
+      "canonical_candidate_id": "dcc-0620"
+    },
+    {
+      "duplicate_group_id": "canon-38fd451fecb7",
+      "candidate_ids": [
+        "dcc-0621"
+      ],
+      "canonical_candidate_id": "dcc-0621"
+    },
+    {
+      "duplicate_group_id": "canon-f8a5c5aa3e0e",
+      "candidate_ids": [
+        "dcc-0622"
+      ],
+      "canonical_candidate_id": "dcc-0622"
+    },
+    {
+      "duplicate_group_id": "canon-56a8476454ce",
+      "candidate_ids": [
+        "dcc-0623"
+      ],
+      "canonical_candidate_id": "dcc-0623"
+    },
+    {
+      "duplicate_group_id": "canon-c87870f65aab",
+      "candidate_ids": [
+        "dcc-0624"
+      ],
+      "canonical_candidate_id": "dcc-0624"
+    },
+    {
+      "duplicate_group_id": "canon-e521d2f31738",
+      "candidate_ids": [
+        "dcc-0625"
+      ],
+      "canonical_candidate_id": "dcc-0625"
+    },
+    {
+      "duplicate_group_id": "canon-c3773a0c63f3",
+      "candidate_ids": [
+        "dcc-0626"
+      ],
+      "canonical_candidate_id": "dcc-0626"
+    },
+    {
+      "duplicate_group_id": "canon-9e8ad5aa598e",
+      "candidate_ids": [
+        "dcc-0627"
+      ],
+      "canonical_candidate_id": "dcc-0627"
+    },
+    {
+      "duplicate_group_id": "canon-764992d9be35",
+      "candidate_ids": [
+        "dcc-0628"
+      ],
+      "canonical_candidate_id": "dcc-0628"
+    },
+    {
+      "duplicate_group_id": "canon-c6d8ef7ec1fb",
+      "candidate_ids": [
+        "dcc-0629"
+      ],
+      "canonical_candidate_id": "dcc-0629"
+    },
+    {
+      "duplicate_group_id": "canon-e818e4c97328",
+      "candidate_ids": [
+        "dcc-0630"
+      ],
+      "canonical_candidate_id": "dcc-0630"
+    },
+    {
+      "duplicate_group_id": "canon-7fd35d10a1a5",
+      "candidate_ids": [
+        "dcc-0631"
+      ],
+      "canonical_candidate_id": "dcc-0631"
+    },
+    {
+      "duplicate_group_id": "canon-97d0800d1b13",
+      "candidate_ids": [
+        "dcc-0632"
+      ],
+      "canonical_candidate_id": "dcc-0632"
+    },
+    {
+      "duplicate_group_id": "canon-7c8276f71376",
+      "candidate_ids": [
+        "dcc-0633"
+      ],
+      "canonical_candidate_id": "dcc-0633"
+    },
+    {
+      "duplicate_group_id": "canon-c2a0a63fbdf9",
+      "candidate_ids": [
+        "dcc-0634"
+      ],
+      "canonical_candidate_id": "dcc-0634"
+    },
+    {
+      "duplicate_group_id": "canon-88c060924d58",
+      "candidate_ids": [
+        "dcc-0635"
+      ],
+      "canonical_candidate_id": "dcc-0635"
+    },
+    {
+      "duplicate_group_id": "canon-b67f087a4b52",
+      "candidate_ids": [
+        "dcc-0636"
+      ],
+      "canonical_candidate_id": "dcc-0636"
+    },
+    {
+      "duplicate_group_id": "canon-7280f159cabd",
+      "candidate_ids": [
+        "dcc-0637"
+      ],
+      "canonical_candidate_id": "dcc-0637"
+    },
+    {
+      "duplicate_group_id": "canon-ac5bd7931b15",
+      "candidate_ids": [
+        "dcc-0638"
+      ],
+      "canonical_candidate_id": "dcc-0638"
+    },
+    {
+      "duplicate_group_id": "canon-466397bfdbf0",
+      "candidate_ids": [
+        "dcc-0639"
+      ],
+      "canonical_candidate_id": "dcc-0639"
+    },
+    {
+      "duplicate_group_id": "canon-cd3ce453346c",
+      "candidate_ids": [
+        "dcc-0640"
+      ],
+      "canonical_candidate_id": "dcc-0640"
+    },
+    {
+      "duplicate_group_id": "canon-3ef274ee98a6",
+      "candidate_ids": [
+        "dcc-0641"
+      ],
+      "canonical_candidate_id": "dcc-0641"
+    },
+    {
+      "duplicate_group_id": "canon-f17ec7f2a816",
+      "candidate_ids": [
+        "dcc-0642"
+      ],
+      "canonical_candidate_id": "dcc-0642"
+    },
+    {
+      "duplicate_group_id": "canon-652fbabb6539",
+      "candidate_ids": [
+        "dcc-0643"
+      ],
+      "canonical_candidate_id": "dcc-0643"
+    },
+    {
+      "duplicate_group_id": "canon-bd58a7f29a12",
+      "candidate_ids": [
+        "dcc-0644"
+      ],
+      "canonical_candidate_id": "dcc-0644"
+    },
+    {
+      "duplicate_group_id": "canon-c5ebd830ba81",
+      "candidate_ids": [
+        "dcc-0645"
+      ],
+      "canonical_candidate_id": "dcc-0645"
+    },
+    {
+      "duplicate_group_id": "canon-875a486c3a50",
+      "candidate_ids": [
+        "dcc-0646"
+      ],
+      "canonical_candidate_id": "dcc-0646"
+    },
+    {
+      "duplicate_group_id": "canon-00344beeb913",
+      "candidate_ids": [
+        "dcc-0647"
+      ],
+      "canonical_candidate_id": "dcc-0647"
+    },
+    {
+      "duplicate_group_id": "canon-2b9415a2c4e2",
+      "candidate_ids": [
+        "dcc-0648"
+      ],
+      "canonical_candidate_id": "dcc-0648"
+    },
+    {
+      "duplicate_group_id": "canon-ae9007e631fb",
+      "candidate_ids": [
+        "dcc-0649"
+      ],
+      "canonical_candidate_id": "dcc-0649"
+    },
+    {
+      "duplicate_group_id": "canon-6357d902369b",
+      "candidate_ids": [
+        "dcc-0650"
+      ],
+      "canonical_candidate_id": "dcc-0650"
+    },
+    {
+      "duplicate_group_id": "canon-3d2a8a0a6467",
+      "candidate_ids": [
+        "dcc-0651"
+      ],
+      "canonical_candidate_id": "dcc-0651"
+    },
+    {
+      "duplicate_group_id": "canon-a908b30149fd",
+      "candidate_ids": [
+        "dcc-0652"
+      ],
+      "canonical_candidate_id": "dcc-0652"
+    },
+    {
+      "duplicate_group_id": "canon-8bfa8bf8a6d0",
+      "candidate_ids": [
+        "dcc-0653"
+      ],
+      "canonical_candidate_id": "dcc-0653"
+    },
+    {
+      "duplicate_group_id": "canon-60465f47648b",
+      "candidate_ids": [
+        "dcc-0654"
+      ],
+      "canonical_candidate_id": "dcc-0654"
+    },
+    {
+      "duplicate_group_id": "canon-325e6de737fd",
+      "candidate_ids": [
+        "dcc-0655"
+      ],
+      "canonical_candidate_id": "dcc-0655"
+    },
+    {
+      "duplicate_group_id": "canon-69cea268d71d",
+      "candidate_ids": [
+        "dcc-0656"
+      ],
+      "canonical_candidate_id": "dcc-0656"
+    },
+    {
+      "duplicate_group_id": "canon-64bc8a4abfa3",
+      "candidate_ids": [
+        "dcc-0657"
+      ],
+      "canonical_candidate_id": "dcc-0657"
+    },
+    {
+      "duplicate_group_id": "canon-e60ba0e0735a",
+      "candidate_ids": [
+        "dcc-0658"
+      ],
+      "canonical_candidate_id": "dcc-0658"
+    },
+    {
+      "duplicate_group_id": "canon-61045217f11e",
+      "candidate_ids": [
+        "dcc-0659"
+      ],
+      "canonical_candidate_id": "dcc-0659"
+    },
+    {
+      "duplicate_group_id": "canon-6d5950457ea3",
+      "candidate_ids": [
+        "dcc-0660"
+      ],
+      "canonical_candidate_id": "dcc-0660"
+    },
+    {
+      "duplicate_group_id": "canon-393efa44416f",
+      "candidate_ids": [
+        "dcc-0661"
+      ],
+      "canonical_candidate_id": "dcc-0661"
+    },
+    {
+      "duplicate_group_id": "canon-e4fc0ba7b387",
+      "candidate_ids": [
+        "dcc-0662"
+      ],
+      "canonical_candidate_id": "dcc-0662"
+    },
+    {
+      "duplicate_group_id": "canon-9e938988b175",
+      "candidate_ids": [
+        "dcc-0663"
+      ],
+      "canonical_candidate_id": "dcc-0663"
+    },
+    {
+      "duplicate_group_id": "canon-967a7d51f75a",
+      "candidate_ids": [
+        "dcc-0664"
+      ],
+      "canonical_candidate_id": "dcc-0664"
+    },
+    {
+      "duplicate_group_id": "canon-e24f35fb930b",
+      "candidate_ids": [
+        "dcc-0665"
+      ],
+      "canonical_candidate_id": "dcc-0665"
+    },
+    {
+      "duplicate_group_id": "canon-14af2fd6380b",
+      "candidate_ids": [
+        "dcc-0666"
+      ],
+      "canonical_candidate_id": "dcc-0666"
+    },
+    {
+      "duplicate_group_id": "canon-c48768e4db07",
+      "candidate_ids": [
+        "dcc-0667"
+      ],
+      "canonical_candidate_id": "dcc-0667"
+    },
+    {
+      "duplicate_group_id": "canon-d02bb1f17ad3",
+      "candidate_ids": [
+        "dcc-0668"
+      ],
+      "canonical_candidate_id": "dcc-0668"
+    },
+    {
+      "duplicate_group_id": "canon-d73ab4d8d6f0",
+      "candidate_ids": [
+        "dcc-0669"
+      ],
+      "canonical_candidate_id": "dcc-0669"
+    },
+    {
+      "duplicate_group_id": "canon-b5f1139b5705",
+      "candidate_ids": [
+        "dcc-0670"
+      ],
+      "canonical_candidate_id": "dcc-0670"
+    },
+    {
+      "duplicate_group_id": "canon-9078965c6021",
+      "candidate_ids": [
+        "dcc-0671"
+      ],
+      "canonical_candidate_id": "dcc-0671"
+    },
+    {
+      "duplicate_group_id": "canon-7f3ba27c34ce",
+      "candidate_ids": [
+        "dcc-0672"
+      ],
+      "canonical_candidate_id": "dcc-0672"
+    },
+    {
+      "duplicate_group_id": "canon-61bbd7ce873c",
+      "candidate_ids": [
+        "dcc-0673"
+      ],
+      "canonical_candidate_id": "dcc-0673"
+    },
+    {
+      "duplicate_group_id": "canon-67ba802e1f42",
+      "candidate_ids": [
+        "dcc-0674"
+      ],
+      "canonical_candidate_id": "dcc-0674"
+    },
+    {
+      "duplicate_group_id": "canon-2b097679d5dc",
+      "candidate_ids": [
+        "dcc-0675"
+      ],
+      "canonical_candidate_id": "dcc-0675"
+    },
+    {
+      "duplicate_group_id": "canon-8e06e1d76f38",
+      "candidate_ids": [
+        "dcc-0676"
+      ],
+      "canonical_candidate_id": "dcc-0676"
+    },
+    {
+      "duplicate_group_id": "canon-72ac36a3fb9d",
+      "candidate_ids": [
+        "dcc-0677"
+      ],
+      "canonical_candidate_id": "dcc-0677"
+    },
+    {
+      "duplicate_group_id": "canon-454d9d87418f",
+      "candidate_ids": [
+        "dcc-0678"
+      ],
+      "canonical_candidate_id": "dcc-0678"
+    },
+    {
+      "duplicate_group_id": "canon-9f81e06cc51e",
+      "candidate_ids": [
+        "dcc-0679"
+      ],
+      "canonical_candidate_id": "dcc-0679"
+    },
+    {
+      "duplicate_group_id": "canon-695b94da56b9",
+      "candidate_ids": [
+        "dcc-0680"
+      ],
+      "canonical_candidate_id": "dcc-0680"
+    },
+    {
+      "duplicate_group_id": "canon-877bbbde8b9b",
+      "candidate_ids": [
+        "dcc-0681"
+      ],
+      "canonical_candidate_id": "dcc-0681"
+    },
+    {
+      "duplicate_group_id": "canon-4da720adec63",
+      "candidate_ids": [
+        "dcc-0682"
+      ],
+      "canonical_candidate_id": "dcc-0682"
+    },
+    {
+      "duplicate_group_id": "canon-0bbb95e44e33",
+      "candidate_ids": [
+        "dcc-0683"
+      ],
+      "canonical_candidate_id": "dcc-0683"
+    },
+    {
+      "duplicate_group_id": "canon-24c508d798cc",
+      "candidate_ids": [
+        "dcc-0684"
+      ],
+      "canonical_candidate_id": "dcc-0684"
+    },
+    {
+      "duplicate_group_id": "canon-80d25ebe2fa1",
+      "candidate_ids": [
+        "dcc-0685"
+      ],
+      "canonical_candidate_id": "dcc-0685"
+    },
+    {
+      "duplicate_group_id": "canon-76aa97a3d238",
+      "candidate_ids": [
+        "dcc-0686"
+      ],
+      "canonical_candidate_id": "dcc-0686"
+    },
+    {
+      "duplicate_group_id": "canon-fa9fe34deb07",
+      "candidate_ids": [
+        "dcc-0687"
+      ],
+      "canonical_candidate_id": "dcc-0687"
+    },
+    {
+      "duplicate_group_id": "canon-58c8cd1104ae",
+      "candidate_ids": [
+        "dcc-0688"
+      ],
+      "canonical_candidate_id": "dcc-0688"
+    },
+    {
+      "duplicate_group_id": "canon-48262a055ff5",
+      "candidate_ids": [
+        "dcc-0689"
+      ],
+      "canonical_candidate_id": "dcc-0689"
+    },
+    {
+      "duplicate_group_id": "canon-39b7e14b6aca",
+      "candidate_ids": [
+        "dcc-0690"
+      ],
+      "canonical_candidate_id": "dcc-0690"
+    },
+    {
+      "duplicate_group_id": "canon-5108d2b866d2",
+      "candidate_ids": [
+        "dcc-0691"
+      ],
+      "canonical_candidate_id": "dcc-0691"
+    },
+    {
+      "duplicate_group_id": "canon-1309b43659c4",
+      "candidate_ids": [
+        "dcc-0692"
+      ],
+      "canonical_candidate_id": "dcc-0692"
+    },
+    {
+      "duplicate_group_id": "canon-af75d1c1ee1b",
+      "candidate_ids": [
+        "dcc-0693"
+      ],
+      "canonical_candidate_id": "dcc-0693"
+    },
+    {
+      "duplicate_group_id": "canon-478d731a17e4",
+      "candidate_ids": [
+        "dcc-0694"
+      ],
+      "canonical_candidate_id": "dcc-0694"
+    },
+    {
+      "duplicate_group_id": "canon-eac399ddd526",
+      "candidate_ids": [
+        "dcc-0695"
+      ],
+      "canonical_candidate_id": "dcc-0695"
+    },
+    {
+      "duplicate_group_id": "canon-40ec5dfee2fa",
+      "candidate_ids": [
+        "dcc-0696"
+      ],
+      "canonical_candidate_id": "dcc-0696"
+    },
+    {
+      "duplicate_group_id": "canon-b2aff38ac930",
+      "candidate_ids": [
+        "dcc-0697"
+      ],
+      "canonical_candidate_id": "dcc-0697"
+    },
+    {
+      "duplicate_group_id": "canon-af25e956c638",
+      "candidate_ids": [
+        "dcc-0698"
+      ],
+      "canonical_candidate_id": "dcc-0698"
+    },
+    {
+      "duplicate_group_id": "canon-03053def97b1",
+      "candidate_ids": [
+        "dcc-0699"
+      ],
+      "canonical_candidate_id": "dcc-0699"
+    },
+    {
+      "duplicate_group_id": "canon-861f122e08b5",
+      "candidate_ids": [
+        "dcc-0700"
+      ],
+      "canonical_candidate_id": "dcc-0700"
+    },
+    {
+      "duplicate_group_id": "canon-d5944671cb93",
+      "candidate_ids": [
+        "dcc-0701"
+      ],
+      "canonical_candidate_id": "dcc-0701"
+    },
+    {
+      "duplicate_group_id": "canon-d5c3f881a033",
+      "candidate_ids": [
+        "dcc-0702"
+      ],
+      "canonical_candidate_id": "dcc-0702"
+    },
+    {
+      "duplicate_group_id": "canon-3de6e1d4eb81",
+      "candidate_ids": [
+        "dcc-0703"
+      ],
+      "canonical_candidate_id": "dcc-0703"
+    },
+    {
+      "duplicate_group_id": "canon-ab1d0539b859",
+      "candidate_ids": [
+        "dcc-0704"
+      ],
+      "canonical_candidate_id": "dcc-0704"
+    },
+    {
+      "duplicate_group_id": "canon-acef4db7de9d",
+      "candidate_ids": [
+        "dcc-0705"
+      ],
+      "canonical_candidate_id": "dcc-0705"
+    },
+    {
+      "duplicate_group_id": "canon-17cd60d4a385",
+      "candidate_ids": [
+        "dcc-0706"
+      ],
+      "canonical_candidate_id": "dcc-0706"
+    },
+    {
+      "duplicate_group_id": "canon-a099896eff0a",
+      "candidate_ids": [
+        "dcc-0707"
+      ],
+      "canonical_candidate_id": "dcc-0707"
+    },
+    {
+      "duplicate_group_id": "canon-efc4e54ac46e",
+      "candidate_ids": [
+        "dcc-0708"
+      ],
+      "canonical_candidate_id": "dcc-0708"
+    },
+    {
+      "duplicate_group_id": "canon-23be28e49a07",
+      "candidate_ids": [
+        "dcc-0709"
+      ],
+      "canonical_candidate_id": "dcc-0709"
+    },
+    {
+      "duplicate_group_id": "canon-9542427f2404",
+      "candidate_ids": [
+        "dcc-0710"
+      ],
+      "canonical_candidate_id": "dcc-0710"
+    },
+    {
+      "duplicate_group_id": "canon-8c194b8da030",
+      "candidate_ids": [
+        "dcc-0711"
+      ],
+      "canonical_candidate_id": "dcc-0711"
+    },
+    {
+      "duplicate_group_id": "canon-a50bf3aa3dfc",
+      "candidate_ids": [
+        "dcc-0712"
+      ],
+      "canonical_candidate_id": "dcc-0712"
+    },
+    {
+      "duplicate_group_id": "canon-426fea650dec",
+      "candidate_ids": [
+        "dcc-0713"
+      ],
+      "canonical_candidate_id": "dcc-0713"
+    },
+    {
+      "duplicate_group_id": "canon-8217e5fe0f90",
+      "candidate_ids": [
+        "dcc-0714"
+      ],
+      "canonical_candidate_id": "dcc-0714"
+    },
+    {
+      "duplicate_group_id": "canon-22f627830ef0",
+      "candidate_ids": [
+        "dcc-0715"
+      ],
+      "canonical_candidate_id": "dcc-0715"
+    },
+    {
+      "duplicate_group_id": "canon-fb31a54ccff4",
+      "candidate_ids": [
+        "dcc-0716"
+      ],
+      "canonical_candidate_id": "dcc-0716"
+    },
+    {
+      "duplicate_group_id": "canon-c3dcc8fbcf36",
+      "candidate_ids": [
+        "dcc-0717"
+      ],
+      "canonical_candidate_id": "dcc-0717"
+    },
+    {
+      "duplicate_group_id": "canon-a9468a8221f2",
+      "candidate_ids": [
+        "dcc-0718"
+      ],
+      "canonical_candidate_id": "dcc-0718"
+    },
+    {
+      "duplicate_group_id": "canon-5fb14042e0f6",
+      "candidate_ids": [
+        "dcc-0719"
+      ],
+      "canonical_candidate_id": "dcc-0719"
+    },
+    {
+      "duplicate_group_id": "canon-f96acbcf14c0",
+      "candidate_ids": [
+        "dcc-0720"
+      ],
+      "canonical_candidate_id": "dcc-0720"
+    },
+    {
+      "duplicate_group_id": "canon-c3c86ea41364",
+      "candidate_ids": [
+        "dcc-0721"
+      ],
+      "canonical_candidate_id": "dcc-0721"
+    },
+    {
+      "duplicate_group_id": "canon-a6fea3ef675b",
+      "candidate_ids": [
+        "dcc-0722"
+      ],
+      "canonical_candidate_id": "dcc-0722"
+    },
+    {
+      "duplicate_group_id": "canon-dd6e64b4b2db",
+      "candidate_ids": [
+        "dcc-0723"
+      ],
+      "canonical_candidate_id": "dcc-0723"
+    },
+    {
+      "duplicate_group_id": "canon-81bfdbc33b7c",
+      "candidate_ids": [
+        "dcc-0724"
+      ],
+      "canonical_candidate_id": "dcc-0724"
+    },
+    {
+      "duplicate_group_id": "canon-365e9a59d374",
+      "candidate_ids": [
+        "dcc-0725"
+      ],
+      "canonical_candidate_id": "dcc-0725"
+    },
+    {
+      "duplicate_group_id": "canon-e45b126537c0",
+      "candidate_ids": [
+        "dcc-0726"
+      ],
+      "canonical_candidate_id": "dcc-0726"
+    },
+    {
+      "duplicate_group_id": "canon-0471aa1d9acf",
+      "candidate_ids": [
+        "dcc-0727"
+      ],
+      "canonical_candidate_id": "dcc-0727"
+    },
+    {
+      "duplicate_group_id": "canon-240510b7ff59",
+      "candidate_ids": [
+        "dcc-0728"
+      ],
+      "canonical_candidate_id": "dcc-0728"
+    },
+    {
+      "duplicate_group_id": "canon-b16a8435250d",
+      "candidate_ids": [
+        "dcc-0729"
+      ],
+      "canonical_candidate_id": "dcc-0729"
+    },
+    {
+      "duplicate_group_id": "canon-476a97c5eef0",
+      "candidate_ids": [
+        "dcc-0730"
+      ],
+      "canonical_candidate_id": "dcc-0730"
+    },
+    {
+      "duplicate_group_id": "canon-b3ad1e7d2b65",
+      "candidate_ids": [
+        "dcc-0731"
+      ],
+      "canonical_candidate_id": "dcc-0731"
+    },
+    {
+      "duplicate_group_id": "canon-c3f62f7ad87a",
+      "candidate_ids": [
+        "dcc-0732"
+      ],
+      "canonical_candidate_id": "dcc-0732"
+    },
+    {
+      "duplicate_group_id": "canon-8b389b283431",
+      "candidate_ids": [
+        "dcc-0733"
+      ],
+      "canonical_candidate_id": "dcc-0733"
+    },
+    {
+      "duplicate_group_id": "canon-994283f03d29",
+      "candidate_ids": [
+        "dcc-0734"
+      ],
+      "canonical_candidate_id": "dcc-0734"
+    },
+    {
+      "duplicate_group_id": "canon-8d325183e463",
+      "candidate_ids": [
+        "dcc-0735"
+      ],
+      "canonical_candidate_id": "dcc-0735"
+    },
+    {
+      "duplicate_group_id": "canon-2dff9ff5a8b1",
+      "candidate_ids": [
+        "dcc-0736"
+      ],
+      "canonical_candidate_id": "dcc-0736"
+    },
+    {
+      "duplicate_group_id": "canon-ca87769090ce",
+      "candidate_ids": [
+        "dcc-0737"
+      ],
+      "canonical_candidate_id": "dcc-0737"
+    },
+    {
+      "duplicate_group_id": "canon-3b1fc1e16688",
+      "candidate_ids": [
+        "dcc-0738"
+      ],
+      "canonical_candidate_id": "dcc-0738"
+    },
+    {
+      "duplicate_group_id": "canon-3c5eaeffe5ee",
+      "candidate_ids": [
+        "dcc-0739"
+      ],
+      "canonical_candidate_id": "dcc-0739"
+    },
+    {
+      "duplicate_group_id": "canon-c7fc8c5b74e0",
+      "candidate_ids": [
+        "dcc-0740"
+      ],
+      "canonical_candidate_id": "dcc-0740"
+    },
+    {
+      "duplicate_group_id": "canon-e2248e8fb0bc",
+      "candidate_ids": [
+        "dcc-0741"
+      ],
+      "canonical_candidate_id": "dcc-0741"
+    },
+    {
+      "duplicate_group_id": "canon-4f39e54a459b",
+      "candidate_ids": [
+        "dcc-0743"
+      ],
+      "canonical_candidate_id": "dcc-0743"
+    },
+    {
+      "duplicate_group_id": "canon-4d5d2e893b43",
+      "candidate_ids": [
+        "dcc-0744"
+      ],
+      "canonical_candidate_id": "dcc-0744"
+    },
+    {
+      "duplicate_group_id": "canon-d3c3d7bb117f",
+      "candidate_ids": [
+        "dcc-0745"
+      ],
+      "canonical_candidate_id": "dcc-0745"
+    },
+    {
+      "duplicate_group_id": "canon-7612de70b1dd",
+      "candidate_ids": [
+        "dcc-0746"
+      ],
+      "canonical_candidate_id": "dcc-0746"
+    },
+    {
+      "duplicate_group_id": "canon-dfa4e0c2f6e4",
+      "candidate_ids": [
+        "dcc-0747"
+      ],
+      "canonical_candidate_id": "dcc-0747"
+    },
+    {
+      "duplicate_group_id": "canon-73d22d0727f3",
+      "candidate_ids": [
+        "dcc-0748"
+      ],
+      "canonical_candidate_id": "dcc-0748"
+    },
+    {
+      "duplicate_group_id": "canon-05a27d63a24e",
+      "candidate_ids": [
+        "dcc-0749"
+      ],
+      "canonical_candidate_id": "dcc-0749"
+    },
+    {
+      "duplicate_group_id": "canon-3c443b519595",
+      "candidate_ids": [
+        "dcc-0750"
+      ],
+      "canonical_candidate_id": "dcc-0750"
+    },
+    {
+      "duplicate_group_id": "canon-7f1b8830afeb",
+      "candidate_ids": [
+        "dcc-0751"
+      ],
+      "canonical_candidate_id": "dcc-0751"
+    },
+    {
+      "duplicate_group_id": "canon-318b824e7bed",
+      "candidate_ids": [
+        "dcc-0752"
+      ],
+      "canonical_candidate_id": "dcc-0752"
+    },
+    {
+      "duplicate_group_id": "canon-b13b0d546b2b",
+      "candidate_ids": [
+        "dcc-0753"
+      ],
+      "canonical_candidate_id": "dcc-0753"
+    },
+    {
+      "duplicate_group_id": "canon-710a647584ca",
+      "candidate_ids": [
+        "dcc-0754"
+      ],
+      "canonical_candidate_id": "dcc-0754"
+    },
+    {
+      "duplicate_group_id": "canon-f204c351c8a9",
+      "candidate_ids": [
+        "dcc-0755"
+      ],
+      "canonical_candidate_id": "dcc-0755"
+    },
+    {
+      "duplicate_group_id": "canon-dd7f77deb45f",
+      "candidate_ids": [
+        "dcc-0756"
+      ],
+      "canonical_candidate_id": "dcc-0756"
+    },
+    {
+      "duplicate_group_id": "canon-e5ab66b532bf",
+      "candidate_ids": [
+        "dcc-0757"
+      ],
+      "canonical_candidate_id": "dcc-0757"
+    },
+    {
+      "duplicate_group_id": "canon-aece3e33e8de",
+      "candidate_ids": [
+        "dcc-0758"
+      ],
+      "canonical_candidate_id": "dcc-0758"
+    },
+    {
+      "duplicate_group_id": "canon-3608826e2772",
+      "candidate_ids": [
+        "dcc-0759"
+      ],
+      "canonical_candidate_id": "dcc-0759"
+    },
+    {
+      "duplicate_group_id": "canon-48c97cae029e",
+      "candidate_ids": [
+        "dcc-0760"
+      ],
+      "canonical_candidate_id": "dcc-0760"
+    },
+    {
+      "duplicate_group_id": "canon-0f86f4b4cfce",
+      "candidate_ids": [
+        "dcc-0761"
+      ],
+      "canonical_candidate_id": "dcc-0761"
+    },
+    {
+      "duplicate_group_id": "canon-4f8e81f2a640",
+      "candidate_ids": [
+        "dcc-0762"
+      ],
+      "canonical_candidate_id": "dcc-0762"
+    },
+    {
+      "duplicate_group_id": "canon-c4b608b2e135",
+      "candidate_ids": [
+        "dcc-0763"
+      ],
+      "canonical_candidate_id": "dcc-0763"
+    },
+    {
+      "duplicate_group_id": "canon-3a7f5fa7c452",
+      "candidate_ids": [
+        "dcc-0764"
+      ],
+      "canonical_candidate_id": "dcc-0764"
+    },
+    {
+      "duplicate_group_id": "canon-5ecc83d507fe",
+      "candidate_ids": [
+        "dcc-0765"
+      ],
+      "canonical_candidate_id": "dcc-0765"
+    },
+    {
+      "duplicate_group_id": "canon-74e1f50d43b7",
+      "candidate_ids": [
+        "dcc-0766"
+      ],
+      "canonical_candidate_id": "dcc-0766"
+    },
+    {
+      "duplicate_group_id": "canon-42528136db0e",
+      "candidate_ids": [
+        "dcc-0767"
+      ],
+      "canonical_candidate_id": "dcc-0767"
+    },
+    {
+      "duplicate_group_id": "canon-8f34a296320e",
+      "candidate_ids": [
+        "dcc-0768"
+      ],
+      "canonical_candidate_id": "dcc-0768"
+    },
+    {
+      "duplicate_group_id": "canon-f28f1eb279bc",
+      "candidate_ids": [
+        "dcc-0769"
+      ],
+      "canonical_candidate_id": "dcc-0769"
+    },
+    {
+      "duplicate_group_id": "canon-72807def8117",
+      "candidate_ids": [
+        "dcc-0770"
+      ],
+      "canonical_candidate_id": "dcc-0770"
+    },
+    {
+      "duplicate_group_id": "canon-c76505008e2f",
+      "candidate_ids": [
+        "dcc-0771"
+      ],
+      "canonical_candidate_id": "dcc-0771"
+    },
+    {
+      "duplicate_group_id": "canon-d3fc50769905",
+      "candidate_ids": [
+        "dcc-0772"
+      ],
+      "canonical_candidate_id": "dcc-0772"
+    },
+    {
+      "duplicate_group_id": "canon-5675558887a5",
+      "candidate_ids": [
+        "dcc-0773"
+      ],
+      "canonical_candidate_id": "dcc-0773"
+    },
+    {
+      "duplicate_group_id": "canon-5bc219d03af4",
+      "candidate_ids": [
+        "dcc-0774"
+      ],
+      "canonical_candidate_id": "dcc-0774"
+    },
+    {
+      "duplicate_group_id": "canon-9ebc1b47513b",
+      "candidate_ids": [
+        "dcc-0775"
+      ],
+      "canonical_candidate_id": "dcc-0775"
+    },
+    {
+      "duplicate_group_id": "canon-53ade104e3a2",
+      "candidate_ids": [
+        "dcc-0776"
+      ],
+      "canonical_candidate_id": "dcc-0776"
+    },
+    {
+      "duplicate_group_id": "canon-6d5288933211",
+      "candidate_ids": [
+        "dcc-0777"
+      ],
+      "canonical_candidate_id": "dcc-0777"
+    },
+    {
+      "duplicate_group_id": "canon-34ac12f8695f",
+      "candidate_ids": [
+        "dcc-0778"
+      ],
+      "canonical_candidate_id": "dcc-0778"
+    },
+    {
+      "duplicate_group_id": "canon-02063cc0a722",
+      "candidate_ids": [
+        "dcc-0779"
+      ],
+      "canonical_candidate_id": "dcc-0779"
+    },
+    {
+      "duplicate_group_id": "canon-69a42c40432c",
+      "candidate_ids": [
+        "dcc-0780"
+      ],
+      "canonical_candidate_id": "dcc-0780"
+    },
+    {
+      "duplicate_group_id": "canon-4c7ef5eeff80",
+      "candidate_ids": [
+        "dcc-0781"
+      ],
+      "canonical_candidate_id": "dcc-0781"
+    },
+    {
+      "duplicate_group_id": "canon-0c6ccc3cf6ae",
+      "candidate_ids": [
+        "dcc-0782"
+      ],
+      "canonical_candidate_id": "dcc-0782"
+    },
+    {
+      "duplicate_group_id": "canon-2536b22f904c",
+      "candidate_ids": [
+        "dcc-0783"
+      ],
+      "canonical_candidate_id": "dcc-0783"
+    },
+    {
+      "duplicate_group_id": "canon-825b5a0c8bae",
+      "candidate_ids": [
+        "dcc-0784"
+      ],
+      "canonical_candidate_id": "dcc-0784"
+    },
+    {
+      "duplicate_group_id": "canon-1f4557e6fcee",
+      "candidate_ids": [
+        "dcc-0785"
+      ],
+      "canonical_candidate_id": "dcc-0785"
+    },
+    {
+      "duplicate_group_id": "canon-e95575176d56",
+      "candidate_ids": [
+        "dcc-0786"
+      ],
+      "canonical_candidate_id": "dcc-0786"
+    },
+    {
+      "duplicate_group_id": "canon-6c04f69ab46b",
+      "candidate_ids": [
+        "dcc-0787"
+      ],
+      "canonical_candidate_id": "dcc-0787"
+    },
+    {
+      "duplicate_group_id": "canon-e019c018536e",
+      "candidate_ids": [
+        "dcc-0788"
+      ],
+      "canonical_candidate_id": "dcc-0788"
+    },
+    {
+      "duplicate_group_id": "canon-e9e590bb044f",
+      "candidate_ids": [
+        "dcc-0789"
+      ],
+      "canonical_candidate_id": "dcc-0789"
+    },
+    {
+      "duplicate_group_id": "canon-927e62cf9ca3",
+      "candidate_ids": [
+        "dcc-0790"
+      ],
+      "canonical_candidate_id": "dcc-0790"
+    },
+    {
+      "duplicate_group_id": "canon-d3b5027524ef",
+      "candidate_ids": [
+        "dcc-0791"
+      ],
+      "canonical_candidate_id": "dcc-0791"
+    },
+    {
+      "duplicate_group_id": "canon-9d404c867438",
+      "candidate_ids": [
+        "dcc-0792"
+      ],
+      "canonical_candidate_id": "dcc-0792"
+    },
+    {
+      "duplicate_group_id": "canon-23abfa24a6bf",
+      "candidate_ids": [
+        "dcc-0793"
+      ],
+      "canonical_candidate_id": "dcc-0793"
+    },
+    {
+      "duplicate_group_id": "canon-5801747c3cf8",
+      "candidate_ids": [
+        "dcc-0794"
+      ],
+      "canonical_candidate_id": "dcc-0794"
+    },
+    {
+      "duplicate_group_id": "canon-3fb0c0e4e5e9",
+      "candidate_ids": [
+        "dcc-0795"
+      ],
+      "canonical_candidate_id": "dcc-0795"
+    },
+    {
+      "duplicate_group_id": "canon-f24c2dcf0475",
+      "candidate_ids": [
+        "dcc-0796"
+      ],
+      "canonical_candidate_id": "dcc-0796"
+    },
+    {
+      "duplicate_group_id": "canon-80090f5ae6d3",
+      "candidate_ids": [
+        "dcc-0797"
+      ],
+      "canonical_candidate_id": "dcc-0797"
+    },
+    {
+      "duplicate_group_id": "canon-d65fd4a5da41",
+      "candidate_ids": [
+        "dcc-0798"
+      ],
+      "canonical_candidate_id": "dcc-0798"
+    },
+    {
+      "duplicate_group_id": "canon-bc2ad88df8e4",
+      "candidate_ids": [
+        "dcc-0799"
+      ],
+      "canonical_candidate_id": "dcc-0799"
+    },
+    {
+      "duplicate_group_id": "canon-de0c31639955",
+      "candidate_ids": [
+        "dcc-0800"
+      ],
+      "canonical_candidate_id": "dcc-0800"
+    },
+    {
+      "duplicate_group_id": "canon-361e9cdc1518",
+      "candidate_ids": [
+        "dcc-0801"
+      ],
+      "canonical_candidate_id": "dcc-0801"
+    },
+    {
+      "duplicate_group_id": "canon-9c476943f374",
+      "candidate_ids": [
+        "dcc-0802"
+      ],
+      "canonical_candidate_id": "dcc-0802"
+    },
+    {
+      "duplicate_group_id": "canon-e4288835360d",
+      "candidate_ids": [
+        "dcc-0803"
+      ],
+      "canonical_candidate_id": "dcc-0803"
+    },
+    {
+      "duplicate_group_id": "canon-fa1afb99c566",
+      "candidate_ids": [
+        "dcc-0804"
+      ],
+      "canonical_candidate_id": "dcc-0804"
+    },
+    {
+      "duplicate_group_id": "canon-f8418289b149",
+      "candidate_ids": [
+        "dcc-0805"
+      ],
+      "canonical_candidate_id": "dcc-0805"
+    },
+    {
+      "duplicate_group_id": "canon-6bf4f0496547",
+      "candidate_ids": [
+        "dcc-0806"
+      ],
+      "canonical_candidate_id": "dcc-0806"
+    },
+    {
+      "duplicate_group_id": "canon-48dc87625e6d",
+      "candidate_ids": [
+        "dcc-0808"
+      ],
+      "canonical_candidate_id": "dcc-0808"
+    },
+    {
+      "duplicate_group_id": "canon-bfedcbb4d609",
+      "candidate_ids": [
+        "dcc-0809"
+      ],
+      "canonical_candidate_id": "dcc-0809"
+    },
+    {
+      "duplicate_group_id": "canon-557f57c016f3",
+      "candidate_ids": [
+        "dcc-0810"
+      ],
+      "canonical_candidate_id": "dcc-0810"
+    },
+    {
+      "duplicate_group_id": "canon-daa9cd1019c5",
+      "candidate_ids": [
+        "dcc-0811"
+      ],
+      "canonical_candidate_id": "dcc-0811"
+    },
+    {
+      "duplicate_group_id": "canon-5c5da6528b8f",
+      "candidate_ids": [
+        "dcc-0812"
+      ],
+      "canonical_candidate_id": "dcc-0812"
+    },
+    {
+      "duplicate_group_id": "canon-0c2a6070b6c4",
+      "candidate_ids": [
+        "dcc-0813"
+      ],
+      "canonical_candidate_id": "dcc-0813"
+    },
+    {
+      "duplicate_group_id": "canon-00c5bb900a2f",
+      "candidate_ids": [
+        "dcc-0814"
+      ],
+      "canonical_candidate_id": "dcc-0814"
+    },
+    {
+      "duplicate_group_id": "canon-83518b438cca",
+      "candidate_ids": [
+        "dcc-0815"
+      ],
+      "canonical_candidate_id": "dcc-0815"
+    },
+    {
+      "duplicate_group_id": "canon-9fd5649d904e",
+      "candidate_ids": [
+        "dcc-0816"
+      ],
+      "canonical_candidate_id": "dcc-0816"
+    },
+    {
+      "duplicate_group_id": "canon-3ffe7a2b1f99",
+      "candidate_ids": [
+        "dcc-0817"
+      ],
+      "canonical_candidate_id": "dcc-0817"
+    },
+    {
+      "duplicate_group_id": "canon-0895ff91ce68",
+      "candidate_ids": [
+        "dcc-0818"
+      ],
+      "canonical_candidate_id": "dcc-0818"
+    },
+    {
+      "duplicate_group_id": "canon-fcd8822cb89a",
+      "candidate_ids": [
+        "dcc-0819"
+      ],
+      "canonical_candidate_id": "dcc-0819"
+    },
+    {
+      "duplicate_group_id": "canon-c7aeecb802f9",
+      "candidate_ids": [
+        "dcc-0820"
+      ],
+      "canonical_candidate_id": "dcc-0820"
+    },
+    {
+      "duplicate_group_id": "canon-08dbcb2884e4",
+      "candidate_ids": [
+        "dcc-0821"
+      ],
+      "canonical_candidate_id": "dcc-0821"
+    },
+    {
+      "duplicate_group_id": "canon-c3289c7ef11a",
+      "candidate_ids": [
+        "dcc-0822"
+      ],
+      "canonical_candidate_id": "dcc-0822"
+    },
+    {
+      "duplicate_group_id": "canon-5f29ae7f50e2",
+      "candidate_ids": [
+        "dcc-0823"
+      ],
+      "canonical_candidate_id": "dcc-0823"
+    },
+    {
+      "duplicate_group_id": "canon-adb8db4b0354",
+      "candidate_ids": [
+        "dcc-0824"
+      ],
+      "canonical_candidate_id": "dcc-0824"
+    },
+    {
+      "duplicate_group_id": "canon-f1384ac51fe2",
+      "candidate_ids": [
+        "dcc-0825"
+      ],
+      "canonical_candidate_id": "dcc-0825"
+    },
+    {
+      "duplicate_group_id": "canon-318d98404f20",
+      "candidate_ids": [
+        "dcc-0826"
+      ],
+      "canonical_candidate_id": "dcc-0826"
+    },
+    {
+      "duplicate_group_id": "canon-aa68c2eeb43f",
+      "candidate_ids": [
+        "dcc-0827"
+      ],
+      "canonical_candidate_id": "dcc-0827"
+    },
+    {
+      "duplicate_group_id": "canon-e7b82ba46850",
+      "candidate_ids": [
+        "dcc-0828"
+      ],
+      "canonical_candidate_id": "dcc-0828"
+    },
+    {
+      "duplicate_group_id": "canon-e5b8a8beb8ee",
+      "candidate_ids": [
+        "dcc-0829"
+      ],
+      "canonical_candidate_id": "dcc-0829"
+    },
+    {
+      "duplicate_group_id": "canon-037c19de3cc1",
+      "candidate_ids": [
+        "dcc-0830"
+      ],
+      "canonical_candidate_id": "dcc-0830"
+    },
+    {
+      "duplicate_group_id": "canon-0b0993808b43",
+      "candidate_ids": [
+        "dcc-0831"
+      ],
+      "canonical_candidate_id": "dcc-0831"
+    },
+    {
+      "duplicate_group_id": "canon-b7f8ece51646",
+      "candidate_ids": [
+        "dcc-0832"
+      ],
+      "canonical_candidate_id": "dcc-0832"
+    },
+    {
+      "duplicate_group_id": "canon-99ab9d32c7d4",
+      "candidate_ids": [
+        "dcc-0833"
+      ],
+      "canonical_candidate_id": "dcc-0833"
+    },
+    {
+      "duplicate_group_id": "canon-f12e77967115",
+      "candidate_ids": [
+        "dcc-0834"
+      ],
+      "canonical_candidate_id": "dcc-0834"
+    },
+    {
+      "duplicate_group_id": "canon-39208d7fc76d",
+      "candidate_ids": [
+        "dcc-0835"
+      ],
+      "canonical_candidate_id": "dcc-0835"
+    },
+    {
+      "duplicate_group_id": "canon-1dae88224f86",
+      "candidate_ids": [
+        "dcc-0836"
+      ],
+      "canonical_candidate_id": "dcc-0836"
+    },
+    {
+      "duplicate_group_id": "canon-f35a9dd4d6ef",
+      "candidate_ids": [
+        "dcc-0837"
+      ],
+      "canonical_candidate_id": "dcc-0837"
+    },
+    {
+      "duplicate_group_id": "canon-11ac82755806",
+      "candidate_ids": [
+        "dcc-0838"
+      ],
+      "canonical_candidate_id": "dcc-0838"
+    },
+    {
+      "duplicate_group_id": "canon-b1d5dce2a929",
+      "candidate_ids": [
+        "dcc-0839"
+      ],
+      "canonical_candidate_id": "dcc-0839"
+    },
+    {
+      "duplicate_group_id": "canon-b4efdf64415c",
+      "candidate_ids": [
+        "dcc-0840"
+      ],
+      "canonical_candidate_id": "dcc-0840"
+    },
+    {
+      "duplicate_group_id": "canon-f895a8edcd7b",
+      "candidate_ids": [
+        "dcc-0841"
+      ],
+      "canonical_candidate_id": "dcc-0841"
+    },
+    {
+      "duplicate_group_id": "canon-7eb9df455880",
+      "candidate_ids": [
+        "dcc-0842"
+      ],
+      "canonical_candidate_id": "dcc-0842"
+    },
+    {
+      "duplicate_group_id": "canon-f365683d8c64",
+      "candidate_ids": [
+        "dcc-0843"
+      ],
+      "canonical_candidate_id": "dcc-0843"
+    },
+    {
+      "duplicate_group_id": "canon-422596a99b83",
+      "candidate_ids": [
+        "dcc-0844"
+      ],
+      "canonical_candidate_id": "dcc-0844"
+    },
+    {
+      "duplicate_group_id": "canon-2f4f84035761",
+      "candidate_ids": [
+        "dcc-0845"
+      ],
+      "canonical_candidate_id": "dcc-0845"
+    },
+    {
+      "duplicate_group_id": "canon-0057dbb0feac",
+      "candidate_ids": [
+        "dcc-0846"
+      ],
+      "canonical_candidate_id": "dcc-0846"
+    },
+    {
+      "duplicate_group_id": "canon-0509597f8ad4",
+      "candidate_ids": [
+        "dcc-0847"
+      ],
+      "canonical_candidate_id": "dcc-0847"
+    },
+    {
+      "duplicate_group_id": "canon-28393d7c981f",
+      "candidate_ids": [
+        "dcc-0848"
+      ],
+      "canonical_candidate_id": "dcc-0848"
+    },
+    {
+      "duplicate_group_id": "canon-a153f2d01861",
+      "candidate_ids": [
+        "dcc-0849"
+      ],
+      "canonical_candidate_id": "dcc-0849"
+    },
+    {
+      "duplicate_group_id": "canon-9790520164ab",
+      "candidate_ids": [
+        "dcc-0850"
+      ],
+      "canonical_candidate_id": "dcc-0850"
+    },
+    {
+      "duplicate_group_id": "canon-20205d21b7d6",
+      "candidate_ids": [
+        "dcc-0851"
+      ],
+      "canonical_candidate_id": "dcc-0851"
+    },
+    {
+      "duplicate_group_id": "canon-d95ffd03ec18",
+      "candidate_ids": [
+        "dcc-0852"
+      ],
+      "canonical_candidate_id": "dcc-0852"
+    },
+    {
+      "duplicate_group_id": "canon-bc02a694f059",
+      "candidate_ids": [
+        "dcc-0853"
+      ],
+      "canonical_candidate_id": "dcc-0853"
+    },
+    {
+      "duplicate_group_id": "canon-a0a845be271b",
+      "candidate_ids": [
+        "dcc-0854"
+      ],
+      "canonical_candidate_id": "dcc-0854"
+    },
+    {
+      "duplicate_group_id": "canon-4a5fa8d4f571",
+      "candidate_ids": [
+        "dcc-0855"
+      ],
+      "canonical_candidate_id": "dcc-0855"
+    },
+    {
+      "duplicate_group_id": "canon-041a1bb817e1",
+      "candidate_ids": [
+        "dcc-0856"
+      ],
+      "canonical_candidate_id": "dcc-0856"
+    },
+    {
+      "duplicate_group_id": "canon-033b4f115ef0",
+      "candidate_ids": [
+        "dcc-0857"
+      ],
+      "canonical_candidate_id": "dcc-0857"
+    },
+    {
+      "duplicate_group_id": "canon-24892f9915d1",
+      "candidate_ids": [
+        "dcc-0858"
+      ],
+      "canonical_candidate_id": "dcc-0858"
+    },
+    {
+      "duplicate_group_id": "canon-153a110cc15c",
+      "candidate_ids": [
+        "dcc-0859"
+      ],
+      "canonical_candidate_id": "dcc-0859"
+    },
+    {
+      "duplicate_group_id": "canon-aa197f08a90f",
+      "candidate_ids": [
+        "dcc-0860"
+      ],
+      "canonical_candidate_id": "dcc-0860"
+    },
+    {
+      "duplicate_group_id": "canon-13c607f6c293",
+      "candidate_ids": [
+        "dcc-0861"
+      ],
+      "canonical_candidate_id": "dcc-0861"
+    },
+    {
+      "duplicate_group_id": "canon-d02bebe700c0",
+      "candidate_ids": [
+        "dcc-0862"
+      ],
+      "canonical_candidate_id": "dcc-0862"
+    },
+    {
+      "duplicate_group_id": "canon-91335302fd04",
+      "candidate_ids": [
+        "dcc-0863"
+      ],
+      "canonical_candidate_id": "dcc-0863"
+    },
+    {
+      "duplicate_group_id": "canon-24e9b80a299e",
+      "candidate_ids": [
+        "dcc-0864"
+      ],
+      "canonical_candidate_id": "dcc-0864"
+    },
+    {
+      "duplicate_group_id": "canon-f45a28db7701",
+      "candidate_ids": [
+        "dcc-0865"
+      ],
+      "canonical_candidate_id": "dcc-0865"
+    },
+    {
+      "duplicate_group_id": "canon-8fe8142862dc",
+      "candidate_ids": [
+        "dcc-0866"
+      ],
+      "canonical_candidate_id": "dcc-0866"
+    },
+    {
+      "duplicate_group_id": "canon-c6f102269085",
+      "candidate_ids": [
+        "dcc-0867"
+      ],
+      "canonical_candidate_id": "dcc-0867"
+    },
+    {
+      "duplicate_group_id": "canon-f7a6e3bbc1f7",
+      "candidate_ids": [
+        "dcc-0868"
+      ],
+      "canonical_candidate_id": "dcc-0868"
+    },
+    {
+      "duplicate_group_id": "canon-240e30819058",
+      "candidate_ids": [
+        "dcc-0869"
+      ],
+      "canonical_candidate_id": "dcc-0869"
+    },
+    {
+      "duplicate_group_id": "canon-6900583dea52",
+      "candidate_ids": [
+        "dcc-0870"
+      ],
+      "canonical_candidate_id": "dcc-0870"
+    },
+    {
+      "duplicate_group_id": "canon-d705c699b601",
+      "candidate_ids": [
+        "dcc-0871"
+      ],
+      "canonical_candidate_id": "dcc-0871"
+    },
+    {
+      "duplicate_group_id": "canon-3b44effa450a",
+      "candidate_ids": [
+        "dcc-0872"
+      ],
+      "canonical_candidate_id": "dcc-0872"
+    },
+    {
+      "duplicate_group_id": "canon-681e7de33453",
+      "candidate_ids": [
+        "dcc-0873"
+      ],
+      "canonical_candidate_id": "dcc-0873"
+    },
+    {
+      "duplicate_group_id": "canon-4f6589a53c0e",
+      "candidate_ids": [
+        "dcc-0874"
+      ],
+      "canonical_candidate_id": "dcc-0874"
+    },
+    {
+      "duplicate_group_id": "canon-bd190dcc4db6",
+      "candidate_ids": [
+        "dcc-0875"
+      ],
+      "canonical_candidate_id": "dcc-0875"
+    },
+    {
+      "duplicate_group_id": "canon-c6603e2e93db",
+      "candidate_ids": [
+        "dcc-0876"
+      ],
+      "canonical_candidate_id": "dcc-0876"
+    },
+    {
+      "duplicate_group_id": "canon-046902ebbf50",
+      "candidate_ids": [
+        "dcc-0877"
+      ],
+      "canonical_candidate_id": "dcc-0877"
+    },
+    {
+      "duplicate_group_id": "canon-d962f57bb1f1",
+      "candidate_ids": [
+        "dcc-0878"
+      ],
+      "canonical_candidate_id": "dcc-0878"
+    },
+    {
+      "duplicate_group_id": "canon-f9c0f547025c",
+      "candidate_ids": [
+        "dcc-0879"
+      ],
+      "canonical_candidate_id": "dcc-0879"
+    },
+    {
+      "duplicate_group_id": "canon-251796abbad5",
+      "candidate_ids": [
+        "dcc-0880"
+      ],
+      "canonical_candidate_id": "dcc-0880"
+    },
+    {
+      "duplicate_group_id": "canon-8b18bcb219e1",
+      "candidate_ids": [
+        "dcc-0881"
+      ],
+      "canonical_candidate_id": "dcc-0881"
+    },
+    {
+      "duplicate_group_id": "canon-eac41cda55a6",
+      "candidate_ids": [
+        "dcc-0882"
+      ],
+      "canonical_candidate_id": "dcc-0882"
+    },
+    {
+      "duplicate_group_id": "canon-03074c2cd2a0",
+      "candidate_ids": [
+        "dcc-0883"
+      ],
+      "canonical_candidate_id": "dcc-0883"
+    },
+    {
+      "duplicate_group_id": "canon-8aff159f8bd1",
+      "candidate_ids": [
+        "dcc-0884"
+      ],
+      "canonical_candidate_id": "dcc-0884"
+    },
+    {
+      "duplicate_group_id": "canon-2ba7e39c0ddc",
+      "candidate_ids": [
+        "dcc-0885"
+      ],
+      "canonical_candidate_id": "dcc-0885"
+    },
+    {
+      "duplicate_group_id": "canon-784cceaec87d",
+      "candidate_ids": [
+        "dcc-0886"
+      ],
+      "canonical_candidate_id": "dcc-0886"
+    },
+    {
+      "duplicate_group_id": "canon-0384f98415a6",
+      "candidate_ids": [
+        "dcc-0887"
+      ],
+      "canonical_candidate_id": "dcc-0887"
+    },
+    {
+      "duplicate_group_id": "canon-5ecd4a022749",
+      "candidate_ids": [
+        "dcc-0888"
+      ],
+      "canonical_candidate_id": "dcc-0888"
+    },
+    {
+      "duplicate_group_id": "canon-fecb6d14a1b4",
+      "candidate_ids": [
+        "dcc-0889"
+      ],
+      "canonical_candidate_id": "dcc-0889"
+    },
+    {
+      "duplicate_group_id": "canon-7011b5960fce",
+      "candidate_ids": [
+        "dcc-0890"
+      ],
+      "canonical_candidate_id": "dcc-0890"
+    },
+    {
+      "duplicate_group_id": "canon-aaea61f514b2",
+      "candidate_ids": [
+        "dcc-0891"
+      ],
+      "canonical_candidate_id": "dcc-0891"
+    },
+    {
+      "duplicate_group_id": "canon-b2db2bd2ee7e",
+      "candidate_ids": [
+        "dcc-0892"
+      ],
+      "canonical_candidate_id": "dcc-0892"
+    },
+    {
+      "duplicate_group_id": "canon-c1ff771b5d51",
+      "candidate_ids": [
+        "dcc-0893"
+      ],
+      "canonical_candidate_id": "dcc-0893"
+    },
+    {
+      "duplicate_group_id": "canon-29f894c312c1",
+      "candidate_ids": [
+        "dcc-0894"
+      ],
+      "canonical_candidate_id": "dcc-0894"
+    },
+    {
+      "duplicate_group_id": "canon-7e95eb6a1972",
+      "candidate_ids": [
+        "dcc-0895"
+      ],
+      "canonical_candidate_id": "dcc-0895"
+    },
+    {
+      "duplicate_group_id": "canon-c198dea5bb71",
+      "candidate_ids": [
+        "dcc-0896"
+      ],
+      "canonical_candidate_id": "dcc-0896"
+    },
+    {
+      "duplicate_group_id": "canon-a9f05a2d8c4f",
+      "candidate_ids": [
+        "dcc-0897"
+      ],
+      "canonical_candidate_id": "dcc-0897"
+    },
+    {
+      "duplicate_group_id": "canon-9a4a545eb3ea",
+      "candidate_ids": [
+        "dcc-0898"
+      ],
+      "canonical_candidate_id": "dcc-0898"
+    },
+    {
+      "duplicate_group_id": "canon-db8834ce0b8e",
+      "candidate_ids": [
+        "dcc-0899"
+      ],
+      "canonical_candidate_id": "dcc-0899"
+    },
+    {
+      "duplicate_group_id": "canon-e8d3976da61a",
+      "candidate_ids": [
+        "dcc-0900"
+      ],
+      "canonical_candidate_id": "dcc-0900"
+    },
+    {
+      "duplicate_group_id": "canon-d57c4fa11b19",
+      "candidate_ids": [
+        "dcc-0901"
+      ],
+      "canonical_candidate_id": "dcc-0901"
+    },
+    {
+      "duplicate_group_id": "canon-36a2b9650e63",
+      "candidate_ids": [
+        "dcc-0902"
+      ],
+      "canonical_candidate_id": "dcc-0902"
+    },
+    {
+      "duplicate_group_id": "canon-2f41fcad055d",
+      "candidate_ids": [
+        "dcc-0903"
+      ],
+      "canonical_candidate_id": "dcc-0903"
+    },
+    {
+      "duplicate_group_id": "canon-2841367ba81a",
+      "candidate_ids": [
+        "dcc-0904"
+      ],
+      "canonical_candidate_id": "dcc-0904"
+    },
+    {
+      "duplicate_group_id": "canon-0ab8af17a20a",
+      "candidate_ids": [
+        "dcc-0905"
+      ],
+      "canonical_candidate_id": "dcc-0905"
+    },
+    {
+      "duplicate_group_id": "canon-38ab9ae58e0e",
+      "candidate_ids": [
+        "dcc-0906"
+      ],
+      "canonical_candidate_id": "dcc-0906"
+    },
+    {
+      "duplicate_group_id": "canon-110766ddab32",
+      "candidate_ids": [
+        "dcc-0907"
+      ],
+      "canonical_candidate_id": "dcc-0907"
+    },
+    {
+      "duplicate_group_id": "canon-1b34646a230a",
+      "candidate_ids": [
+        "dcc-0908"
+      ],
+      "canonical_candidate_id": "dcc-0908"
+    },
+    {
+      "duplicate_group_id": "canon-a4fadbd2e11f",
+      "candidate_ids": [
+        "dcc-0909"
+      ],
+      "canonical_candidate_id": "dcc-0909"
+    },
+    {
+      "duplicate_group_id": "canon-6ab5e5780166",
+      "candidate_ids": [
+        "dcc-0910"
+      ],
+      "canonical_candidate_id": "dcc-0910"
+    },
+    {
+      "duplicate_group_id": "canon-99a0acb6808c",
+      "candidate_ids": [
+        "dcc-0911"
+      ],
+      "canonical_candidate_id": "dcc-0911"
+    },
+    {
+      "duplicate_group_id": "canon-d865af6fe347",
+      "candidate_ids": [
+        "dcc-0912"
+      ],
+      "canonical_candidate_id": "dcc-0912"
+    },
+    {
+      "duplicate_group_id": "canon-6ee5c827cc68",
+      "candidate_ids": [
+        "dcc-0913"
+      ],
+      "canonical_candidate_id": "dcc-0913"
+    },
+    {
+      "duplicate_group_id": "canon-bfe511de336f",
+      "candidate_ids": [
+        "dcc-0914"
+      ],
+      "canonical_candidate_id": "dcc-0914"
+    },
+    {
+      "duplicate_group_id": "canon-c4f91df94a4a",
+      "candidate_ids": [
+        "dcc-0915"
+      ],
+      "canonical_candidate_id": "dcc-0915"
+    },
+    {
+      "duplicate_group_id": "canon-486716f3868f",
+      "candidate_ids": [
+        "dcc-0916"
+      ],
+      "canonical_candidate_id": "dcc-0916"
+    },
+    {
+      "duplicate_group_id": "canon-2c360181f913",
+      "candidate_ids": [
+        "dcc-0917"
+      ],
+      "canonical_candidate_id": "dcc-0917"
+    },
+    {
+      "duplicate_group_id": "canon-71d7a9603c17",
+      "candidate_ids": [
+        "dcc-0918"
+      ],
+      "canonical_candidate_id": "dcc-0918"
+    },
+    {
+      "duplicate_group_id": "canon-f3e3fd332e1d",
+      "candidate_ids": [
+        "dcc-0919"
+      ],
+      "canonical_candidate_id": "dcc-0919"
+    },
+    {
+      "duplicate_group_id": "canon-5ca55f62172c",
+      "candidate_ids": [
+        "dcc-0920"
+      ],
+      "canonical_candidate_id": "dcc-0920"
+    },
+    {
+      "duplicate_group_id": "canon-d2c7544324f0",
+      "candidate_ids": [
+        "dcc-0921"
+      ],
+      "canonical_candidate_id": "dcc-0921"
+    },
+    {
+      "duplicate_group_id": "canon-0294a914ee90",
+      "candidate_ids": [
+        "dcc-0922"
+      ],
+      "canonical_candidate_id": "dcc-0922"
+    },
+    {
+      "duplicate_group_id": "canon-96911f4e1623",
+      "candidate_ids": [
+        "dcc-0923"
+      ],
+      "canonical_candidate_id": "dcc-0923"
+    },
+    {
+      "duplicate_group_id": "canon-37b8e614fce2",
+      "candidate_ids": [
+        "dcc-0925"
+      ],
+      "canonical_candidate_id": "dcc-0925"
+    },
+    {
+      "duplicate_group_id": "canon-116691ac101f",
+      "candidate_ids": [
+        "dcc-0926"
+      ],
+      "canonical_candidate_id": "dcc-0926"
+    },
+    {
+      "duplicate_group_id": "canon-0d5cf65cfbcb",
+      "candidate_ids": [
+        "dcc-0927"
+      ],
+      "canonical_candidate_id": "dcc-0927"
+    },
+    {
+      "duplicate_group_id": "canon-9a0554c538ef",
+      "candidate_ids": [
+        "dcc-0928"
+      ],
+      "canonical_candidate_id": "dcc-0928"
+    },
+    {
+      "duplicate_group_id": "canon-4d2005ee48eb",
+      "candidate_ids": [
+        "dcc-0929"
+      ],
+      "canonical_candidate_id": "dcc-0929"
+    },
+    {
+      "duplicate_group_id": "canon-02ec5ec40e32",
+      "candidate_ids": [
+        "dcc-0930"
+      ],
+      "canonical_candidate_id": "dcc-0930"
+    },
+    {
+      "duplicate_group_id": "canon-281e4214c808",
+      "candidate_ids": [
+        "dcc-0931"
+      ],
+      "canonical_candidate_id": "dcc-0931"
+    },
+    {
+      "duplicate_group_id": "canon-e69b190256b6",
+      "candidate_ids": [
+        "dcc-0932"
+      ],
+      "canonical_candidate_id": "dcc-0932"
+    },
+    {
+      "duplicate_group_id": "canon-04941d7c3621",
+      "candidate_ids": [
+        "dcc-0933"
+      ],
+      "canonical_candidate_id": "dcc-0933"
+    },
+    {
+      "duplicate_group_id": "canon-8c28fb26982c",
+      "candidate_ids": [
+        "dcc-0934"
+      ],
+      "canonical_candidate_id": "dcc-0934"
+    },
+    {
+      "duplicate_group_id": "canon-7726777ba99f",
+      "candidate_ids": [
+        "dcc-0935"
+      ],
+      "canonical_candidate_id": "dcc-0935"
+    },
+    {
+      "duplicate_group_id": "canon-2d03c6022a03",
+      "candidate_ids": [
+        "dcc-0936"
+      ],
+      "canonical_candidate_id": "dcc-0936"
+    },
+    {
+      "duplicate_group_id": "canon-6c60be5d7f2b",
+      "candidate_ids": [
+        "dcc-0937"
+      ],
+      "canonical_candidate_id": "dcc-0937"
+    },
+    {
+      "duplicate_group_id": "canon-7371e99b4fcf",
+      "candidate_ids": [
+        "dcc-0938"
+      ],
+      "canonical_candidate_id": "dcc-0938"
+    },
+    {
+      "duplicate_group_id": "canon-fcf17ddb6c00",
+      "candidate_ids": [
+        "dcc-0939"
+      ],
+      "canonical_candidate_id": "dcc-0939"
+    },
+    {
+      "duplicate_group_id": "canon-4764db7b6b3f",
+      "candidate_ids": [
+        "dcc-0940"
+      ],
+      "canonical_candidate_id": "dcc-0940"
+    },
+    {
+      "duplicate_group_id": "canon-42629e8f2bea",
+      "candidate_ids": [
+        "dcc-0941"
+      ],
+      "canonical_candidate_id": "dcc-0941"
+    },
+    {
+      "duplicate_group_id": "canon-246dc0e3bd94",
+      "candidate_ids": [
+        "dcc-0942"
+      ],
+      "canonical_candidate_id": "dcc-0942"
+    },
+    {
+      "duplicate_group_id": "canon-1b4aa2727789",
+      "candidate_ids": [
+        "dcc-0943"
+      ],
+      "canonical_candidate_id": "dcc-0943"
+    },
+    {
+      "duplicate_group_id": "canon-a9f4c78a7eae",
+      "candidate_ids": [
+        "dcc-0944"
+      ],
+      "canonical_candidate_id": "dcc-0944"
+    },
+    {
+      "duplicate_group_id": "canon-d0dae74cc25f",
+      "candidate_ids": [
+        "dcc-0945"
+      ],
+      "canonical_candidate_id": "dcc-0945"
+    },
+    {
+      "duplicate_group_id": "canon-44491d390cec",
+      "candidate_ids": [
+        "dcc-0946"
+      ],
+      "canonical_candidate_id": "dcc-0946"
+    }
+  ],
+  "total_groups": 920,
+  "duplicate_groups": 3
+}

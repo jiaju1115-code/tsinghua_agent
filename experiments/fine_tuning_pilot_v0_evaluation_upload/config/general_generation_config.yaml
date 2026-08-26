@@ -1,0 +1,6 @@
+seed: 42
+do_sample: false
+max_new_tokens: 512
+local_files_only: true
+dtype: bfloat16
+system_prompt: null

@@ -1,0 +1,11 @@
+{
+  "general_v0_1_cases": 100,
+  "methods": [
+    "exact",
+    "normalized",
+    "token-Jaccard lexical >= 0.55"
+  ],
+  "accepted_leakage_count": 0,
+  "rejected_for_eval_leakage": 0,
+  "pass": true
+}

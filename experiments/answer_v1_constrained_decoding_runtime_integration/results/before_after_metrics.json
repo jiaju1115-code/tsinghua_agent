@@ -1,0 +1,18 @@
+{
+  "version": "ANSWER_V1_CONSTRAINED_RUNTIME_BEFORE_AFTER_V1",
+  "before": {
+    "positive_answer_rate": 0.5,
+    "full_support_rate": 0.25,
+    "runtime_completion": 0.625,
+    "citation_presence": 1.0,
+    "paraphrase_robustness": "1/3"
+  },
+  "after": {
+    "positive_answer_rate": 0.875,
+    "full_support_rate": 0.25,
+    "runtime_completion": 1.0,
+    "citation_presence": 1.0,
+    "paraphrase_robustness": "3/3"
+  },
+  "attribution": "STRUCTURED_OUTPUT_COMPLIANCE for POS002/POS006/POS008; Evidence/Citation stages unchanged"
+}

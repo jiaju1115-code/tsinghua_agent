@@ -1,0 +1,177 @@
+{
+  "version": "EVIDENCE_PARAPHRASE_FALSE_PROMOTE_AUDIT_V1",
+  "candidates": [
+    {
+      "candidate": "BASELINE",
+      "safety_cases": [
+        {
+          "case_id": "DEMO005",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "DEMO006",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "DEMO012",
+          "baseline": "SUFFICIENT",
+          "candidate": "SUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_AMOUNT",
+          "baseline": "PARTIAL",
+          "candidate": "PARTIAL",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_CONTACT",
+          "baseline": "PARTIAL",
+          "candidate": "PARTIAL",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_ENTITY_OTHER",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        }
+      ],
+      "false_promote_count": 0,
+      "gate": "PASS"
+    },
+    {
+      "candidate": "ENTITY_GUARD",
+      "safety_cases": [
+        {
+          "case_id": "DEMO005",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "DEMO006",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "DEMO012",
+          "baseline": "SUFFICIENT",
+          "candidate": "SUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_AMOUNT",
+          "baseline": "PARTIAL",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_CONTACT",
+          "baseline": "PARTIAL",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_ENTITY_OTHER",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        }
+      ],
+      "false_promote_count": 0,
+      "gate": "PASS"
+    },
+    {
+      "candidate": "PARAPHRASE_NORMALIZATION",
+      "safety_cases": [
+        {
+          "case_id": "DEMO005",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "DEMO006",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "DEMO012",
+          "baseline": "SUFFICIENT",
+          "candidate": "SUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_AMOUNT",
+          "baseline": "PARTIAL",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_CONTACT",
+          "baseline": "PARTIAL",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_ENTITY_OTHER",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        }
+      ],
+      "false_promote_count": 0,
+      "gate": "PASS"
+    },
+    {
+      "candidate": "SEMANTIC_RESCUE",
+      "safety_cases": [
+        {
+          "case_id": "DEMO005",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "DEMO006",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "DEMO012",
+          "baseline": "SUFFICIENT",
+          "candidate": "SUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_AMOUNT",
+          "baseline": "PARTIAL",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_CONTACT",
+          "baseline": "PARTIAL",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        },
+        {
+          "case_id": "HN_ENTITY_OTHER",
+          "baseline": "INSUFFICIENT",
+          "candidate": "INSUFFICIENT",
+          "false_promote": false
+        }
+      ],
+      "false_promote_count": 0,
+      "gate": "PASS"
+    }
+  ]
+}

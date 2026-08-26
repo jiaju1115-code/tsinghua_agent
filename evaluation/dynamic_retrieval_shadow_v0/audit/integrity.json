@@ -1,0 +1,10 @@
+{
+  "raw_sha256": "f2d26bb0fed32d851fd510a4483beef041fac634870c824527f31be841adde92",
+  "recovery_queue_status": "PENDING_AUTH_RECOVERY",
+  "frozen_core_modified": false,
+  "frozen_paths_checked": [
+    "data/03_knowledge_base/v1",
+    "src",
+    "evaluation"
+  ]
+}

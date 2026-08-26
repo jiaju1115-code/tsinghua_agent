@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exact_overlap": 0,
+  "normalized_overlap": 0,
+  "lexical_near_overlap": 0,
+  "lexical_threshold": 0.9,
+  "lexical_pairs": [],
+  "semantic_near_overlap": 0,
+  "semantic_method": "local char_wb TF-IDF cosine",
+  "semantic_threshold": 0.985
+}

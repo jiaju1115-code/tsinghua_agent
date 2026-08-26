@@ -1,0 +1,37 @@
+[
+  {
+    "dataset": "OpenAssistant/oasst1",
+    "repo": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+    "license": "Apache-2.0",
+    "decision": "METADATA_ONLY_PENDING_SAMPLE_FILTER",
+    "benchmark_risk": "medium"
+  },
+  {
+    "dataset": "openai/gsm8k",
+    "repo": "https://huggingface.co/datasets/openai/gsm8k",
+    "license": "MIT",
+    "decision": "EVAL_ONLY",
+    "benchmark_risk": "high"
+  },
+  {
+    "dataset": "cais/mmlu",
+    "repo": "https://huggingface.co/datasets/cais/mmlu/tree/main",
+    "license": "MIT",
+    "decision": "EVAL_ONLY",
+    "benchmark_risk": "high"
+  },
+  {
+    "dataset": "allenai/ai2_arc",
+    "repo": "https://huggingface.co/datasets/allenai/ai2_arc/tree/main",
+    "license": "CC-BY-SA-4.0",
+    "decision": "EVAL_ONLY",
+    "benchmark_risk": "high"
+  },
+  {
+    "dataset": "Open-Orca/OpenOrca",
+    "repo": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+    "license": "MIT reported in prior audit",
+    "decision": "EXCLUDE",
+    "benchmark_risk": "high"
+  }
+]

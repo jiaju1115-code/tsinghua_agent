@@ -1,0 +1,27 @@
+base_model: Qwen/Qwen2.5-1.5B-Instruct
+output_dir: outputs
+run_name_prefix: pilot_v0
+seed: 42
+epochs: 2
+learning_rate: 0.0001
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 2
+max_seq_length: 2048
+bf16: true
+fp16: false
+gradient_checkpointing: false
+logging_steps: 5
+eval_steps: 10
+save_steps: 20
+save_total_limit: 3
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj]
+sampling:
+  family_aware: true
+  mathematical_reasoning_target_ratio: 0.35
+  epoch_sample_count: 757
+  method: deterministic_replacement_sampling
+  note: Mathematical reasoning is targeted at 35%; all remaining examples are sampled from the non-math pool in its original aggregate proportion. No synthetic data is created.

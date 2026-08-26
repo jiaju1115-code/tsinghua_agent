@@ -1,0 +1,54 @@
+{
+  "runtime_version": "RUNTIME_V1",
+  "answer_prompt_freeze_version": "ANSWER_V1_PROMPT_FREEZE_V1.1",
+  "results": [
+    {
+      "case": "supported_ready_oriented",
+      "status": "COMPLETED",
+      "retrieval_status": "SUCCESS",
+      "evidence_status": "PARTIAL",
+      "citation_status": "PARTIAL",
+      "answer_status": "PARTIAL_ANSWER",
+      "answer_error": null,
+      "model_called": true,
+      "prompt_freeze": {
+        "version": "ANSWER_V1_PROMPT_FREEZE_V1.1",
+        "text_hash_mode": "CANONICAL_TEXT_V1",
+        "verified_artifacts": "evaluation/answer_generation/runtime_v1/prompts/answer_generation_v1_prompt.md"
+      },
+      "refused": false
+    },
+    {
+      "case": "partial",
+      "status": "COMPLETED",
+      "retrieval_status": "SUCCESS",
+      "evidence_status": "PARTIAL",
+      "citation_status": "PARTIAL",
+      "answer_status": "PARTIAL_ANSWER",
+      "answer_error": null,
+      "model_called": true,
+      "prompt_freeze": {
+        "version": "ANSWER_V1_PROMPT_FREEZE_V1.1",
+        "text_hash_mode": "CANONICAL_TEXT_V1",
+        "verified_artifacts": "evaluation/answer_generation/runtime_v1/prompts/answer_generation_v1_prompt.md"
+      },
+      "refused": false
+    },
+    {
+      "case": "refusal",
+      "status": "COMPLETED",
+      "retrieval_status": "SUCCESS",
+      "evidence_status": "INSUFFICIENT",
+      "citation_status": "BLOCKED",
+      "answer_status": "REFUSAL",
+      "answer_error": null,
+      "model_called": false,
+      "prompt_freeze": {
+        "version": "ANSWER_V1_PROMPT_FREEZE_V1.1",
+        "text_hash_mode": "CANONICAL_TEXT_V1",
+        "verified_artifacts": "evaluation/answer_generation/runtime_v1/prompts/answer_generation_v1_prompt.md"
+      },
+      "refused": true
+    }
+  ]
+}

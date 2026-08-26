@@ -1,0 +1,3 @@
+{"case_id":"POS002","strategy":"BASELINE","final_status":"E2E_ERROR","answer_status":"REFUSAL","reason_codes":["ANSWER_SCHEMA_INVALID","MODEL_CALLED","SAFE_REFUSAL"],"failure_type":"DUPLICATE_REQUIRED_POINT","latency_ms":14687.933}
+{"case_id":"POS006","strategy":"BASELINE","final_status":"E2E_ERROR","answer_status":"REFUSAL","reason_codes":["INVALID_SUPPORT_REFERENCE","MODEL_CALLED","SAFE_REFUSAL"],"failure_type":"WRONG_SUPPORT_BINDING","latency_ms":16967.178}
+{"case_id":"POS008","strategy":"BASELINE","final_status":"E2E_ERROR","answer_status":"REFUSAL","reason_codes":["MODEL_CALLED","PARTIAL_SCOPE_VIOLATION","SAFE_REFUSAL"],"failure_type":"MISSING_ALLOWED_POINT","latency_ms":18836.423}

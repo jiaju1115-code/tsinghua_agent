@@ -1,0 +1,22 @@
+{
+  "runtime_version": "RUNTIME_V1",
+  "freeze": "FROZEN_BUNDLE_V1.1",
+  "query": "清华大学在奖学金评选当年如何表彰获奖者？",
+  "result": {
+    "orchestrator_status": "E2E_ERROR",
+    "retrieval_status": "SUCCESS",
+    "evidence_status": "PARTIAL",
+    "citation_status": "PARTIAL",
+    "answer_status": "ERROR"
+  },
+  "blocker": {
+    "code": "ANSWER_ERROR",
+    "module": "src/answer_generation_v1/runtime.py",
+    "message": "frozen prompt file is missing or has a hash mismatch",
+    "prompt_path": "evaluation/answer_generation/runtime_v1/prompts/answer_generation_v1_prompt.md",
+    "expected_sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb",
+    "actual_raw_sha256": "234be7ae54bb870399f9f8c90542b5efa76361bfe4d946c9e1a0980e3e9042bc",
+    "canonical_text_v1_sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb"
+  },
+  "interpretation": "The prompt content is line-ending equivalent under CANONICAL_TEXT_V1, but frozen Answer V1 currently enforces RAW SHA-256. Runtime V1 did not bypass this contract."
+}

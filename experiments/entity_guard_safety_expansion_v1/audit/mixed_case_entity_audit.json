@@ -1,0 +1,84 @@
+{
+  "version": "ENTITY_GUARD_MIXED_CASE_AUDIT_V1",
+  "cases": [
+    {
+      "case_id": "C01",
+      "pseudo_entities": [
+        "请问"
+      ],
+      "ignored_terms": [
+        {
+          "term": "请问清华大学",
+          "replacement": "清华大学",
+          "reason": "NON_CONSTRAINT_QUERY_PREFIX"
+        }
+      ],
+      "retained_hard_entities": [
+        "清华大学"
+      ],
+      "expected_behavior": "IGNORE_PREFIX_KEEP_ENTITY",
+      "selective_ignore_pass": false
+    },
+    {
+      "case_id": "C02",
+      "pseudo_entities": [
+        "关于"
+      ],
+      "ignored_terms": [],
+      "retained_hard_entities": [
+        "清华大学"
+      ],
+      "expected_behavior": "IGNORE_PREFIX_KEEP_ENTITY",
+      "selective_ignore_pass": false
+    },
+    {
+      "case_id": "C03",
+      "pseudo_entities": [
+        "如果想申请"
+      ],
+      "ignored_terms": [],
+      "retained_hard_entities": [
+        "如果想申请北京大学"
+      ],
+      "expected_behavior": "RETAIN_ALL_TRUE_ENTITIES",
+      "selective_ignore_pass": true
+    },
+    {
+      "case_id": "C04",
+      "pseudo_entities": [
+        "想了解一下"
+      ],
+      "ignored_terms": [
+        {
+          "term": "想了解一下清华大学",
+          "replacement": "清华大学",
+          "reason": "NON_CONSTRAINT_QUERY_PREFIX"
+        }
+      ],
+      "retained_hard_entities": [
+        "清华大学"
+      ],
+      "expected_behavior": "RETAIN_ALL_TRUE_ENTITIES",
+      "selective_ignore_pass": false
+    },
+    {
+      "case_id": "C05",
+      "pseudo_entities": [
+        "请告诉我"
+      ],
+      "ignored_terms": [
+        {
+          "term": "请告诉我清华大学",
+          "replacement": "清华大学",
+          "reason": "NON_CONSTRAINT_QUERY_PREFIX"
+        }
+      ],
+      "retained_hard_entities": [
+        "清华大学"
+      ],
+      "expected_behavior": "IGNORE_PREFIX_KEEP_ENTITY",
+      "selective_ignore_pass": false
+    }
+  ],
+  "all_pass": false
+}

@@ -1,0 +1,28 @@
+{
+  "submission_candidate_id": "SUBMISSION_CANDIDATE_V1",
+  "final_decision": "SUBMISSION_READY",
+  "frozen_integrity": "PASS_WITH_RECONCILIATION",
+  "reconciliation_report": "reports/frozen_integrity_reconciliation_v1.md",
+  "runtime": {
+    "knowledge_base": "KNOWLEDGE_BASE_V1",
+    "retriever": "RAG_RETRIEVAL_V1 via FROZEN_BUNDLE_V1.1 CANONICAL_TEXT_V1 loader",
+    "evidence": "EVIDENCE_SUFFICIENCY_V1",
+    "citation": "CITATION_SUPPORT_V1",
+    "natural_response": "NATURAL_UNCERTAINTY_RUNTIME_ADAPTER_V1"
+  },
+  "natural_response_status": {
+    "regression": "30/30",
+    "adapter_smoke": "6/6",
+    "unsupported_campus_claim_rate": 0.0,
+    "citation_integrity": 1.0
+  },
+  "pilot_v1": {
+    "status": "VALIDATED_WITH_MODEST_GAIN",
+    "submission_runtime": "NOT_IN_SUBMISSION_RUNTIME"
+  },
+  "known_limitations": [
+    "Formal held-out E2E has not been run.",
+    "Pilot V1 Base plus LoRA load smoke is unavailable without a local Qwen Base snapshot.",
+    "legacy_data_second is NOT_COMPLETED_DUE_TO_LOCAL_MODEL_RUNTIME_STALL."
+  ]
+}

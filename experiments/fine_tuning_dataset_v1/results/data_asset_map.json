@@ -1,0 +1,56 @@
+{
+  "campus_source_documents": {
+    "canonical_md_count": 1989,
+    "approved_document_count": 30,
+    "chunk_count": 488,
+    "category_distribution": {
+      "住宿服务": 27,
+      "教务与学籍": 259,
+      "医疗健康": 29,
+      "学生事务": 8,
+      "国际事务与签证": 69,
+      "就业与职业发展": 17,
+      "交通服务": 4,
+      "网络与信息化": 10,
+      "奖助与资助": 8,
+      "校园机构与部门": 23,
+      "科研参与与资源导航": 7,
+      "教学与培养": 5,
+      "校园文化与历史": 2,
+      "餐饮服务": 3,
+      "校园综合服务": 17
+    },
+    "source_domain_distribution": {
+      "www.tsinghua.edu.cn": 186,
+      "www.thsports.tsinghua.edu.cn": 3,
+      "www.med.tsinghua.edu.cn": 9,
+      "www.is.tsinghua.edu.cn": 108,
+      "dag.tsinghua.edu.cn": 7,
+      "career.cic.tsinghua.edu.cn": 4,
+      "career.tsinghua.edu.cn": 22,
+      "learning.tsinghua.edu.cn": 5,
+      "qzc.tsinghua.edu.cn": 60,
+      "www.wyc.tsinghua.edu.cn": 3,
+      "www.itc.tsinghua.edu.cn": 1,
+      "www.sysc.tsinghua.edu.cn": 1,
+      "www.tyzx.tsinghua.edu.cn": 1,
+      "xyy.tsinghua.edu.cn": 7,
+      "zkzx.tsinghua.edu.cn": 2,
+      "tsimf.tsinghua.edu.cn": 1,
+      "ac.tsinghua.edu.cn": 23,
+      "info.tsinghua.edu.cn": 45
+    }
+  },
+  "existing_assets": {
+    "confirmed_hard_negatives": 16,
+    "valid_partials": 20,
+    "policy_mismatch": 7,
+    "eligible_chunk_seed_count": 29
+  },
+  "held_out_assets": [
+    "DEMO002",
+    "DEMO013",
+    "POS003"
+  ],
+  "general_capability": "research_only"
+}

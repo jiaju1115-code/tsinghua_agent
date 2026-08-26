@@ -1,0 +1,9 @@
+{
+  "dynamic_raw_sha256": "f2d26bb0fed32d851fd510a4483beef041fac634870c824527f31be841adde92",
+  "expected_dynamic_raw_sha256": "f2d26bb0fed32d851fd510a4483beef041fac634870c824527f31be841adde92",
+  "knowledge_freeze_actual": "8c4ee077c44d99c580c043abd8818dd50720d484746cb31049ed00af02f94cbd",
+  "knowledge_freeze_sidecar": "e54315552f65458570ca9d4108e8e592e8638a331f21012e92e120f87b0edf8b",
+  "rag_freeze_actual": "b403174e361cfd5915c319e1e60713925fbf6895bec16b4a7096134c1018a479",
+  "rag_freeze_sidecar": "37364781a7061fd10cdf0fd75d29b22c620999e4afe24aabab6357318766e76d",
+  "frozen_files_modified_by_this_run": false
+}

@@ -1,0 +1,42 @@
+{
+  "base_model": "/gpfs/home/zhaobindq/linyx/Qwen2.5-1.5B-Instruct",
+  "output_dir": "outputs_balanced_mb4",
+  "run_name_prefix": "pilot_v1_balanced_mb4",
+  "seed": 42,
+  "epochs": 2,
+  "learning_rate": 0.0001,
+  "per_device_train_batch_size": 4,
+  "gradient_accumulation_steps": 4,
+  "max_seq_length": 2048,
+  "bf16": true,
+  "fp16": false,
+  "gradient_checkpointing": false,
+  "logging_steps": 5,
+  "eval_steps": 10,
+  "save_steps": 20,
+  "save_total_limit": 3,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "sampling": {
+    "family_aware": false,
+    "epoch_sample_count": 1080,
+    "method": "full_epoch_seeded_shuffle",
+    "note": "Pilot V1 uses the frozen balanced train-set distribution directly. All 1080 training examples are exposed once per epoch under seeded shuffle. No family oversampling or replacement sampling is used. Total math exposure therefore follows the frozen train-set ratio (~15%)."
+  },
+  "freeze_id": "PILOT_V1_GENERAL_REPLAY_FROZEN",
+  "dataset": {
+    "train": "data/train.jsonl",
+    "validation": "data/validation.jsonl",
+    "train_sha256": "5b6d47f9ab88493b095cba0e7eb2fa5757f5b338ba0086d4756046e40eb07ec2",
+    "validation_sha256": "b58eeae79b33e228d1b62cf254f7b317d36400ffc9609457491820cce5edff6c"
+  }
+}

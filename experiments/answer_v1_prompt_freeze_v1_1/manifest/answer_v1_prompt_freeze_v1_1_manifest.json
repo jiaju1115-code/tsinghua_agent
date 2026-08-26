@@ -1,0 +1,32 @@
+{
+  "version": "ANSWER_V1_PROMPT_FREEZE_V1.1",
+  "status": "APPROVED",
+  "approval_time_utc": "2026-08-16T07:00:36.181880+00:00",
+  "parent_version": "ANSWER_V1_PROMPT_FREEZE_V1",
+  "reason": "cross-platform line-ending portability",
+  "semantic_content_changed": false,
+  "text_hash_mode": "CANONICAL_TEXT_V1",
+  "canonicalization_rules": [
+    "strict UTF-8; remove UTF-8 BOM",
+    "CRLF to LF",
+    "CR to LF",
+    "preserve all other bytes/content",
+    "SHA256 canonical bytes"
+  ],
+  "prompt_artifacts": [
+    {
+      "path": "evaluation/answer_generation/runtime_v1/prompts/answer_generation_v1_prompt.md",
+      "role": "system_prompt",
+      "expected_canonical_sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb",
+      "legacy_raw_sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb",
+      "working_tree_raw_sha256": "234be7ae54bb870399f9f8c90542b5efa76361bfe4d946c9e1a0980e3e9042bc",
+      "git_blob_object_id": "c76351670a680ed9ba88121d2bf466afb31098e5",
+      "git_blob_content_sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb"
+    }
+  ],
+  "audit_references": [
+    "audit/answer_v1_prompt_mismatch_inventory.json",
+    "audit/answer_v1_prompt_semantic_equivalence_audit.json",
+    "results/answer_v1_prompt_portability_tests.json"
+  ]
+}

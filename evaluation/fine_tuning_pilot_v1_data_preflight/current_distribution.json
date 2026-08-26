@@ -1,0 +1,93 @@
+{
+  "formal_pool_paths": [
+    "D:\\python_projects\\tsinghua_ai\\data\\fine_tuning_v1\\general_capability_candidates_v1_2\\basic_code.jsonl",
+    "D:\\python_projects\\tsinghua_ai\\data\\fine_tuning_v1\\general_capability_candidates_v1_2\\basic_science.jsonl",
+    "D:\\python_projects\\tsinghua_ai\\data\\fine_tuning_v1\\general_capability_candidates_v1_2\\calculus.jsonl",
+    "D:\\python_projects\\tsinghua_ai\\data\\fine_tuning_v1\\general_capability_candidates_v1_2\\general_instruction.jsonl",
+    "D:\\python_projects\\tsinghua_ai\\data\\fine_tuning_v1\\general_capability_candidates_v1_2\\general_reasoning.jsonl",
+    "D:\\python_projects\\tsinghua_ai\\data\\fine_tuning_v1\\general_capability_candidates_v1_2\\linear_algebra.jsonl",
+    "D:\\python_projects\\tsinghua_ai\\data\\fine_tuning_v1\\general_capability_candidates_v1_2\\mathematical_reasoning.jsonl",
+    "D:\\python_projects\\tsinghua_ai\\data\\fine_tuning_v1\\general_capability_candidates_v1_2\\probability_statistics.jsonl"
+  ],
+  "pool_hashes": {
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\basic_code.jsonl": "33f4f6b3ec7a60ebc6d679f6ee24ba87cf7687b9f2cd04f5c5f6a4190e30cb00",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\basic_science.jsonl": "bad3e75d676b732ee7a457642bdac9449c462e14e36f91107d84efd355c86f29",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\calculus.jsonl": "199a2b0e7fa7aafade0b61ef20f253f959fd3dc4ec321d392acd3a14baf1b384",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\general_instruction.jsonl": "c5a059b82e69b6b67b5992364ff6f47e600a77fa031f2e56a837e4a08a511ed3",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\general_reasoning.jsonl": "8318610a59f8f428f0869269214e1c4f338da0b7396a55b2db52bfb110b756b6",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\linear_algebra.jsonl": "5347f9100843f9669b862a6a0f1af15c3bab1723fad2a38ccdc09830c25cbe20",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\mathematical_reasoning.jsonl": "5c5bab9fc4bf7d16d6c768e5a4e107fe97ae34f1a704eb910275312aff4c7990",
+    "data\\fine_tuning_v1\\general_capability_candidates_v1_2\\probability_statistics.jsonl": "3fd9959c1032536f7da097297cadc7ba638d678e7d0093541ba2e12ab60b3d74"
+  },
+  "train_path": "D:\\python_projects\\tsinghua_ai\\experiments\\fine_tuning_pilot_v0_evaluation_upload\\data\\training\\train.jsonl",
+  "validation_path": "D:\\python_projects\\tsinghua_ai\\experiments\\fine_tuning_pilot_v0_evaluation_upload\\data\\training\\validation.jsonl",
+  "pilot_consumed_input": "757-row train.jsonl produced from the hash-registered 841-row V1.2 pool",
+  "stable_case_ids": true,
+  "split_counts": {
+    "pool": 841,
+    "train": 757,
+    "validation": 84
+  },
+  "current_pool": {
+    "CODING": 9,
+    "GENERAL_QA_SCIENCE_READING": 55,
+    "PROGRAMMATIC_MATH": 300,
+    "INSTRUCTION_VALUE_FIDELITY": 37,
+    "WRITING_MULTILINGUAL": 90,
+    "GENERAL_REASONING": 51,
+    "OTHER_MATH": 299
+  },
+  "current_train": {
+    "OTHER_MATH": 269,
+    "PROGRAMMATIC_MATH": 270,
+    "GENERAL_QA_SCIENCE_READING": 51,
+    "INSTRUCTION_VALUE_FIDELITY": 34,
+    "GENERAL_REASONING": 46,
+    "WRITING_MULTILINGUAL": 79,
+    "CODING": 8
+  },
+  "original_family": {
+    "BASIC_CODE": 9,
+    "BASIC_SCIENCE": 1,
+    "CALCULUS": 12,
+    "GENERAL_INSTRUCTION": 181,
+    "GENERAL_REASONING": 51,
+    "LINEAR_ALGEBRA": 78,
+    "MATHEMATICAL_REASONING": 499,
+    "PROBABILITY_STATISTICS": 10
+  },
+  "subfamily": "NOT_PRESENT_AS_A_STABLE_FIELD; source_subset and provenance are retained separately",
+  "source_dataset": {
+    "OpenAssistant/oasst1": 242,
+    "Surpem/GEmO": 300,
+    "TIGER-Lab/MathInstruct": 299
+  },
+  "construction_type": {
+    "ORIGINAL": 541,
+    "PROGRAMMATIC_MATH": 300
+  },
+  "language": {
+    "en": 731,
+    "es": 51,
+    "de": 5,
+    "ja": 5,
+    "ru": 12,
+    "fr": 6,
+    "ca": 3,
+    "pl": 2,
+    "vi": 1,
+    "zh": 3,
+    "hu": 1,
+    "eu": 1,
+    "non_en_or_mixed": 20
+  },
+  "analysis_mapping": "family_mapping.json",
+  "duplicate_audit": "Historical topup dedup removed 397/558 raw rows; current exact normalized prompts checked by selection script.",
+  "benchmark_leakage_audit": "PASS; historical eval_rows_used=0",
+  "evaluation_protection": {
+    "exact_or_normalized_overlap_count": 0,
+    "suspicious_near_duplicate_count": 0,
+    "exact_ids": [],
+    "near": []
+  }
+}

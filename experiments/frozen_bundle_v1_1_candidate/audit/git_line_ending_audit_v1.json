@@ -1,0 +1,10 @@
+{
+  "core_autocrlf": "true",
+  "core_eol": null,
+  "gitattributes": null,
+  "repository_blob_line_ending": "LF",
+  "working_tree_line_ending": "CRLF",
+  "checkout_conversion_explains_mismatch": true,
+  "historical_commit": "75a6b89",
+  "expected_hash_basis": "Git blob/raw LF bytes"
+}

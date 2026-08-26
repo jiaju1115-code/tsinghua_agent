@@ -1,0 +1,538 @@
+{
+  "version": "ENTITY_GUARD_FALSE_PROMOTE_AUDIT_V1",
+  "confirmed_false_promotes": [
+    {
+      "case_id": "B03",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "清华大学博士生奖学金申请需要哪些基本条件？",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "清华大学博士生奖学金申请需要哪些基本条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "PARTIALLY_SUPPORTED",
+          "best_support_score": 0.285714,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S1",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.285714,
+              "text": "(经2019~20学年度第7次校务会议审议通过) **第一条** 为了规范学生奖学金管理工作,根据《普通高等学校学生管理规定》(教育部令第41号)以及《清华大学章程》等的相关规定,结合学校实际,制定本规定"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#TITLE",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.285714,
+              "text": "清华大学学生奖学金管理规定"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "B04",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "清华大学研究生奖学金申请需要哪些基本条件？",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "清华大学研究生奖学金申请需要哪些基本条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "PARTIALLY_SUPPORTED",
+          "best_support_score": 0.5,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0082-0002#S6",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0082-0002",
+              "source_id": "KBV1-PUB-PUBV2C-0082",
+              "score": 0.5,
+              "text": "在我校接受学历教育且被认定为家庭经济困难的学生均有资格申请助学金,申请流程及相关要求请参阅《清华大学研究生助学金评定工作实施办法》及当年工作通知"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0082-0002#S8",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0082-0002",
+              "source_id": "KBV1-PUB-PUBV2C-0082",
+              "score": 0.380952,
+              "text": "突发性困难补助全年度可申请,申请流程及相关要求请参阅《清华大学研究生突发性困难补助管理办法》及相关文件"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "B05",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "清华大学博士学位奖学金申请需要哪些基本条件？",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "清华大学博士学位奖学金申请需要哪些基本条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "PARTIALLY_SUPPORTED",
+          "best_support_score": 0.311111,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0074-0001#S5",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0074-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0074",
+              "score": 0.311111,
+              "text": "**第四条** 清华大学学生申请国家助学金的基本条件: (一)热爱社会主义祖国,拥护中国共产党的领导; (二)遵守法律法规及校规校纪,品行端正; (三)学习努力,积极进取,具有良好的学风和科研作风; (四)自立自强,生活俭朴; (五)符合学校学生资助的认定标准"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0074-0001#S3",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0074-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0074",
+              "score": 0.288889,
+              "text": "**第二章 资助标准与申请基本条件** **第三条** 国家助学金主要资助家庭经济困难学生的生活费用开支"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "B06",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "清华大学校外申请奖学金需要哪些基本条件？",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "清华大学校外申请奖学金需要哪些基本条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "PARTIALLY_SUPPORTED",
+          "best_support_score": 0.384615,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0074-0001#S5",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0074-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0074",
+              "score": 0.384615,
+              "text": "**第四条** 清华大学学生申请国家助学金的基本条件: (一)热爱社会主义祖国,拥护中国共产党的领导; (二)遵守法律法规及校规校纪,品行端正; (三)学习努力,积极进取,具有良好的学风和科研作风; (四)自立自强,生活俭朴; (五)符合学校学生资助的认定标准"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S14",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.384615,
+              "text": "**第十二条** 申请奖学金应当满足以下基本条件:"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "B07",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "深圳清华大学奖学金申请需要哪些基本条件？",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "深圳清华大学奖学金申请需要哪些基本条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "NOT_SUPPORTED",
+          "best_support_score": 0.384615,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S8",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.384615,
+              "text": "**第八条** 奖学金命名规范 (一)学校出资设立的奖学金命名规范为“清华大学×××奖学金”; (二)校友出资设立的奖学金命名规范为“清华校友—×××奖学金”,企事业单位、社会人士出资设立的奖学金命名规范为“清华之友—×××奖学金”"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0082-0002#S6",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0082-0002",
+              "source_id": "KBV1-PUB-PUBV2C-0082",
+              "score": 0.307692,
+              "text": "在我校接受学历教育且被认定为家庭经济困难的学生均有资格申请助学金,申请流程及相关要求请参阅《清华大学研究生助学金评定工作实施办法》及当年工作通知"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "深圳清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [
+          {
+            "term": "深圳清华大学",
+            "replacement": "清华大学",
+            "reason": "NON_CONSTRAINT_QUERY_PREFIX"
+          }
+        ],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "C04",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "想了解一下清华大学博士生奖学金申请条件。",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "想了解一下清华大学博士生奖学金申请条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "NOT_SUPPORTED",
+          "best_support_score": 0.235294,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S1",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.235294,
+              "text": "(经2019~20学年度第7次校务会议审议通过) **第一条** 为了规范学生奖学金管理工作,根据《普通高等学校学生管理规定》(教育部令第41号)以及《清华大学章程》等的相关规定,结合学校实际,制定本规定"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#TITLE",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.235294,
+              "text": "清华大学学生奖学金管理规定"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "想了解一下清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [
+          {
+            "term": "想了解一下清华大学",
+            "replacement": "清华大学",
+            "reason": "NON_CONSTRAINT_QUERY_PREFIX"
+          }
+        ],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "D03",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "清华大学奖学金不是每年评选一次吗？",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "清华大学奖学金不是每年评选一次吗",
+          "requested_attributes": [],
+          "missing_requested_attributes": [],
+          "status": "PARTIALLY_SUPPORTED",
+          "best_support_score": 0.357143,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S8",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.357143,
+              "text": "**第八条** 奖学金命名规范 (一)学校出资设立的奖学金命名规范为“清华大学×××奖学金”; (二)校友出资设立的奖学金命名规范为“清华校友—×××奖学金”,企事业单位、社会人士出资设立的奖学金命名规范为“清华之友—×××奖学金”"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0002#S4",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0002",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.285714,
+              "text": "**第十三条** 奖学金每学年评选一次,原则上于秋季学期开学初组织评选"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "D04",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "清华大学奖学金和助学金分别需要哪些条件？",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "清华大学奖学金",
+          "requested_attributes": [],
+          "missing_requested_attributes": [],
+          "status": "SUPPORTED",
+          "best_support_score": 0.6,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0002#TITLE",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0002",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.6,
+              "text": "清华大学学生奖学金管理规定"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0074-0001#S5",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0074-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0074",
+              "score": 0.466667,
+              "text": "**第四条** 清华大学学生申请国家助学金的基本条件: (一)热爱社会主义祖国,拥护中国共产党的领导; (二)遵守法律法规及校规校纪,品行端正; (三)学习努力,积极进取,具有良好的学风和科研作风; (四)自立自强,生活俭朴; (五)符合学校学生资助的认定标准"
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "point_id": "P2",
+          "text": "助学金分别需要哪些条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "PARTIALLY_SUPPORTED",
+          "best_support_score": 0.266667,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0074-0001#S3",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0074-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0074",
+              "score": 0.266667,
+              "text": "**第二章 资助标准与申请基本条件** **第三条** 国家助学金主要资助家庭经济困难学生的生活费用开支"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0074-0001#S5",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0074-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0074",
+              "score": 0.266667,
+              "text": "**第四条** 清华大学学生申请国家助学金的基本条件: (一)热爱社会主义祖国,拥护中国共产党的领导; (二)遵守法律法规及校规校纪,品行端正; (三)学习努力,积极进取,具有良好的学风和科研作风; (四)自立自强,生活俭朴; (五)符合学校学生资助的认定标准"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "D05",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "2024年清华大学奖学金申请需要哪些条件？",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "2024年清华大学奖学金申请需要哪些条件",
+          "requested_attributes": [
+            "ELIGIBILITY"
+          ],
+          "missing_requested_attributes": [],
+          "status": "NOT_SUPPORTED",
+          "best_support_score": 0.357143,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S8",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.357143,
+              "text": "**第八条** 奖学金命名规范 (一)学校出资设立的奖学金命名规范为“清华大学×××奖学金”; (二)校友出资设立的奖学金命名规范为“清华校友—×××奖学金”,企事业单位、社会人士出资设立的奖学金命名规范为“清华之友—×××奖学金”"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0082-0002#S6",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0082-0002",
+              "source_id": "KBV1-PUB-PUBV2C-0082",
+              "score": 0.285714,
+              "text": "在我校接受学历教育且被认定为家庭经济困难的学生均有资格申请助学金,申请流程及相关要求请参阅《清华大学研究生助学金评定工作实施办法》及当年工作通知"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "2024年清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [
+          {
+            "term": "2024年清华大学",
+            "replacement": "清华大学",
+            "reason": "NON_CONSTRAINT_QUERY_PREFIX"
+          }
+        ],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "D06",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "清华大学奖学金获奖后学校会做什么？",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "清华大学奖学金获奖后学校会做什么",
+          "requested_attributes": [],
+          "missing_requested_attributes": [],
+          "status": "PARTIALLY_SUPPORTED",
+          "best_support_score": 0.444444,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S8",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.444444,
+              "text": "**第八条** 奖学金命名规范 (一)学校出资设立的奖学金命名规范为“清华大学×××奖学金”; (二)校友出资设立的奖学金命名规范为“清华校友—×××奖学金”,企事业单位、社会人士出资设立的奖学金命名规范为“清华之友—×××奖学金”"
+            },
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0075-0001#S1",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0075-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0075",
+              "score": 0.277778,
+              "text": "(经2019~20学年度第7次校务会议审议通过) **第一条** 为了规范学生奖学金管理工作,根据《普通高等学校学生管理规定》(教育部令第41号)以及《清华大学章程》等的相关规定,结合学校实际,制定本规定"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [
+          "清华大学"
+        ],
+        "after": [
+          "清华大学"
+        ],
+        "ignored": [],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    },
+    {
+      "case_id": "R07",
+      "expected_status": "NOT_SUPPORTED",
+      "actual_status": "PARTIAL",
+      "query": "请写一首关于清华校园的诗。",
+      "evidence": [
+        {
+          "point_id": "P1",
+          "text": "请写一首关于清华校园的诗",
+          "requested_attributes": [],
+          "missing_requested_attributes": [],
+          "status": "PARTIALLY_SUPPORTED",
+          "best_support_score": 0.2,
+          "support_spans": [
+            {
+              "span_id": "KBV1-CHUNK-PUBV2C-0304-0001#S17",
+              "chunk_id": "KBV1-CHUNK-PUBV2C-0304-0001",
+              "source_id": "KBV1-PUB-PUBV2C-0304",
+              "score": 0.2,
+              "text": "其名字源于清华校花之一白丁香,寓其面积虽小,而其饭菜犹如丁香花般朴素淡雅、清香宜人"
+            }
+          ],
+          "conflicts": []
+        }
+      ],
+      "entity_trace": {
+        "before": [],
+        "after": [],
+        "ignored": [],
+        "passed": true
+      },
+      "reason": "gold negative promoted by original ENTITY_GUARD"
+    }
+  ],
+  "count": 11
+}

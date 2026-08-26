@@ -1,0 +1,29 @@
+{
+  "audit_version": "ANSWER_V1_PROMPT_PORTABILITY_AUDIT_V1",
+  "prompt_artifacts": [
+    {
+      "path": "evaluation/answer_generation/runtime_v1/prompts/answer_generation_v1_prompt.md",
+      "role": "Answer Generation Runtime V1 system prompt",
+      "expected_sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb",
+      "working_tree_raw_sha256": "234be7ae54bb870399f9f8c90542b5efa76361bfe4d946c9e1a0980e3e9042bc",
+      "git_blob_object_id": "c76351670a680ed9ba88121d2bf466afb31098e5",
+      "git_blob_content_sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb",
+      "canonical_text_sha256": "93c556c994e0ebfc5ab24c1866aa97e4c3f709590aa5abab7a6cb169ea9745fb",
+      "raw_match": false,
+      "canonical_match": true,
+      "classification": "LINE_ENDING_ONLY",
+      "working_tree_bytes": {
+        "byte_length": 1679,
+        "crlf_count": 45,
+        "bare_lf_count": 0,
+        "bare_cr_count": 0
+      },
+      "git_blob_bytes": {
+        "byte_length": 1634,
+        "crlf_count": 0,
+        "bare_lf_count": 45,
+        "bare_cr_count": 0
+      }
+    }
+  ]
+}

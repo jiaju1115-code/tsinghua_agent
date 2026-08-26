@@ -1,0 +1,26 @@
+{
+  "entity_guard_effectiveness": {
+    "blocked": 14
+  },
+  "numeric_guard_effectiveness": {
+    "blocked": 14
+  },
+  "temporal_guard_effectiveness": {
+    "blocked": 5
+  },
+  "scope_guard_effectiveness": {
+    "blocked": 10
+  },
+  "negation_guard_effectiveness": {
+    "blocked": 2
+  },
+  "required_point_alignment_guard": {
+    "blocked": 18
+  },
+  "multi_object_guard": {
+    "blocked": 4
+  },
+  "ood_guard": {
+    "blocked": 4
+  }
+}

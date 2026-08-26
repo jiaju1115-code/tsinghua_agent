@@ -1,0 +1,80 @@
+{"case_id": "CORE-01", "query": "车辆-清华大学接待服务中心办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-02", "query": "车辆-清华大学接待服务中心办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-03", "query": "车辆-清华大学接待服务中心办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-04", "query": "2026.03.18 学生社区管理服务中心组织文化——理念层办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-05", "query": "2026.03.18 学生社区管理服务中心组织文化——理念层办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-06", "query": "2026.03.18 学生社区管理服务中心组织文化——理念层办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-07", "query": "宿舍调整申请及办理流程办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-08", "query": "宿舍调整申请及办理流程办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-09", "query": "2026.03.18 邮寄地址及邮条办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-10", "query": "2026.03.18 邮寄地址及邮条办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-11", "query": "住宿注意事项办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-12", "query": "住宿注意事项办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-13", "query": "住宿注意事项办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-14", "query": "2026.03.18 大学生活须知办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-15", "query": "2026.03.18 大学生活须知办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-16", "query": "2026.03.18 大学生活须知办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-17", "query": "2026.03.18 大学生活须知办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-18", "query": "2023.04.24 清华大学学生公寓住宿管理办法办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-19", "query": "2023.04.24 清华大学学生公寓住宿管理办法办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "CORE-20", "query": "2023.04.24 清华大学学生公寓住宿管理办法办理信息", "case_type": "CORE_STABLE", "expected_layer": "core", "acceptable_layers": ["core"], "gold_basis": "frozen chunk provenance"}
+{"case_id": "DYNAMIC-01", "query": "这项通知什么时候截止？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-02", "query": "申请这项事项需要什么条件？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-03", "query": "这项通知需要什么材料？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-04", "query": "这项活动怎么报名？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-05", "query": "这项通知什么时候截止？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-06", "query": "申请这项事项需要什么条件？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-07", "query": "这项通知需要什么材料？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-08", "query": "这项活动怎么报名？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-09", "query": "这项通知什么时候截止？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-10", "query": "申请这项事项需要什么条件？", "case_type": "DYNAMIC_CURRENT", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-11", "query": "这项通知需要什么材料？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-12", "query": "这项活动怎么报名？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-13", "query": "这项通知什么时候截止？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-14", "query": "申请这项事项需要什么条件？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-15", "query": "这项通知需要什么材料？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-16", "query": "这项活动怎么报名？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-17", "query": "这项通知什么时候截止？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-18", "query": "申请这项事项需要什么条件？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-19", "query": "这项通知需要什么材料？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "DYNAMIC-20", "query": "这项活动怎么报名？", "case_type": "DYNAMIC_EXPIRED", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "gold_basis": "dynamic source provenance"}
+{"case_id": "CONFLICT-01", "query": "学校最近有什么相关通知？ 学生社区通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-02", "query": "学校最近有什么相关通知？ 学生社区通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-03", "query": "学校最近有什么相关通知？ 学生社区通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-04", "query": "学校最近有什么相关通知？ 学生社区通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-05", "query": "学校最近有什么相关通知？ 学生社区通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-06", "query": "学校最近有什么相关通知？ 学生社区通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-07", "query": "学校最近有什么相关通知？ 办公通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-08", "query": "学校最近有什么相关通知？ 办公通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-09", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-10", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-11", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-12", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-13", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-14", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-15", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_CONFLICT", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-16", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-17", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-18", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-19", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "CONFLICT-20", "query": "学校最近有什么相关通知？ 科研通知", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "manual deterministic cross-layer case"}
+{"case_id": "GAP-01", "query": "IO实习｜世界经济论坛2026年实习生招募", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "GAP-02", "query": "IO实习｜联合国项目事务署道德办公室招募实习生", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "GAP-03", "query": "IO实习｜联合国工业发展组织招募实习生", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "GAP-04", "query": "IO实习｜联合国儿童基金会招募实习生", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "GAP-05", "query": "IO实习｜联合国难民署招募实习生", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "GAP-06", "query": "IO实习｜联合国难民署15个岗位招募实习生", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "GAP-07", "query": "IO实习｜联合国妇女署招募Fellow", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "GAP-08", "query": "IO实习｜联合国儿童基金会总部招募实习生", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "GAP-09", "query": "2026年国家留学基金委与有关国际组织实习生合作项目遴选工作启动", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "GAP-10", "query": "IO实习｜联合国人口基金招募Youth Fellow", "case_type": "KNOWN_GAP", "expected_layer": "dynamic", "acceptable_layers": ["dynamic"], "refusal_expected": true, "gold_basis": "PENDING_AUTH_RECOVERY"}
+{"case_id": "COMP-01", "query": "图书馆最近什么时候开放？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
+{"case_id": "COMP-02", "query": "科研项目如何申请？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
+{"case_id": "COMP-03", "query": "学生宿舍最近有什么通知？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
+{"case_id": "COMP-04", "query": "校园服务现在有什么变化？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
+{"case_id": "COMP-05", "query": "图书馆最近什么时候开放？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
+{"case_id": "COMP-06", "query": "科研项目如何申请？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
+{"case_id": "COMP-07", "query": "学生宿舍最近有什么通知？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
+{"case_id": "COMP-08", "query": "校园服务现在有什么变化？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
+{"case_id": "COMP-09", "query": "图书馆最近什么时候开放？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
+{"case_id": "COMP-10", "query": "科研项目如何申请？", "case_type": "CROSS_LAYER_COMPLEMENTARY", "expected_layer": "both", "acceptable_layers": ["core", "dynamic"], "gold_basis": "REVIEW_REQUIRED"}
