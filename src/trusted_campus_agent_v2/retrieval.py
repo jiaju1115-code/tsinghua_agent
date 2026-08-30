@@ -219,3 +219,11 @@ class TrustedHybridRetrieverV2:
 def build_shadow_retriever_v2() -> TrustedHybridRetrieverV2:
     """Explicit opt-in loader for the local, unpublished V2 shadow bundle."""
     return TrustedHybridRetrieverV2(bundle_root=SHADOW_ROOT, catalog_path=SHADOW_ROOT / "metadata_catalog.jsonl")
+
+
+def build_public_retriever_v2() -> TrustedHybridRetrieverV2:
+    """Load the independently built, public-only serving bundle when available."""
+    root = Path(__file__).resolve().parents[2] / "data" / "05_trusted_campus_kb_v2_public"
+    if not (root / "chunks" / "chunks.jsonl").is_file():
+        return TrustedHybridRetrieverV2()
+    return TrustedHybridRetrieverV2(bundle_root=root, catalog_path=root / "metadata_catalog.jsonl")

@@ -8,7 +8,7 @@ from typing import Any
 from .answer_planner import GroundedAnswerPlannerV2
 from .evidence_gate import EvidenceGateV2
 from .query_planner import CampusQueryPlanner
-from .retrieval import TrustedHybridRetrieverV2, build_shadow_retriever_v2
+from .retrieval import TrustedHybridRetrieverV2, build_public_retriever_v2, build_shadow_retriever_v2
 
 
 class TrustedCampusAgentV2:
@@ -21,11 +21,22 @@ class TrustedCampusAgentV2:
         gate: Any | None = None,
         composer: Any | None = None,
         use_shadow: bool = False,
+        use_public_v2: bool = False,
         file_planner: Any | None = None,
+        local_model: bool = False,
     ) -> None:
         self.planner = planner or CampusQueryPlanner()
-        self.retriever = retriever or (build_shadow_retriever_v2() if use_shadow else TrustedHybridRetrieverV2())
+        self.retriever = retriever or (
+            build_shadow_retriever_v2() if use_shadow else
+            build_public_retriever_v2() if use_public_v2 else
+            TrustedHybridRetrieverV2()
+        )
         self.gate = gate or EvidenceGateV2()
+        if local_model and (composer is None or file_planner is None):
+            from .local_model import LocalQwenFilePlanner, LocalQwenGroundedComposer
+
+            composer = composer or LocalQwenGroundedComposer()
+            file_planner = file_planner or LocalQwenFilePlanner()
         self.composer = composer or GroundedAnswerPlannerV2()
         self.file_planner = file_planner
 

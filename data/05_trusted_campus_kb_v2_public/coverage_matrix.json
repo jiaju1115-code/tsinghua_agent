@@ -1,0 +1,97 @@
+{
+  "教务": {
+    "source_count": 153,
+    "chunk_count": 968,
+    "content_types": {
+      "faq": 1,
+      "mixed": 1,
+      "notice": 1,
+      "policy": 87,
+      "procedure_guide": 58,
+      "reference": 5
+    },
+    "status": "COVERED"
+  },
+  "学生事务": {
+    "source_count": 87,
+    "chunk_count": 344,
+    "content_types": {
+      "mixed": 2,
+      "notice": 2,
+      "policy": 50,
+      "procedure_guide": 31,
+      "reference": 2
+    },
+    "status": "COVERED"
+  },
+  "校园生活": {
+    "source_count": 146,
+    "chunk_count": 891,
+    "content_types": {
+      "faq": 1,
+      "mixed": 7,
+      "notice": 3,
+      "policy": 68,
+      "procedure_guide": 66,
+      "reference": 1
+    },
+    "status": "COVERED"
+  },
+  "科研实践": {
+    "source_count": 107,
+    "chunk_count": 510,
+    "content_types": {
+      "mixed": 1,
+      "policy": 50,
+      "procedure_guide": 50,
+      "reference": 6
+    },
+    "status": "COVERED"
+  },
+  "国际交流": {
+    "source_count": 114,
+    "chunk_count": 919,
+    "content_types": {
+      "faq": 1,
+      "mixed": 9,
+      "policy": 52,
+      "procedure_guide": 46,
+      "reference": 6
+    },
+    "status": "COVERED"
+  },
+  "就业": {
+    "source_count": 64,
+    "chunk_count": 351,
+    "content_types": {
+      "mixed": 2,
+      "notice": 1,
+      "policy": 37,
+      "procedure_guide": 22,
+      "reference": 2
+    },
+    "status": "COVERED"
+  },
+  "新生": {
+    "source_count": 45,
+    "chunk_count": 246,
+    "content_types": {
+      "faq": 1,
+      "policy": 22,
+      "procedure_guide": 18,
+      "reference": 4
+    },
+    "status": "COVERED"
+  },
+  "毕业": {
+    "source_count": 88,
+    "chunk_count": 477,
+    "content_types": {
+      "mixed": 4,
+      "policy": 53,
+      "procedure_guide": 27,
+      "reference": 4
+    },
+    "status": "COVERED"
+  }
+}
