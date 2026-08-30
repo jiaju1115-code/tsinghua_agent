@@ -13,6 +13,19 @@
 /.browser-*/
 **/playwright/.auth/
 data/01_public_baseline/data/auth/
+/data/04_kb_expansion_candidate/trusted_campus_v2/public_crawl_v1/data/
+/data/04_kb_expansion_candidate/trusted_campus_v2/portal_crawl_v1/data/
+/data/04_kb_expansion_candidate/trusted_campus_v2/attachment_crawl_v1/data/
+/data/04_kb_expansion_candidate/trusted_campus_v2/generated_files/
+/data/04_kb_expansion_candidate/trusted_campus_v2/portal_crawl_v1/
+/data/04_kb_expansion_candidate/trusted_campus_v2/shadow_bundle_v1/
+/data/04_kb_expansion_candidate/trusted_campus_v2/metadata_catalog.jsonl
+/data/04_kb_expansion_candidate/trusted_campus_v2/crawl_candidate_manifest.jsonl
+/data/04_kb_expansion_candidate/trusted_campus_v2/public_crawl_v1/logs/
+/data/04_kb_expansion_candidate/trusted_campus_v2/attachment_crawl_v1/knowledge/attachment_checkpoint.jsonl
+/data/04_kb_expansion_candidate/trusted_campus_v2/public_crawl_v1/knowledge/01_raw_public/
+/data/04_kb_expansion_candidate/trusted_campus_v2/attachment_crawl_v1/knowledge/02_extracted_attachments/
+/.pytest_tmp*/
 /agent_prompt_backup_*.txt
 
 # Regenerable tooling, caches and local runtimes

@@ -4,6 +4,10 @@
 
 截至 2026-08-26 的完整进度、已知限制与下一步见 [`docs/current_progress_20260826.md`](docs/current_progress_20260826.md)。
 
+## 独立候选：可信校园事务智能体 V2
+
+src/trusted_campus_agent_v2/ 是 2026-08-30 新建的本地候选链路，增加场景化 Coverage Matrix、校园术语改写、复杂问题拆解、Fast/Full 路由、Dense+BM25、metadata/时效/权威 rerank、四态 Evidence Gate、办事行动清单，以及 DOCX/XLSX/PPTX/PDF 的生成、回读、修改和可选 LLM Tool Calling。它只读冻结 KB V1，public staging 先进入自动复核候选池，不修改或替换 Submission Candidate V1，也没有发布。边界和运行方式见 docs/trusted_campus_agent_v2.md。
+
 ### 本地交互体验
 
 从项目根目录执行：

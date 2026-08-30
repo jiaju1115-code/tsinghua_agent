@@ -1,0 +1,45 @@
+{
+  "contract_version": "1.0.0",
+  "agent_version": "trusted_campus_agent_v2",
+  "tool_name": "create_or_modify_campus_file",
+  "schema_provider": "CampusToolRouter.tool_schemas(openai_wrapper=true)",
+  "executor": "CampusFileService.execute_with_llm",
+  "default_llm_env_prefix": "MOMO",
+  "required_env_suffixes": [
+    "API_BASE",
+    "API_KEY",
+    "MODEL"
+  ],
+  "host_owned_fields": [
+    "input_path",
+    "template_path",
+    "output_path",
+    "uploaded_files"
+  ],
+  "model_owned_fields": [
+    "structured_content",
+    "replacements",
+    "cell_updates"
+  ],
+  "evidence_policy": {
+    "gate_before_planning": true,
+    "reject": [
+      "CONFLICT",
+      "NOT_SUPPORTED"
+    ],
+    "partial_answer_only": true,
+    "sources_are_host_owned": true,
+    "external_llm_allowed_access_levels": [
+      "public"
+    ]
+  },
+  "upload_policy": {
+    "send_content_by_default": false,
+    "explicit_opt_in_parameter": "allow_external_file_content"
+  },
+  "deployment_policy": {
+    "independent_v2_only": true,
+    "modifies_submission_candidate_v1": false,
+    "publishes_online_agent": false
+  }
+}

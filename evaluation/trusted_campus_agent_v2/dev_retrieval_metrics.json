@@ -1,0 +1,338 @@
+{
+  "status": "DEVELOPMENT_ONLY_NOT_HELDOUT",
+  "as_of": "2026-08-30",
+  "gold_policy": "existing historical expected_source_id resolved only by identical URL to frozen KB; no AI/human gold inference",
+  "case_count": 19,
+  "public_case_count": 17,
+  "restricted_gold_excluded_from_public_metrics": 2,
+  "route_counts": {
+    "FAST": 11,
+    "FULL": 8
+  },
+  "baseline_dense_v1": {
+    "5": {
+      "recall_at_5": 0.842105,
+      "mrr_at_5": 0.789474,
+      "eligible_cases": 19
+    },
+    "20": {
+      "recall_at_20": 0.947368,
+      "mrr_at_20": 0.799342,
+      "eligible_cases": 19
+    },
+    "50": {
+      "recall_at_50": 1.0,
+      "mrr_at_50": 0.801222,
+      "eligible_cases": 19
+    }
+  },
+  "baseline_hybrid_v2": {
+    "5": {
+      "recall_at_5": 0.894737,
+      "mrr_at_5": 0.734211,
+      "eligible_cases": 19
+    },
+    "20": {
+      "recall_at_20": 0.894737,
+      "mrr_at_20": 0.734211,
+      "eligible_cases": 19
+    },
+    "50": {
+      "recall_at_50": 1.0,
+      "mrr_at_50": 0.737331,
+      "eligible_cases": 19
+    }
+  },
+  "all_cases_with_public_access_policy": {
+    "adaptive": {
+      "5": {
+        "recall": 0.842105,
+        "mrr": 0.657895,
+        "cases": 19
+      },
+      "20": {
+        "recall": 0.842105,
+        "mrr": 0.657895,
+        "cases": 19
+      }
+    },
+    "forced_full": {
+      "5": {
+        "recall": 0.842105,
+        "mrr": 0.736842,
+        "cases": 19
+      },
+      "20": {
+        "recall": 0.842105,
+        "mrr": 0.736842,
+        "cases": 19
+      }
+    }
+  },
+  "public_only_comparison": {
+    "baseline_dense_v1": {
+      "5": {
+        "recall": 0.823529,
+        "mrr": 0.764706,
+        "cases": 17
+      },
+      "20": {
+        "recall": 0.941176,
+        "mrr": 0.775735,
+        "cases": 17
+      }
+    },
+    "baseline_hybrid_v2": {
+      "5": {
+        "recall": 0.882353,
+        "mrr": 0.702941,
+        "cases": 17
+      },
+      "20": {
+        "recall": 0.882353,
+        "mrr": 0.702941,
+        "cases": 17
+      }
+    },
+    "trusted_v2_adaptive": {
+      "5": {
+        "recall": 0.941176,
+        "mrr": 0.735294,
+        "cases": 17
+      },
+      "20": {
+        "recall": 0.941176,
+        "mrr": 0.735294,
+        "cases": 17
+      }
+    },
+    "trusted_v2_forced_full": {
+      "5": {
+        "recall": 0.941176,
+        "mrr": 0.823529,
+        "cases": 17
+      },
+      "20": {
+        "recall": 0.941176,
+        "mrr": 0.823529,
+        "cases": 17
+      }
+    }
+  },
+  "case_details": [
+    {
+      "query_id": "RET-01",
+      "query": "如何查询清华大学本科生学籍、注册与培养管理规定？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0147",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FAST",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "RET-02",
+      "query": "学生公寓住宿规定、入住和退宿怎么办？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0010",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 2,
+      "route": "FULL",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "RET-06",
+      "query": "清华学生奖学金、助学金申请和评选办法是什么？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0075",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FULL",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "RET-08",
+      "query": "校内食堂、餐饮服务和就餐信息在哪里查询？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0303",
+      "baseline_dense_rank": 2,
+      "baseline_hybrid_rank": 1,
+      "route": "FAST",
+      "adaptive_rank": 3,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-001",
+      "query": "本科新生不能按时报到时如何请假或申请保留入学资格？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0147",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FULL",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-002",
+      "query": "在校本科生或研究生办理在学证明，可以去哪里申请和打印？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0155",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FULL",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-003",
+      "query": "学生不服学校处理或纪律处分时，校内申诉由哪个机构办理？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0096",
+      "baseline_dense_rank": 8,
+      "baseline_hybrid_rank": 5,
+      "route": "FULL",
+      "adaptive_rank": 3,
+      "forced_full_rank": 3,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-004",
+      "query": "清华学生社团的建设、成立和日常管理依据什么办法？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0097",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 4,
+      "route": "FAST",
+      "adaptive_rank": 2,
+      "forced_full_rank": 3,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-005",
+      "query": "学生想申请调整宿舍，应查看什么办理流程？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0006",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FULL",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-006",
+      "query": "给住在清华学生社区的同学寄快递时，邮寄地址和邮编在哪里查？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0007",
+      "baseline_dense_rank": 2,
+      "baseline_hybrid_rank": 2,
+      "route": "FAST",
+      "adaptive_rank": 2,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-007",
+      "query": "负责清华校内食堂和餐饮保障的是哪个饮食服务部门？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0303",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FAST",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-008",
+      "query": "教职工想查询校内教工餐厅信息，应查看哪份校园服务资料？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0305",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 2,
+      "route": "FAST",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-010",
+      "query": "在清华办理生育医疗费用报销需要查看什么程序？",
+      "gold_source_id": "KBV1-RES-RESV1-0015",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FULL",
+      "adaptive_rank": null,
+      "forced_full_rank": null,
+      "gold_access_level": "restricted"
+    },
+    {
+      "query_id": "PROV-019",
+      "query": "国家助学贷款发放后，学生应遵守哪些贷后管理规定？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0078",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FAST",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-020",
+      "query": "国际学生如何区分并查询不同的签证类型？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0055",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FAST",
+      "adaptive_rank": 2,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-021",
+      "query": "国际学生选择校外住宿时应查看什么住宿指南？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0049",
+      "baseline_dense_rank": 28,
+      "baseline_hybrid_rank": 48,
+      "route": "FULL",
+      "adaptive_rank": null,
+      "forced_full_rank": null,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-022",
+      "query": "学生职业发展指导中心面向学生提供哪些就业服务？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0108",
+      "baseline_dense_rank": 16,
+      "baseline_hybrid_rank": 26,
+      "route": "FAST",
+      "adaptive_rank": 3,
+      "forced_full_rank": 3,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-023",
+      "query": "学生想进行一对一生涯咨询、简历修改或模拟面试，可以找什么服务？",
+      "gold_source_id": "KBV1-PUB-PUBV2C-0113",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FAST",
+      "adaptive_rank": 1,
+      "forced_full_rank": 1,
+      "gold_access_level": "public"
+    },
+    {
+      "query_id": "PROV-028",
+      "query": "如何查询清华各院系的单位号、简称和英文名称？",
+      "gold_source_id": "KBV1-RES-RESV1-0010",
+      "baseline_dense_rank": 1,
+      "baseline_hybrid_rank": 1,
+      "route": "FAST",
+      "adaptive_rank": null,
+      "forced_full_rank": null,
+      "gold_access_level": "restricted"
+    }
+  ],
+  "limitations": [
+    "existing development gold only; not held-out and not a production claim",
+    "only 19 historical URL-resolved cases are eligible",
+    "parameters were not tuned on held-out E2E data"
+  ]
+}
