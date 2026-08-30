@@ -31,6 +31,7 @@ data/01_public_baseline/data/auth/
 /agent_prompt_backup_*.txt
 
 # Regenerable tooling, caches and local runtimes
+**/.venv/
 **/__pycache__/
 **/*.py[cod]
 **/.pytest_cache/

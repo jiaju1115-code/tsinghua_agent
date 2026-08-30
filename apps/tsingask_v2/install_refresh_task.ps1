@@ -10,4 +10,4 @@ $Action = New-ScheduledTaskAction -Execute $Python -Argument 'scripts\refresh_tr
 $Trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Sunday -At $At
 $Settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 3)
 Register-ScheduledTask -TaskName 'TsingAskV2PublicKnowledgeRefresh' -Action $Action -Trigger $Trigger -Settings $Settings -Description 'Refresh public official TsingAsk V2 knowledge; never accesses the authenticated portal.' -Force
-Write-Host '已注册每周公开知识库更新任务 TsingAskV2PublicKnowledgeRefresh' -ForegroundColor Green
+Write-Host 'Registered weekly public knowledge refresh task: TsingAskV2PublicKnowledgeRefresh' -ForegroundColor Green

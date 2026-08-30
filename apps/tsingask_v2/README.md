@@ -7,8 +7,8 @@
 在仓库根目录执行：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1
-powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\start.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File apps\tsingask_v2\start.ps1
 ```
 
 浏览器打开 `http://127.0.0.1:8765`。首次安装默认下载官方 Qwen3-4B Q4_K_M（约 2.5 GB），校验大小和 SHA256；如只想先复用本机已校验的 Qwen2.5-1.5B，可给安装脚本加 `-SkipModel`。
