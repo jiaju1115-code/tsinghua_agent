@@ -193,6 +193,15 @@ def build_dense_index(chunks: list[dict[str, Any]], output: Path) -> str | None:
 
 
 def build(output: Path, *, dense: bool) -> dict[str, Any]:
+    final_output = output.resolve()
+    resolved_data = (ROOT / "data").resolve()
+    if final_output.parent != resolved_data or final_output.name != "05_trusted_campus_kb_v2_public":
+        raise ValueError("output must be the dedicated data/05_trusted_campus_kb_v2_public directory")
+    staging_output = final_output.parent / ".05_trusted_campus_kb_v2_public.building"
+    previous_output = final_output.parent / ".05_trusted_campus_kb_v2_public.previous"
+    if staging_output.exists():
+        shutil.rmtree(staging_output)
+    output = staging_output
     today = date.today()
     decisions = []
     accepted = []
@@ -243,12 +252,6 @@ def build(output: Path, *, dense: bool) -> dict[str, Any]:
         else:
             final.extend(items)
 
-    resolved_output = output.resolve()
-    resolved_data = (ROOT / "data").resolve()
-    if resolved_output.parent != resolved_data or resolved_output.name != "05_trusted_campus_kb_v2_public":
-        raise ValueError("output must be the dedicated data/05_trusted_campus_kb_v2_public directory")
-    if output.exists():
-        shutil.rmtree(output)
     (output / "chunks").mkdir(parents=True)
     (output / "audit").mkdir(parents=True)
     metadata = []
@@ -280,6 +283,20 @@ def build(output: Path, *, dense: bool) -> dict[str, Any]:
     }
     (output / "manifest.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     (output / "coverage_matrix.json").write_text(json.dumps(coverage, ensure_ascii=False, indent=2), encoding="utf-8")
+    if dense and dense_error is not None:
+        raise RuntimeError(f"dense index build failed; existing serving bundle was kept: {dense_error}")
+    if previous_output.exists():
+        shutil.rmtree(previous_output)
+    if final_output.exists():
+        final_output.rename(previous_output)
+    try:
+        output.rename(final_output)
+    except Exception:
+        if previous_output.exists() and not final_output.exists():
+            previous_output.rename(final_output)
+        raise
+    if previous_output.exists():
+        shutil.rmtree(previous_output)
     return report
 
 

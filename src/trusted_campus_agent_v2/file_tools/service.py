@@ -179,6 +179,10 @@ class CampusFileService:
                     "sending uploaded file content to an external LLM requires allow_external_file_content=True"
                 )
             uploaded_content = self.read(trusted_input)
+            from ..security import sanitize_untrusted_payload
+            uploaded_content, injection_warnings = sanitize_untrusted_payload(uploaded_content)
+        else:
+            injection_warnings = []
 
         call = planner.plan(
             request,
@@ -209,7 +213,7 @@ class CampusFileService:
             action=call.action,
             output_format=call.output_format,
             input_path=trusted_input,
-            template_path=template_path,
+            template_path=template_path or (trusted_input if call.action == "create" else None),
             template_key=call.template_key,
             structured_content=plan,
             replacements=call.replacements,
@@ -224,6 +228,10 @@ class CampusFileService:
         result["llm_tool_call"]["trusted_input_path_supplied_by_host"] = str(trusted_input) if trusted_input else None
         result["llm_tool_call"]["model_paths_accepted"] = False
         result["evidence"] = rag_result
+        result["security"] = {
+            "prompt_injection_detected": bool(injection_warnings),
+            "isolated_line_count": len(injection_warnings),
+        }
         return result
 
     def execute(

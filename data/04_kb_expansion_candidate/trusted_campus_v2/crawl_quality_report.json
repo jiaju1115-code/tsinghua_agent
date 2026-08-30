@@ -1,23 +1,23 @@
 {
   "version": "TRUSTED_CAMPUS_V2_CRAWL_QUALITY_REPORT_V1",
   "candidate_only": true,
-  "raw_index_rows": 664,
-  "unique_rows": 660,
+  "raw_index_rows": 895,
+  "unique_rows": 891,
   "duplicate_rows": 4,
   "status_counts": {
-    "rejected_quality": 360,
-    "auto_review_candidate": 300
+    "auto_review_candidate": 411,
+    "rejected_quality": 480
   },
   "review_queue_by_topic": {
-    "国际交流": 86,
-    "学生事务": 63,
-    "就业": 53,
-    "教务": 112,
-    "新生": 58,
-    "校园生活": 147,
-    "毕业": 65,
-    "科研实践": 118
+    "国际交流": 106,
+    "学生事务": 96,
+    "就业": 74,
+    "教务": 174,
+    "新生": 77,
+    "校园生活": 168,
+    "毕业": 101,
+    "科研实践": 169
   },
-  "dated_review_candidates": 127,
+  "dated_review_candidates": 180,
   "authenticated_review_candidates": 9
 }

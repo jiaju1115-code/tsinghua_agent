@@ -184,15 +184,18 @@ class TrustedHybridRetrieverV2:
             recency = {"active": 1.0, "unknown": 0.62, "upcoming": 0.45, "expired": 0.1}[current_status]
             retrieval_score = item["rrf"] / max_rrf
             score = 0.42 * retrieval_score + 0.24 * title_lexical + 0.10 * body_lexical + 0.10 * authority + 0.07 * recency + 0.07 * metadata_score
+            from .security import sanitize_untrusted_text
+            safe_text, injection_warnings = sanitize_untrusted_text(chunk.get("text", ""))
             rows.append({
                 "chunk_id": chunk["chunk_id"], "source_id": source_id,
                 "title": chunk.get("title", ""), "url": chunk.get("url", ""),
-                "category": chunk.get("category", ""), "text": chunk.get("text", ""),
+                "category": chunk.get("category", ""), "text": safe_text,
                 "score": round(score, 6), "rrf_score": round(item["rrf"], 8),
                 "dense_score": item["dense_score"], "bm25_score": item["bm25_score"],
                 "retrieval_methods": sorted(item["retrieval_methods"]),
                 "subquery_indices": sorted(item["subquery_indices"]),
                 "metadata": meta, "temporal_status": current_status,
+                "security_warnings": injection_warnings,
             })
         ordered = sorted(rows, key=lambda row: (-row["score"], row["chunk_id"]))
         selected: list[dict[str, Any]] = []

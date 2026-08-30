@@ -204,13 +204,31 @@ def create_docx(plan: FilePlan, output_path: str | Path | None = None, template_
 
     path = dedupe_path(ensure_output_path(plan.title, "docx", output_path))
     document = Document(str(template_path)) if template_path else Document()
+    placed_sections: set[int] = set()
     if not template_path:
         _configure_styles(document)
         _add_title_block(document, plan)
     else:
-        replace_docx_text(document, {"{{title}}": plan.title, "{{subtitle}}": plan.subtitle, "{{author}}": plan.author})
+        replacements = {"{{title}}": plan.title, "{{subtitle}}": plan.subtitle, "{{author}}": plan.author}
+        for key, value in plan.metadata.items():
+            if isinstance(value, (str, int, float)):
+                replacements[f"{{{{{key}}}}}"] = str(value)
+        document_text = "\n".join(
+            [paragraph.text for paragraph in document.paragraphs]
+            + [cell.text for table in document.tables for row in table.rows for cell in row.cells]
+        )
+        for index, section in enumerate(plan.sections, 1):
+            content = "\n".join([*section.paragraphs, *section.bullets])
+            placeholders = (f"{{{{section_{index}}}}}", f"{{{{{section.heading}}}}}")
+            for placeholder in placeholders:
+                replacements[placeholder] = content
+                if placeholder in document_text:
+                    placed_sections.add(index - 1)
+        replace_docx_text(document, replacements)
 
-    for section in plan.sections:
+    for section_index, section in enumerate(plan.sections):
+        if section_index in placed_sections:
+            continue
         if section.heading:
             document.add_heading(section.heading, level=1)
         for text in section.paragraphs:
@@ -317,6 +335,8 @@ def read_docx(path: str | Path) -> dict[str, Any]:
 
     document = Document(str(path))
     paragraphs = [item.text for item in document.paragraphs if item.text.strip()]
+    headers = [paragraph.text for section in document.sections for paragraph in section.header.paragraphs if paragraph.text.strip()]
+    footers = [paragraph.text for section in document.sections for paragraph in section.footer.paragraphs if paragraph.text.strip()]
     tables = []
     for table in document.tables:
         tables.append([[cell.text for cell in row.cells] for row in table.rows])
@@ -326,5 +346,5 @@ def read_docx(path: str | Path) -> dict[str, Any]:
         "tables": tables,
         "sections": len(document.sections),
         "paragraph_count": len(paragraphs),
-        "table_count": len(tables),
+        "table_count": len(tables), "headers": headers, "footers": footers,
     }

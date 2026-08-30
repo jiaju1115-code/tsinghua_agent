@@ -44,6 +44,8 @@ class CampusToolRouter:
         fmt = fmt or "docx"
         if uploads and any(verb in query for verb in READ_VERBS) and not any(verb in query for verb in MODIFY_VERBS):
             action = "read"
+        elif uploads and any(marker in query for marker in ("作为模板", "用这个模板", "根据模板", "套用模板", "按此模板")):
+            action = "create"
         elif uploads or any(verb in query for verb in MODIFY_VERBS):
             action = "modify"
         else:

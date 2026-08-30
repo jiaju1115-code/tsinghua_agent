@@ -38,6 +38,7 @@ def create_pptx(plan: FilePlan, output_path: str | Path | None = None, template_
     presentation = Presentation(str(template_path)) if template_path else Presentation()
     presentation.slide_width = Inches(13.333)
     presentation.slide_height = Inches(7.5)
+    template_changes = 0
     if not template_path:
         title_slide = presentation.slides.add_slide(presentation.slide_layouts[0])
         title_slide.background.fill.solid()
@@ -49,11 +50,25 @@ def create_pptx(plan: FilePlan, output_path: str | Path | None = None, template_
         title_para.alignment = PP_ALIGN.LEFT
         _format_paragraph(title_slide.placeholders[1].text_frame.paragraphs[0], size=24, color="596273")
         _add_notes(title_slide, plan.sources)
+    else:
+        replacements = {"{{title}}": plan.title, "{{subtitle}}": plan.subtitle, "{{author}}": plan.author}
+        for index, section in enumerate(plan.sections, 1):
+            value = "\n".join([*section.paragraphs, *section.bullets])
+            replacements[f"{{{{section_{index}}}}}"] = value
+            replacements[f"{{{{{section.heading}}}}}"] = value
+        for slide in presentation.slides:
+            for shape in slide.shapes:
+                if getattr(shape, "has_text_frame", False):
+                    template_changes += _replace_text_frame(shape.text_frame, replacements)
+                if getattr(shape, "has_table", False):
+                    for row in shape.table.rows:
+                        for cell in row.cells:
+                            template_changes += _replace_text_frame(cell.text_frame, replacements)
     slide_specs = plan.slides or [
         {"title": section.heading, "bullets": section.bullets or section.paragraphs, "table": section.table}
         for section in plan.sections
     ]
-    for spec in slide_specs:
+    for spec in ([] if template_path and template_changes else slide_specs):
         slide = presentation.slides.add_slide(presentation.slide_layouts[1])
         slide.background.fill.solid()
         slide.background.fill.fore_color.rgb = RGBColor.from_string("FFFFFF")
@@ -132,4 +147,4 @@ def read_pptx(path: str | Path) -> dict[str, Any]:
             if getattr(shape, "has_table", False):
                 texts.extend(" | ".join(cell.text for cell in row.cells) for row in shape.table.rows)
         slides.append({"slide_number": number, "texts": texts})
-    return {"format": "pptx", "slides": slides, "slide_count": len(slides)}
+    return {"format": "pptx", "slides": slides, "slide_count": len(slides), "layout_count": len(presentation.slide_layouts), "master_count": len(presentation.slide_masters)}

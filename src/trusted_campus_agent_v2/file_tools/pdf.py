@@ -98,6 +98,24 @@ def modify_pdf(
     replacements: dict[str, str] | None = None,
     output_path: str | Path | None = None,
 ) -> tuple[Path, int, tuple[str, ...]]:
+    from pypdf import PdfReader, PdfWriter
+
+    source = Path(input_path).resolve()
+    reader = PdfReader(source)
+    fields = reader.get_fields() or {}
+    field_updates = {key: value for key, value in (replacements or {}).items() if key in fields}
+    if field_updates:
+        path = dedupe_path(ensure_output_path(f"{source.stem}_filled", "pdf", output_path))
+        writer = PdfWriter()
+        writer.clone_document_from_reader(reader)
+        writer.update_page_form_field_values(None, field_updates, auto_regenerate=False)
+        with path.open("wb") as handle:
+            writer.write(handle)
+        verified = PdfReader(path).get_fields() or {}
+        changed = sum(str(verified.get(key, {}).get("/V", "")) == str(value) for key, value in field_updates.items())
+        if changed != len(field_updates):
+            raise RuntimeError("PDF form verification failed after writing")
+        return path, changed, ("已原位填写可交互 PDF 表单字段；未扁平化，原版式保持不变。",)
     extracted = read_pdf(input_path)
     changed = 0
     sections = []

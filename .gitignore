@@ -22,9 +22,11 @@ data/01_public_baseline/data/auth/
 /data/04_kb_expansion_candidate/trusted_campus_v2/metadata_catalog.jsonl
 /data/04_kb_expansion_candidate/trusted_campus_v2/crawl_candidate_manifest.jsonl
 /data/04_kb_expansion_candidate/trusted_campus_v2/public_crawl_v1/logs/
+/data/04_kb_expansion_candidate/trusted_campus_v2/public_crawl_v1/run_summary.json
 /data/04_kb_expansion_candidate/trusted_campus_v2/attachment_crawl_v1/knowledge/attachment_checkpoint.jsonl
 /data/04_kb_expansion_candidate/trusted_campus_v2/public_crawl_v1/knowledge/01_raw_public/
 /data/04_kb_expansion_candidate/trusted_campus_v2/attachment_crawl_v1/knowledge/02_extracted_attachments/
+/data/05_trusted_campus_kb_v2_public/refresh_report.json
 /.pytest_tmp*/
 /agent_prompt_backup_*.txt
 

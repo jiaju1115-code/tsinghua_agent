@@ -62,9 +62,31 @@ def create_xlsx(plan: FilePlan, output_path: str | Path | None = None, template_
             sheets.append({"name": section.heading[:31] or "内容", "rows": rows})
     if not sheets:
         sheets = [{"name": "内容", "rows": [["项目", "内容"], ["标题", plan.title]]}]
+    placeholder_values = {"title": plan.title, "subtitle": plan.subtitle, "author": plan.author, **plan.metadata}
+    for index, section in enumerate(plan.sections, 1):
+        placeholder_values[f"section_{index}"] = "\n".join([*section.paragraphs, *section.bullets])
+        placeholder_values[section.heading] = placeholder_values[f"section_{index}"]
+    if template_path:
+        for sheet in workbook.worksheets:
+            for row in sheet.iter_rows():
+                for cell in row:
+                    if not isinstance(cell.value, str) or cell.value.startswith("="):
+                        continue
+                    updated = cell.value
+                    for key, value in placeholder_values.items():
+                        updated = updated.replace(f"{{{{{key}}}}}", str(value))
+                    cell.value = updated
     existing = set(workbook.sheetnames)
     for sheet_spec in sheets:
         name = str(sheet_spec.get("name", "Sheet"))[:31] or "Sheet"
+        if template_path and name in workbook.sheetnames:
+            sheet = workbook[name]
+            for row_index, values in enumerate(sheet_spec.get("rows", []), 1):
+                for column_index, value in enumerate(values, 1):
+                    sheet.cell(row_index, column_index).value = value
+            for address, formula in sheet_spec.get("formulas", {}).items():
+                sheet[address] = formula
+            continue
         base, index = name, 2
         while name in existing:
             name = f"{base[:27]}_{index}"
@@ -124,6 +146,7 @@ def read_xlsx(path: str | Path) -> dict[str, Any]:
     sheets = []
     for sheet in workbook.worksheets:
         rows = [list(row) for row in sheet.iter_rows(values_only=True)]
-        sheets.append({"name": sheet.title, "rows": rows, "max_row": sheet.max_row, "max_column": sheet.max_column})
+        formulas = {cell.coordinate: cell.value for row in sheet.iter_rows() for cell in row if isinstance(cell.value, str) and cell.value.startswith("=")}
+        sheets.append({"name": sheet.title, "rows": rows, "max_row": sheet.max_row, "max_column": sheet.max_column, "formulas": formulas})
     workbook.close()
     return {"format": "xlsx", "sheets": sheets, "sheet_count": len(sheets)}

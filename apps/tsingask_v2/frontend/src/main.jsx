@@ -1,6 +1,7 @@
 import React, { memo, useEffect, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles.css'
+import './responsive-fixes.css'
 
 const Icon = memo(function Icon({ name, size = 18 }) {
   const paths = {
@@ -14,6 +15,8 @@ const Icon = memo(function Icon({ name, size = 18 }) {
     download: <><path d="M12 3v12m0 0 4-4m-4 4-4-4"/><path d="M5 21h14"/></>,
     clock: <><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></>,
     search: <><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></>,
+    check: <><path d="m5 12 4 4L19 6"/></>,
+    list: <><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></>,
   }
   return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{paths[name]}</svg>
 })
@@ -23,7 +26,7 @@ const starter = {
   path: 'FAST',
   response: {
     answer: '你好，我是清问。现在我能核验证据、规划校园事务，也能生成和修改 Word、Excel、PPT 与 PDF。',
-    confirmed_facts: [], action_plan: null, citations: [],
+    confirmed_facts: [], action_plan: null, citations: [], clarification_questions: [], search_guidance: [],
   },
 }
 
@@ -32,7 +35,7 @@ function Badge({ status }) {
   return <span className={`badge ${status?.toLowerCase()}`}><Icon name="shield" size={14}/>{label}</span>
 }
 
-const SourcePanel = memo(function SourcePanel({ result, coverage }) {
+const SourcePanel = memo(function SourcePanel({ result, coverage, tasks, sessionId, onTaskUpdate }) {
   const citations = result?.response?.citations || []
   const artifact = result?.artifact
   return <aside className="source-panel">
@@ -52,6 +55,10 @@ const SourcePanel = memo(function SourcePanel({ result, coverage }) {
         <div className="source-index">{index + 1}</div><div><strong>{item.title}</strong><span>{item.url?.replace(/^https?:\/\//, '').split('/')[0]}</span></div>
       </a>) : <div className="empty-sources"><Icon name="source"/><p>完成一次校园事务检索后，官方来源会显示在这里。</p></div>}
     </div>
+    <div className="task-card">
+      <div className="task-head"><span><Icon name="list" size={15}/>事务工作区</span>{sessionId ? <a href={`/api/sessions/${sessionId}/calendar.ics`}>导出日历</a> : null}</div>
+      {tasks.length ? tasks.slice(0, 8).map(task => <button className={`task-row ${task.status}`} key={task.task_id} onClick={() => onTaskUpdate(task)}><i>{task.status === 'done' ? <Icon name="check" size={13}/> : null}</i><span>{task.text}</span></button>) : <p className="task-empty">流程回答中的材料、步骤和截止时间会自动沉淀到这里。</p>}
+    </div>
     {coverage ? <div className="coverage-card"><span>知识覆盖</span><strong>{Object.values(coverage).filter(x => x.status === 'COVERED').length}/8 场景</strong><div className="coverage-bar"><i style={{width: `${Object.values(coverage).filter(x => x.status === 'COVERED').length * 12.5}%`}}/></div></div> : null}
   </aside>
 })
@@ -66,7 +73,17 @@ function ActionPlan({ value }) {
   </section>
 }
 
-function Answer({ result, loading }) {
+function Clarification({ response, onChoose }) {
+  const questions = response?.clarification_questions || []
+  const guidance = response?.search_guidance || []
+  if (!questions.length && !guidance.length) return null
+  return <section className="clarify-card">
+    {questions.length ? <><div className="section-kicker">NEED TO KNOW</div><h3>补充这些信息，我能继续帮你查</h3><div className="question-list">{questions.map((item, index) => <button key={item} onClick={() => onChoose(item)}><span>{index + 1}</span>{item}</button>)}</div></> : null}
+    {guidance.length ? <div className="guidance"><h4>也可以先这样找</h4>{guidance.map((item, index) => item.url ? <a key={`${item.label}-${index}`} href={item.url} target="_blank" rel="noreferrer"><strong>{item.label}</strong><span>{item.how}</span></a> : <div key={`${item.label}-${index}`}><strong>{item.label}</strong><span>{item.how}</span></div>)}</div> : null}
+  </section>
+}
+
+function Answer({ result, loading, onClarify, onFeedback }) {
   if (loading) return <div className="answer loading"><span/><span/><span/><p>正在理解问题、检索证据并核验时效性…</p></div>
   const response = result?.response
   if (!response) return null
@@ -75,7 +92,9 @@ function Answer({ result, loading }) {
     <h2>可信结论</h2><p className="lead">{response.answer}</p>
     {response.confirmed_facts?.length ? <div className="fact-list">{response.confirmed_facts.map((fact, i) => <div className="fact" key={`${fact.source_id}-${i}`}><span>{i + 1}</span><p>{fact.text}</p></div>)}</div> : null}
     {response.historical_versions?.length ? <div className="history-note"><strong>发现历史版本</strong><p>系统已优先采用较新的有效官方来源，历史版本仅供追溯。</p></div> : null}
+    <Clarification response={response} onChoose={onClarify}/>
     <ActionPlan value={response.action_plan}/>
+    {result.case_id ? <div className="feedback-row"><span>这次回答有问题？</span><button onClick={() => onFeedback('irrelevant_source')}>来源不相关</button><button onClick={() => onFeedback('outdated')}>资料过时</button><button onClick={() => onFeedback('missing_step')}>缺少步骤</button></div> : null}
   </div>
 }
 
@@ -86,9 +105,18 @@ function App() {
   const [upload, setUpload] = useState(null)
   const [coverage, setCoverage] = useState(null)
   const [error, setError] = useState('')
+  const [sessionId, setSessionId] = useState(() => localStorage.getItem('tsingask:v2:session') || '')
+  const [tasks, setTasks] = useState([])
   const fileRef = useRef(null)
+  const textRef = useRef(null)
 
-  useEffect(() => { fetch('/api/coverage').then(r => r.ok ? r.json() : null).then(setCoverage).catch(() => {}) }, [])
+  useEffect(() => {
+    const sessionPromise = sessionId ? Promise.resolve({ session_id: sessionId }) : fetch('/api/sessions', { method: 'POST' }).then(r => r.json())
+    Promise.all([fetch('/api/coverage').then(r => r.ok ? r.json() : null), sessionPromise]).then(([matrix, session]) => {
+      setCoverage(matrix); setSessionId(session.session_id); localStorage.setItem('tsingask:v2:session', session.session_id)
+      return fetch(`/api/sessions/${session.session_id}/tasks`).then(r => r.ok ? r.json() : [])
+    }).then(setTasks).catch(() => {})
+  }, [])
 
   async function pickFile(event) {
     const file = event.target.files?.[0]
@@ -109,19 +137,43 @@ function App() {
     if (!query || loading) return
     setLoading(true); setError('')
     try {
-      const response = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: query, upload_ids: upload ? [upload.file_id] : [] }) })
+      const response = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: query, upload_ids: upload ? [upload.file_id] : [], session_id: sessionId || null }) })
       const data = await response.json()
       if (!response.ok) throw new Error(data.detail || '智能体暂时不可用')
-      setResult(data); setMessage('')
+      setResult(data); setMessage(''); setTasks(current => data.workspace?.tasks || current)
     } catch (value) { setError(value.message) }
     finally { setLoading(false) }
+  }
+
+  async function newChat() {
+    try {
+      const response = await fetch('/api/sessions', { method: 'POST' }); const data = await response.json()
+      setSessionId(data.session_id); localStorage.setItem('tsingask:v2:session', data.session_id)
+    } catch { /* the next chat will create a session server-side */ }
+    setResult(starter); setMessage(''); setUpload(null); setTasks([])
+  }
+
+  async function updateTask(task) {
+    const next = task.status === 'done' ? 'todo' : 'done'
+    const response = await fetch(`/api/sessions/${sessionId}/tasks/${task.task_id}`, { method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ status: next }) })
+    if (response.ok) setTasks(current => current.map(item => item.task_id === task.task_id ? { ...item, status: next } : item))
+  }
+
+  async function feedback(kind) {
+    await fetch('/api/feedback', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ case_id: result.case_id, kind, detail: '' }) })
+  }
+
+  function startClarification(question) {
+    const prefix = question.includes('当前院系和目标院系') ? '我目前在____，想转到____。' : question.includes('本科生、研究生') ? '我是____。' : question.includes('学年、学期') ? '我要办理的批次是____。' : question.includes('交换项目') ? '我要申请的是____交换项目。' : '补充信息：____。'
+    setMessage(prefix)
+    requestAnimationFrame(() => { textRef.current?.focus(); textRef.current?.setSelectionRange(prefix.indexOf('____'), prefix.indexOf('____') + 4) })
   }
 
   const shortcuts = ['本科生转系需要什么条件和材料？', '根据学校最新要求生成社会实践报告 Word', '读取并修改我上传的会议纪要']
   return <div className="app-shell">
     <aside className="sidebar">
       <div className="brand"><div className="brand-seal">清</div><div><strong>清问</strong><span>TsingAsk</span></div></div>
-      <button className="new-chat" onClick={() => { setResult(starter); setMessage(''); setUpload(null) }}><Icon name="plus"/>新建对话</button>
+      <button className="new-chat" onClick={newChat}><Icon name="plus"/>新建事务</button>
       <div className="nav-label">最近对话</div>
       <nav>{shortcuts.map((item, i) => <button key={item} className={i === 0 ? 'active' : ''} onClick={() => setMessage(item)}><Icon name="chat" size={16}/><span>{item}</span></button>)}</nav>
       <div className="sidebar-bottom"><div className="status-dot"/><div><strong>本地独立运行</strong><span>公开知识库 · 本地模型</span></div></div>
@@ -131,18 +183,18 @@ function App() {
       <div className="content-grid">
         <section className="conversation">
           <div className="user-query"><div className="avatar">你</div><p>{result?.query || '清问可以帮我做什么？'}</p></div>
-          <Answer result={result} loading={loading}/>
+          <Answer result={result} loading={loading} onClarify={startClarification} onFeedback={feedback}/>
           {error ? <div className="error-box">{error}</div> : null}
           <div className="composer-wrap">
             {upload ? <div className="upload-chip"><Icon name="file" size={15}/><span>{upload.filename}</span><button onClick={() => setUpload(null)}>×</button></div> : null}
             <form className="composer" onSubmit={submit}>
-              <textarea value={message} onChange={e => setMessage(e.target.value)} placeholder="问校园事务，或让我生成 / 修改文件…" rows="2" onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); submit() } }}/>
+              <textarea ref={textRef} value={message} onChange={e => setMessage(e.target.value)} placeholder="问校园事务，或让我生成 / 修改文件…" rows="2" onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); submit() } }}/>
               <div className="composer-actions"><input ref={fileRef} type="file" accept=".docx,.xlsx,.pptx,.pdf" hidden onChange={pickFile}/><button type="button" className="attach" onClick={() => fileRef.current?.click()}><Icon name="paperclip"/><span>上传文件</span></button><button className="send" type="submit" disabled={!message.trim() || loading}><Icon name="send" size={17}/></button></div>
             </form>
-            <p className="disclaimer">重要事项请点击右侧官方来源复核；证据不足时系统会明确停止作答。</p>
+            <p className="disclaimer">证据不足时会继续追问并给出官方查找方向；重要事项仍请点击来源复核。</p>
           </div>
         </section>
-        <SourcePanel result={result} coverage={coverage}/>
+        <SourcePanel result={result} coverage={coverage} tasks={tasks} sessionId={sessionId} onTaskUpdate={updateTask}/>
       </div>
     </main>
   </div>

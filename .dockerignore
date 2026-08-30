@@ -1,0 +1,17 @@
+.git
+.github
+.venv
+venv
+models
+**/__pycache__
+**/*.pyc
+**/node_modules
+apps/tsingask_v2/.artifact_runtime
+data/00_raw
+data/01_clean
+data/02_chunks
+data/03_index
+data/04_audit
+data/.05_trusted_campus_kb_v2_public.building
+data/.05_trusted_campus_kb_v2_public.previous
+*.log

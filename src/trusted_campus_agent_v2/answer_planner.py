@@ -70,11 +70,11 @@ class GroundedAnswerPlannerV2:
                 citations.append(citation)
         facts = self._confirmed_facts(plan, evidence)
         if evidence.status == "NOT_SUPPORTED":
-            answer = "现有已审核证据不足，无法可靠回答。请以相关主管部门最新通知或办事入口为准。"
+            answer = "我目前还不能从已收录的有效官方证据中确认答案，但不会让你停在这里。请先补充下方关键信息，或按给出的官方方向继续查找。"
         elif evidence.status == "CONFLICT":
-            answer = "检索到的当前来源存在未解决冲突，暂不替你选择结论。下方列出冲突来源，建议向主管部门确认。"
+            answer = "我发现当前官方来源之间存在冲突，因此不会擅自替你选择版本。下面会列出冲突、需要补充的信息，以及向主管部门确认时应提供的要点。"
         elif evidence.status == "PARTIAL":
-            answer = "现有资料只能支持部分内容；以下仅列出能够确认的事实，未覆盖部分不作推测。"
+            answer = "现有资料可以确认一部分内容；我先给出已确认事实，再通过追问或官方查找路径补齐剩余部分。"
         else:
             answer = "现有已审核资料支持回答。以下事实均可回溯到所列来源。"
         action_plan = self._action_plan(evidence) if plan.wants_action_plan and evidence.status in {"SUPPORTED", "PARTIAL"} else None
@@ -82,4 +82,5 @@ class GroundedAnswerPlannerV2:
             "answer": answer, "confirmed_facts": facts, "action_plan": action_plan,
             "citations": citations[:8], "conflicts": list(evidence.conflicts),
             "historical_versions": list(evidence.historical_versions),
+            "needs_clarification": False, "clarification_questions": [], "search_guidance": [],
         }

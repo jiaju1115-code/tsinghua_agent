@@ -1,0 +1,14 @@
+.action-block {
+  min-width: 0;
+}
+
+.action-block li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+@media (max-width: 720px) {
+  .action-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

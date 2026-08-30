@@ -1,0 +1,12 @@
+services:
+  tsingask-v2:
+    build:
+      context: ../..
+      dockerfile: apps/tsingask_v2/Dockerfile
+    ports:
+      - "127.0.0.1:8765:8765"
+    volumes:
+      - ../../models:/app/models:ro
+      - ../../data/05_trusted_campus_kb_v2_public:/app/data/05_trusted_campus_kb_v2_public:ro
+      - ./.artifact_runtime:/app/apps/tsingask_v2/.artifact_runtime
+    restart: unless-stopped
