@@ -6,7 +6,7 @@
   "duplicate_rows": 4,
   "status_counts": {
     "rejected_quality": 360,
-    "review_required": 300
+    "auto_review_candidate": 300
   },
   "review_queue_by_topic": {
     "国际交流": 86,

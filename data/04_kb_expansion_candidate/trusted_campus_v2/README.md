@@ -2,12 +2,12 @@
 
 This directory is independent from frozen `data/03_knowledge_base/v1`.
 
-- `metadata_catalog.jsonl`: generated inventory. `serving` rows come from frozen KB V1; `review_required` rows are only an admission queue.
+- `metadata_catalog.jsonl`: generated inventory. `serving` rows come from frozen KB V1; `auto_review_candidate` rows are processed by the automated trust gate. Legacy `review_required` is read-only compatibility data, not a human-review requirement.
 - `public_crawl_v1/` and `portal_crawl_v1/`: isolated, resumable raw crawl evidence; generated state and authentication artifacts are ignored by Git.
 - `crawl_candidate_manifest.jsonl`: deduplicated crawl inventory after the automated campus-affairs quality gate.
 - `crawl_quality_report.json`: rejection, date and eight-scenario queue statistics.
 - `attachment_crawl_v1/`: size-limited, signature-checked official PDF/Office downloads and extracted text; binary files are ignored by Git.
-- `attachment_candidate_manifest.jsonl`: text-extracted official attachments waiting for human review.
+- `attachment_candidate_manifest.jsonl`: text-extracted official attachments waiting for strict automated authority, freshness, quality and conflict checks.
 - `shadow_bundle_v1/`: opt-in, unpublished local RAG bundle; only high-confidence public official, actionable and dated crawl candidates are auto-admitted with an audit trail.
 - `coverage_matrix.json` / `.md`: eight-scenario coverage and metadata-quality view.
 - No staging source is used for answers by default.
