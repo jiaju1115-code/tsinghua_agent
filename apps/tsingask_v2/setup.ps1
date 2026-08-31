@@ -1,4 +1,9 @@
-param([switch]$SkipModel, [switch]$SkipDense)
+param(
+    [switch]$SkipModel,
+    [switch]$SkipDense,
+    [ValidateSet('auto','cpu','cu118','cu121','cu122','cu123','cu124','cu125','metal','vulkan','cuda-source','hipblas')]
+    [string]$GpuBackend = 'auto'
+)
 $ErrorActionPreference = 'Stop'
 $AppRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $RepoRoot = Resolve-Path (Join-Path $AppRoot '..\..')
@@ -20,6 +25,8 @@ if (-not (Test-Path -LiteralPath $VenvPython)) {
 Assert-NativeSuccess 'upgrade pip'
 & $VenvPython -m pip install --prefer-binary -r (Join-Path $AppRoot 'requirements.txt')
 Assert-NativeSuccess 'install Python dependencies'
+& $VenvPython (Join-Path $RepoRoot 'scripts\install_tsingask_acceleration.py') --backend $GpuBackend
+Assert-NativeSuccess 'install accelerator backend'
 & $VenvPython -c "import fastapi, uvicorn, numpy, torch, transformers, llama_cpp, docx, openpyxl, pptx, reportlab, pypdf, pdfplumber; print('Python dependencies ready')"
 Assert-NativeSuccess 'verify Python dependencies'
 

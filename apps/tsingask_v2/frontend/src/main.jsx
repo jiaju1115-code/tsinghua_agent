@@ -90,7 +90,7 @@ function Answer({ result, loading, onClarify, onFeedback }) {
   return <div className="answer">
     <div className="answer-meta"><Badge status={result.evidence_status || 'SUPPORTED'}/><span><Icon name="clock" size={14}/>{result.path === 'FULL' ? '完整检索' : '快速路径'} · {Math.round(result.total_latency_ms || 0)} ms</span></div>
     <h2>可信结论</h2><p className="lead">{response.answer}</p>
-    {response.confirmed_facts?.length ? <div className="fact-list">{response.confirmed_facts.map((fact, i) => <div className="fact" key={`${fact.source_id}-${i}`}><span>{i + 1}</span><p>{fact.text}</p></div>)}</div> : null}
+    {response.confirmed_facts?.length ? <div className="fact-list">{response.confirmed_facts.map((fact, i) => <div className="fact" key={`${fact.source_id}-${i}`}><span>{fact.fact_id || i + 1}</span><p>{fact.text}</p></div>)}</div> : null}
     {response.historical_versions?.length ? <div className="history-note"><strong>发现历史版本</strong><p>系统已优先采用较新的有效官方来源，历史版本仅供追溯。</p></div> : null}
     <Clarification response={response} onChoose={onClarify}/>
     <ActionPlan value={response.action_plan}/>

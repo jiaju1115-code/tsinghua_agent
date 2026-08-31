@@ -1,0 +1,18 @@
+{
+  "dataset_version": "QWEN3_GROUNDED_NATURAL_SFT_V1",
+  "builder": "scripts/build_qwen3_grounded_sft_v1.py",
+  "source_bundle": "data\\05_trusted_campus_kb_v2_public",
+  "row_count": 441,
+  "train_count": 394,
+  "validation_count": 47,
+  "source_split_overlap": [],
+  "status_distribution": {
+    "PARTIAL": 86,
+    "SUPPORTED": 355
+  },
+  "sha256": {
+    "train.jsonl": "2d2c305c903e4dc3f06a736d29266e5d5ff32c266a0633b74179f97d3c4c345f",
+    "validation.jsonl": "6ed6ca2bde47637f48c4536b7babbcd8ac8ac1401dc67090820d81b081f8f527"
+  },
+  "note": "This dataset teaches evidence-conditioned style. It is not an authorization to memorize or replace the live knowledge base."
+}

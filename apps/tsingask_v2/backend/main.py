@@ -178,12 +178,14 @@ def health() -> dict[str, Any]:
         model = default_local_runtime().health(load=False)
     except Exception as exc:
         model = {"status": "UNAVAILABLE", "error": f"{type(exc).__name__}: {exc}"}
+    from src.trusted_campus_agent_v2.hardware import torch_acceleration
     return {
         "status": "READY" if manifest else "DEGRADED",
         "project": "TsingAsk V2 Independent",
         "online_agent_touched": False,
         "knowledge_base": {key: manifest.get(key) for key in ("bundle_version", "source_count", "chunk_count", "dense_index")},
         "model": model,
+        "dense_retrieval_acceleration": torch_acceleration(),
     }
 
 

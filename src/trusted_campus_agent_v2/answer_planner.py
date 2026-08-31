@@ -31,11 +31,11 @@ class GroundedAnswerPlannerV2:
         seen = set()
         for hit in evidence.supporting_hits:
             ranked = sorted(
-                _sentences(hit.get("text", "")),
+                [value for value in _sentences(hit.get("text", "")) if not value.lstrip().startswith("#")],
                 key=lambda sentence: -len(query_terms & set(sentence)),
             )
             sentence = next((value for value in ranked if len(query_terms & set(value)) >= 2), None)
-            key = (hit["source_id"], sentence)
+            key = re.sub(r"[*#\s]+", "", sentence or "")
             if sentence and key not in seen:
                 seen.add(key)
                 facts.append({

@@ -1,4 +1,8 @@
-# 清华校园智能问答 / Tsinghua Agent
+# 清问 · TsingAsk（可信校园事务智能体）
+
+> **当前 `main` 的可运行项目是独立版 TsingAsk V2。** 它不依赖清小搭或线上原智能体，入口、安装、GPU 配置、文件工具与知识库维护说明见 [`apps/tsingask_v2/README.md`](apps/tsingask_v2/README.md)。从仓库根目录执行 `powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1`，再运行 `apps\tsingask_v2\start.ps1`。旧 Submission Candidate V1 及其冻结评测资产仍保留在历史提交和独立备份分支中，未被覆盖或重新发布。
+
+## 历史项目与审计资料
 
 > **Submission Candidate V1 (2026-08-17).** The candidate runtime combines Frozen RAG Runtime V1, Evidence Sufficiency V1, Citation Support V1, and Natural Uncertainty Runtime Adapter V1. Frozen text artifacts are verified with canonical LF hashing for cross-platform checkout compatibility. Pilot V1 is a validated research candidate and is not part of the submission runtime. Formal held-out E2E and beta/user testing have not been completed.
 

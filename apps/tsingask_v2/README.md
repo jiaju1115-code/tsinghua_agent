@@ -13,10 +13,22 @@ powershell -NoProfile -ExecutionPolicy Bypass -File apps\tsingask_v2\start.ps1
 
 浏览器打开 `http://127.0.0.1:8765`。首次安装默认下载官方 Qwen3-4B Q4_K_M（约 2.5 GB），校验大小和 SHA256；如只想先复用本机已校验的 Qwen2.5-1.5B，可给安装脚本加 `-SkipModel`。
 
+安装脚本默认使用 `-GpuBackend auto`：检测到 NVIDIA 显卡时安装 CUDA 版 PyTorch 与 llama.cpp，并把 Qwen3 的全部层卸载到 GPU；Apple Silicon 使用 Metal，其余机器安全回退到 CPU。AMD/Intel 独显部署可显式选择 `-GpuBackend vulkan`（需要本机 CMake/C++ 与 Vulkan SDK），AMD ROCm 可选择 `hipblas`。运行时可用 `TSINGASK_FORCE_CPU=1` 强制 CPU，或用 `TSINGASK_GPU_LAYERS=20` 限制显存占用；默认 `auto` 等价于 GPU 后端可用时 `-1`（全部层）。多卡可用 `TSINGASK_TENSOR_SPLIT=0.6,0.4` 指定显存比例。`GET /api/health` 会返回实际加速模式。
+
+示例：
+
+```powershell
+# 自动检测（推荐）
+powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -GpuBackend auto
+
+# CUDA 12.4 预编译轮子
+powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -GpuBackend cu124
+```
+
 ## 已接通的核心能力
 
-1. 本地模型：Qwen3-4B 优先、已校验 Qwen2.5-1.5B 回退；所有文件内容与规划留在本机。
-2. Agent：Fast Path / Full Path、查询改写与拆分、Dense + BM25、metadata 重排、Evidence Gate、行动清单。
+1. 本地模型：Qwen3-4B 优先、已校验 Qwen2.5-1.5B 回退；自动使用可用 GPU，所有文件内容与规划留在本机。
+2. Agent：Fast Path / Full Path、查询改写与拆分、Dense + BM25、metadata 重排、Evidence Gate、行动清单；Full Path 由本地模型将已确认事实组织成自然中文，生成内容会逐句检查事实引用、中文短语支持度和数字越界，未通过的句子会被剔除，无法安全保留时才回退到确定性答案。
 3. 公开知识库：严格限定清华官方公开来源，去重、排除新闻和过期资料、同制度保留较新版本，输出逐条审计记录与 8 场景 Coverage Matrix。
 4. 文件工具：读取、生成、修改并下载 DOCX / XLSX / PPTX / PDF；模型只产出结构化计划，Python 写真实文件。
 5. 引导式 Evidence Gate：证据不足时不再只拒答，而是最多追问 3 个关键槽位，同时给出官方查找入口；PARTIAL 只回答已确认部分，CONFLICT 展示版本冲突与采用依据。

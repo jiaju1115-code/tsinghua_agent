@@ -95,6 +95,8 @@ class TrustedHybridRetrieverV2:
                 else:
                     from src.runtime_v1.freeze_loader_v1_1 import build_dense_retriever_v1
                     self._dense = build_dense_retriever_v1()
+            from .hardware import place_dense_encoder
+            place_dense_encoder(self._dense)
         return self._dense
 
     @staticmethod
@@ -115,7 +117,7 @@ class TrustedHybridRetrieverV2:
 
     @staticmethod
     def _encode_subqueries(dense: Any, subqueries: tuple[str, ...]) -> list[np.ndarray]:
-        if len(subqueries) == 1 or not all(hasattr(dense, name) for name in ("tokenizer", "model", "config")):
+        if not all(hasattr(dense, name) for name in ("tokenizer", "model", "config")):
             return [dense._encode_query(query) for query in subqueries]
         import torch
 
@@ -124,6 +126,8 @@ class TrustedHybridRetrieverV2:
             texts, padding=True, truncation=True,
             max_length=int(dense.config["max_length"]), return_tensors="pt",
         )
+        from .hardware import move_batch_to_dense_device
+        tokens = move_batch_to_dense_device(dense, tokens)
         with torch.inference_mode():
             vectors = dense.model(**tokens).last_hidden_state[:, 0]
             vectors = torch.nn.functional.normalize(vectors, p=2, dim=1)
