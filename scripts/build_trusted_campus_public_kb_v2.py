@@ -33,6 +33,7 @@ from src.trusted_campus_agent_v2.metadata import (
 
 SOURCE_ROOT = ROOT / "data" / "04_kb_expansion_candidate" / "trusted_campus_v2"
 DEFAULT_OUTPUT = ROOT / "data" / "05_trusted_campus_kb_v2_public"
+HIGH_FREQUENCY_INTENTS = ROOT / "configs" / "trusted_campus_agent_v2" / "high_frequency_intents.json"
 SCENARIOS = ("教务", "学生事务", "校园生活", "科研实践", "国际交流", "就业", "新生", "毕业")
 ACTION_MARKERS = (
     "申请", "办理", "流程", "步骤", "材料", "条件", "资格", "须知", "指南", "入口", "系统",
@@ -41,6 +42,13 @@ ACTION_MARKERS = (
 NEWS_MARKERS = (
     "新闻网", "新闻", "快讯", "纪实", "回顾", "精彩回顾", "举办", "举行", "召开", "获奖",
     "荣获", "参观", "来访", "调研", "座谈会", "论坛开幕", "人物", "故事", "风采", "一周",
+    "聚焦2020计划", "专题书架", "拓展营", "第一课", "走进清华", "（新论）", "盛放清华园",
+    "纪念", "《自然》报道",
+)
+
+NEWS_TITLE_PATTERNS = (
+    re.compile(r"团队.*(?:提出|揭示|实现|研发|研制|取得|突破)"),
+    re.compile(r"(?:签署|达成).*(?:协议|合作)"),
 )
 
 
@@ -81,7 +89,7 @@ def assess(row: dict[str, Any], text: str, today: date) -> tuple[bool, str]:
     title = str(row.get("title", ""))
     url = str(row.get("source") or row.get("url") or "")
     content_type = str(row.get("content_type") or infer_content_type(title, text))
-    if row.get("access_level") == "restricted" or row.get("source_type") == "restricted":
+    if row.get("access_level", "public") != "public" or row.get("source_type") == "restricted":
         return False, "restricted_source"
     if not official_public(url):
         return False, "not_verified_tsinghua_source"
@@ -89,7 +97,7 @@ def assess(row: dict[str, Any], text: str, today: date) -> tuple[bool, str]:
         return False, "unverified_wechat_account"
     if len(text) < 220:
         return False, "insufficient_content"
-    if any(marker in title for marker in NEWS_MARKERS):
+    if any(marker in title for marker in NEWS_MARKERS) or any(pattern.search(title) for pattern in NEWS_TITLE_PATTERNS):
         return False, "news_or_publicity"
     if content_type in {"organization_intro", "news", "event", "profile"}:
         return False, "non_transactional_content_type"
@@ -192,6 +200,59 @@ def build_dense_index(chunks: list[dict[str, Any]], output: Path) -> str | None:
         return f"{type(exc).__name__}: {exc}"[:500]
 
 
+def build_intent_coverage(
+    sources: list[tuple[dict[str, Any], str, str]], today: date,
+) -> dict[str, Any]:
+    config = json.loads(HIGH_FREQUENCY_INTENTS.read_text(encoding="utf-8-sig"))
+    rows: dict[str, Any] = {}
+    for intent in config["intents"]:
+        subject_terms = [str(value).lower() for value in intent["subject_terms"]]
+        action_terms = [str(value).lower() for value in intent["action_terms"]]
+        matched = []
+        for meta, body, _origin in sources:
+            sample = f"{meta.get('title', '')}\n{body}".lower()
+            matched_subjects = [term for term in subject_terms if term in sample]
+            matched_actions = [term for term in action_terms if term in sample]
+            if not matched_subjects or not matched_actions:
+                continue
+            subject_positions = [match.start() for term in matched_subjects for match in re.finditer(re.escape(term), sample)]
+            action_positions = [match.start() for term in matched_actions for match in re.finditer(re.escape(term), sample)]
+            if not subject_positions or not action_positions or min(
+                abs(subject - action) for subject in subject_positions for action in action_positions
+            ) > 400:
+                continue
+            published = parse_iso_date(meta.get("effective_date") or meta.get("publish_date"))
+            matched.append({
+                "source_id": meta["source_id"], "title": meta["title"], "source": meta["source"],
+                "department": meta.get("department"), "audience": meta.get("audience", []),
+                "authority_level": meta.get("authority_level"), "publish_date": meta.get("publish_date"),
+                "effective_date": meta.get("effective_date"), "matched_subject_terms": matched_subjects,
+                "matched_action_terms": matched_actions, "dated_recent": bool(published and published.year >= today.year - 1),
+            })
+        matched.sort(
+            key=lambda row: (
+                row["dated_recent"], row.get("effective_date") or row.get("publish_date") or "0000-00-00",
+                row["source_id"],
+            ),
+            reverse=True,
+        )
+        minimum = int(intent.get("minimum_sources", 1))
+        status = "READY" if len(matched) >= minimum else "PARTIAL" if matched else "GAP"
+        rows[intent["id"]] = {
+            "label": intent["label"], "topic": intent["topic"], "status": status,
+            "source_count": len(matched), "minimum_sources": minimum,
+            "recent_dated_source_count": sum(row["dated_recent"] for row in matched),
+            "undated_source_count": sum(not row.get("effective_date") and not row.get("publish_date") for row in matched),
+            "sources": matched[:8],
+        }
+    return {
+        "version": config["version"], "built_at": datetime.now().astimezone().isoformat(),
+        "as_of": today.isoformat(),
+        "summary": dict(Counter(row["status"] for row in rows.values())),
+        "intents": rows,
+    }
+
+
 def build(output: Path, *, dense: bool) -> dict[str, Any]:
     final_output = output.resolve()
     resolved_data = (ROOT / "data").resolve()
@@ -217,8 +278,10 @@ def build(output: Path, *, dense: bool) -> dict[str, Any]:
         row["content_type"] = row.get("content_type") or infer_content_type(row["title"], text)
         row["department"] = row.get("department") or infer_department(row["source"], row["title"])
         row["audience"] = row.get("audience") or infer_audience(row["title"], text)
-        row["topics"] = row.get("topics") or infer_topics(row.get("category", ""), row["title"], text)
-        row["topic"] = row.get("topic") or row["topics"][0]
+        inferred_topics = infer_topics(row.get("category", ""), row["title"], text)
+        existing_topics = list(row.get("topics") or [])
+        row["topics"] = list(dict.fromkeys([*inferred_topics, *existing_topics]))
+        row["topic"] = row["topics"][0]
         row["policy_key"] = row.get("policy_key") or policy_key(row["title"])
         row["normalized_url"] = normalize_url(row["source"])
         row["content_hash"] = row.get("content_hash") or hashlib.sha256(re.sub(r"\s+", "", text).encode("utf-8")).hexdigest()
@@ -273,16 +336,19 @@ def build(output: Path, *, dense: bool) -> dict[str, Any]:
         source_ids = {row["source_id"] for row in metadata if scenario in row.get("topics", [])}
         by_type = Counter(row["content_type"] for row in metadata if row["source_id"] in source_ids)
         coverage[scenario] = {"source_count": len(source_ids), "chunk_count": sum(row["canonical_source_id"] in source_ids for row in chunks), "content_types": dict(sorted(by_type.items())), "status": "COVERED" if len(source_ids) >= 3 else "GAP"}
+    intent_coverage = build_intent_coverage(final, today)
     dense_error = build_dense_index(chunks, output) if dense else "skipped_by_flag"
     report = {
         "bundle_version": "TRUSTED_CAMPUS_PUBLIC_KB_V2", "built_at": datetime.now().astimezone().isoformat(),
         "public_only": True, "source_count": len(metadata), "chunk_count": len(chunks),
         "decision_counts": dict(Counter(row["reason"] for row in decisions if row["decision"] == "EXCLUDED")),
-        "coverage": coverage, "dense_index": "ready" if dense_error is None else "unavailable", "dense_error": dense_error,
+        "coverage": coverage, "high_frequency_intent_coverage": intent_coverage["summary"],
+        "dense_index": "ready" if dense_error is None else "unavailable", "dense_error": dense_error,
         "wechat_policy": "verified account + transactional content only; news excluded",
     }
     (output / "manifest.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     (output / "coverage_matrix.json").write_text(json.dumps(coverage, ensure_ascii=False, indent=2), encoding="utf-8")
+    (output / "intent_coverage_matrix.json").write_text(json.dumps(intent_coverage, ensure_ascii=False, indent=2), encoding="utf-8")
     if dense and dense_error is not None:
         raise RuntimeError(f"dense index build failed; existing serving bundle was kept: {dense_error}")
     if previous_output.exists():

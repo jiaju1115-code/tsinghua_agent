@@ -1,6 +1,152 @@
 # 清问 · TsingAsk（可信校园事务智能体）
 
-> **当前 `main` 的可运行项目是独立版 TsingAsk V2。** 它不依赖清小搭或线上原智能体，入口、安装、GPU 配置、文件工具与知识库维护说明见 [`apps/tsingask_v2/README.md`](apps/tsingask_v2/README.md)。从仓库根目录执行 `powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1`，再运行 `apps\tsingask_v2\start.ps1`。旧 Submission Candidate V1 及其冻结评测资产仍保留在历史提交和独立备份分支中，未被覆盖或重新发布。
+> **`main` 当前对应可独立运行的 TsingAsk V2。** 它不依赖清小搭及其模型，不会修改、覆盖或重新发布原线上智能体。旧 Submission Candidate V1 的冻结代码和审计资产仅作为历史资料保留。
+
+## 当前版本一览（2026-08-31）
+
+TsingAsk V2 将普通校园 RAG 升级为“理解问题 → 检索证据 → 判断证据 → 规划行动 → 必要时生成文件”的校园事务智能体。
+
+| 能力 | 当前实现 |
+| --- | --- |
+| 本地模型 | 默认 Qwen3-4B Q4_K_M；可回退到已校验的 Qwen2.5-1.5B；不调用清小搭模型 |
+| GPU | NVIDIA CUDA 自动检测并尽量卸载全部模型层；Apple Silicon 使用 Metal；无可用 GPU 时回退 CPU |
+| 检索 | Query Rewrite/Decomposition、校园术语别名、BM25 + Dense、融合排序、metadata/权威性/时效性重排 |
+| 路径选择 | 页面可手动选择 Fast 或 Full；Fast 适合简单事实，Full 适合条件、材料、步骤、截止时间和多条件问题 |
+| 证据判断 | `SUPPORTED / PARTIAL / CONFLICT / NOT_SUPPORTED`；证据不足时主动追问并给出信息门户、官网或官方公众号核验方向 |
+| 办事规划 | 尽量输出条件、材料、步骤、截止时间和官方入口，不把未知项编造成事实 |
+| 文件能力 | 读取、生成、修改并下载 DOCX、XLSX、PPTX、PDF；Python 负责真实文件格式，模型只负责需求理解和结构化规划 |
+| 产品形态 | FastAPI 后端 + React/Vite 前端；本地独立运行，提供 OpenAPI 和可下载文件 |
+
+### 当前公开知识库快照
+
+运行时服务库位于 `data/05_trusted_campus_kb_v2_public/`：
+
+| 指标 | 当前值 | 说明 |
+| --- | ---: | --- |
+| 服务来源 | 402 | 仅纳入公开、可追溯并通过自动严格准入的来源 |
+| chunks | 2,004 | 已生成 BM25/Dense 检索所需分块 |
+| Dense 索引 | ready | Full Path 可用 |
+| 八大场景 | 8/8 `COVERED` | 教务、学生事务、校园生活、科研实践、国际交流、就业、新生、毕业 |
+| 高频事务 | 20/20 `READY` | 见 `intent_coverage_matrix.json`；READY 不等于每个当期截止日期都已覆盖 |
+| 新闻/宣传排除 | 138 | 不进入服务检索，但准入决定保留以便审计 |
+| 认证/受限来源排除 | 18 | 登录门户资料和 restricted 资料不进入公开服务库 |
+
+每条服务来源包含 `source`、`department`、`publish_date`、`effective_date`、`expiry_date`、`audience`、`authority_level`、`topic/topics`、`content_type` 等 metadata。未知日期保持 `null`，不根据文件年份伪造发布日期。
+
+## 安装与启动
+
+环境建议：Windows 10/11、PowerShell、Python 3.11。首次安装需要联网下载 Python 依赖和本地模型；模型与运行时缓存不会提交到 Git。
+
+在仓库根目录执行：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File apps\tsingask_v2\start.ps1
+```
+
+浏览器打开 `http://127.0.0.1:8765`。健康检查和接口文档：
+
+- `http://127.0.0.1:8765/api/health`
+- `http://127.0.0.1:8765/api/docs`
+
+如本机已经安装并校验过兼容模型，可使用 `setup.ps1 -SkipModel`。GPU 示例：
+
+```powershell
+# 自动检测，推荐
+powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -GpuBackend auto
+
+# NVIDIA CUDA 12.4 预编译依赖
+powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -GpuBackend cu124
+```
+
+常用运行变量：
+
+- `TSINGASK_FORCE_CPU=1`：强制只用 CPU。
+- `TSINGASK_GPU_LAYERS=-1`：可用时将全部模型层卸载到 GPU；默认自动模式即采用这一策略。
+- `TSINGASK_GPU_LAYERS=20`：显存较小时只卸载部分层。
+- `TSINGASK_TENSOR_SPLIT=0.6,0.4`：多卡显存分配比例。
+
+## 怎么使用
+
+### 校园问答
+
+在页面选择检索模式后直接提问，例如：
+
+- Fast：`校园网 Tsinghua-Secure 怎么连接？`
+- Full：`我是本科生，校园卡丢了，如何挂失和补办？`
+- Full：`申请交换项目需要哪些条件、材料和步骤？请标明哪些信息还需要去门户确认。`
+
+Fast 只执行轻量检索，不调用完整生成链路；Full 会拆解用户实际请求的方面，执行 Dense + BM25、重排、Evidence Gate 和自然语言组织。两种模式都允许给出进一步查找渠道。
+
+### 生成或修改文件
+
+页面支持上传 `.docx/.xlsx/.pptx/.pdf`。示例：
+
+- `根据学校最新要求生成一份社会实践报告 Word。`
+- `按我上传的模板生成奖学金申请材料，保留原格式。`
+- `读取这个会议纪要，把待办事项整理成 Excel 后重新导出。`
+- `修改上传的 PPT，把活动方案改成迎新主题并导出新文件。`
+
+涉及“学校最新要求”的文件任务会先经过 RAG 和 Evidence Gate，再把已确认要求交给文件工具。生成结果由 `/api/files/{file_id}` 返回实际下载文件，而不是只返回 Markdown。
+
+内置高频模板：社会实践报告、活动策划书、奖学金申请材料、会议纪要、课程报告。更完整的文件工具说明见 [`docs/trusted_campus_agent_v2.md`](docs/trusted_campus_agent_v2.md)。
+
+## 知识库维护
+
+公开站点种子和官方附件种子分别维护在：
+
+- `configs/trusted_campus_agent_v2/public_crawl_seeds.txt`
+- `configs/trusted_campus_agent_v2/official_attachment_seeds.csv`
+- `configs/trusted_campus_agent_v2/high_frequency_intents.json`
+
+执行公开资料增量抓取、附件提取、严格清洗、Dense 索引构建和原子切换：
+
+```powershell
+python scripts\refresh_trusted_campus_public_kb_v2.py
+```
+
+只根据当前候选资料重新构建服务库：
+
+```powershell
+python scripts\build_trusted_campus_public_kb_v2.py
+```
+
+构建先写入 `.05_trusted_campus_kb_v2_public.building`，只有全部成功后才原子替换服务目录；失败时保留旧库。主要审计产物：
+
+- `manifest.json`：版本、来源/chunk 数量、排除原因和 Dense 状态。
+- `coverage_matrix.json`：八大场景覆盖。
+- `intent_coverage_matrix.json`：20 类高频事务覆盖及对应来源。
+- `audit/admission_decisions.jsonl`：每条候选的准入或排除原因。
+- `metadata_catalog.jsonl`：运行时来源 metadata。
+
+安装每周日 03:30 的本机刷新任务：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\install_refresh_task.ps1
+```
+
+## 主要 API
+
+- `GET /api/health`：服务、模型和实际硬件加速状态。
+- `GET /api/coverage`：八大场景覆盖矩阵。
+- `GET /api/intent-coverage`：20 类高频事务覆盖矩阵。
+- `POST /api/chat`：问答；`retrieval_mode` 支持 `fast/full/auto`。
+- `POST /api/uploads`：上传待处理文件。
+- `POST /api/jobs`、`GET /api/jobs/{job_id}`：异步文件任务。
+- `GET /api/files/{file_id}`：下载真实生成文件。
+- `POST /api/sessions`：创建事务会话；任务可更新并导出 ICS 日历。
+- `POST /api/feedback`：写入隔离反馈队列，不自动污染知识库。
+
+## 数据、安全与已知限制
+
+- 当前服务库只接纳 `access_level=public`。通过登录入口采集的内容即使最终跳转到公开域名，仍按 `campus_authenticated` 隔离。
+- 不得提交 Cookie、token、密码、API key、浏览器 profile、Playwright storage state、个人成绩、名单或财务信息。
+- 微信公众号只允许来自清华官网可核验账号、且正文或附件能公开访问的制度/流程资料。本次快照没有强行纳入搜索摘要或无法核验身份的公众号内容，因此微信来源当前为 0。
+- 选课、学期注册、毕业离校等当期通知常位于信息门户，公开库不能保证拥有最新批次与截止日期。Evidence Gate 应提示用户补充身份/批次并去官方入口核验。
+- `20/20 READY` 表示每类事务已有最低数量的可执行证据，不是准确率或正式评测结论，也不代表院系细则和当期通知全部齐全。
+- 轻量回归当前为 `22 passed`；尚未完成新的正式 held-out E2E 和真实用户评测，不能宣称生产准确率。
+
+应用级安装、容器、GPU 和 API 细节见 [`apps/tsingask_v2/README.md`](apps/tsingask_v2/README.md)。
 
 ## 历史项目与审计资料
 
@@ -8,11 +154,7 @@
 
 截至 2026-08-26 的完整进度、已知限制与下一步见 [`docs/current_progress_20260826.md`](docs/current_progress_20260826.md)。
 
-## 独立候选：可信校园事务智能体 V2
-
-src/trusted_campus_agent_v2/ 是 2026-08-30 新建的本地候选链路，增加场景化 Coverage Matrix、校园术语改写、复杂问题拆解、Fast/Full 路由、Dense+BM25、metadata/时效/权威 rerank、四态 Evidence Gate、办事行动清单，以及 DOCX/XLSX/PPTX/PDF 的生成、回读、修改和可选 LLM Tool Calling。它只读冻结 KB V1，public staging 先进入自动复核候选池，不修改或替换 Submission Candidate V1，也没有发布。边界和运行方式见 docs/trusted_campus_agent_v2.md。
-
-### 本地交互体验
+### 历史 V1 本地交互入口
 
 从项目根目录执行：
 
@@ -26,7 +168,7 @@ python scripts/chat_submission_candidate_v1.py
 
 项目的核心原则是：先确认资料和证据是否足够，再决定能否回答；证据不足时必须降级为部分回答或拒答，不能通过模型自由发挥补齐事实。
 
-## 当前状态（截至 2026-08-15）
+## 历史 V1 状态（截至 2026-08-15）
 
 ### 已完成
 
@@ -49,7 +191,7 @@ python scripts/chat_submission_candidate_v1.py
 5. Knowledge Base V1 / Retrieval V1 所需的冻结 encoder 权重、索引、配置和词表已随仓库发布；但其他实验所需的本地模型、浏览器认证、人工标注、外部数据访问或可再生缓存不保证随仓库提供。凭据、浏览器状态和缓存不会进入 Git。
 6. Knowledge Base V1 不应原地修改。若变更语料、chunking、embedding、索引、retriever 配置或来源准入规则，应建立 Knowledge Base V2 / RAG Retrieval V2。
 
-## 当前正式运行链路
+## 历史 V1 正式运行链路
 
 ```text
 公开数据采集
@@ -64,22 +206,22 @@ python scripts/chat_submission_candidate_v1.py
   -> E2E Orchestrator V1
 ```
 
-正式链路的运行时入口和冻结工件必须使用 `data/03_knowledge_base/v1/`。`data/04_public_staging/`、历史 RAG 评估和 `experiments/` 中的候选实现只用于审计、回归或研究，不是正式 runtime 的隐式输入。
+历史 V1 链路的运行时入口和冻结工件使用 `data/03_knowledge_base/v1/`。它不是当前 `main` 中 TsingAsk V2 Web 应用的服务库；V2 使用 `data/05_trusted_campus_kb_v2_public/`。
 
-## 先读什么：不同读者的入口
+## 历史 V1 审计入口
 
 | 你要做的事 | 建议先读 | 然后查看 | 不要直接把它当成 |
 | --- | --- | --- | --- |
-| 了解当前项目是否已具备可运行能力 | 本 README 的“当前状态”和“系统契约” | `reports/*_v1_report.md` | 已完成的独立 held-out 效果证明 |
+| 了解历史 V1 是否具备可复现能力 | 本节的历史状态和系统契约 | `reports/*_v1_report.md` | 当前 TsingAsk V2 的效果证明 |
 | 复现正式检索与四层运行时 | `data/03_knowledge_base/v1/README.md` | `src/*_v1/`、`scripts/run_*_v1_*.py` | 任意历史 RAG/实验目录 |
 | 审计来源、准入和版本完整性 | `reports/knowledge_base_v1_freeze_report.md` | `data/03_knowledge_base/v1/audit/`、`manifests/`、`provenance/` | 仅凭 README 结论 |
 | 开展下一轮数据/检索实验 | `docs/project_file_map.md` | `data/04_kb_expansion_candidate/`、`experiments/` | 对 KB V1 的原地编辑 |
 | 执行 E2E 评估 | `reports/e2e_evaluation_v1_readiness_report.md` | `evaluation/e2e_heldout/v1/`、`evaluation/e2e/v1/` | 已通过的正式 benchmark |
 | 处理人工复核 | `data/06_human_annotation/` 中的状态与工作簿 | 对应 `audit/`、`human_check/` 文件 | 可自动升级为 gold truth 的标签 |
 
-## 正式冻结包：可验证的技术事实
+## 历史 V1 冻结包：可验证的技术事实
 
-当前正式运行基础是 `KNOWLEDGE_BASE_V1` 和 `RAG_RETRIEVAL_V1`，两者都在 `data/03_knowledge_base/v1/`。下面的数值来自知识库冻结报告，用于识别当前版本，不应被解读为端到端效果指标。
+历史 V1 的正式运行基础是 `KNOWLEDGE_BASE_V1` 和 `RAG_RETRIEVAL_V1`，两者都在 `data/03_knowledge_base/v1/`。下面的数值来自历史知识库冻结报告，用于识别该冻结版本，不应被解读为当前 V2 的端到端效果指标。
 
 | 项目 | 当前冻结值 | 含义 |
 | --- | ---: | --- |
@@ -252,7 +394,7 @@ tsinghua_ai/
 - `data/02_public_expansion/`：公开扩展数据。
   - `v1/`：历史公开扩展运行。
   - `v2/`：审计后的公开扩展结果；当前包含 Public V3.2 人工复核、disagreement、metrics 和 report 等工件。
-- `data/03_knowledge_base/v1/`：当前唯一正式 Knowledge Base V1 / RAG Retrieval V1 runtime bundle。
+- `data/03_knowledge_base/v1/`：历史 V1 唯一正式 Knowledge Base / Retrieval runtime bundle；当前 V2 不从这里提供服务。
   - `audit/`：KB 与 Retriever 冻结清单、资格判断、输入不变性和 hash 校验。
   - `chunks/`：规范化后的 chunk 数据。
   - `config/`：chunking 与 retriever 配置。
@@ -261,7 +403,7 @@ tsinghua_ai/
   - `provenance/`：来源元数据和标准化原文，用于追溯证据。
   - `README.md`：知识库版本边界和使用说明。
 - `data/04_public_staging/`：公开候选资料 staging 区，只用于准入前准备和审计，不是 V1 runtime 输入。
-- `data/04_kb_expansion_candidate/`：下一轮知识库扩展候选资料，尚未进入 V1。
+- `data/04_kb_expansion_candidate/`：V2 知识库的采集与附件候选资料；只有通过自动严格准入的记录才会进入 V2 服务库。
 - `data/05_restricted_expansion/v1/`：restricted 阶段的计划、准入、审计、候选资料、原文和报告。
 - `data/06_human_annotation/`：人工审核、标注、adjudication 和知识状态资料；其中部分仍需人工复核。
 

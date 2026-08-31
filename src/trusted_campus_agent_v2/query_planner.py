@@ -108,11 +108,16 @@ class CampusQueryPlanner:
         clauses = self._split_explicit_clauses(query) if path == "FULL" else [rewritten]
         if path == "FULL" and wants_action and len(clauses) == 1:
             subject = canonical[0] if canonical else query
-            clauses = [
-                f"{subject}的申请条件和适用对象",
-                f"{subject}需要的材料和办理步骤",
-                f"{subject}的截止时间和官方入口",
-            ]
+            requested_aspects = []
+            if any(marker in query for marker in ("条件", "资格", "对象", "能否", "可以申请")):
+                requested_aspects.append(f"{subject}的申请条件和适用对象")
+            if any(marker in query for marker in ("材料", "申请表", "证明", "提交什么")):
+                requested_aspects.append(f"{subject}需要提交的材料")
+            if any(marker in query for marker in ("截止", "什么时候", "时间", "日期", "本学期", "今年")):
+                requested_aspects.append(f"{subject}的截止时间和当前批次")
+            if any(marker in query for marker in ("如何", "怎么", "流程", "步骤", "办理", "申请", "补办", "挂失")):
+                requested_aspects.append(f"{subject}的办理步骤和官方入口")
+            clauses = requested_aspects or [f"{subject}的办理说明和官方入口"]
         subqueries = tuple(dict.fromkeys(clauses[:4])) or (rewritten,)
         topics = self._topics(query)
         filters: dict[str, Any] = {

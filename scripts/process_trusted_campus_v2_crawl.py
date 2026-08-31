@@ -98,9 +98,7 @@ def labeled_date(text: str, labels: str) -> str | None:
 
 
 def source_access(row: dict[str, Any]) -> str:
-    host = (urlsplit(row.get("final_url") or row.get("source_url") or row.get("url") or "").hostname or "").lower()
-    authenticated_hosts = {"info.tsinghua.edu.cn", "webvpn.tsinghua.edu.cn", "id.tsinghua.edu.cn"}
-    if row.get("source_mode") == "authenticated_portal" and (host in authenticated_hosts or host.endswith(".info.tsinghua.edu.cn")):
+    if row.get("source_mode") == "authenticated_portal":
         return "campus_authenticated"
     return "public"
 

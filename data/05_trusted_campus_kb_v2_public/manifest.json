@@ -1,116 +1,119 @@
 {
   "bundle_version": "TRUSTED_CAMPUS_PUBLIC_KB_V2",
-  "built_at": "2026-08-31T02:04:18.414340+08:00",
+  "built_at": "2026-08-31T12:11:54.020767+08:00",
   "public_only": true,
-  "source_count": 417,
-  "chunk_count": 1941,
+  "source_count": 402,
+  "chunk_count": 2004,
   "decision_counts": {
-    "non_transactional_content_type": 24,
-    "superseded_by_newer_version": 59,
-    "restricted_source": 3,
-    "weak_reference_page": 431,
-    "news_or_publicity": 87,
-    "duplicate_url": 15,
+    "non_transactional_content_type": 23,
+    "news_or_publicity": 138,
+    "superseded_by_newer_version": 61,
+    "restricted_source": 18,
+    "weak_reference_page": 425,
+    "duplicate_url": 22,
     "not_actionable": 33,
     "duplicate_content": 1
   },
   "coverage": {
     "教务": {
-      "source_count": 205,
-      "chunk_count": 1110,
+      "source_count": 196,
+      "chunk_count": 1180,
       "content_types": {
         "faq": 1,
         "mixed": 1,
         "notice": 1,
-        "policy": 117,
-        "procedure_guide": 80,
-        "reference": 5
+        "policy": 116,
+        "procedure_guide": 74,
+        "reference": 3
       },
       "status": "COVERED"
     },
     "学生事务": {
-      "source_count": 118,
-      "chunk_count": 429,
+      "source_count": 117,
+      "chunk_count": 557,
       "content_types": {
         "mixed": 2,
         "notice": 2,
-        "policy": 66,
-        "procedure_guide": 45,
+        "policy": 67,
+        "procedure_guide": 43,
         "reference": 3
       },
       "status": "COVERED"
     },
     "校园生活": {
-      "source_count": 161,
-      "chunk_count": 931,
+      "source_count": 153,
+      "chunk_count": 1005,
       "content_types": {
         "faq": 1,
-        "mixed": 7,
+        "mixed": 4,
         "notice": 3,
-        "policy": 73,
-        "procedure_guide": 76,
-        "reference": 1
+        "policy": 70,
+        "procedure_guide": 73,
+        "reference": 2
       },
       "status": "COVERED"
     },
     "科研实践": {
-      "source_count": 148,
-      "chunk_count": 647,
+      "source_count": 139,
+      "chunk_count": 734,
       "content_types": {
         "mixed": 1,
-        "policy": 75,
-        "procedure_guide": 65,
-        "reference": 7
+        "policy": 72,
+        "procedure_guide": 61,
+        "reference": 5
       },
       "status": "COVERED"
     },
     "国际交流": {
-      "source_count": 132,
-      "chunk_count": 981,
+      "source_count": 116,
+      "chunk_count": 1030,
       "content_types": {
         "faq": 1,
-        "mixed": 9,
-        "policy": 64,
-        "procedure_guide": 52,
-        "reference": 6
+        "mixed": 7,
+        "policy": 62,
+        "procedure_guide": 42,
+        "reference": 4
       },
       "status": "COVERED"
     },
     "就业": {
-      "source_count": 82,
-      "chunk_count": 402,
+      "source_count": 78,
+      "chunk_count": 413,
       "content_types": {
         "mixed": 2,
         "notice": 1,
-        "policy": 45,
+        "policy": 42,
         "procedure_guide": 31,
-        "reference": 3
+        "reference": 2
       },
       "status": "COVERED"
     },
     "新生": {
-      "source_count": 54,
-      "chunk_count": 277,
+      "source_count": 46,
+      "chunk_count": 250,
       "content_types": {
         "faq": 1,
         "notice": 1,
-        "policy": 27,
-        "procedure_guide": 21,
-        "reference": 4
+        "policy": 23,
+        "procedure_guide": 18,
+        "reference": 3
       },
       "status": "COVERED"
     },
     "毕业": {
-      "source_count": 114,
-      "chunk_count": 563,
+      "source_count": 108,
+      "chunk_count": 552,
       "content_types": {
-        "mixed": 4,
-        "policy": 69,
-        "procedure_guide": 37,
-        "reference": 4
+        "mixed": 1,
+        "policy": 72,
+        "procedure_guide": 33,
+        "reference": 2
       },
       "status": "COVERED"
     }
+  },
+  "high_frequency_intent_coverage": {
+    "READY": 20
   },
   "dense_index": "ready",
   "dense_error": null,

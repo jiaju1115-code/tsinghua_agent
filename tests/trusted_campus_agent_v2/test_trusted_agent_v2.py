@@ -43,6 +43,12 @@ def test_user_can_force_fast_or_full_path() -> None:
     assert "user_selected_full" in full.complexity_reasons
 
 
+def test_full_path_only_decomposes_requested_procedure_aspects() -> None:
+    plan = CampusQueryPlanner().plan("我是本科生，校园卡丢了怎么挂失和补办？", path_override="FULL")
+    assert plan.subqueries == ("校园卡的办理步骤和官方入口",)
+    assert not any("截止" in subquery or "材料" in subquery for subquery in plan.subqueries)
+
+
 def test_procedure_guidance_always_includes_portal_and_official_wechat() -> None:
     decision = ClarificationPolicy().assess(
         "本科生如何申请转系？", status="SUPPORTED", topics=["教务"], context={"audience": "本科生"}, citations=[]
@@ -107,6 +113,20 @@ def test_action_plan_is_evidence_bound() -> None:
     assert response["action_plan"]["materials"]
     assert response["action_plan"]["deadlines"]
     assert response["citations"][0]["source_id"] == "S1"
+
+
+def test_campus_card_action_plan_excludes_library_permission_step() -> None:
+    query_plan = CampusQueryPlanner().plan("我是本科生，校园卡丢了怎么补办？", path_override="FULL")
+    source = hit(text=(
+        "本科生办理学生证后，可申请开通借书权限。\n"
+        "学生证的挂失/补办/解挂：可通过清华校园卡小程序挂失。"
+        "卡补办到紫荆C楼102自助机办理。"
+    ))
+    evidence = EvidenceResult("SUPPORTED", (0,), (), (source,), (), (), ("ALL_SUBQUERIES_AUTHORITATIVELY_SUPPORTED",))
+    response = GroundedAnswerPlannerV2().compose(query_plan, evidence)
+    rendered = "\n".join(response["action_plan"]["steps"])
+    assert "借书权限" not in rendered
+    assert "C楼102" in rendered
 
 
 def test_declared_deadline_without_deadline_evidence_is_not_supported() -> None:
@@ -175,9 +195,17 @@ def test_restricted_source_is_not_retrieved_without_authorization() -> None:
 
 def test_crawl_metadata_classifies_all_affairs_signals_without_default_pollution() -> None:
     topics = infer_topics("校园相关", "2026届毕业生就业手续办理通知", "三方协议、档案和户口迁移办理流程")
+    assert topics[0] == "就业"
     assert "就业" in topics
     assert "毕业" in topics
     assert infer_content_type("交换生申请指南", "申请条件、材料、步骤和截止时间") == "procedure_guide"
+
+
+def test_long_handbook_keeps_title_topic_as_primary() -> None:
+    topics = infer_topics("官方附件", "2025年清华大学本科生学生手册", "课程、交换、校园卡、毕业和就业规定")
+    assert topics[0] == "学生事务"
+    assert "教务" in topics
+    assert "校园生活" in topics
 
 
 def test_crawl_metadata_recognizes_research_policy() -> None:

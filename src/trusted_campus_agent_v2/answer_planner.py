@@ -8,6 +8,8 @@ from .query_planner import QueryPlan
 
 
 def _sentences(text: str) -> list[str]:
+    text = re.sub(r"(?<![。！？；：])\n(?=[\u3400-\u9fffA-Za-z0-9])", "", text)
+    text = re.sub(r"(?<!^)(?=(?:学生证|校园卡).{0,10}(?:挂失|补办|解挂)[：:])", "\n", text)
     return [part.strip(" \n-•") for part in re.split(r"(?<=[。！？；])|\n+", text) if len(part.strip()) >= 8]
 
 
@@ -59,16 +61,29 @@ class GroundedAnswerPlannerV2:
         return facts
 
     @staticmethod
-    def _action_plan(evidence: EvidenceResult) -> dict[str, list[str]]:
+    def _action_plan(plan: QueryPlan, evidence: EvidenceResult) -> dict[str, list[str]]:
         sentences = [sentence for hit in evidence.supporting_hits for sentence in _sentences(hit.get("text", ""))]
+        subject_terms = [term for term in plan.canonical_terms if term not in {"校园卡补办"}]
+        if "校园卡" in subject_terms:
+            subject_terms.extend(("学生证", "卡补办", "卡挂失", "卡解挂"))
+            relevant = [
+                sentence for sentence in sentences
+                if any(term in sentence for term in subject_terms)
+                and any(action in sentence for action in ("挂失", "补办", "解挂", "充值", "新卡"))
+            ]
+        else:
+            relevant = [sentence for sentence in sentences if any(term in sentence for term in subject_terms)] if subject_terms else sentences
+        if relevant:
+            sentences = relevant
         conditions = [s for s in sentences if any(k in s for k in ("条件", "资格", "应当", "须符合", "适用于"))]
         materials = [s for s in sentences if any(k in s for k in ("材料", "申请表", "证明", "上传", "提交"))]
-        steps = [s for s in sentences if any(k in s for k in ("登录", "申请", "办理", "审核", "审批", "领取"))]
-        deadlines = [s for s in sentences if re.search(r"(?:截止|20\d{2}年|\d{1,2}月\d{1,2}日|\d{1,2}[:：]\d{2})", s)]
+        steps = [s for s in sentences if any(k in s for k in ("登录", "申请", "办理", "审核", "审批", "领取", "挂失", "补办", "解挂", "自助机"))]
+        deadlines = [s for s in sentences if re.search(r"(?:截止|截至|\d{1,2}月\d{1,2}日|\d{1,2}[:：]\d{2})", s)]
         entries = []
         for hit in evidence.supporting_hits:
             entries.append(f"{hit['title']}：{hit['url']}")
-            entries.extend(re.findall(r"https?://[^\s）)\]，,。]+", hit.get("text", "")))
+        for sentence in sentences:
+            entries.extend(re.findall(r"https?://[^\s）)\]，,。]+", sentence))
         return {
             "conditions": _unique(conditions, 4), "materials": _unique(materials, 5),
             "steps": _unique(steps, 6), "deadlines": _unique(deadlines, 4),
@@ -99,7 +114,7 @@ class GroundedAnswerPlannerV2:
             answer = f"目前能确认的是：{facts[0]['text']} 其余部分我还没有找到足够可靠的现行依据，建议按下方渠道核对当前批次。" if facts else "目前只能确认一部分信息；缺少可靠依据的部分我不会替你猜，建议按下方渠道核对当前批次。"
         else:
             answer = f"先说结论：{facts[0]['text']}" if facts else "目前没有提取到可直接说明结论的事实，请结合下方官方来源继续核对。"
-        action_plan = self._action_plan(evidence) if plan.wants_action_plan and evidence.status in {"SUPPORTED", "PARTIAL"} else None
+        action_plan = self._action_plan(plan, evidence) if plan.wants_action_plan and evidence.status in {"SUPPORTED", "PARTIAL"} else None
         return {
             "answer": answer, "confirmed_facts": facts, "action_plan": action_plan,
             "citations": citations[:8], "conflicts": list(evidence.conflicts),

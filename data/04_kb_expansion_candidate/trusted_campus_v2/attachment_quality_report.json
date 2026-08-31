@@ -1,14 +1,9 @@
 {
   "version": "TRUSTED_CAMPUS_V2_ATTACHMENT_QUALITY_REPORT_V1",
   "candidate_only": true,
-  "discovered_rows": 153,
-  "unique_urls": 125,
+  "discovered_rows": 173,
+  "unique_urls": 141,
   "stats": {
-    "download_failed": 13,
-    "download_only_no_text": 4,
-    "downloaded": 13,
-    "resumed_from_checkpoint": 45,
-    "skipped_low_value_parent": 29,
-    "text_candidates": 9
+    "resumed_from_checkpoint": 20
   }
 }

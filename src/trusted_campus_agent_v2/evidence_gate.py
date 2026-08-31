@@ -101,8 +101,9 @@ class EvidenceGateV2:
     def _core_relevant(plan: QueryPlan, hit: dict[str, Any]) -> bool:
         title = hit.get("title", "")
         text = f"{title}\n{hit.get('text', '')}"
-        if "国际学生" in title and "国际学生" not in plan.original_query:
-            return False
+        for audience in ("本科生", "研究生", "国际学生", "教职工"):
+            if audience in title and audience not in plan.original_query:
+                return False
         subject_groups = (
             (("校园卡", "一卡通", "校园码"), ("校园卡", "一卡通", "校园码")),
             (("奖学金", "助学金", "资助"), ("奖学金", "助学金", "资助")),

@@ -1,0 +1,26 @@
+{
+  "version": "TSINGASK_HIGH_FREQUENCY_INTENTS_V1",
+  "description": "事务级覆盖统计。一个来源必须同时包含事项词和办事词才计入，避免用场景内无关网页充数。",
+  "intents": [
+    {"id": "campus_card", "label": "校园卡挂失与补办", "topic": "校园生活", "subject_terms": ["校园卡", "一卡通", "校园码"], "action_terms": ["挂失", "补办", "解挂", "充值", "新卡"], "minimum_sources": 1},
+    {"id": "dorm_adjustment", "label": "宿舍申请与调整", "topic": "校园生活", "subject_terms": ["宿舍", "住宿", "调宿"], "action_terms": ["申请", "调整", "办理", "入住", "退宿"], "minimum_sources": 2},
+    {"id": "course_registration", "label": "选课、补退选与特殊选课", "topic": "教务", "subject_terms": ["选课", "补退选", "退课"], "action_terms": ["安排", "申请", "办理", "登录", "操作"], "minimum_sources": 2},
+    {"id": "transcript", "label": "成绩单办理", "topic": "教务", "subject_terms": ["成绩单"], "action_terms": ["办理", "申请", "打印", "下载", "开具"], "minimum_sources": 1},
+    {"id": "enrollment_certificate", "label": "在学与在读证明", "topic": "教务", "subject_terms": ["在学证明", "在读证明", "学籍证明"], "action_terms": ["办理", "申请", "打印", "开具"], "minimum_sources": 1},
+    {"id": "student_status", "label": "学籍异动、休学与复学", "topic": "教务", "subject_terms": ["学籍", "休学", "复学"], "action_terms": ["申请", "办理", "规定", "审批"], "minimum_sources": 2},
+    {"id": "major_transfer", "label": "本科生转专业", "topic": "教务", "subject_terms": ["转专业", "转系"], "action_terms": ["申请", "流程", "条件", "接收", "办理"], "minimum_sources": 2},
+    {"id": "scholarship", "label": "奖学金申请与评定", "topic": "学生事务", "subject_terms": ["奖学金"], "action_terms": ["申请", "评定", "条件", "材料", "管理规定"], "minimum_sources": 2},
+    {"id": "financial_aid", "label": "助学金、助学贷款与困难认定", "topic": "学生事务", "subject_terms": ["助学金", "助学贷款", "家庭经济困难", "资助"], "action_terms": ["申请", "认定", "办理", "材料", "管理办法"], "minimum_sources": 2},
+    {"id": "exchange", "label": "校级交换与出国学习", "topic": "国际交流", "subject_terms": ["交换项目", "交换生", "境外学习", "公派"], "action_terms": ["申请", "选拔", "材料", "指南", "流程"], "minimum_sources": 2},
+    {"id": "network_vpn", "label": "校园网、无线网与VPN", "topic": "校园生活", "subject_terms": ["校园网", "Tsinghua-Secure", "WebVPN", "VPN"], "action_terms": ["使用说明", "操作指南", "连接", "认证", "设置"], "minimum_sources": 2},
+    {"id": "healthcare", "label": "校医院挂号、就医与报销", "topic": "校园生活", "subject_terms": ["校医院", "清华大学医院", "公费医疗", "门诊"], "action_terms": ["挂号", "就医", "报销", "预约", "办理"], "minimum_sources": 2},
+    {"id": "new_student_registration", "label": "新生预注册与报到", "topic": "新生", "subject_terms": ["新生", "报到", "预注册"], "action_terms": ["激活", "填报", "办理", "入学须知", "报到流程"], "minimum_sources": 2},
+    {"id": "employment_agreement", "label": "就业协议书与签约", "topic": "就业", "subject_terms": ["就业协议书", "三方协议", "签约就业"], "action_terms": ["领取", "签署", "盖章", "办理", "上传"], "minimum_sources": 2},
+    {"id": "graduate_destination", "label": "毕业去向登记", "topic": "就业", "subject_terms": ["毕业去向", "去向登记"], "action_terms": ["登记", "提交", "审核", "办理"], "minimum_sources": 1},
+    {"id": "archives_transfer", "label": "学生档案转递与查询", "topic": "毕业", "subject_terms": ["档案转递", "转档", "学生档案"], "action_terms": ["申请", "查询", "办理", "寄出", "转递"], "minimum_sources": 2},
+    {"id": "household_registration", "label": "集体户口迁移", "topic": "毕业", "subject_terms": ["户口迁移", "户口迁转", "集体户口"], "action_terms": ["申请", "办理", "迁出", "使用", "系统"], "minimum_sources": 2},
+    {"id": "graduation_departure", "label": "毕业与离校手续", "topic": "毕业", "subject_terms": ["毕业生离校", "离校手续", "毕业流程"], "action_terms": ["办理", "流程", "安排", "提交", "确认"], "minimum_sources": 2},
+    {"id": "library_services", "label": "图书馆借阅与电子资源", "topic": "校园生活", "subject_terms": ["图书馆", "借阅", "电子资源"], "action_terms": ["开通", "借书", "预约", "访问", "办理"], "minimum_sources": 2},
+    {"id": "campus_transport", "label": "校车与校园交通", "topic": "校园生活", "subject_terms": ["校车", "校园交通"], "action_terms": ["运行时间", "乘车", "线路", "时刻表", "通知"], "minimum_sources": 1}
+  ]
+}

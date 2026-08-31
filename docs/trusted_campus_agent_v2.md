@@ -2,7 +2,9 @@
 
 ## 边界
 
-V2 仅读取冻结 KB V1，所有新增代码和生成资产使用独立目录。它不会修改 V1、发布目录、线上智能体或审核中的版本。Public staging 先进入自动复核候选池，只有通过来源、质量、时效、访问级别和事务性标题规则的资料才进入未发布 shadow 检索；历史 review_required 字段仅为兼容旧工件，不再表示需要人工复核。
+V2 使用独立的公开服务库 `data/05_trusted_campus_kb_v2_public/`，所有新增代码和生成资产均与 V1、发布目录和线上智能体隔离。Public staging 先进入自动复核候选池，只有通过来源、质量、时效、访问级别和事务性标题规则的资料才进入未发布 shadow 检索；历史 review_required 字段仅为兼容旧工件，不再表示需要人工复核。
+
+公开服务库严格只接纳 `access_level=public` 的资料。登录信息门户采集到的页面即使最终跳转到公开域名，也仍标记为 `campus_authenticated`，不得混入公开服务库；Cookie、storage state、个人成绩、名单和财务信息不得写入仓库。
 
 ## 链路
 
@@ -24,6 +26,13 @@ Query Planner
 - Fast Path 不加载 Dense 模型；Full Path 才延迟加载冻结 encoder。
 - Full Path 批量编码拆解后的子问题；Dense 初始化失败时显式退化为 BM25，并把证据状态上限收紧为 PARTIAL。
 - 常驻服务应在 readiness 阶段调用 warmup_full_path()，把本机约 30 秒的首次模型初始化移出用户请求；本次真实 smoke 的热请求约 0.2 秒。
+
+## 知识覆盖
+
+- 八大场景覆盖矩阵：`data/05_trusted_campus_kb_v2_public/coverage_matrix.json`，服务接口为 `GET /api/coverage`。
+- 二十类高频事务覆盖矩阵：`data/05_trusted_campus_kb_v2_public/intent_coverage_matrix.json`，服务接口为 `GET /api/intent-coverage`。
+- 高频事务定义维护在 `configs/trusted_campus_agent_v2/high_frequency_intents.json`，构建过程会按主题词、办理动作、权威性和有效性统计来源。
+- `READY` 只表示存在足够的可执行官方证据，不表示每个当期批次、截止日期或院系细则均已覆盖；涉及“本学期/今年/当前截止时间”的问题仍必须经过时效过滤和 Evidence Gate。
 
 ## 当前开发诊断
 

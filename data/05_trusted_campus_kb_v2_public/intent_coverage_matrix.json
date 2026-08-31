@@ -1,0 +1,3396 @@
+{
+  "version": "TSINGASK_HIGH_FREQUENCY_INTENTS_V1",
+  "built_at": "2026-08-31T12:09:42.920170+08:00",
+  "as_of": "2026-08-31",
+  "summary": {
+    "READY": 20
+  },
+  "intents": {
+    "campus_card": {
+      "label": "校园卡挂失与补办",
+      "topic": "校园生活",
+      "status": "READY",
+      "source_count": 4,
+      "minimum_sources": 1,
+      "recent_dated_source_count": 1,
+      "undated_source_count": 2,
+      "sources": [
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0009",
+          "title": "2026.03.18 大学生活须知",
+          "source": "https://www.tsinghua.edu.cn/xssqglfwzx/info/1043/1176.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-03-18",
+          "effective_date": "2026-03-18",
+          "matched_subject_terms": [
+            "校园卡"
+          ],
+          "matched_action_terms": [
+            "充值"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000912",
+          "title": "常见问题（FAQ）",
+          "source": "https://lib.tsinghua.edu.cn/finance/gk/cjwt_FAQ_.htm",
+          "department": "图书馆",
+          "audience": [
+            "博士生",
+            "教职工"
+          ],
+          "authority_level": "official",
+          "publish_date": "2013-03-25",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园卡",
+            "一卡通"
+          ],
+          "matched_action_terms": [
+            "新卡"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_9fea1e75cb47b1cc",
+          "title": "2025年清华大学本科生学生手册",
+          "source": "https://www.rxc.tsinghua.edu.cn/__local/A/DC/57/5676BB00C2D673752ADBA0D52D6_B626842D_1D58BD.pdf",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园卡"
+          ],
+          "matched_action_terms": [
+            "挂失",
+            "补办",
+            "解挂",
+            "充值"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_453331cc9c0221b0",
+          "title": "国际学生学者校园生活手册",
+          "source": "https://is.tsinghua.edu.cn/guojixueshengxuezhexiaoyuanshenghuoshoucezhongwenban.pdf",
+          "department": "国际学生学者中心",
+          "audience": [
+            "国际学生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园卡",
+            "校园码"
+          ],
+          "matched_action_terms": [
+            "挂失",
+            "充值",
+            "新卡"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "dorm_adjustment": {
+      "label": "宿舍申请与调整",
+      "topic": "校园生活",
+      "status": "READY",
+      "source_count": 34,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 7,
+      "undated_source_count": 22,
+      "sources": [
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0009",
+          "title": "2026.03.18 大学生活须知",
+          "source": "https://www.tsinghua.edu.cn/xssqglfwzx/info/1043/1176.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-03-18",
+          "effective_date": "2026-03-18",
+          "matched_subject_terms": [
+            "宿舍",
+            "住宿"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "入住"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000892",
+          "title": "2026年清华-伦敦国王学院联合培养项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20394.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-03-02",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "住宿"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000893",
+          "title": "清华大学法学院2026年秋季学期院级交换项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20349.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-04",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "住宿"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000299",
+          "title": "2026-2027学年校级本科交换生项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20353.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "住宿"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "调整",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_443c3ff1deab483b",
+          "title": "附件3：2026-2027学年度校级本科生交换项目申请指南.docx",
+          "source": "https://www.law.tsinghua.edu.cn/__local/A/70/F5/6B2A8E3636EA8C7A112E503E3F3_5325BFAD_4841D.docx",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "宿舍",
+            "住宿"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "调整",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000720",
+          "title": "清华大学2026年丘成桐数学科学领军人才培养计划（境外批次）招生简章-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1017/7733.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-11-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "住宿"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "调整",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000896",
+          "title": "清华大学法学院2026年春季学期院级交换项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20212.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-07-07",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "住宿"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000713",
+          "title": "清华大学2025年丘成桐数学科学领军人才培养计划招生简章（第二批次）-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1070/6736.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2024-12-05",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "住宿"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "调整",
+            "办理"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "course_registration": {
+      "label": "选课、补退选与特殊选课",
+      "topic": "教务",
+      "status": "READY",
+      "source_count": 14,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 3,
+      "undated_source_count": 9,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000580",
+          "title": "《多媒体技术基础及应用》2026年春季学期继续开课公示-清华大学计算机科学与技术系",
+          "source": "https://www.cs.tsinghua.edu.cn/info/1043/7018.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "教职工",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-01-10",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "选课"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_ce8e7002385170c6",
+          "title": "附件4：清华大学本科生一学期以上公派境外学习教学管理办法-20240122修订.pdf",
+          "source": "https://www.law.tsinghua.edu.cn/__local/5/C0/C2/02D00D5E0D636FDF3B96906B1BE_141611ED_4722D.pdf",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "补退选",
+            "退课"
+          ],
+          "matched_action_terms": [
+            "安排",
+            "申请",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_443c3ff1deab483b",
+          "title": "附件3：2026-2027学年度校级本科生交换项目申请指南.docx",
+          "source": "https://www.law.tsinghua.edu.cn/__local/A/70/F5/6B2A8E3636EA8C7A112E503E3F3_5325BFAD_4841D.docx",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "选课"
+          ],
+          "matched_action_terms": [
+            "安排",
+            "申请",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000298",
+          "title": "校级学生交换项目校内申报及选拔常见问答-清华大学社会科学学院",
+          "source": "https://www.sss.tsinghua.edu.cn/info/1015/5829.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-02-03",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "选课"
+          ],
+          "matched_action_terms": [
+            "安排",
+            "申请"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000577",
+          "title": "本科生-清华大学计算机科学与技术系",
+          "source": "https://www.cs.tsinghua.edu.cn/jwjx/bks.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "教职工",
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2014-08-27",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "选课"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0179",
+          "title": "清华大学本科生学籍管理规定-清华大学",
+          "source": "https://www.tsinghua.edu.cn/info/1092/1115.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "选课",
+            "退课"
+          ],
+          "matched_action_terms": [
+            "安排",
+            "申请",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0147",
+          "title": "清华大学本科生学籍管理规定 为了规范学籍管理工作，维护学校正常的教育教学秩序，保证教学培养质量，保障学生合法权益，根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》（教育部令第41号）、《清华大学章程》，结合学校...",
+          "source": "https://qzc.tsinghua.edu.cn/info/1029/1444.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "选课",
+            "退课"
+          ],
+          "matched_action_terms": [
+            "安排",
+            "申请",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0013",
+          "title": "课程设置与实施",
+          "source": "https://www.thsports.tsinghua.edu.cn/jyjx/kcszyss.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "教职工",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "选课",
+            "补退选",
+            "退课"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "登录"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "transcript": {
+      "label": "成绩单办理",
+      "topic": "教务",
+      "status": "READY",
+      "source_count": 37,
+      "minimum_sources": 1,
+      "recent_dated_source_count": 13,
+      "undated_source_count": 21,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000797",
+          "title": "招生",
+          "source": "https://gix.tsinghua.edu.cn/zs1/sqcl.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-07-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "成绩单"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000724",
+          "title": "清华大学求真书院2027年博士研究生招生简章-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1162/8268.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-07-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "成绩单"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "开具"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000873",
+          "title": "关于申报2026年“黄廷方·法学奖学金”的通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1135/20550.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-06-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "成绩单"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000892",
+          "title": "2026年清华-伦敦国王学院联合培养项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20394.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-03-02",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "成绩单"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "申请",
+            "打印",
+            "开具"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000520",
+          "title": "清华大学研究生院",
+          "source": "https://www.tsinghua.edu.cn/yjsy/index.htm",
+          "department": "研究生院",
+          "audience": [
+            "教职工",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-26",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "成绩单"
+          ],
+          "matched_action_terms": [
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000893",
+          "title": "清华大学法学院2026年秋季学期院级交换项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20349.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-04",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "成绩单"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "申请",
+            "开具"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000299",
+          "title": "2026-2027学年校级本科交换生项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20353.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "成绩单"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "申请",
+            "开具"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_ce8e7002385170c6",
+          "title": "附件4：清华大学本科生一学期以上公派境外学习教学管理办法-20240122修订.pdf",
+          "source": "https://www.law.tsinghua.edu.cn/__local/5/C0/C2/02D00D5E0D636FDF3B96906B1BE_141611ED_4722D.pdf",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "成绩单"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "申请"
+          ],
+          "dated_recent": true
+        }
+      ]
+    },
+    "enrollment_certificate": {
+      "label": "在学与在读证明",
+      "topic": "教务",
+      "status": "READY",
+      "source_count": 4,
+      "minimum_sources": 1,
+      "recent_dated_source_count": 1,
+      "undated_source_count": 2,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000724",
+          "title": "清华大学求真书院2027年博士研究生招生简章-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1162/8268.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-07-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "在学证明"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "开具"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_7186c5290908a9cd",
+          "title": "清华大学求真书院2026年博士生招生综合考核及录取办法.pdf",
+          "source": "https://qzc.tsinghua.edu.cn/__local/F/B2/94/C1BD130C4C32C1AA3852B898F52_B4E6E4E7_1CFB4.pdf",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2024-09-12",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "在学证明"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0155",
+          "title": "在校生办理在学证明流程",
+          "source": "https://qzc.tsinghua.edu.cn/info/1031/1217.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "在学证明",
+            "在读证明"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "申请",
+            "打印",
+            "开具"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_7839dd6a630e6947",
+          "title": "清华大学求真书院2027年博士研究生招生综合考核及录取办法.pdf",
+          "source": "https://qzc.tsinghua.edu.cn/__local/4/2F/09/B2DEF01525F3871AD179B7511C4_56179FF4_1F7B9.pdf",
+          "department": "清华大学相关部门",
+          "audience": [
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "在学证明"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "开具"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "student_status": {
+      "label": "学籍异动、休学与复学",
+      "topic": "教务",
+      "status": "READY",
+      "source_count": 42,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 3,
+      "undated_source_count": 32,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000724",
+          "title": "清华大学求真书院2027年博士研究生招生简章-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1162/8268.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-07-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "学籍"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "规定"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000849",
+          "title": "欢迎申请｜清华大学计算社会科学研究奖励计划（附申请表）-清华大学社会科学学院",
+          "source": "https://www.sss.tsinghua.edu.cn/info/1072/8520.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-03-05",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "学籍",
+            "休学"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_ce8e7002385170c6",
+          "title": "附件4：清华大学本科生一学期以上公派境外学习教学管理办法-20240122修订.pdf",
+          "source": "https://www.law.tsinghua.edu.cn/__local/5/C0/C2/02D00D5E0D636FDF3B96906B1BE_141611ED_4722D.pdf",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "学籍"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "规定"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000731",
+          "title": "清华大学求真书院2025年博士生招生综合考核及录取办法-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1162/6352.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2024-09-12",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "学籍"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_7186c5290908a9cd",
+          "title": "清华大学求真书院2026年博士生招生综合考核及录取办法.pdf",
+          "source": "https://qzc.tsinghua.edu.cn/__local/F/B2/94/C1BD130C4C32C1AA3852B898F52_B4E6E4E7_1CFB4.pdf",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2024-09-12",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "学籍"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000718",
+          "title": "清华大学2024年“丘成桐数学英才班”招生办法-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1071/4786.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2023-12-06",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "学籍"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "规定"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0010",
+          "title": "2023.04.24 清华大学学生公寓住宿管理办法",
+          "source": "https://www.tsinghua.edu.cn/xssqglfwzx/info/1044/1177.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "国际学生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2023-04-24",
+          "effective_date": "2023-04-24",
+          "matched_subject_terms": [
+            "学籍"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "规定"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000719",
+          "title": "清华大学2023年“丘成桐数学英才班”招生办法-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1071/3221.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-12-23",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "学籍"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "规定"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "major_transfer": {
+      "label": "本科生转专业",
+      "topic": "教务",
+      "status": "READY",
+      "source_count": 12,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 2,
+      "undated_source_count": 9,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000859",
+          "title": "清华大学法学院",
+          "source": "https://www.law.tsinghua.edu.cn/index.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "教职工",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-05-21",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转专业"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "接收"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000874",
+          "title": "2026年法学院接收转专业学生考核面试通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1135/20442.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-05-07",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转专业"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "接收"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000092",
+          "title": "吴建平：以信仰之光照亮互联网自主自强之路",
+          "source": "https://www.itc.tsinghua.edu.cn/info/1004/2203.htm",
+          "department": "信息化技术中心",
+          "audience": [
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2024-06-24",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转专业",
+            "转系"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0179",
+          "title": "清华大学本科生学籍管理规定-清华大学",
+          "source": "https://www.tsinghua.edu.cn/info/1092/1115.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转专业"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "接收",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0178",
+          "title": "清华大学研究生学籍管理规定",
+          "source": "https://www.tsinghua.edu.cn/info/1092/1114.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转专业"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0153",
+          "title": "清华大学研究生学籍管理规定 （经学校2004～2005学年度第24次校务会议审议通过，2014～2015学年度第28次校务会议修订，2016～2017学年度第26次校务会议第二次修订，2018～2019学年度第27次校务会议第三次修订）第一章 总 则第一条 为了规范研...",
+          "source": "https://qzc.tsinghua.edu.cn/info/1029/1479.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转专业"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0147",
+          "title": "清华大学本科生学籍管理规定 为了规范学籍管理工作，维护学校正常的教育教学秩序，保证教学培养质量，保障学生合法权益，根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》（教育部令第41号）、《清华大学章程》，结合学校...",
+          "source": "https://qzc.tsinghua.edu.cn/info/1029/1444.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转专业"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "接收",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000443",
+          "title": "生命学院李赛团队开发cryo-ET数据一体化实时处理软件-清华大学科研院",
+          "source": "https://www.rd.tsinghua.edu.cn/info/1054/2557.htm",
+          "department": "科研院",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转系"
+          ],
+          "matched_action_terms": [
+            "流程"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "scholarship": {
+      "label": "奖学金申请与评定",
+      "topic": "学生事务",
+      "status": "READY",
+      "source_count": 29,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 8,
+      "undated_source_count": 19,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000839",
+          "title": "清华-约翰∙霍普金斯SAIS全球政治与经济双硕士研究生项目申请说明-清华大学国际关系学系",
+          "source": "https://www.dir.tsinghua.edu.cn/info/1113/2373.htm",
+          "department": "国际合作与交流处",
+          "audience": [
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-16",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "奖学金"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000834",
+          "title": "清华-约翰∙霍普金斯SAIS全球政治与经济双硕士研究生项目申请说明-清华大学国际关系学系",
+          "source": "https://www.dir.tsinghua.edu.cn/info/1110/2374.htm",
+          "department": "国际合作与交流处",
+          "audience": [
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-16",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "奖学金"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000873",
+          "title": "关于申报2026年“黄廷方·法学奖学金”的通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1135/20550.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-06-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "奖学金"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_33e62bcaa6cb9e41",
+          "title": "附件1：“黄廷方·法学奖学金”申请表.docx",
+          "source": "https://www.law.tsinghua.edu.cn/__local/7/8B/BE/9C0465360E852EF8312E6514113_7BB8AEDD_4466.docx",
+          "department": "清华大学相关部门",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-06-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "奖学金"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000859",
+          "title": "清华大学法学院",
+          "source": "https://www.law.tsinghua.edu.cn/index.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "教职工",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-05-21",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "奖学金"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000893",
+          "title": "清华大学法学院2026年秋季学期院级交换项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20349.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-04",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "奖学金"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_443c3ff1deab483b",
+          "title": "附件3：2026-2027学年度校级本科生交换项目申请指南.docx",
+          "source": "https://www.law.tsinghua.edu.cn/__local/A/70/F5/6B2A8E3636EA8C7A112E503E3F3_5325BFAD_4841D.docx",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "奖学金"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000861",
+          "title": "关于申请2025年清华大学法学院国际仲裁与争端解决项目奖学金和助学金的通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1135/20246.htm",
+          "department": "国际合作与交流处",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-09-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "奖学金"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "条件",
+            "材料"
+          ],
+          "dated_recent": true
+        }
+      ]
+    },
+    "financial_aid": {
+      "label": "助学金、助学贷款与困难认定",
+      "topic": "学生事务",
+      "status": "READY",
+      "source_count": 48,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 11,
+      "undated_source_count": 29,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000820",
+          "title": "清华大学社会科学学院博士生出席国际会议拟资助名单公示（2026年第七批）-清华大学社会科学学院",
+          "source": "https://www.sss.tsinghua.edu.cn/info/1015/8670.htm",
+          "department": "国际合作与交流处",
+          "audience": [
+            "博士生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-14",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "资助"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000821",
+          "title": "清华大学社会科学学院博士生出席国际会议拟资助名单公示（2026年第六批）-清华大学社会科学学院",
+          "source": "https://www.sss.tsinghua.edu.cn/info/1015/8663.htm",
+          "department": "国际合作与交流处",
+          "audience": [
+            "博士生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-07-03",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "资助"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000822",
+          "title": "清华大学社会科学学院博士生出席国际会议拟资助名单公示（2026年第五批）-清华大学社会科学学院",
+          "source": "https://www.sss.tsinghua.edu.cn/info/1015/8652.htm",
+          "department": "国际合作与交流处",
+          "audience": [
+            "博士生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-06-26",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "资助"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000873",
+          "title": "关于申报2026年“黄廷方·法学奖学金”的通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1135/20550.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-06-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "资助"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000859",
+          "title": "清华大学法学院",
+          "source": "https://www.law.tsinghua.edu.cn/index.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "教职工",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-05-21",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "助学金"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000849",
+          "title": "欢迎申请｜清华大学计算社会科学研究奖励计划（附申请表）-清华大学社会科学学院",
+          "source": "https://www.sss.tsinghua.edu.cn/info/1072/8520.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-03-05",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "资助"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000717",
+          "title": "清华大学2026年“丘成桐数学英才班”招生简章-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1071/7854.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-10",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "资助"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "认定",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_443c3ff1deab483b",
+          "title": "附件3：2026-2027学年度校级本科生交换项目申请指南.docx",
+          "source": "https://www.law.tsinghua.edu.cn/__local/A/70/F5/6B2A8E3636EA8C7A112E503E3F3_5325BFAD_4841D.docx",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "资助"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "材料"
+          ],
+          "dated_recent": true
+        }
+      ]
+    },
+    "exchange": {
+      "label": "校级交换与出国学习",
+      "topic": "国际交流",
+      "status": "READY",
+      "source_count": 18,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 6,
+      "undated_source_count": 9,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000893",
+          "title": "清华大学法学院2026年秋季学期院级交换项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20349.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-04",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "交换项目",
+            "交换生"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "选拔",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000299",
+          "title": "2026-2027学年校级本科交换生项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20353.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "交换项目",
+            "交换生",
+            "境外学习",
+            "公派"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "选拔",
+            "材料",
+            "指南"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_ce8e7002385170c6",
+          "title": "附件4：清华大学本科生一学期以上公派境外学习教学管理办法-20240122修订.pdf",
+          "source": "https://www.law.tsinghua.edu.cn/__local/5/C0/C2/02D00D5E0D636FDF3B96906B1BE_141611ED_4722D.pdf",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "境外学习",
+            "公派"
+          ],
+          "matched_action_terms": [
+            "申请"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_443c3ff1deab483b",
+          "title": "附件3：2026-2027学年度校级本科生交换项目申请指南.docx",
+          "source": "https://www.law.tsinghua.edu.cn/__local/A/70/F5/6B2A8E3636EA8C7A112E503E3F3_5325BFAD_4841D.docx",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-12-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "交换项目",
+            "交换生"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "选拔",
+            "材料",
+            "指南",
+            "流程"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000711",
+          "title": "清华大学2026年丘成桐数学科学领军人才培养计划招生简章-清华大学求真书院",
+          "source": "https://qzc.tsinghua.edu.cn/info/1070/7623.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-09-22",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "交换生"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "选拔",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000896",
+          "title": "清华大学法学院2026年春季学期院级交换项目选拔通知",
+          "source": "https://www.law.tsinghua.edu.cn/info/1065/20212.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-07-07",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "交换项目",
+            "交换生"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "选拔",
+            "材料"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000790",
+          "title": "港澳内地师生交流计划（万人计划）-清华大学国际合作与交流处",
+          "source": "https://www.tsinghua.edu.cn/gjhz/gatsw/gatjl/wrjhj.htm",
+          "department": "国际合作与交流处",
+          "audience": [
+            "教职工",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2023-01-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "交换生"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "材料",
+            "流程"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000298",
+          "title": "校级学生交换项目校内申报及选拔常见问答-清华大学社会科学学院",
+          "source": "https://www.sss.tsinghua.edu.cn/info/1015/5829.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-02-03",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "交换项目",
+            "交换生"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "选拔",
+            "流程"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "network_vpn": {
+      "label": "校园网、无线网与VPN",
+      "topic": "校园生活",
+      "status": "READY",
+      "source_count": 7,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 0,
+      "undated_source_count": 6,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000115",
+          "title": "清华大学图书馆维护知识产权声明-清华大学图书馆",
+          "source": "https://lib.tsinghua.edu.cn/info/1115/2624.htm",
+          "department": "图书馆",
+          "audience": [
+            "教职工"
+          ],
+          "authority_level": "official",
+          "publish_date": "2010-04-02",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园网"
+          ],
+          "matched_action_terms": [
+            "设置"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0078",
+          "title": "清华大学学生国家助学贷款贷后管理办法",
+          "source": "https://www.tsinghua.edu.cn/info/1093/82883.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园网"
+          ],
+          "matched_action_terms": [
+            "设置"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000004",
+          "title": "校园网络运行",
+          "source": "https://www.itc.tsinghua.edu.cn/ggfwsd/xywlyx.htm",
+          "department": "信息化技术中心",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园网",
+            "webvpn",
+            "vpn"
+          ],
+          "matched_action_terms": [
+            "认证"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000002",
+          "title": "核心机房运行",
+          "source": "https://www.itc.tsinghua.edu.cn/ggfwsd/asdfasdf.htm",
+          "department": "信息化技术中心",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园网"
+          ],
+          "matched_action_terms": [
+            "认证",
+            "设置"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_ca5b7355a22cbf79",
+          "title": "aTrust PC客户端安装及使用说明",
+          "source": "https://its.tsinghua.edu.cn/__local/7/9C/35/5867650D6156C93C37F6C139B11_19811FC6_9C3F7.pdf",
+          "department": "信息化技术中心",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "vpn"
+          ],
+          "matched_action_terms": [
+            "使用说明",
+            "认证"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_8541e2533a890822",
+          "title": "校园网使用说明",
+          "source": "https://its.tsinghua.edu.cn/__local/4/DE/70/09B0E55BFA6E2B7F2A8DB1D257F_BC58902D_2C2E09.pdf",
+          "department": "信息化技术中心",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园网",
+            "tsinghua-secure",
+            "webvpn",
+            "vpn"
+          ],
+          "matched_action_terms": [
+            "使用说明",
+            "连接",
+            "认证",
+            "设置"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_453331cc9c0221b0",
+          "title": "国际学生学者校园生活手册",
+          "source": "https://is.tsinghua.edu.cn/guojixueshengxuezhexiaoyuanshenghuoshoucezhongwenban.pdf",
+          "department": "国际学生学者中心",
+          "audience": [
+            "国际学生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园网"
+          ],
+          "matched_action_terms": [
+            "连接",
+            "认证",
+            "设置"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "healthcare": {
+      "label": "校医院挂号、就医与报销",
+      "topic": "校园生活",
+      "status": "READY",
+      "source_count": 21,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 6,
+      "undated_source_count": 13,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000571",
+          "title": "医院动态",
+          "source": "https://xyy.tsinghua.edu.cn/info/1042/6901.htm",
+          "department": "校医院",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "清华大学医院",
+            "门诊"
+          ],
+          "matched_action_terms": [
+            "就医"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000040",
+          "title": "清华大学医院",
+          "source": "https://xyy.tsinghua.edu.cn/",
+          "department": "校医院",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-05-25",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校医院",
+            "清华大学医院",
+            "公费医疗",
+            "门诊"
+          ],
+          "matched_action_terms": [
+            "就医",
+            "报销"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000600",
+          "title": "保健常识",
+          "source": "https://xyy.tsinghua.edu.cn/info/1045/6874.htm",
+          "department": "校医院",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-05-02",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "门诊"
+          ],
+          "matched_action_terms": [
+            "挂号",
+            "预约"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000570",
+          "title": "专家就诊通知",
+          "source": "https://xyy.tsinghua.edu.cn/zjjztz1.htm",
+          "department": "校医院",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-04-17",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "清华大学医院",
+            "门诊"
+          ],
+          "matched_action_terms": [
+            "挂号"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000247",
+          "title": "疫苗接种",
+          "source": "https://xyy.tsinghua.edu.cn/info/1057/6805.htm",
+          "department": "校医院",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-03-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校医院",
+            "公费医疗"
+          ],
+          "matched_action_terms": [
+            "挂号",
+            "报销",
+            "预约"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000226",
+          "title": "就医指南",
+          "source": "https://xyy.tsinghua.edu.cn/info/1181/6689.htm",
+          "department": "校医院",
+          "audience": [
+            "教职工"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-09-02",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "门诊"
+          ],
+          "matched_action_terms": [
+            "就医",
+            "预约"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000305",
+          "title": "清华大学毕业生就业管理办法实施细则",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4614.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "国际学生",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校医院"
+          ],
+          "matched_action_terms": [
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000238",
+          "title": "政策法规制度",
+          "source": "https://xyy.tsinghua.edu.cn/zcfgzd/glxz.htm",
+          "department": "校医院",
+          "audience": [
+            "教职工"
+          ],
+          "authority_level": "official",
+          "publish_date": "2007-05-23",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校医院",
+            "清华大学医院",
+            "公费医疗",
+            "门诊"
+          ],
+          "matched_action_terms": [
+            "就医",
+            "报销"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "new_student_registration": {
+      "label": "新生预注册与报到",
+      "topic": "新生",
+      "status": "READY",
+      "source_count": 26,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 1,
+      "undated_source_count": 22,
+      "sources": [
+        {
+          "source_id": "ATT_738f2f0fe2e70f9f",
+          "title": "清华大学毕业生就业手续办理指南",
+          "source": "https://career.tsinghua.edu.cn/zhinan.pdf",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-10-03",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "报到"
+          ],
+          "matched_action_terms": [
+            "填报",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000305",
+          "title": "清华大学毕业生就业管理办法实施细则",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4614.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "国际学生",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "报到"
+          ],
+          "matched_action_terms": [
+            "填报",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000879",
+          "title": "关于人事档案转递工作的说明",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4372.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "教职工",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2021-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "报到"
+          ],
+          "matched_action_terms": [
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0208",
+          "title": "清华大学本科生临时借款管理办法 2021/04/07 为解决部分本科生报到注册和入学后暂时的经济困难，学校从1998年开始设立了“绿色通道”，向同学提供临时借款服务。临时借款...",
+          "source": "https://www.wyc.tsinghua.edu.cn/info/1035/1046.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生",
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2021-04-07",
+          "effective_date": "2021-04-07",
+          "matched_subject_terms": [
+            "新生",
+            "报到"
+          ],
+          "matched_action_terms": [
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0179",
+          "title": "清华大学本科生学籍管理规定-清华大学",
+          "source": "https://www.tsinghua.edu.cn/info/1092/1115.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "新生",
+            "报到"
+          ],
+          "matched_action_terms": [
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0178",
+          "title": "清华大学研究生学籍管理规定",
+          "source": "https://www.tsinghua.edu.cn/info/1092/1114.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "新生",
+            "报到"
+          ],
+          "matched_action_terms": [
+            "填报",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0155",
+          "title": "在校生办理在学证明流程",
+          "source": "https://qzc.tsinghua.edu.cn/info/1031/1217.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "新生"
+          ],
+          "matched_action_terms": [
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0153",
+          "title": "清华大学研究生学籍管理规定 （经学校2004～2005学年度第24次校务会议审议通过，2014～2015学年度第28次校务会议修订，2016～2017学年度第26次校务会议第二次修订，2018～2019学年度第27次校务会议第三次修订）第一章 总 则第一条 为了规范研...",
+          "source": "https://qzc.tsinghua.edu.cn/info/1029/1479.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "新生",
+            "报到"
+          ],
+          "matched_action_terms": [
+            "填报",
+            "办理"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "employment_agreement": {
+      "label": "就业协议书与签约",
+      "topic": "就业",
+      "status": "READY",
+      "source_count": 10,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 3,
+      "undated_source_count": 4,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000880",
+          "title": "关于学生职业发展指导中心就业服务大厅办公地点调整的通知",
+          "source": "https://career.tsinghua.edu.cn/info/1031/5357.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-05",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "就业协议书"
+          ],
+          "matched_action_terms": [
+            "盖章",
+            "办理",
+            "上传"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000302",
+          "title": "2026届毕业生就业手续办理通知",
+          "source": "https://career.tsinghua.edu.cn/info/1031/5247.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-10-03",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "就业协议书",
+            "三方协议",
+            "签约就业"
+          ],
+          "matched_action_terms": [
+            "领取",
+            "盖章",
+            "办理",
+            "上传"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_738f2f0fe2e70f9f",
+          "title": "清华大学毕业生就业手续办理指南",
+          "source": "https://career.tsinghua.edu.cn/zhinan.pdf",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-10-03",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "就业协议书",
+            "三方协议",
+            "签约就业"
+          ],
+          "matched_action_terms": [
+            "领取",
+            "签署",
+            "盖章",
+            "办理",
+            "上传"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000648",
+          "title": "2025届毕业生就业手续办理通知",
+          "source": "https://career.tsinghua.edu.cn/info/1031/5103.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2024-11-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "就业协议书",
+            "三方协议",
+            "签约就业"
+          ],
+          "matched_action_terms": [
+            "领取",
+            "盖章",
+            "办理",
+            "上传"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000305",
+          "title": "清华大学毕业生就业管理办法实施细则",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4614.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "国际学生",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "就业协议书",
+            "三方协议",
+            "签约就业"
+          ],
+          "matched_action_terms": [
+            "领取",
+            "签署",
+            "盖章",
+            "办理",
+            "上传"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000879",
+          "title": "关于人事档案转递工作的说明",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4372.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "教职工",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2021-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "三方协议"
+          ],
+          "matched_action_terms": [
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0119",
+          "title": "毕业生在线手续办理流程及说明",
+          "source": "https://career.tsinghua.edu.cn/info/1031/4202.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "教职工",
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "就业协议书",
+            "三方协议",
+            "签约就业"
+          ],
+          "matched_action_terms": [
+            "领取",
+            "签署",
+            "盖章",
+            "办理",
+            "上传"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0072",
+          "title": "清华大学基层就业应届毕业生学费补偿和国家助学贷款代偿管理实施办法",
+          "source": "https://www.tsinghua.edu.cn/info/1093/1116.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "就业协议书"
+          ],
+          "matched_action_terms": [
+            "签署",
+            "盖章",
+            "办理"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "graduate_destination": {
+      "label": "毕业去向登记",
+      "topic": "就业",
+      "status": "READY",
+      "source_count": 7,
+      "minimum_sources": 1,
+      "recent_dated_source_count": 2,
+      "undated_source_count": 3,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000880",
+          "title": "关于学生职业发展指导中心就业服务大厅办公地点调整的通知",
+          "source": "https://career.tsinghua.edu.cn/info/1031/5357.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-05",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "毕业去向",
+            "去向登记"
+          ],
+          "matched_action_terms": [
+            "登记",
+            "提交",
+            "审核",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_738f2f0fe2e70f9f",
+          "title": "清华大学毕业生就业手续办理指南",
+          "source": "https://career.tsinghua.edu.cn/zhinan.pdf",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-10-03",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "毕业去向",
+            "去向登记"
+          ],
+          "matched_action_terms": [
+            "登记",
+            "提交",
+            "审核",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000305",
+          "title": "清华大学毕业生就业管理办法实施细则",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4614.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "国际学生",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "毕业去向"
+          ],
+          "matched_action_terms": [
+            "登记",
+            "提交",
+            "审核",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000879",
+          "title": "关于人事档案转递工作的说明",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4372.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "教职工",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2021-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "毕业去向"
+          ],
+          "matched_action_terms": [
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0119",
+          "title": "毕业生在线手续办理流程及说明",
+          "source": "https://career.tsinghua.edu.cn/info/1031/4202.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "教职工",
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "毕业去向",
+            "去向登记"
+          ],
+          "matched_action_terms": [
+            "登记",
+            "提交",
+            "审核",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_c861235d8123bb6b",
+          "title": "就业手续基本流程",
+          "source": "https://career.tsinghua.edu.cn/__local/D/7A/2A/F5077BC982125D553EC0E59B704_59DE560A_1D531D.pdf",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "毕业去向",
+            "去向登记"
+          ],
+          "matched_action_terms": [
+            "登记",
+            "提交",
+            "审核",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_94b62526ae4ee428",
+          "title": "就业手续办理指南",
+          "source": "https://career.tsinghua.edu.cn/__local/C/0C/0D/DFBF89F82520E70FEFFF6006CCB_9B7B0CFD_18AC66.pdf",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "毕业去向",
+            "去向登记"
+          ],
+          "matched_action_terms": [
+            "登记",
+            "提交",
+            "审核",
+            "办理"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "archives_transfer": {
+      "label": "学生档案转递与查询",
+      "topic": "毕业",
+      "status": "READY",
+      "source_count": 14,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 1,
+      "undated_source_count": 10,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000880",
+          "title": "关于学生职业发展指导中心就业服务大厅办公地点调整的通知",
+          "source": "https://career.tsinghua.edu.cn/info/1031/5357.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-05",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "档案转递",
+            "转档"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "查询",
+            "办理",
+            "寄出",
+            "转递"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000305",
+          "title": "清华大学毕业生就业管理办法实施细则",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4614.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "国际学生",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "档案转递"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "转递"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000900",
+          "title": "联系我们",
+          "source": "https://dag.tsinghua.edu.cn/lxwm.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2021-05-08",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转档"
+          ],
+          "matched_action_terms": [
+            "查询"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000879",
+          "title": "关于人事档案转递工作的说明",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4372.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "教职工",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2021-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "档案转递",
+            "转档"
+          ],
+          "matched_action_terms": [
+            "查询",
+            "办理",
+            "寄出",
+            "转递"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0179",
+          "title": "清华大学本科生学籍管理规定-清华大学",
+          "source": "https://www.tsinghua.edu.cn/info/1092/1115.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "学生档案"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0155",
+          "title": "在校生办理在学证明流程",
+          "source": "https://qzc.tsinghua.edu.cn/info/1031/1217.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "转档"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0147",
+          "title": "清华大学本科生学籍管理规定 为了规范学籍管理工作，维护学校正常的教育教学秩序，保证教学培养质量，保障学生合法权益，根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》（教育部令第41号）、《清华大学章程》，结合学校...",
+          "source": "https://qzc.tsinghua.edu.cn/info/1029/1444.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "学生档案"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0119",
+          "title": "毕业生在线手续办理流程及说明",
+          "source": "https://career.tsinghua.edu.cn/info/1031/4202.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "教职工",
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "档案转递",
+            "转档"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "查询",
+            "办理",
+            "转递"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "household_registration": {
+      "label": "集体户口迁移",
+      "topic": "毕业",
+      "status": "READY",
+      "source_count": 8,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 2,
+      "undated_source_count": 4,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000880",
+          "title": "关于学生职业发展指导中心就业服务大厅办公地点调整的通知",
+          "source": "https://career.tsinghua.edu.cn/info/1031/5357.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-05",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "户口迁转",
+            "集体户口"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "迁出",
+            "使用",
+            "系统"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "ATT_738f2f0fe2e70f9f",
+          "title": "清华大学毕业生就业手续办理指南",
+          "source": "https://career.tsinghua.edu.cn/zhinan.pdf",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-10-03",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "户口迁移",
+            "集体户口"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "迁出",
+            "使用",
+            "系统"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000305",
+          "title": "清华大学毕业生就业管理办法实施细则",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4614.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "国际学生",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "户口迁移"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000879",
+          "title": "关于人事档案转递工作的说明",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4372.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "教职工",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2021-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "户口迁移",
+            "集体户口"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "系统"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0119",
+          "title": "毕业生在线手续办理流程及说明",
+          "source": "https://career.tsinghua.edu.cn/info/1031/4202.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "教职工",
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "户口迁转",
+            "集体户口"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "使用",
+            "系统"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000850",
+          "title": "招聘 | 社科学院基层社会治理研究中心招聘博士后-清华大学社会科学学院",
+          "source": "https://www.sss.tsinghua.edu.cn/info/1072/8410.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "博士生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "户口迁移"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_c861235d8123bb6b",
+          "title": "就业手续基本流程",
+          "source": "https://career.tsinghua.edu.cn/__local/D/7A/2A/F5077BC982125D553EC0E59B704_59DE560A_1D531D.pdf",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "户口迁移",
+            "集体户口"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "迁出",
+            "使用",
+            "系统"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "ATT_94b62526ae4ee428",
+          "title": "就业手续办理指南",
+          "source": "https://career.tsinghua.edu.cn/__local/C/0C/0D/DFBF89F82520E70FEFFF6006CCB_9B7B0CFD_18AC66.pdf",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "户口迁移"
+          ],
+          "matched_action_terms": [
+            "申请",
+            "办理",
+            "迁出",
+            "系统"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "graduation_departure": {
+      "label": "毕业与离校手续",
+      "topic": "毕业",
+      "status": "READY",
+      "source_count": 13,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 1,
+      "undated_source_count": 10,
+      "sources": [
+        {
+          "source_id": "ATT_738f2f0fe2e70f9f",
+          "title": "清华大学毕业生就业手续办理指南",
+          "source": "https://career.tsinghua.edu.cn/zhinan.pdf",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2025-10-03",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "离校手续"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "流程",
+            "安排",
+            "提交",
+            "确认"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000305",
+          "title": "清华大学毕业生就业管理办法实施细则",
+          "source": "https://career.tsinghua.edu.cn/info/1040/4614.htm",
+          "department": "学生职业发展指导中心",
+          "audience": [
+            "国际学生",
+            "本科生",
+            "毕业生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2022-05-01",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "毕业生离校"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "安排",
+            "提交",
+            "确认"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0208",
+          "title": "清华大学本科生临时借款管理办法 2021/04/07 为解决部分本科生报到注册和入学后暂时的经济困难，学校从1998年开始设立了“绿色通道”，向同学提供临时借款服务。临时借款...",
+          "source": "https://www.wyc.tsinghua.edu.cn/info/1035/1046.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生",
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2021-04-07",
+          "effective_date": "2021-04-07",
+          "matched_subject_terms": [
+            "离校手续"
+          ],
+          "matched_action_terms": [
+            "办理"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0179",
+          "title": "清华大学本科生学籍管理规定-清华大学",
+          "source": "https://www.tsinghua.edu.cn/info/1092/1115.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "离校手续"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "安排",
+            "提交"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0178",
+          "title": "清华大学研究生学籍管理规定",
+          "source": "https://www.tsinghua.edu.cn/info/1092/1114.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "离校手续"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "提交"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0153",
+          "title": "清华大学研究生学籍管理规定 （经学校2004～2005学年度第24次校务会议审议通过，2014～2015学年度第28次校务会议修订，2016～2017学年度第26次校务会议第二次修订，2018～2019学年度第27次校务会议第三次修订）第一章 总 则第一条 为了规范研...",
+          "source": "https://qzc.tsinghua.edu.cn/info/1029/1479.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "离校手续"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "提交"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0147",
+          "title": "清华大学本科生学籍管理规定 为了规范学籍管理工作，维护学校正常的教育教学秩序，保证教学培养质量，保障学生合法权益，根据《中华人民共和国高等教育法》以及《普通高等学校学生管理规定》（教育部令第41号）、《清华大学章程》，结合学校...",
+          "source": "https://qzc.tsinghua.edu.cn/info/1029/1444.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "新生",
+            "本科生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "离校手续"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "安排",
+            "提交"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "KBV1-PUB-PUBV2C-0006",
+          "title": "宿舍调整申请及办理流程",
+          "source": "https://www.tsinghua.edu.cn/xssqglfwzx/info/1043/1173.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "国际学生",
+            "新生",
+            "毕业生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "毕业生离校"
+          ],
+          "matched_action_terms": [
+            "办理",
+            "流程",
+            "提交"
+          ],
+          "dated_recent": false
+        }
+      ]
+    },
+    "library_services": {
+      "label": "图书馆借阅与电子资源",
+      "topic": "校园生活",
+      "status": "READY",
+      "source_count": 42,
+      "minimum_sources": 2,
+      "recent_dated_source_count": 16,
+      "undated_source_count": 19,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000012",
+          "title": "加拿大温莎大学图书馆终身馆员刘国英做客401学术论坛-清华大学图书馆",
+          "source": "https://lib.tsinghua.edu.cn/info/1202/8150.htm",
+          "department": "图书馆",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-17",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "图书馆"
+          ],
+          "matched_action_terms": [
+            "访问"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000030",
+          "title": "通知公告",
+          "source": "https://lib.tsinghua.edu.cn/arts/info/1023/9313.htm",
+          "department": "图书馆",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-08-04",
+          "effective_date": "2026-08-04",
+          "matched_subject_terms": [
+            "图书馆",
+            "借阅"
+          ],
+          "matched_action_terms": [
+            "预约",
+            "访问"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000214",
+          "title": "East View斯大林数字化档案数据库开通试用（2026年7月14日-2026年9月8日）-清华大学图书馆",
+          "source": "https://lib.tsinghua.edu.cn/info/1077/8143.htm",
+          "department": "图书馆",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-07-14",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "图书馆",
+            "电子资源"
+          ],
+          "matched_action_terms": [
+            "开通",
+            "访问"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000009",
+          "title": "关于公布2026年暑假图书馆开馆时间的通知-清华大学图书馆",
+          "source": "https://lib.tsinghua.edu.cn/info/1071/8118.htm",
+          "department": "图书馆",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-07-06",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "图书馆"
+          ],
+          "matched_action_terms": [
+            "预约",
+            "访问"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000016",
+          "title": "总馆、文科图书馆图书可全域预约啦！-清华大学图书馆",
+          "source": "https://lib.tsinghua.edu.cn/info/1073/8129.htm",
+          "department": "图书馆",
+          "audience": [
+            "教职工"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-06-25",
+          "effective_date": "2026-06-25",
+          "matched_subject_terms": [
+            "图书馆",
+            "借阅"
+          ],
+          "matched_action_terms": [
+            "借书",
+            "预约",
+            "访问",
+            "办理"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000216",
+          "title": "BOA非洲研究三个子库开通试用(2026年6月12日-2026年8月9日)-清华大学图书馆",
+          "source": "https://lib.tsinghua.edu.cn/info/1077/8098.htm",
+          "department": "图书馆",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-06-12",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "图书馆",
+            "电子资源"
+          ],
+          "matched_action_terms": [
+            "开通",
+            "访问"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000215",
+          "title": "艺术品销售目录在线开通试用(2026年6月12日-2026年7月31日)-清华大学图书馆",
+          "source": "https://lib.tsinghua.edu.cn/info/1077/8099.htm",
+          "department": "图书馆",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-06-12",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "图书馆",
+            "电子资源"
+          ],
+          "matched_action_terms": [
+            "开通",
+            "访问"
+          ],
+          "dated_recent": true
+        },
+        {
+          "source_id": "CRAWL_THU000218",
+          "title": "【知识产权讲堂】科研成果专利撰写：规范、布局与权益保护-清华大学图书馆",
+          "source": "https://lib.tsinghua.edu.cn/info/1068/8084.htm",
+          "department": "图书馆",
+          "audience": [
+            "教职工"
+          ],
+          "authority_level": "official",
+          "publish_date": "2026-06-04",
+          "effective_date": null,
+          "matched_subject_terms": [
+            "图书馆"
+          ],
+          "matched_action_terms": [
+            "访问"
+          ],
+          "dated_recent": true
+        }
+      ]
+    },
+    "campus_transport": {
+      "label": "校车与校园交通",
+      "topic": "校园生活",
+      "status": "READY",
+      "source_count": 3,
+      "minimum_sources": 1,
+      "recent_dated_source_count": 0,
+      "undated_source_count": 3,
+      "sources": [
+        {
+          "source_id": "CRAWL_THU000652",
+          "title": "接待服务-清华大学接待服务中心",
+          "source": "https://www.tsinghua.edu.cn/jdfwzx/jdfw.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园交通"
+          ],
+          "matched_action_terms": [
+            "线路"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000206",
+          "title": "迎四千余本科新生，清华为新生定制“AI入学礼”-清华大学",
+          "source": "https://www.tsinghua.edu.cn/info/1182/127732.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "国际学生",
+            "新生",
+            "本科生",
+            "研究生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校车"
+          ],
+          "matched_action_terms": [
+            "通知"
+          ],
+          "dated_recent": false
+        },
+        {
+          "source_id": "CRAWL_THU000204",
+          "title": "车辆-清华大学接待服务中心",
+          "source": "https://www.tsinghua.edu.cn/jdfwzx/jdfw/cl.htm",
+          "department": "清华大学相关部门",
+          "audience": [
+            "全校学生"
+          ],
+          "authority_level": "official",
+          "publish_date": null,
+          "effective_date": null,
+          "matched_subject_terms": [
+            "校园交通"
+          ],
+          "matched_action_terms": [
+            "运行时间",
+            "乘车",
+            "线路"
+          ],
+          "dated_recent": false
+        }
+      ]
+    }
+  }
+}

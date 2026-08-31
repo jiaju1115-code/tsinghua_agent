@@ -88,10 +88,9 @@ def infer_department(url: str, title: str = "") -> str:
 
 
 def infer_topics(category: str, title: str, text: str = "") -> list[str]:
-    joined = f"{category}\n{title}\n{text[:3000]}".lower()
     marker_groups = {
         "教务": ("教务", "学籍", "选课", "培养方案", "转系", "转专业", "辅修", "课程", "考试", "成绩", "学位"),
-        "学生事务": ("学生事务", "奖学金", "助学金", "资助", "勤工助学", "学生工作", "评优", "社团"),
+        "学生事务": ("学生事务", "学生手册", "奖学金", "助学金", "资助", "勤工助学", "学生工作", "评优", "社团"),
         "校园生活": ("宿舍", "住宿", "食堂", "餐饮", "校园卡", "校车", "交通", "图书馆", "借阅", "校医院", "就医", "校园网", "vpn", "体育馆", "场馆"),
         "科研实践": ("科研", "科研实践", "实验室", "项目申报", "学术研究", "伦理审查", "知识产权", "srt"),
         "国际交流": ("国际交流", "交换", "访学", "签证", "出国", "留学", "国际学生", "港澳台"),
@@ -99,11 +98,23 @@ def infer_topics(category: str, title: str, text: str = "") -> list[str]:
         "新生": ("新生", "入学报到", "迎新", "预报到"),
         "毕业": ("毕业", "离校", "学位证", "毕业证", "毕业生"),
     }
-    topics = {topic for topic, markers in marker_groups.items() if any(marker in joined for marker in markers)}
+    ordered: list[str] = []
+
+    def add_matches(value: str) -> None:
+        lowered = value.lower()
+        for topic, markers in marker_groups.items():
+            if topic not in ordered and any(marker in lowered for marker in markers):
+                ordered.append(topic)
+
+    # A specific title is the best signal for the primary topic. Category is
+    # next; body text only expands the multi-topic list and must not take over
+    # the primary label because long handbooks often mention every domain.
+    add_matches(title)
     mapped = CATEGORY_TOPIC.get(category)
-    if mapped:
-        topics.add(mapped)
-    return sorted(topics or {"学生事务"})
+    if mapped and mapped not in ordered:
+        ordered.append(mapped)
+    add_matches(text[:3000])
+    return ordered or ["学生事务"]
 
 
 def infer_content_type(title: str, text: str = "") -> str:

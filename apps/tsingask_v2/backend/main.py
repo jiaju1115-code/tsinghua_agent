@@ -198,6 +198,19 @@ def coverage() -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+@app.get("/api/intent-coverage")
+def intent_coverage() -> dict[str, Any]:
+    """Return the high-frequency campus-service coverage matrix.
+
+    This is intentionally separate from ``/api/coverage`` so older frontends
+    that expect the eight top-level scenarios keep their existing contract.
+    """
+    path = KB_ROOT / "intent_coverage_matrix.json"
+    if not path.is_file():
+        raise HTTPException(503, "高频事务覆盖矩阵尚未构建")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 @app.get("/api/templates")
 def templates() -> list[dict[str, Any]]:
     return CampusFileService.templates()

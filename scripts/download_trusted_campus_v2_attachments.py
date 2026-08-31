@@ -35,13 +35,16 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from crawler.fetcher import Fetcher
-from src.trusted_campus_agent_v2.metadata import authority_level, infer_content_type, infer_topics, policy_key
+from src.trusted_campus_agent_v2.metadata import (
+    authority_level, infer_audience, infer_content_type, infer_department, infer_topics,
+    normalize_source_date, policy_key,
+)
 
 
 ALLOWED_TYPES = {"pdf", "doc", "docx", "xls", "xlsx", "ppt", "pptx"}
 ZIP_TYPES = {"docx", "xlsx", "pptx"}
 OLE_TYPES = {"doc", "xls", "ppt"}
-HIGH_VALUE_ATTACHMENT = re.compile(r"(?:申请|办理|表格|模板|证明|同意函|材料|指南|办法|规定|细则|签证|实习|交换|就业|奖学金|资助|学籍|毕业|新生)")
+HIGH_VALUE_ATTACHMENT = re.compile(r"(?:申请|办理|表格|模板|证明|同意函|材料|指南|手册|办法|规定|细则|签证|实习|交换|就业|奖学金|资助|学籍|毕业|新生|校园卡|校园网|VPN)", re.I)
 
 
 def csv_rows(path: Path) -> list[dict[str, str]]:
@@ -155,10 +158,32 @@ def parent_metadata() -> dict[str, dict[str, Any]]:
     return result
 
 
+def normalize_explicit_candidate(
+    candidate: dict[str, Any], index_row: dict[str, Any], explicit_seed_map: dict[str, dict[str, str]],
+) -> dict[str, Any]:
+    seed = explicit_seed_map.get(str(candidate.get("source", "")))
+    if not seed:
+        return candidate
+    text_path = ROOT / str(index_row.get("text_file") or "")
+    body = text_path.read_text(encoding="utf-8-sig", errors="replace") if text_path.is_file() else ""
+    title = str(seed.get("filename") or candidate.get("title") or index_row.get("title") or "官方附件")
+    value = dict(candidate)
+    value.update({
+        "title": title,
+        "department": infer_department(str(candidate.get("source", "")), title),
+        "publish_date": normalize_source_date(title), "effective_date": None, "expiry_date": None,
+        "audience": infer_audience(title, body), "topics": infer_topics("", title, body),
+        "category": "官方附件", "time_status": "unknown", "access_level": "public",
+    })
+    value["topic"] = value["topics"][0]
+    return value
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--max-files", type=int, default=500)
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--refresh-explicit-seeds", action="store_true")
     args = parser.parse_args()
     if not 1 <= args.max_files <= 2000:
         raise SystemExit("--max-files must be between 1 and 2000")
@@ -167,10 +192,13 @@ def main() -> None:
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     TEXT_DIR.mkdir(parents=True, exist_ok=True)
     parents = parent_metadata()
+    explicit_seed_rows = csv_rows(ROOT / "configs" / "trusted_campus_agent_v2" / "official_attachment_seeds.csv")
+    explicit_seed_map = {row.get("file_url", ""): row for row in explicit_seed_rows if row.get("file_url")}
+    explicit_seed_urls = set(explicit_seed_map)
     discovered = (
         csv_rows(V2_ROOT / "public_crawl_v1" / "knowledge" / "attachments.csv")
         + csv_rows(V2_ROOT / "portal_crawl_v1" / "knowledge" / "portal_attachments.csv")
-        + csv_rows(ROOT / "configs" / "trusted_campus_agent_v2" / "official_attachment_seeds.csv")
+        + explicit_seed_rows
     )
     unique: list[dict[str, str]] = []
     seen = set()
@@ -180,6 +208,7 @@ def main() -> None:
             seen.add(url)
             unique.append(row)
     unique.sort(key=lambda row: (
+        row.get("file_url", "") in explicit_seed_urls,
         bool(HIGH_VALUE_ATTACHMENT.search(row.get("filename", ""))),
         (parents.get(row.get("parent_page_id", "")) or parents.get(row.get("parent_page_url", "")) or {}).get("content_type") in {"policy", "procedure_guide", "faq"},
     ), reverse=True)
@@ -190,11 +219,27 @@ def main() -> None:
         "max_retries": 1,
         "max_response_bytes": 20_971_520,
     })
-    checkpoints = jsonl(CHECKPOINT)
-    usable_checkpoints = [row for row in checkpoints if row.get("url") and (row.get("terminal_status") or not (row.get("index_row") or {}).get("extraction_error"))]
+    latest_checkpoints: dict[str, dict[str, Any]] = {}
+    for checkpoint in jsonl(CHECKPOINT):
+        url = checkpoint.get("url")
+        if not url:
+            continue
+        current = latest_checkpoints.get(url)
+        checkpoint_success = bool(checkpoint.get("index_row")) and not (checkpoint.get("index_row") or {}).get("extraction_error")
+        current_success = bool((current or {}).get("index_row")) and not ((current or {}).get("index_row") or {}).get("extraction_error")
+        if checkpoint_success or not current_success:
+            latest_checkpoints[url] = checkpoint
+    usable_checkpoints = [
+        row for url, row in latest_checkpoints.items()
+        if not (args.refresh_explicit_seeds and url in explicit_seed_urls)
+        and (row.get("terminal_status") or not (row.get("index_row") or {}).get("extraction_error"))
+    ]
     completed_urls = {row["url"] for row in usable_checkpoints}
     index_rows: list[dict[str, Any]] = [row["index_row"] for row in usable_checkpoints if row.get("index_row")]
-    candidates: list[dict[str, Any]] = [row["candidate"] for row in usable_checkpoints if row.get("candidate")]
+    candidates: list[dict[str, Any]] = [
+        normalize_explicit_candidate(row["candidate"], row.get("index_row") or {}, explicit_seed_map)
+        for row in usable_checkpoints if row.get("candidate")
+    ]
     counts = Counter()
     for row in unique[: args.max_files]:
         url = row.get("file_url", "")
@@ -203,6 +248,7 @@ def main() -> None:
             continue
         kind = (row.get("file_type") or Path(urlsplit(url).path).suffix.lstrip(".")).lower()
         parent = parents.get(row.get("parent_page_id", "")) or parents.get(row.get("parent_page_url", "")) or {}
+        is_explicit_seed = url in explicit_seed_urls
         if parent.get("admission_status") == "rejected_quality" and not HIGH_VALUE_ATTACHMENT.search(row.get("filename", "")):
             counts["skipped_low_value_parent"] += 1
             continue
@@ -213,7 +259,17 @@ def main() -> None:
             counts["robots_disallowed"] += 1
             print(f"[附件跳过] robots {url}")
             continue
-        fetched = fetcher.fetch(url)
+        try:
+            fetched = fetcher.fetch(url)
+        except Exception as exc:
+            counts["download_exception"] += 1
+            error = f"{type(exc).__name__}: {exc}"[:500]
+            print(f"[附件失败] {error} {url}")
+            CHECKPOINT.parent.mkdir(parents=True, exist_ok=True)
+            with CHECKPOINT.open("a", encoding="utf-8") as handle:
+                handle.write(json.dumps({"url": url, "terminal_status": "download_failed", "error": error}, ensure_ascii=False, sort_keys=True) + "\n")
+            completed_urls.add(url)
+            continue
         if not fetched.response or fetched.response.status_code != 200:
             counts["download_failed"] += 1
             print(f"[附件失败] {url}")
@@ -238,7 +294,7 @@ def main() -> None:
             text_path = TEXT_DIR / f"ATT_{digest[:16]}_{safe_name(row.get('filename', ''), 'attachment')}.md"
             text_path.write_text(f"# {row.get('filename') or filename}\n\n{text_value}\n", encoding="utf-8")
         title = row.get("filename") or filename
-        topics = parent.get("topics") or infer_topics("", title, text_value)
+        topics = infer_topics("", title, text_value) if is_explicit_seed else parent.get("topics") or infer_topics("", title, text_value)
         index_row = {
             "id": f"ATT_{digest[:16]}", "title": title, "source": url,
             "parent_page_id": row.get("parent_page_id"), "parent_page_url": row.get("parent_page_url"),
@@ -255,12 +311,16 @@ def main() -> None:
         if len(text_value) >= 200:
             candidate = {
                 "source_id": index_row["id"], "title": title, "source": url,
-                "department": parent.get("department", "清华大学相关部门"),
-                "publish_date": parent.get("publish_date"), "effective_date": parent.get("effective_date"),
-                "expiry_date": parent.get("expiry_date"), "audience": parent.get("audience", ["全校学生"]),
+                "department": infer_department(url, title) if is_explicit_seed else parent.get("department", "清华大学相关部门"),
+                "publish_date": normalize_source_date(title) if is_explicit_seed else parent.get("publish_date"),
+                "effective_date": None if is_explicit_seed else parent.get("effective_date"),
+                "expiry_date": None if is_explicit_seed else parent.get("expiry_date"),
+                "audience": infer_audience(title, text_value) if is_explicit_seed else parent.get("audience", ["全校学生"]),
                 "authority_level": authority_level(url), "topic": topics[0], "topics": topics,
-                "category": parent.get("category", "官方附件"), "content_type": infer_content_type(title, text_value),
-                "time_status": parent.get("time_status", "unknown"), "access_level": parent.get("access_level", "public"),
+                "category": "官方附件" if is_explicit_seed else parent.get("category", "官方附件"),
+                "content_type": infer_content_type(title, text_value),
+                "time_status": "unknown" if is_explicit_seed else parent.get("time_status", "unknown"),
+                "access_level": "public" if is_explicit_seed else parent.get("access_level", "public"),
                 "admission_status": "auto_review_candidate", "review_status": "pending_automated_review",
                 "policy_key": policy_key(title), "source_version": "TRUSTED_CAMPUS_V2_ATTACHMENT_CRAWL_V1",
                 "candidate_content_file": index_row["text_file"], "content_hash": digest,
