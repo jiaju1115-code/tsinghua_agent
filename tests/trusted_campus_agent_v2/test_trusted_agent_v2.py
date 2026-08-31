@@ -5,6 +5,7 @@ from datetime import date
 import numpy as np
 
 from src.trusted_campus_agent_v2.answer_planner import GroundedAnswerPlannerV2
+from src.trusted_campus_agent_v2.clarification import ClarificationPolicy
 from src.trusted_campus_agent_v2.evidence_gate import EvidenceGateV2, EvidenceResult
 from src.trusted_campus_agent_v2.query_planner import CampusQueryPlanner, QueryPlan
 from src.trusted_campus_agent_v2.retrieval import TrustedHybridRetrieverV2
@@ -32,6 +33,33 @@ def test_query_planner_uses_alias_and_fast_full_paths() -> None:
     assert full.path == "FULL"
     assert full.wants_action_plan
     assert len(full.subqueries) >= 2
+
+
+def test_user_can_force_fast_or_full_path() -> None:
+    planner = CampusQueryPlanner()
+    assert planner.plan("校园卡在哪里补办？", path_override="FAST").path == "FAST"
+    full = planner.plan("校园卡在哪里补办？", path_override="FULL")
+    assert full.path == "FULL"
+    assert "user_selected_full" in full.complexity_reasons
+
+
+def test_procedure_guidance_always_includes_portal_and_official_wechat() -> None:
+    decision = ClarificationPolicy().assess(
+        "本科生如何申请转系？", status="SUPPORTED", topics=["教务"], context={"audience": "本科生"}, citations=[]
+    )
+    labels = [item["label"] for item in decision.search_guidance]
+    assert any("信息门户" in label for label in labels)
+    assert any("微信公众号" in label and "学在清华" in label for label in labels)
+
+
+def test_campus_card_procedure_actively_asks_for_audience() -> None:
+    decision = ClarificationPolicy().assess(
+        "我的校园卡丢了，应该怎么补办？", status="NOT_SUPPORTED", topics=["校园生活"]
+    )
+    assert decision.needs_clarification
+    assert "audience" in decision.missing_slots
+    assert any("本科生、研究生、国际学生" in question for question in decision.questions)
+    assert any("校园卡" in item["label"] for item in decision.search_guidance)
 
 
 def test_fast_path_never_initializes_dense() -> None:
@@ -81,11 +109,11 @@ def test_action_plan_is_evidence_bound() -> None:
     assert response["citations"][0]["source_id"] == "S1"
 
 
-def test_declared_deadline_without_deadline_evidence_is_partial() -> None:
+def test_declared_deadline_without_deadline_evidence_is_not_supported() -> None:
     deadline_plan = plan("FULL", ("宿舍申请的截止时间",))
     no_deadline = hit(text="申请人应当在线提交申请表。")
     result = EvidenceGateV2(min_score=0.4).evaluate(deadline_plan, {"results": [no_deadline]})
-    assert result.status == "PARTIAL"
+    assert result.status == "NOT_SUPPORTED"
     assert result.unsupported_subqueries == (0,)
 
 
@@ -95,6 +123,35 @@ def test_expired_evidence_is_history_not_current_support() -> None:
     result = EvidenceGateV2(min_score=0.4).evaluate(plan(), {"results": [expired]})
     assert result.status == "NOT_SUPPORTED"
     assert result.historical_versions[0]["source_id"] == "S1"
+
+
+def test_past_explicit_deadline_cannot_support_current_deadline_query() -> None:
+    current_plan = CampusQueryPlanner().plan("研究生奖学金申请截止日期是什么？", path_override="FULL")
+    old_notice = hit(text="申请材料请于2025年10月9日前提交，逾期不再受理。")
+    old_notice["title"] = "2025年研究生专项奖学金申请通知"
+    result = EvidenceGateV2(min_score=0.4).evaluate(
+        current_plan, {"results": [old_notice]}, as_of=date(2026, 8, 31)
+    )
+    assert result.status == "NOT_SUPPORTED"
+    assert result.historical_versions[0]["source_id"] == "S1"
+
+
+def test_core_affair_relevance_excludes_campus_safety_from_card_replacement() -> None:
+    card_plan = CampusQueryPlanner().plan("校园卡丢了怎么挂失补办？", path_override="FAST")
+    irrelevant = hit("NEWS", text="国际学生参加校园安全沙龙并交流安全经验。")
+    irrelevant["title"] = "校园安全活动"
+    relevant = hit("CARD", text="如果丢失校园卡，应先在清华校园卡小程序点击挂失，再到自助机器办理新卡。")
+    relevant["title"] = "校园卡挂失与补办"
+    result = EvidenceGateV2(min_score=0.4).evaluate(card_plan, {"results": [irrelevant, relevant]})
+    assert {row["source_id"] for row in result.supporting_hits} == {"CARD"}
+
+
+def test_generic_student_question_does_not_generalize_international_only_card_process() -> None:
+    card_plan = CampusQueryPlanner().plan("学生校园卡丢了怎么补办？", path_override="FAST")
+    international = hit("INTL", text="国际学生丢失校园卡后，在小程序挂失并到自助机器办理新卡。")
+    international["title"] = "国际学生学者校园生活手册"
+    result = EvidenceGateV2(min_score=0.4).evaluate(card_plan, {"results": [international]})
+    assert result.status == "NOT_SUPPORTED"
 
 
 def test_newer_dated_policy_supersedes_older_active_source() -> None:

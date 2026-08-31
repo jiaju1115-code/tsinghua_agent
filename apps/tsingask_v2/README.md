@@ -13,6 +13,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File apps\tsingask_v2\start.ps1
 
 浏览器打开 `http://127.0.0.1:8765`。首次安装默认下载官方 Qwen3-4B Q4_K_M（约 2.5 GB），校验大小和 SHA256；如只想先复用本机已校验的 Qwen2.5-1.5B，可给安装脚本加 `-SkipModel`。
 
+输入框上方可直接选择检索方式：`Fast / 快速回答` 只做轻量检索，适合术语解释和简单事实；`Full / 深度检索` 会拆解问题并启用 Dense + BM25 与完整证据核验，适合条件、材料、流程、截止时间和多条件比较。选择会保存在本机浏览器中。调用 `POST /api/chat` 时也可传 `retrieval_mode: "fast" | "full" | "auto"`。
+
 安装脚本默认使用 `-GpuBackend auto`：检测到 NVIDIA 显卡时安装 CUDA 版 PyTorch 与 llama.cpp，并把 Qwen3 的全部层卸载到 GPU；Apple Silicon 使用 Metal，其余机器安全回退到 CPU。AMD/Intel 独显部署可显式选择 `-GpuBackend vulkan`（需要本机 CMake/C++ 与 Vulkan SDK），AMD ROCm 可选择 `hipblas`。运行时可用 `TSINGASK_FORCE_CPU=1` 强制 CPU，或用 `TSINGASK_GPU_LAYERS=20` 限制显存占用；默认 `auto` 等价于 GPU 后端可用时 `-1`（全部层）。多卡可用 `TSINGASK_TENSOR_SPLIT=0.6,0.4` 指定显存比例。`GET /api/health` 会返回实际加速模式。
 
 示例：

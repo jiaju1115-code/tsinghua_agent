@@ -55,6 +55,7 @@ class ChatRequest(BaseModel):
     template_key: str | None = None
     use_rag: bool | None = None
     session_id: str | None = None
+    retrieval_mode: str = Field(default="auto", pattern="^(auto|fast|full)$")
 
 
 class TaskUpdate(BaseModel):
@@ -247,7 +248,11 @@ async def chat(request: ChatRequest) -> dict[str, Any]:
     if request.use_rag is not None:
         options["use_rag"] = request.use_rag
     try:
-        value = await asyncio.to_thread(agent().handle, effective_query, uploaded_files=uploads, file_options=options, context=context)
+        path_override = None if request.retrieval_mode == "auto" else request.retrieval_mode.upper()
+        value = await asyncio.to_thread(
+            agent().handle, effective_query, uploaded_files=uploads, file_options=options,
+            context=context, path_override=path_override,
+        )
         value["input_message"] = request.message
         value["session_id"] = state["session_id"]
         SESSION_STORE.record(state, user_message=request.message, effective_query=effective_query, result=value)
@@ -332,7 +337,10 @@ async def replay(case_id: str, request: ReplayRequest) -> dict[str, Any]:
     if trace_value is None:
         raise HTTPException(404, "回放记录不存在")
     state = SESSION_STORE.load(request.session_id)
-    value = await asyncio.to_thread(agent().ask, trace_value["query"], context=state.get("profile", {}))
+    value = await asyncio.to_thread(
+        agent().ask, trace_value["query"], context=state.get("profile", {}),
+        path_override=trace_value.get("path"),
+    )
     value["replayed_from"] = case_id
     value["session_id"] = state["session_id"]
     TRACE_STORE.append(value, session_id=state["session_id"])

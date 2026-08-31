@@ -15,6 +15,17 @@ OFFICIAL_DIRECTIONS = {
     "毕业": ("教务处、研究生院及就业中心离校指南", "https://career.tsinghua.edu.cn/"),
 }
 
+OFFICIAL_WECHAT = {
+    "教务": "学在清华、清华大学本科教学、清华大学研究生教育",
+    "学生事务": "清华大学小研在线、清华小五爷园",
+    "校园生活": "清华紫荆之声、清华大学小研在线",
+    "科研实践": "清华小五爷园及所在院系官方公众号",
+    "国际交流": "清华大学国际学生学者中心",
+    "就业": "清华就业、清华职业辅导",
+    "新生": "清华招生、学在清华、清华研招",
+    "毕业": "清华大学研究生教育、清华就业",
+}
+
 
 @dataclass(frozen=True)
 class ClarificationDecision:
@@ -34,7 +45,10 @@ class ClarificationDecision:
 class ClarificationPolicy:
     """Turns an evidence boundary into useful questions and official lookup directions."""
 
-    PROCEDURES = ("申请", "办理", "流程", "材料", "条件", "截止", "转系", "转专业", "交换", "奖学金", "离校", "报到")
+    PROCEDURES = (
+        "申请", "办理", "流程", "材料", "条件", "截止", "转系", "转专业", "交换", "奖学金",
+        "离校", "报到", "补办", "挂失", "校园卡", "一卡通", "校园码",
+    )
 
     @staticmethod
     def _known(query: str, context: dict[str, Any], key: str, markers: tuple[str, ...]) -> bool:
@@ -65,19 +79,40 @@ class ClarificationPolicy:
         if "交换" in query and not self._known(query, context, "program", ("校级", "院系级", "院级", "指定项目")):
             missing.append("program")
             questions.append("你申请的是校级、院系级，还是某个指定交换项目？")
+        if "奖学金" in query and not any(marker in query for marker in ("国家奖学金", "综合奖学金", "专项奖学金", "国际仲裁项目", "蒋南翔奖学金")):
+            missing.append("scholarship_program")
+            questions.append("你申请的具体奖学金或专项项目名称是什么？不同项目的材料和截止日期不能混用。")
 
         guidance = []
-        if status != "SUPPORTED" or questions:
+        if procedural or status != "SUPPORTED" or questions:
+            guidance.append({
+                "label": "清华大学信息门户（需校园身份登录）",
+                "url": "https://info.tsinghua.edu.cn/",
+                "how": "登录后搜索事项全称或主管部门，优先查看当前学期/当前批次通知、附件和联系人；不要直接套用往年截止日期。",
+            })
+            if any(term in query for term in ("校园卡", "一卡通", "校园码")):
+                guidance.append({
+                    "label": "“清华校园卡”小程序/公众号",
+                    "url": "",
+                    "how": "先在小程序查看挂失、余额和卡片服务；不同身份的补卡地点与材料可能不同，仍需在信息门户或注册中心当期说明中确认。",
+                })
             for topic in topics or ["学生事务"]:
                 label, url = OFFICIAL_DIRECTIONS.get(topic, OFFICIAL_DIRECTIONS["学生事务"])
-                item = {"label": label, "url": url, "how": "在站内搜索事项名称，并核对适用对象、发布日期、附件和咨询方式。"}
+                item = {"label": label, "url": url, "how": "在官网搜索事项名称，核对适用对象、发布日期、有效期、附件和咨询方式。"}
                 if item not in guidance:
                     guidance.append(item)
+                account = OFFICIAL_WECHAT.get(topic)
+                if account:
+                    guidance.append({
+                        "label": f"官方微信公众号：{account}", "url": "",
+                        "how": "微信内搜索事项关键词并优先看当年推送；公众号用于发现通知，最终仍以主管部门正式文件或信息门户为准。",
+                    })
             for citation in citations or []:
                 if citation.get("url"):
-                    guidance.insert(0, {"label": f"先查看：{citation.get('title', '已检索来源')}", "url": citation["url"], "how": "检查正文日期、附件和主管部门联系方式。"})
+                    guidance.append({"label": f"本次检索到的来源：{citation.get('title', '已检索来源')}", "url": citation["url"], "how": "检查正文日期、附件和主管部门联系方式；若是历史通知，不直接沿用其中日期。"})
                     break
             if status == "CONFLICT":
                 guidance.append({"label": "向主管部门确认冲突版本", "url": "", "how": "提供两个来源标题、发布日期和具体冲突点，请对方确认当前执行口径。"})
         needs = bool(questions) and (procedural or status in {"PARTIAL", "NOT_SUPPORTED", "CONFLICT"})
-        return ClarificationDecision(needs, tuple(questions[:3]), tuple(missing[:3]), tuple(guidance[:4]))
+        unique_guidance = list({(item["label"], item["url"]): item for item in guidance}.values())
+        return ClarificationDecision(needs, tuple(questions[:3]), tuple(missing[:3]), tuple(unique_guidance[:6]))

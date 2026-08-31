@@ -26,15 +26,27 @@ class GroundedAnswerPlannerV2:
     """Produces a safe structured response; every displayed fact remains tied to a source."""
 
     def _confirmed_facts(self, plan: QueryPlan, evidence: EvidenceResult) -> list[dict[str, Any]]:
-        query_terms = {char for char in plan.rewritten_query if "\u3400" <= char <= "\u9fff"}
+        from .retrieval import tokenize
+
+        query_terms = set(tokenize(plan.rewritten_query))
         facts = []
         seen = set()
         for hit in evidence.supporting_hits:
+            candidates = [value for value in _sentences(hit.get("text", "")) if not value.lstrip().startswith("#")]
+            canonical_candidates = [
+                value for value in candidates
+                if not plan.canonical_terms or any(term in value for term in plan.canonical_terms if term != "校园卡补办")
+            ]
+            if canonical_candidates:
+                candidates = canonical_candidates
             ranked = sorted(
-                [value for value in _sentences(hit.get("text", "")) if not value.lstrip().startswith("#")],
-                key=lambda sentence: -len(query_terms & set(sentence)),
+                candidates,
+                key=lambda sentence: (
+                    -len(query_terms & set(tokenize(sentence))) / max(1, len(set(tokenize(sentence))) ** 0.5),
+                    len(sentence),
+                ),
             )
-            sentence = next((value for value in ranked if len(query_terms & set(value)) >= 2), None)
+            sentence = ranked[0] if ranked and query_terms & set(tokenize(ranked[0])) else None
             key = re.sub(r"[*#\s]+", "", sentence or "")
             if sentence and key not in seen:
                 seen.add(key)
@@ -70,13 +82,23 @@ class GroundedAnswerPlannerV2:
                 citations.append(citation)
         facts = self._confirmed_facts(plan, evidence)
         if evidence.status == "NOT_SUPPORTED":
-            answer = "我目前还不能从已收录的有效官方证据中确认答案，但不会让你停在这里。请先补充下方关键信息，或按给出的官方方向继续查找。"
+            if plan.wants_action_plan:
+                answer = (
+                    "现有证据还不足以把这项事务的办理条件、材料或当前批次安排说准，"
+                    "我不会把其他人群或旧批次的流程套给你。请先补充下方关键信息；"
+                    "也可以直接通过“官方查找渠道”进入信息门户或主管部门页面，搜索事项名称并核对最新通知、附件和联系人。"
+                )
+            else:
+                answer = (
+                    "现有有效官方证据还不足以确认这个问题，我先不猜。"
+                    "请补充下方关键信息，或通过“官方查找渠道”核对主管部门的最新说明。"
+                )
         elif evidence.status == "CONFLICT":
             answer = "我发现当前官方来源之间存在冲突，因此不会擅自替你选择版本。下面会列出冲突、需要补充的信息，以及向主管部门确认时应提供的要点。"
         elif evidence.status == "PARTIAL":
-            answer = "现有资料可以确认一部分内容；我先给出已确认事实，再通过追问或官方查找路径补齐剩余部分。"
+            answer = f"目前能确认的是：{facts[0]['text']} 其余部分我还没有找到足够可靠的现行依据，建议按下方渠道核对当前批次。" if facts else "目前只能确认一部分信息；缺少可靠依据的部分我不会替你猜，建议按下方渠道核对当前批次。"
         else:
-            answer = "现有已审核资料支持回答。以下事实均可回溯到所列来源。"
+            answer = f"先说结论：{facts[0]['text']}" if facts else "目前没有提取到可直接说明结论的事实，请结合下方官方来源继续核对。"
         action_plan = self._action_plan(evidence) if plan.wants_action_plan and evidence.status in {"SUPPORTED", "PARTIAL"} else None
         return {
             "answer": answer, "confirmed_facts": facts, "action_plan": action_plan,

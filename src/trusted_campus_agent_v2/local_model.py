@@ -287,7 +287,8 @@ class LocalQwenGroundedComposer(GroundedAnswerPlannerV2):
             "facts": {fact_id: fact["text"] for fact_id, fact in zip(fact_ids, facts)},
             "available_action_sections": list((response.get("action_plan") or {}).keys()),
             "writing_requirements": [
-                "直接回答用户，语气自然、完整，不要解释程序流程",
+                "第一句直接给结论，语气像熟悉校园办事的人，务实、简洁，不要解释程序流程",
+                "优先说明用户现在该做什么、先确认什么；避免空话和公文式套话",
                 "只能改写 facts 中已经出现的信息，不新增条件、日期、金额、网址或部门",
                 "每个自然段末尾至少标一个事实编号，例如 [F1]；PARTIAL 必须明确仍不能确认什么",
                 "只能使用 [F1] 这类事实编号，不要输出 [PARTIAL]、[SUPPORTED] 等状态标签",

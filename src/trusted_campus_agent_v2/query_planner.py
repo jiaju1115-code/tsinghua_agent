@@ -13,19 +13,19 @@ DEFAULT_ALIASES = ROOT / "configs" / "trusted_campus_agent_v2" / "campus_aliases
 SCENARIO_TERMS: dict[str, tuple[str, ...]] = {
     "教务": ("选课", "课程", "成绩", "学分", "学籍", "转系", "转专业", "辅修", "双学位", "考试", "免修"),
     "学生事务": ("奖学金", "助学金", "资助", "处分", "社团", "户口", "证明", "学生事务"),
-    "校园生活": ("宿舍", "住宿", "食堂", "餐饮", "校车", "交通", "医院", "医疗", "网络", "图书馆", "体育"),
+    "校园生活": ("宿舍", "住宿", "食堂", "餐饮", "校车", "交通", "医院", "医疗", "网络", "图书馆", "体育", "校园卡", "一卡通", "校园码"),
     "科研实践": ("科研", "基金", "项目", "实验室", "创新", "实践", "竞赛", "申报"),
     "国际交流": ("交换", "留学", "国际", "签证", "出国", "境外", "联合培养"),
     "就业": ("就业", "求职", "招聘", "三方", "派遣", "档案", "职业", "实习"),
-    "新生": ("新生", "入学", "报到", "迎新", "军训", "校园卡", "入校"),
+    "新生": ("新生", "入学", "报到", "迎新", "军训", "入校"),
     "毕业": ("毕业", "离校", "学位", "毕业证", "成绩单", "校友", "答辩"),
 }
 
 COMPLEX_MARKERS = (
     "怎么办", "如何办理", "申请流程", "需要什么材料", "哪些材料", "截止", "条件是什么",
-    "分别", "比较", "冲突", "最新规定", "是否还", "先后", "同时", "以及", "并且",
+    "分别", "比较", "冲突", "最新规定", "是否还", "先后", "同时", "以及", "并且", "补办", "挂失",
 )
-PROCEDURE_MARKERS = ("办理", "申请", "转系", "转专业", "交换", "奖学金", "助学金", "报到", "毕业", "离校")
+PROCEDURE_MARKERS = ("办理", "申请", "转系", "转专业", "交换", "奖学金", "助学金", "报到", "毕业", "离校", "补办", "挂失", "校园卡")
 
 
 @dataclass(frozen=True)
@@ -77,7 +77,7 @@ class CampusQueryPlanner:
         clauses = [part.strip(" ？?，,。") for part in re.split(r"[；;]|以及|并且|同时|另外", query)]
         return [part for part in clauses if len(part) >= 3]
 
-    def plan(self, query: str) -> QueryPlan:
+    def plan(self, query: str, path_override: str | None = None) -> QueryPlan:
         if not isinstance(query, str) or not query.strip():
             raise ValueError("query must be a non-empty string")
         query = re.sub(r"\s+", " ", query.strip())
@@ -99,7 +99,12 @@ class CampusQueryPlanner:
         if wants_action and any(marker in query for marker in ("如何", "怎么", "流程", "材料", "条件", "截止", "申请", "办理")):
             reasons.append("actionable_procedure")
 
-        path = "FULL" if reasons else "FAST"
+        requested_path = path_override.upper() if path_override else None
+        if requested_path not in {None, "FAST", "FULL"}:
+            raise ValueError("path_override must be FAST, FULL, or None")
+        path = requested_path or ("FULL" if reasons else "FAST")
+        if requested_path:
+            reasons.append(f"user_selected_{requested_path.lower()}")
         clauses = self._split_explicit_clauses(query) if path == "FULL" else [rewritten]
         if path == "FULL" and wants_action and len(clauses) == 1:
             subject = canonical[0] if canonical else query
@@ -112,7 +117,7 @@ class CampusQueryPlanner:
         topics = self._topics(query)
         filters: dict[str, Any] = {
             "topics": topics,
-            "current_only": any(term in query for term in ("现在", "目前", "最新", "今年", "还有效")),
+            "current_only": any(term in query for term in ("现在", "目前", "最新", "今年", "还有效", "截止", "截止日期")),
         }
         audience = []
         for marker, value in (("本科", "本科生"), ("研究生", "研究生"), ("博士", "博士生"), ("国际学生", "国际学生"), ("新生", "新生"), ("毕业生", "毕业生")):

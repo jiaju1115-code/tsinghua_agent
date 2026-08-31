@@ -79,12 +79,12 @@ function Clarification({ response, onChoose }) {
   if (!questions.length && !guidance.length) return null
   return <section className="clarify-card">
     {questions.length ? <><div className="section-kicker">NEED TO KNOW</div><h3>补充这些信息，我能继续帮你查</h3><div className="question-list">{questions.map((item, index) => <button key={item} onClick={() => onChoose(item)}><span>{index + 1}</span>{item}</button>)}</div></> : null}
-    {guidance.length ? <div className="guidance"><h4>也可以先这样找</h4>{guidance.map((item, index) => item.url ? <a key={`${item.label}-${index}`} href={item.url} target="_blank" rel="noreferrer"><strong>{item.label}</strong><span>{item.how}</span></a> : <div key={`${item.label}-${index}`}><strong>{item.label}</strong><span>{item.how}</span></div>)}</div> : null}
+    {guidance.length ? <div className="guidance"><h4>官方查找渠道</h4>{guidance.map((item, index) => item.url ? <a key={`${item.label}-${index}`} href={item.url} target="_blank" rel="noreferrer"><strong>{item.label}</strong><span>{item.how}</span></a> : <div key={`${item.label}-${index}`}><strong>{item.label}</strong><span>{item.how}</span></div>)}</div> : null}
   </section>
 }
 
-function Answer({ result, loading, onClarify, onFeedback }) {
-  if (loading) return <div className="answer loading"><span/><span/><span/><p>正在理解问题、检索证据并核验时效性…</p></div>
+function Answer({ result, loading, mode, onClarify, onFeedback }) {
+  if (loading) return <div className="answer loading"><span/><span/><span/><p>{mode === 'full' ? '正在拆解问题、深度检索并核验证据…' : '正在快速检索可信来源…'}</p></div>
   const response = result?.response
   if (!response) return null
   return <div className="answer">
@@ -107,6 +107,7 @@ function App() {
   const [error, setError] = useState('')
   const [sessionId, setSessionId] = useState(() => localStorage.getItem('tsingask:v2:session') || '')
   const [tasks, setTasks] = useState([])
+  const [mode, setMode] = useState(() => localStorage.getItem('tsingask:v2:retrieval-mode') || 'full')
   const fileRef = useRef(null)
   const textRef = useRef(null)
 
@@ -137,7 +138,7 @@ function App() {
     if (!query || loading) return
     setLoading(true); setError('')
     try {
-      const response = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: query, upload_ids: upload ? [upload.file_id] : [], session_id: sessionId || null }) })
+      const response = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: query, upload_ids: upload ? [upload.file_id] : [], session_id: sessionId || null, retrieval_mode: mode }) })
       const data = await response.json()
       if (!response.ok) throw new Error(data.detail || '智能体暂时不可用')
       setResult(data); setMessage(''); setTasks(current => data.workspace?.tasks || current)
@@ -183,15 +184,20 @@ function App() {
       <div className="content-grid">
         <section className="conversation">
           <div className="user-query"><div className="avatar">你</div><p>{result?.query || '清问可以帮我做什么？'}</p></div>
-          <Answer result={result} loading={loading} onClarify={startClarification} onFeedback={feedback}/>
+          <Answer result={result} loading={loading} mode={mode} onClarify={startClarification} onFeedback={feedback}/>
           {error ? <div className="error-box">{error}</div> : null}
           <div className="composer-wrap">
             {upload ? <div className="upload-chip"><Icon name="file" size={15}/><span>{upload.filename}</span><button onClick={() => setUpload(null)}>×</button></div> : null}
             <form className="composer" onSubmit={submit}>
+              <div className="mode-switch" role="group" aria-label="检索模式">
+                <button type="button" aria-pressed={mode === 'fast'} className={mode === 'fast' ? 'active' : ''} onClick={() => { setMode('fast'); localStorage.setItem('tsingask:v2:retrieval-mode', 'fast') }}><strong>Fast</strong><span>快速回答</span></button>
+                <button type="button" aria-pressed={mode === 'full'} className={mode === 'full' ? 'active' : ''} onClick={() => { setMode('full'); localStorage.setItem('tsingask:v2:retrieval-mode', 'full') }}><strong>Full</strong><span>深度检索</span></button>
+                <small>{mode === 'full' ? '拆分问题 · Dense + BM25 · 本地模型组织回答' : '关键词检索 · 不调用完整生成 · 响应更快'}</small>
+              </div>
               <textarea ref={textRef} value={message} onChange={e => setMessage(e.target.value)} placeholder="问校园事务，或让我生成 / 修改文件…" rows="2" onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); submit() } }}/>
               <div className="composer-actions"><input ref={fileRef} type="file" accept=".docx,.xlsx,.pptx,.pdf" hidden onChange={pickFile}/><button type="button" className="attach" onClick={() => fileRef.current?.click()}><Icon name="paperclip"/><span>上传文件</span></button><button className="send" type="submit" disabled={!message.trim() || loading}><Icon name="send" size={17}/></button></div>
             </form>
-            <p className="disclaimer">证据不足时会继续追问并给出官方查找方向；重要事项仍请点击来源复核。</p>
+            <p className="disclaimer">你可以自行选择 Fast 或 Full；两种模式都会给出信息门户、官网或官方公众号的核验方向。</p>
           </div>
         </section>
         <SourcePanel result={result} coverage={coverage} tasks={tasks} sessionId={sessionId} onTaskUpdate={updateTask}/>
