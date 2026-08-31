@@ -35,7 +35,7 @@ TsingAsk V2 将普通校园 RAG 升级为“理解问题 → 检索证据 → �
 
 ## 安装与启动
 
-环境建议：Windows 10/11、PowerShell、Python 3.11。首次安装需要联网下载 Python 依赖和本地模型；模型与运行时缓存不会提交到 Git。
+环境建议：Windows 10/11、PowerShell、Python 3.12（3.11 也支持）。Python 3.13 有当前依赖的 wheel，但不是主要验证环境；安装器会输出逐组件导入诊断。首次安装需要联网下载 Python 依赖和本地模型；模型与运行时缓存不会提交到 Git。
 
 在仓库根目录执行：
 
@@ -57,6 +57,9 @@ powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -GpuBackend 
 
 # NVIDIA CUDA 12.4 预编译依赖
 powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -GpuBackend cu124
+
+# 将已有的异常环境明确重建为 Python 3.12
+powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -RecreateVenv -PythonVersion 3.12 -GpuBackend auto
 ```
 
 常用运行变量：

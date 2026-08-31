@@ -13,9 +13,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -File apps\tsingask_v2\start.ps1
 
 浏览器打开 `http://127.0.0.1:8765`。首次安装默认下载官方 Qwen3-4B Q4_K_M（约 2.5 GB），校验大小和 SHA256；如只想先复用本机已校验的 Qwen2.5-1.5B，可给安装脚本加 `-SkipModel`。
 
+推荐使用 Python 3.12（3.11 也支持）。当前 PyTorch 与 llama-cpp-python 已提供可用于 Python 3.13 的 wheel，但 3.13 不是本项目的主要验证环境；安装器会显示虚拟环境版本，并分别诊断 `torch` 与 `llama_cpp` 的 DLL/import 错误。
+
 输入框上方可直接选择检索方式：`Fast / 快速回答` 只做轻量检索，适合术语解释和简单事实；`Full / 深度检索` 会拆解问题并启用 Dense + BM25 与完整证据核验，适合条件、材料、流程、截止时间和多条件比较。选择会保存在本机浏览器中。调用 `POST /api/chat` 时也可传 `retrieval_mode: "fast" | "full" | "auto"`。
 
 安装脚本默认使用 `-GpuBackend auto`：检测到 NVIDIA 显卡时安装 CUDA 版 PyTorch 与 llama.cpp，并把 Qwen3 的全部层卸载到 GPU；Apple Silicon 使用 Metal，其余机器安全回退到 CPU。AMD/Intel 独显部署可显式选择 `-GpuBackend vulkan`（需要本机 CMake/C++ 与 Vulkan SDK），AMD ROCm 可选择 `hipblas`。运行时可用 `TSINGASK_FORCE_CPU=1` 强制 CPU，或用 `TSINGASK_GPU_LAYERS=20` 限制显存占用；默认 `auto` 等价于 GPU 后端可用时 `-1`（全部层）。多卡可用 `TSINGASK_TENSOR_SPLIT=0.6,0.4` 指定显存比例。`GET /api/health` 会返回实际加速模式。
+
+`auto` 模式会选择匹配的 PyTorch/llama.cpp CUDA wheel，并同时确认 PyTorch 看得见 CUDA 设备、llama.cpp 支持 GPU offload。包即使安装成功，只要导入失败或 GPU 实际不可用，也会打印具体组件和 DLL 错误，再重新安装 CPU wheel 后继续。显式指定 `cu124` 等后端时则保留失败状态，避免把“要求 GPU”静默伪装成 CPU。
 
 示例：
 
@@ -25,7 +29,12 @@ powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -GpuBackend 
 
 # CUDA 12.4 预编译轮子
 powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -GpuBackend cu124
+
+# 已存在的 Python 3.13 虚拟环境出现 DLL/import 问题时，明确重建为 Python 3.12
+powershell -ExecutionPolicy Bypass -File apps\tsingask_v2\setup.ps1 -RecreateVenv -PythonVersion 3.12 -GpuBackend auto
 ```
+
+`-RecreateVenv` 只删除并重建 `apps/tsingask_v2/.venv`，不会删除模型、知识库、上传文件或源代码。未指定 Python 版本且需要新建环境时，安装器会依次优先使用 Python 3.12、3.11，最后才使用环境中的 `python`。
 
 ## 已接通的核心能力
 
